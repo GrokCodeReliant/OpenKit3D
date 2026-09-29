@@ -1,0 +1,10 @@
+{
+    "name": "OpenKit3D.Runtime",
+    "rootNamespace": "OpenKit",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "autoReferenced": true,
+    "noEngineReferences": false
+}

@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1098756618146606314
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 83c434eb2b745f748877603b189759bb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c434eb2b745f748877603b189759bb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c434eb2b745f748877603b189759bb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c434eb2b745f748877603b189759bb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c434eb2b745f748877603b189759bb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c434eb2b745f748877603b189759bb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c434eb2b745f748877603b189759bb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c434eb2b745f748877603b189759bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c434eb2b745f748877603b189759bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c434eb2b745f748877603b189759bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 83c434eb2b745f748877603b189759bb, type: 3}
+      propertyPath: m_Name
+      value: monster-giant-rat
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 83c434eb2b745f748877603b189759bb, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 571f87e114e27fe44970012414d3a8be, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 83c434eb2b745f748877603b189759bb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2878800695415370927}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 83c434eb2b745f748877603b189759bb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4175150294914303750}
+  m_SourcePrefab: {fileID: 100100000, guid: 83c434eb2b745f748877603b189759bb, type: 3}
+--- !u!1 &287940669789557179 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 83c434eb2b745f748877603b189759bb, type: 3}
+  m_PrefabInstance: {fileID: 1098756618146606314}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2878800695415370927
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287940669789557179}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.34737155, y: 0.42317042, z: 1.38844}
+  m_Center: {x: 0.050054815, y: 0.18103339, z: -0.03480131}
+--- !u!114 &4175150294914303750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287940669789557179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d115a5fa90f9fd498836ed18da6f35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OpenKit3D.Runtime::OpenKit.ThemeAdaptive
+  sizeClass: 1
+  scalesWithRoom: 1
+  snapsToRoomGrid: 0
+  baseScale: {x: 1, y: 1, z: 1}
+  profileOverride: {fileID: 0}
+  primaryColor:
+    enabled: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  secondaryColor:
+    enabled: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  tertiaryColor:
+    enabled: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  emissiveScale: 0.6
+  emissiveLights: []
+  lightBaseRange: []
+  lightBaseIntensity: []
+  slotMap:
+  - renderer: {fileID: 8840209492861913190}
+    slots: 00000000010000000200000004000000
+    neutral:
+    - {fileID: 2100000, guid: f4ca29ba78137ef41b443fe34e62f271, type: 2}
+    - {fileID: 2100000, guid: 3a7a069b15c579145b302d1619326bc8, type: 2}
+    - {fileID: 2100000, guid: f0996b8dc4fe0654fa4c7d4499574a8d, type: 2}
+    - {fileID: 2100000, guid: af87f6068101c1b468d4e715523cc961, type: 2}
+--- !u!137 &8840209492861913190 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -751772517522283380, guid: 83c434eb2b745f748877603b189759bb, type: 3}
+  m_PrefabInstance: {fileID: 1098756618146606314}
+  m_PrefabAsset: {fileID: 0}

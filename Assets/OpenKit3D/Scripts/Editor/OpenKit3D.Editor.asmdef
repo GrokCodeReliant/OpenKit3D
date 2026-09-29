@@ -1,0 +1,14 @@
+{
+    "name": "OpenKit3D.Editor",
+    "rootNamespace": "OpenKit.Editor",
+    "references": [
+        "OpenKit3D.Runtime",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime"
+    ],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "autoReferenced": true,
+    "noEngineReferences": false
+}

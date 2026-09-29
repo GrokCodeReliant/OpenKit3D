@@ -1,0 +1,4 @@
+{
+  "_doc": "Room-adapt rule (David, 2026-09-28): every Open Kit 3D asset must scale with the room size class (halfling 0.75 / human 1.0 / giant 2.0) and re-theme, and expose 3 working user colour slots (Primary, Secondary, Tertiary). Read by Blender/scripts/build_asset.py and Assets/OpenKit3D/Scripts/Editor/Build.cs. Any entry here must name the asset, the rule it is excused from ('room_scale' or 'color_slots') and a reason. Keep this list empty unless there is no compliant option.",
+  "exceptions": []
+}
