@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6583072400609774967
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 06edf1c1d555ebf46a5dd03548980237, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06edf1c1d555ebf46a5dd03548980237, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06edf1c1d555ebf46a5dd03548980237, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06edf1c1d555ebf46a5dd03548980237, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06edf1c1d555ebf46a5dd03548980237, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06edf1c1d555ebf46a5dd03548980237, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06edf1c1d555ebf46a5dd03548980237, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06edf1c1d555ebf46a5dd03548980237, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06edf1c1d555ebf46a5dd03548980237, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 06edf1c1d555ebf46a5dd03548980237, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 06edf1c1d555ebf46a5dd03548980237, type: 3}
+      propertyPath: m_Name
+      value: prop-mast-broken
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 06edf1c1d555ebf46a5dd03548980237, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1645112658315216096}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 06edf1c1d555ebf46a5dd03548980237, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3929652691127799816}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 06edf1c1d555ebf46a5dd03548980237, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 887039069317235119}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 06edf1c1d555ebf46a5dd03548980237, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5015573707280466683}
+  m_SourcePrefab: {fileID: 100100000, guid: 06edf1c1d555ebf46a5dd03548980237, type: 3}
+--- !u!23 &5519813188711125491 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 06edf1c1d555ebf46a5dd03548980237, type: 3}
+  m_PrefabInstance: {fileID: 6583072400609774967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6312547672331595814 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 06edf1c1d555ebf46a5dd03548980237, type: 3}
+  m_PrefabInstance: {fileID: 6583072400609774967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1645112658315216096
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6312547672331595814}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.7, y: 0.42, z: 0.48}
+  m_Center: {x: 0, y: 0.18, z: 0}
+--- !u!65 &3929652691127799816
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6312547672331595814}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.18, y: 0.2, z: 1.4}
+  m_Center: {x: -1.55, y: 0.2, z: -0.02}
+--- !u!114 &887039069317235119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6312547672331595814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c3a9e1b4d8f4a6e9b2c0d5f1a7e3b48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OpenKitDungeon.Runtime::OpenKitDungeon.OccluderFade
+--- !u!114 &5015573707280466683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6312547672331595814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d115a5fa90f9fd498836ed18da6f35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OpenKit3D.Runtime::OpenKit.ThemeAdaptive
+  sizeClass: 4
+  scalesWithRoom: 1
+  snapsToRoomGrid: 0
+  baseScale: {x: 1, y: 1, z: 1}
+  profileOverride: {fileID: 0}
+  primaryColor:
+    enabled: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  secondaryColor:
+    enabled: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  tertiaryColor:
+    enabled: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  emissiveScale: 1
+  emissiveLights: []
+  lightBaseRange: []
+  lightBaseIntensity: []
+  slotMap:
+  - renderer: {fileID: 5519813188711125491}
+    slots: 000000000100000003000000
+    neutral:
+    - {fileID: 2100000, guid: 229e57118aea55c4a8163900589c63dd, type: 2}
+    - {fileID: 2100000, guid: 52a57440206ecf64da2483d9c5d36c28, type: 2}
+    - {fileID: 2100000, guid: c4dc021f1ebde4d41b506f80c519b994, type: 2}

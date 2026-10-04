@@ -66,6 +66,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 54fc80c8c716664478ac869f7f0da61d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2239782267973473182}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 54fc80c8c716664478ac869f7f0da61d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 695619539978033842}
   m_SourcePrefab: {fileID: 100100000, guid: 54fc80c8c716664478ac869f7f0da61d, type: 3}
 --- !u!1 &177001557113126232 stripped
 GameObject:
@@ -130,6 +133,18 @@ MonoBehaviour:
     - {fileID: 2100000, guid: f4ca29ba78137ef41b443fe34e62f271, type: 2}
     - {fileID: 2100000, guid: 3a7a069b15c579145b302d1619326bc8, type: 2}
     - {fileID: 2100000, guid: f0996b8dc4fe0654fa4c7d4499574a8d, type: 2}
+--- !u!114 &695619539978033842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177001557113126232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c3a9e1b4d8f4a6e9b2c0d5f1a7e3b48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OpenKitDungeon.Runtime::OpenKitDungeon.OccluderFade
 --- !u!23 &1834136622250368141 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 54fc80c8c716664478ac869f7f0da61d, type: 3}

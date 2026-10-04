@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a11c0e01000000000000000000000001, type: 3}
+  m_Name: CoverageTable
+  m_EditorClassIdentifier: Assembly-CSharp::OpenKitDungeon.CoverageTable
+  entries:
+  - pattern: ARM_L_B01_*_HEAD
+    covers: 0
+  - pattern: ARM_L_B01_*_SHLD
+    covers: 2
+  - pattern: ARM_L_B01_*_CHST
+    covers: 4
+  - pattern: ARM_L_B01_*_HAND
+    covers: 8
+  - pattern: ARM_L_B01_*_LEGS
+    covers: 16
+  - pattern: ARM_L_B01_*_FEET
+    covers: 32

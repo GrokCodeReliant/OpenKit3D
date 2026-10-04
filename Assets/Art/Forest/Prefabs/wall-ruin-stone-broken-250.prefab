@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7756459703288344097
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 13eaf3abec0a0fa4ebc47f37b897bdbe, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 13eaf3abec0a0fa4ebc47f37b897bdbe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 13eaf3abec0a0fa4ebc47f37b897bdbe, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 13eaf3abec0a0fa4ebc47f37b897bdbe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 13eaf3abec0a0fa4ebc47f37b897bdbe, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 13eaf3abec0a0fa4ebc47f37b897bdbe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 13eaf3abec0a0fa4ebc47f37b897bdbe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 13eaf3abec0a0fa4ebc47f37b897bdbe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 13eaf3abec0a0fa4ebc47f37b897bdbe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 13eaf3abec0a0fa4ebc47f37b897bdbe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 13eaf3abec0a0fa4ebc47f37b897bdbe, type: 3}
+      propertyPath: m_Name
+      value: wall-ruin-stone-broken-250
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 13eaf3abec0a0fa4ebc47f37b897bdbe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3670417755032943020}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 13eaf3abec0a0fa4ebc47f37b897bdbe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2282330003282583127}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 13eaf3abec0a0fa4ebc47f37b897bdbe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2056526044603280099}
+  m_SourcePrefab: {fileID: 100100000, guid: 13eaf3abec0a0fa4ebc47f37b897bdbe, type: 3}
+--- !u!1 &7450381846693483376 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 13eaf3abec0a0fa4ebc47f37b897bdbe, type: 3}
+  m_PrefabInstance: {fileID: 7756459703288344097}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &3670417755032943020
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7450381846693483376}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5890056467369481569, guid: 13eaf3abec0a0fa4ebc47f37b897bdbe, type: 3}
+--- !u!114 &2282330003282583127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7450381846693483376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c3a9e1b4d8f4a6e9b2c0d5f1a7e3b48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OpenKitDungeon.Runtime::OpenKitDungeon.OccluderFade
+--- !u!114 &2056526044603280099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7450381846693483376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d115a5fa90f9fd498836ed18da6f35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OpenKit3D.Runtime::OpenKit.ThemeAdaptive
+  sizeClass: 2
+  scalesWithRoom: 1
+  snapsToRoomGrid: 1
+  baseScale: {x: 1, y: 1, z: 1}
+  profileOverride: {fileID: 0}
+  primaryColor:
+    enabled: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  secondaryColor:
+    enabled: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  tertiaryColor:
+    enabled: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  emissiveScale: 1
+  emissiveLights: []
+  lightBaseRange: []
+  lightBaseIntensity: []
+  slotMap:
+  - renderer: {fileID: 8963833008129880741}
+    slots: 010000000000000002000000
+    neutral:
+    - {fileID: 2100000, guid: 3c0dfc40c3b7f2141918e408cdcec167, type: 2}
+    - {fileID: 2100000, guid: 6805eecc0c69f1040a6e21c837fa692b, type: 2}
+    - {fileID: 2100000, guid: 47dbad80a7fb7da45a3d75f363f60db9, type: 2}
+--- !u!23 &8963833008129880741 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 13eaf3abec0a0fa4ebc47f37b897bdbe, type: 3}
+  m_PrefabInstance: {fileID: 7756459703288344097}
+  m_PrefabAsset: {fileID: 0}

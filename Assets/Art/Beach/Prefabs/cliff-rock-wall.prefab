@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &869229434316910752
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6783ddb2c90fadc4093665307f748a2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6783ddb2c90fadc4093665307f748a2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6783ddb2c90fadc4093665307f748a2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6783ddb2c90fadc4093665307f748a2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6783ddb2c90fadc4093665307f748a2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6783ddb2c90fadc4093665307f748a2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6783ddb2c90fadc4093665307f748a2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6783ddb2c90fadc4093665307f748a2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6783ddb2c90fadc4093665307f748a2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6783ddb2c90fadc4093665307f748a2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6783ddb2c90fadc4093665307f748a2d, type: 3}
+      propertyPath: m_Name
+      value: cliff-rock-wall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6783ddb2c90fadc4093665307f748a2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 935586440941820328}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6783ddb2c90fadc4093665307f748a2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3911778250473589203}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6783ddb2c90fadc4093665307f748a2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 368257083051218747}
+  m_SourcePrefab: {fileID: 100100000, guid: 6783ddb2c90fadc4093665307f748a2d, type: 3}
+--- !u!1 &58958292898598385 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6783ddb2c90fadc4093665307f748a2d, type: 3}
+  m_PrefabInstance: {fileID: 869229434316910752}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &935586440941820328
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58958292898598385}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 6, z: 1.5}
+  m_Center: {x: 0, y: 3, z: 0}
+--- !u!114 &3911778250473589203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58958292898598385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c3a9e1b4d8f4a6e9b2c0d5f1a7e3b48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OpenKitDungeon.Runtime::OpenKitDungeon.OccluderFade
+--- !u!114 &368257083051218747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58958292898598385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d115a5fa90f9fd498836ed18da6f35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OpenKit3D.Runtime::OpenKit.ThemeAdaptive
+  sizeClass: 3
+  scalesWithRoom: 1
+  snapsToRoomGrid: 1
+  baseScale: {x: 1, y: 1, z: 1}
+  profileOverride: {fileID: 0}
+  primaryColor:
+    enabled: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  secondaryColor:
+    enabled: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  tertiaryColor:
+    enabled: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  emissiveScale: 1
+  emissiveLights: []
+  lightBaseRange: []
+  lightBaseIntensity: []
+  slotMap:
+  - renderer: {fileID: 2004535254335319076}
+    slots: 000000000100000002000000
+    neutral:
+    - {fileID: 2100000, guid: debd870d351dfab43bf76de28644cf02, type: 2}
+    - {fileID: 2100000, guid: be460273785e1d3499fd61c3afffd490, type: 2}
+    - {fileID: 2100000, guid: 462a63482a3ed584d8e114e3a50c349e, type: 2}
+--- !u!23 &2004535254335319076 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 6783ddb2c90fadc4093665307f748a2d, type: 3}
+  m_PrefabInstance: {fileID: 869229434316910752}
+  m_PrefabAsset: {fileID: 0}

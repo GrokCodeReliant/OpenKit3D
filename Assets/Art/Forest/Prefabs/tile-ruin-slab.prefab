@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3725211204065854892
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d19d26c5d24dbdf4692cb7deb2f47d9d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d19d26c5d24dbdf4692cb7deb2f47d9d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d19d26c5d24dbdf4692cb7deb2f47d9d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d19d26c5d24dbdf4692cb7deb2f47d9d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d19d26c5d24dbdf4692cb7deb2f47d9d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d19d26c5d24dbdf4692cb7deb2f47d9d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d19d26c5d24dbdf4692cb7deb2f47d9d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d19d26c5d24dbdf4692cb7deb2f47d9d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d19d26c5d24dbdf4692cb7deb2f47d9d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d19d26c5d24dbdf4692cb7deb2f47d9d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d19d26c5d24dbdf4692cb7deb2f47d9d, type: 3}
+      propertyPath: m_Name
+      value: tile-ruin-slab
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d19d26c5d24dbdf4692cb7deb2f47d9d, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d19d26c5d24dbdf4692cb7deb2f47d9d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3121939746871782771}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d19d26c5d24dbdf4692cb7deb2f47d9d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 427767423772254270}
+  m_SourcePrefab: {fileID: 100100000, guid: d19d26c5d24dbdf4692cb7deb2f47d9d, type: 3}
+--- !u!23 &2626458932100733224 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: d19d26c5d24dbdf4692cb7deb2f47d9d, type: 3}
+  m_PrefabInstance: {fileID: 3725211204065854892}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4572264178045925629 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d19d26c5d24dbdf4692cb7deb2f47d9d, type: 3}
+  m_PrefabInstance: {fileID: 3725211204065854892}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3121939746871782771
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4572264178045925629}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.5, y: 0.12, z: 1.5}
+  m_Center: {x: 0, y: -0.06, z: 0}
+--- !u!114 &427767423772254270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4572264178045925629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d115a5fa90f9fd498836ed18da6f35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: OpenKit3D.Runtime::OpenKit.ThemeAdaptive
+  sizeClass: 2
+  scalesWithRoom: 1
+  snapsToRoomGrid: 1
+  baseScale: {x: 1, y: 1, z: 1}
+  profileOverride: {fileID: 0}
+  primaryColor:
+    enabled: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  secondaryColor:
+    enabled: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  tertiaryColor:
+    enabled: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  emissiveScale: 1
+  emissiveLights: []
+  lightBaseRange: []
+  lightBaseIntensity: []
+  slotMap:
+  - renderer: {fileID: 2626458932100733224}
+    slots: 010000000000000002000000
+    neutral:
+    - {fileID: 2100000, guid: 3c0dfc40c3b7f2141918e408cdcec167, type: 2}
+    - {fileID: 2100000, guid: 6805eecc0c69f1040a6e21c837fa692b, type: 2}
+    - {fileID: 2100000, guid: 47dbad80a7fb7da45a3d75f363f60db9, type: 2}

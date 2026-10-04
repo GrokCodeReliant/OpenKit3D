@@ -28,9 +28,9 @@ namespace OpenKit
         }
 
         public SizeClass sizeClass = SizeClass.Small;
-        [Tooltip("Scale with the room size class (required by the room-adapt rule; only an entry in roomadapt_exceptions.json may turn it off)")]
+        [Tooltip("Scale with the room size class.")]
         public bool scalesWithRoom = true;
-        [Tooltip("Structural piece: snaps to the room grid (cell = 1.5 m x room scale) in the scene builders")]
+        [Tooltip("Structural piece: snaps to the room grid (cell = 1.5 m x room scale)")]
         public bool snapsToRoomGrid;
         [Tooltip("Size-class base scale (1 = authored size)")]
         public Vector3 baseScale = Vector3.one;
