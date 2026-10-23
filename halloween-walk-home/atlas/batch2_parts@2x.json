@@ -1,0 +1,1063 @@
+{
+ "frames": {
+  "car_cartoon_berry": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 298,
+    "h": 170
+   },
+   "sourceSize": {
+    "w": 298,
+    "h": 170
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/car_cartoon_berry.svg"
+  },
+  "car_cartoon_teal": {
+   "frame": {
+    "x": 298,
+    "y": 0,
+    "w": 298,
+    "h": 170
+   },
+   "sourceSize": {
+    "w": 298,
+    "h": 170
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/car_cartoon_teal.svg"
+  },
+  "costume_bee_antennae": {
+   "frame": {
+    "x": 596,
+    "y": 0,
+    "w": 74,
+    "h": 42
+   },
+   "sourceSize": {
+    "w": 74,
+    "h": 42
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/costume_bee_antennae.svg"
+  },
+  "costume_bee_torso": {
+   "frame": {
+    "x": 670,
+    "y": 0,
+    "w": 122,
+    "h": 102
+   },
+   "sourceSize": {
+    "w": 122,
+    "h": 102
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/costume_bee_torso.svg"
+  },
+  "costume_cat_ears": {
+   "frame": {
+    "x": 792,
+    "y": 0,
+    "w": 66,
+    "h": 46
+   },
+   "sourceSize": {
+    "w": 66,
+    "h": 46
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/costume_cat_ears.svg"
+  },
+  "costume_cat_torso": {
+   "frame": {
+    "x": 858,
+    "y": 0,
+    "w": 102,
+    "h": 102
+   },
+   "sourceSize": {
+    "w": 102,
+    "h": 102
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/costume_cat_torso.svg"
+  },
+  "costume_pumpkin_torso": {
+   "frame": {
+    "x": 960,
+    "y": 0,
+    "w": 106,
+    "h": 98
+   },
+   "sourceSize": {
+    "w": 106,
+    "h": 98
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/costume_pumpkin_torso.svg"
+  },
+  "costume_robot_antenna": {
+   "frame": {
+    "x": 1066,
+    "y": 0,
+    "w": 26,
+    "h": 46
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 46
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/costume_robot_antenna.svg"
+  },
+  "costume_robot_torso": {
+   "frame": {
+    "x": 1092,
+    "y": 0,
+    "w": 78,
+    "h": 98
+   },
+   "sourceSize": {
+    "w": 78,
+    "h": 98
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/costume_robot_torso.svg"
+  },
+  "costume_sheet_torso": {
+   "frame": {
+    "x": 1170,
+    "y": 0,
+    "w": 90,
+    "h": 114
+   },
+   "sourceSize": {
+    "w": 90,
+    "h": 114
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/costume_sheet_torso.svg"
+  },
+  "deco_bat_garland": {
+   "frame": {
+    "x": 1260,
+    "y": 0,
+    "w": 122,
+    "h": 122
+   },
+   "sourceSize": {
+    "w": 122,
+    "h": 122
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/deco_bat_garland.svg"
+  },
+  "deco_candy_bowl": {
+   "frame": {
+    "x": 1382,
+    "y": 0,
+    "w": 122,
+    "h": 122
+   },
+   "sourceSize": {
+    "w": 122,
+    "h": 122
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/deco_candy_bowl.svg"
+  },
+  "deco_paper_lantern": {
+   "frame": {
+    "x": 1504,
+    "y": 0,
+    "w": 122,
+    "h": 122
+   },
+   "sourceSize": {
+    "w": 122,
+    "h": 122
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/deco_paper_lantern.svg"
+  },
+  "deco_scarecrow_mini": {
+   "frame": {
+    "x": 1626,
+    "y": 0,
+    "w": 122,
+    "h": 122
+   },
+   "sourceSize": {
+    "w": 122,
+    "h": 122
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/deco_scarecrow_mini.svg"
+  },
+  "deco_spider_toy": {
+   "frame": {
+    "x": 1748,
+    "y": 0,
+    "w": 122,
+    "h": 122
+   },
+   "sourceSize": {
+    "w": 122,
+    "h": 122
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/deco_spider_toy.svg"
+  },
+  "deco_wreath": {
+   "frame": {
+    "x": 1870,
+    "y": 0,
+    "w": 122,
+    "h": 122
+   },
+   "sourceSize": {
+    "w": 122,
+    "h": 122
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/deco_wreath.svg"
+  },
+  "dog_bark_1": {
+   "frame": {
+    "x": 0,
+    "y": 170,
+    "w": 230,
+    "h": 146
+   },
+   "sourceSize": {
+    "w": 230,
+    "h": 146
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/dog_bark_1.svg"
+  },
+  "dog_bark_2": {
+   "frame": {
+    "x": 230,
+    "y": 170,
+    "w": 230,
+    "h": 146
+   },
+   "sourceSize": {
+    "w": 230,
+    "h": 146
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/dog_bark_2.svg"
+  },
+  "dog_bark_3": {
+   "frame": {
+    "x": 460,
+    "y": 170,
+    "w": 230,
+    "h": 146
+   },
+   "sourceSize": {
+    "w": 230,
+    "h": 146
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/dog_bark_3.svg"
+  },
+  "dog_sit": {
+   "frame": {
+    "x": 690,
+    "y": 170,
+    "w": 122,
+    "h": 126
+   },
+   "sourceSize": {
+    "w": 122,
+    "h": 126
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/dog_sit.svg"
+  },
+  "fx_bee_puff": {
+   "frame": {
+    "x": 812,
+    "y": 170,
+    "w": 122,
+    "h": 102
+   },
+   "sourceSize": {
+    "w": 122,
+    "h": 102
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/fx_bee_puff.svg"
+  },
+  "fx_curse_flicker": {
+   "frame": {
+    "x": 934,
+    "y": 170,
+    "w": 134,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 134,
+    "h": 130
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/fx_curse_flicker.svg"
+  },
+  "fx_ghost_poof": {
+   "frame": {
+    "x": 1068,
+    "y": 170,
+    "w": 146,
+    "h": 146
+   },
+   "sourceSize": {
+    "w": 146,
+    "h": 146
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/fx_ghost_poof.svg"
+  },
+  "fx_pet_heart": {
+   "frame": {
+    "x": 1214,
+    "y": 170,
+    "w": 146,
+    "h": 106
+   },
+   "sourceSize": {
+    "w": 146,
+    "h": 106
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/fx_pet_heart.svg"
+  },
+  "fx_success_sparkle": {
+   "frame": {
+    "x": 1360,
+    "y": 170,
+    "w": 162,
+    "h": 138
+   },
+   "sourceSize": {
+    "w": 162,
+    "h": 138
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/fx_success_sparkle.svg"
+  },
+  "ghost_kid_full": {
+   "frame": {
+    "x": 1522,
+    "y": 170,
+    "w": 146,
+    "h": 178
+   },
+   "sourceSize": {
+    "w": 146,
+    "h": 178
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ghost_kid_full.svg"
+  },
+  "ghost_kid_grin": {
+   "frame": {
+    "x": 1668,
+    "y": 170,
+    "w": 114,
+    "h": 182
+   },
+   "sourceSize": {
+    "w": 114,
+    "h": 182
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ghost_kid_grin.svg"
+  },
+  "ghost_little_2": {
+   "frame": {
+    "x": 1782,
+    "y": 170,
+    "w": 90,
+    "h": 110
+   },
+   "sourceSize": {
+    "w": 90,
+    "h": 110
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ghost_little_2.svg"
+  },
+  "jack_carved_unlit": {
+   "frame": {
+    "x": 1872,
+    "y": 170,
+    "w": 130,
+    "h": 134
+   },
+   "sourceSize": {
+    "w": 130,
+    "h": 134
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/jack_carved_unlit.svg"
+  },
+  "kitten_sit": {
+   "frame": {
+    "x": 0,
+    "y": 352,
+    "w": 102,
+    "h": 86
+   },
+   "sourceSize": {
+    "w": 102,
+    "h": 86
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/kitten_sit.svg"
+  },
+  "kitten_walk": {
+   "frame": {
+    "x": 102,
+    "y": 352,
+    "w": 102,
+    "h": 86
+   },
+   "sourceSize": {
+    "w": 102,
+    "h": 86
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/kitten_walk.svg"
+  },
+  "moon_full": {
+   "frame": {
+    "x": 204,
+    "y": 352,
+    "w": 330,
+    "h": 330
+   },
+   "sourceSize": {
+    "w": 330,
+    "h": 330
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/moon_full.svg"
+  },
+  "npc_dog_owner_hair": {
+   "frame": {
+    "x": 534,
+    "y": 352,
+    "w": 82,
+    "h": 66
+   },
+   "sourceSize": {
+    "w": 82,
+    "h": 66
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/npc_dog_owner_hair.svg"
+  },
+  "npc_dog_owner_handover": {
+   "frame": {
+    "x": 616,
+    "y": 352,
+    "w": 162,
+    "h": 210
+   },
+   "sourceSize": {
+    "w": 162,
+    "h": 210
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/npc_dog_owner_handover.svg"
+  },
+  "npc_dog_owner_hold_cake": {
+   "frame": {
+    "x": 778,
+    "y": 352,
+    "w": 146,
+    "h": 210
+   },
+   "sourceSize": {
+    "w": 146,
+    "h": 210
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/npc_dog_owner_hold_cake.svg"
+  },
+  "npc_dog_owner_torso": {
+   "frame": {
+    "x": 924,
+    "y": 352,
+    "w": 82,
+    "h": 102
+   },
+   "sourceSize": {
+    "w": 82,
+    "h": 102
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/npc_dog_owner_torso.svg"
+  },
+  "party_guest_torso_1": {
+   "frame": {
+    "x": 1006,
+    "y": 352,
+    "w": 82,
+    "h": 102
+   },
+   "sourceSize": {
+    "w": 82,
+    "h": 102
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/party_guest_torso_1.svg"
+  },
+  "party_guest_torso_2": {
+   "frame": {
+    "x": 1088,
+    "y": 352,
+    "w": 82,
+    "h": 102
+   },
+   "sourceSize": {
+    "w": 82,
+    "h": 102
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/party_guest_torso_2.svg"
+  },
+  "party_guest_torso_3": {
+   "frame": {
+    "x": 1170,
+    "y": 352,
+    "w": 82,
+    "h": 102
+   },
+   "sourceSize": {
+    "w": 82,
+    "h": 102
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/party_guest_torso_3.svg"
+  },
+  "party_guest_torso_4": {
+   "frame": {
+    "x": 1252,
+    "y": 352,
+    "w": 82,
+    "h": 102
+   },
+   "sourceSize": {
+    "w": 82,
+    "h": 102
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/party_guest_torso_4.svg"
+  },
+  "tot_candy_handout_target": {
+   "frame": {
+    "x": 1334,
+    "y": 352,
+    "w": 106,
+    "h": 106
+   },
+   "sourceSize": {
+    "w": 106,
+    "h": 106
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/tot_candy_handout_target.svg"
+  },
+  "tot_group_waiting": {
+   "frame": {
+    "x": 1440,
+    "y": 352,
+    "w": 178,
+    "h": 154
+   },
+   "sourceSize": {
+    "w": 178,
+    "h": 154
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/tot_group_waiting.svg"
+  },
+  "tot_lost_kid_happy": {
+   "frame": {
+    "x": 1618,
+    "y": 352,
+    "w": 90,
+    "h": 162
+   },
+   "sourceSize": {
+    "w": 90,
+    "h": 162
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/tot_lost_kid_happy.svg"
+  },
+  "tot_lost_kid_sad": {
+   "frame": {
+    "x": 1708,
+    "y": 352,
+    "w": 74,
+    "h": 162
+   },
+   "sourceSize": {
+    "w": 74,
+    "h": 162
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/tot_lost_kid_sad.svg"
+  },
+  "tot_reunite_hearts": {
+   "frame": {
+    "x": 1782,
+    "y": 352,
+    "w": 118,
+    "h": 90
+   },
+   "sourceSize": {
+    "w": 118,
+    "h": 90
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/tot_reunite_hearts.svg"
+  },
+  "ui_carve_chunk": {
+   "frame": {
+    "x": 1900,
+    "y": 352,
+    "w": 50,
+    "h": 58
+   },
+   "sourceSize": {
+    "w": 50,
+    "h": 58
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_carve_chunk.svg"
+  },
+  "ui_carving_scoop": {
+   "frame": {
+    "x": 1950,
+    "y": 352,
+    "w": 98,
+    "h": 122
+   },
+   "sourceSize": {
+    "w": 98,
+    "h": 122
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_carving_scoop.svg"
+  },
+  "ui_clue_card_back": {
+   "frame": {
+    "x": 0,
+    "y": 682,
+    "w": 162,
+    "h": 138
+   },
+   "sourceSize": {
+    "w": 162,
+    "h": 138
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_clue_card_back.svg"
+  },
+  "ui_clue_card_bat": {
+   "frame": {
+    "x": 162,
+    "y": 682,
+    "w": 162,
+    "h": 138
+   },
+   "sourceSize": {
+    "w": 162,
+    "h": 138
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_clue_card_bat.svg"
+  },
+  "ui_clue_card_house": {
+   "frame": {
+    "x": 324,
+    "y": 682,
+    "w": 162,
+    "h": 138
+   },
+   "sourceSize": {
+    "w": 162,
+    "h": 138
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_clue_card_house.svg"
+  },
+  "ui_clue_card_pumpkin": {
+   "frame": {
+    "x": 486,
+    "y": 682,
+    "w": 162,
+    "h": 138
+   },
+   "sourceSize": {
+    "w": 162,
+    "h": 138
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_clue_card_pumpkin.svg"
+  },
+  "ui_clue_card_witch_hat": {
+   "frame": {
+    "x": 648,
+    "y": 682,
+    "w": 162,
+    "h": 138
+   },
+   "sourceSize": {
+    "w": 162,
+    "h": 138
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_clue_card_witch_hat.svg"
+  },
+  "ui_clue_match_check": {
+   "frame": {
+    "x": 810,
+    "y": 682,
+    "w": 90,
+    "h": 90
+   },
+   "sourceSize": {
+    "w": 90,
+    "h": 90
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_clue_match_check.svg"
+  },
+  "ui_clue_pin": {
+   "frame": {
+    "x": 900,
+    "y": 682,
+    "w": 50,
+    "h": 62
+   },
+   "sourceSize": {
+    "w": 50,
+    "h": 62
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_clue_pin.svg"
+  },
+  "ui_clue_string_end": {
+   "frame": {
+    "x": 950,
+    "y": 682,
+    "w": 34,
+    "h": 34
+   },
+   "sourceSize": {
+    "w": 34,
+    "h": 34
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_clue_string_end.svg"
+  },
+  "ui_contest_ribbon": {
+   "frame": {
+    "x": 984,
+    "y": 682,
+    "w": 82,
+    "h": 118
+   },
+   "sourceSize": {
+    "w": 82,
+    "h": 118
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_contest_ribbon.svg"
+  },
+  "ui_deco_slot": {
+   "frame": {
+    "x": 1066,
+    "y": 682,
+    "w": 98,
+    "h": 98
+   },
+   "sourceSize": {
+    "w": 98,
+    "h": 98
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_deco_slot.svg"
+  },
+  "ui_deco_slot_valid": {
+   "frame": {
+    "x": 1164,
+    "y": 682,
+    "w": 98,
+    "h": 98
+   },
+   "sourceSize": {
+    "w": 98,
+    "h": 98
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_deco_slot_valid.svg"
+  },
+  "ui_drag_ghost_shadow": {
+   "frame": {
+    "x": 1262,
+    "y": 682,
+    "w": 98,
+    "h": 38
+   },
+   "sourceSize": {
+    "w": 98,
+    "h": 38
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_drag_ghost_shadow.svg"
+  },
+  "ui_hide_box": {
+   "frame": {
+    "x": 1360,
+    "y": 682,
+    "w": 130,
+    "h": 90
+   },
+   "sourceSize": {
+    "w": 130,
+    "h": 90
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_hide_box.svg"
+  },
+  "ui_hide_bush": {
+   "frame": {
+    "x": 1490,
+    "y": 682,
+    "w": 146,
+    "h": 110
+   },
+   "sourceSize": {
+    "w": 146,
+    "h": 110
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_hide_bush.svg"
+  },
+  "ui_hide_bush_peek": {
+   "frame": {
+    "x": 1636,
+    "y": 682,
+    "w": 146,
+    "h": 178
+   },
+   "sourceSize": {
+    "w": 146,
+    "h": 178
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_hide_bush_peek.svg"
+  },
+  "ui_hide_trash_can": {
+   "frame": {
+    "x": 1782,
+    "y": 682,
+    "w": 94,
+    "h": 94
+   },
+   "sourceSize": {
+    "w": 94,
+    "h": 94
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_hide_trash_can.svg"
+  },
+  "ui_judge_meter": {
+   "frame": {
+    "x": 0,
+    "y": 860,
+    "w": 266,
+    "h": 110
+   },
+   "sourceSize": {
+    "w": 266,
+    "h": 110
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_judge_meter.svg"
+  },
+  "ui_paw_print": {
+   "frame": {
+    "x": 266,
+    "y": 860,
+    "w": 50,
+    "h": 50
+   },
+   "sourceSize": {
+    "w": 50,
+    "h": 50
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_paw_print.svg"
+  },
+  "ui_paw_print_found": {
+   "frame": {
+    "x": 316,
+    "y": 860,
+    "w": 66,
+    "h": 66
+   },
+   "sourceSize": {
+    "w": 66,
+    "h": 66
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_paw_print_found.svg"
+  },
+  "ui_pet_hand_hint": {
+   "frame": {
+    "x": 382,
+    "y": 860,
+    "w": 90,
+    "h": 102
+   },
+   "sourceSize": {
+    "w": 90,
+    "h": 102
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_pet_hand_hint.svg"
+  },
+  "ui_trace_dot": {
+   "frame": {
+    "x": 472,
+    "y": 860,
+    "w": 66,
+    "h": 66
+   },
+   "sourceSize": {
+    "w": 66,
+    "h": 66
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_trace_dot.svg"
+  },
+  "ui_trace_dot_done": {
+   "frame": {
+    "x": 538,
+    "y": 860,
+    "w": 66,
+    "h": 66
+   },
+   "sourceSize": {
+    "w": 66,
+    "h": 66
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_trace_dot_done.svg"
+  },
+  "ui_trace_end": {
+   "frame": {
+    "x": 604,
+    "y": 860,
+    "w": 74,
+    "h": 74
+   },
+   "sourceSize": {
+    "w": 74,
+    "h": 74
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_trace_end.svg"
+  },
+  "ui_trace_start": {
+   "frame": {
+    "x": 678,
+    "y": 860,
+    "w": 74,
+    "h": 74
+   },
+   "sourceSize": {
+    "w": 74,
+    "h": 74
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/ui_trace_start.svg"
+  },
+  "walk_signal_wait": {
+   "frame": {
+    "x": 752,
+    "y": 860,
+    "w": 90,
+    "h": 182
+   },
+   "sourceSize": {
+    "w": 90,
+    "h": 182
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/walk_signal_wait.svg"
+  },
+  "walk_signal_walk": {
+   "frame": {
+    "x": 842,
+    "y": 860,
+    "w": 90,
+    "h": 182
+   },
+   "sourceSize": {
+    "w": 90,
+    "h": 182
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/walk_signal_walk.svg"
+  },
+  "witch_silhouette": {
+   "frame": {
+    "x": 932,
+    "y": 860,
+    "w": 302,
+    "h": 130
+   },
+   "sourceSize": {
+    "w": 302,
+    "h": 130
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/witch_silhouette.svg"
+  },
+  "zombie_bg_2": {
+   "frame": {
+    "x": 1234,
+    "y": 860,
+    "w": 142,
+    "h": 232
+   },
+   "sourceSize": {
+    "w": 142,
+    "h": 232
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/zombie_bg_2.svg"
+  }
+ },
+ "meta": {
+  "image": "batch2_parts@2x.png",
+  "size": {
+   "w": 2048,
+   "h": 1092
+  },
+  "scale": 2,
+  "license": "CC0, all original"
+ }
+}

@@ -1,0 +1,39 @@
+/* Halloween Walk Home palette for the Open Kit art pack (CC0, original). Copied from the game UI tokens; build.py reads this file. */
+:root{
+  /* palette */
+  --hw-pumpkin:#F28C28;      /* primary action, CTA fills */
+  --hw-pumpkin-dark:#B85A0E; /* pressed / outline accent */
+  --hw-purple:#3B2557;       /* night background, panels */
+  --hw-purple-mid:#563A7D;   /* cards, bag cells */
+  --hw-purple-light:#7A5BAE; /* borders on dark, empty-slot dots */
+  --hw-teal:#5FC9C3;         /* moon, valid / selected, info */
+  --hw-teal-dark:#1E7A75;    /* valid outline */
+  --hw-candle:#FFD36B;       /* highlights, points, checked */
+  --hw-cream:#FFF4DF;        /* main text on dark, light card bg */
+  --hw-ink:#241A2E;          /* outlines, text on light/orange */
+  --hw-berry:#FF6B8A;        /* invalid / critical (friendly, not blood red) */
+  --hw-berry-dark:#A3213F;
+  /* type: system stacks only */
+  --hw-font-display:"Trebuchet MS","Avenir Next Rounded","Arial Rounded MT Bold",system-ui,sans-serif;
+  --hw-font-body:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --hw-fs-display:32px; --hw-lh-display:38px;
+  --hw-fs-h1:24px; --hw-lh-h1:30px;
+  --hw-fs-h2:20px; --hw-lh-h2:26px;
+  --hw-fs-body:17px; --hw-lh-body:24px;
+  --hw-fs-label:15px; --hw-lh-label:20px;
+  --hw-fs-caption:13px; --hw-lh-caption:18px; /* min size; use bold */
+  /* shape */
+  --hw-outline:3px; --hw-outline-thick:3px;
+  --hw-radius-s:8px; --hw-radius-m:14px; --hw-radius-l:22px;
+  --hw-shadow:0 4px 0 var(--hw-ink);
+  --hw-space-1:4px; --hw-space-2:8px; --hw-space-3:12px; --hw-space-4:16px; --hw-space-5:24px;
+  /* sizing */
+  --hw-tap-min:44px; --hw-btn-h:52px; --hw-rotate-d:64px; --hw-cell:48px; --hw-cell-gap:4px; --hw-cell-pitch:52px; --hw-item-inset:4px;
+  --hw-screen-w:390px; --hw-screen-h:844px;
+}
+:root{
+  --hw-night:#1B1530;        /* world layer tint behind everything */
+  --hw-outline-detail:2px;   /* small icon details */
+  --hw-shadow-drag:0 10px 14px rgba(27,21,48,.55); /* UI-side lift while dragging; sprites have none */
+  --hw-cell-bg:#2E1C47; --hw-cell-border:#7A5BAE;
+}

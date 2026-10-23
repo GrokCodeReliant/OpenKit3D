@@ -1,0 +1,251 @@
+{
+ "frames": {
+  "tile_crosswalk": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 210,
+    "h": 210
+   },
+   "sourceSize": {
+    "w": 210,
+    "h": 210
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/tile_crosswalk.svg"
+  },
+  "tile_driveway": {
+   "frame": {
+    "x": 210,
+    "y": 0,
+    "w": 210,
+    "h": 210
+   },
+   "sourceSize": {
+    "w": 210,
+    "h": 210
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/tile_driveway.svg"
+  },
+  "tile_fence": {
+   "frame": {
+    "x": 420,
+    "y": 0,
+    "w": 210,
+    "h": 210
+   },
+   "sourceSize": {
+    "w": 210,
+    "h": 210
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/tile_fence.svg"
+  },
+  "tile_hedge": {
+   "frame": {
+    "x": 630,
+    "y": 0,
+    "w": 210,
+    "h": 210
+   },
+   "sourceSize": {
+    "w": 210,
+    "h": 210
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/tile_hedge.svg"
+  },
+  "tile_lawn": {
+   "frame": {
+    "x": 840,
+    "y": 0,
+    "w": 210,
+    "h": 210
+   },
+   "sourceSize": {
+    "w": 210,
+    "h": 210
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/tile_lawn.svg"
+  },
+  "tile_mailbox": {
+   "frame": {
+    "x": 1050,
+    "y": 0,
+    "w": 210,
+    "h": 210
+   },
+   "sourceSize": {
+    "w": 210,
+    "h": 210
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/tile_mailbox.svg"
+  },
+  "tile_porch_A": {
+   "frame": {
+    "x": 1260,
+    "y": 0,
+    "w": 418,
+    "h": 418
+   },
+   "sourceSize": {
+    "w": 418,
+    "h": 418
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/tile_porch_A.svg"
+  },
+  "tile_porch_B": {
+   "frame": {
+    "x": 0,
+    "y": 418,
+    "w": 418,
+    "h": 418
+   },
+   "sourceSize": {
+    "w": 418,
+    "h": 418
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/tile_porch_B.svg"
+  },
+  "tile_porch_C": {
+   "frame": {
+    "x": 418,
+    "y": 418,
+    "w": 418,
+    "h": 418
+   },
+   "sourceSize": {
+    "w": 418,
+    "h": 418
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/tile_porch_C.svg"
+  },
+  "tile_road_lane": {
+   "frame": {
+    "x": 836,
+    "y": 418,
+    "w": 210,
+    "h": 210
+   },
+   "sourceSize": {
+    "w": 210,
+    "h": 210
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/tile_road_lane.svg"
+  },
+  "tile_sidewalk_T": {
+   "frame": {
+    "x": 1046,
+    "y": 418,
+    "w": 210,
+    "h": 210
+   },
+   "sourceSize": {
+    "w": 210,
+    "h": 210
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/tile_sidewalk_T.svg"
+  },
+  "tile_sidewalk_corner": {
+   "frame": {
+    "x": 1256,
+    "y": 418,
+    "w": 210,
+    "h": 210
+   },
+   "sourceSize": {
+    "w": 210,
+    "h": 210
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/tile_sidewalk_corner.svg"
+  },
+  "tile_sidewalk_straight": {
+   "frame": {
+    "x": 1466,
+    "y": 418,
+    "w": 210,
+    "h": 210
+   },
+   "sourceSize": {
+    "w": 210,
+    "h": 210
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/tile_sidewalk_straight.svg"
+  },
+  "tile_streetlight": {
+   "frame": {
+    "x": 1676,
+    "y": 418,
+    "w": 210,
+    "h": 210
+   },
+   "sourceSize": {
+    "w": 210,
+    "h": 210
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/tile_streetlight.svg"
+  },
+  "tile_tree": {
+   "frame": {
+    "x": 0,
+    "y": 836,
+    "w": 210,
+    "h": 210
+   },
+   "sourceSize": {
+    "w": 210,
+    "h": 210
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/tile_tree.svg"
+  },
+  "witch_moon": {
+   "frame": {
+    "x": 210,
+    "y": 836,
+    "w": 330,
+    "h": 330
+   },
+   "sourceSize": {
+    "w": 330,
+    "h": 330
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/witch_moon.svg"
+  },
+  "zombie_bg": {
+   "frame": {
+    "x": 540,
+    "y": 836,
+    "w": 142,
+    "h": 232
+   },
+   "sourceSize": {
+    "w": 142,
+    "h": 232
+   },
+   "scale": 2,
+   "svg": "styleframe/parts/zombie_bg.svg"
+  }
+ },
+ "meta": {
+  "image": "batch1b_parts@2x.png",
+  "size": {
+   "w": 2048,
+   "h": 1166
+  },
+  "scale": 2,
+  "license": "CC0, all original"
+ }
+}

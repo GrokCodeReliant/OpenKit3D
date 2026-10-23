@@ -1,0 +1,72 @@
+{
+ "pieces": {
+  "hw3d_pumpkin": {
+   "file": "hw3d_pumpkin.glb",
+   "tris": 1304,
+   "colour_slots": [
+    "pumpkin",
+    "candle",
+    "stem"
+   ],
+   "size_m": [
+    0.381,
+    0.381,
+    0.366
+   ],
+   "collider": "cyl",
+   "origin": "base centre, +Z up (glTF +Y up)"
+  },
+  "hw3d_lantern": {
+   "file": "hw3d_lantern.glb",
+   "tris": 112,
+   "colour_slots": [
+    "ink",
+    "candle",
+    "purple"
+   ],
+   "size_m": [
+    0.184,
+    0.184,
+    0.41
+   ],
+   "collider": "box",
+   "origin": "base centre, +Z up (glTF +Y up)"
+  },
+  "hw3d_gravestone": {
+   "file": "hw3d_gravestone.glb",
+   "tris": 144,
+   "colour_slots": [
+    "stone",
+    "grass",
+    "ink"
+   ],
+   "size_m": [
+    0.609,
+    0.384,
+    0.755
+   ],
+   "collider": "box",
+   "origin": "base centre, +Z up (glTF +Y up)"
+  },
+  "hw3d_scarecrow": {
+   "file": "hw3d_scarecrow.glb",
+   "tris": 240,
+   "colour_slots": [
+    "wood",
+    "straw",
+    "cloth"
+   ],
+   "size_m": [
+    1.06,
+    0.48,
+    1.87
+   ],
+   "collider": "box",
+   "origin": "base centre, +Z up (glTF +Y up)"
+  }
+ },
+ "units": "metres",
+ "tri_cap": 1500,
+ "max_colour_slots": 3,
+ "license": "CC0, all original"
+}
