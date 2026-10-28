@@ -1,0 +1,96 @@
+{
+  "pack": "openkit-hoop-cooper-extras-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "All 4 names absent from existing prop-*.fbx under studio art tree; no prop-hoop-driver*/prop-hoop-iron* existed. Distinct from prop-hoop-stack, prop-flesh-hoop-blank, prop-embroidery-hoop, prop-adze-cooper, bung pack, prop-link-rivet-punch-ch1, prop-hinge-nail-punch-hm2.",
+  "judgment_calls": [
+    "Iron blank is an open arc segment, not a closed ring.",
+    "Rivet set kept as one tapered hex frustum (20 tris) to hit <=28 tri target.",
+    "Textures are flat BaseColor PNGs shipped in tex/ only; FBX carries material slots, no image nodes."
+  ],
+  "assets": [
+    {
+      "name": "prop-hoop-driver-hc1",
+      "file": "fbx/prop-hoop-driver-hc1.fbx",
+      "tris": 24,
+      "dims_xyz_m": [
+        0.06,
+        0.032,
+        0.22
+      ],
+      "bbox_min": [
+        -0.03,
+        -0.016,
+        0.0
+      ],
+      "materials": [
+        "M_Wood",
+        "M_Iron"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Cooper's hoop driver: square ash handle (36x24x160 mm) on a tapered iron wedge foot narrowing to a blunt 60x8 mm lip at z=0; struck on top to seat a hoop. 2 materials."
+    },
+    {
+      "name": "prop-hoop-iron-blank-hc1",
+      "file": "fbx/prop-hoop-iron-blank-hc1.fbx",
+      "tris": 28,
+      "dims_xyz_m": [
+        0.283,
+        0.0362,
+        0.04
+      ],
+      "bbox_min": [
+        -0.1415,
+        -0.0181,
+        0.0
+      ],
+      "materials": [
+        "M_Iron_Rust"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Unclosed iron hoop blank: 60-degree arc segment (3 facets) of 40 mm wide x 3 mm thick band at 280 mm inner radius, standing on edge; open ends, not a ring."
+    },
+    {
+      "name": "prop-hoop-stretch-lever-hc1",
+      "file": "fbx/prop-hoop-stretch-lever-hc1.fbx",
+      "tris": 24,
+      "dims_xyz_m": [
+        0.59,
+        0.04,
+        0.06
+      ],
+      "bbox_min": [
+        -0.295,
+        -0.02,
+        0.0
+      ],
+      "materials": [
+        "M_Oak"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Hoop-stretch lever blank: oak bar lying along X, tapering 40x35 mm to 28x25 mm over 550 mm, with a 40 mm upturned square hook toe (60 mm tall) to catch and open a hoop."
+    },
+    {
+      "name": "prop-hoop-rivet-set-hc1",
+      "file": "fbx/prop-hoop-rivet-set-hc1.fbx",
+      "tris": 20,
+      "dims_xyz_m": [
+        0.022,
+        0.0191,
+        0.11
+      ],
+      "bbox_min": [
+        -0.011,
+        -0.0095,
+        0.0
+      ],
+      "materials": [
+        "M_Iron"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Hoop-end rivet set: single tapered hexagonal iron punch, 10 mm across tip at z=0 widening to 22 mm struck head at 110 mm."
+    }
+  ]
+}
