@@ -1,0 +1,103 @@
+{
+  "pack": "openkit-saw-set-maker-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 unit = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": {
+    "method": "find studio/art -name 'prop-*.fbx' basenames (725 unique) + rg -i 'saw-set|saw_set|prop-saw|tooth-file'",
+    "hits": [
+      "prop-sawhorse.fbx (unrelated)"
+    ],
+    "result": "all 4 names free"
+  },
+  "judgment_calls": [
+    "Pliers modelled lying flat as boxes: jaws and handles overlap the pivot boss so no parts float.",
+    "Gauge has two notches (12-vert concave outline) -> 44 tris, soft overrun of the preferred 32; hard max respected.",
+    "Tooth file is a tapered triangular prism plus flat tang, distinct from ward-file-kb1 / file-flat-ls1.",
+    "BaseColor PNGs shipped in tex/ but not linked in materials; materials carry matching base colours."
+  ],
+  "assets": [
+    {
+      "name": "prop-saw-set-pliers-ss2",
+      "file": "fbx/prop-saw-set-pliers-ss2.fbx",
+      "tris": 60,
+      "dims_xyz_m": [
+        0.038,
+        0.19,
+        0.018
+      ],
+      "bbox_min": [
+        -0.019,
+        -0.095,
+        0.0
+      ],
+      "materials": [
+        "ok_steel",
+        "ok_wood_handle"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Plier-style saw-set tool lying flat: steel pivot boss with two short steel jaws forward and two wooden handle bars behind, all overlapping the boss."
+    },
+    {
+      "name": "prop-saw-set-anvil-ss2",
+      "file": "fbx/prop-saw-set-anvil-ss2.fbx",
+      "tris": 24,
+      "dims_xyz_m": [
+        0.08,
+        0.06,
+        0.062
+      ],
+      "bbox_min": [
+        -0.04,
+        -0.03,
+        0.0
+      ],
+      "materials": [
+        "ok_iron_dark"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Small dark-iron setting block: rectangular body with a wider, narrower-deep cap plate on top as the tooth-setting face."
+    },
+    {
+      "name": "prop-saw-set-gauge-ss2",
+      "file": "fbx/prop-saw-set-gauge-ss2.fbx",
+      "tris": 44,
+      "dims_xyz_m": [
+        0.12,
+        0.05,
+        0.003
+      ],
+      "bbox_min": [
+        -0.06,
+        -0.025,
+        0.0
+      ],
+      "materials": [
+        "ok_steel"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Flat 3 mm steel gauge plate with two rectangular notches (8 mm and 12 mm deep) cut into one long edge for tooth set depth."
+    },
+    {
+      "name": "prop-saw-tooth-file-ss2",
+      "file": "fbx/prop-saw-tooth-file-ss2.fbx",
+      "tris": 20,
+      "dims_xyz_m": [
+        0.01,
+        0.201,
+        0.0087
+      ],
+      "bbox_min": [
+        -0.005,
+        -0.1005,
+        0.0
+      ],
+      "materials": [
+        "ok_steel"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Tapered triangular-section steel file blank (10 mm to 6 mm across) with a flat rectangular tang at the root."
+    }
+  ]
+}
