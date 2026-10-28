@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **164** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **166** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -99,6 +99,7 @@ The `packs/` folder contains **164** CC0-licensed medieval prop packs. Each pack
 | `openkit-joiner-props-b1` | Joiner workshop props |
 | `openkit-kitchen-props-b1` | Kitchen furniture and utensils |
 | `openkit-lacemaker-props-b1` | Lacemaker workshop props |
+| `openkit-lace-bobbin-extras-b1` | Lace bobbin extras |
 | `openkit-lastmaker-props-b1` | Last-maker workshop props |
 | `openkit-laundry-props-b1` | Laundry and washhouse props |
 | `openkit-library-props-b1` | Library furniture and books |
@@ -142,6 +143,7 @@ The `packs/` folder contains **164** CC0-licensed medieval prop packs. Each pack
 | `openkit-shop-wall-b1` | Shop wall decorations |
 | `openkit-sign-post-b1` | Signs and posts |
 | `openkit-sieve-maker-props-b1` | Sieve-maker workshop props |
+| `openkit-sieve-mender-props-b1` | Sieve-mender workshop props |
 | `openkit-silversmith-props-b1` | Silversmith workshop props |
 | `openkit-smithy-tools-b1` | Blacksmith tools |
 | `openkit-soapstone-carver-props-b1` | Soapstone-carver workshop props |

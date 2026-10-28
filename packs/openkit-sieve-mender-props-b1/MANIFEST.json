@@ -1,0 +1,113 @@
+{
+ "pack": "openkit-sieve-mender-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres (1 BU = 1 m)",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": "All 4 names absent from existing prop-*.fbx under studio art tree; -sm1 suffixes kept.",
+ "judgment_calls": [
+  "Peg is 34 tris (over 24 preference) for hex shaft + 6-tri point; under hard max.",
+  "Staple legs open-ended (driven into wood) to hit 24 tris.",
+  "Needle lies flat, curved hooked tip and blunt flat eye end; distinct from straight net-needle and punch-awl.",
+  "Contact sheet rendered Workbench studio light, rebuilt once (v1 dark lighting + twisted staple leg frame)."
+ ],
+ "assets": [
+  {
+   "name": "prop-sieve-patch-square",
+   "file": "fbx/prop-sieve-patch-square.fbx",
+   "tris": 60,
+   "dims_xyz_m": [
+    0.126,
+    0.126,
+    0.006
+   ],
+   "bbox_min": [
+    -0.063,
+    -0.063,
+    0.0
+   ],
+   "materials": [
+    "mat_horsehair_mesh",
+    "mat_rim_cord"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Square horsehair mesh patch (12 cm) with stitched rim cord, for covering a sieve tear."
+  },
+  {
+   "name": "prop-rim-staple-sm1",
+   "file": "fbx/prop-rim-staple-sm1.fbx",
+   "tris": 24,
+   "dims_xyz_m": [
+    0.02812,
+    0.00312,
+    0.02121
+   ],
+   "bbox_min": [
+    -0.01406,
+    -0.00156,
+    0.0
+   ],
+   "materials": [
+    "mat_wrought_iron"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Small wrought-iron U-staple for pinning mesh to a sieve rim; open-ended legs."
+  },
+  {
+   "name": "prop-mesh-stretch-peg-sm1",
+   "file": "fbx/prop-mesh-stretch-peg-sm1.fbx",
+   "tris": 34,
+   "dims_xyz_m": [
+    0.013,
+    0.015,
+    0.075
+   ],
+   "bbox_min": [
+    -0.0065,
+    -0.0075,
+    0.0
+   ],
+   "materials": [
+    "mat_ash_wood"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Short hex ash peg, flat head, pointed tip, used to hold mesh taut while stretching."
+  },
+  {
+   "name": "prop-mending-needle-sm1",
+   "file": "fbx/prop-mending-needle-sm1.fbx",
+   "tris": 30,
+   "dims_xyz_m": [
+    0.11,
+    0.0176,
+    0.0032
+   ],
+   "bbox_min": [
+    -0.055,
+    -0.0088,
+    0.0
+   ],
+   "materials": [
+    "mat_needle_steel"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "11 cm steel mending needle lying flat, curved hooked tip and blunt flat-ended eye; for sewing mesh repairs."
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-mending-needle-sm1.fbx",
+  "fbx/prop-mesh-stretch-peg-sm1.fbx",
+  "fbx/prop-rim-staple-sm1.fbx",
+  "fbx/prop-sieve-patch-square.fbx",
+  "tex/mat_ash_wood_BaseColor.png",
+  "tex/mat_horsehair_mesh_BaseColor.png",
+  "tex/mat_needle_steel_BaseColor.png",
+  "tex/mat_rim_cord_BaseColor.png",
+  "tex/mat_wrought_iron_BaseColor.png"
+ ]
+}
