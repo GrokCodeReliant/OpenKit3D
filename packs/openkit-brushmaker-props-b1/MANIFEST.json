@@ -1,0 +1,117 @@
+{
+ "pack": "openkit-brushmaker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-binding-wire-coil": "prop-setting-pitch-pot (swapped: broom-maker already has prop-binding-wire-spool)"
+ },
+ "collision_check": "No brushmaker/painter/bellfounder/matmaker/lastmaker packs existed. No bristle/ferrule in any openkit-*/fbx. broom-maker has prop-broom-handle-blank, prop-birch-twig-bundle, prop-binding-wire-spool; -brm1 suffixes kept; binding wire replaced by setting-pitch pot to avoid clone.",
+ "judgment_calls": [
+  "Paint-brush scale (12-26 cm) vs broom scale",
+  "Wire coil swapped for pitch pot",
+  "Eye-check v1 passed"
+ ],
+ "assets": [
+  {
+   "name": "prop-bristle-bundle",
+   "tris": 132,
+   "dims_xyz_m": [
+    0.12,
+    0.06,
+    0.12
+   ],
+   "bbox_min": [
+    -0.06,
+    -0.03,
+    0.0
+   ],
+   "materials": [
+    "M_Bristle_Hog",
+    "M_Twine_Waxed",
+    "M_Wood_Oak"
+   ],
+   "height_m": 0.12,
+   "pivot": "bottom_centre (0,0,0); three twine-tied hog/boar bristle knots standing on a small oak sorting board, sized for paint brushes (not broom twigs)"
+  },
+  {
+   "name": "prop-ferrule-blank-brm1",
+   "tris": 156,
+   "dims_xyz_m": [
+    0.16,
+    0.1,
+    0.047
+   ],
+   "bbox_min": [
+    -0.08,
+    -0.05,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Tin",
+    "M_Brass"
+   ],
+   "height_m": 0.047,
+   "pivot": "bottom_centre (0,0,0); low oak tray with six graded tin and brass brush ferrule blanks (slightly tapered tubes)"
+  },
+  {
+   "name": "prop-handle-blank-brm1",
+   "tris": 132,
+   "dims_xyz_m": [
+    0.26,
+    0.09,
+    0.017
+   ],
+   "bbox_min": [
+    -0.13,
+    -0.045,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Beech",
+    "M_Canvas_Duck"
+   ],
+   "height_m": 0.018,
+   "pivot": "laid / bottom_centre (0,0,0); three short turned beech paint-brush handle blanks (22/19/16 cm) with tenon ends, laid on a canvas cloth; not broomsticks"
+  },
+  {
+   "name": "prop-setting-pitch-pot",
+   "tris": 128,
+   "dims_xyz_m": [
+    0.15,
+    0.15,
+    0.185
+   ],
+   "bbox_min": [
+    -0.075,
+    -0.075,
+    0.0
+   ],
+   "materials": [
+    "M_Iron_Forged",
+    "M_Tar_Dark",
+    "M_Wood_Oak",
+    "M_Clay_Fired"
+   ],
+   "height_m": 0.17,
+   "pivot": "bottom_centre (0,0,0); small iron pot of brushmaker setting pitch on a fired tile, with a stirring/setting stick, used to cement bristle knots into ferrules"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-bristle-bundle.fbx",
+  "fbx/prop-ferrule-blank-brm1.fbx",
+  "fbx/prop-handle-blank-brm1.fbx",
+  "fbx/prop-setting-pitch-pot.fbx",
+  "tex/T_Bristle_Hog_BaseColor.png",
+  "tex/T_Iron_Forged_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ]
+}
