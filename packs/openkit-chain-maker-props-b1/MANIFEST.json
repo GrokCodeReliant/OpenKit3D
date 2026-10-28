@@ -1,0 +1,103 @@
+{
+  "pack": "openkit-chain-maker-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 unit = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy, src/build.py)",
+  "renames": [],
+  "collision_check": "All 4 names checked against existing prop-*.fbx in the art tree before export; none taken. Distinct from prop-chain-hanging (this segment lies flat, 3 links, last open) and prop-punch-link-die (this is a single hand punch, no die block).",
+  "judgment_calls": [
+    "Fork tri budget met by dropping crossbar; tines overlap the handle end directly (36 tris).",
+    "Rivet punch uses 3-ring hex loft without a mushroomed head to hit 32 tris.",
+    "Chain segment rebuilt once so the open third link reads as a C (80 tris, at preferred limit).",
+    "FBX material slots only; BaseColor PNGs shipped separately in tex/."
+  ],
+  "textures": [
+    "tex/OK_IronDark_BaseColor.png",
+    "tex/OK_IronBright_BaseColor.png"
+  ],
+  "assets": [
+    {
+      "name": "prop-chain-link-blank-ch1",
+      "file": "fbx/prop-chain-link-blank-ch1.fbx",
+      "tris": 32,
+      "dims_xyz_m": [
+        0.0606,
+        0.0498,
+        0.0104
+      ],
+      "bbox_min": [
+        -0.0303,
+        -0.0249,
+        0.0
+      ],
+      "materials": [
+        "OK_IronDark"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Single open oval iron chain-link blank lying flat; 3-sided wire cross-section swept round an oval with the gap left unclosed at one end."
+    },
+    {
+      "name": "prop-link-bending-fork-ch1",
+      "file": "fbx/prop-link-bending-fork-ch1.fbx",
+      "tris": 36,
+      "dims_xyz_m": [
+        0.265,
+        0.038,
+        0.0171
+      ],
+      "bbox_min": [
+        -0.1325,
+        -0.019,
+        0.0
+      ],
+      "materials": [
+        "OK_IronDark",
+        "OK_IronBright"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Short forked iron link-bending tool lying flat: long square-section dark iron handle with two parallel bright-iron tines forming a fork at one end."
+    },
+    {
+      "name": "prop-link-rivet-punch-ch1",
+      "file": "fbx/prop-link-rivet-punch-ch1.fbx",
+      "tris": 32,
+      "dims_xyz_m": [
+        0.0191,
+        0.022,
+        0.095
+      ],
+      "bbox_min": [
+        -0.0095,
+        -0.011,
+        0.0
+      ],
+      "materials": [
+        "OK_IronDark",
+        "OK_IronBright"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Small upright hexagonal iron punch for peening link rivets: flat striking face on top, body tapering to a narrow bright-iron point at the base."
+    },
+    {
+      "name": "prop-chain-segment-unfinished-ch1",
+      "file": "fbx/prop-chain-segment-unfinished-ch1.fbx",
+      "tris": 80,
+      "dims_xyz_m": [
+        0.1393,
+        0.0479,
+        0.0474
+      ],
+      "bbox_min": [
+        -0.0696,
+        -0.0239,
+        0.0
+      ],
+      "materials": [
+        "OK_IronDark",
+        "OK_IronBright"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Short unfinished chain segment lying flat: one closed flat link, one closed upright link threaded through it, and a third bright-iron link left open (unclosed C) at the end."
+    }
+  ]
+}
