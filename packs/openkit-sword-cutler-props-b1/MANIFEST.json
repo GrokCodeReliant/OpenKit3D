@@ -1,0 +1,114 @@
+{
+  "pack": "openkit-sword-cutler-props-b1",
+  "license": "CC0-1.0",
+  "units": "metric, 1 unit = 1 m",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": {
+    "command": "find <studio>/art -name 'prop-*.fbx' | xargs -n1 basename | sort -u",
+    "result": "All four base names free; no -sc1 renames needed. Distinct from cutler (prop-blade-blank-cu1, prop-grindstone-small-cu1, prop-handle-scale-blank, prop-rivet-tray-cu1), scabbard (prop-chape-blank, prop-leather-wrap-blank, prop-throat-mount-blank, prop-wood-core-blank), prop-fullers-earth-sack."
+  },
+  "judgment_calls": [
+    "Pommel is an 8-sided wheel with a through tang hole = 64 tris (over 48 preference, under 120/210); kept the hole as required.",
+    "Grip core 44 tris (8-seg oval, 3 stations) slightly over 40 preference for a readable taper.",
+    "Crossguard blade slot not cut (would add tris); centre swell marks slot location for forge.",
+    "Textures are flat BaseColor PNGs shipped separately; not linked in FBX.",
+    "Contact sheet blade tile uses a higher camera angle so the fuller reads."
+  ],
+  "assets": [
+    {
+      "name": "prop-sword-blade-blank",
+      "file": "fbx/prop-sword-blade-blank.fbx",
+      "tris": 58,
+      "dims_xyz_m": [
+        0.85,
+        0.048,
+        0.006
+      ],
+      "bbox_min": [
+        -0.425,
+        -0.024,
+        0.0
+      ],
+      "materials": [
+        "M_SwordSteelBlank"
+      ],
+      "pivot": "bottom_centre (0,0,0), z-min 0",
+      "desc": "Long unsharpened steel sword blade blank, shallow fuller groove both faces, unfinished rectangular tang stub; laid along X."
+    },
+    {
+      "name": "prop-crossguard-blank",
+      "file": "fbx/prop-crossguard-blank.fbx",
+      "tris": 36,
+      "dims_xyz_m": [
+        0.21,
+        0.026,
+        0.018
+      ],
+      "bbox_min": [
+        -0.105,
+        -0.013,
+        0.0
+      ],
+      "materials": [
+        "M_GuardIronBlank"
+      ],
+      "pivot": "bottom_centre (0,0,0), z-min 0",
+      "desc": "Straight quillon/crossguard bar blank with centre swell (blade slot to be cut at forge)."
+    },
+    {
+      "name": "prop-pommel-blank",
+      "file": "fbx/prop-pommel-blank.fbx",
+      "tris": 64,
+      "dims_xyz_m": [
+        0.022,
+        0.0554,
+        0.0554
+      ],
+      "bbox_min": [
+        -0.011,
+        -0.0277,
+        0.0
+      ],
+      "materials": [
+        "M_GuardIronBlank"
+      ],
+      "pivot": "bottom_centre (0,0,0), z-min 0",
+      "desc": "Wheel pommel blank, 8-sided disc with through tang hole along X; stands on edge."
+    },
+    {
+      "name": "prop-grip-core-blank",
+      "file": "fbx/prop-grip-core-blank.fbx",
+      "tris": 44,
+      "dims_xyz_m": [
+        0.12,
+        0.03,
+        0.024
+      ],
+      "bbox_min": [
+        -0.06,
+        -0.015,
+        -0.0
+      ],
+      "materials": [
+        "M_GripWoodBlank"
+      ],
+      "pivot": "bottom_centre (0,0,0), z-min 0",
+      "desc": "Tapered oval wooden grip core blank for cord/leather wrapping, laid along X."
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-crossguard-blank.fbx",
+    "fbx/prop-grip-core-blank.fbx",
+    "fbx/prop-pommel-blank.fbx",
+    "fbx/prop-sword-blade-blank.fbx",
+    "tex/tex-gripwoodblank_basecolor.png",
+    "tex/tex-guardironblank_basecolor.png",
+    "tex/tex-swordsteelblank_basecolor.png"
+  ]
+}
