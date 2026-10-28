@@ -1,0 +1,108 @@
+{
+ "pack": "openkit-spurrier-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres",
+ "tool": "Blender 5.2.1 procedural bpy",
+ "fbx": "materials slots only, path_mode STRIP, no textures embedded",
+ "collisions": "none; names checked against all existing prop-*.fbx (no spur/rowel names existed), no renames",
+ "assets": [
+  {
+   "name": "prop-rowel-spur",
+   "file": "fbx/prop-rowel-spur.fbx",
+   "tris": 118,
+   "dims_xyz_m": [
+    0.149,
+    0.092,
+    0.008
+   ],
+   "bbox_min": [
+    -0.075,
+    -0.046,
+    0.0
+   ],
+   "materials": [
+    "M_Iron"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "single forged iron rowel spur: U heel band with strap terminals, straight neck and six-point starred rowel wheel, laid flat"
+  },
+  {
+   "name": "prop-prick-spur",
+   "file": "fbx/prop-prick-spur.fbx",
+   "tris": 90,
+   "dims_xyz_m": [
+    0.136,
+    0.092,
+    0.01
+   ],
+   "bbox_min": [
+    -0.068,
+    -0.046,
+    0.0
+   ],
+   "materials": [
+    "M_Iron"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "early prick (goad) spur: forged iron U heel band with a collar boss and single tapered pyramidal point, no rowel, laid flat"
+  },
+  {
+   "name": "prop-spur-leather",
+   "file": "fbx/prop-spur-leather.fbx",
+   "tris": 116,
+   "dims_xyz_m": [
+    0.247,
+    0.031,
+    0.009
+   ],
+   "bbox_min": [
+    -0.124,
+    -0.016,
+    0.0
+   ],
+   "materials": [
+    "M_Leather_Strap",
+    "M_Iron",
+    "M_Leather_Dark"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "short brown spur strap laid flat: pointed tip with punched holes and an iron square buckle with tongue at the other end"
+  },
+  {
+   "name": "prop-rowel-blank",
+   "file": "fbx/prop-rowel-blank.fbx",
+   "tris": 136,
+   "dims_xyz_m": [
+    0.16,
+    0.11,
+    0.018
+   ],
+   "bbox_min": [
+    -0.08,
+    -0.055,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Pine",
+    "M_Iron"
+   ],
+   "pivot": "bottom_centre (0,0,0); tray resting flat",
+   "desc": "shallow wooden tray holding rough-cut iron rowel star blanks and a plain hex disc awaiting filing"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-prick-spur.fbx",
+  "fbx/prop-rowel-blank.fbx",
+  "fbx/prop-rowel-spur.fbx",
+  "fbx/prop-spur-leather.fbx",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Leather_Dark_BaseColor.png",
+  "tex/T_Leather_Strap_BaseColor.png",
+  "tex/T_Wood_Pine_BaseColor.png"
+ ]
+}

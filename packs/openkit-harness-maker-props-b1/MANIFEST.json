@@ -1,0 +1,109 @@
+{
+ "pack": "openkit-harness-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres",
+ "tool": "Blender 5.2.1 procedural bpy",
+ "fbx": "materials slots only, path_mode STRIP, no textures embedded",
+ "collisions": "none; names checked against all existing prop-*.fbx, no renames",
+ "assets": [
+  {
+   "name": "prop-hames-pair",
+   "file": "fbx/prop-hames-pair.fbx",
+   "tris": 208,
+   "dims_xyz_m": [
+    0.79,
+    0.265,
+    0.04
+   ],
+   "bbox_min": [
+    -0.395,
+    -0.132,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Iron"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "pair of curved wooden hames laid side by side (nested arcs) with forged iron end caps and trace-tug plates"
+  },
+  {
+   "name": "prop-horse-collar-pad",
+   "file": "fbx/prop-horse-collar-pad.fbx",
+   "tris": 144,
+   "dims_xyz_m": [
+    0.588,
+    0.095,
+    0.729
+   ],
+   "bbox_min": [
+    -0.294,
+    -0.048,
+    0.0
+   ],
+   "materials": [
+    "M_Leather_Harness",
+    "M_Iron"
+   ],
+   "pivot": "bottom_centre (0,0,0); standing upright (natural rest)",
+   "desc": "stuffed leather draught-horse collar: thick padded tall-oval ring, wider at the top, standing on its throat end"
+  },
+  {
+   "name": "prop-snaffle-bit",
+   "file": "fbx/prop-snaffle-bit.fbx",
+   "tris": 180,
+   "dims_xyz_m": [
+    0.258,
+    0.078,
+    0.012
+   ],
+   "bbox_min": [
+    -0.129,
+    -0.039,
+    0.0
+   ],
+   "materials": [
+    "M_Iron"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "forged iron jointed snaffle bit: two cannon bars with centre joint and a loose ring at each end, laid flat"
+  },
+  {
+   "name": "prop-breeching-strap-roll",
+   "file": "fbx/prop-breeching-strap-roll.fbx",
+   "tris": 164,
+   "dims_xyz_m": [
+    0.343,
+    0.184,
+    0.09
+   ],
+   "bbox_min": [
+    -0.171,
+    -0.092,
+    0.0
+   ],
+   "materials": [
+    "M_Leather_Harness",
+    "M_Leather_Edge",
+    "M_Iron"
+   ],
+   "pivot": "bottom_centre (0,0,0); roll standing on end, tail laid flat",
+   "desc": "rolled heavy black breeching/hip strap standing on end, wide tail unrolled flat ending in an iron roller buckle"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-breeching-strap-roll.fbx",
+  "fbx/prop-hames-pair.fbx",
+  "fbx/prop-horse-collar-pad.fbx",
+  "fbx/prop-snaffle-bit.fbx",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Leather_Edge_BaseColor.png",
+  "tex/T_Leather_Harness_BaseColor.png",
+  "tex/T_Wood_Ash_BaseColor.png"
+ ]
+}
