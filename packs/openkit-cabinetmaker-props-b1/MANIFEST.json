@@ -1,0 +1,114 @@
+{
+ "pack": "openkit-cabinetmaker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "pivot": "bottom_centre (0,0,0)",
+ "tool": "Blender 5.2.1 procedural bpy",
+ "fbx": "materials slots only, path_mode STRIP, no embedded textures",
+ "renames": [],
+ "collision_check": "no existing prop-*.fbx named dovetail-saw/cabinet-scraper/spokeshave/veneer-hammer in studio/art",
+ "assets": [
+  {
+   "name": "prop-dovetail-saw",
+   "file": "fbx/prop-dovetail-saw.fbx",
+   "tris": 100,
+   "dims_xyz_m": [
+    0.34,
+    0.081,
+    0.02
+   ],
+   "bbox_min": [
+    -0.17,
+    -0.041,
+    0.0
+   ],
+   "materials": [
+    "M_Wood",
+    "M_Steel",
+    "M_Brass"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "small fine-toothed dovetail backsaw: thin steel blade, folded brass back, closed wooden pistol handle"
+  },
+  {
+   "name": "prop-cabinet-scraper",
+   "file": "fbx/prop-cabinet-scraper.fbx",
+   "tris": 64,
+   "dims_xyz_m": [
+    0.2,
+    0.065,
+    0.024
+   ],
+   "bbox_min": [
+    -0.1,
+    -0.032,
+    0.0
+   ],
+   "materials": [
+    "M_Wood",
+    "M_Steel",
+    "M_Brass"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "thin rectangular steel card scraper clamped in a long wooden holder with two brass thumbscrews"
+  },
+  {
+   "name": "prop-spokeshave",
+   "file": "fbx/prop-spokeshave.fbx",
+   "tris": 104,
+   "dims_xyz_m": [
+    0.28,
+    0.03,
+    0.038
+   ],
+   "bbox_min": [
+    -0.14,
+    -0.015,
+    0.0
+   ],
+   "materials": [
+    "M_Wood",
+    "M_Steel",
+    "M_Brass"
+   ],
+   "pivot": "bottom_centre (0,0,0); stands on its sole",
+   "desc": "small two-handled spokeshave with short iron body, angled blade, brass adjusters and wooden tapered handles"
+  },
+  {
+   "name": "prop-veneer-hammer",
+   "file": "fbx/prop-veneer-hammer.fbx",
+   "tris": 64,
+   "dims_xyz_m": [
+    0.243,
+    0.11,
+    0.025
+   ],
+   "bbox_min": [
+    -0.122,
+    -0.055,
+    0.0
+   ],
+   "materials": [
+    "M_Wood",
+    "M_Steel",
+    "M_Brass"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "veneer hammer: wide wooden head with flat brass pressing edge, small steel peen, handle offset to one side"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-cabinet-scraper.fbx",
+  "fbx/prop-dovetail-saw.fbx",
+  "fbx/prop-spokeshave.fbx",
+  "fbx/prop-veneer-hammer.fbx",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Steel_BaseColor.png",
+  "tex/T_Wood_BaseColor.png"
+ ]
+}

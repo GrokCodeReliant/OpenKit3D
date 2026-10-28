@@ -1,0 +1,113 @@
+{
+ "pack": "openkit-upholsterer-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "pivot": "bottom_centre (0,0,0)",
+ "tool": "Blender 5.2.1 procedural bpy",
+ "fbx": "materials slots only, path_mode STRIP, no embedded textures",
+ "renames": [],
+ "collision_check": "no existing prop-*.fbx named webbing-stretcher/upholstery-tacks-tray/horsehair-stuffing/regulator-needle in studio/art; distinct from wool-lock-basket, fur-pelt-stack, sail-needle-set, needle-case-em1",
+ "assets": [
+  {
+   "name": "prop-webbing-stretcher",
+   "file": "fbx/prop-webbing-stretcher.fbx",
+   "tris": 66,
+   "dims_xyz_m": [
+    0.36,
+    0.13,
+    0.04
+   ],
+   "bbox_min": [
+    -0.18,
+    -0.065,
+    0.0
+   ],
+   "materials": [
+    "M_Wood",
+    "M_Steel"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "T-shaped wooden webbing stretcher: long lever with cross-head bristling with five steel gripping teeth"
+  },
+  {
+   "name": "prop-upholstery-tacks-tray",
+   "file": "fbx/prop-upholstery-tacks-tray.fbx",
+   "tris": 144,
+   "dims_xyz_m": [
+    0.16,
+    0.112,
+    0.022
+   ],
+   "bbox_min": [
+    -0.08,
+    -0.056,
+    0.0
+   ],
+   "materials": [
+    "M_Tin",
+    "M_Brass",
+    "M_Steel"
+   ],
+   "pivot": "bottom_centre (0,0,0); sits flat",
+   "desc": "shallow dark tin tray holding a scatter of brass and steel round-head upholstery tacks"
+  },
+  {
+   "name": "prop-horsehair-stuffing",
+   "file": "fbx/prop-horsehair-stuffing.fbx",
+   "tris": 120,
+   "dims_xyz_m": [
+    0.4,
+    0.293,
+    0.111
+   ],
+   "bbox_min": [
+    -0.2,
+    -0.146,
+    0.0
+   ],
+   "materials": [
+    "M_Horsehair"
+   ],
+   "pivot": "bottom_centre (0,0,0); rests on floor",
+   "desc": "loose lumpy mound of dark curled horsehair stuffing with stray hanks trailing off the pile"
+  },
+  {
+   "name": "prop-regulator-needle",
+   "file": "fbx/prop-regulator-needle.fbx",
+   "tris": 86,
+   "dims_xyz_m": [
+    0.34,
+    0.021,
+    0.024
+   ],
+   "bbox_min": [
+    -0.17,
+    -0.01,
+    0.0
+   ],
+   "materials": [
+    "M_Wood",
+    "M_Steel",
+    "M_Brass"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "long slim steel regulator needle tapering to a point, set in a turned wooden handle with brass ferrule"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-horsehair-stuffing.fbx",
+  "fbx/prop-regulator-needle.fbx",
+  "fbx/prop-upholstery-tacks-tray.fbx",
+  "fbx/prop-webbing-stretcher.fbx",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Horsehair_BaseColor.png",
+  "tex/T_Steel_BaseColor.png",
+  "tex/T_Tin_BaseColor.png",
+  "tex/T_Wood_BaseColor.png"
+ ]
+}
