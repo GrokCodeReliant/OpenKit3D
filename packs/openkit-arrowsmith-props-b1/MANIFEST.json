@@ -1,0 +1,121 @@
+{
+  "pack": "openkit-arrowsmith-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [
+    {
+      "from": "prop-arrowhead-swage",
+      "to": "prop-arrowhead-swage-as1",
+      "reason": "-as1 suffix required by brief; distinct from blacksmith prop-swage-block-small"
+    }
+  ],
+  "collision_check": {
+    "command": "find <studio>/art -name 'prop-*.fbx' | xargs -n1 basename | sort -u",
+    "result": "all 4 names free; avoided prop-bodkin-awl-bw1, prop-swage-block-small, fletcher/quiver/cutler names"
+  },
+  "judgment_calls": [
+    "Arrowheads modelled as forged-iron blanks (unsharpened) with socket stubs; no shafts/feathers (fletcher scope).",
+    "Bodkin: hex socket stub into square-section tapering point, 0.105 m.",
+    "Broadhead: flat leaf blade 3 mm thick on socket.",
+    "Pile: 6-sided socket with two-step conical tip (34 tris).",
+    "Swage: 70x50x35 mm block with half-round 7 mm groove, hex punch resting along groove top (2 materials).",
+    "Small parts overlap (socket/blade) rather than welded to keep tris low."
+  ],
+  "assets": [
+    {
+      "name": "prop-arrow-bodkin-blank",
+      "file": "fbx/prop-arrow-bodkin-blank.fbx",
+      "tris": 34,
+      "dims_xyz_m": [
+        0.009,
+        0.0078,
+        0.105
+      ],
+      "bbox_min": [
+        -0.0045,
+        -0.0039,
+        0.0
+      ],
+      "materials": [
+        "M_ForgedIron"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Slender square-section forged iron bodkin arrowhead blank with short round socket stub; unsharpened."
+    },
+    {
+      "name": "prop-broadhead-blank",
+      "file": "fbx/prop-broadhead-blank.fbx",
+      "tris": 48,
+      "dims_xyz_m": [
+        0.038,
+        0.0083,
+        0.085
+      ],
+      "bbox_min": [
+        -0.019,
+        -0.0042,
+        0.0
+      ],
+      "materials": [
+        "M_ForgedIron"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Flat leaf/triangular forged iron broadhead blank with socket stub, edges unsharpened."
+    },
+    {
+      "name": "prop-pile-head-blank",
+      "file": "fbx/prop-pile-head-blank.fbx",
+      "tris": 34,
+      "dims_xyz_m": [
+        0.009,
+        0.0078,
+        0.03
+      ],
+      "bbox_min": [
+        -0.0045,
+        -0.0039,
+        0.0
+      ],
+      "materials": [
+        "M_ForgedIron"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Short bullet/pile arrow point blank: socket cylinder with rounded conical tip."
+    },
+    {
+      "name": "prop-arrowhead-swage-as1",
+      "file": "fbx/prop-arrowhead-swage-as1.fbx",
+      "tris": 58,
+      "dims_xyz_m": [
+        0.08,
+        0.05,
+        0.0425
+      ],
+      "bbox_min": [
+        -0.04,
+        -0.025,
+        0.0
+      ],
+      "materials": [
+        "M_ForgedIron",
+        "M_IronScale"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Small iron arrowhead swage/heading die block with half-round socket groove; short punch resting on top."
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-arrow-bodkin-blank.fbx",
+    "fbx/prop-arrowhead-swage-as1.fbx",
+    "fbx/prop-broadhead-blank.fbx",
+    "fbx/prop-pile-head-blank.fbx",
+    "tex/M_ForgedIron_BaseColor.png",
+    "tex/M_IronScale_BaseColor.png"
+  ]
+}
