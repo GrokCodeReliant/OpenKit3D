@@ -1,0 +1,131 @@
+{
+  "pack": "openkit-baker-props-b1",
+  "license": "CC0-1.0",
+  "units": "1 m",
+  "up": "Z (Blender) / Y (FBX)",
+  "generator": "procedural Blender 5.2.1 bpy (src/build.py), no downloaded meshes",
+  "materials_mode": "slots-only (image datablocks removed before export; FBX path_mode STRIP; basecolor PNGs in tex/ for manual hookup)",
+  "max_tris": 210,
+  "renames": {
+    "prop-dough-trough-bk1": "prop-kneading-trough",
+    "prop-flour-sack": "prop-proofing-basket (swap)"
+  },
+  "collision_check": "no exact ids for prop-baking-peel / prop-kneading-trough / prop-bread-loaf-stack / prop-proofing-basket in studio/art/openkit-*/fbx, MANIFESTs, CATALOG.md, openkit-dnd, okm4, release. Trough neighbours prop-feed-trough, prop-feed-trough-sp1, prop-trough-wood -> used prop-kneading-trough. Flour sack neighbours prop-sack-tied, prop-sack-tied-cc1, prop-grain-sack-open-ml1, prop-flour-bin, prop-flour-sack-stack (openkit-dnd) -> swapped to prop-proofing-basket.",
+  "judgment_calls": [
+    "flour sack dropped: 5 sack/flour neighbours would be a clone",
+    "kneading trough: rectangular splayed-plank trough on skids with dough lump, vs V-hopper/feed troughs",
+    "peel laid flat (stable floor pose), pivot at bbox centre on floor",
+    "workbench renders use object tint, not material colours",
+    ".blend holds last built object only; build.py regenerates all"
+  ],
+  "assets": [
+    {
+      "name": "prop-baking-peel",
+      "tris": 44,
+      "dims_xyz_m": [
+        1.41,
+        0.28,
+        0.03
+      ],
+      "bbox_min": [
+        -0.705,
+        -0.14,
+        0.0
+      ],
+      "materials": [
+        "M_Wood_Oak",
+        "M_Wood_Dark"
+      ],
+      "height_m": 0.032,
+      "pivot": "bottom_centre (0,0,0) on floor; laid flat, centred on bbox; 0.32x0.28 m oak paddle toward +X, 1.06 m round dark shaft toward -X",
+      "fbx": "fbx/prop-baking-peel.fbx",
+      "render": "renders/prop-baking-peel.png",
+      "sha256": "9597b06008aea304a67611e70057e35ab19ba9c977ac28ca5f2737d76bb22d6a"
+    },
+    {
+      "name": "prop-kneading-trough",
+      "tris": 96,
+      "dims_xyz_m": [
+        0.9,
+        0.423,
+        0.21
+      ],
+      "bbox_min": [
+        -0.45,
+        -0.212,
+        0.0
+      ],
+      "materials": [
+        "M_Wood_Oak",
+        "M_Wood_Dark",
+        "M_Dough"
+      ],
+      "height_m": 0.22,
+      "pivot": "bottom_centre (0,0,0) on floor; 0.90 m long shallow oak kneading trough with splayed sides on two skids, pale dough lump inside, long axis X",
+      "fbx": "fbx/prop-kneading-trough.fbx",
+      "render": "renders/prop-kneading-trough.png",
+      "sha256": "af87a51afae883af467278a9dd1690e53700285edcf25aa1139566d736baac0d"
+    },
+    {
+      "name": "prop-bread-loaf-stack",
+      "tris": 144,
+      "dims_xyz_m": [
+        0.3,
+        0.28,
+        0.185
+      ],
+      "bbox_min": [
+        -0.15,
+        -0.14,
+        0.0
+      ],
+      "materials": [
+        "M_Bread_Crust"
+      ],
+      "height_m": 0.185,
+      "pivot": "bottom_centre (0,0,0) on floor/table; two oval crusty loaves side by side with a third laid crosswise on top",
+      "fbx": "fbx/prop-bread-loaf-stack.fbx",
+      "render": "renders/prop-bread-loaf-stack.png",
+      "sha256": "3967afe95be465b30adff0f2c97ec5dc059cc2cc31b2968c2a506a08d43ae708"
+    },
+    {
+      "name": "prop-proofing-basket",
+      "tris": 130,
+      "dims_xyz_m": [
+        0.34,
+        0.323,
+        0.1
+      ],
+      "bbox_min": [
+        -0.17,
+        -0.162,
+        0.0
+      ],
+      "materials": [
+        "M_Reed",
+        "M_Dough"
+      ],
+      "height_m": 0.1,
+      "pivot": "bottom_centre (0,0,0) on floor/table; round 0.34 m coiled-reed banneton (10-seg lathe) with rising dough dome",
+      "fbx": "fbx/prop-proofing-basket.fbx",
+      "render": "renders/prop-proofing-basket.png",
+      "sha256": "fd353939a72c175239f3a0885f2f9ee7e1d86574ba21df533623eb374d14a5b6"
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-baking-peel.fbx",
+    "fbx/prop-bread-loaf-stack.fbx",
+    "fbx/prop-kneading-trough.fbx",
+    "fbx/prop-proofing-basket.fbx",
+    "tex/T_Crust_BaseColor.png",
+    "tex/T_Dough_BaseColor.png",
+    "tex/T_Reed_BaseColor.png",
+    "tex/T_Wood_Dark_BaseColor.png",
+    "tex/T_Wood_Oak_BaseColor.png"
+  ]
+}
