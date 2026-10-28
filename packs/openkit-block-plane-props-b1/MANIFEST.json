@@ -1,0 +1,96 @@
+{
+  "pack": "openkit-block-plane-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "find prop-*.fbx + rg block.?plane|block_plane over studio/art: no prop-block-plane* and no -bp1 suffix in use (pegboard uses pb1). Distinct from plane-wood, try-plane-jn1, shoulder-plane-*-sp1, router-plane-*-rp1, plane-iron-blank-pi1, spokeshave-*-sv2.",
+  "judgment_calls": [
+    "Body kept solid: no mouth/throat cut (low-poly blank).",
+    "Iron 36x85x3 mm: shorter than plane-iron-blank-pi1 (180) and shoulder-plane-iron-sp1 (110), narrower than pi1 (50); wider than sp1 (18) since a block plane iron is wider than a shoulder iron.",
+    "Textures are flat 8x8 BaseColor swatches in tex/; FBX carries material slots only.",
+    "All pivots bottom_centre, no offsets; all tri budgets met."
+  ],
+  "assets": [
+    {
+      "name": "prop-block-plane-body-bp1",
+      "file": "fbx/prop-block-plane-body-bp1.fbx",
+      "tris": 20,
+      "dims_xyz_m": [
+        0.05,
+        0.15,
+        0.045
+      ],
+      "bbox_min": [
+        -0.025,
+        -0.075,
+        0.0
+      ],
+      "materials": [
+        "mat_beech_wood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Compact wooden block-plane body blank: solid 50x150x45 mm rectangular prism with 8 mm top chamfers along both long edges and a flat sole; no mouth/throat cut."
+    },
+    {
+      "name": "prop-block-plane-iron-bp1",
+      "file": "fbx/prop-block-plane-iron-bp1.fbx",
+      "tris": 12,
+      "dims_xyz_m": [
+        0.036,
+        0.085,
+        0.003
+      ],
+      "bbox_min": [
+        -0.018,
+        -0.0425,
+        0.0
+      ],
+      "materials": [
+        "mat_tool_steel"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Short flat steel block-plane iron blank: plain 36 mm wide x 85 mm long x 3 mm thick bar lying flat, no bevel ground."
+    },
+    {
+      "name": "prop-block-plane-wedge-bp1",
+      "file": "fbx/prop-block-plane-wedge-bp1.fbx",
+      "tris": 8,
+      "dims_xyz_m": [
+        0.03,
+        0.05,
+        0.015
+      ],
+      "bbox_min": [
+        -0.015,
+        -0.025,
+        0.0
+      ],
+      "materials": [
+        "mat_beech_wood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Wooden wedge blank: right-triangle prism 30 mm wide x 50 mm long, rising to 15 mm at the back end, flat underside."
+    },
+    {
+      "name": "prop-block-plane-cap-bp1",
+      "file": "fbx/prop-block-plane-cap-bp1.fbx",
+      "tris": 16,
+      "dims_xyz_m": [
+        0.034,
+        0.05,
+        0.005
+      ],
+      "bbox_min": [
+        -0.017,
+        -0.025,
+        0.0
+      ],
+      "materials": [
+        "mat_tool_steel"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Small steel lever-cap blank plate: 34 mm wide x 50 mm long x 5 mm thick, front top edge chamfered down to 2 mm, flat underside to sit on the iron."
+    }
+  ]
+}

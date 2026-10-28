@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **202** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **204** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -46,6 +46,7 @@ The `packs/` folder contains **202** CC0-licensed medieval prop packs. Each pack
 | `openkit-bellows-maker-props-b1` | Bellows-maker workshop props |
 | `openkit-bit-brace-maker-props-b1` | Bit-brace maker workshop props |
 | `openkit-blacksmith-props-b1` | Blacksmith workshop props |
+| `openkit-block-plane-props-b1` | Block plane blanks: body, iron, wedge, lever-cap |
 | `openkit-book-clasp-maker-props-b1` | Book-clasp maker workshop props |
 | `openkit-bowyer-props-b1` | Bowyer workshop props |
 | `openkit-bridge-scaffold-b1` | Bridges and scaffolding |
@@ -134,6 +135,7 @@ The `packs/` folder contains **202** CC0-licensed medieval prop packs. Each pack
 | `openkit-miller-props-b1` | Miller workshop props |
 | `openkit-mining-props-b1` | Mining tools and equipment |
 | `openkit-mirror-maker-props-b1` | Mirror-maker workshop props |
+| `openkit-molding-plane-props-b1` | Molding plane blanks: body, iron, wedge, side fence |
 | `openkit-mortise-gauge-props-b1` | Mortise-gauge workshop props |
 | `openkit-mortar-mixer-props-b1` | Mortar-mixer workshop props |
 | `openkit-mosaic-maker-props-b1` | Mosaic-maker workshop props |
