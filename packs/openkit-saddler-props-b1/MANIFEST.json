@@ -1,0 +1,132 @@
+{
+ "pack": "openkit-saddler-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures; FBX path_mode STRIP; image datablocks removed before export)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "No exact hits for the 4 ids in studio/art/openkit-*/fbx. Keyword sweep (saddle|stirrup|girth|harness|punch|tree|strap|leather|ring|bit) near-names: prop-chisel-punch-st1 (mason), prop-leather-cover-blank (bookbinder), prop-leather-scrap-pile (cobbler) -- different objects. Clear of tile-dojo-*, WPN_*/B01, practice-banner, wall-dress.",
+ "judgment_calls": [
+  "prop-leather-punch-sd1 kept the brief's -sd1 id although bare prop-leather-punch is free; it reads as a saddler's round drive punch (mushroom head, hollow tube) vs cobbler awl / mason prop-chisel-punch-st1",
+  "prop-stirrup-blank: raw forged sides + unslotted eye + loose wood tread with chalk mark; no leather, so it is not a stable tack stirrup",
+  "prop-saddle-tree-blank: open bar-and-arch frame only, chalk centre lath + nail heads read WIP; no seat, padding, skirt or leather",
+  "prop-girth-strap-roll: uncut coiled strap stock tied with thong; no buckles/rings, so not finished girth",
+  ".blend holds only last built object (pack pattern); src/build.py regenerates all"
+ ],
+ "assets": [
+  {
+   "name": "prop-stirrup-blank",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.149,
+    0.07,
+    0.16
+   ],
+   "bbox_min": [
+    -0.075,
+    -0.035,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Wood_Pale",
+    "M_Chalk"
+   ],
+   "height_m": 0.16,
+   "pivot": "bottom_centre (0,0,0) on floor; 0.16 m unfinished stirrup standing upright: raw forged iron sides + crown with unslotted eye, loose pale-wood tread blank with chalk layout mark, no leather",
+   "fbx": "fbx/prop-stirrup-blank.fbx",
+   "sha256": "1d43ef35a0e36b95f1e36432e90162ca2ae8c183b8d3d7f7017752aa839f5b98"
+  },
+  {
+   "name": "prop-leather-punch-sd1",
+   "tris": 116,
+   "dims_xyz_m": [
+    0.176,
+    0.066,
+    0.032
+   ],
+   "bbox_min": [
+    -0.088,
+    -0.033,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Steel_Bright",
+    "M_Leather_Tan"
+   ],
+   "height_m": 0.032,
+   "pivot": "bottom_centre (0,0,0) on floor; 0.17 m saddler's round drive punch laid flat along X on a small leather test strip, mushroomed strike head -X, bright hollow cutting tube +X",
+   "fbx": "fbx/prop-leather-punch-sd1.fbx",
+   "sha256": "175349ff9bcea9117920a35bfe49cc7033b735ac54b2e14e4da06d1ec65f586b"
+  },
+  {
+   "name": "prop-girth-strap-roll",
+   "tris": 96,
+   "dims_xyz_m": [
+    0.284,
+    0.19,
+    0.074
+   ],
+   "bbox_min": [
+    -0.142,
+    -0.095,
+    0.0
+   ],
+   "materials": [
+    "M_Leather_Tan",
+    "M_Leather_Dark",
+    "M_Thread_Waxed"
+   ],
+   "height_m": 0.074,
+   "pivot": "bottom_centre (0,0,0) on floor; 0.15 m-dia tan uncut strap/girth stock coiled on end, tied with a pale thong, 14 cm loose tail toward +X; no buckles",
+   "fbx": "fbx/prop-girth-strap-roll.fbx",
+   "sha256": "467c05f04fcd4f18c1993ca58a114d41193f76bbe588a4db14f4ee1bd42f9c25"
+  },
+  {
+   "name": "prop-saddle-tree-blank",
+   "tris": 132,
+   "dims_xyz_m": [
+    0.42,
+    0.267,
+    0.138
+   ],
+   "bbox_min": [
+    -0.21,
+    -0.134,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Pale",
+    "M_Wood_Dark",
+    "M_Chalk",
+    "M_Iron"
+   ],
+   "height_m": 0.138,
+   "pivot": "bottom_centre (0,0,0) on floor; 0.42 m raw wooden saddle tree frame, pommel arch +X, cantle -X: open pale side boards, dark arch/cantle bars, chalk centre lath, a few nail heads; no seat, padding or leather",
+   "fbx": "fbx/prop-saddle-tree-blank.fbx",
+   "sha256": "aebf78bf5570c8b0fb17d349ef6fe24d48fd5223b91d086fac340c2c6d7a56d1"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-girth-strap-roll.fbx",
+  "fbx/prop-leather-punch-sd1.fbx",
+  "fbx/prop-saddle-tree-blank.fbx",
+  "fbx/prop-stirrup-blank.fbx",
+  "tex/T_Chalk_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Leather_Dark_BaseColor.png",
+  "tex/T_Leather_Tan_BaseColor.png",
+  "tex/T_Steel_Bright_BaseColor.png",
+  "tex/T_Thread_Waxed_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Pale_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)"
+}
