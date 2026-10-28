@@ -1,0 +1,121 @@
+{
+ "pack": "openkit-mail-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-pliers-mail": "prop-pliers-mail-mm1 (suffix per brief)"
+ },
+ "collision_check": "Searched openkit-*/fbx for mail|mandrel|link|plier|coil|punch|die: hits only rope/lead-came/rim-iron coils and nail-header/eye-punch/pin-heading dies, leather/awl/chisel punches. No mail/mandrel/plier ids; all 4 free.",
+ "judgment_calls": [
+  "Coil 172 tris (over 120 preference, under 210 cap) for a 10-seg thick hoop + tie band; reads as wound stock, not a link sheet",
+  "Mandrel uses a thicker soot sleeve to suggest wound rings instead of modelled helix",
+  "Die: oak stump + die disc + upright punch on block; distinct from nail-header-die/pin-heading-die (no bolster lugs, no heading cup)",
+  "Pliers: long handles + slim round-nose tapered jaws; distinct from tongs-nail and short beaked wire-cutters-pm1",
+  "Contact-sheet eye-check pass 1: no floating parts; all parts touch; single-colour workbench renders"
+ ],
+ "assets": [
+  {
+   "name": "prop-wire-coil-mail",
+   "tris": 172,
+   "dims_xyz_m": [
+    0.189,
+    0.144,
+    0.05
+   ],
+   "bbox_min": [
+    -0.075,
+    -0.072,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Soot"
+   ],
+   "height_m": 0.05,
+   "pivot": "bottom_centre (0,0,0); 0.15 m dia x 5 cm iron mail-wire coil (10-seg hoop), soot tie band, short loose tail toward +X"
+  },
+  {
+   "name": "prop-mandrel-rod",
+   "tris": 100,
+   "dims_xyz_m": [
+    0.315,
+    0.081,
+    0.019
+   ],
+   "bbox_min": [
+    -0.165,
+    -0.008,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Soot",
+    "M_Wood_Oak"
+   ],
+   "height_m": 0.016,
+   "pivot": "rod centre projected to floor (0,0,0), laid flat along X; 0.3 m iron winding mandrel, wound-ring section +X, crank with oak grip at -X toward +Y"
+  },
+  {
+   "name": "prop-punch-link-die",
+   "tris": 100,
+   "dims_xyz_m": [
+    0.12,
+    0.08,
+    0.151
+   ],
+   "bbox_min": [
+    -0.06,
+    -0.04,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Dark",
+    "M_Iron",
+    "M_Soot"
+   ],
+   "height_m": 0.151,
+   "pivot": "bottom_centre (0,0,0); 12x8 cm dark-oak stump with iron link die disc (-X) and upright rivet/flattening punch standing on block (+X)"
+  },
+  {
+   "name": "prop-pliers-mail-mm1",
+   "tris": 108,
+   "dims_xyz_m": [
+    0.18,
+    0.043,
+    0.008
+   ],
+   "bbox_min": [
+    -0.115,
+    -0.021,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Leather"
+   ],
+   "height_m": 0.008,
+   "pivot": "rivet projected to floor (0,0,0); 0.18 m mail-maker's round-nose pliers laid flat along X, slim tapered jaws +X, leather grips -X"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-mandrel-rod.fbx",
+  "fbx/prop-pliers-mail-mm1.fbx",
+  "fbx/prop-punch-link-die.fbx",
+  "fbx/prop-wire-coil-mail.fbx",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Leather_BaseColor.png",
+  "tex/T_Soot_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "tex/ T_Iron, T_Leather, T_Soot, T_Wood_Dark, T_Wood_Oak BaseColor PNGs all stay pack-local (not rewritten to shared pointers); T_Iron/T_Soot/T_Wood_Dark/T_Wood_Oak byte-identical to comb-maker and needle-maker (T_Wood_Dark/T_Wood_Oak also to herbalist), still shipped pack-local; T_Leather unique to this pack; FBX is slots-only, Unity maps textures by material slot"
+}
