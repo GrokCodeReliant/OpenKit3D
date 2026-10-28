@@ -1,0 +1,97 @@
+{
+  "pack": "openkit-auger-maker-props-b1",
+  "license": "CC0-1.0",
+  "units": "metric, 1 unit = 1 m",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "find prop-*.fbx across studio/art + rg auger: no prop-auger* existed; distinct from gimlet gm1, brace bb2, spoon-bit bb2, pegboard-reamer pb1, all awls.",
+  "judgment_calls": [
+    "Bit spiral is a flat blade twisted 120 deg in four faceted 30-deg steps, not a true helix.",
+    "Size ring is hexagonal (48 tris) instead of round; 16 tris over the preferred 32 to keep a real bore with walls.",
+    "Lead screw 22 tris (under 24); twist suggested by 30-deg offset hex rings.",
+    "T-handle has no through-hole; blank only.",
+    "All pivots bottom_centre, no offsets."
+  ],
+  "assets": [
+    {
+      "name": "prop-auger-thandle-blank-ag1",
+      "file": "fbx/prop-auger-thandle-blank-ag1.fbx",
+      "tris": 24,
+      "dims_xyz_m": [
+        0.28,
+        0.038,
+        0.108
+      ],
+      "bbox_min": [
+        -0.14,
+        -0.019,
+        0.0
+      ],
+      "materials": [
+        "wood_oak"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Wooden T-handle blank: 0.28 m square-section crossbar on a 32 mm square post; plain boxes, no hole."
+    },
+    {
+      "name": "prop-auger-bit-blank-ag1",
+      "file": "fbx/prop-auger-bit-blank-ag1.fbx",
+      "tris": 48,
+      "dims_xyz_m": [
+        0.0337,
+        0.0337,
+        0.18
+      ],
+      "bbox_min": [
+        -0.0169,
+        -0.0169,
+        0.0
+      ],
+      "materials": [
+        "iron_dark"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Iron auger bit blank: flat 32x12 mm stub twisted 120 deg in four 30-deg faceted steps (0.1 m), topped by a 14 mm square shank to 0.18 m."
+    },
+    {
+      "name": "prop-auger-lead-screw-ag1",
+      "file": "fbx/prop-auger-lead-screw-ag1.fbx",
+      "tris": 22,
+      "dims_xyz_m": [
+        0.018,
+        0.018,
+        0.034
+      ],
+      "bbox_min": [
+        -0.009,
+        -0.009,
+        0.0
+      ],
+      "materials": [
+        "iron_bright"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Lead-screw tip blank: point at base rising to a hexagonal section, then a 30-deg offset hex ring giving a faceted twist; flat top cap; 34 mm tall."
+    },
+    {
+      "name": "prop-auger-size-ring-ag1",
+      "file": "fbx/prop-auger-size-ring-ag1.fbx",
+      "tris": 48,
+      "dims_xyz_m": [
+        0.052,
+        0.045,
+        0.012
+      ],
+      "bbox_min": [
+        -0.026,
+        -0.0225,
+        0.0
+      ],
+      "materials": [
+        "iron_dark"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Hexagonal iron size ring / collar: 52 mm across corners, 36 mm bore, 12 mm thick."
+    }
+  ]
+}
