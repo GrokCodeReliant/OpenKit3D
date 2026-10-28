@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **196** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **198** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -132,6 +132,7 @@ The `packs/` folder contains **196** CC0-licensed medieval prop packs. Each pack
 | `openkit-miller-props-b1` | Miller workshop props |
 | `openkit-mining-props-b1` | Mining tools and equipment |
 | `openkit-mirror-maker-props-b1` | Mirror-maker workshop props |
+| `openkit-mortise-gauge-props-b1` | Mortise-gauge workshop props |
 | `openkit-mortar-mixer-props-b1` | Mortar-mixer workshop props |
 | `openkit-mosaic-maker-props-b1` | Mosaic-maker workshop props |
 | `openkit-nail-maker-props-b1` | Nail-maker workshop props |
@@ -140,6 +141,7 @@ The `packs/` folder contains **196** CC0-licensed medieval prop packs. Each pack
 | `openkit-organ-builder-props-b1` | Organ-builder workshop props |
 | `openkit-outdoor-props-b1` | Outdoor decorations |
 | `openkit-painter-props-b1` | Painter workshop props |
+| `openkit-panel-gauge-maker-props-b1` | Panel-gauge maker workshop props |
 | `openkit-parchment-maker-props-b1` | Parchment-maker workshop props |
 | `openkit-parchment-ruler-props-b1` | Parchment-ruler workshop props |
 | `openkit-peg-board-maker-props-b1` | Peg-board maker workshop props |
