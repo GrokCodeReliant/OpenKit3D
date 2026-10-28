@@ -1,0 +1,113 @@
+{
+ "pack": "openkit-painter-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "No painter/bellfounder/matmaker/lastmaker packs; no paint-kettle/mahlstick/palette-board/hog-brush/limner in any openkit-*/fbx. Distinct from brushmaker parts (no metal ferrule, one-piece string-bound brush) and map-maker pigment tray (palette is clean blank, no cakes).",
+ "judgment_calls": [
+  "Hog brush = finished-but-untrimmed string-bound brush, no ferrule",
+  "Palette thumb hole chalk-marked, not cut",
+  "Eye-check v1 passed"
+ ],
+ "assets": [
+  {
+   "name": "prop-paint-kettle-blank",
+   "tris": 156,
+   "dims_xyz_m": [
+    0.116,
+    0.116,
+    0.122
+   ],
+   "bbox_min": [
+    -0.058,
+    -0.058,
+    0.0
+   ],
+   "materials": [
+    "M_Clay_Glazed",
+    "M_Lead_White",
+    "M_Iron_Forged"
+   ],
+   "height_m": 0.122,
+   "pivot": "bottom_centre (0,0,0); small glazed earthenware painter's kettle with iron bail, holding a charge of ground lead-white priming; no brush, no tray"
+  },
+  {
+   "name": "prop-hog-brush-blank",
+   "tris": 80,
+   "dims_xyz_m": [
+    0.29,
+    0.029,
+    0.025
+   ],
+   "bbox_min": [
+    -0.145,
+    -0.014,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Birch",
+    "M_Bristle_Hog",
+    "M_Twine_Waxed"
+   ],
+   "height_m": 0.029,
+   "pivot": "laid / bottom_centre (0,0,0); finished-but-untrimmed limner's hog-hair brush: knot string-bound directly onto a rough birch stick (period quill/string binding, NO metal ferrule, single object)"
+  },
+  {
+   "name": "prop-mahlstick-blank",
+   "tris": 56,
+   "dims_xyz_m": [
+    0.933,
+    0.031,
+    0.036
+   ],
+   "bbox_min": [
+    -0.466,
+    -0.016,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Leather_Tan"
+   ],
+   "height_m": 0.036,
+   "pivot": "laid / bottom_centre (0,0,0); 0.95 m ash mahlstick (hand rest) with leather-wrapped padded ball tip"
+  },
+  {
+   "name": "prop-palette-board-blank",
+   "tris": 56,
+   "dims_xyz_m": [
+    0.4,
+    0.26,
+    0.009
+   ],
+   "bbox_min": [
+    -0.2,
+    -0.13,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Walnut",
+    "M_Chalk_Mark"
+   ],
+   "height_m": 0.009,
+   "pivot": "laid / bottom_centre (0,0,0); oval walnut palette board blank, thumb hole only chalk-marked (not yet cut); clean surface, no pigment cakes"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-hog-brush-blank.fbx",
+  "fbx/prop-mahlstick-blank.fbx",
+  "fbx/prop-paint-kettle-blank.fbx",
+  "fbx/prop-palette-board-blank.fbx",
+  "tex/T_Bristle_Hog_BaseColor.png",
+  "tex/T_Clay_Glazed_BaseColor.png",
+  "tex/T_Wood_Walnut_BaseColor.png"
+ ]
+}
