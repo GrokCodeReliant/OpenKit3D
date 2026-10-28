@@ -1,0 +1,108 @@
+{
+ "pack": "openkit-thimble-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "tool": "Blender 5.2.1 procedural bpy",
+ "renames": [],
+ "collision_check": "no existing prop-* fbx with these names; distinct from palm-thimble, eye-punch-die, hatchet-stake-blank, stake-anvil-small, rivet-anvil-hm1",
+ "assets": [
+  {
+   "name": "prop-thimble-blank-tray",
+   "file": "fbx/prop-thimble-blank-tray.fbx",
+   "tris": 114,
+   "dims_xyz_m": [
+    0.18,
+    0.11,
+    0.032
+   ],
+   "bbox_min": [
+    -0.09,
+    -0.055,
+    0.0
+   ],
+   "materials": [
+    "M_Wood",
+    "M_Blank_Metal"
+   ],
+   "pivot": "bottom_centre (0,0,0); sits flat",
+   "desc": "shallow wooden tray holding three raw unfinished metal thimble shells (two upright, one tipped)"
+  },
+  {
+   "name": "prop-thimble-punch-die",
+   "file": "fbx/prop-thimble-punch-die.fbx",
+   "tris": 88,
+   "dims_xyz_m": [
+    0.14,
+    0.04,
+    0.036
+   ],
+   "bbox_min": [
+    -0.07,
+    -0.02,
+    0.0
+   ],
+   "materials": [
+    "M_Steel"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "steel dome/dimple die block with raised former plus a round-nosed doming punch laid beside it"
+  },
+  {
+   "name": "prop-thimble-stake",
+   "file": "fbx/prop-thimble-stake.fbx",
+   "tris": 92,
+   "dims_xyz_m": [
+    0.12,
+    0.12,
+    0.156
+   ],
+   "bbox_min": [
+    -0.06,
+    -0.06,
+    0.0
+   ],
+   "materials": [
+    "M_Wood",
+    "M_Steel"
+   ],
+   "pivot": "bottom_centre (0,0,0); stands on its stump block",
+   "desc": "small steel mushroom-head stake set in a wooden stump block, for raising thimble shells"
+  },
+  {
+   "name": "prop-finished-thimble-pair",
+   "file": "fbx/prop-finished-thimble-pair.fbx",
+   "tris": 112,
+   "dims_xyz_m": [
+    0.057,
+    0.021,
+    0.027
+   ],
+   "bbox_min": [
+    -0.029,
+    -0.01,
+    0.0
+   ],
+   "materials": [
+    "M_Brass",
+    "M_Steel"
+   ],
+   "pivot": "bottom_centre (0,0,0); one upright, one laid on side",
+   "desc": "pair of finished closed-top sewing thimbles, one brass upright and one polished steel on its side"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-finished-thimble-pair.fbx",
+  "fbx/prop-thimble-blank-tray.fbx",
+  "fbx/prop-thimble-punch-die.fbx",
+  "fbx/prop-thimble-stake.fbx",
+  "tex/T_Blank_Metal_BaseColor.png",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Steel_BaseColor.png",
+  "tex/T_Wood_BaseColor.png"
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "pack": "openkit-spinner-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "tool": "Blender 5.2.1 procedural bpy",
+ "fbx": "materials slots only, path_mode STRIP, no textures embedded",
+ "collisions": "none; no existing prop-distaff/spindle-whorl/niddy-noddy/orifice-hook in studio",
+ "assets": [
+  {
+   "name": "prop-distaff",
+   "file": "fbx/prop-distaff.fbx",
+   "tris": 90,
+   "dims_xyz_m": [
+    0.75,
+    0.095,
+    0.11
+   ],
+   "bbox_min": [
+    -0.375,
+    -0.048,
+    0.0
+   ],
+   "materials": [
+    "M_Wood",
+    "M_Fiber_Flax"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "headed wooden hand distaff with a knob end dressed in a cream fiber bundle, laid flat"
+  },
+  {
+   "name": "prop-spindle-whorl",
+   "file": "fbx/prop-spindle-whorl.fbx",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.056,
+    0.056,
+    0.104
+   ],
+   "bbox_min": [
+    -0.028,
+    -0.028,
+    0.0
+   ],
+   "materials": [
+    "M_Clay",
+    "M_Wood"
+   ],
+   "pivot": "bottom_centre (0,0,0); stands on stick tip",
+   "desc": "terracotta spindle whorl disc on a short stub stick (no shaft hook, not a full drop-spindle)"
+  },
+  {
+   "name": "prop-niddy-noddy",
+   "file": "fbx/prop-niddy-noddy.fbx",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.46,
+    0.152,
+    0.152
+   ],
+   "bbox_min": [
+    -0.23,
+    -0.076,
+    0.0
+   ],
+   "materials": [
+    "M_Wood"
+   ],
+   "pivot": "bottom_centre (0,0,0); rests on its crossed arms",
+   "desc": "wooden niddy-noddy skein winder: centre shaft with perpendicular cross-arms at each end"
+  },
+  {
+   "name": "prop-orifice-hook",
+   "file": "fbx/prop-orifice-hook.fbx",
+   "tris": 74,
+   "dims_xyz_m": [
+    0.178,
+    0.026,
+    0.014
+   ],
+   "bbox_min": [
+    -0.089,
+    -0.013,
+    0.0
+   ],
+   "materials": [
+    "M_Wood",
+    "M_Steel"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat",
+   "desc": "small orifice/threading hook: bent steel wire hook in a turned wooden handle, laid flat"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-distaff.fbx",
+  "fbx/prop-niddy-noddy.fbx",
+  "fbx/prop-orifice-hook.fbx",
+  "fbx/prop-spindle-whorl.fbx",
+  "tex/T_Clay_BaseColor.png",
+  "tex/T_Fiber_Flax_BaseColor.png",
+  "tex/T_Steel_BaseColor.png",
+  "tex/T_Wood_BaseColor.png"
+ ]
+}
