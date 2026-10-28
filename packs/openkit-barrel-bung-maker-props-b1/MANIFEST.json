@@ -1,0 +1,104 @@
+{
+  "pack": "openkit-barrel-bung-maker-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 unit = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "All 4 names checked free against every prop-*.fbx under studio/art before export; distinct from prop-bung-mallet, prop-bore-reamer, prop-float-blank, prop-cork-float-string, cooper/barrel props.",
+  "judgment_calls": [
+    "prop-bung-tray-bb1 is 67 tris (soft overrun vs preferred 60; under 210 hard max) to show three bungs.",
+    "Reamer stands tip-down so pivot is the tip point at bottom centre.",
+    "Taper float modelled as iron rasp face with wooden grip.",
+    "Flat BaseColor PNGs in tex/; FBX carries material slots only."
+  ],
+  "textures": [
+    "tex/cork_BaseColor.png",
+    "tex/iron_BaseColor.png",
+    "tex/oak_dark_BaseColor.png"
+  ],
+  "assets": [
+    {
+      "name": "prop-bung-blank-bb1",
+      "file": "fbx/prop-bung-blank-bb1.fbx",
+      "tris": 28,
+      "dims_xyz_m": [
+        0.052,
+        0.052,
+        0.032
+      ],
+      "bbox_min": [
+        -0.026,
+        -0.026,
+        0.0
+      ],
+      "materials": [
+        "cork"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Tapered 8-sided cork/oak bung blank, wider at top (r 0.026) than bottom (r 0.021), 0.032 m tall, capped both ends."
+    },
+    {
+      "name": "prop-bung-taper-float-bb1",
+      "file": "fbx/prop-bung-taper-float-bb1.fbx",
+      "tris": 24,
+      "dims_xyz_m": [
+        0.18,
+        0.036,
+        0.036
+      ],
+      "bbox_min": [
+        -0.09,
+        -0.018,
+        0.0
+      ],
+      "materials": [
+        "iron",
+        "oak_dark"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Short bung-taper float: flat iron rasp bar 0.18 m with a raised dark-oak grip block on top."
+    },
+    {
+      "name": "prop-bunghole-reamer-bb1",
+      "file": "fbx/prop-bunghole-reamer-bb1.fbx",
+      "tris": 34,
+      "dims_xyz_m": [
+        0.16,
+        0.0589,
+        0.192
+      ],
+      "bbox_min": [
+        -0.08,
+        -0.0294,
+        0.0
+      ],
+      "materials": [
+        "iron",
+        "oak_dark"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Iron bung-hole reamer: 6-sided taper bit point-down (tip at z=0), square iron shank, dark-oak T-handle on top."
+    },
+    {
+      "name": "prop-bung-tray-bb1",
+      "file": "fbx/prop-bung-tray-bb1.fbx",
+      "tris": 67,
+      "dims_xyz_m": [
+        0.22,
+        0.15,
+        0.038
+      ],
+      "bbox_min": [
+        -0.11,
+        -0.075,
+        0.0
+      ],
+      "materials": [
+        "oak_dark",
+        "cork"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Shallow open dark-oak tray (hollow, 8 mm walls) holding three 5-sided cork bung blanks in a row."
+    }
+  ]
+}

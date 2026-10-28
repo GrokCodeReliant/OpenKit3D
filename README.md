@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **176** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **178** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -35,6 +35,7 @@ The `packs/` folder contains **176** CC0-licensed medieval prop packs. Each pack
 | `openkit-bagpiper-props-b1` | Bagpiper workshop props |
 | `openkit-baker-props-b1` | Bakery props |
 | `openkit-barber-props-b1` | Barber workshop props |
+| `openkit-barrel-bung-maker-props-b1` | Barrel bung-maker workshop props |
 | `openkit-barrel-chest-b1` | Barrels, chests, and storage containers |
 | `openkit-basket-mender-props-b1` | Basket-mender workshop props |
 | `openkit-bathhouse-props-b1` | Bathhouse furniture and accessories |
@@ -95,6 +96,7 @@ The `packs/` folder contains **176** CC0-licensed medieval prop packs. Each pack
 | `openkit-harness-maker-props-b1` | Harness-maker workshop props |
 | `openkit-hat-maker-props-b1` | Hat-maker workshop props |
 | `openkit-helm-maker-props-b1` | Helm-maker workshop props |
+| `openkit-hinge-maker-props-b1` | Hinge-maker workshop props |
 | `openkit-horn-worker-props-b1` | Horn-worker workshop props |
 | `openkit-hurdy-gurdy-maker-props-b1` | Hurdy-gurdy maker workshop props |
 | `openkit-icons-inventory-b1` | Inventory icons |
