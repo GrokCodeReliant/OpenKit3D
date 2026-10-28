@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains 39 CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains 41 CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -34,8 +34,10 @@ The `packs/` folder contains 39 CC0-licensed medieval prop packs. Each pack incl
 | `openkit-beekeeper-props-b1` | Beekeeping equipment |
 | `openkit-bridge-scaffold-b1` | Bridges and scaffolding |
 | `openkit-camp-props-b1` | Campsite props |
+| `openkit-candlemaker-props-b1` | Candlemaker workshop props |
 | `openkit-carpenter-props-b1` | Carpentry tools and workbench |
 | `openkit-cart-crate-b1` | Carts and crates |
+| `openkit-cooper-props-b1` | Cooper (barrel-maker) props |
 | `openkit-dock-harbor-b1` | Dock and harbor props |
 | `openkit-doors-windows-b1` | Doors and windows |
 | `openkit-dungeon-clutter-b1` | Dungeon debris and clutter |

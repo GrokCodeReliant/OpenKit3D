@@ -1,0 +1,125 @@
+{
+ "pack": "openkit-candlemaker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-wick-spool": "prop-wick-spool-cm1"
+ },
+ "collision_check": "prop-wick-spool already exists in openkit-dnd (2D, SCREEN_LOG wave84) and OpenKit CATALOG.md -> suffixed -cm1. prop-wax-block-stack, prop-dipping-rack, prop-candle-mold: no hits in okm4, openkit-dnd, studio/art/openkit-* (library, light-hearth, cooper, etc.) or OpenKit catalog. Near-names: openkit-dnd prop-wax-vat / prop-candle-rack / prop-candle-stub (2D) and library prop-candle-desk, candle-niche/sconce, light-hearth torch/campfire -- different ids and objects (workshop tools, not light sources). Clear of tile-dojo-*, WPN_*, wall-dress.",
+ "judgment_calls": [
+  "prop-candle-mold: id shares 'prop-candle-' prefix with prop-candle-desk/-rack/-stub/-holder families; kept because it is a tin casting mold, not a candle light prop (no emissive, no flame)",
+  "prop-dipping-rack: semantically near openkit-dnd prop-candle-rack (2D candle display rack); this is a workshop dipping frame with half-dipped tapers, distinct id",
+  "prop-wax-block-stack: base id was free, so -cm1 not used",
+  "Tapers on the rack are unlit wax (M_Wax), no flame geometry, to avoid overlapping light-hearth"
+ ],
+ "assets": [
+  {
+   "name": "prop-wax-block-stack",
+   "tris": 36,
+   "dims_xyz_m": [
+    0.271,
+    0.174,
+    0.24
+   ],
+   "bbox_min": [
+    -0.131,
+    -0.082,
+    0.0
+   ],
+   "materials": [
+    "M_Wax"
+   ],
+   "height_m": 0.24,
+   "pivot": "bottom_centre (0,0,0) on floor; three 0.24x0.14x0.08 m beeswax blocks stacked, slight yaw offsets, axis +Z",
+   "fbx": "fbx/prop-wax-block-stack.fbx",
+   "sha256": "93c0535264da16dfc8bf21a7258abd04749bcca8e8e67e0e9f38effcb22844d2"
+  },
+  {
+   "name": "prop-wick-spool-cm1",
+   "tris": 120,
+   "dims_xyz_m": [
+    0.197,
+    0.14,
+    0.14
+   ],
+   "bbox_min": [
+    -0.067,
+    -0.07,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Dark",
+    "M_Wick"
+   ],
+   "height_m": 0.14,
+   "pivot": "bottom_centre (0,0,0) on floor; upright wooden spool (0.14 m dia) wound with cotton wick, loose tail toward +X",
+   "fbx": "fbx/prop-wick-spool-cm1.fbx",
+   "sha256": "3a82563677724d441e94e402b64a941ad69cbad0f1c53b74af1ed35910da5051"
+  },
+  {
+   "name": "prop-dipping-rack",
+   "tris": 156,
+   "dims_xyz_m": [
+    0.66,
+    0.3,
+    0.9
+   ],
+   "bbox_min": [
+    -0.33,
+    -0.15,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Wax",
+    "M_Wick"
+   ],
+   "height_m": 0.9,
+   "pivot": "bottom_centre (0,0,0) on floor; 0.66 m wide two-post wooden frame on splayed feet, top bar along X, three half-dipped tapers hanging",
+   "fbx": "fbx/prop-dipping-rack.fbx",
+   "sha256": "aed0c5dac90080894c3ef99f8b815b1f6f8d780ae107e7b3a573ff4a112ff977"
+  },
+  {
+   "name": "prop-candle-mold",
+   "tris": 136,
+   "dims_xyz_m": [
+    0.22,
+    0.12,
+    0.33
+   ],
+   "bbox_min": [
+    -0.11,
+    -0.06,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Dark",
+    "M_Tin",
+    "M_Wick"
+   ],
+   "height_m": 0.33,
+   "pivot": "bottom_centre (0,0,0) on floor; wooden frame holding five tin taper tubes (6-seg), long axis X",
+   "fbx": "fbx/prop-candle-mold.fbx",
+   "sha256": "0cd16b977c3b108fbeca6f178f04a697a710d906c34d80c18c5a2859ef2a2ae9"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-candle-mold.fbx",
+  "fbx/prop-dipping-rack.fbx",
+  "fbx/prop-wax-block-stack.fbx",
+  "fbx/prop-wick-spool-cm1.fbx",
+  "tex/T_Tin_BaseColor.png",
+  "tex/T_Wax_BaseColor.png",
+  "tex/T_Wick_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ]
+}

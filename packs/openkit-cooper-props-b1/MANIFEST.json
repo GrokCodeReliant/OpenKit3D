@@ -1,0 +1,120 @@
+{
+ "pack": "openkit-cooper-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "No hits for prop-hoop-stack / prop-adze-cooper / prop-stave-bundle / prop-bung-mallet in other Open Kit packs. Near-names: token-cooper (2D NPC token) and prop-mallet-chisel (2D image) -- different ids/types, no suffix needed.",
+ "judgment_calls": [
+  "prop-adze-cooper: edged hand tool, ordinary cooper's woodworking adze (kept out of WPN_*); blade is a flat angled slab, no curvature",
+  "prop-bung-mallet: semantically near openkit-dnd prop-mallet-chisel (2D image); distinct id and 3D cooper's mallet with bungs",
+  "prop-hoop-stack: hoops are 8-seg rectangular-section rings (octagonal silhouette) to stay <=210",
+  "prop-stave-bundle: staves are straight boxes (no barrel bilge curve)"
+ ],
+ "assets": [
+  {
+   "name": "prop-hoop-stack",
+   "tris": 192,
+   "dims_xyz_m": [
+    0.6,
+    0.6,
+    0.12
+   ],
+   "bbox_min": [
+    -0.3,
+    -0.3,
+    0.0
+   ],
+   "materials": [
+    "M_Iron"
+   ],
+   "height_m": 0.12,
+   "pivot": "bottom_centre (0,0,0) on floor; three flat iron barrel hoops (0.60/0.56/0.52 m dia, 8-seg) stacked, axis +Z",
+   "fbx": "fbx/prop-hoop-stack.fbx",
+   "sha256": "c36d6cfe153c0c1062361e13d301d2d25042ea39827798af828a879201da36a9"
+  },
+  {
+   "name": "prop-adze-cooper",
+   "tris": 48,
+   "dims_xyz_m": [
+    0.175,
+    0.07,
+    0.463
+   ],
+   "bbox_min": [
+    -0.055,
+    -0.035,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Dark",
+    "M_Iron"
+   ],
+   "height_m": 0.47,
+   "pivot": "bottom_centre (0,0,0) at haft butt, standing; 0.47 m short cooper's adze, blade faces +X",
+   "fbx": "fbx/prop-adze-cooper.fbx",
+   "sha256": "ef93ade1491bc29b7353720a3b0be592ce1345fd9bf84a9ee8166cb606425716"
+  },
+  {
+   "name": "prop-stave-bundle",
+   "tris": 152,
+   "dims_xyz_m": [
+    0.2,
+    0.2,
+    0.8
+   ],
+   "bbox_min": [
+    -0.1,
+    -0.1,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Twine"
+   ],
+   "height_m": 0.8,
+   "pivot": "bottom_centre (0,0,0) on floor; eight straight oak staves (0.8 m) tied upright with two twine bands",
+   "fbx": "fbx/prop-stave-bundle.fbx",
+   "sha256": "c7b707ce359dabee13f489313936b2f7b36f6efd724963c639cdf41730d8a3a3"
+  },
+  {
+   "name": "prop-bung-mallet",
+   "tris": 96,
+   "dims_xyz_m": [
+    0.276,
+    0.16,
+    0.33
+   ],
+   "bbox_min": [
+    -0.057,
+    -0.08,
+    -0.0
+   ],
+   "materials": [
+    "M_Wood_Dark",
+    "M_Wood_Oak"
+   ],
+   "height_m": 0.33,
+   "pivot": "bottom_centre of head (0,0,0), head lying on floor axis Y, handle up +Z; two loose wooden bungs at +X",
+   "fbx": "fbx/prop-bung-mallet.fbx",
+   "sha256": "8310f009cb5874333fe87e417321f819abcbf593321592fb2cd4305a812bb0f7"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-adze-cooper.fbx",
+  "fbx/prop-bung-mallet.fbx",
+  "fbx/prop-hoop-stack.fbx",
+  "fbx/prop-stave-bundle.fbx",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Rope_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ]
+}
