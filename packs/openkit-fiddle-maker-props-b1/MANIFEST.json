@@ -1,0 +1,115 @@
+{
+  "pack": "openkit-fiddle-maker-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (scale 1.0)",
+  "tool": "Blender 5.2.1 procedural bpy",
+  "renames": [],
+  "collision_check": "find <studio>/art -name 'prop-*.fbx': all 4 base names free; distinct from lute-maker (mold/rib/pegbox/soundboard), stringmaker (bridge/gut/resin/winding-peg), prop-scroll-tied, bowyer stave.",
+  "judgment_calls": [
+    "Bow stick 44 tris (vs prefer 40) to keep 6-sided taper with camber; well under 210 max.",
+    "Back plate outline from two-gaussian bout profile; arch via inset ring + centre apex.",
+    "Scroll laid along X (pegbox block + stacked octagonal volute discs).",
+    "Textures are flat grain-noise BaseColor PNGs shipped separately; FBX holds material slots only."
+  ],
+  "assets": [
+    {
+      "name": "prop-fiddle-back-blank",
+      "file": "fbx/prop-fiddle-back-blank.fbx",
+      "texture": "tex/prop-fiddle-back-blank_BaseColor.png",
+      "tris": 118,
+      "dims_xyz_m": [
+        0.355,
+        0.1761,
+        0.02
+      ],
+      "bbox_min": [
+        -0.1775,
+        -0.088,
+        0.0
+      ],
+      "materials": [
+        "M_FiguredMaple"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Arched figured-maple violin back plate blank, figure-8 outline, laid flat, no purfling."
+    },
+    {
+      "name": "prop-fingerboard-blank",
+      "file": "fbx/prop-fingerboard-blank.fbx",
+      "texture": "tex/prop-fingerboard-blank_BaseColor.png",
+      "tris": 16,
+      "dims_xyz_m": [
+        0.27,
+        0.042,
+        0.01
+      ],
+      "bbox_min": [
+        -0.135,
+        -0.021,
+        0.0
+      ],
+      "materials": [
+        "M_Ebony"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Long tapered ebony fingerboard blank with slight crown, laid flat."
+    },
+    {
+      "name": "prop-fiddle-scroll-blank",
+      "file": "fbx/prop-fiddle-scroll-blank.fbx",
+      "texture": "tex/prop-fiddle-scroll-blank_BaseColor.png",
+      "tris": 68,
+      "dims_xyz_m": [
+        0.1245,
+        0.026,
+        0.054
+      ],
+      "bbox_min": [
+        -0.0623,
+        -0.013,
+        0.0
+      ],
+      "materials": [
+        "M_MapleRough"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Rough pegbox block with 2-step volute suggestion, laid along X."
+    },
+    {
+      "name": "prop-bow-stick-blank",
+      "file": "fbx/prop-bow-stick-blank.fbx",
+      "texture": "tex/prop-bow-stick-blank_BaseColor.png",
+      "tris": 44,
+      "dims_xyz_m": [
+        0.7,
+        0.009,
+        0.0096
+      ],
+      "bbox_min": [
+        -0.35,
+        -0.0045,
+        0.0
+      ],
+      "materials": [
+        "M_Pernambuco"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Slender tapered 6-sided bow stick blank with slight camber, no hair/frog, along X."
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-bow-stick-blank.fbx",
+    "fbx/prop-fiddle-back-blank.fbx",
+    "fbx/prop-fiddle-scroll-blank.fbx",
+    "fbx/prop-fingerboard-blank.fbx",
+    "tex/prop-bow-stick-blank_BaseColor.png",
+    "tex/prop-fiddle-back-blank_BaseColor.png",
+    "tex/prop-fiddle-scroll-blank_BaseColor.png",
+    "tex/prop-fingerboard-blank_BaseColor.png"
+  ]
+}

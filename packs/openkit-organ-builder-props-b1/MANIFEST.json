@@ -1,0 +1,112 @@
+{
+  "pack": "openkit-organ-builder-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "tool": "Blender 5.2.1 procedural bpy",
+  "renames": [],
+  "collision_check": "find <studio>/art -name prop-*.fbx: none of the 4 base names existed; no -ob1 needed",
+  "judgment_calls": [
+    "Pipe: 10-seg lathe, conical foot, open top shown via inner lip ring; no mouth cut (kept simple, 96 tris).",
+    "Rack board laid flat (clearest holed silhouette); 5 hex holes via exact boolean = 164 tris (over 120 preference, under 210 hard max).",
+    "Windchest panel: two shallow routed channels, 44 tris.",
+    "Stop knob standing on square shank, 8-seg turned head, 76 tris; contact sheet shows knob at 3x scale for legibility (FBX is true size).",
+    "Textures: 64px BaseColor PNGs in tex/, not referenced by FBX (material slots only, no image nodes)."
+  ],
+  "assets": [
+    {
+      "name": "prop-organ-pipe-blank",
+      "file": "fbx/prop-organ-pipe-blank.fbx",
+      "tris": 96,
+      "dims_xyz_m": [
+        0.064,
+        0.0609,
+        0.6
+      ],
+      "bbox_min": [
+        -0.032,
+        -0.0304,
+        0.0
+      ],
+      "materials": [
+        "MI_OB_SpottedMetal"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Unfinished spotted-metal flue pipe blank: conical foot, plain open top (lip ring), no mouth cut."
+    },
+    {
+      "name": "prop-pipe-rack-blank",
+      "file": "fbx/prop-pipe-rack-blank.fbx",
+      "tris": 164,
+      "dims_xyz_m": [
+        0.62,
+        0.14,
+        0.025
+      ],
+      "bbox_min": [
+        -0.31,
+        -0.07,
+        0.0
+      ],
+      "materials": [
+        "MI_OB_Pine"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Flat pine pipe-rack / toeboard blank with 5 hexagonal-bored pipe holes through."
+    },
+    {
+      "name": "prop-windchest-panel",
+      "file": "fbx/prop-windchest-panel.fbx",
+      "tris": 44,
+      "dims_xyz_m": [
+        0.55,
+        0.3,
+        0.05
+      ],
+      "bbox_min": [
+        -0.275,
+        -0.15,
+        0.0
+      ],
+      "materials": [
+        "MI_OB_Oak"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Thick oak windchest top panel blank with two shallow routed channels, flat on bench."
+    },
+    {
+      "name": "prop-stop-knob-blank",
+      "file": "fbx/prop-stop-knob-blank.fbx",
+      "tris": 76,
+      "dims_xyz_m": [
+        0.052,
+        0.052,
+        0.09
+      ],
+      "bbox_min": [
+        -0.026,
+        -0.026,
+        0.0
+      ],
+      "materials": [
+        "MI_OB_Boxwood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Turned boxwood organ stop-knob on a short square shank, standing."
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-organ-pipe-blank.fbx",
+    "fbx/prop-pipe-rack-blank.fbx",
+    "fbx/prop-stop-knob-blank.fbx",
+    "fbx/prop-windchest-panel.fbx",
+    "tex/MI_OB_Boxwood_BaseColor.png",
+    "tex/MI_OB_Oak_BaseColor.png",
+    "tex/MI_OB_Pine_BaseColor.png",
+    "tex/MI_OB_SpottedMetal_BaseColor.png"
+  ]
+}
