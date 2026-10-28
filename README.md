@@ -65,6 +65,7 @@ The `packs/` folder contains 49 CC0-licensed medieval prop packs. Each pack incl
 | `openkit-medieval-env-b1` | Medieval environment pieces |
 | `openkit-mill-props-b1` | Mill and grinding equipment |
 | `openkit-mining-props-b1` | Mining tools and equipment |
+| `openkit-nail-maker-props-b1` | Nail-maker workshop props |
 | `openkit-outdoor-props-b1` | Outdoor decorations |
 | `openkit-peg-maker-props-b1` | Peg/trenail maker workshop props |
 | `openkit-pottery-props-b1` | Pottery and ceramics |
@@ -73,6 +74,7 @@ The `packs/` folder contains 49 CC0-licensed medieval prop packs. Each pack incl
 | `openkit-rushlight-maker-props-b1` | Rushlight-maker workshop props |
 | `openkit-shop-wall-b1` | Shop wall decorations |
 | `openkit-sign-post-b1` | Signs and posts |
+| `openkit-sieve-maker-props-b1` | Sieve-maker workshop props |
 | `openkit-smithy-tools-b1` | Blacksmith tools |
 | `openkit-stable-props-b1` | Stable equipment |
 | `openkit-stairs-ladder-b1` | Stairs and ladders |
