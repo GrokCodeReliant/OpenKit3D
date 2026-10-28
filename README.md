@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **122** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **124** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -51,6 +51,7 @@ The `packs/` folder contains **122** CC0-licensed medieval prop packs. Each pack
 | `openkit-cobbler-props-b1` | Cobbler/shoemaker props |
 | `openkit-comb-maker-props-b1` | Comb-maker workshop props |
 | `openkit-cooper-props-b1` | Cooper (barrel-maker) props |
+| `openkit-coppersmith-props-b1` | Coppersmith workshop props |
 | `openkit-crossbow-maker-props-b1` | Crossbow-maker workshop props |
 | `openkit-cutler-props-b1` | Cutler (knife-maker) workshop props |
 | `openkit-dock-harbor-b1` | Dock and harbor props |
@@ -65,6 +66,7 @@ The `packs/` folder contains **122** CC0-licensed medieval prop packs. Each pack
 | `openkit-foundry-props-b1` | Foundry (casting) workshop props |
 | `openkit-furniture-extras-b1` | Additional furniture pieces |
 | `openkit-fuller-props-b1` | Fuller (cloth finishing) workshop props |
+| `openkit-gilder-props-b1` | Gilder workshop props |
 | `openkit-glassblower-props-b1` | Glassblower workshop props |
 | `openkit-glazier-props-b1` | Glazier workshop props |
 | `openkit-glove-maker-props-b1` | Glove-maker workshop props |

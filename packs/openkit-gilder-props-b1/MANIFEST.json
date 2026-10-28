@@ -1,0 +1,113 @@
+{
+ "pack": "openkit-gilder-props-b1",
+ "license": "CC0-1.0",
+ "tool": "Blender 5.2.1 procedural bpy",
+ "units": "1 m",
+ "pivot": "bottom_centre (0,0,0), all laid flat",
+ "fbx": "materials slots-only, path_mode STRIP, no embedded textures",
+ "renames": [],
+ "assets": [
+  {
+   "name": "prop-gold-leaf-book",
+   "tris": 60,
+   "dims_xyz_m": [
+    0.125,
+    0.117,
+    0.013
+   ],
+   "bbox_min": [
+    -0.062,
+    -0.058,
+    0.0
+   ],
+   "materials": [
+    "M_Paper_Rouge",
+    "M_Gold_Leaf",
+    "M_Paper_Spine"
+   ],
+   "height_m": 0.01,
+   "pivot": "bottom_centre (0,0,0); laid thin booklet of gold leaf: soft rouge-paper covers, gold leaf block, stitched spine, top cover lifted"
+  },
+  {
+   "name": "prop-bole-cake",
+   "tris": 64,
+   "dims_xyz_m": [
+    0.12,
+    0.09,
+    0.032
+   ],
+   "bbox_min": [
+    -0.06,
+    -0.045,
+    0.0
+   ],
+   "materials": [
+    "M_Bole_Red",
+    "M_Bole_Wet",
+    "M_Paper_Rouge"
+   ],
+   "height_m": 0.032,
+   "pivot": "bottom_centre (0,0,0); laid red Armenian bole clay cake on waxed paper with broken chunk and worn wet dip"
+  },
+  {
+   "name": "prop-agate-burnisher",
+   "tris": 88,
+   "dims_xyz_m": [
+    0.024,
+    0.218,
+    0.024
+   ],
+   "bbox_min": [
+    -0.012,
+    -0.109,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Beech",
+    "M_Brass",
+    "M_Agate"
+   ],
+   "height_m": 0.026,
+   "pivot": "bottom_centre (0,0,0); laid short agate burnisher: turned wood handle, brass ferrule, polished agate dog-tooth stone"
+  },
+  {
+   "name": "prop-gilder-cushion",
+   "tris": 60,
+   "dims_xyz_m": [
+    0.26,
+    0.151,
+    0.1
+   ],
+   "bbox_min": [
+    -0.13,
+    -0.076,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Beech",
+    "M_Leather_Buff",
+    "M_Paper_Rouge",
+    "M_Gold_Leaf"
+   ],
+   "height_m": 0.1,
+   "pivot": "bottom_centre (0,0,0); laid low leather-topped gilder's cushion on wood board with parchment draught screen and a leaf sheet"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-agate-burnisher.fbx",
+  "fbx/prop-bole-cake.fbx",
+  "fbx/prop-gilder-cushion.fbx",
+  "fbx/prop-gold-leaf-book.fbx",
+  "tex/T_Agate_BaseColor.png",
+  "tex/T_Bole_Red_BaseColor.png",
+  "tex/T_Gold_Leaf_BaseColor.png",
+  "tex/T_Leather_Buff_BaseColor.png",
+  "tex/T_Paper_Rouge_BaseColor.png",
+  "tex/T_Wood_Beech_BaseColor.png"
+ ]
+}
