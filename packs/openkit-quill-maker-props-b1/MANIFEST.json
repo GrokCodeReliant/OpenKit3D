@@ -1,0 +1,135 @@
+{
+ "pack": "openkit-quill-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures; FBX path_mode STRIP; image datablocks removed before export)",
+ "max_tris": 210,
+ "renames": {
+  "prop-quill-knife": "prop-quill-knife-qm1 (pre-suffixed per brief; avoids knife family)",
+  "prop-sand-shaker": "prop-sand-shaker-qm1 (prop-sand-shaker exists)"
+ },
+ "collision_check": "Searched studio/art/openkit-*/fbx for quill|ink-horn|inkhorn|sand|penknife|pounce|nib|knife: hits prop-inkwell-quill, prop-sand-shaker (taken -> -qm1), prop-hoof-knife, prop-scraping-knife(-hw1). No quill-barrel, quill-knife, ink-horn ids. No openkit-quill-maker pack existed -> no peg-maker pivot.",
+ "judgment_calls": [
+  "Quill-maker not covered -> no pivot",
+  "Bundle: 7 bare 4-seg barrels + untrimmed flat vane cards + twine band; no nibs/ink so not the scribe kit (196 tris, highest)",
+  "Knife: tiny 0.13 m spear-point penknife w/ brass ferrule, distinct from hoof/scraping knives",
+  "Ink-horn blank: solid sawn horn cup, unbored, with trim stub; differs from curved horn-blank-pair and finished inkwell",
+  "Sand shaker: turned pewter waisted pounce pot w/ 6 hole studs; distinct from existing prop-sand-shaker by shape/material (could not view that one's design in detail)",
+  "Workbench renders; flat BaseColor PNGs in tex/ not linked; .blend holds last-built object only (pack pattern)"
+ ],
+ "assets": [
+  {
+   "name": "prop-quill-barrel-bundle",
+   "tris": 196,
+   "dims_xyz_m": [
+    0.038,
+    0.06,
+    0.26
+   ],
+   "bbox_min": [
+    -0.019,
+    -0.03,
+    0.0
+   ],
+   "materials": [
+    "M_Quill",
+    "M_Feather",
+    "M_Twine"
+   ],
+   "height_m": 0.26,
+   "pivot": "bottom_centre (0,0,0) under the barrel ends; 7 uncut goose quill barrels standing upright, feathers untrimmed, tied with one twine band; no nibs cut, no ink",
+   "fbx": "fbx/prop-quill-barrel-bundle.fbx",
+   "sha256": "d0b495e189edc9cf561af0415ac3fa1d7b9d7f03f7480a28d4857bc3ff3c8c04"
+  },
+  {
+   "name": "prop-quill-knife-qm1",
+   "tris": 64,
+   "dims_xyz_m": [
+    0.129,
+    0.014,
+    0.016
+   ],
+   "bbox_min": [
+    -0.064,
+    -0.007,
+    0.0
+   ],
+   "materials": [
+    "M_Steel",
+    "M_Boxwood",
+    "M_Brass"
+   ],
+   "height_m": 0.016,
+   "pivot": "bottom_centre (0,0,0) lying flat; 0.135 m penknife for cutting nibs: short spear blade, brass ferrule, turned boxwood handle",
+   "fbx": "fbx/prop-quill-knife-qm1.fbx",
+   "sha256": "3e9d642fa0895afde59ac80dc4c551bce4b050163c86dd4179d254bac5d38594"
+  },
+  {
+   "name": "prop-ink-horn-blank",
+   "tris": 88,
+   "dims_xyz_m": [
+    0.085,
+    0.072,
+    0.076
+   ],
+   "bbox_min": [
+    -0.043,
+    -0.036,
+    0.0
+   ],
+   "materials": [
+    "M_Horn_Raw",
+    "M_Horn_Core"
+   ],
+   "height_m": 0.076,
+   "pivot": "bottom_centre (0,0,0); 75 mm sawn horn section for an ink-horn, solid core not yet bored, rough stub on side; no lid, ink, quill or rim finish",
+   "fbx": "fbx/prop-ink-horn-blank.fbx",
+   "sha256": "912c4810f452cc95233938aa6eabfce2bca00e5922abc6cd84221c820416107d"
+  },
+  {
+   "name": "prop-sand-shaker-qm1",
+   "tris": 168,
+   "dims_xyz_m": [
+    0.06,
+    0.06,
+    0.076
+   ],
+   "bbox_min": [
+    -0.03,
+    -0.03,
+    0.0
+   ],
+   "materials": [
+    "M_Pewter",
+    "M_Dark"
+   ],
+   "height_m": 0.076,
+   "pivot": "bottom_centre (0,0,0); 75 mm turned pewter pounce/sand shaker, waisted body, dished top with 6 pierced holes",
+   "fbx": "fbx/prop-sand-shaker-qm1.fbx",
+   "sha256": "a2f3725c78b626276ab330ad11cfd90ccfcf5c0b409583cdcfb93d1af0129d4a"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-ink-horn-blank.fbx",
+  "fbx/prop-quill-barrel-bundle.fbx",
+  "fbx/prop-quill-knife-qm1.fbx",
+  "fbx/prop-sand-shaker-qm1.fbx",
+  "tex/T_Boxwood_BaseColor.png",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Dark_BaseColor.png",
+  "tex/T_Feather_BaseColor.png",
+  "tex/T_Horn_Core_BaseColor.png",
+  "tex/T_Horn_Raw_BaseColor.png",
+  "tex/T_Pewter_BaseColor.png",
+  "tex/T_Quill_BaseColor.png",
+  "tex/T_Steel_BaseColor.png",
+  "tex/T_Twine_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)"
+}
