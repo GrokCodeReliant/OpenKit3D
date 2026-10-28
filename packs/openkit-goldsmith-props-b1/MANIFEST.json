@@ -1,0 +1,113 @@
+{
+ "pack": "openkit-goldsmith-props-b1",
+ "license": "CC0-1.0",
+ "tool": "Blender 5.2.1 procedural bpy",
+ "units": "1 m",
+ "up": "Z (Blender) / FBX axis_up Y",
+ "fbx_notes": "material slots only, path_mode STRIP, no embedded or linked textures",
+ "collisions": "none; all four target names unique under studio/art; no renames",
+ "distinct_from": [
+  "crucible-blank-fd1",
+  "swage-block-small",
+  "scrap-silver-tray",
+  "pewter-ingot-tray"
+ ],
+ "assets": [
+  {
+   "name": "prop-touchstone",
+   "tris": 132,
+   "dims_xyz_m": [
+    0.09,
+    0.054,
+    0.014
+   ],
+   "bbox_min": [
+    -0.045,
+    -0.027,
+    0.0
+   ],
+   "materials": [
+    "M_Stone_Basanite",
+    "M_Gold"
+   ],
+   "height_m": 0.015,
+   "pivot": "bottom_centre (0,0,0); laid oval black basanite touchstone with three rubbed gold assay streaks"
+  },
+  {
+   "name": "prop-dapping-block",
+   "tris": 124,
+   "dims_xyz_m": [
+    0.06,
+    0.06,
+    0.041
+   ],
+   "bbox_min": [
+    -0.03,
+    -0.03,
+    0.0
+   ],
+   "materials": [
+    "M_Brass",
+    "M_Brass_Dish"
+   ],
+   "height_m": 0.041,
+   "pivot": "bottom_centre (0,0,0); standing brass dapping cube with four graded hemispherical depressions on top face"
+  },
+  {
+   "name": "prop-cupel-blank",
+   "tris": 100,
+   "dims_xyz_m": [
+    0.044,
+    0.042,
+    0.02
+   ],
+   "bbox_min": [
+    -0.022,
+    -0.021,
+    0.0
+   ],
+   "materials": [
+    "M_Bone_Ash",
+    "M_Silver"
+   ],
+   "height_m": 0.02,
+   "pivot": "bottom_centre (0,0,0); standing small flared bone-ash cupel, shallow porous cup with a silver prill bead"
+  },
+  {
+   "name": "prop-ring-blank-tray",
+   "tris": 158,
+   "dims_xyz_m": [
+    0.106,
+    0.106,
+    0.012
+   ],
+   "bbox_min": [
+    -0.053,
+    -0.053,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Walnut",
+    "M_Gold"
+   ],
+   "height_m": 0.012,
+   "pivot": "bottom_centre (0,0,0); laid shallow square wood tray holding three plain gold ring blanks"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-cupel-blank.fbx",
+  "fbx/prop-dapping-block.fbx",
+  "fbx/prop-ring-blank-tray.fbx",
+  "fbx/prop-touchstone.fbx",
+  "tex/T_Bone_Ash_BaseColor.png",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Gold_BaseColor.png",
+  "tex/T_Stone_Basanite_BaseColor.png",
+  "tex/T_Wood_Walnut_BaseColor.png"
+ ]
+}
