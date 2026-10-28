@@ -1,0 +1,112 @@
+{
+ "pack": "openkit-last-finisher-props-b1",
+ "license": "CC0-1.0",
+ "units": "metric, 1 BU = 1 m",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": "All 4 names absent from existing prop-*.fbx under studio art (checked rasp/burnish/stamp/heel: prop-file-rasp-st1, prop-rasp-blank-ss1, prop-agate-burnisher, prop-heel-lift-blank exist; no clash with -lf1 names)",
+ "judgment_calls": [
+  "Rasp modelled as flat steel blade + 6-sided wood handle; teeth implied by dark rough material, not geometry",
+  "Heel iron is a thin U-shaped iron plate (3 boxes) to read distinct from wood heel-lift blank",
+  "Size stamp: tapered hex punch + square striking head; numeral not modelled",
+  "BaseColor PNGs are flat swatches shipped in tex/, not linked in FBX"
+ ],
+ "assets": [
+  {
+   "name": "prop-last-rasp-lf1",
+   "file": "fbx/prop-last-rasp-lf1.fbx",
+   "tris": 32,
+   "dims_xyz_m": [
+    0.3,
+    0.032,
+    0.0242
+   ],
+   "bbox_min": [
+    -0.15,
+    -0.016,
+    0.0
+   ],
+   "materials": [
+    "mat_lf1_hardwood",
+    "mat_lf1_rasp_steel"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Coarse half-flat rasp/float for shaping and smoothing a carved wooden last surface; wood handle."
+  },
+  {
+   "name": "prop-burnishing-stick-lf1",
+   "file": "fbx/prop-burnishing-stick-lf1.fbx",
+   "tris": 20,
+   "dims_xyz_m": [
+    0.0156,
+    0.018,
+    0.18
+   ],
+   "bbox_min": [
+    -0.0078,
+    -0.009,
+    0.0
+   ],
+   "materials": [
+    "mat_lf1_bone"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Short tapered bone burnishing stick for polishing a finished last."
+  },
+  {
+   "name": "prop-heel-iron-lf1",
+   "file": "fbx/prop-heel-iron-lf1.fbx",
+   "tris": 36,
+   "dims_xyz_m": [
+    0.06,
+    0.071,
+    0.004
+   ],
+   "bbox_min": [
+    -0.03,
+    -0.0355,
+    0.0
+   ],
+   "materials": [
+    "mat_lf1_iron"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Small U-shaped iron heel plate / finishing iron fitted to the heel of a last."
+  },
+  {
+   "name": "prop-size-stamp-lf1",
+   "file": "fbx/prop-size-stamp-lf1.fbx",
+   "tris": 32,
+   "dims_xyz_m": [
+    0.02,
+    0.02,
+    0.1
+   ],
+   "bbox_min": [
+    -0.01,
+    -0.01,
+    0.0
+   ],
+   "materials": [
+    "mat_lf1_iron"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Iron size-mark punch with tapered numeral tip and striking head, for numbering lasts."
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-burnishing-stick-lf1.fbx",
+  "fbx/prop-heel-iron-lf1.fbx",
+  "fbx/prop-last-rasp-lf1.fbx",
+  "fbx/prop-size-stamp-lf1.fbx",
+  "tex/mat_lf1_bone_basecolor.png",
+  "tex/mat_lf1_hardwood_basecolor.png",
+  "tex/mat_lf1_iron_basecolor.png",
+  "tex/mat_lf1_rasp_steel_basecolor.png"
+ ]
+}
