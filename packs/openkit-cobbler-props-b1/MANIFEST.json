@@ -1,0 +1,130 @@
+{
+  "pack": "openkit-cobbler-props-b1",
+  "license": "CC0-1.0",
+  "units": "1 m",
+  "up": "Z (Blender) / Y (FBX)",
+  "materials_mode": "slots-only (no embedded/linked textures; FBX path_mode STRIP; image datablocks removed before export)",
+  "max_tris": 210,
+  "renames": {},
+  "collision_check": "No exact id hits for prop-shoe-last, prop-cobbler-awl, prop-boot-unfinished, prop-leather-scrap-pile in studio/art/openkit-*/fbx, okm4, openkit-dnd, or any CATALOG.md. Near-names: prop-boots-leather / prop-gloves-leather / token-cobbler (2D, openkit-dnd/CATALOG), prop-horseshoe-wall (stable) -- different objects. Clear of tile-dojo-*, WPN_*/B01, practice-banner, wall-dress.",
+  "judgment_calls": [
+    "prop-shoe-last: freestanding foot-shaped last (no stand) to stay 92 tris; pale wood distinguishes it from dark tool handles",
+    "prop-cobbler-awl: short bulb-handle stitching awl with 4-sided needle spike, 0.17 m -- far smaller/finer than smithy punches/hammers; not a tailor needle",
+    "prop-boot-unfinished: single tan upper on oversize loose sole with open waxed-thread seam; kept distinct from openkit-dnd 2D prop-boots-leather (finished pair) -- id differs, no rename",
+    "prop-leather-scrap-pile: flat layered offcuts + lacing strip, 4 cm tall -- not a sack/crate/cloth bolt",
+    ".blend holds only last built object (pack pattern); src/build.py regenerates all"
+  ],
+  "assets": [
+    {
+      "name": "prop-shoe-last",
+      "tris": 92,
+      "dims_xyz_m": [
+        0.25,
+        0.081,
+        0.135
+      ],
+      "bbox_min": [
+        -0.125,
+        -0.041,
+        0.0
+      ],
+      "materials": [
+        "M_Wood_Pale",
+        "M_Wood_Dark"
+      ],
+      "height_m": 0.135,
+      "pivot": "bottom_centre (0,0,0) on floor; freestanding 0.25 m pale-wood foot last lying sole-down, toe toward +X, dark ankle peg at heel top",
+      "fbx": "fbx/prop-shoe-last.fbx",
+      "render": "renders/prop-shoe-last.png",
+      "sha256": "9a9277857a02f1cad6fa61e2c54b0c33836d3b12fe5df3e58bb96f50d7ace6f9"
+    },
+    {
+      "name": "prop-cobbler-awl",
+      "tris": 60,
+      "dims_xyz_m": [
+        0.17,
+        0.032,
+        0.032
+      ],
+      "bbox_min": [
+        -0.085,
+        -0.016,
+        0.0
+      ],
+      "materials": [
+        "M_Wood_Dark",
+        "M_Iron"
+      ],
+      "height_m": 0.032,
+      "pivot": "bottom_centre (0,0,0) on floor; 0.17 m awl laid flat, short pear wood handle toward -X, slim iron spike toward +X",
+      "fbx": "fbx/prop-cobbler-awl.fbx",
+      "render": "renders/prop-cobbler-awl.png",
+      "sha256": "4f89f823ef780fca7389d15804eb5991a63b59388d923b2c2b168fa4ca794258"
+    },
+    {
+      "name": "prop-boot-unfinished",
+      "tris": 140,
+      "dims_xyz_m": [
+        0.26,
+        0.102,
+        0.25
+      ],
+      "bbox_min": [
+        -0.13,
+        -0.051,
+        0.0
+      ],
+      "materials": [
+        "M_Leather_Tan",
+        "M_Leather_Dark",
+        "M_Thread_Waxed"
+      ],
+      "height_m": 0.25,
+      "pivot": "bottom_centre (0,0,0) on floor; single stylized 0.26 m unfinished tan leather boot upper on loose dark sole, toe toward +X, open waxed-thread seam on -Y side",
+      "fbx": "fbx/prop-boot-unfinished.fbx",
+      "render": "renders/prop-boot-unfinished.png",
+      "sha256": "f0a28edcc7bd525fbea2ecaeb78741fcd95931c906f7840822d33180547cf500"
+    },
+    {
+      "name": "prop-leather-scrap-pile",
+      "tris": 96,
+      "dims_xyz_m": [
+        0.252,
+        0.187,
+        0.041
+      ],
+      "bbox_min": [
+        -0.126,
+        -0.093,
+        0.0
+      ],
+      "materials": [
+        "M_Leather_Tan",
+        "M_Leather_Dark",
+        "M_Thread_Waxed"
+      ],
+      "height_m": 0.041,
+      "pivot": "bottom_centre (0,0,0) on floor; loose 0.30 m heap of flat tan/dark leather offcuts with a strip of lacing on top",
+      "fbx": "fbx/prop-leather-scrap-pile.fbx",
+      "render": "renders/prop-leather-scrap-pile.png",
+      "sha256": "db811154185fe9a44dae8d1b4d1db0f386a5709fd28a5c9f7734bc4e3552bdfe"
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-boot-unfinished.fbx",
+    "fbx/prop-cobbler-awl.fbx",
+    "fbx/prop-leather-scrap-pile.fbx",
+    "fbx/prop-shoe-last.fbx",
+    "tex/T_Iron_BaseColor.png",
+    "tex/T_Leather_Dark_BaseColor.png",
+    "tex/T_Leather_Tan_BaseColor.png",
+    "tex/T_Thread_Waxed_BaseColor.png",
+    "tex/T_Wood_Dark_BaseColor.png",
+    "tex/T_Wood_Pale_BaseColor.png"
+  ]
+}
