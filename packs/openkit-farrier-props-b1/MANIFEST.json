@@ -1,0 +1,170 @@
+{
+  "pack": "openkit-farrier-props-b1",
+  "license": "CC0-1.0",
+  "unit": "1 unit = 1 m",
+  "export": "slots-only FBX (no image/video nodes); textures in tex/",
+  "tri_budget": 210,
+  "renamed": {
+    "prop-shoeing-hammer": "prop-shoeing-hammer-fr1"
+  },
+  "rename_reason": "pre-emptive distinction from prop-hammer-st1 (smithy-tools-b1)",
+  "distinct_from": {
+    "prop-shoeing-hammer-fr1": "prop-hammer-st1",
+    "prop-hoof-knife": "prop-file-rasp-st1, prop-scraping-knife (tanner)",
+    "prop-blank-horseshoe": "prop-horseshoe-wall (stable, wall display with nails)",
+    "prop-hoof-stand": "none (farrier-unique)"
+  },
+  "contact_sheet": "CONTACT_SHEET.png",
+  "assets": [
+    {
+      "name": "prop-hoof-stand",
+      "files": [
+        "fbx/prop-hoof-stand.fbx",
+        "tex/mat_iron_albedo.png",
+        "tex/mat_iron_normal.png",
+        "tex/mat_iron_ao.png",
+        "tex/mat_wood_dark_albedo.png",
+        "tex/mat_wood_dark_normal.png",
+        "tex/mat_wood_dark_ao.png",
+        "tex/mat_wood_oak_albedo.png",
+        "tex/mat_wood_oak_normal.png",
+        "tex/mat_wood_oak_ao.png",
+        "renders/prop-hoof-stand.png"
+      ],
+      "tris": 136,
+      "size_m": [
+        0.332,
+        0.582,
+        0.37
+      ],
+      "size_axes": "x,y(up),z (Unity)",
+      "materials": [
+        "Primary",
+        "Secondary",
+        "Post",
+        "Metal"
+      ],
+      "slot_textures": {
+        "Primary": "mat_wood_oak",
+        "Secondary": "mat_wood_dark",
+        "Post": "mat_wood_dark",
+        "Metal": "mat_iron"
+      },
+      "pivot": "bottom_centre: floor y=0, centred on post; cradle tilts along X",
+      "license": "CC0-1.0",
+      "origin": "original procedural (src/build_farrier_props_b1.py)"
+    },
+    {
+      "name": "prop-shoeing-hammer-fr1",
+      "files": [
+        "fbx/prop-shoeing-hammer-fr1.fbx",
+        "tex/mat_iron_albedo.png",
+        "tex/mat_iron_normal.png",
+        "tex/mat_iron_ao.png",
+        "tex/mat_wood_oak_albedo.png",
+        "tex/mat_wood_oak_normal.png",
+        "tex/mat_wood_oak_ao.png",
+        "renders/prop-shoeing-hammer-fr1.png"
+      ],
+      "tris": 84,
+      "size_m": [
+        0.301,
+        0.034,
+        0.125
+      ],
+      "size_axes": "x,y(up),z (Unity)",
+      "materials": [
+        "Primary",
+        "Metal",
+        "Wedge"
+      ],
+      "slot_textures": {
+        "Primary": "mat_wood_oak",
+        "Metal": "mat_iron",
+        "Wedge": "mat_iron"
+      },
+      "pivot": "bottom_centre: lying flat on floor y=0, centred on bbox; handle along X, head at +X",
+      "license": "CC0-1.0",
+      "origin": "original procedural (src/build_farrier_props_b1.py)"
+    },
+    {
+      "name": "prop-hoof-knife",
+      "files": [
+        "fbx/prop-hoof-knife.fbx",
+        "tex/mat_iron_albedo.png",
+        "tex/mat_iron_normal.png",
+        "tex/mat_iron_ao.png",
+        "tex/mat_wood_dark_albedo.png",
+        "tex/mat_wood_dark_normal.png",
+        "tex/mat_wood_dark_ao.png",
+        "renders/prop-hoof-knife.png"
+      ],
+      "tris": 116,
+      "size_m": [
+        0.228,
+        0.026,
+        0.05
+      ],
+      "size_axes": "x,y(up),z (Unity)",
+      "materials": [
+        "Primary",
+        "Metal",
+        "Ferrule"
+      ],
+      "slot_textures": {
+        "Primary": "mat_wood_dark",
+        "Metal": "mat_iron",
+        "Ferrule": "mat_iron"
+      },
+      "pivot": "bottom_centre: lying flat on floor y=0, centred on bbox; handle -X, hook +X",
+      "license": "CC0-1.0",
+      "origin": "original procedural (src/build_farrier_props_b1.py)"
+    },
+    {
+      "name": "prop-blank-horseshoe",
+      "files": [
+        "fbx/prop-blank-horseshoe.fbx",
+        "tex/mat_iron_albedo.png",
+        "tex/mat_iron_normal.png",
+        "tex/mat_iron_ao.png",
+        "renders/prop-blank-horseshoe.png"
+      ],
+      "tris": 92,
+      "size_m": [
+        0.135,
+        0.012,
+        0.101
+      ],
+      "size_axes": "x,y(up),z (Unity)",
+      "materials": [
+        "Metal"
+      ],
+      "slot_textures": {
+        "Metal": "mat_iron"
+      },
+      "pivot": "bottom_centre: lying flat on floor y=0, centred; toe toward front",
+      "license": "CC0-1.0",
+      "origin": "original procedural (src/build_farrier_props_b1.py)"
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-blank-horseshoe.fbx",
+    "fbx/prop-hoof-knife.fbx",
+    "fbx/prop-hoof-stand.fbx",
+    "fbx/prop-shoeing-hammer-fr1.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_ao.png",
+    "tex/mat_wood_oak_normal.png"
+  ]
+}
