@@ -1,0 +1,95 @@
+{
+ "pack": "openkit-hinge-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres (1 BU = 1 m)",
+ "tool": "Blender 5.2.1 (procedural bpy, src/build.py)",
+ "renames": [],
+ "collision_check": "All 4 names absent from existing prop-*.fbx under studio art tree; avoided prop-hinge-leather-strip-bm1 and prop-snuffer-hinge-pin-cs2; no strap-hinge or pintle names existed.",
+ "judgment_calls": [
+  "Knuckle blank is an open-ended tube (no caps) to read as a barrel blank, 16 tris.",
+  "Hinge pin lies along X; nail punch stands tip-down; knuckle stands upright.",
+  "Flat-colour 64px BaseColor PNGs shipped in tex/; FBX carries material slots only."
+ ],
+ "assets": [
+  {
+   "name": "prop-strap-hinge-leaf-hm2",
+   "file": "fbx/prop-strap-hinge-leaf-hm2.fbx",
+   "tris": 32,
+   "dims_xyz_m": [
+    0.2878,
+    0.045,
+    0.018
+   ],
+   "bbox_min": [
+    -0.1439,
+    -0.0225,
+    0.0
+   ],
+   "materials": [
+    "mat_wrought_iron"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Single flat wrought-iron strap-hinge leaf blank: rectangular plate 0.28 x 0.045 x 0.006 m with a capped 6-sided rolled knuckle barrel (r 0.009 m) across one end."
+  },
+  {
+   "name": "prop-hinge-knuckle-blank-hm2",
+   "file": "fbx/prop-hinge-knuckle-blank-hm2.fbx",
+   "tris": 16,
+   "dims_xyz_m": [
+    0.024,
+    0.024,
+    0.05
+   ],
+   "bbox_min": [
+    -0.012,
+    -0.012,
+    0.0
+   ],
+   "materials": [
+    "mat_wrought_iron"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Short open-ended 8-sided wrought-iron knuckle tube blank, 0.05 m tall, radius 0.012 m, standing upright."
+  },
+  {
+   "name": "prop-hinge-pin-blank-hm2",
+   "file": "fbx/prop-hinge-pin-blank-hm2.fbx",
+   "tris": 20,
+   "dims_xyz_m": [
+    0.14,
+    0.009,
+    0.0078
+   ],
+   "bbox_min": [
+    -0.07,
+    -0.0045,
+    0.0
+   ],
+   "materials": [
+    "mat_wrought_iron"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Plain capped 6-sided wrought-iron hinge pin blank rod, 0.14 m long, radius 0.0045 m, lying along X."
+  },
+  {
+   "name": "prop-hinge-nail-punch-hm2",
+   "file": "fbx/prop-hinge-nail-punch-hm2.fbx",
+   "tris": 20,
+   "dims_xyz_m": [
+    0.0139,
+    0.016,
+    0.09
+   ],
+   "bbox_min": [
+    -0.00693,
+    -0.008,
+    0.0
+   ],
+   "materials": [
+    "mat_tool_steel"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Short tapered 6-sided tool-steel nail punch, 0.09 m tall, capped flat head r 0.008 m tapering to flat tip r 0.0025 m, standing tip-down."
+  }
+ ]
+}
