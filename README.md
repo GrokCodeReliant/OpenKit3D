@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **108** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **110** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -94,6 +94,7 @@ The `packs/` folder contains **108** CC0-licensed medieval prop packs. Each pack
 | `openkit-quill-maker-props-b1` | Quill/pen-maker workshop props |
 | `openkit-roof-tiles-b1` | Roof tiles and materials |
 | `openkit-rushlight-maker-props-b1` | Rushlight-maker workshop props |
+| `openkit-sailmaker-props-b1` | Sailmaker workshop props |
 | `openkit-sawyer-props-b1` | Sawyer (pit-saw) workshop props |
 | `openkit-scabbard-maker-props-b1` | Scabbard-maker workshop props |
 | `openkit-seal-engraver-props-b1` | Seal-engraver workshop props |
@@ -111,6 +112,7 @@ The `packs/` folder contains **108** CC0-licensed medieval prop packs. Each pack
 | `openkit-tavern-dressing-b1` | Tavern decorations |
 | `openkit-tent-maker-props-b1` | Tent-maker workshop props |
 | `openkit-tiler-props-b1` | Tiler workshop props |
+| `openkit-turner-props-b1` | Turner / lathe workshop props |
 | `openkit-ui-frames-b1` | UI frame elements |
 | `openkit-wall-dress-b1` | Wall decorations |
 | `openkit-well-water-b1` | Wells and water props |

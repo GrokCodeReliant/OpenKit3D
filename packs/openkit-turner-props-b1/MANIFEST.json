@@ -1,0 +1,114 @@
+{
+ "pack": "openkit-turner-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "No openkit-turner/brushmaker/painter/bellfounder/matmaker packs existed. No gouge/drive-center/scrap-bowl in any openkit-*/fbx. Nearest: button-maker prop-button-lathe-bow (bow lathe, tiny), prop-bowl-wood/prop-tasting-bowl (finished bowls; ours is rough green blank with tenon). -tu1 suffix kept on lathe & gouge per brief.",
+ "judgment_calls": [
+  "Pole omitted from lathe; treadle+cord implies it, keeps 140 tris",
+  "Gouges laid on leather roll",
+  "Eye-check v1 passed"
+ ],
+ "assets": [
+  {
+   "name": "prop-lathe-blank-tu1",
+   "tris": 140,
+   "dims_xyz_m": [
+    1.2,
+    0.38,
+    0.54
+   ],
+   "bbox_min": [
+    -0.6,
+    -0.19,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron_Forged",
+    "M_Wood_Green",
+    "M_Twine_Waxed"
+   ],
+   "height_m": 0.53,
+   "pivot": "bottom_centre (0,0,0); 1.2 m low-poly pole/treadle lathe bed: twin oak rails on trestles, head/tail poppets, iron tool rest, a rough billet between centres and a treadle board with drive cord (pole omitted)"
+  },
+  {
+   "name": "prop-gouge-set-tu1",
+   "tris": 148,
+   "dims_xyz_m": [
+    0.46,
+    0.16,
+    0.036
+   ],
+   "bbox_min": [
+    -0.23,
+    -0.08,
+    0.0
+   ],
+   "materials": [
+    "M_Leather_Tan",
+    "M_Wood_Oak",
+    "M_Iron_Forged"
+   ],
+   "height_m": 0.04,
+   "pivot": "laid / bottom_centre (0,0,0); two long-handled turning gouges (roughing + spindle) with ash handles and iron ferrules laid on a leather tool roll"
+  },
+  {
+   "name": "prop-drive-center-blank",
+   "tris": 112,
+   "dims_xyz_m": [
+    0.2,
+    0.1,
+    0.057
+   ],
+   "bbox_min": [
+    -0.1,
+    -0.05,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron_Forged",
+    "M_Iron_Dark"
+   ],
+   "height_m": 0.06,
+   "pivot": "laid / bottom_centre (0,0,0); forged four-spur lathe drive centre with tapered shank resting on an oak block"
+  },
+  {
+   "name": "prop-scrap-bowl-blank",
+   "tris": 112,
+   "dims_xyz_m": [
+    0.26,
+    0.26,
+    0.112
+   ],
+   "bbox_min": [
+    -0.13,
+    -0.13,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Green"
+   ],
+   "height_m": 0.11,
+   "pivot": "bottom_centre (0,0,0); 26 cm rough-turned green-wood bowl blank, octagonal faceted outside, foot tenon, shallow rough hollow"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-drive-center-blank.fbx",
+  "fbx/prop-gouge-set-tu1.fbx",
+  "fbx/prop-lathe-blank-tu1.fbx",
+  "fbx/prop-scrap-bowl-blank.fbx",
+  "tex/T_Leather_Tan_BaseColor.png",
+  "tex/T_Wood_Green_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ]
+}
