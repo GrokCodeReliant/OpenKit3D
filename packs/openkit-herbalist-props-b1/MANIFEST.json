@@ -1,0 +1,132 @@
+{
+  "pack": "openkit-herbalist-props-b1",
+  "license": "CC0-1.0",
+  "units": "1 m",
+  "up": "Z (Blender) / Y (FBX)",
+  "materials_mode": "slots-only (no embedded/linked textures, path_mode STRIP)",
+  "max_tris": 210,
+  "renames": {},
+  "collision_check": "No hits for prop-drying-herb-pole / prop-apothecary-jar-row / prop-herb-cutting-slab / prop-root-basket across studio/art/openkit-*/fbx (no openkit-dnd or CATALOG.md present). Distinct from alchemy prop-herb-rack-hang/prop-potion-bottle, shop-wall prop-herb-bundle, kitchen prop-jar-crock/prop-cutting-board, beekeeper prop-honey-jar, brewery prop-hop-basket.",
+  "judgment_calls": [
+    "All pivots bottom_centre (bbox-centre XY, min Z=0)",
+    "drying-herb-pole: freestanding twin A-frame (no wall), 3 cone clumps on twine",
+    "jar-row: 6-seg jars to stay under 210 (156 tris)",
+    "cutting-slab: 0.12 m thick + stubby feet + small blade, vs thin kitchen board",
+    "root-basket: tapered roots + boxy ginger lumps in 8-seg wicker tray",
+    "Renders are Workbench material-colour previews; tex/ flat-noise BaseColor PNGs not referenced by FBX"
+  ],
+  "assets": [
+    {
+      "name": "prop-drying-herb-pole",
+      "tris": 168,
+      "dims_xyz_m": [
+        1.0,
+        0.355,
+        0.973
+      ],
+      "bbox_min": [
+        -0.5,
+        -0.177,
+        0.0
+      ],
+      "materials": [
+        "M_Wood_Oak",
+        "M_Wood_Dark",
+        "M_Twine",
+        "M_Herb_Dry"
+      ],
+      "height_m": 0.97,
+      "pivot": "bottom_centre (0,0,0) on floor; freestanding twin A-frame stand, 1.0 m crossbar along X with 3 dried stem clumps hung on twine, axis +Z",
+      "fbx": "fbx/prop-drying-herb-pole.fbx",
+      "sha256": "558b3d441e86b413a71515137cfecfe2c0c968c588eea8f554fdeb3dcd8d5515"
+    },
+    {
+      "name": "prop-apothecary-jar-row",
+      "tris": 156,
+      "dims_xyz_m": [
+        0.62,
+        0.16,
+        0.285
+      ],
+      "bbox_min": [
+        -0.31,
+        -0.08,
+        0.0
+      ],
+      "materials": [
+        "M_Wood_Oak",
+        "M_Ceramic",
+        "M_Ceramic_Glaze",
+        "M_Wood_Dark"
+      ],
+      "height_m": 0.3,
+      "pivot": "bottom_centre (0,0,0) on shelf/floor; 0.62 m plank with three stoppered ceramic jars (short/tall/squat) in a row along X, axis +Z",
+      "fbx": "fbx/prop-apothecary-jar-row.fbx",
+      "sha256": "9a4cb20d6e1a6e204f9416de3f3f3648c56ec402ba98a93ecba926b8c3f2d2ce"
+    },
+    {
+      "name": "prop-herb-cutting-slab",
+      "tris": 140,
+      "dims_xyz_m": [
+        0.55,
+        0.36,
+        0.196
+      ],
+      "bbox_min": [
+        -0.275,
+        -0.18,
+        0.0
+      ],
+      "materials": [
+        "M_Wood_Oak",
+        "M_Wood_Dark",
+        "M_Herb_Fresh",
+        "M_Root"
+      ],
+      "height_m": 0.17,
+      "pivot": "bottom_centre (0,0,0) on floor/table; 0.55x0.36x0.12 m thick footed prep slab, leaves + root pieces + small blade on top, axis +Z",
+      "fbx": "fbx/prop-herb-cutting-slab.fbx",
+      "sha256": "116a5c340c0fd9d2f468bbc2fe98fdf64a3a064a98dc95daf81b880693eb93ef"
+    },
+    {
+      "name": "prop-root-basket",
+      "tris": 180,
+      "dims_xyz_m": [
+        0.48,
+        0.48,
+        0.16
+      ],
+      "bbox_min": [
+        -0.24,
+        -0.24,
+        0.0
+      ],
+      "materials": [
+        "M_Wicker",
+        "M_Root",
+        "M_Root_Ginger"
+      ],
+      "height_m": 0.17,
+      "pivot": "bottom_centre (0,0,0) on floor; 0.48 m shallow wicker tray of tapered roots + knobbly rhizome lumps, axis +Z",
+      "fbx": "fbx/prop-root-basket.fbx",
+      "sha256": "59f46a04c41005a62bd080567bd018e66917d6395b84b2ac36ed12dc56af0a6c"
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-apothecary-jar-row.fbx",
+    "fbx/prop-drying-herb-pole.fbx",
+    "fbx/prop-herb-cutting-slab.fbx",
+    "fbx/prop-root-basket.fbx",
+    "tex/T_Ceramic_BaseColor.png",
+    "tex/T_Herb_Dry_BaseColor.png",
+    "tex/T_Root_BaseColor.png",
+    "tex/T_Wicker_BaseColor.png",
+    "tex/T_Wood_Dark_BaseColor.png",
+    "tex/T_Wood_Oak_BaseColor.png"
+  ]
+}
