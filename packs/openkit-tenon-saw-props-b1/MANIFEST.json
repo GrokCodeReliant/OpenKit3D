@@ -1,0 +1,96 @@
+{
+  "pack": "openkit-tenon-saw-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "all 4 names absent from every prop-*.fbx under the art tree; no existing prop-tenon-saw* / prop-backsaw*; -tn1 suffix unused. Nearest relative prop-dovetail-saw (assembled backsaw, cabinetmaker-b1) - these are separate component blanks.",
+  "judgment_calls": [
+    "blade is a solid untoothed strip with slight heel-to-toe taper (12 tris)",
+    "handle is a simple closed four-sided loop slab rather than a curved D-grip to stay at 32 tris",
+    "nut is a 5-sided prism to hit 16 tris; bbox-centred so pivot sits at bbox centre, not the pentagon's circumcentre",
+    "flat BaseColor PNGs shipped in tex/; FBX carries material slots only"
+  ],
+  "assets": [
+    {
+      "name": "prop-tenon-saw-blade-tn1",
+      "file": "fbx/prop-tenon-saw-blade-tn1.fbx",
+      "tris": 12,
+      "dims_xyz_m": [
+        0.3,
+        0.0008,
+        0.085
+      ],
+      "bbox_min": [
+        -0.15,
+        -0.0004,
+        0.0
+      ],
+      "materials": [
+        "mat_saw_steel"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "thin steel tenon-saw blade blank: solid flat strip 0.30 m long, 0.8 mm thick, no cut teeth; straight top spine edge, depth 85 mm at heel tapering to 70 mm at toe"
+    },
+    {
+      "name": "prop-tenon-saw-back-tn1",
+      "file": "fbx/prop-tenon-saw-back-tn1.fbx",
+      "tris": 12,
+      "dims_xyz_m": [
+        0.28,
+        0.006,
+        0.012
+      ],
+      "bbox_min": [
+        -0.14,
+        -0.003,
+        0.0
+      ],
+      "materials": [
+        "mat_saw_brass"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "brass spine/back blank: plain rectangular bar 280 x 6 x 12 mm that stiffens the blade top edge"
+    },
+    {
+      "name": "prop-tenon-saw-handle-tn1",
+      "file": "fbx/prop-tenon-saw-handle-tn1.fbx",
+      "tris": 32,
+      "dims_xyz_m": [
+        0.12,
+        0.022,
+        0.12
+      ],
+      "bbox_min": [
+        -0.06,
+        -0.011,
+        0.0
+      ],
+      "materials": [
+        "mat_saw_beech"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "beech closed-grip handle blank: flat slab (22 mm thick) of a slightly skewed four-sided loop with a four-sided through-hole for the hand"
+    },
+    {
+      "name": "prop-tenon-saw-nut-tn1",
+      "file": "fbx/prop-tenon-saw-nut-tn1.fbx",
+      "tris": 16,
+      "dims_xyz_m": [
+        0.0127,
+        0.0133,
+        0.004
+      ],
+      "bbox_min": [
+        -0.00633,
+        -0.00666,
+        0.0
+      ],
+      "materials": [
+        "mat_saw_brass"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "small brass saw-nut blank: low five-sided prism head (~13 mm across, 4 mm tall) that clamps the blade into the handle"
+    }
+  ]
+}
