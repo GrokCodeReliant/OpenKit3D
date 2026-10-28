@@ -1,0 +1,116 @@
+{
+ "pack": "openkit-book-clasp-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres (scale 1.0)",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": {
+  "method": "find <studio>/art -name 'prop-*.fbx' basenames sort -u before export",
+  "result": "all 4 base names free; nearest existing: prop-boss-blank, prop-buckle-blank, prop-strap-blank-roll, prop-grip-strap-blank"
+ },
+ "judgment_calls": [
+  "Strap rivet holes modelled as flush dark 6-gon inserts rather than cut-through holes; strap is 72 tris (over 40 preference, under 120/210).",
+  "Clasp hook represented as raised turned lip at plate end; hinge knuckle 6-seg cylinder along Y.",
+  "Corner boss dome is a half low UV-sphere (8x4) on an 8-seg base disc.",
+  "Contact sheet camera re-framed once (clipping/off-centre on first renders)."
+ ],
+ "assets": [
+  {
+   "name": "prop-book-clasp-blank",
+   "file": "fbx/prop-book-clasp-blank.fbx",
+   "tris": 64,
+   "dims_xyz_m": [
+    0.0526,
+    0.018,
+    0.006
+   ],
+   "bbox_min": [
+    -0.0263,
+    -0.009,
+    0.0
+   ],
+   "materials": [
+    "MAT_brass",
+    "MAT_dark"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Brass hinged book-clasp blank: hook plate with turned lip, hinge knuckle, rivet; laid flat."
+  },
+  {
+   "name": "prop-catch-plate-blank",
+   "file": "fbx/prop-catch-plate-blank.fbx",
+   "tris": 24,
+   "dims_xyz_m": [
+    0.03,
+    0.02,
+    0.006
+   ],
+   "bbox_min": [
+    -0.015,
+    -0.01,
+    0.0
+   ],
+   "materials": [
+    "MAT_bronze"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Bronze catch/strike plate blank with raised lip the clasp hooks onto."
+  },
+  {
+   "name": "prop-corner-boss-blank",
+   "file": "fbx/prop-corner-boss-blank.fbx",
+   "tris": 76,
+   "dims_xyz_m": [
+    0.045,
+    0.045,
+    0.0072
+   ],
+   "bbox_min": [
+    -0.0225,
+    -0.0225,
+    0.0
+   ],
+   "materials": [
+    "MAT_brass"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Brass L-shaped book-corner furniture blank with domed boss."
+  },
+  {
+   "name": "prop-clasp-strap-blank",
+   "file": "fbx/prop-clasp-strap-blank.fbx",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.07,
+    0.014,
+    0.0025
+   ],
+   "bbox_min": [
+    -0.035,
+    -0.007,
+    0.0
+   ],
+   "materials": [
+    "MAT_leather",
+    "MAT_dark"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Short leather clasp-carrying strap blank with punched rivet holes."
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-book-clasp-blank.fbx",
+  "fbx/prop-catch-plate-blank.fbx",
+  "fbx/prop-clasp-strap-blank.fbx",
+  "fbx/prop-corner-boss-blank.fbx",
+  "tex/T_brass_BaseColor.png",
+  "tex/T_bronze_BaseColor.png",
+  "tex/T_dark_BaseColor.png",
+  "tex/T_leather_BaseColor.png"
+ ]
+}
