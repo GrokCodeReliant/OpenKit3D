@@ -1,0 +1,124 @@
+{
+ "pack": "openkit-pouch-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "Searched all 180 openkit-*/fbx for pouch|drawstring|flap|eyelet|bag|rivet|cord|panel. Only hits were prop-rivet-anvil-hm1 and prop-lead-weight-bag. None of the 4 ids are taken, and no openkit-pouch* or openkit-hat* pack existed.",
+ "judgment_calls": [
+  "Panel and flap are flat undyed cutouts with chalk lines, an offcut tab, a scored crease, and an uncut slit. They are not sewn pouches and not icon-* glyphs",
+  "Cord coil is a thin 3 mm waxed drawstring coil with a whipped end and a beeswax cake. It is much finer than rope coils or twine balls",
+  "Tray is shallow and split into copper rivet and brass eyelet bays. It holds pouch fittings, not belt buckles or straps",
+  "Eye-check pass 1 found eyelets floating 3 mm above the tray floor, a panel rounded bottom offset by scaling, and chalk lines too long. All were fixed. Pass 2 shows no floating parts",
+  "Tray is 228 tris with lathed eyelets. Box eyelets bring it to 156"
+ ],
+ "assets": [
+  {
+   "name": "prop-pouch-panel-blank",
+   "tris": 88,
+   "dims_xyz_m": [
+    0.18,
+    0.142,
+    0.003
+   ],
+   "bbox_min": [
+    -0.09,
+    -0.071,
+    0.0
+   ],
+   "materials": [
+    "M_Leather_Undyed",
+    "M_Chalk"
+   ],
+   "height_m": 0.0038,
+   "pivot": "laid / bottom_centre (0,0,0); 14x12 cm unfinished undyed leather pouch panel cutout lying flat, chalk mouth + seam lines, untrimmed offcut tab +X",
+   "fbx_sha256": "aa9935332264d8fb5b08ac2a0d1b7c01e1c9efd5fa745bd12ada4998340496b2"
+  },
+  {
+   "name": "prop-drawstring-cord-coil",
+   "tris": 116,
+   "dims_xyz_m": [
+    0.137,
+    0.076,
+    0.017
+   ],
+   "bbox_min": [
+    -0.068,
+    -0.038,
+    0.0
+   ],
+   "materials": [
+    "M_Cord_Waxed",
+    "M_Beeswax"
+   ],
+   "height_m": 0.017,
+   "pivot": "bottom_centre (0,0,0); 8 cm flat coil of 3 mm waxed drawstring cord, loose whipped end to +X/-Y, small beeswax cake on top",
+   "fbx_sha256": "e5e5abc9bb000bb502d72886c05020dae90d3a7dae76d0f8c73fc7987a5be322"
+  },
+  {
+   "name": "prop-flap-blank",
+   "tris": 76,
+   "dims_xyz_m": [
+    0.11,
+    0.1,
+    0.003
+   ],
+   "bbox_min": [
+    -0.055,
+    -0.05,
+    0.0
+   ],
+   "materials": [
+    "M_Leather_Undyed",
+    "M_Chalk"
+   ],
+   "height_m": 0.0038,
+   "pivot": "laid / bottom_centre (0,0,0); 11x10 cm unfinished leather pouch flap blank lying flat, scored fold crease near +Y hinge edge, chalk-marked uncut toggle slit near rounded -Y tip",
+   "fbx_sha256": "d2bb8380f2cc36be1e0c4a3a8f81b1888192d6fee071f9d6f3b46ed1b126aef1"
+  },
+  {
+   "name": "prop-rivet-eyelet-tray",
+   "tris": 156,
+   "dims_xyz_m": [
+    0.16,
+    0.1,
+    0.028
+   ],
+   "bbox_min": [
+    -0.08,
+    -0.05,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Copper",
+    "M_Brass"
+   ],
+   "height_m": 0.028,
+   "pivot": "bottom_centre (0,0,0); 16x10 cm shallow oak tray with centre divider, copper pouch rivets left bay, brass eyelets right bay",
+   "fbx_sha256": "3d9c796d3961b794a0ccc2f42831733d5ec03ce169693c44acb66ab63155a0b7"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-drawstring-cord-coil.fbx",
+  "fbx/prop-flap-blank.fbx",
+  "fbx/prop-pouch-panel-blank.fbx",
+  "fbx/prop-rivet-eyelet-tray.fbx",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Chalk_BaseColor.png",
+  "tex/T_Copper_BaseColor.png",
+  "tex/T_Cord_BaseColor.png",
+  "tex/T_Leather_BaseColor.png",
+  "tex/T_Wax_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "All seven BaseColor PNGs in tex/ stay pack-local; all are byte-unique (any overlap with other packs is name-clash only). FBX files are slots-only; Unity maps textures by material slot. Optional mapping hint: M_Beeswax→T_Wax_BaseColor, M_Cord_Waxed→T_Cord_BaseColor, M_Leather_Undyed→T_Leather_BaseColor."
+}

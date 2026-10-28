@@ -1,0 +1,122 @@
+{
+ "pack": "openkit-belt-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-punch-block-bt1": "kept brief's -bt1 suffix (no bare prop-punch-block exists; suffix keeps it clearly separate from the leather-punch/eye-punch/chisel-punch tools)"
+ },
+ "collision_check": "Searched all openkit-*/fbx for belt|buckle|tip|chape|punch|strap|gauge|bevel. Hits were prop-girth-strap-roll, prop-grip-strap-blank, prop-chape-blank, prop-leather-punch-sd1, prop-eye-punch-die, prop-punch-link-die, prop-chisel-punch-st1, prop-punch-awl-sv1, prop-netting-gauge. None of the 4 ids are taken. No openkit-belt* pack existed.",
+ "judgment_calls": [
+  "Strap roll is a flat-wound 3.8 cm belt strap coil lying flat with a square-cut tail. The girth strap roll is a saddler roll and the leather wrap is a wide 24 cm cover panel on a Y-axis roll, so it does not repeat either",
+  "Buckle is a rough-cast frame with a centre bar but no tongue, plus a sprue and flash fin, so it reads as a blank and not as an inventory icon",
+  "Tip chape is a small folded flat strap-end with an open slot and an unfiled tip. The scabbard chape is a tapered hollow shell standing upright",
+  "Punch block is an end-grain stump with a strap offcut and punch scars. It is a work surface, not a punch tool",
+  "Contact-sheet eye-check pass 1 found a detached strap tail and detached sprues on the tip chape and buckle. These were moved to overlap. Pass 2 shows no floating parts"
+ ],
+ "assets": [
+  {
+   "name": "prop-strap-blank-roll",
+   "tris": 128,
+   "dims_xyz_m": [
+    0.285,
+    0.143,
+    0.04
+   ],
+   "bbox_min": [
+    -0.142,
+    -0.071,
+    0.0
+   ],
+   "materials": [
+    "M_Leather",
+    "M_Wood_Dark",
+    "M_Iron"
+   ],
+   "height_m": 0.04,
+   "pivot": "bottom_centre (0,0,0); flat-wound 15 cm coil of 3.8 cm wide undyed belt strap lying flat, rough square-cut tail out to +X/-Y, cord tie, chalk line"
+  },
+  {
+   "name": "prop-buckle-blank",
+   "tris": 84,
+   "dims_xyz_m": [
+    0.064,
+    0.053,
+    0.006
+   ],
+   "bbox_min": [
+    -0.032,
+    -0.027,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Brass"
+   ],
+   "height_m": 0.006,
+   "pivot": "bottom_centre (0,0,0); 5x5 cm rough-cast buckle frame blank lying flat, centre bar but no tongue, sprue stub +X, flash fin on +Y edge"
+  },
+  {
+   "name": "prop-tip-chape-blank",
+   "tris": 68,
+   "dims_xyz_m": [
+    0.078,
+    0.036,
+    0.007
+   ],
+   "bbox_min": [
+    -0.039,
+    -0.018,
+    0.0
+   ],
+   "materials": [
+    "M_Brass",
+    "M_Iron"
+   ],
+   "height_m": 0.007,
+   "pivot": "bottom_centre (0,0,0); 6.5 cm folded brass belt-end (strap tip) chape blank lying flat, open strap slot -X, unfiled rounded tip +X with cut-off nub, rivet holes undrilled"
+  },
+  {
+   "name": "prop-punch-block-bt1",
+   "tris": 104,
+   "dims_xyz_m": [
+    0.24,
+    0.24,
+    0.32
+   ],
+   "bbox_min": [
+    -0.12,
+    -0.12,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Leather",
+    "M_Soot"
+   ],
+   "height_m": 0.32,
+   "pivot": "bottom_centre (0,0,0); 30 cm end-grain oak punching stump (8-seg), leather strap offcut and punch-mark scars on top, lead pad"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-buckle-blank.fbx",
+  "fbx/prop-punch-block-bt1.fbx",
+  "fbx/prop-strap-blank-roll.fbx",
+  "fbx/prop-tip-chape-blank.fbx",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Leather_BaseColor.png",
+  "tex/T_Soot_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "All six BaseColor PNGs in tex/ stay pack-local; all are byte-unique (name-clash only with other packs). FBX files are slots-only; Unity maps textures by material slot."
+}
