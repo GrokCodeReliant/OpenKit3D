@@ -1,0 +1,122 @@
+{
+ "pack": "openkit-stonecutter-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-pitching-tool-stc1": "suffix per brief (-sc1 used elsewhere)"
+ },
+ "collision_check": "No openkit-stonecutter pack. No pitching/feather-wedge/banker/bush-hammer/stonecutter/quarry in any openkit-*/fbx. Mason has ashlar/chisel-point/mallet/plumb \u2014 not cloned.",
+ "judgment_calls": [
+  "Pitching tool = broad blunt edge + octagonal shank (vs mason point chisel)",
+  "Feather-wedge = 3 plug+feather sets on board",
+  "Banker = bench with sand bed + skewed rough unsquared blank (not ashlar)",
+  "Bush hammer = square head with 2x2 tooth grid; v2 fixed floating pitching shank"
+ ],
+ "assets": [
+  {
+   "name": "prop-pitching-tool-stc1",
+   "tris": 68,
+   "dims_xyz_m": [
+    0.261,
+    0.032,
+    0.032
+   ],
+   "bbox_min": [
+    -0.131,
+    -0.016,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron_Forged",
+    "M_Iron_Dark"
+   ],
+   "height_m": 0.032,
+   "pivot": "laid / bottom_centre (0,0,0); 25 cm pitching tool: octagonal shank, broad flat blunt edge for knocking off waste, mushroomed head; not a mason point chisel"
+  },
+  {
+   "name": "prop-feather-wedge-set",
+   "tris": 156,
+   "dims_xyz_m": [
+    0.2,
+    0.06,
+    0.032
+   ],
+   "bbox_min": [
+    -0.1,
+    -0.03,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron_Forged",
+    "M_Iron_Dark"
+   ],
+   "height_m": 0.032,
+   "pivot": "bottom_centre (0,0,0); 3 plug-and-feather sets (wedge between two half-round feathers) on a 20 cm board, laid for splitting stone"
+  },
+  {
+   "name": "prop-banker-block-blank",
+   "tris": 48,
+   "dims_xyz_m": [
+    0.64,
+    0.64,
+    0.9
+   ],
+   "bbox_min": [
+    -0.32,
+    -0.32,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron_Forged",
+    "M_Iron_Dark",
+    "M_Sand",
+    "M_Stone_Rough"
+   ],
+   "height_m": 0.9,
+   "pivot": "bottom_centre (0,0,0); 64 cm banker (working bench) with sand bed and a rough, unsquared quarry blank skewed on top; not an ashlar"
+  },
+  {
+   "name": "prop-bush-hammer-blank",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.376,
+    0.05,
+    0.06
+   ],
+   "bbox_min": [
+    -0.188,
+    -0.025,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron_Forged",
+    "M_Iron_Dark"
+   ],
+   "height_m": 0.06,
+   "pivot": "laid / bottom_centre (0,0,0); 36 cm bush hammer: square iron head with 2x2 pyramid-tooth grid face (implied), oak handle; not a mallet"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-banker-block-blank.fbx",
+  "fbx/prop-bush-hammer-blank.fbx",
+  "fbx/prop-feather-wedge-set.fbx",
+  "fbx/prop-pitching-tool-stc1.fbx",
+  "tex/T_Iron_Forged_BaseColor.png",
+  "tex/T_Stone_Rough_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md, src/, and renders/",
+ "textures_note": "All 3 BaseColor PNGs ship pack-local in tex/. M_Iron_Dark and M_Sand are flat-colour (no tex). FBX carry material slots only; Unity maps textures by material slot."
+}
