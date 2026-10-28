@@ -1,0 +1,97 @@
+{
+ "pack": "openkit-rope-splicer-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres (1 BU = 1 m)",
+ "tool": "Blender 5.2.1 (procedural bpy, src/build.py)",
+ "renames": [],
+ "collision_check": "All 4 names absent from existing prop-*.fbx under studio art tree; distinct from prop-rope-coil-*, prop-bolt-rope-coil, prop-rope-hook-stake, prop-net-needle, prop-net-drape, prop-twine-bobbin-rm1 and existing mallets (bung/carving/felting/fulling-stock/stone/tin-blank).",
+ "judgment_calls": [
+  "All props lie along X (resting pose); pivot bottom_centre, z-min 0, x/y centred.",
+  "Soft tri overruns vs preferred: marlinespike 34 (>24), serving mallet 68 (>48), whipped end 68 (>48); all far below 120 preferred / 210 hard.",
+  "Whipping band is a separate tarred_twine material on a raised ring; no knot/tie modelled.",
+  "Low-sided (6/4) cross-sections read as faceted by design."
+ ],
+ "assets": [
+  {
+   "name": "prop-splicing-fid-rs1",
+   "file": "fbx/prop-splicing-fid-rs1.fbx",
+   "tris": 22,
+   "dims_xyz_m": [
+    0.22,
+    0.036,
+    0.0312
+   ],
+   "bbox_min": [
+    -0.11,
+    -0.018,
+    0.0
+   ],
+   "materials": [
+    "oak"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Wooden tapered splicing fid: 6-sided oak cone with short blunt butt, tapering to a point; lies along X."
+  },
+  {
+   "name": "prop-marlinespike-rs1",
+   "file": "fbx/prop-marlinespike-rs1.fbx",
+   "tris": 34,
+   "dims_xyz_m": [
+    0.2,
+    0.032,
+    0.0277
+   ],
+   "bbox_min": [
+    -0.1,
+    -0.016,
+    0.0
+   ],
+   "materials": [
+    "iron"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Iron marlinespike: 6-sided flared knob head and long tapering shaft to a point; lies along X."
+  },
+  {
+   "name": "prop-serving-mallet-rs1",
+   "file": "fbx/prop-serving-mallet-rs1.fbx",
+   "tris": 68,
+   "dims_xyz_m": [
+    0.288,
+    0.09,
+    0.0485
+   ],
+   "bbox_min": [
+    -0.144,
+    -0.045,
+    0.0
+   ],
+   "materials": [
+    "oak"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Small oak serving mallet: 6-sided cylindrical head across Y with a central rope groove, 4-sided handle along X."
+  },
+  {
+   "name": "prop-whipped-end-blank-rs1",
+   "file": "fbx/prop-whipped-end-blank-rs1.fbx",
+   "tris": 68,
+   "dims_xyz_m": [
+    0.205,
+    0.0316,
+    0.0274
+   ],
+   "bbox_min": [
+    -0.1025,
+    -0.0158,
+    0.0
+   ],
+   "materials": [
+    "hemp",
+    "tarred_twine"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Short hemp rope end segment (6-sided) with a raised tarred-twine whipping band near the tip and a slight tapered end; lies along X."
+  }
+ ]
+}

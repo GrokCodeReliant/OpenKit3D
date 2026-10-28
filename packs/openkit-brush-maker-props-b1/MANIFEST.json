@@ -1,0 +1,110 @@
+{
+ "pack": "openkit-brush-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "metric, 1 unit = 1 m",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": "All 4 names absent from existing prop-*.fbx under studio art. Near-names noted & distinct: prop-ferrule-blank-brm1, prop-handle-blank-brm1, prop-broom-handle-blank, prop-setting-pitch-pot, prop-paint-kettle-blank, bristle brush/bundle props.",
+ "judgment_calls": [
+  "Ferrule modelled as closed tapered 8-sided cylinder (solid blank) to stay <=32 tris.",
+  "Pitch pot rim lip capped flush; pitch disc sits just below rim, mostly hidden from low angles.",
+  "Comb teeth are 4-tri pyramids hung from spine to keep 36 tris.",
+  "Image nodes stripped before export; textures shipped separately in tex/."
+ ],
+ "assets": [
+  {
+   "name": "prop-brush-ferrule-blank",
+   "file": "fbx/prop-brush-ferrule-blank.fbx",
+   "tris": 28,
+   "dims_xyz_m": [
+    0.024,
+    0.024,
+    0.035
+   ],
+   "bbox_min": [
+    -0.012,
+    -0.012,
+    0.0
+   ],
+   "materials": [
+    "mat_brass_ferrule"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Short tapered brass ferrule blank, no bristles fitted.",
+   "texture": [
+    "tex/mat_brass_ferrule_BaseColor.png"
+   ]
+  },
+  {
+   "name": "prop-brush-handle-blank-br1",
+   "file": "fbx/prop-brush-handle-blank-br1.fbx",
+   "tris": 20,
+   "dims_xyz_m": [
+    0.018,
+    0.0156,
+    0.22
+   ],
+   "bbox_min": [
+    -0.009,
+    -0.0078,
+    0.0
+   ],
+   "materials": [
+    "mat_wood_handle"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Turned wooden artist-brush handle blank, tapered stick, no head; much shorter/thinner than broom handle.",
+   "texture": [
+    "tex/mat_wood_handle_BaseColor.png"
+   ]
+  },
+  {
+   "name": "prop-pitch-pot-small-br1",
+   "file": "fbx/prop-pitch-pot-small-br1.fbx",
+   "tris": 44,
+   "dims_xyz_m": [
+    0.124,
+    0.1074,
+    0.085
+   ],
+   "bbox_min": [
+    -0.062,
+    -0.0537,
+    0.0
+   ],
+   "materials": [
+    "mat_iron_pot",
+    "mat_pitch"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Small iron pitch/glue pot with rim lip and dark pitch surface, for setting bristles.",
+   "texture": [
+    "tex/mat_iron_pot_BaseColor.png",
+    "tex/mat_pitch_BaseColor.png"
+   ]
+  },
+  {
+   "name": "prop-bristle-comb-br1",
+   "file": "fbx/prop-bristle-comb-br1.fbx",
+   "tris": 36,
+   "dims_xyz_m": [
+    0.12,
+    0.012,
+    0.05
+   ],
+   "bbox_min": [
+    -0.06,
+    -0.006,
+    0.0
+   ],
+   "materials": [
+    "mat_wood_comb"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Wooden binding comb: solid spine with six tapered teeth for aligning bristles.",
+   "texture": [
+    "tex/mat_wood_comb_BaseColor.png"
+   ]
+  }
+ ]
+}

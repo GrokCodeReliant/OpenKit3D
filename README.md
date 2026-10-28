@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **168** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **170** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -46,6 +46,7 @@ The `packs/` folder contains **168** CC0-licensed medieval prop packs. Each pack
 | `openkit-bowyer-props-b1` | Bowyer workshop props |
 | `openkit-bridge-scaffold-b1` | Bridges and scaffolding |
 | `openkit-broom-maker-props-b1` | Broom/besom maker workshop props |
+| `openkit-brush-maker-props-b1` | Brush-maker workshop props |
 | `openkit-brushmaker-props-b1` | Brushmaker workshop props |
 | `openkit-butcher-props-b1` | Butcher shop props |
 | `openkit-button-maker-props-b1` | Button / bead-turner workshop props |
@@ -136,6 +137,7 @@ The `packs/` folder contains **168** CC0-licensed medieval prop packs. Each pack
 | `openkit-quill-maker-props-b1` | Quill/pen-maker workshop props |
 | `openkit-quiver-maker-props-b1` | Quiver-maker workshop props |
 | `openkit-roof-tiles-b1` | Roof tiles and materials |
+| `openkit-rope-splicer-props-b1` | Rope-splicer workshop props |
 | `openkit-rushlight-maker-props-b1` | Rushlight-maker workshop props |
 | `openkit-sailmaker-props-b1` | Sailmaker workshop props |
 | `openkit-sawyer-props-b1` | Sawyer (pit-saw) workshop props |
