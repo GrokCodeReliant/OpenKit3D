@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains 102 CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains 104 CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -35,6 +35,7 @@ The `packs/` folder contains 102 CC0-licensed medieval prop packs. Each pack inc
 | `openkit-bathhouse-props-b1` | Bathhouse furniture and accessories |
 | `openkit-beekeeper-props-b1` | Beekeeping equipment |
 | `openkit-belt-maker-props-b1` | Belt-maker workshop props |
+| `openkit-blacksmith-props-b1` | Blacksmith workshop props |
 | `openkit-bowyer-props-b1` | Bowyer workshop props |
 | `openkit-bridge-scaffold-b1` | Bridges and scaffolding |
 | `openkit-broom-maker-props-b1` | Broom/besom maker workshop props |
@@ -100,6 +101,7 @@ The `packs/` folder contains 102 CC0-licensed medieval prop packs. Each pack inc
 | `openkit-spoon-carver-props-b1` | Green-wood spoon carver workshop props |
 | `openkit-stable-props-b1` | Stable equipment |
 | `openkit-stairs-ladder-b1` | Stairs and ladders |
+| `openkit-stonecutter-props-b1` | Stonecutter workshop props |
 | `openkit-tailor-props-b1` | Tailor shop props |
 | `openkit-thatcher-tools-props-b1` | Thatcher workshop tools |
 | `openkit-tavern-dressing-b1` | Tavern decorations |

@@ -1,0 +1,117 @@
+{
+ "pack": "openkit-blacksmith-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-tongs-blank-bs1": "suffix: prop-tongs-st1, prop-tongs-nail-nl1 exist",
+  "prop-punch-hardy-bs1": "suffix per brief (many *punch* exist)"
+ },
+ "collision_check": "No openkit-blacksmith pack. openkit-forge-props-b1 has anvil-fg1, forge-hearth, quench-barrel (not cloned). No hardy/swage/scrap-iron/tongs-blank in any openkit-*/fbx.",
+ "judgment_calls": [
+  "Tongs = plain flat-jaw riveted blank",
+  "Hardy = square shank + shoulder + tapered punch",
+  "Swage block = low-tri block with dark inset grooves/notches implying shapes",
+  "Scrap tray = plank tray with 9 offcuts; v2 raised offcuts after eye-check v1 showed them buried"
+ ],
+ "assets": [
+  {
+   "name": "prop-tongs-blank-bs1",
+   "tris": 80,
+   "dims_xyz_m": [
+    0.43,
+    0.034,
+    0.02
+   ],
+   "bbox_min": [
+    -0.215,
+    -0.017,
+    0.0
+   ],
+   "materials": [
+    "M_Iron_Forged",
+    "M_Iron_Dark"
+   ],
+   "height_m": 0.018,
+   "pivot": "laid / bottom_centre (0,0,0); 45 cm plain flat-jaw forge tongs, rough unfinished reins, riveted boss; generic smithing blank, not nail/stonecutter tongs"
+  },
+  {
+   "name": "prop-punch-hardy-bs1",
+   "tris": 36,
+   "dims_xyz_m": [
+    0.06,
+    0.045,
+    0.14
+   ],
+   "bbox_min": [
+    -0.03,
+    -0.023,
+    0.0
+   ],
+   "materials": [
+    "M_Iron_Forged",
+    "M_Iron_Dark"
+   ],
+   "height_m": 0.14,
+   "pivot": "bottom_centre (0,0,0) at shank foot; 14 cm hardy punch: 25 mm square shank fits anvil hardy hole, shoulder, upward tapered punch"
+  },
+  {
+   "name": "prop-swage-block-small",
+   "tris": 84,
+   "dims_xyz_m": [
+    0.241,
+    0.24,
+    0.122
+   ],
+   "bbox_min": [
+    -0.121,
+    -0.12,
+    0.0
+   ],
+   "materials": [
+    "M_Iron_Forged",
+    "M_Iron_Dark"
+   ],
+   "height_m": 0.122,
+   "pivot": "bottom_centre (0,0,0); 24x24x12 cm small cast-iron swage block, dark groove/notch insets on top and edge (implied shapes, low tri)"
+  },
+  {
+   "name": "prop-scrap-iron-tray",
+   "tris": 168,
+   "dims_xyz_m": [
+    0.402,
+    0.282,
+    0.069
+   ],
+   "bbox_min": [
+    -0.201,
+    -0.141,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron_Forged"
+   ],
+   "height_m": 0.06,
+   "pivot": "bottom_centre (0,0,0); 40x28 cm plank tray holding 9 iron bar offcuts/scrap pieces"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-punch-hardy-bs1.fbx",
+  "fbx/prop-scrap-iron-tray.fbx",
+  "fbx/prop-swage-block-small.fbx",
+  "fbx/prop-tongs-blank-bs1.fbx",
+  "tex/T_Iron_Dark_BaseColor.png",
+  "tex/T_Iron_Forged_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md, src/, and renders/",
+ "textures_note": "All 3 BaseColor PNGs ship pack-local in tex/. Byte-unique per Veil. FBX carry material slots only; Unity maps textures by material slot."
+}
