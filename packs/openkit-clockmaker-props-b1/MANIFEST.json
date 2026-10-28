@@ -1,0 +1,111 @@
+{
+ "pack": "openkit-clockmaker-props-b1",
+ "license": "CC0-1.0",
+ "units": "metre",
+ "tool": "Blender 5.2.1 procedural bpy",
+ "fbx": "materials slots-only, path_mode STRIP, no embedded textures",
+ "theme": "medieval/early-modern tower & table clock parts",
+ "collisions_renames": [
+  "none: no existing prop-*.fbx with these names; prop-verge-pallet built (lantern-pinion fallback not needed)"
+ ],
+ "assets": [
+  {
+   "name": "prop-escape-wheel-blank",
+   "file": "fbx/prop-escape-wheel-blank.fbx",
+   "tris": 164,
+   "dims_xyz_m": [
+    0.103,
+    0.103,
+    0.009
+   ],
+   "bbox_min": [
+    -0.051,
+    -0.052,
+    0.0
+   ],
+   "materials": [
+    "M_Brass",
+    "M_Steel"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "cut brass escape-wheel blank: 15 raked sawteeth on a flat disc with a small steel collet at the centre"
+  },
+  {
+   "name": "prop-fusee-cone",
+   "file": "fbx/prop-fusee-cone.fbx",
+   "tris": 160,
+   "dims_xyz_m": [
+    0.068,
+    0.068,
+    0.07
+   ],
+   "bbox_min": [
+    -0.034,
+    -0.034,
+    0.0
+   ],
+   "materials": [
+    "M_Brass",
+    "M_Steel"
+   ],
+   "pivot": "bottom_centre (0,0,0); standing on arbor end (natural rest, wide end down)",
+   "desc": "brass fusee: stepped conical drum (stylised chain groove) over a wide base flange, short arbor pivots top and bottom"
+  },
+  {
+   "name": "prop-clock-weight",
+   "file": "fbx/prop-clock-weight.fbx",
+   "tris": 160,
+   "dims_xyz_m": [
+    0.068,
+    0.065,
+    0.225
+   ],
+   "bbox_min": [
+    -0.034,
+    -0.032,
+    0.0
+   ],
+   "materials": [
+    "M_Iron_Cast",
+    "M_Steel"
+   ],
+   "pivot": "bottom_centre (0,0,0); standing (natural rest)",
+   "desc": "cast-iron tower/table clock driving weight: tall chamfered cylinder with forged neck and hanging eye loop"
+  },
+  {
+   "name": "prop-verge-pallet",
+   "file": "fbx/prop-verge-pallet.fbx",
+   "tris": 92,
+   "dims_xyz_m": [
+    0.16,
+    0.024,
+    0.024
+   ],
+   "bbox_min": [
+    -0.08,
+    -0.012,
+    -0.0
+   ],
+   "materials": [
+    "M_Steel",
+    "M_Brass"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "forged steel verge staff with two pallet flags set at roughly a right angle, brass collet and tapered pivot"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-clock-weight.fbx",
+  "fbx/prop-escape-wheel-blank.fbx",
+  "fbx/prop-fusee-cone.fbx",
+  "fbx/prop-verge-pallet.fbx",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Iron_Cast_BaseColor.png"
+ ]
+}

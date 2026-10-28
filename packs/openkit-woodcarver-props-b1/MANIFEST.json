@@ -1,0 +1,114 @@
+{
+ "pack": "openkit-woodcarver-props-b1",
+ "license": "CC0-1.0",
+ "units": "metre",
+ "tool": "Blender 5.2.1 procedural bpy",
+ "fbx": "materials slots-only, path_mode STRIP, no embedded textures",
+ "collisions_renames": [
+  "prop-carving-mallet -> prop-carving-mallet-wc1 (suffix for clear distinction from existing mallet props)"
+ ],
+ "assets": [
+  {
+   "name": "prop-carving-mallet-wc1",
+   "file": "fbx/prop-carving-mallet-wc1.fbx",
+   "tris": 136,
+   "dims_xyz_m": [
+    0.096,
+    0.091,
+    0.252
+   ],
+   "bbox_min": [
+    -0.048,
+    -0.046,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Lignum",
+    "M_Wood_Ash"
+   ],
+   "pivot": "bottom_centre (0,0,0); standing on head face (natural rest)",
+   "desc": "round turned carver's mallet: barrel-shaped lignum head on short ash handle with end knob"
+  },
+  {
+   "name": "prop-veiner-gouge",
+   "file": "fbx/prop-veiner-gouge.fbx",
+   "tris": 104,
+   "dims_xyz_m": [
+    0.225,
+    0.028,
+    0.028
+   ],
+   "bbox_min": [
+    -0.112,
+    -0.014,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Box",
+    "M_Steel",
+    "M_Brass"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "single 6 mm deep-U veiner gouge for relief carving: steel U-channel blade, brass ferrule, boxwood handle"
+  },
+  {
+   "name": "prop-chip-carving-knife",
+   "file": "fbx/prop-chip-carving-knife.fbx",
+   "tris": 52,
+   "dims_xyz_m": [
+    0.143,
+    0.026,
+    0.024
+   ],
+   "bbox_min": [
+    -0.072,
+    -0.013,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Pear",
+    "M_Steel"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "chip-carving knife: short steel blade with angled skew point on rounded pear-wood handle"
+  },
+  {
+   "name": "prop-holdfast",
+   "file": "fbx/prop-holdfast.fbx",
+   "tris": 112,
+   "dims_xyz_m": [
+    0.244,
+    0.04,
+    0.355
+   ],
+   "bbox_min": [
+    -0.122,
+    -0.02,
+    0.0
+   ],
+   "materials": [
+    "M_Iron_Dark",
+    "M_Steel"
+   ],
+   "pivot": "bottom_centre (0,0,0); standing (shaft vertical, pad down)",
+   "desc": "forged iron bench holdfast: long straight shaft (drops into bench dog hole), short swan-neck arm, angled clamping pad"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-carving-mallet-wc1.fbx",
+  "fbx/prop-chip-carving-knife.fbx",
+  "fbx/prop-holdfast.fbx",
+  "fbx/prop-veiner-gouge.fbx",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Wood_Ash_BaseColor.png",
+  "tex/T_Wood_Box_BaseColor.png",
+  "tex/T_Wood_Lignum_BaseColor.png",
+  "tex/T_Wood_Pear_BaseColor.png"
+ ]
+}
