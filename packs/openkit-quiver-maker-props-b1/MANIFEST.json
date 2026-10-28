@@ -1,0 +1,117 @@
+{
+ "pack": "openkit-quiver-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres (1 BU = 1 m)",
+ "tool": "Blender 5.2.1 procedural bpy",
+ "renames": [],
+ "collision_check": {
+  "method": "find <studio>/art -name 'prop-*.fbx' basenames, checked 2026-10-28",
+  "result": "all 4 base names free; nearest existing: prop-quiver-wall, prop-girth-strap-roll, prop-grip-strap-blank, prop-strap-blank-roll, prop-mesh-rim-blank, prop-rim-iron-coil"
+ },
+ "judgment_calls": [
+  "FBX/.blend carry material slots only (no image nodes) to guarantee zero path strings; BaseColor PNGs in tex/ for manual hookup",
+  "Tube is free-standing, open-top, tapered with a proud unstitched seam flap; no belt/suspension/arrows - distinct from wall-mounted prop-quiver-wall",
+  "Spacer is oval with 5 perimeter notches (perimeter notches instead of holes to stay at 116 tris)",
+  "Strap is flat uncut single strap with loose iron ring resting on it - not a rolled strap like girth/breeching/strap-blank-roll",
+  "Rim collar stands upright, 35 mm tall rawhide collar sized to tube mouth (~128 mm OD)"
+ ],
+ "assets": [
+  {
+   "name": "prop-quiver-tube-blank",
+   "file": "fbx/prop-quiver-tube-blank.fbx",
+   "tris": 88,
+   "dims_xyz_m": [
+    0.128,
+    0.1179,
+    0.52
+   ],
+   "bbox_min": [
+    -0.064,
+    -0.059,
+    0.0
+   ],
+   "materials": [
+    "M_RawhideLeather"
+   ],
+   "pivot": "bottom_centre",
+   "desc": "Open-top tapered rawhide quiver body blank with raw rim and proud unstitched seam flap; no belt, arrows or suspension."
+  },
+  {
+   "name": "prop-arrow-spacer-blank",
+   "file": "fbx/prop-arrow-spacer-blank.fbx",
+   "tris": 116,
+   "dims_xyz_m": [
+    0.1295,
+    0.1054,
+    0.014
+   ],
+   "bbox_min": [
+    -0.0647,
+    -0.0527,
+    0.0
+   ],
+   "materials": [
+    "M_Ashwood"
+   ],
+   "pivot": "bottom_centre",
+   "desc": "Flat oval ash arrow-divider disc with 5 shallow perimeter arrow notches, laid flat on bench."
+  },
+  {
+   "name": "prop-quiver-rim-blank",
+   "file": "fbx/prop-quiver-rim-blank.fbx",
+   "tris": 96,
+   "dims_xyz_m": [
+    0.128,
+    0.128,
+    0.035
+   ],
+   "bbox_min": [
+    -0.064,
+    -0.064,
+    0.0
+   ],
+   "materials": [
+    "M_HardRawhide"
+   ],
+   "pivot": "bottom_centre",
+   "desc": "Stiff rawhide mouth-ring collar blank (short open cylinder) standing upright."
+  },
+  {
+   "name": "prop-quiver-strap-blank",
+   "file": "fbx/prop-quiver-strap-blank.fbx",
+   "tris": 76,
+   "dims_xyz_m": [
+    0.6292,
+    0.0671,
+    0.0127
+   ],
+   "bbox_min": [
+    -0.3146,
+    -0.0336,
+    0.0
+   ],
+   "materials": [
+    "M_TanLeather",
+    "M_Iron"
+   ],
+   "pivot": "bottom_centre",
+   "desc": "Flat uncut leather suspension strap blank with a loose iron ring resting at one end."
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-arrow-spacer-blank.fbx",
+  "fbx/prop-quiver-rim-blank.fbx",
+  "fbx/prop-quiver-strap-blank.fbx",
+  "fbx/prop-quiver-tube-blank.fbx",
+  "tex/T_ashwood.png",
+  "tex/T_hard_rawhide.png",
+  "tex/T_iron.png",
+  "tex/T_rawhide_leather.png",
+  "tex/T_tan_leather.png"
+ ]
+}
