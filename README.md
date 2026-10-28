@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **128** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **130** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -73,6 +73,7 @@ The `packs/` folder contains **128** CC0-licensed medieval prop packs. Each pack
 | `openkit-glove-maker-props-b1` | Glove-maker workshop props |
 | `openkit-goldsmith-props-b1` | Goldsmith workshop props |
 | `openkit-graveyard-b1` | Graveyard props |
+| `openkit-harness-maker-props-b1` | Harness-maker workshop props |
 | `openkit-hat-maker-props-b1` | Hat-maker workshop props |
 | `openkit-helm-maker-props-b1` | Helm-maker workshop props |
 | `openkit-horn-worker-props-b1` | Horn-worker workshop props |
@@ -119,6 +120,7 @@ The `packs/` folder contains **128** CC0-licensed medieval prop packs. Each pack
 | `openkit-silversmith-props-b1` | Silversmith workshop props |
 | `openkit-smithy-tools-b1` | Blacksmith tools |
 | `openkit-spoon-carver-props-b1` | Green-wood spoon carver workshop props |
+| `openkit-spurrier-props-b1` | Spurrier (spur-maker) workshop props |
 | `openkit-stable-props-b1` | Stable equipment |
 | `openkit-stairs-ladder-b1` | Stairs and ladders |
 | `openkit-stonecutter-props-b1` | Stonecutter workshop props |
