@@ -1,0 +1,115 @@
+{
+  "pack": "openkit-pipe-maker-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "find <studio>/art -name prop-*.fbx checked; recorder/fipple/labium/reamer names all free; no renames",
+  "judgment_calls": [
+    "Chose prop-labium-cutter (option 3) over reed-knife: fits recorder trade (labium/window cut)",
+    "Recorder finger holes are dark inset-quad marks, not boolean bores, to stay under 120 tris; open ends shown by inner bore lip ring",
+    "Recorder and reamer laid along X so z-min 0 rests naturally",
+    "Fipple block: 8-sided plug with flattened windway top"
+  ],
+  "assets": [
+    {
+      "name": "prop-recorder-body-blank",
+      "file": "fbx/prop-recorder-body-blank.fbx",
+      "tris": 94,
+      "dims_xyz_m": [
+        0.42,
+        0.0304,
+        0.032
+      ],
+      "bbox_min": [
+        -0.21,
+        -0.0152,
+        0.0
+      ],
+      "materials": [
+        "M_wood_pale",
+        "M_hole_dark"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Unfinished tapered wooden recorder body, open bore ends, 7 marked finger holes; laid along X, 0.42 m."
+    },
+    {
+      "name": "prop-fipple-block-blank",
+      "file": "fbx/prop-fipple-block-blank.fbx",
+      "tris": 28,
+      "dims_xyz_m": [
+        0.05,
+        0.0249,
+        0.0215
+      ],
+      "bbox_min": [
+        -0.025,
+        -0.0125,
+        0.0
+      ],
+      "materials": [
+        "M_wood_pale"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Wooden fipple/block plug blank, 50 mm, flattened windway top."
+    },
+    {
+      "name": "prop-labium-cutter",
+      "file": "fbx/prop-labium-cutter.fbx",
+      "tris": 32,
+      "dims_xyz_m": [
+        0.135,
+        0.018,
+        0.0156
+      ],
+      "bbox_min": [
+        -0.0675,
+        -0.009,
+        0.0
+      ],
+      "materials": [
+        "M_wood_dark",
+        "M_steel_edge"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Small labium/window cutting knife: turned wood handle, skewed steel blade; 0.135 m."
+    },
+    {
+      "name": "prop-bore-reamer",
+      "file": "fbx/prop-bore-reamer.fbx",
+      "tris": 42,
+      "dims_xyz_m": [
+        0.301,
+        0.11,
+        0.0191
+      ],
+      "bbox_min": [
+        -0.1505,
+        -0.055,
+        0.0
+      ],
+      "materials": [
+        "M_wood_dark",
+        "M_iron"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Tapered iron bore reamer with wooden T-handle for reaming recorder bores; laid along X."
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-bore-reamer.fbx",
+    "fbx/prop-fipple-block-blank.fbx",
+    "fbx/prop-labium-cutter.fbx",
+    "fbx/prop-recorder-body-blank.fbx",
+    "tex/T_hole_dark_BaseColor.png",
+    "tex/T_iron_BaseColor.png",
+    "tex/T_steel_edge_BaseColor.png",
+    "tex/T_wood_dark_BaseColor.png",
+    "tex/T_wood_pale_BaseColor.png"
+  ]
+}

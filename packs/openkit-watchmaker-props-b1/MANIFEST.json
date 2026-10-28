@@ -1,0 +1,124 @@
+{
+  "pack": "openkit-watchmaker-props-b1",
+  "license": "CC0-1.0",
+  "units": "metric, 1 unit = 1 m",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": {
+    "command": "find <studio>/art -name 'prop-*.fbx' | xargs -n1 basename | sort -u",
+    "result": "all 4 base names free; nearest existing: prop-balance-scale-blank-ap1 (apothecary scale), prop-key-blank-rack (key rack) - distinct",
+    "avoided": [
+      "prop-clock-weight",
+      "prop-escape-wheel-blank",
+      "prop-fusee-cone",
+      "prop-verge-pallet"
+    ]
+  },
+  "judgment_calls": [
+    "Watch case 152 tris (above 100 preferred, under 210 hard max) to keep 12-seg round silhouette with back plate + wall.",
+    "Balance uses single crossbar (8-seg rim) to hit <=80 tris.",
+    "Key ring handle is hexagonal 6-seg tube to stay at 60 tris.",
+    "Textures are flat BaseColor; FBX carries material slots only."
+  ],
+  "assets": [
+    {
+      "name": "prop-watch-case-blank",
+      "tris": 152,
+      "bbox_min": [
+        -0.03,
+        -0.03,
+        0.0
+      ],
+      "dims_xyz_m": [
+        0.065,
+        0.06,
+        0.011
+      ],
+      "materials": [
+        "mat_watch_gilt"
+      ],
+      "file": "fbx/prop-watch-case-blank.fbx",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Open round pocket-watch case shell (gilt), back plate + bezel wall, empty interior, pendant/hinge knuckle stub; laid flat.",
+      "texture": "tex/prop-watch-case-blank_BaseColor.png"
+    },
+    {
+      "name": "prop-watch-balance-blank",
+      "tris": 76,
+      "bbox_min": [
+        -0.0125,
+        -0.0125,
+        0.0
+      ],
+      "dims_xyz_m": [
+        0.025,
+        0.025,
+        0.0012
+      ],
+      "materials": [
+        "mat_balance_brass"
+      ],
+      "file": "fbx/prop-watch-balance-blank.fbx",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Watch balance wheel blank, brass rim + single crossbar; laid flat.",
+      "texture": "tex/prop-watch-balance-blank_BaseColor.png"
+    },
+    {
+      "name": "prop-mainspring-barrel-blank",
+      "tris": 44,
+      "bbox_min": [
+        -0.009,
+        -0.009,
+        0.0
+      ],
+      "dims_xyz_m": [
+        0.018,
+        0.018,
+        0.007
+      ],
+      "materials": [
+        "mat_barrel_brass"
+      ],
+      "file": "fbx/prop-mainspring-barrel-blank.fbx",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Short closed brass mainspring barrel with tiny arbor stub on top.",
+      "texture": "tex/prop-mainspring-barrel-blank_BaseColor.png"
+    },
+    {
+      "name": "prop-watch-key-blank",
+      "tris": 60,
+      "bbox_min": [
+        -0.006,
+        -0.0015,
+        0.0
+      ],
+      "dims_xyz_m": [
+        0.012,
+        0.003,
+        0.0247
+      ],
+      "materials": [
+        "mat_key_steel"
+      ],
+      "file": "fbx/prop-watch-key-blank.fbx",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Square-socket steel winding key with ring handle, standing upright.",
+      "texture": "tex/prop-watch-key-blank_BaseColor.png"
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-mainspring-barrel-blank.fbx",
+    "fbx/prop-watch-balance-blank.fbx",
+    "fbx/prop-watch-case-blank.fbx",
+    "fbx/prop-watch-key-blank.fbx",
+    "tex/prop-mainspring-barrel-blank_BaseColor.png",
+    "tex/prop-watch-balance-blank_BaseColor.png",
+    "tex/prop-watch-case-blank_BaseColor.png",
+    "tex/prop-watch-key-blank_BaseColor.png"
+  ]
+}
