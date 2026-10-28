@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **124** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **126** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -70,12 +70,14 @@ The `packs/` folder contains **124** CC0-licensed medieval prop packs. Each pack
 | `openkit-glassblower-props-b1` | Glassblower workshop props |
 | `openkit-glazier-props-b1` | Glazier workshop props |
 | `openkit-glove-maker-props-b1` | Glove-maker workshop props |
+| `openkit-goldsmith-props-b1` | Goldsmith workshop props |
 | `openkit-graveyard-b1` | Graveyard props |
 | `openkit-hat-maker-props-b1` | Hat-maker workshop props |
 | `openkit-helm-maker-props-b1` | Helm-maker workshop props |
 | `openkit-horn-worker-props-b1` | Horn-worker workshop props |
 | `openkit-icons-inventory-b1` | Inventory icons |
 | `openkit-ink-maker-props-b1` | Ink-maker workshop props |
+| `openkit-joiner-props-b1` | Joiner workshop props |
 | `openkit-kitchen-props-b1` | Kitchen furniture and utensils |
 | `openkit-lastmaker-props-b1` | Last-maker workshop props |
 | `openkit-laundry-props-b1` | Laundry and washhouse props |

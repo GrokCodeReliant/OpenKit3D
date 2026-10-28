@@ -1,0 +1,115 @@
+{
+ "pack": "openkit-joiner-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "tool": "Blender 5.2.1 procedural bpy",
+ "fbx": "materials slots-only, path_mode STRIP, no textures embedded",
+ "renames": {
+  "prop-try-plane-jn1": "suffixed -jn1 to stay distinct from carpenter prop-plane-wood"
+ },
+ "assets": [
+  {
+   "name": "prop-try-plane-jn1",
+   "file": "fbx/prop-try-plane-jn1.fbx",
+   "tris": 60,
+   "dims_xyz_m": [
+    0.56,
+    0.075,
+    0.143
+   ],
+   "bbox_min": [
+    -0.28,
+    -0.038,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Beech",
+    "M_Iron",
+    "M_Wood_Oak"
+   ],
+   "pivot": "bottom_centre (0,0,0); standing on sole",
+   "desc": "560 mm wooden try/jointer plane: beech body, closed tote, 45-deg iron, oak wedge, strike button"
+  },
+  {
+   "name": "prop-marking-gauge",
+   "file": "fbx/prop-marking-gauge.fbx",
+   "tris": 48,
+   "dims_xyz_m": [
+    0.22,
+    0.081,
+    0.065
+   ],
+   "bbox_min": [
+    -0.11,
+    -0.041,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Beech",
+    "M_Wood_Oak",
+    "M_Iron"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "beech marking gauge: square stem, sliding stock/fence, oak thumb wedge, steel scribing pin"
+  },
+  {
+   "name": "prop-mortise-chisel",
+   "file": "fbx/prop-mortise-chisel.fbx",
+   "tris": 76,
+   "dims_xyz_m": [
+    0.33,
+    0.034,
+    0.034
+   ],
+   "bbox_min": [
+    -0.165,
+    -0.017,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Wood_Ash",
+    "M_Iron_Dark"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "stout 12 mm pigsticker mortise chisel: thick square-section blade, bolster, ash handle with strike hoop"
+  },
+  {
+   "name": "prop-shooting-board",
+   "file": "fbx/prop-shooting-board.fbx",
+   "tris": 48,
+   "dims_xyz_m": [
+    0.45,
+    0.26,
+    0.081
+   ],
+   "bbox_min": [
+    -0.225,
+    -0.13,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Pine",
+    "M_Wood_Oak"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat",
+   "desc": "pine shooting board / bench hook: base track, raised bed, oak stop for end grain, under-cleat"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-marking-gauge.fbx",
+  "fbx/prop-mortise-chisel.fbx",
+  "fbx/prop-shooting-board.fbx",
+  "fbx/prop-try-plane-jn1.fbx",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Wood_Ash_BaseColor.png",
+  "tex/T_Wood_Beech_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png",
+  "tex/T_Wood_Pine_BaseColor.png"
+ ]
+}
