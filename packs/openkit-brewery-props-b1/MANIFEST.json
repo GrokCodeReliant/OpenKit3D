@@ -1,0 +1,125 @@
+{
+  "pack": "openkit-brewery-props-b1",
+  "license": "CC0-1.0",
+  "units": "1 m",
+  "up": "Z (Blender) / Y (FBX)",
+  "materials_mode": "slots-only (no embedded/linked textures, path_mode STRIP)",
+  "max_tris": 210,
+  "renames": {},
+  "collision_check": "No hits for prop-mash-paddle / prop-hop-basket / prop-fermenting-crock / prop-wort-scoop across studio/art/openkit-*/fbx. Distinct from baker prop-baking-peel, kitchen prop-jar-crock / prop-ladle-hook, weaver yarn basket, beekeeper, cooper, barrel-chest, tavern-dressing.",
+  "judgment_calls": [
+    "Pivot normalised to bbox-centre XY, min Z=0 for all four (bottom_centre)",
+    "prop-mash-paddle laid flat 1.54 m (shaft along X), two separate slats + battens + T-grip to read differently from a baking peel",
+    "prop-hop-basket: 12 four-sided hop cones on a mound (182 tris, allowed higher budget)",
+    "prop-fermenting-crock: 10-seg hollow lathe, ~0.73 m wide (vs small kitchen jar-crock); lid slid & tipped 0.18 rad; 208 tris (near cap)",
+    "prop-wort-scoop: short straight handle, no hook; copper bowl + oak handle",
+    "Renders are Workbench material-colour previews; tex/ are optional flat-noise BaseColor PNGs, not referenced by FBX"
+  ],
+  "assets": [
+    {
+      "name": "prop-mash-paddle",
+      "tris": 72,
+      "dims_xyz_m": [
+        1.54,
+        0.17,
+        0.036
+      ],
+      "bbox_min": [
+        -0.77,
+        -0.085,
+        0.0
+      ],
+      "materials": [
+        "M_Wood_Oak",
+        "M_Wood_Dark"
+      ],
+      "height_m": 0.036,
+      "pivot": "bottom_centre (0,0,0) under bbox centre on floor; 1.54 m brewer's mash paddle laid flat, blade (two slats + two battens) at -X, T-grip at +X",
+      "fbx": "fbx/prop-mash-paddle.fbx",
+      "sha256": "f198d4b524859f22720669c6c7248d46a983d84b29bb4c2c3331f257873fb3cc"
+    },
+    {
+      "name": "prop-hop-basket",
+      "tris": 182,
+      "dims_xyz_m": [
+        0.58,
+        0.552,
+        0.239
+      ],
+      "bbox_min": [
+        -0.29,
+        -0.276,
+        0.0
+      ],
+      "materials": [
+        "M_Wicker",
+        "M_Hop"
+      ],
+      "height_m": 0.23,
+      "pivot": "bottom_centre (0,0,0) on floor; 0.58 m shallow wicker basket heaped with green hop cones, axis +Z",
+      "fbx": "fbx/prop-hop-basket.fbx",
+      "sha256": "276fb3f1dab2360f477e27dafaebab5eb09e5eee7bf5c17fd21c56b2f4680e96"
+    },
+    {
+      "name": "prop-fermenting-crock",
+      "tris": 208,
+      "dims_xyz_m": [
+        0.733,
+        0.666,
+        0.687
+      ],
+      "bbox_min": [
+        -0.366,
+        -0.333,
+        0.0
+      ],
+      "materials": [
+        "M_Ceramic",
+        "M_Wood_Dark"
+      ],
+      "height_m": 0.69,
+      "pivot": "bottom_centre (0,0,0) on floor; 0.70 m dia open stoneware fermenter, wooden lid slid/tipped askew toward +X, axis +Z",
+      "fbx": "fbx/prop-fermenting-crock.fbx",
+      "sha256": "b431c895164efcdbbd42758aa61c2d4b6d6a953fa8df2597fcbbce2ca217f800"
+    },
+    {
+      "name": "prop-wort-scoop",
+      "tris": 88,
+      "dims_xyz_m": [
+        0.407,
+        0.2,
+        0.148
+      ],
+      "bbox_min": [
+        -0.204,
+        -0.1,
+        0.0
+      ],
+      "materials": [
+        "M_Copper",
+        "M_Wood_Oak"
+      ],
+      "height_m": 0.15,
+      "pivot": "bottom_centre (0,0,0) on floor under bbox centre; copper bowl scoop resting on base, short wooden handle rising to +X (no hook)",
+      "fbx": "fbx/prop-wort-scoop.fbx",
+      "sha256": "41204ae25a4b0519a057ed571a50ffeffc0be173c1503fee6b738bac06bf46a2"
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-fermenting-crock.fbx",
+    "fbx/prop-hop-basket.fbx",
+    "fbx/prop-mash-paddle.fbx",
+    "fbx/prop-wort-scoop.fbx",
+    "tex/T_Ceramic_BaseColor.png",
+    "tex/T_Copper_BaseColor.png",
+    "tex/T_Hop_BaseColor.png",
+    "tex/T_Wicker_BaseColor.png",
+    "tex/T_Wood_Dark_BaseColor.png",
+    "tex/T_Wood_Oak_BaseColor.png"
+  ]
+}

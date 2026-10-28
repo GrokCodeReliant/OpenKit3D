@@ -1,0 +1,132 @@
+{
+  "pack": "openkit-scribe-props-b1",
+  "license": "CC0-1.0",
+  "units": "1 m",
+  "up": "Z (Blender) / Y (FBX)",
+  "materials_mode": "slots-only (no embedded/linked textures; FBX path_mode STRIP; image datablocks removed before export)",
+  "max_tris": 210,
+  "renames": {},
+  "collision_check": "No hits for the 4 ids in studio/art/openkit-*/fbx, openkit-dnd, okm4, CATALOG.md. Avoided library-props-b1 (book-stack, candle-desk, inkwell-quill, scroll-tied) and candlemaker prop-wax-block-stack.",
+  "judgment_calls": [
+    "Scribe theme kept (no pivot to brewery): all 4 ids/shapes distinct from library-props-b1",
+    "prop-writing-slope: portable tilted board with front lip + pen ledge, 0.13 m tall; not a desk, not a lectern",
+    "prop-sand-shaker: waisted pewter pot, holes represented as 5 dark studs (cheaper than real perforations); 140 tris (>120 preference, <210 cap) due to 8-seg lathe",
+    "prop-sealing-wax-stick: thin hex sticks + brass/wood seal die; no wax block/slab so it is unlike candlemaker prop-wax-block-stack",
+    "prop-parchment-sheet-stack: flat fanned unbound sheets, no roll/ribbon (vs prop-scroll-tied) and no binding/covers (vs prop-book-stack); no text",
+    ".blend holds only last built object (pack pattern); src/build.py regenerates all"
+  ],
+  "assets": [
+    {
+      "name": "prop-writing-slope",
+      "tris": 72,
+      "dims_xyz_m": [
+        0.46,
+        0.355,
+        0.126
+      ],
+      "bbox_min": [
+        -0.23,
+        -0.178,
+        0.0
+      ],
+      "materials": [
+        "M_Wood_Pale",
+        "M_Wood_Dark"
+      ],
+      "height_m": 0.126,
+      "pivot": "bottom_centre (0,0,0) on table/floor; 0.48 m portable lap/table writing slope, board tilts ~14 deg down toward -Y with raised front lip, pen ledge at back; not a desk",
+      "fbx": "fbx/prop-writing-slope.fbx",
+      "render": "renders/prop-writing-slope.png",
+      "sha256": "9ba1a2dd21f2220ad6c600e7df1138ea61d8847f2513458cfc8569de8207a427"
+    },
+    {
+      "name": "prop-sand-shaker",
+      "tris": 140,
+      "dims_xyz_m": [
+        0.072,
+        0.072,
+        0.07
+      ],
+      "bbox_min": [
+        -0.036,
+        -0.036,
+        0.0
+      ],
+      "materials": [
+        "M_Pewter",
+        "M_Iron"
+      ],
+      "height_m": 0.07,
+      "pivot": "bottom_centre (0,0,0) under foot; 0.07 m waisted pewter pounce/sand pot, dished top with 5 dark hole studs",
+      "fbx": "fbx/prop-sand-shaker.fbx",
+      "render": "renders/prop-sand-shaker.png",
+      "sha256": "2e344c31d5cc51db20513dd12f58857b3c3ba47a8e2616235b59c8ab7bbf3e1d"
+    },
+    {
+      "name": "prop-sealing-wax-stick",
+      "tris": 108,
+      "dims_xyz_m": [
+        0.182,
+        0.048,
+        0.054
+      ],
+      "bbox_min": [
+        -0.091,
+        -0.024,
+        0.0
+      ],
+      "materials": [
+        "M_Wax_Red",
+        "M_Brass",
+        "M_Wood_Dark"
+      ],
+      "height_m": 0.054,
+      "pivot": "bottom_centre (0,0,0) of footprint on table; two 0.13 m thin hex red wax sticks lying along X plus small upright brass seal stamp at +X",
+      "fbx": "fbx/prop-sealing-wax-stick.fbx",
+      "render": "renders/prop-sealing-wax-stick.png",
+      "sha256": "db5c386cd31b023be1233cacec82f70a30dd2a01ffa502c6804bf44b5ef3c594"
+    },
+    {
+      "name": "prop-parchment-sheet-stack",
+      "tris": 84,
+      "dims_xyz_m": [
+        0.332,
+        0.269,
+        0.027
+      ],
+      "bbox_min": [
+        -0.166,
+        -0.134,
+        0.0
+      ],
+      "materials": [
+        "M_Parchment",
+        "M_Parchment_Aged"
+      ],
+      "height_m": 0.027,
+      "pivot": "bottom_centre (0,0,0) under stack; 0.3x0.22 m flat stack of 7 unbound fanned parchment sheets, 2.7 cm tall, no text",
+      "fbx": "fbx/prop-parchment-sheet-stack.fbx",
+      "render": "renders/prop-parchment-sheet-stack.png",
+      "sha256": "f40463eeb506b55617f59793259cc012b5f5b0733a51dc8ab9684e595c676f59"
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-parchment-sheet-stack.fbx",
+    "fbx/prop-sand-shaker.fbx",
+    "fbx/prop-sealing-wax-stick.fbx",
+    "fbx/prop-writing-slope.fbx",
+    "tex/T_Brass_BaseColor.png",
+    "tex/T_Iron_BaseColor.png",
+    "tex/T_Parchment_Aged_BaseColor.png",
+    "tex/T_Parchment_BaseColor.png",
+    "tex/T_Pewter_BaseColor.png",
+    "tex/T_Wax_Red_BaseColor.png",
+    "tex/T_Wood_Dark_BaseColor.png",
+    "tex/T_Wood_Pale_BaseColor.png"
+  ]
+}
