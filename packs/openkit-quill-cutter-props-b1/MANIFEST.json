@@ -1,0 +1,98 @@
+{
+  "pack": "openkit-quill-cutter-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy, src/build.py)",
+  "renames": [],
+  "collision_check": "All 4 names absent from existing prop-*.fbx set; distinct from prop-quill-knife-qm1, prop-quill-barrel-bundle, prop-inkwell-quill, prop-sand-shaker(-qm1), prop-cutting-board, inkhorn/ink props.",
+  "judgment_calls": [
+    "Sand pot is open-mouthed and lidless to stay distinct from sand shakers and ink pots.",
+    "Scrap tray shavings are simple wedges in a separate light material.",
+    "Sand pot hexagonal (6 segments) to hold 48-tri budget; y-dim 0.0866 is hex flat-to-flat.",
+    "BaseColor PNGs are flat-colour with light noise, shipped in tex/; FBX carries material slots only."
+  ],
+  "assets": [
+    {
+      "name": "prop-quill-cutting-block-qc1",
+      "file": "fbx/prop-quill-cutting-block-qc1.fbx",
+      "tris": 24,
+      "dims_xyz_m": [
+        0.16,
+        0.1,
+        0.033
+      ],
+      "bbox_min": [
+        -0.08,
+        -0.05,
+        0.0
+      ],
+      "materials": [
+        "hardwood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Flat hardwood cutting pad 160x100x25 mm with a raised 15 mm end-stop lip (33 mm total height) for bracing quills while trimming."
+    },
+    {
+      "name": "prop-nib-slit-gauge-qc1",
+      "file": "fbx/prop-nib-slit-gauge-qc1.fbx",
+      "tris": 28,
+      "dims_xyz_m": [
+        0.09,
+        0.018,
+        0.003
+      ],
+      "bbox_min": [
+        -0.045,
+        -0.009,
+        0.0
+      ],
+      "materials": [
+        "bone"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Thin bone gauge strip 90x18x3 mm with a 12 mm long, 2.4 mm wide slit notch cut into one end for checking nib slits."
+    },
+    {
+      "name": "prop-quill-scrap-tray-qc1",
+      "file": "fbx/prop-quill-scrap-tray-qc1.fbx",
+      "tris": 36,
+      "dims_xyz_m": [
+        0.14,
+        0.1,
+        0.022
+      ],
+      "bbox_min": [
+        -0.07,
+        -0.05,
+        0.0
+      ],
+      "materials": [
+        "ash_wood",
+        "quill_shaving"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Shallow open ash-wood tray 140x100x22 mm, 7 mm walls, 6 mm floor, holding two low wedge-shaped quill shavings."
+    },
+    {
+      "name": "prop-curing-sand-pot-qc1",
+      "file": "fbx/prop-curing-sand-pot-qc1.fbx",
+      "tris": 48,
+      "dims_xyz_m": [
+        0.1,
+        0.0866,
+        0.075
+      ],
+      "bbox_min": [
+        -0.05,
+        -0.0433,
+        0.0
+      ],
+      "materials": [
+        "glazed_clay",
+        "fine_sand"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Small six-sided bellied glazed clay pot 100 mm wide, 75 mm tall, open mouth filled with a slightly mounded fine sand surface for curing cut nibs; no lid, no perforations."
+    }
+  ]
+}
