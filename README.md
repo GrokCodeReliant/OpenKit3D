@@ -36,6 +36,7 @@ The `packs/` folder contains 49 CC0-licensed medieval prop packs. Each pack incl
 | `openkit-bridge-scaffold-b1` | Bridges and scaffolding |
 | `openkit-broom-maker-props-b1` | Broom/besom maker workshop props |
 | `openkit-butcher-props-b1` | Butcher shop props |
+| `openkit-button-maker-props-b1` | Button / bead-turner workshop props |
 | `openkit-camp-props-b1` | Campsite props |
 | `openkit-candlemaker-props-b1` | Candlemaker workshop props |
 | `openkit-carpenter-props-b1` | Carpentry tools and workbench |
@@ -67,6 +68,7 @@ The `packs/` folder contains 49 CC0-licensed medieval prop packs. Each pack incl
 | `openkit-pottery-props-b1` | Pottery and ceramics |
 | `openkit-quill-maker-props-b1` | Quill/pen-maker workshop props |
 | `openkit-roof-tiles-b1` | Roof tiles and materials |
+| `openkit-rushlight-maker-props-b1` | Rushlight-maker workshop props |
 | `openkit-shop-wall-b1` | Shop wall decorations |
 | `openkit-sign-post-b1` | Signs and posts |
 | `openkit-smithy-tools-b1` | Blacksmith tools |

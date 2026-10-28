@@ -1,0 +1,122 @@
+{
+ "pack": "openkit-rushlight-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "studio/art/openkit-*/fbx scanned for rush|grease|dip|rushlight|candle|nip|pan|frame|holder|bundle: no hits for prop-rush-bundle, prop-grease-pan, prop-rush-dip-frame, prop-rushlight-holder-blank. Near: candlemaker prop-dipping-rack/candle-mold, prop-fat-render-pan, prop-candle-desk, prop-lantern-frame-blank, willow/herb bundles - different ids and objects.",
+ "judgment_calls": [
+  "prop-grease-pan base id free, so -rl1 suffix not used",
+  "prop-rush-dip-frame is a low A-trestle with draped greased rushes, vs candlemaker's tall two-post dipping-rack with hanging wax tapers",
+  "holder blank has open un-riveted nip jaws, no rush, no flame (not a finished light)",
+  "grease pan pivot at bowl bottom-centre; handle extends +X so bbox is off-centre in X"
+ ],
+ "assets": [
+  {
+   "name": "prop-rush-bundle",
+   "tris": 82,
+   "dims_xyz_m": [
+    0.62,
+    0.04,
+    0.034
+   ],
+   "bbox_min": [
+    -0.31,
+    -0.02,
+    0.0
+   ],
+   "materials": [
+    "M_Rush",
+    "M_Twine"
+   ],
+   "height_m": 0.03,
+   "pivot": "bottom_centre (0,0,0) on floor; lying bundle of five 0.62 m peeled rush piths along X, two twine ties at x=+/-0.18",
+   "fbx_sha256": "1652a7684948f2f421375bd6de95a7f4a6a82a9d194eddcbbc71cbfa012830d7"
+  },
+  {
+   "name": "prop-grease-pan",
+   "tris": 114,
+   "dims_xyz_m": [
+    0.555,
+    0.323,
+    0.075
+   ],
+   "bbox_min": [
+    -0.185,
+    -0.162,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Grease"
+   ],
+   "height_m": 0.06,
+   "pivot": "bottom_centre (0,0,0) on floor; 0.34 m dia shallow iron pan (10-seg) with congealed grease, long handle toward +X",
+   "fbx_sha256": "3d62a3abc94b9ff366b5cc641b67f0688322b114fce0b59743c1fb6ce5d5f670"
+  },
+  {
+   "name": "prop-rush-dip-frame",
+   "tris": 120,
+   "dims_xyz_m": [
+    0.78,
+    0.498,
+    0.483
+   ],
+   "bbox_min": [
+    -0.39,
+    -0.249,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Rush_Greased"
+   ],
+   "height_m": 0.49,
+   "pivot": "bottom_centre (0,0,0) on floor; low 0.78 m A-trestle with ridge pole along X, five greased rushes draped to dry",
+   "fbx_sha256": "ea12d6017edb6f03cad5a18c5949c068283438730ba96ba4113b7fa69f3cfffb"
+  },
+  {
+   "name": "prop-rushlight-holder-blank",
+   "tris": 76,
+   "dims_xyz_m": [
+    0.2,
+    0.2,
+    0.386
+   ],
+   "bbox_min": [
+    -0.1,
+    -0.1,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Dark",
+    "M_Iron"
+   ],
+   "height_m": 0.39,
+   "pivot": "bottom_centre (0,0,0) on floor; turned wooden block with unfinished iron stem and open un-riveted nip jaws, no rush, unlit",
+   "fbx_sha256": "574397f977bbabeabd8065b0e7d0799f492f52416c9bc66a6a6f09a37b015f76"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-grease-pan.fbx",
+  "fbx/prop-rush-bundle.fbx",
+  "fbx/prop-rush-dip-frame.fbx",
+  "fbx/prop-rushlight-holder-blank.fbx",
+  "tex/T_Grease_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_RushGreased_BaseColor.png",
+  "tex/T_Rush_BaseColor.png",
+  "tex/T_Twine_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "T_Wood_Dark and T_Wood_Oak kept pack-local; do not dedupe (Dark and Oak now differ from each other, so the old Dark=Oak dedupe no longer applies). Iron/Twine pack-local; Grease/Rush/RushGreased unique to this pack. Unity: assign maps by material slot."
+}
