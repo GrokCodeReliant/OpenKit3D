@@ -1,0 +1,119 @@
+{
+ "pack": "openkit-bowyer-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only; FBX path_mode STRIP; images removed before export",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "Checked studio/art/openkit-*/fbx for stave/tiller/bowstring/nock/bow: hits prop-stave-bundle (cooper, barrel staves), prop-nock-jig (fletcher, arrow nocks), prop-bow-rack (archery), prop-button-lathe-bow; no id collisions. Horn: prop-horn-blank-pair/comb-blank not cloned.",
+ "judgment_calls": [
+  "Bowyer theme kept; no crossbow pivot",
+  "Stave is single rough billet with bark strip, no nocks/string/grip = not a finished bow; distinct from cooper stave-bundle",
+  "Tillering stick built as upright tree on floor foot (stands, not lean)",
+  "Horn nock blanks are small tapered sawn tips, undrilled; distinct from horn-blank-pair (raw horn)",
+  ".blend holds last built object; build.py regenerates all"
+ ],
+ "assets": [
+  {
+   "name": "prop-stave-blank",
+   "tris": 48,
+   "dims_xyz_m": [
+    1.92,
+    0.063,
+    0.05
+   ],
+   "bbox_min": [
+    -0.96,
+    -0.032,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Light",
+    "M_Bark"
+   ],
+   "height_m": 0.05,
+   "pivot": "bottom_centre (0,0,0) under billet, lying along X; 1.92 m rough-split yew stave billet with bark strip, no nocks/string/handle"
+  },
+  {
+   "name": "prop-tillering-stick",
+   "tris": 84,
+   "dims_xyz_m": [
+    0.36,
+    0.24,
+    1.255
+   ],
+   "bbox_min": [
+    -0.18,
+    -0.12,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Dark",
+    "M_Wood_Light"
+   ],
+   "height_m": 1.255,
+   "pivot": "bottom_centre (0,0,0) under floor foot; 1.25 m tillering tree upright on foot, notch pegs on +X face, top saddle"
+  },
+  {
+   "name": "prop-bowstring-jig",
+   "tris": 84,
+   "dims_xyz_m": [
+    0.7,
+    0.1,
+    0.13
+   ],
+   "bbox_min": [
+    -0.35,
+    -0.05,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Dark",
+    "M_Wood_Light",
+    "M_Linen"
+   ],
+   "height_m": 0.13,
+   "pivot": "bottom_centre (0,0,0) under plank; 0.7 m bowstring jig plank with four pegs and linen strands laid between them"
+  },
+  {
+   "name": "prop-horn-nock-blank",
+   "tris": 64,
+   "dims_xyz_m": [
+    0.082,
+    0.08,
+    0.03
+   ],
+   "bbox_min": [
+    -0.041,
+    -0.04,
+    0.0
+   ],
+   "materials": [
+    "M_Horn",
+    "M_Horn_Pale"
+   ],
+   "height_m": 0.03,
+   "pivot": "bottom_centre (0,0,0) under pair; 0.08 m pair of sawn horn bow-nock (tip) blanks, tapered 6-seg, undrilled, head-to-tail"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-bowstring-jig.fbx",
+  "fbx/prop-horn-nock-blank.fbx",
+  "fbx/prop-stave-blank.fbx",
+  "fbx/prop-tillering-stick.fbx",
+  "tex/T_Bark_BaseColor.png",
+  "tex/T_Horn_BaseColor.png",
+  "tex/T_Horn_Pale_BaseColor.png",
+  "tex/T_Linen_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Light_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "tex/ all six BaseColor PNGs (T_Bark, T_Horn, T_Horn_Pale, T_Linen, T_Wood_Dark, T_Wood_Light) stay pack-local (not rewritten to shared pointers); T_Linen is byte-identical to bookbinder Cord_Linen (FYI only, still shipped pack-local); remaining textures unique to this pack or name-clash only; FBX is slots-only, Unity maps textures by material slot"
+}
