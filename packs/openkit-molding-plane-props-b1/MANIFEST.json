@@ -1,0 +1,97 @@
+{
+  "pack": "openkit-molding-plane-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "find prop-*.fbx + rg molding.?plane|moulding.?plane over studio/art: no prop-molding-plane*/prop-moulding* and no -mp1 suffix in use (only unrelated *-mold-* casting props). Distinct from plane-wood, try-plane-jn1, shoulder-plane-*-sp1, router-plane-*-rp1, block-plane-*-bp1, plane-iron-blank-pi1.",
+  "judgment_calls": [
+    "Sole cove profile is implied low-poly: a single V-chamfered groove (10 mm wide x 6 mm deep) rather than a curved spline; 24 tris.",
+    "Iron cutting edge is a shallow convex V point (7 mm) standing in for the cove profile; long axis on X, lying flat.",
+    "Body is solid: no mouth, throat or wedge mortise cut; fence has no bolt holes.",
+    "Textures are flat 8x8 BaseColor swatches in tex/; FBX carries material slots only.",
+    "All pivots bottom_centre, no offsets; all preferred tri budgets met (24/16/8/12 = 60 total)."
+  ],
+  "assets": [
+    {
+      "name": "prop-molding-plane-body-mp1",
+      "file": "fbx/prop-molding-plane-body-mp1.fbx",
+      "tris": 24,
+      "dims_xyz_m": [
+        0.025,
+        0.25,
+        0.08
+      ],
+      "bbox_min": [
+        -0.0125,
+        -0.125,
+        0.0
+      ],
+      "materials": [
+        "mat_beech_wood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Wooden molding-plane body blank: tall narrow 25x250x80 mm rectangular prism with one V-chamfered cove groove (10 mm wide x 6 mm deep) running the full length of the sole, centred 3 mm toward +x; no mouth/throat or iron slot cut."
+    },
+    {
+      "name": "prop-molding-plane-iron-mp1",
+      "file": "fbx/prop-molding-plane-iron-mp1.fbx",
+      "tris": 16,
+      "dims_xyz_m": [
+        0.09,
+        0.025,
+        0.004
+      ],
+      "bbox_min": [
+        -0.045,
+        -0.0125,
+        0.0
+      ],
+      "materials": [
+        "mat_tool_steel"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Profiled steel molding-plane iron blank lying flat with long axis on X: 90 mm long x 25 mm wide x 4 mm thick bar whose cutting end comes to a shallow convex V point (7 mm proud) matching the body cove; no bevel ground."
+    },
+    {
+      "name": "prop-molding-plane-wedge-mp1",
+      "file": "fbx/prop-molding-plane-wedge-mp1.fbx",
+      "tris": 8,
+      "dims_xyz_m": [
+        0.022,
+        0.08,
+        0.016
+      ],
+      "bbox_min": [
+        -0.011,
+        -0.04,
+        0.0
+      ],
+      "materials": [
+        "mat_beech_wood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Wooden wedge blank: right-triangle prism 22 mm wide x 80 mm long, rising to 16 mm at the back end, flat underside."
+    },
+    {
+      "name": "prop-molding-plane-fence-mp1",
+      "file": "fbx/prop-molding-plane-fence-mp1.fbx",
+      "tris": 12,
+      "dims_xyz_m": [
+        0.006,
+        0.22,
+        0.03
+      ],
+      "bbox_min": [
+        -0.003,
+        -0.11,
+        0.0
+      ],
+      "materials": [
+        "mat_beech_wood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Thin wooden side fence blank: plain flat board 6 mm thick x 220 mm long x 30 mm tall standing on edge, to bolt along the body side; no bolt holes cut."
+    }
+  ]
+}
