@@ -1,0 +1,127 @@
+{
+ "pack": "openkit-miller-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "pivot_note": "Pivoted from openkit-farrier-props-b1 (already exists with 4+ farrier FBX: blank-horseshoe, hoof-knife, hoof-stand, shoeing-hammer-fr1, horseshoe-wall).",
+ "renames": {
+  "sieve-frame-mm2": "prop-millstone-proof-staff (sieve-frame-unfinished exists in sieve-maker pack; would be a clone)"
+ },
+ "collision_check": "Searched 200 openkit-*/fbx for mill|pick|scoop|sack|sieve|dress|flour|staff. Existing: openkit-mill-props-b1 (millstone-half, flour-bin, grain-sack-open-ml1, yoke-beam-short), pickaxe-lean, measuring-scoop-cb1, wort-scoop, several filled sacks. None of the 4 ids collide.",
+ "judgment_calls": [
+  "Dress pick = mill bill (double chisel through iron eye) laid flat; bill ends rest in socket ~2 cm off floor by design (supported, not floating)",
+  "Grain scoop left square/adzed as an unfinished blank with handle propped on bark chip",
+  "Flour sack is empty and flattened with folded mouth: distinct from filled tied/open sacks",
+  "Swapped sieve-frame for millstone proof staff to avoid sieve-maker clone",
+  "Eye-check v1: bill collapsed to degenerate geometry (invisible) -> fixed v2 chisel taper; v2 all parts grounded/attached"
+ ],
+ "assets": [
+  {
+   "name": "prop-millstone-dress-pick",
+   "tris": 36,
+   "dims_xyz_m": [
+    0.32,
+    0.3,
+    0.06
+   ],
+   "bbox_min": [
+    -0.16,
+    -0.15,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Iron",
+    "M_Steel"
+   ],
+   "height_m": 0.06,
+   "pivot": "laid / bottom_centre (0,0,0); millstone dressing pick (mill bill): 30 cm double-chisel steel bill wedged in an iron eye block on a 28 cm ash thrift handle, lying flat; dresses millstone furrows, not a mining pickaxe",
+   "fbx_sha256": "b65e6fca808dd65bd9b420537c7d0401fd59446d0d8da8dc03146fb9e9ee5b04"
+  },
+  {
+   "name": "prop-grain-scoop-blank",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.325,
+    0.13,
+    0.075
+   ],
+   "bbox_min": [
+    -0.162,
+    -0.065,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Bark"
+   ],
+   "height_m": 0.075,
+   "pivot": "bottom_centre (0,0,0); 20x13 cm rough adzed wooden grain scoop blank, open front lip, square unrounded walls, roughed handle stub propped on a bark chip; unfinished, not the cooper/brewer measuring or wort scoops",
+   "fbx_sha256": "0c59bebd1048a3247f7fc30319b3db106ea80e394d138399c46711f5fc033dbf"
+  },
+  {
+   "name": "prop-flour-sack-empty-mm2",
+   "tris": 36,
+   "dims_xyz_m": [
+    0.51,
+    0.34,
+    0.024
+   ],
+   "bbox_min": [
+    -0.255,
+    -0.17,
+    0.0
+   ],
+   "materials": [
+    "M_Hessian",
+    "M_Cord"
+   ],
+   "height_m": 0.024,
+   "pivot": "laid / bottom_centre (0,0,0); 50x34 cm empty flattened hessian flour sack with mouth folded back and loose tie cord on top; no fill, no print/brand; distinct from tied/open filled sacks",
+   "fbx_sha256": "f8d5db76976123c4e6c7b7324b09d433f422e785cc7740263469a9cd150de36a"
+  },
+  {
+   "name": "prop-millstone-proof-staff",
+   "tris": 48,
+   "dims_xyz_m": [
+    0.9,
+    0.055,
+    0.05
+   ],
+   "bbox_min": [
+    -0.45,
+    -0.027,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Ochre"
+   ],
+   "height_m": 0.05,
+   "pivot": "laid / bottom_centre (0,0,0); 90 cm wooden proof staff (straightedge) with red-ochre raddle face used to find high spots on a millstone before dressing",
+   "fbx_sha256": "212c9c9f535306a4c349fe39596d19a2fc7b63801ede5239197733170e10287c"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-flour-sack-empty-mm2.fbx",
+  "fbx/prop-grain-scoop-blank.fbx",
+  "fbx/prop-millstone-dress-pick.fbx",
+  "fbx/prop-millstone-proof-staff.fbx",
+  "tex/T_Bark_BaseColor.png",
+  "tex/T_Cord_BaseColor.png",
+  "tex/T_Hessian_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Ochre_BaseColor.png",
+  "tex/T_Steel_BaseColor.png",
+  "tex/T_Wood_Ash_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "All 7 BaseColor PNGs ship pack-local in tex/. None is byte-identical to any sibling Open Kit pack. Name-clash only where filenames match other packs (different bytes). FBX carry material slots only; Unity maps textures by material slot."
+}
