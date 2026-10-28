@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **158** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **160** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -54,6 +54,7 @@ The `packs/` folder contains **158** CC0-licensed medieval prop packs. Each pack
 | `openkit-carder-props-b1` | Carder / wool-carding workshop props |
 | `openkit-carpenter-props-b1` | Carpentry tools and workbench |
 | `openkit-cart-crate-b1` | Carts and crates |
+| `openkit-cartwright-props-b1` | Cartwright workshop props |
 | `openkit-clockmaker-props-b1` | Clockmaker workshop props |
 | `openkit-cobbler-props-b1` | Cobbler/shoemaker props |
 | `openkit-comb-maker-props-b1` | Comb-maker workshop props |
@@ -139,6 +140,7 @@ The `packs/` folder contains **158** CC0-licensed medieval prop packs. Each pack
 | `openkit-sieve-maker-props-b1` | Sieve-maker workshop props |
 | `openkit-silversmith-props-b1` | Silversmith workshop props |
 | `openkit-smithy-tools-b1` | Blacksmith tools |
+| `openkit-soapstone-carver-props-b1` | Soapstone-carver workshop props |
 | `openkit-spinner-props-b1` | Spinner / hand-spinning accessory props |
 | `openkit-spoon-carver-props-b1` | Green-wood spoon carver workshop props |
 | `openkit-spurrier-props-b1` | Spurrier (spur-maker) workshop props |
