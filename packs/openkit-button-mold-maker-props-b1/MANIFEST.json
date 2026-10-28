@@ -1,0 +1,116 @@
+{
+ "pack": "openkit-button-mold-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres (1 BU = 1 m)",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": "All 4 base names absent from existing prop-*.fbx under <studio>/art before export; no -bm1 renames needed (clamp keeps -bm1 by brief).",
+ "judgment_calls": [
+  "Cavities are flat dark 8-gon inset faces flush with the top (low tri cost) plus a sprue channel strip.",
+  "Mold half made stone (soapstone-style) to separate it from wooden candle/soap/lute molds.",
+  "Shank wire = two loose blanks (one straight, one L-bent), lying on ground.",
+  "Clamp is a C-frame screw press; screw runs through top jaw into press plate, handle seated on screw top.",
+  "BaseColor PNGs shipped in tex/; materials are flat color only, no image nodes in FBX."
+ ],
+ "assets": [
+  {
+   "name": "prop-button-mold-half",
+   "file": "fbx/prop-button-mold-half.fbx",
+   "tris": 60,
+   "dims_xyz_m": [
+    0.12,
+    0.08,
+    0.0202
+   ],
+   "bbox_min": [
+    -0.06,
+    -0.04,
+    0.0
+   ],
+   "materials": [
+    "M_stone",
+    "M_cavity"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Stone mold half with six round button cavities and a pour channel."
+  },
+  {
+   "name": "prop-pewter-button-blank",
+   "file": "fbx/prop-pewter-button-blank.fbx",
+   "tris": 40,
+   "dims_xyz_m": [
+    0.022,
+    0.022,
+    0.007
+   ],
+   "bbox_min": [
+    -0.011,
+    -0.011,
+    -0.0
+   ],
+   "materials": [
+    "M_pewter"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Unfinished pewter button disc blank with shank stub."
+  },
+  {
+   "name": "prop-button-shank-wire",
+   "file": "fbx/prop-button-shank-wire.fbx",
+   "tris": 36,
+   "dims_xyz_m": [
+    0.041,
+    0.0216,
+    0.0016
+   ],
+   "bbox_min": [
+    -0.0205,
+    -0.0108,
+    0.0
+   ],
+   "materials": [
+    "M_brass"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Short bent brass wire blanks for button shanks."
+  },
+  {
+   "name": "prop-mold-clamp-bm1",
+   "file": "fbx/prop-mold-clamp-bm1.fbx",
+   "tris": 80,
+   "dims_xyz_m": [
+    0.14,
+    0.03,
+    0.11
+   ],
+   "bbox_min": [
+    -0.07,
+    -0.015,
+    0.0
+   ],
+   "materials": [
+    "M_wood",
+    "M_iron"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Small wooden screw clamp/press for holding mold halves."
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-button-mold-half.fbx",
+  "fbx/prop-button-shank-wire.fbx",
+  "fbx/prop-mold-clamp-bm1.fbx",
+  "fbx/prop-pewter-button-blank.fbx",
+  "tex/T_brass_BaseColor.png",
+  "tex/T_cavity_BaseColor.png",
+  "tex/T_iron_BaseColor.png",
+  "tex/T_pewter_BaseColor.png",
+  "tex/T_stone_BaseColor.png",
+  "tex/T_wood_BaseColor.png"
+ ]
+}
