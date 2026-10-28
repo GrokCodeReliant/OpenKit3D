@@ -1,0 +1,105 @@
+{
+ "pack": "openkit-apothecary-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "pivot_note": "Pivoted from openkit-carpenter-props-b1 (exists: hand-saw, plane-wood, sawhorse, tooth-saw-cbm1); mason, brewery, pottery packs also exist; apothecary is next free.",
+ "renames": {
+  "herb-bundle-tray": "prop-dosing-spoon-set-ap1 (herb-bundle, herb-rack-hang, drying-herb-pole exist: clone risk)",
+  "balance-scale-blank": "-ap1 suffix per brief",
+  "mortar-pestle": "skipped (exists)"
+ },
+ "collision_check": "Searched openkit-*/fbx for pill|balance|scale|stopper|cork|herb|mortar|spatula|spoon|apoth|vial. Existing: mortar-pestle, apothecary-jar-row, herb-*, cork-float-string, cork-basket. None of the 4 ids collide.",
+ "judgment_calls": [
+  "Balance scale stands upright (laid flat makes no sense); pans rest on base",
+  "Stoppers are loose tapered cork blanks in a tray, no jars (avoids jar-row clone)",
+  "Eye-check v1 passed: all parts grounded/attached, no floaters"
+ ],
+ "assets": [
+  {
+   "name": "prop-pill-board-blank",
+   "tris": 132,
+   "dims_xyz_m": [
+    0.3,
+    0.16,
+    0.025
+   ],
+   "materials": [
+    "M_Wood_Beech",
+    "M_Brass"
+   ],
+   "height_m": 0.025,
+   "pivot": "laid / bottom_centre (0,0,0); 30x16 cm beech pill-rolling board blank with 8 brass groove strips, no cutter or pills; distinct from herb-cutting-slab",
+   "fbx_sha256": "610f8d6ed7d3babc2929a9a078f65f39207a555cd74ce796d2fd289c1279820b"
+  },
+  {
+   "name": "prop-balance-scale-blank-ap1",
+   "tris": 116,
+   "dims_xyz_m": [
+    0.28,
+    0.1,
+    0.209
+   ],
+   "materials": [
+    "M_Wood_Beech",
+    "M_Brass",
+    "M_Cord"
+   ],
+   "height_m": 0.21,
+   "pivot": "standing / bottom_centre (0,0,0); small apothecary brass beam balance on oak base, pans resting down; no weights; laid-flat not sensible for a balance so stands upright",
+   "fbx_sha256": "7826836502db11ca9aad0e443bb427572a85afd0cb8b533dab238fba819ba168"
+  },
+  {
+   "name": "prop-jar-stopper-tray",
+   "tris": 180,
+   "dims_xyz_m": [
+    0.22,
+    0.14,
+    0.036
+   ],
+   "materials": [
+    "M_Wood_Beech",
+    "M_Cork"
+   ],
+   "height_m": 0.036,
+   "pivot": "bottom_centre (0,0,0); shallow wooden tray of 6 uncut tapered cork jar stopper blanks; no jars",
+   "fbx_sha256": "f4467d8e70e34084cf346855ca0bebbd7787d76be7c21fa50d6102b428f83362"
+  },
+  {
+   "name": "prop-dosing-spoon-set-ap1",
+   "tris": 60,
+   "dims_xyz_m": [
+    0.183,
+    0.13,
+    0.016
+   ],
+   "materials": [
+    "M_Wood_Beech",
+    "M_Horn"
+   ],
+   "height_m": 0.016,
+   "pivot": "laid / bottom_centre (0,0,0); two roughed boxwood dosing spoon blanks (2 bowl sizes) + horn spatula blank, laid flat",
+   "fbx_sha256": "7344ad7c0ff908f3f921e7d65f9d31ab92e141b2b4cba8cccd31c98b339477a6"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-balance-scale-blank-ap1.fbx",
+  "fbx/prop-dosing-spoon-set-ap1.fbx",
+  "fbx/prop-jar-stopper-tray.fbx",
+  "fbx/prop-pill-board-blank.fbx",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Cord_BaseColor.png",
+  "tex/T_Cork_BaseColor.png",
+  "tex/T_Horn_BaseColor.png",
+  "tex/T_Wood_Beech_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "All 5 BaseColor PNGs ship pack-local in tex/. None is byte-identical to any sibling Open Kit pack. Name-clash only where filenames match other packs (different bytes). FBX carry material slots only; Unity maps textures by material slot."
+}
