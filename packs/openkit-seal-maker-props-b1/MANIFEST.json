@@ -1,0 +1,98 @@
+{
+  "pack": "openkit-seal-maker-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 unit = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "All 4 names checked against existing prop-*.fbx under the studio art tree: no matches. Nearest existing: prop-binding-wire-spool, prop-wick-spool-cm1 (different names/objects).",
+  "judgment_calls": [
+    "Signet blank is brass, 8-sided, blank face (no engraving) to stay distinct from seal-engraver matrix/seal blanks.",
+    "Ribbon spool uses 5-sided flanges and an open (uncapped) ribbon tube; bottom flange has no underside cap (ground-facing) to stay under 40 tris.",
+    "Wax dish is an open flared bowl (single-sided) with a tab handle; holds no wax so it does not overlap wax-stick/wax-cake props.",
+    "Textures are flat 64px BaseColor swatches matching material colours."
+  ],
+  "assets": [
+    {
+      "name": "prop-signet-blank-sm3",
+      "file": "fbx/prop-signet-blank-sm3.fbx",
+      "tris": 28,
+      "dims_xyz_m": [
+        0.024,
+        0.024,
+        0.004
+      ],
+      "bbox_min": [
+        -0.012,
+        -0.012,
+        0.0
+      ],
+      "materials": [
+        "M_Brass"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Small unfinished brass signet blank: 8-sided disc 24 mm wide, 4 mm thick, slightly chamfered top, plain unengraved face."
+    },
+    {
+      "name": "prop-seal-press-screw-sm3",
+      "file": "fbx/prop-seal-press-screw-sm3.fbx",
+      "tris": 40,
+      "dims_xyz_m": [
+        0.11,
+        0.07,
+        0.15
+      ],
+      "bbox_min": [
+        -0.055,
+        -0.035,
+        0.0
+      ],
+      "materials": [
+        "M_Oak",
+        "M_Iron"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Short hand seal press: oak base block 100x70x30 mm, 6-sided oak screw column 24 mm dia rising to 150 mm, iron T-handle bar 110 mm across near the top."
+    },
+    {
+      "name": "prop-wax-warming-dish-sm3",
+      "file": "fbx/prop-wax-warming-dish-sm3.fbx",
+      "tris": 36,
+      "dims_xyz_m": [
+        0.1325,
+        0.1,
+        0.018
+      ],
+      "bbox_min": [
+        -0.0663,
+        -0.05,
+        0.0
+      ],
+      "materials": [
+        "M_Iron"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Shallow iron wax-warming dish: open 8-sided flared bowl 100 mm across the rim, 70 mm base, 18 mm deep, single flat tab handle 35 mm long on one side."
+    },
+    {
+      "name": "prop-ribbon-spool-sm3",
+      "file": "fbx/prop-ribbon-spool-sm3.fbx",
+      "tris": 39,
+      "dims_xyz_m": [
+        0.0452,
+        0.0476,
+        0.044
+      ],
+      "bbox_min": [
+        -0.0226,
+        -0.0238,
+        0.0
+      ],
+      "materials": [
+        "M_Oak",
+        "M_Ribbon_Red"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Small seal-ribbon spool: two 5-sided oak flanges ~48 mm across (50 mm circumscribed), 6 mm thick, with a red ribbon wind ~36 mm across between them; total height 44 mm."
+    }
+  ]
+}
