@@ -1,0 +1,130 @@
+{
+ "pack": "openkit-broom-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures; FBX path_mode STRIP; image datablocks removed before export)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "No hits for the 4 ids in studio/art/openkit-*/fbx (134 packs). Keyword sweep broom|besom|twig|handle|spool|wire|withe|splitter|clamp: only prop-wick-spool-cm1 (candle) and prop-cutting-wire-frame - different objects. No broom/besom asset exists anywhere. Clear of rope-maker, charcoal rake, farm tools, tile-dojo-*, WPN_*/B01, practice-banner, wall-dress.",
+ "judgment_calls": [
+  "Kept all 4 brief ids; no -bm1 needed",
+  "prop-broom-unfinished: lopsided head, ONE wire binding, loose unbound twigs above it, rough squared handle top, untrimmed stray tip -> reads WIP",
+  "prop-birch-twig-bundle laid along X (lying) rather than upright, to differ from the upright WIP broom",
+  "prop-binding-wire-spool uses iron wire colour (vs pale twine) to differ from prop-wick-spool-cm1",
+  "prop-broom-handle-blank hexagonal 6-seg facets + bark-on squared butt so it reads drawknifed, not turned",
+  ".blend holds only last built object (pack pattern); src/build.py regenerates all"
+ ],
+ "assets": [
+  {
+   "name": "prop-birch-twig-bundle",
+   "tris": 148,
+   "dims_xyz_m": [
+    0.57,
+    0.12,
+    0.12
+   ],
+   "bbox_min": [
+    -0.285,
+    -0.06,
+    0.0
+   ],
+   "materials": [
+    "M_Birch_Twig",
+    "M_Twine"
+   ],
+   "height_m": 0.12,
+   "pivot": "bottom_centre (0,0,0) on floor; 0.57 m bundle of cut birch twigs lying along X, cut butt end +X, splayed tips -X, two twine ties; raw material, no handle",
+   "fbx": "fbx/prop-birch-twig-bundle.fbx",
+   "fbx_sha256": "65d9b105b7953d10fa650aa853e1f1652657f60aac5d5f30ef319ca9fda2edd5"
+  },
+  {
+   "name": "prop-broom-handle-blank",
+   "tris": 56,
+   "dims_xyz_m": [
+    1.1,
+    0.034,
+    0.034
+   ],
+   "bbox_min": [
+    -0.55,
+    -0.017,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Pale",
+    "M_Bark_Dark",
+    "M_Chalk"
+   ],
+   "height_m": 0.034,
+   "pivot": "bottom_centre (0,0,0) on floor; 1.1 m faceted ash handle blank laid along X, squared bark-on butt +X, chalk cut mark; no head, not rounded or finished",
+   "fbx": "fbx/prop-broom-handle-blank.fbx",
+   "fbx_sha256": "cf54437cad18342338bf7c3d48dc5161fa5530267a69f6c541b69352e1a266ea"
+  },
+  {
+   "name": "prop-binding-wire-spool",
+   "tris": 140,
+   "dims_xyz_m": [
+    0.139,
+    0.1,
+    0.103
+   ],
+   "bbox_min": [
+    -0.07,
+    -0.05,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Pale",
+    "M_Wire_Iron",
+    "M_Bark_Dark"
+   ],
+   "height_m": 0.103,
+   "pivot": "bottom_centre (0,0,0) on floor; 0.1 m-dia wooden spool standing on end with wound iron binding wire, loose tail toward +X",
+   "fbx": "fbx/prop-binding-wire-spool.fbx",
+   "fbx_sha256": "6dc4046c0cbed4363b1b465608d686593af11349ac3944175180c2aac354c171"
+  },
+  {
+   "name": "prop-broom-unfinished",
+   "tris": 148,
+   "dims_xyz_m": [
+    0.211,
+    0.201,
+    1.26
+   ],
+   "bbox_min": [
+    -0.106,
+    -0.101,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Pale",
+    "M_Birch_Twig",
+    "M_Wire_Iron",
+    "M_Bark_Dark"
+   ],
+   "height_m": 1.26,
+   "pivot": "bottom_centre (0,0,0) on floor; 1.25 m WIP besom standing upright: lopsided untrimmed twig head with only one wire binding, loose unbound twigs sticking up past the binding, rough squared handle top",
+   "fbx": "fbx/prop-broom-unfinished.fbx",
+   "fbx_sha256": "d2a1e40f1e0fdc9df7fd09f8aa2cd2ffaf16bf63b14697dd1bda15d82156f128"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-binding-wire-spool.fbx",
+  "fbx/prop-birch-twig-bundle.fbx",
+  "fbx/prop-broom-handle-blank.fbx",
+  "fbx/prop-broom-unfinished.fbx",
+  "tex/T_Bark_Dark_BaseColor.png",
+  "tex/T_Birch_Twig_BaseColor.png",
+  "tex/T_Chalk_BaseColor.png",
+  "tex/T_Twine_BaseColor.png",
+  "tex/T_Wire_Iron_BaseColor.png",
+  "tex/T_Wood_Pale_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)"
+}
