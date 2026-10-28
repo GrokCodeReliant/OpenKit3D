@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **172** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **174** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -123,6 +123,7 @@ The `packs/` folder contains **172** CC0-licensed medieval prop packs. Each pack
 | `openkit-mosaic-maker-props-b1` | Mosaic-maker workshop props |
 | `openkit-nail-maker-props-b1` | Nail-maker workshop props |
 | `openkit-needle-maker-props-b1` | Sewing-needle maker workshop props |
+| `openkit-net-maker-props-b1` | Net-maker workshop props |
 | `openkit-organ-builder-props-b1` | Organ-builder workshop props |
 | `openkit-outdoor-props-b1` | Outdoor decorations |
 | `openkit-painter-props-b1` | Painter workshop props |
@@ -136,6 +137,7 @@ The `packs/` folder contains **172** CC0-licensed medieval prop packs. Each pack
 | `openkit-plasterer-props-b1` | Plasterer workshop props |
 | `openkit-pottery-props-b1` | Pottery and ceramics |
 | `openkit-pouch-maker-props-b1` | Pouch-maker workshop props |
+| `openkit-quill-cutter-props-b1` | Quill-cutter workshop props |
 | `openkit-quill-maker-props-b1` | Quill/pen-maker workshop props |
 | `openkit-quiver-maker-props-b1` | Quiver-maker workshop props |
 | `openkit-roof-tiles-b1` | Roof tiles and materials |

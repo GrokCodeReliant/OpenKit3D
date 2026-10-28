@@ -1,0 +1,95 @@
+{
+  "pack": "openkit-net-maker-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 unit = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "All 4 names absent from existing prop-*.fbx under studio art tree; distinct from net-mender (prop-net-needle, prop-netting-gauge, prop-cork-float-string, prop-lead-weight-bag), prop-net-drape, prop-mesh-rim-blank, prop-float-blank, prop-line-gauge-blank, prop-loom-small.",
+  "judgment_calls": [
+    "Mesh sample laid flat as a 2x2-cell grid of crossing cords (not a drape).",
+    "Selvage hank modelled as a flattened low-poly ring to stay at 40 tris; distinct from bobbin/rope coils by flat oval form.",
+    "BaseColor PNGs are flat 64x64 swatches; FBX carries material slots only."
+  ],
+  "assets": [
+    {
+      "name": "prop-netting-loom-bar-nm1",
+      "file": "fbx/prop-netting-loom-bar-nm1.fbx",
+      "tris": 36,
+      "dims_xyz_m": [
+        0.4,
+        0.04,
+        0.07
+      ],
+      "bbox_min": [
+        -0.2,
+        -0.02,
+        0.0
+      ],
+      "materials": [
+        "M_LoomWood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Wooden loom bar: 0.40 m rectangular rail (0.04x0.03 m section) with two upright square pins near each end (0.07 m total height), used as a mini loom rail while knotting mesh."
+    },
+    {
+      "name": "prop-mesh-sample-blank-nm1",
+      "file": "fbx/prop-mesh-sample-blank-nm1.fbx",
+      "tris": 72,
+      "dims_xyz_m": [
+        0.128,
+        0.09,
+        0.006
+      ],
+      "bbox_min": [
+        -0.064,
+        -0.045,
+        0.0
+      ],
+      "materials": [
+        "M_MeshCord"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Flat rectangular open mesh sample: 3x3 crossing square cords forming a 2x2-cell grid, 0.128x0.09x0.006 m."
+    },
+    {
+      "name": "prop-knotting-peg-nm1",
+      "file": "fbx/prop-knotting-peg-nm1.fbx",
+      "tris": 20,
+      "dims_xyz_m": [
+        0.0191,
+        0.022,
+        0.12
+      ],
+      "bbox_min": [
+        -0.0095,
+        -0.011,
+        0.0
+      ],
+      "materials": [
+        "M_PegWood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Short tapered hexagonal wooden peg, 0.12 m tall, narrow base widening to 0.011 m radius head, for holding mesh while knotting."
+    },
+    {
+      "name": "prop-selvage-cord-hank-nm1",
+      "file": "fbx/prop-selvage-cord-hank-nm1.fbx",
+      "tris": 40,
+      "dims_xyz_m": [
+        0.1174,
+        0.0864,
+        0.0198
+      ],
+      "bbox_min": [
+        -0.0587,
+        -0.0432,
+        0.0
+      ],
+      "materials": [
+        "M_SelvageCord"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Small flattened oval hank of selvage cord, low-poly 5x4 ring lying flat, 0.117x0.086x0.020 m."
+    }
+  ]
+}
