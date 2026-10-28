@@ -1,125 +1,126 @@
 {
-  "pack": "openkit-glassblower-props-b1",
-  "license": "CC0-1.0",
-  "units": "1 m",
-  "up": "Z (Blender) / Y (FBX)",
-  "materials_mode": "slots-only (no embedded/linked textures)",
-  "max_tris": 210,
-  "renames": {},
-  "collision_check": "prop-blowpipe-lean, prop-glory-hole-small, prop-pontil-rod, prop-glass-cullet-crate: no hits in okm4, openkit-dnd, studio/art/openkit-* (forge, pottery, cart-crate, candlemaker, etc.) or OpenKit CATALOG.md copies. Only related item: openkit-dnd token-glassblower (2D character token, different namespace). Near-names: prop-crate*/prop-crate-wood* (cart-crate, dnd) and prop-kiln-small(-pt1) (pottery) -- distinct ids. -gb1 suffix not needed. Clear of tile-dojo-*, WPN_*, wall-dress.",
-  "judgment_calls": [
-    "prop-glory-hole-small: 'glory hole' is the correct glassblowing trade term but has an adult slang double meaning; kept as suggested -- alternative safe id prop-reheat-furnace-small if a rename is preferred",
-    "prop-glory-hole-small: functionally near forge/pottery kiln furnaces; distinct object (glass reheating port), port is a plain M_Port_Glow slot with no emissive to avoid overlapping light-hearth",
-    "prop-glass-cullet-crate: shares crate silhouette with cart-crate/dnd prop-crate*; distinguished by glass-chunk fill and id",
-    "prop-pontil-rod: lies flat; z-min 0 after raising rod axis to 0.02 m"
-  ],
-  "assets": [
-    {
-      "name": "prop-blowpipe-lean",
-      "tris": 72,
-      "dims_xyz_m": [
-        0.44,
-        0.3,
-        1.387
-      ],
-      "bbox_min": [
-        -0.06,
-        -0.15,
-        0.0
-      ],
-      "materials": [
-        "M_Wood_Dark",
-        "M_Steel"
-      ],
-      "height_m": 1.39,
-      "pivot": "bottom_centre of floor block (0,0,0); 1.4 m steel blowpipe (6-seg) with wooden sleeve leaning 15 deg toward +X, as if propped against a wall on +X side",
-      "fbx": "fbx/prop-blowpipe-lean.fbx",
-      "sha256": "c24790288931e78d196b26bc2584f09869b570545927172a58057aecbf262c60"
-    },
-    {
-      "name": "prop-glory-hole-small",
-      "tris": 68,
-      "dims_xyz_m": [
-        0.7,
-        0.9,
-        1.0
-      ],
-      "bbox_min": [
-        -0.35,
-        -0.55,
-        0.0
-      ],
-      "materials": [
-        "M_Brick",
-        "M_Port_Glow",
-        "M_Steel"
-      ],
-      "height_m": 1.0,
-      "pivot": "bottom_centre (0,0,0) on floor; 0.7 m brick reheating furnace, working port faces -Y, flue toward +X+Y, port uses M_Port_Glow slot (no emissive set)",
-      "fbx": "fbx/prop-glory-hole-small.fbx",
-      "sha256": "0792a870b6c39a79a6a8a960f96f0157607a8f33980f97537a186a2c7857ebd4"
-    },
-    {
-      "name": "prop-pontil-rod",
-      "tris": 60,
-      "dims_xyz_m": [
-        1.225,
-        0.04,
-        0.035
-      ],
-      "bbox_min": [
-        -0.6,
-        -0.02,
-        0.003
-      ],
-      "materials": [
-        "M_Steel",
-        "M_Wood_Dark",
-        "M_Glass"
-      ],
-      "height_m": 0.04,
-      "pivot": "rod centre projected to floor (0,0,0), rod axis at z=0.02; 1.2 m steel punty lying along X, handle at -X, cold glass nub at +X",
-      "fbx": "fbx/prop-pontil-rod.fbx",
-      "sha256": "d86cb2995093e69bb1879145d5ff088f2c4a16e0f88bfd06735c75c1f6042380"
-    },
-    {
-      "name": "prop-glass-cullet-crate",
-      "tris": 120,
-      "dims_xyz_m": [
-        0.5,
-        0.36,
-        0.3
-      ],
-      "bbox_min": [
-        -0.25,
-        -0.18,
-        0.0
-      ],
-      "materials": [
-        "M_Wood_Oak",
-        "M_Glass"
-      ],
-      "height_m": 0.3,
-      "pivot": "bottom_centre (0,0,0) on floor; 0.5x0.36x0.3 m open wooden crate heaped with broken glass cullet, long axis X",
-      "fbx": "fbx/prop-glass-cullet-crate.fbx",
-      "sha256": "e4e1651c16c57e0c0781fb41bd77cb1b6a8d9be6869177ac994ec8bb5f03a8f2"
-    }
-  ],
-  "pack_files": [
-    "CONTACT_SHEET.png",
-    "CREDITS.md",
-    "LICENSE",
-    "MANIFEST.json",
-    "README.md",
-    "fbx/prop-blowpipe-lean.fbx",
-    "fbx/prop-glass-cullet-crate.fbx",
-    "fbx/prop-glory-hole-small.fbx",
-    "fbx/prop-pontil-rod.fbx",
-    "tex/T_Brick_BaseColor.png",
-    "tex/T_Glass_BaseColor.png",
-    "tex/T_Port_Glow_BaseColor.png",
-    "tex/T_Steel_BaseColor.png",
-    "tex/T_Wood_Dark_BaseColor.png",
-    "tex/T_Wood_Oak_BaseColor.png"
-  ]
+ "pack": "openkit-glassblower-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "prop-blowpipe-lean, prop-glory-hole-small, prop-pontil-rod, prop-glass-cullet-crate: no hits in okm4, openkit-dnd, studio/art/openkit-* (forge, pottery, cart-crate, candlemaker, etc.) or OpenKit CATALOG.md copies. Only related item: openkit-dnd token-glassblower (2D character token, different namespace). Near-names: prop-crate*/prop-crate-wood* (cart-crate, dnd) and prop-kiln-small(-pt1) (pottery) -- distinct ids. -gb1 suffix not needed. Clear of tile-dojo-*, WPN_*, wall-dress.",
+ "judgment_calls": [
+  "prop-glory-hole-small: 'glory hole' is the correct glassblowing trade term but has an adult slang double meaning; kept as suggested -- alternative safe id prop-reheat-furnace-small if a rename is preferred",
+  "prop-glory-hole-small: functionally near forge/pottery kiln furnaces; distinct object (glass reheating port), port is a plain M_Port_Glow slot with no emissive to avoid overlapping light-hearth",
+  "prop-glass-cullet-crate: shares crate silhouette with cart-crate/dnd prop-crate*; distinguished by glass-chunk fill and id",
+  "prop-pontil-rod: lies flat; z-min 0 after raising rod axis to 0.02 m"
+ ],
+ "assets": [
+  {
+   "name": "prop-blowpipe-lean",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.446,
+    0.3,
+    1.425
+   ],
+   "bbox_min": [
+    -0.06,
+    -0.15,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Dark",
+    "M_Steel"
+   ],
+   "height_m": 1.43,
+   "pivot": "bottom_centre of floor block (0,0,0); 1.4 m steel blowpipe (6-seg) with wooden sleeve leaning 15 deg toward +X, as if propped against a wall on +X side",
+   "fbx": "fbx/prop-blowpipe-lean.fbx",
+   "sha256": "213067b2fabcdb429901454a459609248dc033d76e4e21616e09d2bc5d630361"
+  },
+  {
+   "name": "prop-glory-hole-small",
+   "tris": 68,
+   "dims_xyz_m": [
+    0.7,
+    0.9,
+    1.0
+   ],
+   "bbox_min": [
+    -0.35,
+    -0.55,
+    0.0
+   ],
+   "materials": [
+    "M_Brick",
+    "M_Port_Glow",
+    "M_Steel"
+   ],
+   "height_m": 1.0,
+   "pivot": "bottom_centre (0,0,0) on floor; 0.7 m brick reheating furnace, working port faces -Y, flue toward +X+Y, port uses M_Port_Glow slot (no emissive set)",
+   "fbx": "fbx/prop-glory-hole-small.fbx",
+   "sha256": "6fe52e59b28b4a16f95c6291fd349f5cb918823e3f685741d0125bd3c985bb1a"
+  },
+  {
+   "name": "prop-pontil-rod",
+   "tris": 60,
+   "dims_xyz_m": [
+    1.225,
+    0.04,
+    0.035
+   ],
+   "bbox_min": [
+    -0.6,
+    -0.02,
+    0.003
+   ],
+   "materials": [
+    "M_Steel",
+    "M_Wood_Dark",
+    "M_Glass"
+   ],
+   "height_m": 0.04,
+   "pivot": "rod centre projected to floor (0,0,0), rod axis at z=0.02; 1.2 m steel punty lying along X, handle at -X, cold glass nub at +X",
+   "fbx": "fbx/prop-pontil-rod.fbx",
+   "sha256": "3ea58128870ff1d1b5bdb92e9d485d96ae753e5513486d18afefb55c47f91b03"
+  },
+  {
+   "name": "prop-glass-cullet-crate",
+   "tris": 120,
+   "dims_xyz_m": [
+    0.5,
+    0.36,
+    0.3
+   ],
+   "bbox_min": [
+    -0.25,
+    -0.18,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Glass"
+   ],
+   "height_m": 0.3,
+   "pivot": "bottom_centre (0,0,0) on floor; 0.5x0.36x0.3 m open wooden crate heaped with broken glass cullet, long axis X",
+   "fbx": "fbx/prop-glass-cullet-crate.fbx",
+   "sha256": "ba03989236ed295031ffe8df4cee7d8df6468685dabacecac0ffe8c5e374a87d"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-blowpipe-lean.fbx",
+  "fbx/prop-glass-cullet-crate.fbx",
+  "fbx/prop-glory-hole-small.fbx",
+  "fbx/prop-pontil-rod.fbx",
+  "tex/T_Brick_BaseColor.png",
+  "tex/T_Glass_BaseColor.png",
+  "tex/T_Port_Glow_BaseColor.png",
+  "tex/T_Steel_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "shape_pass": "2026-10-28 Art QC: prop-blowpipe-lean rotation sign fixed (-15 -> +15 deg about Y, lean toward +X); pipe, grip sleeve and mouthpiece flare now share one axis from foot (0,0,0.03) seated 1 cm into floor block; sleeve coaxial around shaft (s=0.17-0.47 m), flare flush on pipe top (s=1.39-1.44 m). Full rebuild via build.py; other three assets geometry unchanged (FBX bytes differ only from re-export)."
 }
