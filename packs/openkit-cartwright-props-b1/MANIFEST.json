@@ -1,0 +1,113 @@
+{
+  "pack": "openkit-cartwright-props-b1",
+  "license": "CC0-1.0",
+  "units": "metric, 1 unit = 1 m",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "Scanned all prop-*.fbx under <studio>/art before export; none of the 4 base names existed (only near-name prop-bedroll-cp1). No -cw1 suffix needed.",
+  "judgment_calls": [
+    "Bed = 3 joined planks on 2 underside battens (60 tris), no sides/stakes so it stays a blank distinct from prop-cart-wood.",
+    "Axle-tree 1.2 m, square 0.12 m centre tapering to 0.07 m arms; 44 tris (slightly over the <=40 preference, well under hard max) to keep two taper steps.",
+    "Bolster 0.60 m with chamfered top ends, 20 tris.",
+    "Linchpin laid flat (shank+head+lug), 36 tris, iron material.",
+    "Textures are flat noise BaseColor swatches shipped separately; no image nodes in materials.",
+    "Contact sheet: workbench ortho on light grey, no ground plane (avoids dark edge bands)."
+  ],
+  "assets": [
+    {
+      "name": "prop-cart-bed-blank",
+      "file": "fbx/prop-cart-bed-blank.fbx",
+      "tris": 60,
+      "dims_xyz_m": [
+        0.8,
+        0.498,
+        0.0475
+      ],
+      "bbox_min": [
+        -0.4,
+        -0.249,
+        0.0
+      ],
+      "materials": [
+        "mat_wood_oak",
+        "mat_wood_pale"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Flat cart bed blank: three joined floor planks on two underside battens, laid flat, unfinished (no sides/wheels)."
+    },
+    {
+      "name": "prop-axle-tree-blank",
+      "file": "fbx/prop-axle-tree-blank.fbx",
+      "tris": 44,
+      "dims_xyz_m": [
+        1.2,
+        0.12,
+        0.12
+      ],
+      "bbox_min": [
+        -0.6,
+        -0.06,
+        0.0
+      ],
+      "materials": [
+        "mat_wood_oak"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Axle-tree blank: 1.2 m beam, 0.12 m square centre tapering to 0.07 m arms."
+    },
+    {
+      "name": "prop-cart-bolster-blank",
+      "file": "fbx/prop-cart-bolster-blank.fbx",
+      "tris": 20,
+      "dims_xyz_m": [
+        0.6,
+        0.1,
+        0.09
+      ],
+      "bbox_min": [
+        -0.3,
+        -0.05,
+        0.0
+      ],
+      "materials": [
+        "mat_wood_pale"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Cross-bolster blank: 0.60 m beam with chamfered top ends, sits across the axle."
+    },
+    {
+      "name": "prop-linchpin-blank",
+      "file": "fbx/prop-linchpin-blank.fbx",
+      "tris": 36,
+      "dims_xyz_m": [
+        0.175,
+        0.04,
+        0.018
+      ],
+      "bbox_min": [
+        -0.0875,
+        -0.02,
+        0.0
+      ],
+      "materials": [
+        "mat_iron_forged"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Iron linchpin blank: forged pin shank with flat head and lug, laid flat."
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-axle-tree-blank.fbx",
+    "fbx/prop-cart-bed-blank.fbx",
+    "fbx/prop-cart-bolster-blank.fbx",
+    "fbx/prop-linchpin-blank.fbx",
+    "tex/tex_iron_forged_basecolor.png",
+    "tex/tex_wood_oak_basecolor.png",
+    "tex/tex_wood_pale_basecolor.png"
+  ]
+}

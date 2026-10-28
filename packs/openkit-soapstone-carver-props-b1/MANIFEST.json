@@ -1,0 +1,127 @@
+{
+  "pack": "openkit-soapstone-carver-props-b1",
+  "license": "CC0-1.0",
+  "units": "metric, 1 unit = 1 m",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [
+    {
+      "base": "prop-carving-gouge",
+      "final": "prop-carving-gouge-ss1",
+      "reason": "-ss1 kept per brief for uniqueness vs existing gouges (prop-veiner-gouge, prop-gouge-set-tu1)"
+    },
+    {
+      "base": "prop-rasp-blank",
+      "final": "prop-rasp-blank-ss1",
+      "reason": "-ss1 kept per brief for uniqueness vs prop-file-rasp-st1"
+    }
+  ],
+  "collision_check": {
+    "method": "find <studio>/art -name 'prop-*.fbx' basenames, sorted unique",
+    "result": "all 4 final names free; related existing: prop-file-rasp-st1, prop-gouge-set-tu1, prop-veiner-gouge; no prop-soap-* overlap"
+  },
+  "judgment_calls": [
+    "Block is a 12-tri sawn billet with slight top-vertex jitter for a rough-blank look; flat sharp edges distinguish it from rounded soap cakes.",
+    "Bead is a 6-sided drilled tube (48 tris) to meet budget; hex reads as a hand-faceted blank.",
+    "Gouge blade is a single-sided curved U strip (open profile) to save tris.",
+    "Textures are 64px noise-tinted BaseColor PNGs, not embedded or linked in FBX."
+  ],
+  "assets": [
+    {
+      "name": "prop-soapstone-block-blank",
+      "file": "fbx/prop-soapstone-block-blank.fbx",
+      "tris": 12,
+      "dims_xyz_m": [
+        0.2051,
+        0.1239,
+        0.0786
+      ],
+      "bbox_min": [
+        -0.1026,
+        -0.0619,
+        0.0
+      ],
+      "materials": [
+        "M_Soapstone_GreyGreen"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Rough rectangular soapstone/steatite billet blank, grey-green, laid flat; sawn-block faces, not a soap cake."
+    },
+    {
+      "name": "prop-steatite-bead-blank",
+      "file": "fbx/prop-steatite-bead-blank.fbx",
+      "tris": 48,
+      "dims_xyz_m": [
+        0.024,
+        0.0208,
+        0.014
+      ],
+      "bbox_min": [
+        -0.012,
+        -0.0104,
+        0.0
+      ],
+      "materials": [
+        "M_Steatite_Bead"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Short hexagonal-cylinder steatite bead blank with a drilled through-hole."
+    },
+    {
+      "name": "prop-carving-gouge-ss1",
+      "file": "fbx/prop-carving-gouge-ss1.fbx",
+      "tris": 44,
+      "dims_xyz_m": [
+        0.158,
+        0.022,
+        0.0191
+      ],
+      "bbox_min": [
+        -0.079,
+        -0.011,
+        0.0
+      ],
+      "materials": [
+        "M_Handle_Wood",
+        "M_Tool_Steel"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Small wood-handled gouge for soft stone with curved U-section steel blade, lying flat."
+    },
+    {
+      "name": "prop-rasp-blank-ss1",
+      "file": "fbx/prop-rasp-blank-ss1.fbx",
+      "tris": 40,
+      "dims_xyz_m": [
+        0.21,
+        0.018,
+        0.0171
+      ],
+      "bbox_min": [
+        -0.105,
+        -0.009,
+        0.0
+      ],
+      "materials": [
+        "M_Handle_Wood",
+        "M_Tool_Steel"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Flat steel rasp/riffler blank with tang and wooden handle for shaping soapstone."
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-carving-gouge-ss1.fbx",
+    "fbx/prop-rasp-blank-ss1.fbx",
+    "fbx/prop-soapstone-block-blank.fbx",
+    "fbx/prop-steatite-bead-blank.fbx",
+    "tex/T_M_Handle_Wood_BaseColor.png",
+    "tex/T_M_Soapstone_GreyGreen_BaseColor.png",
+    "tex/T_M_Steatite_Bead_BaseColor.png",
+    "tex/T_M_Tool_Steel_BaseColor.png"
+  ]
+}
