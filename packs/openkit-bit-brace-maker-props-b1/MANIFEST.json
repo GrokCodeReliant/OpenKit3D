@@ -1,0 +1,97 @@
+{
+ "pack": "openkit-bit-brace-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres (1 unit = 1 m)",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": "find prop-*.fbx across studio/art + rg brace|auger|spoon-bit: no prop-brace-*, prop-auger-*, prop-bit-brace*, prop-spoon-bit-* or *-bb2 names existed; only prop-vambrace-blank (distinct).",
+ "judgment_calls": [
+  "-bb2 suffix kept (bb1 used by barrel-bung).",
+  "Pad is 32 tris vs preferred 28 (hex frustum with chamfered top); well under 210 hard max.",
+  "Frame is a 4-box crank (arms overlap grip so all parts meet); pad, chuck, bit are separate kit pieces.",
+  "Spoon bit blade is a flat pointed pentagon prism, not a screw tip, to stay distinct from gimlets/augers."
+ ],
+ "assets": [
+  {
+   "name": "prop-brace-frame-blank-bb2",
+   "file": "fbx/prop-brace-frame-blank-bb2.fbx",
+   "tris": 48,
+   "dims_xyz_m": [
+    0.162,
+    0.024,
+    0.24
+   ],
+   "bbox_min": [
+    -0.081,
+    -0.012,
+    0.0
+   ],
+   "materials": [
+    "mat_wood_oak",
+    "mat_iron_dark"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "U-shaped brace crank frame blank: iron lower and upper arms joined by a vertical oak sweep grip, short iron top stem; no pad or bit. 4 overlapping boxes."
+  },
+  {
+   "name": "prop-brace-pad-blank-bb2",
+   "file": "fbx/prop-brace-pad-blank-bb2.fbx",
+   "tris": 32,
+   "dims_xyz_m": [
+    0.06,
+    0.052,
+    0.034
+   ],
+   "bbox_min": [
+    -0.03,
+    -0.026,
+    0.0
+   ],
+   "materials": [
+    "mat_wood_oak"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Oak breast pad/knob blank: hexagonal frustum base (r 30 mm) with chamfered hex top, 34 mm tall."
+  },
+  {
+   "name": "prop-brace-chuck-blank-bb2",
+   "file": "fbx/prop-brace-chuck-blank-bb2.fbx",
+   "tris": 28,
+   "dims_xyz_m": [
+    0.0296,
+    0.0296,
+    0.045
+   ],
+   "bbox_min": [
+    -0.0148,
+    -0.0148,
+    0.0
+   ],
+   "materials": [
+    "mat_iron_dark"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Iron chuck/bit socket blank: tapered octagonal prism, r 12.8 mm base to 16 mm top, 45 mm tall."
+  },
+  {
+   "name": "prop-spoon-bit-blank-bb2",
+   "file": "fbx/prop-spoon-bit-blank-bb2.fbx",
+   "tris": 28,
+   "dims_xyz_m": [
+    0.016,
+    0.008,
+    0.14
+   ],
+   "bbox_min": [
+    -0.008,
+    -0.004,
+    0.0
+   ],
+   "materials": [
+    "mat_iron_dark"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Flat spoon-style wood bit blank: thin (3 mm) iron blade 16 mm wide with pointed lip tip, square 8 mm shank to 140 mm; not a screw tip."
+  }
+ ]
+}
