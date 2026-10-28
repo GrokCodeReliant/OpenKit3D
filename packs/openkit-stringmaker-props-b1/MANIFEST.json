@@ -1,0 +1,117 @@
+{
+ "pack": "openkit-stringmaker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-bridge-blank-sg1": "suffix kept per brief; no existing bridge-blank found"
+ },
+ "collision_check": "No stringmaker/tinsmith/coppersmith/gilders packs existed. fbx search for gut-string/winding-peg/resin-cake/bridge-blank/stringmaker: 0 hits.",
+ "judgment_calls": [
+  "Hank=2 coiled rings of gut stock with linen tie + knot; v1 424 tris reduced to 152",
+  "Bridge=stepped rough maple blank, pencil marks, no notches",
+  "Peg=tapered shaft + paddle head, hole only marked",
+  "Resin tray=5 rosin cakes + shard; v1 212 tris reduced to 172",
+  "Eye-check v2 passed"
+ ],
+ "assets": [
+  {
+   "name": "prop-gut-string-hank",
+   "tris": 152,
+   "dims_xyz_m": [
+    0.125,
+    0.13,
+    0.013
+   ],
+   "bbox_min": [
+    -0.062,
+    -0.065,
+    0.0
+   ],
+   "materials": [
+    "M_Gut_String",
+    "M_Linen_Tie"
+   ],
+   "height_m": 0.012,
+   "pivot": "bottom_centre (0,0,0); laid coil hank of dried gut string stock, linen tie across + knot; raw stock, not a strung bow; distinct from rope-maker coils"
+  },
+  {
+   "name": "prop-bridge-blank-sg1",
+   "tris": 60,
+   "dims_xyz_m": [
+    0.09,
+    0.032,
+    0.027
+   ],
+   "bbox_min": [
+    -0.045,
+    -0.016,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Maple",
+    "M_Pencil_Mark"
+   ],
+   "height_m": 0.027,
+   "pivot": "bottom_centre (0,0,0); unfinished maple bridge blank, stepped rough-sawn profile, pencil layout line + foot marks; no string notches cut"
+  },
+  {
+   "name": "prop-winding-peg-blank",
+   "tris": 52,
+   "dims_xyz_m": [
+    0.11,
+    0.012,
+    0.024
+   ],
+   "bbox_min": [
+    -0.055,
+    -0.006,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Box",
+    "M_Pencil_Mark"
+   ],
+   "height_m": 0.024,
+   "pivot": "bottom_centre (0,0,0); laid boxwood winding peg blank: tapered shaft + flat paddle head, string hole only marked; distinct from peg-maker tent/joinery pegs"
+  },
+  {
+   "name": "prop-resin-cake-tray",
+   "tris": 172,
+   "dims_xyz_m": [
+    0.28,
+    0.18,
+    0.029
+   ],
+   "bbox_min": [
+    -0.14,
+    -0.09,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Rosin_Amber",
+    "M_Rosin_Dark"
+   ],
+   "height_m": 0.029,
+   "pivot": "bottom_centre (0,0,0); ash tray of 5 poured rosin cakes (amber/dark) + broken shard; string-dressing rosin, not candle wax"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-bridge-blank-sg1.fbx",
+  "fbx/prop-gut-string-hank.fbx",
+  "fbx/prop-resin-cake-tray.fbx",
+  "fbx/prop-winding-peg-blank.fbx",
+  "tex/T_Gut_String_BaseColor.png",
+  "tex/T_Rosin_BaseColor.png",
+  "tex/T_Wood_Ash_BaseColor.png",
+  "tex/T_Wood_Maple_BaseColor.png"
+ ]
+}

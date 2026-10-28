@@ -1,0 +1,116 @@
+{
+ "pack": "openkit-tinsmith-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-snips-blank-ts1": "prop-hatchet-stake-blank (snips already exist as openkit-lantern-maker-props-b1/prop-tin-snips; swapped for gap)"
+ },
+ "collision_check": "No tinsmith/coppersmith/gilders packs existed. No fbx matched tin-sheet/soldering/mallet-tin/hatchet-stake. Near: lantern-maker prop-tin-snips; bung/felting/fulling/stone mallets; rivet-anvil-hm1.",
+ "judgment_calls": [
+  "Snips dropped as clone -> hatchet stake",
+  "Mallet=boxwood octagonal cylinder head",
+  "Soldering iron=pyramidal copper bit, fire-heated",
+  "Eye-check v1 passed"
+ ],
+ "assets": [
+  {
+   "name": "prop-tin-sheet-blank",
+   "tris": 48,
+   "dims_xyz_m": [
+    0.36,
+    0.25,
+    0.008
+   ],
+   "bbox_min": [
+    -0.18,
+    -0.125,
+    0.0
+   ],
+   "materials": [
+    "M_Tinplate",
+    "M_Tinplate_Dull"
+   ],
+   "height_m": 0.008,
+   "pivot": "bottom_centre (0,0,0); laid 36x25 cm tinplate flat stock with scribed fold line, one lightly bent edge and an offcut; distinct from pewter ingots and parchment/map sheets"
+  },
+  {
+   "name": "prop-hatchet-stake-blank",
+   "tris": 48,
+   "dims_xyz_m": [
+    0.16,
+    0.21,
+    0.044
+   ],
+   "bbox_min": [
+    -0.08,
+    -0.105,
+    0.0
+   ],
+   "materials": [
+    "M_Iron_Raw",
+    "M_Iron_Edge"
+   ],
+   "height_m": 0.044,
+   "pivot": "bottom_centre (0,0,0); laid tinsmith hatchet stake blank (wide wedge head with straight folding edge + square bench shank), unhardened; replaces snips (prop-tin-snips already in lantern-maker); distinct from rivet-anvil and stake anvils"
+  },
+  {
+   "name": "prop-soldering-iron-blank",
+   "tris": 56,
+   "dims_xyz_m": [
+    0.035,
+    0.345,
+    0.03
+   ],
+   "bbox_min": [
+    -0.018,
+    -0.172,
+    0.0
+   ],
+   "materials": [
+    "M_Iron_Raw",
+    "M_Copper_Raw",
+    "M_Wood_Ash"
+   ],
+   "height_m": 0.028,
+   "pivot": "bottom_centre (0,0,0); laid 33 cm fire-heated soldering iron (hatchet-style copper bit, iron shank, ash handle), untinned blank"
+  },
+  {
+   "name": "prop-mallet-tin-blank",
+   "tris": 48,
+   "dims_xyz_m": [
+    0.14,
+    0.295,
+    0.07
+   ],
+   "bbox_min": [
+    -0.07,
+    -0.147,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Box",
+    "M_Wood_Ash"
+   ],
+   "height_m": 0.07,
+   "pivot": "bottom_centre (0,0,0); laid boxwood cylinder tinsmith mallet blank with flat faces (no marring of tinplate); distinct from bung/felting/fulling/stone mallets"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-hatchet-stake-blank.fbx",
+  "fbx/prop-mallet-tin-blank.fbx",
+  "fbx/prop-soldering-iron-blank.fbx",
+  "fbx/prop-tin-sheet-blank.fbx",
+  "tex/T_Copper_Raw_BaseColor.png",
+  "tex/T_Iron_Raw_BaseColor.png",
+  "tex/T_Tinplate_Raw_BaseColor.png",
+  "tex/T_Wood_Box_BaseColor.png"
+ ]
+}
