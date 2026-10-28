@@ -1,0 +1,113 @@
+{
+  "pack": "openkit-hurdy-gurdy-maker-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "find <studio>/art -name prop-*.fbx: no existing gurdy-wheel/keybox/crank-handle/gurdy-body names; nearest prop-escape-wheel-blank, prop-recorder-body-blank are distinct",
+  "judgment_calls": [
+    "Body shell 124 tris (hollow walls+rim+floor), slightly above 120 preference, under 210 hard max",
+    "Wheel stands upright on rim, axle along X; 0.15 m dia, 0.02 m thick",
+    "Keybox 6 notches between 7 teeth; 0.25x0.08x0.06 m",
+    "Wheel-well rendered as V notch at string end of pear outline",
+    "Flat-colour 64px BaseColor PNGs shipped in tex/, not linked in FBX"
+  ],
+  "assets": [
+    {
+      "name": "prop-gurdy-wheel-blank",
+      "file": "fbx/prop-gurdy-wheel-blank.fbx",
+      "tris": 64,
+      "dims_xyz_m": [
+        0.09,
+        0.15,
+        0.15
+      ],
+      "bbox_min": [
+        -0.045,
+        -0.075,
+        0.0
+      ],
+      "materials": [
+        "MAT_Wood_Rosined",
+        "MAT_Wood_Maple"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Small rosined maple hurdy-gurdy wheel blank, 0.15 m dia, short axle stub."
+    },
+    {
+      "name": "prop-keybox-blank",
+      "file": "fbx/prop-keybox-blank.fbx",
+      "tris": 96,
+      "dims_xyz_m": [
+        0.25,
+        0.08,
+        0.06
+      ],
+      "bbox_min": [
+        -0.125,
+        -0.04,
+        0.0
+      ],
+      "materials": [
+        "MAT_Wood_Maple"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Rectangular tangent/keybox blank with 6 key-slot notches along the top."
+    },
+    {
+      "name": "prop-crank-handle-blank",
+      "file": "fbx/prop-crank-handle-blank.fbx",
+      "tris": 56,
+      "dims_xyz_m": [
+        0.121,
+        0.0225,
+        0.14
+      ],
+      "bbox_min": [
+        -0.0605,
+        -0.0113,
+        0.0
+      ],
+      "materials": [
+        "MAT_Wood_Maple",
+        "MAT_Iron_Dark"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Bent iron crank arm with turned wooden handle blank."
+    },
+    {
+      "name": "prop-gurdy-body-blank",
+      "file": "fbx/prop-gurdy-body-blank.fbx",
+      "tris": 124,
+      "dims_xyz_m": [
+        0.3271,
+        0.2095,
+        0.08
+      ],
+      "bbox_min": [
+        -0.1635,
+        -0.1048,
+        0.0
+      ],
+      "materials": [
+        "MAT_Wood_Maple"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Hollow pear-outline hurdy-gurdy body shell blank with wheel-well notch at string end."
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-crank-handle-blank.fbx",
+    "fbx/prop-gurdy-body-blank.fbx",
+    "fbx/prop-gurdy-wheel-blank.fbx",
+    "fbx/prop-keybox-blank.fbx",
+    "tex/MAT_Iron_Dark_BaseColor.png",
+    "tex/MAT_Wood_Maple_BaseColor.png",
+    "tex/MAT_Wood_Rosined_BaseColor.png"
+  ]
+}

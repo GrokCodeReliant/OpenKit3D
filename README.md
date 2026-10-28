@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **154** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **156** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -86,6 +86,7 @@ The `packs/` folder contains **154** CC0-licensed medieval prop packs. Each pack
 | `openkit-hat-maker-props-b1` | Hat-maker workshop props |
 | `openkit-helm-maker-props-b1` | Helm-maker workshop props |
 | `openkit-horn-worker-props-b1` | Horn-worker workshop props |
+| `openkit-hurdy-gurdy-maker-props-b1` | Hurdy-gurdy maker workshop props |
 | `openkit-icons-inventory-b1` | Inventory icons |
 | `openkit-illuminator-props-b1` | Illuminator workshop props |
 | `openkit-ink-maker-props-b1` | Ink-maker workshop props |
@@ -158,6 +159,7 @@ The `packs/` folder contains **154** CC0-licensed medieval prop packs. Each pack
 | `openkit-viol-maker-props-b1` | Viol-maker workshop props |
 | `openkit-wall-dress-b1` | Wall decorations |
 | `openkit-watchmaker-props-b1` | Watchmaker workshop props |
+| `openkit-wax-tablet-maker-props-b1` | Wax-tablet maker workshop props |
 | `openkit-well-water-b1` | Wells and water props |
 | `openkit-woodcarver-props-b1` | Woodcarver workshop props |
 

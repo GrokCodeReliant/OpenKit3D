@@ -1,0 +1,133 @@
+{
+  "pack": "openkit-wax-tablet-maker-props-b1",
+  "license": "CC0-1.0",
+  "units": "metric, 1 BU = 1 m",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": {
+    "method": "find <studio>/art -name 'prop-*.fbx' before export",
+    "result": "all 4 base names free; no -wt1 renames needed",
+    "avoided": [
+      "prop-wax-block-stack",
+      "prop-candle-mold",
+      "prop-dipping-rack",
+      "prop-wick-spool-cm1",
+      "prop-sealing-wax-stick",
+      "prop-parchment-sheet-stack",
+      "prop-sand-shaker",
+      "prop-writing-slope",
+      "prop-seal-blank-wax",
+      "prop-graver-set",
+      "prop-matrix-blank",
+      "prop-sanding-pad"
+    ]
+  },
+  "judgment_calls": [
+    "Recess built as inset + drop with sloped inner walls (20 tris) rather than vertical walls; reads clearly as recessed panel.",
+    "Recess floor uses MI_wax slot to read as a waxed tablet; frame and diptych remain blanks otherwise.",
+    "Diptych laid open edge-to-edge with two 6-sided leather-thong knuckles at the shared edge (not a door hinge).",
+    "Stylus in bone (MI_bone); 6-sided shaft, cone tip, flat box spatula.",
+    "Wax cake round, 10-sided tapered, dark beeswax/pitch colour; distinct from candle wax blocks, sealing-wax sticks and seal wax blanks.",
+    "BaseColor PNGs shipped in tex/ (64px tint); no image nodes in FBX."
+  ],
+  "assets": [
+    {
+      "name": "prop-tablet-frame-blank",
+      "file": "fbx/prop-tablet-frame-blank.fbx",
+      "tris": 20,
+      "dims_xyz_m": [
+        0.18,
+        0.12,
+        0.016
+      ],
+      "bbox_min": [
+        -0.09,
+        -0.06,
+        0.0
+      ],
+      "materials": [
+        "MI_wood",
+        "MI_wax"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Single wooden writing-tablet frame, raised rim around a shallow recessed panel thinly lined with dark writing wax, laid flat."
+    },
+    {
+      "name": "prop-diptych-blank",
+      "file": "fbx/prop-diptych-blank.fbx",
+      "tris": 80,
+      "dims_xyz_m": [
+        0.351,
+        0.115,
+        0.016
+      ],
+      "bbox_min": [
+        -0.1755,
+        -0.0575,
+        0.0
+      ],
+      "materials": [
+        "MI_wood",
+        "MI_wax",
+        "MI_leather"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Open diptych: two waxed tablet frames lying edge-to-edge, joined by two leather-thong hinge knuckles."
+    },
+    {
+      "name": "prop-stylus-blank",
+      "file": "fbx/prop-stylus-blank.fbx",
+      "tris": 38,
+      "dims_xyz_m": [
+        0.145,
+        0.011,
+        0.0043
+      ],
+      "bbox_min": [
+        -0.0725,
+        -0.0055,
+        0.0
+      ],
+      "materials": [
+        "MI_bone"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Bone stylus: six-sided shaft, pointed writing tip one end, flat spatula eraser the other."
+    },
+    {
+      "name": "prop-wax-cake-blank",
+      "file": "fbx/prop-wax-cake-blank.fbx",
+      "tris": 36,
+      "dims_xyz_m": [
+        0.0666,
+        0.07,
+        0.022
+      ],
+      "bbox_min": [
+        -0.0333,
+        -0.035,
+        0.0
+      ],
+      "materials": [
+        "MI_wax"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Small round tapered cake of dark beeswax-and-pitch writing wax used to refill tablets."
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-diptych-blank.fbx",
+    "fbx/prop-stylus-blank.fbx",
+    "fbx/prop-tablet-frame-blank.fbx",
+    "fbx/prop-wax-cake-blank.fbx",
+    "tex/T_bone_BaseColor.png",
+    "tex/T_leather_BaseColor.png",
+    "tex/T_wax_BaseColor.png",
+    "tex/T_wood_BaseColor.png"
+  ]
+}
