@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **136** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **138** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -125,6 +125,7 @@ The `packs/` folder contains **136** CC0-licensed medieval prop packs. Each pack
 | `openkit-sieve-maker-props-b1` | Sieve-maker workshop props |
 | `openkit-silversmith-props-b1` | Silversmith workshop props |
 | `openkit-smithy-tools-b1` | Blacksmith tools |
+| `openkit-spinner-props-b1` | Spinner / hand-spinning accessory props |
 | `openkit-spoon-carver-props-b1` | Green-wood spoon carver workshop props |
 | `openkit-spurrier-props-b1` | Spurrier (spur-maker) workshop props |
 | `openkit-stable-props-b1` | Stable equipment |
@@ -135,6 +136,7 @@ The `packs/` folder contains **136** CC0-licensed medieval prop packs. Each pack
 | `openkit-thatcher-tools-props-b1` | Thatcher workshop tools |
 | `openkit-tavern-dressing-b1` | Tavern decorations |
 | `openkit-tent-maker-props-b1` | Tent-maker workshop props |
+| `openkit-thimble-maker-props-b1` | Thimble-maker workshop props |
 | `openkit-tiler-props-b1` | Tiler workshop props |
 | `openkit-tinsmith-props-b1` | Tinsmith workshop props |
 | `openkit-turner-props-b1` | Turner / lathe workshop props |
