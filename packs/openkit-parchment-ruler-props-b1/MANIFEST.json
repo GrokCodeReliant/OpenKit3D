@@ -1,0 +1,110 @@
+{
+ "pack": "openkit-parchment-ruler-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres (1 m), Z-up in Blender",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": "find <studio>/art -name 'prop-*.fbx' run before export; all 4 base names free (near names prop-pricking-card, prop-ruling-pen-blank, prop-marking-gauge, prop-netting-gauge are distinct)",
+ "judgment_calls": [
+  "prop-pricking-wheel 84 tris and prop-ruling-plummet 60 tris slightly over soft preference; well under 210 hard max and 120 preferred",
+  "Gauge built as L-square",
+  "Textures shipped separately as simple procedural grain BaseColor PNGs, not linked in FBX"
+ ],
+ "assets": [
+  {
+   "name": "prop-ruling-straightedge",
+   "tris": 12,
+   "bbox_min": [
+    -0.24,
+    -0.022,
+    0.0
+   ],
+   "dims_xyz_m": [
+    0.48,
+    0.044,
+    0.007
+   ],
+   "materials": [
+    "M_RulerOak"
+   ],
+   "file": "fbx/prop-ruling-straightedge.fbx",
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Long thin oak straightedge with one bevelled edge, laid along X."
+  },
+  {
+   "name": "prop-pricking-wheel",
+   "tris": 84,
+   "bbox_min": [
+    -0.0761,
+    -0.008,
+    0.0
+   ],
+   "dims_xyz_m": [
+    0.1522,
+    0.016,
+    0.0443
+   ],
+   "materials": [
+    "M_RulerOak",
+    "M_RulerIron"
+   ],
+   "file": "fbx/prop-pricking-wheel.fbx",
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Short oak handle with iron fork and 8-spike pricking wheel for marking ruling holes through a stack."
+  },
+  {
+   "name": "prop-ruling-plummet",
+   "tris": 60,
+   "bbox_min": [
+    -0.047,
+    -0.0063,
+    0.0
+   ],
+   "dims_xyz_m": [
+    0.094,
+    0.0125,
+    0.011
+   ],
+   "materials": [
+    "M_PlummetLead"
+   ],
+   "file": "fbx/prop-ruling-plummet.fbx",
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Short lead plummet stylus with pointed tip and collar for faint dry-point ruling."
+  },
+  {
+   "name": "prop-line-gauge-blank",
+   "tris": 24,
+   "bbox_min": [
+    -0.15,
+    -0.09,
+    0.0
+   ],
+   "dims_xyz_m": [
+    0.3,
+    0.18,
+    0.014
+   ],
+   "materials": [
+    "M_RulerOak"
+   ],
+   "file": "fbx/prop-line-gauge-blank.fbx",
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Wooden L-square line gauge blank: thin blade along X, thicker stock along Y."
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-line-gauge-blank.fbx",
+  "fbx/prop-pricking-wheel.fbx",
+  "fbx/prop-ruling-plummet.fbx",
+  "fbx/prop-ruling-straightedge.fbx",
+  "tex/T_PlummetLead_BaseColor.png",
+  "tex/T_RulerIron_BaseColor.png",
+  "tex/T_RulerOak_BaseColor.png"
+ ]
+}
