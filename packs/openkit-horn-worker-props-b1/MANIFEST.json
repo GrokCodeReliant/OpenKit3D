@@ -1,0 +1,128 @@
+{
+ "pack": "openkit-horn-worker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures; FBX path_mode STRIP; image datablocks removed before export)",
+ "max_tris": 210,
+ "renames": {
+  "prop-scraping-knife": "prop-scraping-knife-hw1"
+ },
+ "collision_check": "Searched studio/art/openkit-*/fbx for horn|comb|scrap|press|clamp|quill|polish|beaker: hits prop-horn-pane-stack (lantern-maker), prop-frame-comb, prop-press-board-pair, prop-wine-press-lever, prop-scraping-knife (taken -> -hw1), prop-leather-scrap-pile, prop-inkwell-quill. No drinking/powder horn present. The 4 final ids are free.",
+ "judgment_calls": [
+  "Horn-worker theme not covered (only lantern pane-stack) -> no quill-maker pivot",
+  "prop-horn-blank-pair: solid curved 6-seg tapered cones with sawn darker butt caps; no hollow, rim, strap, stopper or mouthpiece so it never reads as drinking/powder horn",
+  "prop-horn-press-clamp: two-screw oak press holding 3 opened horn sheets; distinct from press-board-pair and wine-press-lever by iron screws + tommy bars and horn content",
+  "prop-horn-comb-blank: plain plate + spine with scored lines only, teeth uncut (distinct from finished prop-frame-comb)",
+  "prop-scraping-knife-hw1: two-handled straight scraper with turned burr edge, not a one-handed tanner/bone tool",
+  "Workbench renders; flat BaseColor PNGs in tex/ not linked; .blend holds last-built object only (pack pattern); no .blend1"
+ ],
+ "assets": [
+  {
+   "name": "prop-horn-blank-pair",
+   "tris": 140,
+   "dims_xyz_m": [
+    0.26,
+    0.145,
+    0.168
+   ],
+   "bbox_min": [
+    -0.13,
+    -0.073,
+    0.0
+   ],
+   "materials": [
+    "M_Horn_Raw",
+    "M_Horn_Core"
+   ],
+   "height_m": 0.168,
+   "pivot": "bottom_centre (0,0,0) under the pair; two raw cattle-horn blanks, sawn butts, unworked curved tips, resting on their sides; not hollowed, no rim, mouthpiece, strap or stopper (not a drinking/powder horn)",
+   "fbx": "fbx/prop-horn-blank-pair.fbx",
+   "sha256": "8810e830cf41ee78bcf9690cb2ee472e1e93a82856af2043dd0ccb71b2900e23"
+  },
+  {
+   "name": "prop-horn-press-clamp",
+   "tris": 124,
+   "dims_xyz_m": [
+    0.4,
+    0.16,
+    0.244
+   ],
+   "bbox_min": [
+    -0.2,
+    -0.08,
+    0.0
+   ],
+   "materials": [
+    "M_Oak",
+    "M_Iron",
+    "M_Horn_Raw"
+   ],
+   "height_m": 0.244,
+   "pivot": "bottom_centre (0,0,0) under bed block; 0.36 m two-screw oak press with iron screws and tommy bars, 3 opened horn sheets clamped flat between bed and platen",
+   "fbx": "fbx/prop-horn-press-clamp.fbx",
+   "sha256": "ec9cd141de2d898ff4b57710be298f75e6c780acb2d283146d5ecc6ef576a8a0"
+  },
+  {
+   "name": "prop-horn-comb-blank",
+   "tris": 120,
+   "dims_xyz_m": [
+    0.16,
+    0.061,
+    0.006
+   ],
+   "bbox_min": [
+    -0.08,
+    -0.031,
+    0.0
+   ],
+   "materials": [
+    "M_Horn_Raw",
+    "M_Horn_Core"
+   ],
+   "height_m": 0.006,
+   "pivot": "bottom_centre (0,0,0) lying flat; 0.16 m rectangular horn comb blank, thick back spine, 8 scored guide lines, teeth not cut",
+   "fbx": "fbx/prop-horn-comb-blank.fbx",
+   "sha256": "6496e3e1b04a268afb23a2c66eb6f767de80b41b4cb1692349588bc13662ea6b"
+  },
+  {
+   "name": "prop-scraping-knife-hw1",
+   "tris": 88,
+   "dims_xyz_m": [
+    0.289,
+    0.173,
+    0.023
+   ],
+   "bbox_min": [
+    -0.145,
+    -0.086,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Ash_Pale"
+   ],
+   "height_m": 0.023,
+   "pivot": "bottom_centre (0,0,0) lying flat; 0.29 m two-handled horn scraper: straight blade with turned burr edge, angled tangs, short ash grips",
+   "fbx": "fbx/prop-scraping-knife-hw1.fbx",
+   "sha256": "312d15e31ee2874eae2f93efcad8dbdf50418e775f8f28893618571aa5213a0f"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-horn-blank-pair.fbx",
+  "fbx/prop-horn-comb-blank.fbx",
+  "fbx/prop-horn-press-clamp.fbx",
+  "fbx/prop-scraping-knife-hw1.fbx",
+  "tex/T_Ash_Pale_BaseColor.png",
+  "tex/T_Horn_Core_BaseColor.png",
+  "tex/T_Horn_Raw_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Oak_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)"
+}
