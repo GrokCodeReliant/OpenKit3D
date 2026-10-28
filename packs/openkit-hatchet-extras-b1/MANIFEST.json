@@ -1,0 +1,97 @@
+{
+  "pack": "openkit-hatchet-extras-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "All 4 names checked against existing prop-*.fbx across art tree and rg carpenter.?hatchet|hatchet-head|hatchet-handle|hatchet-eye: no matches; -ht1 suffix free.",
+  "judgment_calls": [
+    "Head built as convex hull (16 tris), smaller than felling-axe-head-ax1; separate eye part per brief",
+    "Eye as hollow open rectangular tube (32 tris, at budget)",
+    "Handle 0.40 m, rectangular 3-ring taper rather than round to hit 20 tris",
+    "Wedge assigned mat_wood",
+    "Textures are flat 64px BaseColor swatches; FBX carries material slots only"
+  ],
+  "assets": [
+    {
+      "name": "prop-carpenter-hatchet-head-ht1",
+      "file": "fbx/prop-carpenter-hatchet-head-ht1.fbx",
+      "tris": 16,
+      "dims_xyz_m": [
+        0.115,
+        0.024,
+        0.07
+      ],
+      "bbox_min": [
+        -0.0575,
+        -0.012,
+        0.0
+      ],
+      "materials": [
+        "mat_steel"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Compact steel hatchet head blank: flat rectangular poll block (0.04 m deep) tapering via convex wedge to a single straight blade edge; 0.115 x 0.024 x 0.07 m, 16 tris."
+    },
+    {
+      "name": "prop-carpenter-hatchet-eye-ht1",
+      "file": "fbx/prop-carpenter-hatchet-eye-ht1.fbx",
+      "tris": 32,
+      "dims_xyz_m": [
+        0.044,
+        0.03,
+        0.05
+      ],
+      "bbox_min": [
+        -0.022,
+        -0.015,
+        0.0
+      ],
+      "materials": [
+        "mat_steel"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Hollow rectangular steel eye/socket blank: open-ended tube, outer 0.044 x 0.030 m, inner 0.028 x 0.014 m, 0.05 m tall, 32 tris."
+    },
+    {
+      "name": "prop-carpenter-hatchet-handle-ht1",
+      "file": "fbx/prop-carpenter-hatchet-handle-ht1.fbx",
+      "tris": 20,
+      "dims_xyz_m": [
+        0.032,
+        0.022,
+        0.4
+      ],
+      "bbox_min": [
+        -0.016,
+        -0.011,
+        0.0
+      ],
+      "materials": [
+        "mat_wood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Short tapered wooden hatchet handle blank: 3-ring rectangular bar, slight mid swell, capped ends, 0.40 m long, 20 tris."
+    },
+    {
+      "name": "prop-carpenter-hatchet-wedge-ht1",
+      "file": "fbx/prop-carpenter-hatchet-wedge-ht1.fbx",
+      "tris": 8,
+      "dims_xyz_m": [
+        0.024,
+        0.008,
+        0.04
+      ],
+      "bbox_min": [
+        -0.012,
+        -0.004,
+        0.0
+      ],
+      "materials": [
+        "mat_wood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Wooden eye-wedge blank: triangular prism, blunt 8 mm top tapering to knife edge at bottom, 0.024 x 0.008 x 0.04 m, 8 tris."
+    }
+  ]
+}

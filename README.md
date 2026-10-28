@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **212** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **214** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -46,6 +46,7 @@ The `packs/` folder contains **212** CC0-licensed medieval prop packs. Each pack
 | `openkit-bellfounder-props-b1` | Bell-founder workshop props |
 | `openkit-belt-maker-props-b1` | Belt-maker workshop props |
 | `openkit-bellows-maker-props-b1` | Bellows-maker workshop props |
+| `openkit-bench-hook-props-b1` | Carpenter bench-hook component blanks: board, cleat, fence, screw |
 | `openkit-bit-brace-maker-props-b1` | Bit-brace maker workshop props |
 | `openkit-blacksmith-props-b1` | Blacksmith workshop props |
 | `openkit-block-plane-props-b1` | Block plane blanks: body, iron, wedge, lever-cap |
@@ -108,6 +109,7 @@ The `packs/` folder contains **212** CC0-licensed medieval prop packs. Each pack
 | `openkit-grindstone-frame-props-b1` | Grindstone-frame workshop props |
 | `openkit-harness-maker-props-b1` | Harness-maker workshop props |
 | `openkit-hat-maker-props-b1` | Hat-maker workshop props |
+| `openkit-hatchet-extras-b1` | Carpenter hatchet extras: head blank, eye, handle, wedge |
 | `openkit-helm-maker-props-b1` | Helm-maker workshop props |
 | `openkit-hinge-maker-props-b1` | Hinge-maker workshop props |
 | `openkit-hoop-cooper-extras-b1` | Cooper hoop-workshop extras |
