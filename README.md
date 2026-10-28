@@ -31,8 +31,8 @@ The `packs/` folder contains **150** CC0-licensed medieval prop packs. Each pack
 | `openkit-apothecary-props-b1` | Apothecary workshop props |
 | `openkit-armorer-props-b1` | Armorer workshop props |
 | `openkit-archery-range-b1` | Archery targets and training props |
-| `openkit-baker-props-b1` | Bakery props |
 | `openkit-bagpiper-props-b1` | Bagpiper workshop props |
+| `openkit-baker-props-b1` | Bakery props |
 | `openkit-barber-props-b1` | Barber workshop props |
 | `openkit-barrel-chest-b1` | Barrels, chests, and storage containers |
 | `openkit-bathhouse-props-b1` | Bathhouse furniture and accessories |
