@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **214** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **216** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -75,6 +75,7 @@ The `packs/` folder contains **214** CC0-licensed medieval prop packs. Each pack
 | `openkit-cobbler-props-b1` | Cobbler/shoemaker props |
 | `openkit-comb-maker-props-b1` | Comb-maker workshop props |
 | `openkit-cooper-props-b1` | Cooper (barrel-maker) props |
+| `openkit-coping-saw-props-b1` | Coping-saw blanks: blade, frame, handle, pin |
 | `openkit-coppersmith-props-b1` | Coppersmith workshop props |
 | `openkit-crossbow-maker-props-b1` | Crossbow-maker workshop props |
 | `openkit-cutler-props-b1` | Cutler (knife-maker) workshop props |
@@ -177,6 +178,7 @@ The `packs/` folder contains **214** CC0-licensed medieval prop packs. Each pack
 | `openkit-sawyer-props-b1` | Sawyer (pit-saw) workshop props |
 | `openkit-saw-set-maker-props-b1` | Saw-set maker workshop props |
 | `openkit-scabbard-maker-props-b1` | Scabbard-maker workshop props |
+| `openkit-scratch-awl-props-b1` | Carpenter marking-awl blanks: blade, ferrule, handle, brad |
 | `openkit-seal-engraver-props-b1` | Seal-engraver workshop props |
 | `openkit-seal-maker-props-b1` | Seal-maker workshop props |
 | `openkit-shield-maker-props-b1` | Shield-maker workshop props |

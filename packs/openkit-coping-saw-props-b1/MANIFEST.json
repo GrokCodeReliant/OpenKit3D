@@ -1,0 +1,101 @@
+{
+ "pack": "openkit-coping-saw-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres (1 BU = 1 m)",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": "find prop-*.fbx across studio/art: no prop-coping-saw* and no name collisions for the four -cp1 names (only other -cp1 is prop-bedroll-cp1, unrelated); rg coping.?saw found no prior pack. Distinct from hand/pit/tooth/bow/tenon/dovetail saws and saw-set props.",
+ "judgment_calls": [
+  "Frame is a single extruded open-U profile (open at top, not a closed loop), 28 tris.",
+  "Blade is a plain solid box strip (12 tris) with square-cut ends; pin ends are where the separate prop-coping-saw-pin-cp1 seats - no pin geometry or holes on the blade to stay within 16 tris.",
+  "Handle is a straight hexagonal prism (20 tris), no taper/ferrule.",
+  "Pin is a square-section rod (12 tris).",
+  "BaseColor PNGs are flat 64x64 swatches; FBX carries material slots only."
+ ],
+ "assets": [
+  {
+   "name": "prop-coping-saw-frame-cp1",
+   "file": "fbx/prop-coping-saw-frame-cp1.fbx",
+   "tris": 28,
+   "dims_xyz_m": [
+    0.13,
+    0.005,
+    0.12
+   ],
+   "bbox_min": [
+    -0.065,
+    -0.0025,
+    0.0
+   ],
+   "materials": [
+    "steel_bright"
+   ],
+   "basecolor": "tex/prop-coping-saw-frame-cp1_BaseColor.png",
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Open U-frame blank for a coping saw: single extruded U of rectangular steel bar stock (8 mm bar, 5 mm thick), 130 mm wide x 120 mm tall, open at the top (not a closed loop); no tensioning hardware."
+  },
+  {
+   "name": "prop-coping-saw-blade-cp1",
+   "file": "fbx/prop-coping-saw-blade-cp1.fbx",
+   "tris": 12,
+   "dims_xyz_m": [
+    0.165,
+    0.0006,
+    0.003
+   ],
+   "bbox_min": [
+    -0.0825,
+    -0.0003,
+    0.0
+   ],
+   "materials": [
+    "steel_blade"
+   ],
+   "basecolor": "tex/prop-coping-saw-blade-cp1_BaseColor.png",
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Very thin steel coping-saw blade blank: solid flat strip 165 mm x 3 mm x 0.6 mm, no teeth; plain square-cut pin ends where the separate pin blank seats (pins not modelled on the blade). Lies along X."
+  },
+  {
+   "name": "prop-coping-saw-handle-cp1",
+   "file": "fbx/prop-coping-saw-handle-cp1.fbx",
+   "tris": 20,
+   "dims_xyz_m": [
+    0.028,
+    0.02425,
+    0.11
+   ],
+   "bbox_min": [
+    -0.014,
+    -0.01212,
+    0.0
+   ],
+   "materials": [
+    "wood_beech"
+   ],
+   "basecolor": "tex/prop-coping-saw-handle-cp1_BaseColor.png",
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Wooden coping-saw handle blank: straight hexagonal prism (14 mm circumradius, 110 mm long), standing upright along Z, flat ends, no ferrule or bore."
+  },
+  {
+   "name": "prop-coping-saw-pin-cp1",
+   "file": "fbx/prop-coping-saw-pin-cp1.fbx",
+   "tris": 12,
+   "dims_xyz_m": [
+    0.003,
+    0.003,
+    0.012
+   ],
+   "bbox_min": [
+    -0.0015,
+    -0.0015,
+    0.0
+   ],
+   "materials": [
+    "steel_bright"
+   ],
+   "basecolor": "tex/prop-coping-saw-pin-cp1_BaseColor.png",
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Small steel blade-pin / retainer blank: square-section rod 3 x 3 mm, 12 mm long, standing upright along Z, plain ends."
+  }
+ ]
+}
