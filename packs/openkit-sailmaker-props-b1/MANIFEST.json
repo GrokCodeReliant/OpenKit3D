@@ -1,0 +1,119 @@
+{
+ "pack": "openkit-sailmaker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "No openkit-sailmaker/turner/brushmaker/painter/bellfounder packs existed. No sail/palm/thimble/bolt-rope/cringle in any openkit-*/fbx. Nearest: needle-maker prop-needle-blank-tray (blank wire needles, not finished triangular sail needles); guy-line/drawstring/rope coils (bolt-rope differs: tarred edge rope sewn to canvas tabling).",
+ "judgment_calls": [
+  "Rings use 6-seg rectangular profile to stay <=210 tris",
+  "Palm laid flat, band axis vertical",
+  "Bolt rope tail sewn to tabling strip for distinctness from generic coils",
+  "Eye-check v1/v2: triangular ring profile read as zigzag -> switched to box profile; palm unrotated to lie flat"
+ ],
+ "assets": [
+  {
+   "name": "prop-sail-needle-set",
+   "tris": 196,
+   "dims_xyz_m": [
+    0.32,
+    0.12,
+    0.04
+   ],
+   "bbox_min": [
+    -0.16,
+    -0.06,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron_Forged",
+    "M_Iron_Dark",
+    "M_Felt_Grey",
+    "M_Beeswax"
+   ],
+   "height_m": 0.04,
+   "pivot": "laid / bottom_centre (0,0,0); 32 cm oak board with felt pad holding five graduated triangular-point sail needles and a beeswax cake"
+  },
+  {
+   "name": "prop-palm-thimble",
+   "tris": 148,
+   "dims_xyz_m": [
+    0.102,
+    0.134,
+    0.06
+   ],
+   "bbox_min": [
+    -0.051,
+    -0.067,
+    0.0
+   ],
+   "materials": [
+    "M_Leather_Tan",
+    "M_Iron_Forged",
+    "M_Iron_Dark"
+   ],
+   "height_m": 0.07,
+   "pivot": "laid / bottom_centre (0,0,0); sailmaker's palm laid flat (band axis vertical): leather hand band with thumb loop, palm pad and dimpled iron thimble plate, laced seam"
+  },
+  {
+   "name": "prop-bolt-rope-coil",
+   "tris": 192,
+   "dims_xyz_m": [
+    0.412,
+    0.229,
+    0.02
+   ],
+   "bbox_min": [
+    -0.206,
+    -0.114,
+    0.0
+   ],
+   "materials": [
+    "M_Rope_Tarred",
+    "M_Canvas_Duck",
+    "M_Twine_Waxed"
+   ],
+   "height_m": 0.02,
+   "pivot": "bottom_centre (0,0,0); flat tarred bolt-rope coil (~26 cm) whose tail is sewn to a strip of canvas tabling with twine seizings - sail-edge rope, not a guy line or hank"
+  },
+  {
+   "name": "prop-cringle-blank",
+   "tris": 176,
+   "dims_xyz_m": [
+    0.22,
+    0.14,
+    0.11
+   ],
+   "bbox_min": [
+    -0.11,
+    -0.07,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Brass",
+    "M_Rope_Tarred"
+   ],
+   "height_m": 0.11,
+   "pivot": "bottom_centre (0,0,0); 22 cm oak tray of unfinished cringle blanks: two graduated brass thimbles, a half-worked rope-strand ring and an upright wooden cringle fid"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-bolt-rope-coil.fbx",
+  "fbx/prop-cringle-blank.fbx",
+  "fbx/prop-palm-thimble.fbx",
+  "fbx/prop-sail-needle-set.fbx",
+  "tex/T_Canvas_Duck_BaseColor.png",
+  "tex/T_Leather_Tan_BaseColor.png",
+  "tex/T_Rope_Tarred_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ]
+}
