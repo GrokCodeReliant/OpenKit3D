@@ -1,0 +1,130 @@
+{
+ "pack": "openkit-map-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-compass-divider-mm1": "suffix: prop-compass-divider exists in openkit-cartographer-props-b1"
+ },
+ "collision_check": "Searched openkit-*/fbx for map|compass|divider|ruling|pigment|cartograph|chart|sheet|tray|weight. Near-misses: cartographer pack (chart-weight, compass-divider, map-case-tube, rolled-chart), parchment-sheet-blank (parchment-maker), parchment-sheet-stack (scribe). No map-sheet, ruling-pen or pigment-cake asset.",
+ "judgment_calls": [
+  "Map sheet is larger paper (42x30 vs parchment) with only faint chalk grid strips sitting on top; no coasts/labels/rose = blank, not treasure map",
+  "Divider is laid flat, legs open ~18 deg, brass hinge disc; legs untapered square bar (low tris)",
+  "Ruling pen nib blades overlap handle end (no gap), no screw = blank",
+  "Pigment cakes are 6-seg discs seated on tray floor",
+  "Eye-check v1 contact sheet: no floating parts; no fixes needed"
+ ],
+ "assets": [
+  {
+   "name": "prop-map-sheet-blank",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.42,
+    0.3,
+    0.002
+   ],
+   "bbox_min": [
+    -0.21,
+    -0.15,
+    0.0
+   ],
+   "materials": [
+    "M_Paper",
+    "M_Chalk"
+   ],
+   "height_m": 0.0025,
+   "pivot": "laid / bottom_centre (0,0,0); 42x30 cm flat unfinished map sheet, plain paper with 3x2 faint chalk survey grid only; no coastlines, labels, compass rose or edges burned",
+   "fbx_sha256": "a6864d58373dedca33dcc1adf8cfcc3c4eedd12918e96000f18b44ae049ec5b8"
+  },
+  {
+   "name": "prop-compass-divider-mm1",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.161,
+    0.048,
+    0.009
+   ],
+   "bbox_min": [
+    -0.081,
+    -0.024,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Brass"
+   ],
+   "height_m": 0.009,
+   "pivot": "laid / bottom_centre (0,0,0); 16 cm iron map divider lying flat, legs slightly open, brass hinge disc + finial; suffix: prop-compass-divider exists in cartographer pack",
+   "fbx_sha256": "c072a3abf39fa310765107d30bd9785b6dd14dfc7c2a2d884a8bb3b483891c63"
+  },
+  {
+   "name": "prop-ruling-pen-blank",
+   "tris": 66,
+   "dims_xyz_m": [
+    0.165,
+    0.012,
+    0.014
+   ],
+   "bbox_min": [
+    -0.082,
+    -0.006,
+    0.0
+   ],
+   "materials": [
+    "M_Wood",
+    "M_Iron"
+   ],
+   "height_m": 0.014,
+   "pivot": "laid / bottom_centre (0,0,0); 16.5 cm ruling pen blank along X: roughed turned wooden handle, two unground/unadjusted flat iron nib blades, no thumbscrew fitted",
+   "fbx_sha256": "066d0e75e674f08443af7c482aed50e5eb8602855ea501163c4d2b2900c7c9be"
+  },
+  {
+   "name": "prop-pigment-cake-tray",
+   "tris": 180,
+   "dims_xyz_m": [
+    0.22,
+    0.15,
+    0.024
+   ],
+   "bbox_min": [
+    -0.11,
+    -0.075,
+    0.0
+   ],
+   "materials": [
+    "M_Wood",
+    "M_Ochre",
+    "M_Verdigris",
+    "M_Azurite",
+    "M_Vermilion"
+   ],
+   "height_m": 0.024,
+   "pivot": "bottom_centre (0,0,0); 22x15x2.4 cm shallow wooden tray, six round pigment cakes (ochre, verdigris, azurite, vermilion) for map colouring, seated on tray floor",
+   "fbx_sha256": "bb5281c0ae00f51fc86ff3bb8c5c80e94e6ce32756cf580670ce13979cbfb727"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-compass-divider-mm1.fbx",
+  "fbx/prop-map-sheet-blank.fbx",
+  "fbx/prop-pigment-cake-tray.fbx",
+  "fbx/prop-ruling-pen-blank.fbx",
+  "tex/T_Azurite_BaseColor.png",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Chalk_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Ochre_BaseColor.png",
+  "tex/T_Paper_BaseColor.png",
+  "tex/T_Verdigris_BaseColor.png",
+  "tex/T_Vermilion_BaseColor.png",
+  "tex/T_Wood_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "All nine BaseColor PNGs ship pack-local in tex/. None is byte-identical to any sibling Open Kit pack. T_Brass_BaseColor.png, T_Chalk_BaseColor.png, T_Iron_BaseColor.png and T_Ochre_BaseColor.png are name-clash only with other Open Kit packs (different bytes); T_Azurite, T_Paper, T_Verdigris, T_Vermilion and T_Wood are unique. FBX carry material slots only; Unity maps textures by material slot."
+}
