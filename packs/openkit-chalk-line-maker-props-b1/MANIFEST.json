@@ -1,0 +1,97 @@
+{
+  "pack": "openkit-chalk-line-maker-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "All 4 names absent from existing prop-*.fbx under studio art; distinct from prop-chalk-line-reel, prop-plumb-bob, cord/rope coils and hanks.",
+  "judgment_calls": [
+    "Cord hank is a low-poly flattened oval loop to read as loose hank, not a coil or reel.",
+    "Chalk pot is single-skin (no wall thickness) to stay within tri budget; powder shown as inner disc.",
+    "Snap hook blank has open bar ends and no eye, reading as an unfinished blank.",
+    "BaseColor PNGs are flat 8x8 swatches; FBX carries material slots only."
+  ],
+  "assets": [
+    {
+      "name": "prop-chalk-block-cl1",
+      "file": "fbx/prop-chalk-block-cl1.fbx",
+      "tris": 12,
+      "dims_xyz_m": [
+        0.07,
+        0.04,
+        0.03
+      ],
+      "bbox_min": [
+        -0.035,
+        -0.02,
+        0.0
+      ],
+      "materials": [
+        "mat_chalk_white"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Rectangular chalk lump/block 70x40x30 mm (box, 12 tris) for refilling a chalk-line reel."
+    },
+    {
+      "name": "prop-chalk-pot-cl1",
+      "file": "fbx/prop-chalk-pot-cl1.fbx",
+      "tris": 28,
+      "dims_xyz_m": [
+        0.09,
+        0.09,
+        0.06
+      ],
+      "bbox_min": [
+        -0.045,
+        -0.045,
+        0.0
+      ],
+      "materials": [
+        "mat_fired_clay",
+        "mat_chalk_white"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Small open flared 8-sided clay pot (no lid, single-skin wall, closed base) with a flat powdered-chalk fill disc inside at 42 mm."
+    },
+    {
+      "name": "prop-snap-hook-blank-cl1",
+      "file": "fbx/prop-snap-hook-blank-cl1.fbx",
+      "tris": 32,
+      "dims_xyz_m": [
+        0.035,
+        0.005,
+        0.1
+      ],
+      "bbox_min": [
+        -0.0175,
+        -0.0025,
+        0.0
+      ],
+      "materials": [
+        "mat_forged_iron"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Unassembled forged-iron J-hook blank: straight square-section shank bending into an upturned hook, open bar ends, no eye/ring."
+    },
+    {
+      "name": "prop-line-cord-hank-cl1",
+      "file": "fbx/prop-line-cord-hank-cl1.fbx",
+      "tris": 36,
+      "dims_xyz_m": [
+        0.116,
+        0.0452,
+        0.0139
+      ],
+      "bbox_min": [
+        -0.058,
+        -0.0226,
+        0.0
+      ],
+      "materials": [
+        "mat_hemp_cord"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Small flattened oval loop hank of thin marking cord (low 6x3 torus), loose cord only, no reel or core."
+    }
+  ]
+}
