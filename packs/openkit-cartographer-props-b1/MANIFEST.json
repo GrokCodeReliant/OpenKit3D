@@ -1,0 +1,128 @@
+{
+ "pack": "openkit-cartographer-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures; FBX path_mode STRIP; image datablocks removed before export)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "No hits for the 4 ids (or map/compass/divider/weight/chart/tube) in studio/art/openkit-*/fbx. Avoided scribe-props-b1 and library-props-b1 ids.",
+ "judgment_calls": [
+  "Cartographer theme kept; no fletcher pivot needed",
+  "prop-map-case-tube stands upright (bottom_centre) so it reads as rigid case, not a roll; 124 tris (>120 pref, <210 cap)",
+  "prop-compass-divider laid flat, legs splayed ~10 deg, 1.4 cm tall",
+  "prop-chart-weight shipped as a pair (one mesh); 136 tris from 8-seg lathes",
+  "prop-rolled-chart kept (not map-board): 0.79 m x 0.138 m dia vs scroll-tied 0.33 x 0.069 m, two leather buckle straps instead of a tie",
+  ".blend holds only last built object (pack pattern); src/build.py regenerates all"
+ ],
+ "assets": [
+  {
+   "name": "prop-map-case-tube",
+   "tris": 124,
+   "dims_xyz_m": [
+    0.117,
+    0.112,
+    0.672
+   ],
+   "bbox_min": [
+    -0.058,
+    -0.056,
+    0.0
+   ],
+   "materials": [
+    "M_Leather",
+    "M_Wood_Dark",
+    "M_Brass"
+   ],
+   "height_m": 0.672,
+   "pivot": "bottom_centre (0,0,0) under base, stands upright; 0.67 m rigid leather chart case, 0.11 m dia, wooden telescoping cap, brass bands, strap stub on +X",
+   "fbx": "fbx/prop-map-case-tube.fbx",
+   "sha256": "6601cf3452829827c21818481f710996e67e991318691af5771565f0225facff"
+  },
+  {
+   "name": "prop-compass-divider",
+   "tris": 88,
+   "dims_xyz_m": [
+    0.202,
+    0.06,
+    0.014
+   ],
+   "bbox_min": [
+    -0.101,
+    -0.03,
+    0.0
+   ],
+   "materials": [
+    "M_Brass",
+    "M_Iron"
+   ],
+   "height_m": 0.014,
+   "pivot": "bottom_centre (0,0,0) of footprint, laid flat on table; 0.19 m brass navigational divider, round hinge at -X, two legs splayed toward +X with steel points",
+   "fbx": "fbx/prop-compass-divider.fbx",
+   "sha256": "0a7b0041cc35acee0aac5876eacb4e30e77d741d8c0a65f1ea92cfd543185dbb"
+  },
+  {
+   "name": "prop-chart-weight",
+   "tris": 136,
+   "dims_xyz_m": [
+    0.15,
+    0.06,
+    0.046
+   ],
+   "bbox_min": [
+    -0.075,
+    -0.03,
+    0.0
+   ],
+   "materials": [
+    "M_Lead",
+    "M_Brass"
+   ],
+   "height_m": 0.046,
+   "pivot": "bottom_centre (0,0,0) between pair; two 0.06 m dia domed lead chart weights with brass knobs, 4.6 cm tall, set along X",
+   "fbx": "fbx/prop-chart-weight.fbx",
+   "sha256": "de06d9aafb0fa853c684e07d6da2ec42964e371cc4a6fa002aca8a054023cbf1"
+  },
+  {
+   "name": "prop-rolled-chart",
+   "tris": 116,
+   "dims_xyz_m": [
+    0.79,
+    0.141,
+    0.138
+   ],
+   "bbox_min": [
+    -0.395,
+    -0.071,
+    0.0
+   ],
+   "materials": [
+    "M_Parchment_Aged",
+    "M_Parchment",
+    "M_Leather"
+   ],
+   "height_m": 0.138,
+   "pivot": "bottom_centre (0,0,0) under roll, laid along X; 0.79 m long, 0.138 m dia heavy rolled sea/land chart, two leather buckle straps, no text",
+   "fbx": "fbx/prop-rolled-chart.fbx",
+   "sha256": "20bf885c45ecc31046be7771a964a4aeb0360fe3cd7ba1188cbc56bb9ae63666"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-chart-weight.fbx",
+  "fbx/prop-compass-divider.fbx",
+  "fbx/prop-map-case-tube.fbx",
+  "fbx/prop-rolled-chart.fbx",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Lead_BaseColor.png",
+  "tex/T_Leather_BaseColor.png",
+  "tex/T_Parchment_Aged_BaseColor.png",
+  "tex/T_Parchment_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png"
+ ]
+}
