@@ -1,0 +1,96 @@
+{
+ "pack": "openkit-drawknife-extras-b1",
+ "license": "CC0-1.0",
+ "units": "metres (1 unit = 1 m)",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": "find prop-*.fbx across studio art + rg drawknife: only prop-drawknife-pg1 exists; no prop-drawknife-blade*/handle*/ferrule*/tang* and no -dk1 names; all 4 names free",
+ "judgment_calls": [
+  "Ferrule is a 6-sided hollow ring (48 tris) - soft overrun of the 16-tri preference; a closed ring with thickness cannot be made under 16 tris without losing the bore. Well under 210 hard max.",
+  "Blade blank uses a rhombus cross-section so both long edges are bevelled; tang stubs are triangular-section to keep 26 tris.",
+  "Tang pin is square-section stock (12 tris) rather than round to meet the 12-tri budget.",
+  "Handle is a tapered hexagonal blank (20 tris)."
+ ],
+ "assets": [
+  {
+   "name": "prop-drawknife-blade-blank-dk1",
+   "file": "fbx/prop-drawknife-blade-blank-dk1.fbx",
+   "tris": 26,
+   "dims_xyz_m": [
+    0.37,
+    0.034,
+    0.006
+   ],
+   "bbox_min": [
+    -0.185,
+    -0.017,
+    0.0
+   ],
+   "materials": [
+    "M_Steel"
+   ],
+   "pivot": "bottom_centre (0,0,0) lying flat",
+   "desc": "0.37 m steel drawknife blade blank lying flat: 0.30 m x 34 mm x 6 mm rhombus-section blade with two bevelled long edges, plus 35 mm triangular-section tang stubs centred on each end"
+  },
+  {
+   "name": "prop-drawknife-handle-dk1",
+   "file": "fbx/prop-drawknife-handle-dk1.fbx",
+   "tris": 20,
+   "dims_xyz_m": [
+    0.0242,
+    0.028,
+    0.12
+   ],
+   "bbox_min": [
+    -0.0121,
+    -0.014,
+    0.0
+   ],
+   "materials": [
+    "M_Ash"
+   ],
+   "pivot": "bottom_centre (0,0,0) standing upright",
+   "desc": "0.12 m tall upright hexagonal ash handle blank (one of a pair), tapering from 28 mm to 24 mm across corners, flat capped ends"
+  },
+  {
+   "name": "prop-drawknife-ferrule-dk1",
+   "file": "fbx/prop-drawknife-ferrule-dk1.fbx",
+   "tris": 48,
+   "dims_xyz_m": [
+    0.019,
+    0.022,
+    0.012
+   ],
+   "bbox_min": [
+    -0.0095,
+    -0.011,
+    0.0
+   ],
+   "materials": [
+    "M_Brass"
+   ],
+   "pivot": "bottom_centre (0,0,0) standing upright",
+   "desc": "12 mm tall hexagonal brass ferrule ring blank, 22 mm across corners outside, 16 mm across corners bore, open through-hole"
+  },
+  {
+   "name": "prop-drawknife-tang-pin-dk1",
+   "file": "fbx/prop-drawknife-tang-pin-dk1.fbx",
+   "tris": 12,
+   "dims_xyz_m": [
+    0.004,
+    0.004,
+    0.03
+   ],
+   "bbox_min": [
+    -0.002,
+    -0.002,
+    0.0
+   ],
+   "materials": [
+    "M_Steel"
+   ],
+   "pivot": "bottom_centre (0,0,0) standing upright",
+   "desc": "30 mm tall square-section steel tang pin / rivet blank, 4 mm square, flat ends"
+  }
+ ]
+}
