@@ -1,0 +1,98 @@
+{
+ "pack": "openkit-shoulder-plane-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres (1 unit = 1 m)",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [
+  "Requested -sp2 suffix changed to -sp1 per brief rule: no sp1 or any prop-shoulder-plane* existed"
+ ],
+ "collision_check": "find prop-*.fbx + rg shoulder-plane|shoulder_plane across studio/art: no matches; avoided prop-plane-wood, prop-try-plane-jn1, *-rp1, *-pi1, *-sv2",
+ "judgment_calls": [
+  "Body 30mm wide x 70mm tall x 160mm long (taller than wide); mouth/throat not cut to stay low-poly blank",
+  "Iron 18mm wide, narrower than plane-iron-blank-pi1",
+  "Toe in steel material as iron nose blank",
+  "Textures shipped separately in tex/; FBX carries material slots only"
+ ],
+ "assets": [
+  {
+   "name": "prop-shoulder-plane-body-sp1",
+   "file": "fbx/prop-shoulder-plane-body-sp1.fbx",
+   "tris": 20,
+   "dims_xyz_m": [
+    0.03,
+    0.16,
+    0.07
+   ],
+   "bbox_min": [
+    -0.015,
+    -0.08,
+    0.0
+   ],
+   "materials": [
+    "MAT_beech_blank"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Narrow shoulder plane body blank: 6-sided extruded prism 30mm wide x 160mm long x 70mm tall, flat sole, top corners chamfered 20x20mm; beech"
+  },
+  {
+   "name": "prop-shoulder-plane-iron-sp1",
+   "file": "fbx/prop-shoulder-plane-iron-sp1.fbx",
+   "tris": 12,
+   "dims_xyz_m": [
+    0.018,
+    0.004,
+    0.11
+   ],
+   "bbox_min": [
+    -0.009,
+    -0.002,
+    0.0
+   ],
+   "materials": [
+    "MAT_steel_blank"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Shoulder plane iron blank: flat steel box 18mm wide x 4mm thick x 110mm long, stood upright"
+  },
+  {
+   "name": "prop-shoulder-plane-wedge-sp1",
+   "file": "fbx/prop-shoulder-plane-wedge-sp1.fbx",
+   "tris": 8,
+   "dims_xyz_m": [
+    0.016,
+    0.06,
+    0.014
+   ],
+   "bbox_min": [
+    -0.008,
+    -0.03,
+    0.0
+   ],
+   "materials": [
+    "MAT_beech_blank"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Shoulder plane wedge blank: right-triangle prism 16mm wide x 60mm long, tapering from 14mm to 0 thickness; beech"
+  },
+  {
+   "name": "prop-shoulder-plane-toe-sp1",
+   "file": "fbx/prop-shoulder-plane-toe-sp1.fbx",
+   "tris": 16,
+   "dims_xyz_m": [
+    0.03,
+    0.04,
+    0.03
+   ],
+   "bbox_min": [
+    -0.015,
+    -0.02,
+    0.0
+   ],
+   "materials": [
+    "MAT_steel_blank"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Shoulder plane toe/nose blank: 5-sided prism 30mm wide x 40mm long x 30mm tall, front-top chamfered 12x12mm; iron"
+  }
+ ]
+}

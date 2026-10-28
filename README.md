@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **198** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **200** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -159,6 +159,7 @@ The `packs/` folder contains **198** CC0-licensed medieval prop packs. Each pack
 | `openkit-quiver-maker-props-b1` | Quiver-maker workshop props |
 | `openkit-roof-tiles-b1` | Roof tiles and materials |
 | `openkit-rope-splicer-props-b1` | Rope-splicer workshop props |
+| `openkit-router-plane-props-b1` | Router plane workshop props |
 | `openkit-rushlight-maker-props-b1` | Rushlight-maker workshop props |
 | `openkit-sailmaker-props-b1` | Sailmaker workshop props |
 | `openkit-sawyer-props-b1` | Sawyer (pit-saw) workshop props |
@@ -169,6 +170,7 @@ The `packs/` folder contains **198** CC0-licensed medieval prop packs. Each pack
 | `openkit-shield-maker-props-b1` | Shield-maker workshop props |
 | `openkit-shingle-maker-props-b1` | Shingle-maker workshop props |
 | `openkit-shop-wall-b1` | Shop wall decorations |
+| `openkit-shoulder-plane-props-b1` | Shoulder plane workshop props |
 | `openkit-sign-post-b1` | Signs and posts |
 | `openkit-sieve-maker-props-b1` | Sieve-maker workshop props |
 | `openkit-sieve-mender-props-b1` | Sieve-mender workshop props |
