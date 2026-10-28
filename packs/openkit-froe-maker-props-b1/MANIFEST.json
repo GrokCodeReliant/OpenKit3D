@@ -1,0 +1,96 @@
+{
+  "pack": "openkit-froe-maker-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 unit = 1 m)",
+  "tool": "Blender 5.2.1 procedural bpy",
+  "renames": [],
+  "collision_check": "find prop-*.fbx across studio/art + rg froe: no prop-froe* existing; names distinct from drawknife-pg1, adze-cooper, chisels and all existing mallets.",
+  "judgment_calls": [
+    "Eye modelled as solid square socket stub (no hole) to stay low-tri.",
+    "Textures are flat 16x16 BaseColor PNGs; FBX carries material slots only.",
+    "Mallet head hexagonal (6 seg) to keep 32 tris under 36 target."
+  ],
+  "assets": [
+    {
+      "name": "prop-froe-blade-blank-fr1",
+      "file": "fbx/prop-froe-blade-blank-fr1.fbx",
+      "tris": 24,
+      "dims_xyz_m": [
+        0.335,
+        0.035,
+        0.1
+      ],
+      "bbox_min": [
+        -0.1675,
+        -0.0175,
+        0
+      ],
+      "materials": [
+        "iron_dark"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Flat iron L-shaped froe blade blank: 0.30x0.006x0.045 m horizontal blade (cutting edge at z=0) with an upright 0.035 m square eye/socket stub 0.10 m tall at one end for the handle."
+    },
+    {
+      "name": "prop-froe-handle-fr1",
+      "file": "fbx/prop-froe-handle-fr1.fbx",
+      "tris": 28,
+      "dims_xyz_m": [
+        0.038,
+        0.038,
+        0.4
+      ],
+      "bbox_min": [
+        -0.019,
+        -0.019,
+        0
+      ],
+      "materials": [
+        "wood_ash"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Octagonal ash handle/club shaft, 0.038 m across, 0.40 m long, vertical; sized to the blade's 0.035 m eye."
+    },
+    {
+      "name": "prop-froe-mallet-fr1",
+      "file": "fbx/prop-froe-mallet-fr1.fbx",
+      "tris": 32,
+      "dims_xyz_m": [
+        0.24,
+        0.13,
+        0.3763
+      ],
+      "bbox_min": [
+        -0.12,
+        -0.065,
+        0
+      ],
+      "materials": [
+        "wood_oak",
+        "wood_ash"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Heavy froe mallet: hexagonal oak head 0.24 m long x 0.13 m across, laid along X, on a 0.032 m square ash handle 0.26 m long."
+    },
+    {
+      "name": "prop-froe-cleave-block-fr1",
+      "file": "fbx/prop-froe-cleave-block-fr1.fbx",
+      "tris": 20,
+      "dims_xyz_m": [
+        0.2771,
+        0.32,
+        0.26
+      ],
+      "bbox_min": [
+        -0.1386,
+        -0.16,
+        0
+      ],
+      "materials": [
+        "wood_stump"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Short hexagonal wooden stump block, 0.32 m across, 0.26 m tall, flat top, used under billets when froeing."
+    }
+  ]
+}

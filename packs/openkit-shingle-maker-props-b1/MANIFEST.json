@@ -1,0 +1,98 @@
+{
+  "pack": "openkit-shingle-maker-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "All 4 names absent from existing prop-*.fbx under studio art; existing prop-holdfast, prop-froe-*-fr1, prop-drawknife-pg1, prop-tile-* not reused (new names carry shingle- prefix and -sg1).",
+  "judgment_calls": [
+    "Gauge stick 36 tris (soft overrun of preferred 24) to keep raised end-stop lugs at both ends.",
+    "Holdfast simplified to shaft + broad arm (no separate pad) to stay within 32 tris.",
+    "Stack layers rotated 2-4 deg and offset so boards read separately.",
+    "Textures are flat BaseColor PNGs shipped in tex/, not embedded; FBX carries material slots only."
+  ],
+  "assets": [
+    {
+      "name": "prop-shingle-blank-stack-sg1",
+      "file": "fbx/prop-shingle-blank-stack-sg1.fbx",
+      "tris": 48,
+      "dims_xyz_m": [
+        0.1862,
+        0.4258,
+        0.067
+      ],
+      "bbox_min": [
+        -0.0931,
+        -0.2129,
+        0.0
+      ],
+      "materials": [
+        "MAT_Wood_Shingle",
+        "MAT_Wood_Light"
+      ],
+      "pivot": "bottom_centre",
+      "desc": "Stack of 4 flat tapered wooden shingle blanks (thick butt to thin tip, 0.14x0.40 m), each offset/rotated slightly, alternating two wood tones."
+    },
+    {
+      "name": "prop-shingle-dressing-knife-sg1",
+      "file": "fbx/prop-shingle-dressing-knife-sg1.fbx",
+      "tris": 24,
+      "dims_xyz_m": [
+        0.035,
+        0.24,
+        0.018
+      ],
+      "bbox_min": [
+        -0.0175,
+        -0.12,
+        0.0
+      ],
+      "materials": [
+        "MAT_Wood_Shingle",
+        "MAT_Iron"
+      ],
+      "pivot": "bottom_centre",
+      "desc": "Short flat iron knife blank (0.16 m blade) with block wooden grip, for dressing shingle edges."
+    },
+    {
+      "name": "prop-shingle-gauge-stick-sg1",
+      "file": "fbx/prop-shingle-gauge-stick-sg1.fbx",
+      "tris": 36,
+      "dims_xyz_m": [
+        0.025,
+        0.42,
+        0.02
+      ],
+      "bbox_min": [
+        -0.0125,
+        -0.21,
+        0.0
+      ],
+      "materials": [
+        "MAT_Wood_Light"
+      ],
+      "pivot": "bottom_centre",
+      "desc": "Thin wooden gauge stick 0.42 m with raised end-stop lugs at both ends for shingle length."
+    },
+    {
+      "name": "prop-shingle-holdfast-sg1",
+      "file": "fbx/prop-shingle-holdfast-sg1.fbx",
+      "tris": 24,
+      "dims_xyz_m": [
+        0.03,
+        0.181,
+        0.24
+      ],
+      "bbox_min": [
+        -0.015,
+        -0.0905,
+        0.0
+      ],
+      "materials": [
+        "MAT_Iron"
+      ],
+      "pivot": "bottom_centre",
+      "desc": "Iron holdfast blank: square vertical shaft (0.24 m) with a broad flat horizontal arm overhanging 0.17 m for pinning a shingle."
+    }
+  ]
+}
