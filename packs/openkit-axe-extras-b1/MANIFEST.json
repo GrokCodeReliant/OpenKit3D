@@ -1,0 +1,96 @@
+{
+  "pack": "openkit-axe-extras-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "Scanned all prop-*.fbx under studio art + rg felling.?axe|axe-head|axe-handle|axe-eye: no prop-felling-axe*/axe-head*/axe-handle*/axe-eye* or -ax1 names existed. Distinct from prop-hatchet-stake-blank, prop-pickaxe-lean, prop-adze-cooper, prop-hewing-adze-*-az1.",
+  "judgment_calls": [
+    "Eye modelled as fully hollow ring (32 tris, exactly budget).",
+    "Head kept poll-to-bit along X with no eye hole; eye shipped as separate blank.",
+    "Handle stands vertical; slight curve via throat offset in X, re-centred on bbox.",
+    "Flat-colour 64px BaseColor PNGs; image nodes never in materials, FBX path_mode STRIP."
+  ],
+  "assets": [
+    {
+      "name": "prop-felling-axe-head-ax1",
+      "file": "fbx/prop-felling-axe-head-ax1.fbx",
+      "tris": 20,
+      "dims_xyz_m": [
+        0.19,
+        0.044,
+        0.1
+      ],
+      "bbox_min": [
+        -0.095,
+        -0.022,
+        0.0
+      ],
+      "materials": [
+        "mat_steel"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Steel felling-axe head blank: 3-ring lofted wedge, flat rectangular poll (0.044 m thick) tapering through cheek to a thin flared 0.10 m bit edge; 20 tris."
+    },
+    {
+      "name": "prop-felling-axe-eye-ax1",
+      "file": "fbx/prop-felling-axe-eye-ax1.fbx",
+      "tris": 32,
+      "dims_xyz_m": [
+        0.07,
+        0.05,
+        0.06
+      ],
+      "bbox_min": [
+        -0.035,
+        -0.025,
+        0.0
+      ],
+      "materials": [
+        "mat_steel"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Steel axe eye/socket blank: hollow rectangular ring, outer 0.07x0.05 m, open through-hole 0.044x0.026 m, 0.06 m tall; 32 tris."
+    },
+    {
+      "name": "prop-felling-axe-handle-ax1",
+      "file": "fbx/prop-felling-axe-handle-ax1.fbx",
+      "tris": 20,
+      "dims_xyz_m": [
+        0.053,
+        0.034,
+        0.8
+      ],
+      "bbox_min": [
+        -0.0265,
+        -0.017,
+        0.0
+      ],
+      "materials": [
+        "mat_wood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Wooden axe handle blank: 0.80 m vertical square-section shaft, thickened grip knob at base, slim slight-curve throat, swell toward eye end; 20 tris."
+    },
+    {
+      "name": "prop-felling-axe-wedge-ax1",
+      "file": "fbx/prop-felling-axe-wedge-ax1.fbx",
+      "tris": 8,
+      "dims_xyz_m": [
+        0.024,
+        0.04,
+        0.05
+      ],
+      "bbox_min": [
+        -0.012,
+        -0.02,
+        0.0
+      ],
+      "materials": [
+        "mat_wood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Wooden eye-wedge blank: triangular prism, 0.024 m thick top tapering to a knife edge at the bottom, 0.04 m wide, 0.05 m tall; 8 tris."
+    }
+  ]
+}

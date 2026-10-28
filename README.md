@@ -23,16 +23,18 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **208** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **210** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
+| `openkit-adze-extras-b1` | Carpenter hewing-adze extras: blade blank, eye, handle, wedge |
 | `openkit-alchemy-props-b1` | Alchemy lab equipment |
 | `openkit-apothecary-props-b1` | Apothecary workshop props |
 | `openkit-armorer-props-b1` | Armorer workshop props |
 | `openkit-archery-range-b1` | Archery targets and training props |
 | `openkit-arrowsmith-props-b1` | Arrowsmith workshop props |
 | `openkit-auger-maker-props-b1` | Auger-maker workshop props |
+| `openkit-axe-extras-b1` | Felling/hewing axe extras: head blank, eye socket blank, handle blank, eye wedge |
 | `openkit-bagpiper-props-b1` | Bagpiper workshop props |
 | `openkit-baker-props-b1` | Bakery props |
 | `openkit-barber-props-b1` | Barber workshop props |
