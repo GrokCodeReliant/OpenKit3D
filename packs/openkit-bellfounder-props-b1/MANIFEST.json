@@ -1,0 +1,118 @@
+{
+ "pack": "openkit-bellfounder-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-bell-blank": "prop-bell-blank-bf1 (suffix per brief)"
+ },
+ "collision_check": "No bellfounder pack; no bell-blank/cope-drag/tuning-lathe/loam-trowel in any openkit-*/fbx. Near names checked: prop-lathe-blank-tu1 (turner), prop-button-lathe-bow, prop-plaster-trowel-blank (plasterer), prop-bellows/smoker-bellows. Distinct from foundry crucible/ladle/flask-mold-half/slag-tray.",
+ "judgment_calls": [
+  "Cope-drag = round loam bell mould (core on board + hollow cope shell), not a square sand flask",
+  "Tuning lathe = bench fixture with no bell mounted, flat scraper on rest",
+  "Loam trowel = tapered leaf blade, distinct from plasterer square trowel",
+  "8-segment lathes; cope inner wall simplified to a straight taper to stay under 210 tris",
+  "Eye-check v3 passed"
+ ],
+ "assets": [
+  {
+   "name": "prop-bell-blank-bf1",
+   "tris": 152,
+   "dims_xyz_m": [
+    0.4,
+    0.4,
+    0.415
+   ],
+   "bbox_min": [
+    -0.2,
+    -0.2,
+    0.0
+   ],
+   "materials": [
+    "M_Bronze_Rough",
+    "M_Bronze_Dark"
+   ],
+   "height_m": 0.415,
+   "pivot": "bottom_centre (0,0,0); 40 cm rough-cast bronze bell blank, hollow shell with un-trimmed crown stub and casting flash seam; no ornament, untuned"
+  },
+  {
+   "name": "prop-cope-drag-set",
+   "tris": 208,
+   "dims_xyz_m": [
+    1.01,
+    0.5,
+    0.46
+   ],
+   "bbox_min": [
+    -0.505,
+    -0.25,
+    0.0
+   ],
+   "materials": [
+    "M_Loam",
+    "M_Wood_Oak",
+    "M_Loam_Baked",
+    "M_Iron_Forged"
+   ],
+   "height_m": 0.46,
+   "pivot": "bottom_centre (0,0,0); loam bell mould pair side by side: loam core (drag) on wooden board, and the hollow cope shell with iron lift ears and pour cup. Round loam bell mould, NOT a square sand flask"
+  },
+  {
+   "name": "prop-tuning-lathe-blank",
+   "tris": 144,
+   "dims_xyz_m": [
+    0.8,
+    0.31,
+    0.38
+   ],
+   "bbox_min": [
+    -0.4,
+    -0.155,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron_Forged"
+   ],
+   "height_m": 0.38,
+   "pivot": "bottom_centre (0,0,0); 80 cm low bench-top bell tuning lathe fixture: oak bed, headstock, iron spindle with faceplate, tool rest with flat scraper laid on it; no bell mounted"
+  },
+  {
+   "name": "prop-loam-trowel-blank",
+   "tris": 44,
+   "dims_xyz_m": [
+    0.345,
+    0.07,
+    0.049
+   ],
+   "bbox_min": [
+    -0.172,
+    -0.035,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron_Forged"
+   ],
+   "height_m": 0.05,
+   "pivot": "laid / bottom_centre (0,0,0); 32 cm loam-moulding trowel: tapered iron leaf blade, cranked tang, ash handle; for sweeping loam on bell moulds (not a plasterer's square float)"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-bell-blank-bf1.fbx",
+  "fbx/prop-cope-drag-set.fbx",
+  "fbx/prop-loam-trowel-blank.fbx",
+  "fbx/prop-tuning-lathe-blank.fbx",
+  "tex/T_Bronze_Rough_BaseColor.png",
+  "tex/T_Iron_Forged_BaseColor.png",
+  "tex/T_Loam_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ]
+}

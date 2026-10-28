@@ -1,0 +1,117 @@
+{
+ "pack": "openkit-matmaker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-rush-bundle": "prop-rush-bundle-mt1 (taken by rushlight-maker and needle-maker)",
+  "prop-needle-mat": "prop-needle-mat-mt1 (suffix per brief)"
+ },
+ "collision_check": "No matmaker pack. braid-blank, needle-mat, edge-cord-coil free; near: prop-drawstring-cord-coil, prop-net-needle, prop-thatching-needle, prop-sail-needle-set (all different shapes).",
+ "judgment_calls": [
+  "Rush bundle laid flat with straw ties, graded stalks; not rushlight pith or thatch yealm",
+  "Braid = flat chevron plait strip with loose strands",
+  "Needle = flat tapered bodkin with eye + grip",
+  "Edge cord = 3-ring flat coil, 7 segments to stay <=210 tris",
+  "Eye-check v1 passed"
+ ],
+ "assets": [
+  {
+   "name": "prop-rush-bundle-mt1",
+   "tris": 120,
+   "dims_xyz_m": [
+    1.12,
+    0.15,
+    0.13
+   ],
+   "bbox_min": [
+    -0.56,
+    -0.075,
+    0.0
+   ],
+   "materials": [
+    "M_Rush_Dried",
+    "M_Straw_Tie"
+   ],
+   "height_m": 0.1,
+   "pivot": "bottom_centre (0,0,0); 1.1 m sorted, dried rush bundle lying flat, two straw ties, butt-to-tip graded for mat plaiting (flat bundle, not a rushlight pith or thatch yealm)"
+  },
+  {
+   "name": "prop-braid-blank",
+   "tris": 180,
+   "dims_xyz_m": [
+    1.02,
+    0.215,
+    0.019
+   ],
+   "bbox_min": [
+    -0.51,
+    -0.107,
+    0.0
+   ],
+   "materials": [
+    "M_Rush_Dried",
+    "M_Rush_Green"
+   ],
+   "height_m": 0.02,
+   "pivot": "laid / bottom_centre (0,0,0); ~1 m unfinished flat rush plait strip (chevron plait) with three loose working strands at one end; to be sewn into a mat"
+  },
+  {
+   "name": "prop-needle-mat-mt1",
+   "tris": 44,
+   "dims_xyz_m": [
+    0.38,
+    0.034,
+    0.032
+   ],
+   "bbox_min": [
+    -0.19,
+    -0.017,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Iron_Forged",
+    "M_Iron_Dark"
+   ],
+   "height_m": 0.035,
+   "pivot": "laid / bottom_centre (0,0,0); 34 cm flat iron mat-sewing needle/bodkin with large eye and wooden grip, for stitching plait strips together (distinct from thatching, sail and net needles)"
+  },
+  {
+   "name": "prop-edge-cord-coil",
+   "tris": 180,
+   "dims_xyz_m": [
+    0.365,
+    0.209,
+    0.038
+   ],
+   "bbox_min": [
+    -0.183,
+    -0.104,
+    0.0
+   ],
+   "materials": [
+    "M_Cord_Twisted"
+   ],
+   "height_m": 0.045,
+   "pivot": "bottom_centre (0,0,0); flat coil of twisted rush edge-binding cord with loose tail, for whipping mat borders"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-braid-blank.fbx",
+  "fbx/prop-edge-cord-coil.fbx",
+  "fbx/prop-needle-mat-mt1.fbx",
+  "fbx/prop-rush-bundle-mt1.fbx",
+  "tex/T_Cord_Twisted_BaseColor.png",
+  "tex/T_Iron_Forged_BaseColor.png",
+  "tex/T_Rush_Dried_BaseColor.png",
+  "tex/T_Wood_Ash_BaseColor.png"
+ ]
+}
