@@ -1,0 +1,127 @@
+{
+ "pack": "openkit-glazier-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "Checked all studio/art/openkit-*/fbx (434 files) for came|groz|putty|diamond|glazier|lead|cutter|knife|iron: hits only prop-window-leaded (doors-windows, finished window), prop-lead-weight-bag (locksmith/net sinkers), prop-horn-pane-stack, and unrelated *-knife/*-iron ids. All 4 base ids free; -gl1 not needed (prop-putty-knife used instead of suggested prop-putty-knife-gl1 since base id is free).",
+ "judgment_calls": [
+  "prop-lead-came-coil: coil represented as 3 nested 8-seg rings + tail strip, not true spiral/H-profile, to stay ~120 tris (124)",
+  "prop-putty-knife: base id free so no -gl1 suffix; square-nosed stiff blade + bolster distinguishes from hoof/scraping/quill/draw knives",
+  "prop-diamond-point-cutter: medieval glaziers mostly used hot iron + grozing; diamond-point cutter is late-medieval/early-modern, accepted per brief as fantasy-plausible",
+  "Flat tools: mesh shifted so z-min=0; pivot at origin on floor"
+ ],
+ "assets": [
+  {
+   "name": "prop-lead-came-coil",
+   "tris": 124,
+   "dims_xyz_m": [
+    0.466,
+    0.312,
+    0.06
+   ],
+   "bbox_min": [
+    -0.156,
+    -0.156,
+    0.0
+   ],
+   "materials": [
+    "M_Lead",
+    "M_Wood_Dark"
+   ],
+   "height_m": 0.06,
+   "pivot": "bottom_centre (0,0,0) on floor/bench; ~0.31 m flat coil of H-channel lead came (3 nested rings) on a wooden core, loose tail runs toward +X",
+   "fbx": "fbx/prop-lead-came-coil.fbx",
+   "sha256": "926cfe858c5b9c28681cb0852b326bccb467d9f29605c574304d8514b8601951"
+  },
+  {
+   "name": "prop-glass-grozing-iron",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.232,
+    0.03,
+    0.017
+   ],
+   "bbox_min": [
+    -0.116,
+    -0.015,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Leather"
+   ],
+   "height_m": 0.017,
+   "pivot": "bar centre projected to floor (0,0,0); 0.24 m double-ended slotted grozing iron lying along X, notched jaws at both ends, leather wrap mid-bar",
+   "fbx": "fbx/prop-glass-grozing-iron.fbx",
+   "sha256": "bd6011a4ff85078d33c25e0ef74d57b795512839216e33d63516c939ebb42f58"
+  },
+  {
+   "name": "prop-putty-knife",
+   "tris": 56,
+   "dims_xyz_m": [
+    0.232,
+    0.035,
+    0.021
+   ],
+   "bbox_min": [
+    -0.12,
+    -0.018,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Wood_Oak"
+   ],
+   "height_m": 0.022,
+   "pivot": "bolster projected to floor (0,0,0); 0.24 m stiff square-nosed glazier's putty knife lying flat along X, blade +X, wooden handle -X",
+   "fbx": "fbx/prop-putty-knife.fbx",
+   "sha256": "acb3f08a6a45e20ac7dbd40448242716351ec714734fbdddf98ea7587f19e78b"
+  },
+  {
+   "name": "prop-diamond-point-cutter",
+   "tris": 64,
+   "dims_xyz_m": [
+    0.173,
+    0.018,
+    0.016
+   ],
+   "bbox_min": [
+    -0.09,
+    -0.009,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Dark",
+    "M_Brass",
+    "M_Diamond"
+   ],
+   "height_m": 0.018,
+   "pivot": "handle axis projected to floor (0,0,0); 0.17 m medieval diamond-point glass cutter lying along X, set diamond at +X tip, brass head/ferrule",
+   "fbx": "fbx/prop-diamond-point-cutter.fbx",
+   "sha256": "3e385b11395eda93feb05e10c71e4141cd4e7aa07e71e077611ebe27703246ba"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-diamond-point-cutter.fbx",
+  "fbx/prop-glass-grozing-iron.fbx",
+  "fbx/prop-lead-came-coil.fbx",
+  "fbx/prop-putty-knife.fbx",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Diamond_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Lead_BaseColor.png",
+  "tex/T_Leather_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "All tex/ PNGs are pack-local (byte-unique to this pack), including Brass/Iron/Wood_Dark/Wood_Oak; Unity maps them by material slot name."
+}
