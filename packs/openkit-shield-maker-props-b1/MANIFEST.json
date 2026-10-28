@@ -1,0 +1,124 @@
+{
+ "pack": "openkit-shield-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "Checked all studio/art/openkit-*/fbx (169 packs) for shield|boss|rim|grip|blank-board|came|girth: hits only prop-mesh-rim-blank (unrelated id), prop-lead-came-coil (glazier), prop-girth-strap-roll (saddler), prop-doorframe-trim. All 4 base ids free; no -sh1 suffix needed. No openkit-shield*/helm* pack exists.",
+ "judgment_calls": [
+  "Workshop blanks only: no painted face, no assembled shield, no rim fitted, no rivet holes in boss",
+  "prop-rim-iron-coil: true 2.5-turn flat clock-spring spiral of upright 30 mm strip (136 tris) vs glazier came = nested flat H-channel rings on spool",
+  "prop-grip-strap-blank: flat uncut strap + unshaped grip bar blank, not a rolled girth strap",
+  "Rim coil pivot at spiral centre (bbox slightly off-centre by spiral growth)"
+ ],
+ "assets": [
+  {
+   "name": "prop-blank-board-stack",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.819,
+    0.382,
+    0.066
+   ],
+   "bbox_min": [
+    -0.409,
+    -0.191,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Lime",
+    "M_Wood_Dark"
+   ],
+   "height_m": 0.066,
+   "pivot": "bottom_centre (0,0,0); three layers of two rough-sawn, unglued, uncut rectangular shield board planks (0.8 x 0.165 x 0.022 m), layers slightly skewed, resting on each other",
+   "fbx": "fbx/prop-blank-board-stack.fbx",
+   "sha256": "f377649fae64d98847ec626940a14d27ded057a5ed51757b6498ce3eb8174408"
+  },
+  {
+   "name": "prop-boss-blank",
+   "tris": 62,
+   "dims_xyz_m": [
+    0.21,
+    0.2,
+    0.068
+   ],
+   "bbox_min": [
+    -0.105,
+    -0.1,
+    0.0
+   ],
+   "materials": [
+    "M_Iron"
+   ],
+   "height_m": 0.068,
+   "pivot": "bottom_centre (0,0,0); raised iron dome still on its square untrimmed sheet flange, no rivet holes, no shaping of rim",
+   "fbx": "fbx/prop-boss-blank.fbx",
+   "sha256": "26037226b3b5c0b23aef7d11d4d56384126262c2aac05a1e98e3e9b2d0b3c9bd"
+  },
+  {
+   "name": "prop-rim-iron-coil",
+   "tris": 136,
+   "dims_xyz_m": [
+    0.325,
+    0.337,
+    0.034
+   ],
+   "bbox_min": [
+    -0.168,
+    -0.175,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Rope"
+   ],
+   "height_m": 0.034,
+   "pivot": "bottom_centre (0,0,0); flat-wound clock-spring coil (2.5 turns) of 30 mm wrought iron rim binding strip standing on edge, cord tie across turns at -Y",
+   "fbx": "fbx/prop-rim-iron-coil.fbx",
+   "sha256": "7a2ad1dd7534568a74dbef3430f4f72fd0475bc212edf406861c0107e243a919"
+  },
+  {
+   "name": "prop-grip-strap-blank",
+   "tris": 36,
+   "dims_xyz_m": [
+    0.46,
+    0.045,
+    0.029
+   ],
+   "bbox_min": [
+    -0.23,
+    -0.023,
+    0.0
+   ],
+   "materials": [
+    "M_Leather",
+    "M_Wood_Lime",
+    "M_Iron"
+   ],
+   "height_m": 0.029,
+   "pivot": "bottom_centre (0,0,0) laid flat; 0.46 m uncut leather grip strap with an unshaped square ash grip bar blank resting mid-strap and a loose iron clench plate blank near +X end",
+   "fbx": "fbx/prop-grip-strap-blank.fbx",
+   "sha256": "c09850af6655561301483c7bfedfbe10bae9841fcf0a23d7adfdb1f6753ec9ba"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-blank-board-stack.fbx",
+  "fbx/prop-boss-blank.fbx",
+  "fbx/prop-grip-strap-blank.fbx",
+  "fbx/prop-rim-iron-coil.fbx",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Leather_BaseColor.png",
+  "tex/T_Rope_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Lime_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "tex/ all five BaseColor PNGs (T_Iron, T_Leather, T_Rope, T_Wood_Dark, T_Wood_Lime) stay pack-local (not rewritten to shared pointers); filename clash with other openkit packs only for T_Iron, T_Wood_Dark, T_Leather, T_Rope; T_Wood_Lime unique to this pack; no byte-identical siblings in any other pack; FBX is slots-only, Unity maps textures by material slot"
+}
