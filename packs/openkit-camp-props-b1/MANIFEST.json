@@ -1,0 +1,214 @@
+{
+ "pack": "openkit-camp-props-b1",
+ "license": "CC0-1.0",
+ "unit": "1 unit = 1 m",
+ "export": "slots-only FBX (no image/video nodes); textures shared in tex/",
+ "tex_shared_with": "byte copies of openkit-barrel-chest-b1/tex",
+ "renames": {
+  "prop-bedroll": "prop-bedroll-cp1"
+ },
+ "tex_sha256": {
+  "tex/mat_canvas_albedo.png": "b0b70bebce84e3b29b75c2b5b84cf7ad6ee56002d43bca9ed6fb907105ded7a6",
+  "tex/mat_canvas_ao.png": "b103f1b9bd1a7e304dbf9b459317a4217d5e0332851bcec1d5463e22679cf161",
+  "tex/mat_canvas_normal.png": "3ec98a8c3242efac9300f0d9abe8a6eee630ad4e767d86c7bbaef76b33f85edf",
+  "tex/mat_iron_albedo.png": "8b1d301f9b4c71bb9c5ffd51877f3b406eaa22b221e72ecf6025370ef93ecc86",
+  "tex/mat_iron_ao.png": "8c08ba00d46b06963cfd0e4c3129d29ca050ee35141f9c240a81f2adff187b56",
+  "tex/mat_iron_normal.png": "2c144341d4ff6832413ee64ea28a10451642c335a247d5047203f321ed6d5634",
+  "tex/mat_straw_albedo.png": "c30cd8cac8c53e7612750ffbe129a47241f5a7b772be560d4d24855ced76ba7c",
+  "tex/mat_straw_ao.png": "cce451e778b4c4630e28afd6f421c2175c22dd565d6d1721430f14827f84d101",
+  "tex/mat_straw_normal.png": "b5c30e7c1148a36d4fae2ee2c36125b8278116690b59f8ff861e631ae2185973",
+  "tex/mat_wood_dark_albedo.png": "4e2b4fb8dc017233704bc9e89b9cee7179e331a84aee7852dbd8f3d9d55bb952",
+  "tex/mat_wood_dark_ao.png": "2f7c0c87cb8cf302fc68ab5dd445d13375dc6b67348466bfcdbb338d1f50164e",
+  "tex/mat_wood_dark_normal.png": "bb8cca6a663c54d6f594a64dd94735aa5d36e02f57e5caff64335679057c49c2",
+  "tex/mat_wood_oak_albedo.png": "616c7dc93ec0232204e1c0f21444e6eddd87e8a184e26ba42b2a70cd5391344a",
+  "tex/mat_wood_oak_ao.png": "448843eb420144162e5ff0646e202a687ba92a61ee74e3108eb4a3dac90b9604",
+  "tex/mat_wood_oak_normal.png": "57a8bb5784df3ded9bcab27bce462d86f1d4b5341a75306393bb6dad9219d5df"
+ },
+ "contact_sheet_sha256": "7bad7b6322f0d5eaccc90401945149c0cefbffa24f4e4d8c401800917912388e",
+ "assets": [
+  {
+   "name": "prop-tent-wedge",
+   "files": [
+    "fbx/prop-tent-wedge.fbx",
+    "tex/mat_canvas_albedo.png",
+    "tex/mat_canvas_normal.png",
+    "tex/mat_canvas_ao.png",
+    "tex/mat_straw_albedo.png",
+    "tex/mat_straw_normal.png",
+    "tex/mat_straw_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png"
+   ],
+   "tris": 150,
+   "size_m": [
+    2.38,
+    1.12,
+    1.53
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Rope"
+   ],
+   "slot_textures": {
+    "Primary": "mat_canvas",
+    "Secondary": "mat_wood_oak",
+    "Rope": "mat_straw"
+   },
+   "pivot": "bottom_centre: ground y=0, centred on footprint; door faces -X",
+   "license": "CC0-1.0",
+   "origin": "original procedural",
+   "sha256": {
+    "fbx/prop-tent-wedge.fbx": "759590edf97a09412ba18e616728f168dc8ba736efa795d74e15cf7ae619bf96"
+   },
+   "notes": "small canvas wedge tent, front pole 1.1 m, back pole 0.5 m, guy ropes + stakes"
+  },
+  {
+   "name": "prop-bedroll-cp1",
+   "files": [
+    "fbx/prop-bedroll-cp1.fbx",
+    "tex/mat_canvas_albedo.png",
+    "tex/mat_canvas_normal.png",
+    "tex/mat_canvas_ao.png",
+    "tex/mat_straw_albedo.png",
+    "tex/mat_straw_normal.png",
+    "tex/mat_straw_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png"
+   ],
+   "tris": 144,
+   "size_m": [
+    0.7,
+    0.257,
+    0.7
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Pad"
+   ],
+   "slot_textures": {
+    "Primary": "mat_canvas",
+    "Secondary": "mat_wood_dark",
+    "Pad": "mat_straw"
+   },
+   "pivot": "bottom_centre: ground y=0, centred on roll axis",
+   "license": "CC0-1.0",
+   "origin": "original procedural",
+   "sha256": {
+    "fbx/prop-bedroll-cp1.fbx": "9c49b2cbb7c475b6911772c69ebde332be128e4ee935d09769fb6fea69ef1050"
+   },
+   "notes": "rolled canvas bedroll, 2 leather straps, straw pad flap; renamed from prop-bedroll (openkit-dnd collision)"
+  },
+  {
+   "name": "prop-camp-stool",
+   "files": [
+    "fbx/prop-camp-stool.fbx",
+    "tex/mat_canvas_albedo.png",
+    "tex/mat_canvas_normal.png",
+    "tex/mat_canvas_ao.png",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png"
+   ],
+   "tris": 96,
+   "size_m": [
+    0.38,
+    0.46,
+    0.303
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Metal"
+   ],
+   "slot_textures": {
+    "Primary": "mat_canvas",
+    "Secondary": "mat_wood_oak",
+    "Metal": "mat_iron"
+   },
+   "pivot": "bottom_centre: floor y=0, centred",
+   "license": "CC0-1.0",
+   "origin": "original procedural",
+   "sha256": {
+    "fbx/prop-camp-stool.fbx": "977bd4de9f17ea4f5e03cf038957bd3c778e17a0eea62b4f8f46b4a6f9f8b81f"
+   },
+   "notes": "folding X-frame stool, canvas seat"
+  },
+  {
+   "name": "prop-cookpot-hang",
+   "files": [
+    "fbx/prop-cookpot-hang.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_straw_albedo.png",
+    "tex/mat_straw_normal.png",
+    "tex/mat_straw_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png"
+   ],
+   "tris": 210,
+   "size_m": [
+    1.083,
+    1.407,
+    0.943
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Metal",
+    "Secondary",
+    "Ash"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_dark",
+    "Metal": "mat_iron",
+    "Secondary": "mat_iron",
+    "Ash": "mat_straw"
+   },
+   "pivot": "bottom_centre: ground y=0, centred under pot/apex",
+   "license": "CC0-1.0",
+   "origin": "original procedural",
+   "sha256": {
+    "fbx/prop-cookpot-hang.fbx": "d647baf8de9a59157b6ca5c15a1a65856c97313bc094b2ae7c4ce3f73380b8dc"
+   },
+   "notes": "tripod + hanging iron pot + cold-ash patch; no fire ring/flames - distinct from campfire-ring-iron / outdoor campfire / openkit-dnd prop-cookpot"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-bedroll-cp1.fbx",
+  "fbx/prop-camp-stool.fbx",
+  "fbx/prop-cookpot-hang.fbx",
+  "fbx/prop-tent-wedge.fbx",
+  "tex/mat_canvas_albedo.png",
+  "tex/mat_canvas_ao.png",
+  "tex/mat_canvas_normal.png",
+  "tex/mat_iron_albedo.png",
+  "tex/mat_iron_ao.png",
+  "tex/mat_iron_normal.png",
+  "tex/mat_straw_albedo.png",
+  "tex/mat_straw_ao.png",
+  "tex/mat_straw_normal.png",
+  "tex/mat_wood_dark_albedo.png",
+  "tex/mat_wood_dark_ao.png",
+  "tex/mat_wood_dark_normal.png",
+  "tex/mat_wood_oak_albedo.png",
+  "tex/mat_wood_oak_ao.png",
+  "tex/mat_wood_oak_normal.png"
+ ]
+}

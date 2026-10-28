@@ -1,0 +1,172 @@
+{
+ "pack": "openkit-dungeon-clutter-b1",
+ "tex_shared_with": "mat_wood_dark/mat_iron identical to furniture-extras/tavern/outdoor (seed 23); mat_stone = outdoor-props-b1 (seed 57); mat_clay = tavern-dressing-b1 (seed 41)",
+ "license": "CC0-1.0",
+ "unit": "1 unit = 1 m",
+ "not_reauthored": [
+  "crypt-f1 Rubble_Landing",
+  "crypt-f1 Bone_Pile",
+  "prop-skull-pile (skipped)",
+  "prop-candle-niche",
+  "prop-weapon-plaque",
+  "prop-candle-sconce",
+  "OpenKit3D props",
+  "outdoor/tavern/furniture/medieval-env packs",
+  "WPN_* B01",
+  "tile-dojo-*",
+  "prop-practice-banner"
+ ],
+ "assets": [
+  {
+   "name": "prop-rubble-small",
+   "files": [
+    "fbx/prop-rubble-small.fbx",
+    "tex/mat_stone_albedo.png",
+    "tex/mat_stone_normal.png",
+    "tex/mat_stone_ao.png",
+    "renders/prop-rubble-small.png"
+   ],
+   "tris": 324,
+   "size_m": [
+    0.83,
+    0.322,
+    0.733
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary"
+   ],
+   "slot_textures": {
+    "Primary": "mat_stone",
+    "Secondary": "mat_stone"
+   },
+   "pivot": "bottom_centre: ground y=0, centred; low loose pile ~0.75 x 0.6 (not a landing/stair piece)",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_dungeon_clutter_b1.py + src/make_textures.py + src/make_outdoor_tex.py + src/make_clay.py)"
+  },
+  {
+   "name": "prop-broken-pottery",
+   "files": [
+    "fbx/prop-broken-pottery.fbx",
+    "tex/mat_clay_albedo.png",
+    "tex/mat_clay_normal.png",
+    "tex/mat_clay_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "renders/prop-broken-pottery.png"
+   ],
+   "tris": 460,
+   "size_m": [
+    0.78,
+    0.212,
+    0.791
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary"
+   ],
+   "slot_textures": {
+    "Primary": "mat_clay",
+    "Secondary": "mat_wood_dark"
+   },
+   "pivot": "bottom_centre: ground y=0, centred; standing broken base at origin, shards scattered; Secondary = spill stain decal disc (deletable)",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_dungeon_clutter_b1.py + src/make_textures.py + src/make_outdoor_tex.py + src/make_clay.py)"
+  },
+  {
+   "name": "prop-chain-hanging",
+   "files": [
+    "fbx/prop-chain-hanging.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "renders/prop-chain-hanging.png"
+   ],
+   "tris": 1012,
+   "size_m": [
+    0.12,
+    0.987,
+    0.119
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Metal"
+   ],
+   "slot_textures": {
+    "Primary": "mat_iron",
+    "Metal": "mat_iron"
+   },
+   "pivot": "wall_back: pivot at wall plate centre, wall plane at origin, chain hangs -Y(up) and protrudes toward +Z (Unity) / -Y Blender",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_dungeon_clutter_b1.py + src/make_textures.py + src/make_outdoor_tex.py + src/make_clay.py)"
+  },
+  {
+   "name": "prop-cage-hanging",
+   "files": [
+    "fbx/prop-cage-hanging.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "renders/prop-cage-hanging.png"
+   ],
+   "tris": 1216,
+   "size_m": [
+    0.738,
+    1.782,
+    0.716
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Metal",
+    "Secondary"
+   ],
+   "slot_textures": {
+    "Primary": "mat_iron",
+    "Metal": "mat_iron",
+    "Secondary": "mat_wood_dark"
+   },
+   "pivot": "top_hook: pivot at ceiling/wall hook point (y=0), cage hangs below to y=-1.76",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_dungeon_clutter_b1.py + src/make_textures.py + src/make_outdoor_tex.py + src/make_clay.py)"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSES.md",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-broken-pottery.fbx",
+  "fbx/prop-cage-hanging.fbx",
+  "fbx/prop-chain-hanging.fbx",
+  "fbx/prop-rubble-small.fbx",
+  "renders/prop-broken-pottery.png",
+  "renders/prop-cage-hanging.png",
+  "renders/prop-chain-hanging.png",
+  "renders/prop-rubble-small.png",
+  "src/build_dungeon_clutter_b1.py",
+  "src/make_clay.py",
+  "src/make_outdoor_tex.py",
+  "src/make_textures.py",
+  "tex/mat_clay_albedo.png",
+  "tex/mat_clay_ao.png",
+  "tex/mat_clay_normal.png",
+  "tex/mat_iron_albedo.png",
+  "tex/mat_iron_ao.png",
+  "tex/mat_iron_normal.png",
+  "tex/mat_stone_albedo.png",
+  "tex/mat_stone_ao.png",
+  "tex/mat_stone_normal.png",
+  "tex/mat_wood_dark_albedo.png",
+  "tex/mat_wood_dark_ao.png",
+  "tex/mat_wood_dark_normal.png"
+ ]
+}

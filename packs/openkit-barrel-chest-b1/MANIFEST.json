@@ -1,0 +1,227 @@
+{
+ "pack": "openkit-barrel-chest-b1",
+ "license": "CC0-1.0",
+ "unit": "1 unit = 1 m",
+ "export": "slots-only FBX (no image/video nodes); textures shared in tex/",
+ "tex_shared_with": "mat_wood_oak/dark, mat_iron = furniture-extras-b1; mat_canvas/mat_straw = outdoor-props-b1 (byte copies)",
+ "not_reauthored": [
+  "prop-coffer-wood (furniture-extras-b1)",
+  "prop-crate / prop-crate-open and all crate family",
+  "prop-barrel (base kit) - prop-barrel-wood is a new distinct asset",
+  "WPN_*",
+  "candle-niche/plaque/sconce",
+  "tile-dojo-*"
+ ],
+ "tex_sha256": {
+  "tex/mat_canvas_albedo.png": "b0b70bebce84e3b29b75c2b5b84cf7ad6ee56002d43bca9ed6fb907105ded7a6",
+  "tex/mat_canvas_ao.png": "b103f1b9bd1a7e304dbf9b459317a4217d5e0332851bcec1d5463e22679cf161",
+  "tex/mat_canvas_normal.png": "3ec98a8c3242efac9300f0d9abe8a6eee630ad4e767d86c7bbaef76b33f85edf",
+  "tex/mat_iron_albedo.png": "8b1d301f9b4c71bb9c5ffd51877f3b406eaa22b221e72ecf6025370ef93ecc86",
+  "tex/mat_iron_ao.png": "8c08ba00d46b06963cfd0e4c3129d29ca050ee35141f9c240a81f2adff187b56",
+  "tex/mat_iron_normal.png": "2c144341d4ff6832413ee64ea28a10451642c335a247d5047203f321ed6d5634",
+  "tex/mat_straw_albedo.png": "c30cd8cac8c53e7612750ffbe129a47241f5a7b772be560d4d24855ced76ba7c",
+  "tex/mat_straw_ao.png": "cce451e778b4c4630e28afd6f421c2175c22dd565d6d1721430f14827f84d101",
+  "tex/mat_straw_normal.png": "b5c30e7c1148a36d4fae2ee2c36125b8278116690b59f8ff861e631ae2185973",
+  "tex/mat_wood_dark_albedo.png": "4e2b4fb8dc017233704bc9e89b9cee7179e331a84aee7852dbd8f3d9d55bb952",
+  "tex/mat_wood_dark_ao.png": "2f7c0c87cb8cf302fc68ab5dd445d13375dc6b67348466bfcdbb338d1f50164e",
+  "tex/mat_wood_dark_normal.png": "bb8cca6a663c54d6f594a64dd94735aa5d36e02f57e5caff64335679057c49c2",
+  "tex/mat_wood_oak_albedo.png": "616c7dc93ec0232204e1c0f21444e6eddd87e8a184e26ba42b2a70cd5391344a",
+  "tex/mat_wood_oak_ao.png": "448843eb420144162e5ff0646e202a687ba92a61ee74e3108eb4a3dac90b9604",
+  "tex/mat_wood_oak_normal.png": "57a8bb5784df3ded9bcab27bce462d86f1d4b5341a75306393bb6dad9219d5df"
+ },
+ "contact_sheet_sha256": "dde34a00299dadd6d631f75a95c718ba4b268aab70c9dd13d5541e1b5cbdc8bf",
+ "assets": [
+  {
+   "name": "prop-barrel-wood",
+   "files": [
+    "fbx/prop-barrel-wood.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-barrel-wood.png"
+   ],
+   "tris": 802,
+   "size_m": [
+    0.675,
+    0.95,
+    0.675
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Metal"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Secondary": "mat_wood_dark",
+    "Metal": "mat_iron"
+   },
+   "pivot": "bottom_centre: floor y=0, centred on barrel axis",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_barrel_chest_b1.py)",
+   "sha256": {
+    "fbx/prop-barrel-wood.fbx": "b5bee4120f895464ee54f8e8ea8eedb736240778bbcd7a30f8eb5764eb9c381a",
+    "renders/prop-barrel-wood.png": "ffcccee504b8b02743915ce11d0b1c9ca09c91125ca8176808b406a45cbb08cc"
+   },
+   "notes": "closed, lid with cleats + bung, 4 iron hoops"
+  },
+  {
+   "name": "prop-barrel-open",
+   "files": [
+    "fbx/prop-barrel-open.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_straw_albedo.png",
+    "tex/mat_straw_normal.png",
+    "tex/mat_straw_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-barrel-open.png"
+   ],
+   "tris": 1034,
+   "size_m": [
+    0.675,
+    0.95,
+    0.675
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Metal",
+    "Fill"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Metal": "mat_iron",
+    "Fill": "mat_straw"
+   },
+   "pivot": "bottom_centre: floor y=0, centred on barrel axis",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_barrel_chest_b1.py)",
+   "sha256": {
+    "fbx/prop-barrel-open.fbx": "6a59249b28cddc313cb5fa1beeed015f72cf9f2bafa2ce3fc0e3cfe031dd7406",
+    "renders/prop-barrel-open.png": "e2059f01e050ece9d4ac5916782117afe3e1249a3098654bcf019bdc19137cc4"
+   },
+   "notes": "open top, ~25% grain fill (Fill slot surface at y=0.30 m inside, floor at 0.08 m)"
+  },
+  {
+   "name": "prop-chest-wood",
+   "files": [
+    "fbx/prop-chest-wood.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-chest-wood.png"
+   ],
+   "tris": 228,
+   "size_m": [
+    0.86,
+    0.61,
+    0.577
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Metal"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Secondary": "mat_wood_dark",
+    "Metal": "mat_iron"
+   },
+   "pivot": "bottom_centre: floor y=0, centred; hasp faces +Z (front)",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_barrel_chest_b1.py)",
+   "sha256": {
+    "fbx/prop-chest-wood.fbx": "e0f69bdacb542ac999a0cfe50004c38fec5302c23f2fe333c63c8d8d9a2866de",
+    "renders/prop-chest-wood.png": "288dad40f69f0dcb5703822fc2c39abc1bc3a6ab5b236fbe3c480b3f7873c177"
+   },
+   "notes": "closed; low hipped trapezoid lid + corner brackets + strap hinges + runners (coffer is small 0.53 m domed half-round lid)"
+  },
+  {
+   "name": "prop-sack-tied",
+   "files": [
+    "fbx/prop-sack-tied.fbx",
+    "tex/mat_canvas_albedo.png",
+    "tex/mat_canvas_normal.png",
+    "tex/mat_canvas_ao.png",
+    "tex/mat_straw_albedo.png",
+    "tex/mat_straw_normal.png",
+    "tex/mat_straw_ao.png",
+    "renders/prop-sack-tied.png"
+   ],
+   "tris": 268,
+   "size_m": [
+    0.605,
+    0.647,
+    0.474
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary"
+   ],
+   "slot_textures": {
+    "Primary": "mat_canvas",
+    "Secondary": "mat_straw"
+   },
+   "pivot": "bottom_centre: floor y=0, centred on footprint",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_barrel_chest_b1.py)",
+   "sha256": {
+    "fbx/prop-sack-tied.fbx": "e17e115f96f20616d6d06844d319feb7896c81fbda5cc2000265be795d584be6",
+    "renders/prop-sack-tied.png": "59486c0e5aa020bbccd376536460bf6ca77890f74afa0a9f856e0260f9f6e9ea"
+   },
+   "notes": "soft pile footprint 0.61 x 0.47 m (oval), h 0.65"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSES.md",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-barrel-open.fbx",
+  "fbx/prop-barrel-wood.fbx",
+  "fbx/prop-chest-wood.fbx",
+  "fbx/prop-sack-tied.fbx",
+  "renders/prop-barrel-open.png",
+  "renders/prop-barrel-wood.png",
+  "renders/prop-chest-wood.png",
+  "renders/prop-sack-tied.png",
+  "src/build_barrel_chest_b1.py",
+  "src/make_outdoor_tex.py",
+  "src/make_textures.py",
+  "tex/mat_canvas_albedo.png",
+  "tex/mat_canvas_ao.png",
+  "tex/mat_canvas_normal.png",
+  "tex/mat_iron_albedo.png",
+  "tex/mat_iron_ao.png",
+  "tex/mat_iron_normal.png",
+  "tex/mat_straw_albedo.png",
+  "tex/mat_straw_ao.png",
+  "tex/mat_straw_normal.png",
+  "tex/mat_wood_dark_albedo.png",
+  "tex/mat_wood_dark_ao.png",
+  "tex/mat_wood_dark_normal.png",
+  "tex/mat_wood_oak_albedo.png",
+  "tex/mat_wood_oak_ao.png",
+  "tex/mat_wood_oak_normal.png"
+ ]
+}

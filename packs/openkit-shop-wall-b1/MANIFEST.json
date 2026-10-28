@@ -1,0 +1,188 @@
+{
+ "pack": "openkit-shop-wall-b1",
+ "license": "CC0-1.0",
+ "unit": "1 unit = 1 m",
+ "not_reauthored": [
+  "prop-candle-niche",
+  "prop-weapon-plaque",
+  "prop-candle-sconce",
+  "prop-rope-coil-bs1",
+  "prop-hook-wall",
+  "prop-sign-hanging",
+  "prop-banner-*"
+ ],
+ "skipped": [
+  "prop-shield-wall (optional; skipped to avoid silhouette overlap with prop-weapon-plaque)"
+ ],
+ "assets": [
+  {
+   "name": "prop-herb-bundle",
+   "files": [
+    "fbx/prop-herb-bundle.fbx",
+    "tex/mat_herb_albedo.png",
+    "tex/mat_herb_normal.png",
+    "tex/mat_herb_ao.png",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_rope_albedo.png",
+    "tex/mat_rope_normal.png",
+    "tex/mat_rope_ao.png"
+   ],
+   "tris": 198,
+   "size_m": [
+    0.195,
+    0.46,
+    0.118
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Metal"
+   ],
+   "slot_textures": {
+    "Primary": "mat_herb",
+    "Secondary": "mat_rope",
+    "Metal": "mat_iron"
+   },
+   "pivot": "wall_back: nail plate on wall plane z=0, x centred, y=0 at bunch tips; bunch hangs head-down, faces +Z. Mount nail ~1.6-2.1 m",
+   "collision": "none (dressing; add box collider -sw1 in engine if needed)",
+   "license": "CC0-1.0",
+   "origin": "original procedural"
+  },
+  {
+   "name": "prop-rope-coil-wall",
+   "files": [
+    "fbx/prop-rope-coil-wall.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_rope_albedo.png",
+    "tex/mat_rope_normal.png",
+    "tex/mat_rope_ao.png"
+   ],
+   "tris": 204,
+   "size_m": [
+    0.376,
+    0.491,
+    0.143
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Metal"
+   ],
+   "slot_textures": {
+    "Primary": "mat_rope",
+    "Metal": "mat_iron"
+   },
+   "pivot": "wall_back: peg plate on wall plane z=0, x centred, y=0 at tail bottom; coil hangs on peg, faces +Z. Mount peg ~1.4-1.8 m",
+   "collision": "none (dressing; add box collider -sw1 in engine if needed)",
+   "license": "CC0-1.0",
+   "origin": "original procedural"
+  },
+  {
+   "name": "prop-wanted-poster-blank",
+   "files": [
+    "fbx/prop-wanted-poster-blank.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_paper_albedo.png",
+    "tex/mat_paper_normal.png",
+    "tex/mat_paper_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png"
+   ],
+   "tris": 72,
+   "size_m": [
+    0.42,
+    0.6,
+    0.036
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Metal"
+   ],
+   "slot_textures": {
+    "Primary": "mat_paper",
+    "Secondary": "mat_wood_oak",
+    "Metal": "mat_iron"
+   },
+   "pivot": "wall_back: board back on wall plane z=0, x centred, y=0 at board bottom; faces +Z. Mount bottom ~1.2 m",
+   "collision": "none (dressing; add box collider -sw1 in engine if needed)",
+   "license": "CC0-1.0",
+   "origin": "original procedural"
+  },
+  {
+   "name": "prop-curtain-short",
+   "files": [
+    "fbx/prop-curtain-short.fbx",
+    "tex/mat_cloth_banner_albedo.png",
+    "tex/mat_cloth_banner_normal.png",
+    "tex/mat_cloth_banner_ao.png",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png"
+   ],
+   "tris": 200,
+   "size_m": [
+    1.0,
+    0.629,
+    0.095
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Metal"
+   ],
+   "slot_textures": {
+    "Primary": "mat_cloth_banner",
+    "Metal": "mat_iron"
+   },
+   "pivot": "wall_back: bracket plates on wall plane z=0, x centred, y=0 at hem; rod on +Z side. Mount rod ~1.9-2.2 m (doorway/shelf skirt/window)",
+   "collision": "none (dressing; add box collider -sw1 in engine if needed)",
+   "license": "CC0-1.0",
+   "origin": "original procedural"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-curtain-short.fbx",
+  "fbx/prop-herb-bundle.fbx",
+  "fbx/prop-rope-coil-wall.fbx",
+  "fbx/prop-wanted-poster-blank.fbx",
+  "tex/mat_canvas_albedo.png",
+  "tex/mat_canvas_ao.png",
+  "tex/mat_canvas_normal.png",
+  "tex/mat_cloth_banner_albedo.png",
+  "tex/mat_cloth_banner_ao.png",
+  "tex/mat_cloth_banner_normal.png",
+  "tex/mat_herb_albedo.png",
+  "tex/mat_herb_ao.png",
+  "tex/mat_herb_normal.png",
+  "tex/mat_iron_albedo.png",
+  "tex/mat_iron_ao.png",
+  "tex/mat_iron_normal.png",
+  "tex/mat_paper_albedo.png",
+  "tex/mat_paper_ao.png",
+  "tex/mat_paper_normal.png",
+  "tex/mat_rope_albedo.png",
+  "tex/mat_rope_ao.png",
+  "tex/mat_rope_normal.png",
+  "tex/mat_wood_dark_albedo.png",
+  "tex/mat_wood_dark_ao.png",
+  "tex/mat_wood_dark_normal.png",
+  "tex/mat_wood_oak_albedo.png",
+  "tex/mat_wood_oak_ao.png",
+  "tex/mat_wood_oak_normal.png"
+ ]
+}

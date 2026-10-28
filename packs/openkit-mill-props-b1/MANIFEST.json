@@ -1,0 +1,125 @@
+{
+ "pack": "openkit-mill-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-grain-sack-open": "prop-grain-sack-open-ml1"
+ },
+ "collision_check": "no millstone-half/flour-bin/grain-sack-open/yoke-beam-short ids in other Open Kit packs; nearest: prop-sack-grain, prop-sack-tied/-cc1, prop-flour-sack-stack, farm/stable V-hopper in other Open Kit packs - distinct ids/forms (mill-hopper skipped)",
+ "judgment_calls": [
+  "prop-grain-sack-open-ml1 suffixed: prop-sack-grain (closed) exists in other Open Kit packs",
+  "prop-flour-bin is a lidded wooden bin, distinct from prop-flour-sack-stack in other Open Kit packs - kept unsuffixed",
+  "prop-mill-hopper skipped because other Open Kit packs (farm/stable) have a V-hopper feeder; chose prop-yoke-beam-short",
+  "prop-millstone-half is a broken half runner stone (decor), not a working mill"
+ ],
+ "assets": [
+  {
+   "name": "prop-millstone-half",
+   "tris": 62,
+   "dims_xyz_m": [
+    0.9,
+    0.17,
+    0.47
+   ],
+   "bbox_min": [
+    -0.45,
+    -0.085,
+    -0.02
+   ],
+   "materials": [
+    "M_Stone",
+    "M_Stone_Dark"
+   ],
+   "height_m": 0.45,
+   "pivot": "bottom_centre (0,0,0) at middle of flat cut edge on floor; disc faces +/-Y; broken half of a runner stone with eye stub",
+   "fbx": "fbx/prop-millstone-half.fbx",
+   "sha256": "2298cf7e92dab8d0f5b6dab4204d7f94bc2b3ba74053a337fa9d213fab705022"
+  },
+  {
+   "name": "prop-flour-bin",
+   "tris": 132,
+   "dims_xyz_m": [
+    0.72,
+    0.646,
+    0.896
+   ],
+   "bbox_min": [
+    -0.36,
+    -0.255,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Pine",
+    "M_Flour"
+   ],
+   "height_m": 0.9,
+   "pivot": "bottom_centre (0,0,0) under feet; long axis X; hinged lid propped open toward +Y (back), flour surface inside",
+   "fbx": "fbx/prop-flour-bin.fbx",
+   "sha256": "b29bceb52e4355ac3d2efded15d69d4ae3b1060af0dfcca28929160ccc41ceb3"
+  },
+  {
+   "name": "prop-grain-sack-open-ml1",
+   "tris": 116,
+   "dims_xyz_m": [
+    0.48,
+    0.48,
+    0.55
+   ],
+   "bbox_min": [
+    -0.24,
+    -0.24,
+    0.0
+   ],
+   "materials": [
+    "M_Burlap",
+    "M_Grain"
+   ],
+   "height_m": 0.55,
+   "pivot": "bottom_centre (0,0,0) on floor; mouth rolled open with grain cone visible; distinct from prop-sack-tied/-cc1 and prop-sack-grain (closed)",
+   "fbx": "fbx/prop-grain-sack-open-ml1.fbx",
+   "sha256": "cc16e0517c56e347c0e0c103e7c86fe84604fc02ef12d52dee58aed80ebf3248"
+  },
+  {
+   "name": "prop-yoke-beam-short",
+   "tris": 88,
+   "dims_xyz_m": [
+    1.2,
+    0.1,
+    0.14
+   ],
+   "bbox_min": [
+    -0.6,
+    -0.05,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Pine",
+    "M_Iron"
+   ],
+   "height_m": 0.14,
+   "pivot": "bottom_centre (0,0,0) under beam lying flat; beam along X; short mill sweep/yoke beam with iron centre staple and pegs",
+   "fbx": "fbx/prop-yoke-beam-short.fbx",
+   "sha256": "12e25f38a09f26244264c3ffa306da441a24012fe98f69589c4a8512b22b13af"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-flour-bin.fbx",
+  "fbx/prop-grain-sack-open-ml1.fbx",
+  "fbx/prop-millstone-half.fbx",
+  "fbx/prop-yoke-beam-short.fbx",
+  "tex/T_Burlap_BaseColor.png",
+  "tex/T_Flour_BaseColor.png",
+  "tex/T_Grain_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Stone_BaseColor.png",
+  "tex/T_Wood_Pine_BaseColor.png"
+ ]
+}

@@ -1,0 +1,1 @@
+All models and textures are original studio work, built procedurally by script. No third-party assets. No AI mesh or image generators. Released under CC0 1.0 Universal. Attribution welcome but not required.

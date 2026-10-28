@@ -1,0 +1,184 @@
+{
+ "pack": "openkit-farm-props-b1",
+ "license": "CC0-1.0",
+ "unit": "1 unit = 1 m",
+ "export": "slots-only FBX (no image/video nodes); textures in tex/",
+ "renamed": {
+  "prop-hay-bale": "prop-hay-bale-fp1",
+  "prop-pitchfork": "prop-pitchfork-fp1"
+ },
+ "rename_reason": "prop-hay-bale exists in openkit-outdoor-props-b1 (+public release); prop-pitchfork exists as tipped 2D in openkit-dnd/passed",
+ "distinct_from": {
+  "prop-feed-trough": "prop-trough-wood (well-water water trough)"
+ },
+ "contact_sheet": "CONTACT_SHEET.png",
+ "assets": [
+  {
+   "name": "prop-hay-bale-fp1",
+   "files": [
+    "fbx/prop-hay-bale-fp1.fbx",
+    "tex/mat_straw_albedo.png",
+    "tex/mat_straw_normal.png",
+    "tex/mat_straw_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "renders/prop-hay-bale-fp1.png"
+   ],
+   "tris": 36,
+   "size_m": [
+    0.9,
+    0.37,
+    0.47
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Twine"
+   ],
+   "slot_textures": {
+    "Primary": "mat_straw",
+    "Twine": "mat_wood_dark"
+   },
+   "pivot": "bottom_centre: floor y=0, centred; long axis X",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_farm_props_b1.py)"
+  },
+  {
+   "name": "prop-pitchfork-fp1",
+   "files": [
+    "fbx/prop-pitchfork-fp1.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-pitchfork-fp1.png"
+   ],
+   "tris": 92,
+   "size_m": [
+    1.47,
+    0.036,
+    0.22
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Metal"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Metal": "mat_iron"
+   },
+   "pivot": "bottom_centre: lying flat on floor y=0, centred on bbox; tines +X",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_farm_props_b1.py)"
+  },
+  {
+   "name": "prop-wheelbarrow-wood",
+   "files": [
+    "fbx/prop-wheelbarrow-wood.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-wheelbarrow-wood.png"
+   ],
+   "tris": 220,
+   "size_m": [
+    1.455,
+    0.565,
+    0.575
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Wheel",
+    "Metal"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Secondary": "mat_wood_dark",
+    "Wheel": "mat_wood_dark",
+    "Metal": "mat_iron"
+   },
+   "pivot": "bottom_centre: floor y=0 (wheel+legs), centred; wheel +X",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_farm_props_b1.py)"
+  },
+  {
+   "name": "prop-feed-trough",
+   "files": [
+    "fbx/prop-feed-trough.fbx",
+    "tex/mat_straw_albedo.png",
+    "tex/mat_straw_normal.png",
+    "tex/mat_straw_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-feed-trough.png"
+   ],
+   "tris": 252,
+   "size_m": [
+    1.42,
+    0.874,
+    0.5
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Rack",
+    "Feed"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Secondary": "mat_wood_dark",
+    "Rack": "mat_wood_dark",
+    "Feed": "mat_straw"
+   },
+   "pivot": "bottom_centre: floor y=0, centred; long axis X",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_farm_props_b1.py)"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSES.md",
+  "MANIFEST.json",
+  "README.md",
+  "SHA256SUMS.txt",
+  "fbx/prop-feed-trough.fbx",
+  "fbx/prop-hay-bale-fp1.fbx",
+  "fbx/prop-pitchfork-fp1.fbx",
+  "fbx/prop-wheelbarrow-wood.fbx",
+  "renders/prop-feed-trough.png",
+  "renders/prop-hay-bale-fp1.png",
+  "renders/prop-pitchfork-fp1.png",
+  "renders/prop-wheelbarrow-wood.png",
+  "src/build_farm_props_b1.py",
+  "tex/mat_iron_albedo.png",
+  "tex/mat_iron_ao.png",
+  "tex/mat_iron_normal.png",
+  "tex/mat_straw_albedo.png",
+  "tex/mat_straw_ao.png",
+  "tex/mat_straw_normal.png",
+  "tex/mat_wood_dark_albedo.png",
+  "tex/mat_wood_dark_ao.png",
+  "tex/mat_wood_dark_normal.png",
+  "tex/mat_wood_oak_albedo.png",
+  "tex/mat_wood_oak_ao.png",
+  "tex/mat_wood_oak_normal.png"
+ ]
+}

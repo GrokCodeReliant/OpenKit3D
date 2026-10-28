@@ -1,0 +1,171 @@
+{
+ "pack": "openkit-roof-tiles-b1",
+ "tex_shared_with": "mat_wood_dark identical to furniture/tavern/outdoor/clutter/market (seed 23); mat_thatch/mat_terracotta new (seed 91)",
+ "license": "CC0-1.0",
+ "unit": "1 unit = 1 m",
+ "grid": {
+  "cell_along_eaves_m": 1.5,
+  "run_m": 1.5,
+  "rise_m": 1.5,
+  "pitch_deg": 45,
+  "slope_length_m": 2.121
+ },
+ "not_reauthored": [
+  "tile-dungeon-stone-floor",
+  "tile-dungeon-wood-floor*",
+  "tile-dojo-wood-*",
+  "wall-dress pack",
+  "WPN_*",
+  "existing OpenKit3D tiles/walls"
+ ],
+ "assets": [
+  {
+   "name": "tile-roof-thatch",
+   "files": [
+    "fbx/tile-roof-thatch.fbx",
+    "tex/mat_thatch_albedo.png",
+    "tex/mat_thatch_normal.png",
+    "tex/mat_thatch_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "renders/tile-roof-thatch.png"
+   ],
+   "tris": 432,
+   "size_m": [
+    1.5,
+    1.899,
+    1.94
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary"
+   ],
+   "slot_textures": {
+    "Primary": "mat_thatch",
+    "Secondary": "mat_wood_dark"
+   },
+   "pivot": "eaves_bottom: origin at underside of eaves line, x-centred; module 1.5 (x) wide, rises to ridge toward +Z (Unity, back) 1.5 run / 1.5 rise (45 deg)",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_roof_tiles_b1.py + src/make_textures.py + src/make_roof_tex.py)"
+  },
+  {
+   "name": "tile-roof-thatch-ridge",
+   "files": [
+    "fbx/tile-roof-thatch-ridge.fbx",
+    "tex/mat_thatch_albedo.png",
+    "tex/mat_thatch_normal.png",
+    "tex/mat_thatch_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "renders/tile-roof-thatch-ridge.png"
+   ],
+   "tris": 352,
+   "size_m": [
+    1.5,
+    0.786,
+    0.857
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary"
+   ],
+   "slot_textures": {
+    "Primary": "mat_thatch",
+    "Secondary": "mat_wood_dark"
+   },
+   "pivot": "ridge_apex: origin = apex underside, where two mirrored slope modules meet; place at slope pivot + (0, 1.5, 1.5) (y up, z back), 1.5 wide",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_roof_tiles_b1.py + src/make_textures.py + src/make_roof_tex.py)"
+  },
+  {
+   "name": "tile-roof-clay",
+   "files": [
+    "fbx/tile-roof-clay.fbx",
+    "tex/mat_terracotta_albedo.png",
+    "tex/mat_terracotta_normal.png",
+    "tex/mat_terracotta_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "renders/tile-roof-clay.png"
+   ],
+   "tris": 1776,
+   "size_m": [
+    1.625,
+    1.796,
+    1.783
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary"
+   ],
+   "slot_textures": {
+    "Primary": "mat_terracotta",
+    "Secondary": "mat_wood_dark"
+   },
+   "pivot": "eaves_bottom: origin at underside of eaves line, x-centred; module 1.5 (x) wide, rises to ridge toward +Z (Unity, back) 1.5 run / 1.5 rise (45 deg)",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_roof_tiles_b1.py + src/make_textures.py + src/make_roof_tex.py)"
+  },
+  {
+   "name": "tile-roof-clay-ridge",
+   "files": [
+    "fbx/tile-roof-clay-ridge.fbx",
+    "tex/mat_terracotta_albedo.png",
+    "tex/mat_terracotta_normal.png",
+    "tex/mat_terracotta_ao.png",
+    "renders/tile-roof-clay-ridge.png"
+   ],
+   "tris": 216,
+   "size_m": [
+    1.5,
+    0.562,
+    0.48
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary"
+   ],
+   "slot_textures": {
+    "Primary": "mat_terracotta",
+    "Secondary": "mat_terracotta"
+   },
+   "pivot": "ridge_apex: origin = apex underside, where two mirrored slope modules meet; place at slope pivot + (0, 1.5, 1.5) (y up, z back), 1.5 wide",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_roof_tiles_b1.py + src/make_textures.py + src/make_roof_tex.py)"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSES.md",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/tile-roof-clay-ridge.fbx",
+  "fbx/tile-roof-clay.fbx",
+  "fbx/tile-roof-thatch-ridge.fbx",
+  "fbx/tile-roof-thatch.fbx",
+  "renders/tile-roof-clay-ridge.png",
+  "renders/tile-roof-clay.png",
+  "renders/tile-roof-thatch-ridge.png",
+  "renders/tile-roof-thatch.png",
+  "src/build_roof_tiles_b1.py",
+  "src/make_roof_tex.py",
+  "src/make_textures.py",
+  "tex/mat_terracotta_albedo.png",
+  "tex/mat_terracotta_ao.png",
+  "tex/mat_terracotta_normal.png",
+  "tex/mat_thatch_albedo.png",
+  "tex/mat_thatch_ao.png",
+  "tex/mat_thatch_normal.png",
+  "tex/mat_wood_dark_albedo.png",
+  "tex/mat_wood_dark_ao.png",
+  "tex/mat_wood_dark_normal.png"
+ ]
+}

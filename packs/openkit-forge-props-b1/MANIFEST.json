@@ -1,0 +1,119 @@
+{
+ "pack": "openkit-forge-props-b1",
+ "license": "CC0-1.0",
+ "unit": "1 unit = 1 m",
+ "pivot": "bottom_centre (bbox centre XZ, min Y = 0)",
+ "renames": {
+  "prop-anvil": "prop-anvil-fg1 (collides with okm4/openkit v0.3 prop-anvil)"
+ },
+ "assets": [
+  {
+   "pivot": "bottom_centre (stump base y=0)",
+   "dims_note": "iron anvil on 0.5 m wood stump, working face ~0.87 m, horn +X",
+   "name": "prop-anvil-fg1",
+   "tris": 108,
+   "size_m": [
+    0.81,
+    0.892,
+    0.5
+   ],
+   "materials": [
+    "Iron",
+    "Wood"
+   ],
+   "files": [
+    "fbx/prop-anvil-fg1.fbx"
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "material_mode": "slots-only (no textures embedded/referenced)",
+   "license": "CC0-1.0",
+   "origin": "original procedural (Open Kit studio build)",
+   "sha256": "28c3a8b9f7936a4ac0e306a085025555e062ebf127124f8a85ee6a9973d6fd3a"
+  },
+  {
+   "pivot": "bottom_centre (base y=0); mouth faces -Z (Unity forward-back)",
+   "dims_note": "1.4 x 1.0 m stone base, ember bed y=0.84, open brick mouth 1.0 w x 0.6 h, hood+chimney to 2.9 m",
+   "fx_attach": "FX_ForgeMouth local (0, 0.95, +0.05) Unity: fire/glow on Ember slot; smoke at chimney top (0, 2.9, -0.15)",
+   "name": "prop-forge-hearth",
+   "tris": 108,
+   "size_m": [
+    1.45,
+    2.9,
+    1.06
+   ],
+   "materials": [
+    "Stone",
+    "Brick",
+    "Ember"
+   ],
+   "files": [
+    "fbx/prop-forge-hearth.fbx"
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "material_mode": "slots-only (no textures embedded/referenced)",
+   "license": "CC0-1.0",
+   "origin": "original procedural (Open Kit studio build)",
+   "sha256": "cd5d0adfa84b805456e42bee456d7217b4af527ca923cb617208af8b3fd8413c"
+  },
+  {
+   "pivot": "bottom_centre (feet y=0)",
+   "dims_note": "floor bellows 1.25 m incl handle (-X) and iron nozzle (+X), 0.4 m wide, 0.35 m tall",
+   "name": "prop-bellows",
+   "tris": 116,
+   "size_m": [
+    1.14,
+    0.35,
+    0.4
+   ],
+   "materials": [
+    "Wood",
+    "Leather",
+    "Iron"
+   ],
+   "files": [
+    "fbx/prop-bellows.fbx"
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "material_mode": "slots-only (no textures embedded/referenced)",
+   "license": "CC0-1.0",
+   "origin": "original procedural (Open Kit studio build)",
+   "sha256": "79c82bd106737925fc69c052b767d3bd9a523916c921da1ad5d293f84e50ff3e"
+  },
+  {
+   "pivot": "bottom_centre (base y=0)",
+   "dims_note": "short open quench tub 0.86 m dia x 0.5 m, 2 dark iron bands, water at 0.42 m, steam stub cone",
+   "name": "prop-quench-barrel",
+   "tris": 184,
+   "size_m": [
+    0.85,
+    0.54,
+    0.85
+   ],
+   "materials": [
+    "Wood",
+    "IronDark",
+    "Water",
+    "Steam"
+   ],
+   "files": [
+    "fbx/prop-quench-barrel.fbx"
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "material_mode": "slots-only (no textures embedded/referenced)",
+   "license": "CC0-1.0",
+   "origin": "original procedural (Open Kit studio build)",
+   "sha256": "9d2eb336d0d625519c61f78ee7e4d2e3003359e2725f1632abd2421c4b09ce41"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-anvil-fg1.fbx",
+  "fbx/prop-bellows.fbx",
+  "fbx/prop-forge-hearth.fbx",
+  "fbx/prop-quench-barrel.fbx",
+  "LICENSE"
+ ]
+}

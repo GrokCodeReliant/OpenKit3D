@@ -1,0 +1,178 @@
+{
+ "pack": "openkit-stable-props-b1",
+ "license": "CC0-1.0",
+ "unit": "1 unit = 1 m",
+ "export": "slots-only FBX (no image/video nodes); textures in tex/",
+ "tri_budget": 210,
+ "renamed": {
+  "prop-hay-bale": "prop-hay-bale-sp1",
+  "prop-feed-trough": "prop-feed-trough-sp1"
+ },
+ "rename_reason": "prop-hay-bale exists in openkit-outdoor-props-b1 (+public) and openkit-dnd passed/_pending; prop-hay-bale-fp1 + prop-feed-trough exist in openkit-farm-props-b1 (+public)",
+ "distinct_from": {
+  "prop-feed-trough-sp1": "prop-feed-trough (farm V-hopper on A-frame) and prop-trough-wood (well-water)"
+ },
+ "contact_sheet": "CONTACT_SHEET.png",
+ "assets": [
+  {
+   "name": "prop-hay-bale-sp1",
+   "files": [
+    "fbx/prop-hay-bale-sp1.fbx",
+    "tex/mat_straw_albedo.png",
+    "tex/mat_straw_normal.png",
+    "tex/mat_straw_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png"
+   ],
+   "tris": 72,
+   "size_m": [
+    1.0,
+    0.41,
+    0.51
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Twine"
+   ],
+   "slot_textures": {
+    "Primary": "mat_straw",
+    "Twine": "mat_wood_dark"
+   },
+   "pivot": "bottom_centre: floor y=0, centred; long axis X",
+   "license": "CC0-1.0",
+   "origin": "original procedural"
+  },
+  {
+   "name": "prop-feed-trough-sp1",
+   "files": [
+    "fbx/prop-feed-trough-sp1.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_straw_albedo.png",
+    "tex/mat_straw_normal.png",
+    "tex/mat_straw_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png"
+   ],
+   "tris": 120,
+   "size_m": [
+    1.2,
+    0.4,
+    0.5
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Metal",
+    "Feed"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Secondary": "mat_wood_dark",
+    "Metal": "mat_iron",
+    "Feed": "mat_straw"
+   },
+   "pivot": "bottom_centre: floor y=0, centred; long axis X",
+   "license": "CC0-1.0",
+   "origin": "original procedural"
+  },
+  {
+   "name": "prop-hitching-post",
+   "files": [
+    "fbx/prop-hitching-post.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png"
+   ],
+   "tris": 156,
+   "size_m": [
+    1.96,
+    1.02,
+    0.16
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Metal"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Secondary": "mat_wood_dark",
+    "Metal": "mat_iron"
+   },
+   "pivot": "bottom_centre: floor y=0, centred; rail along X, rings face -Z (Unity +Z front)",
+   "license": "CC0-1.0",
+   "origin": "original procedural"
+  },
+  {
+   "name": "prop-horseshoe-wall",
+   "files": [
+    "fbx/prop-horseshoe-wall.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png"
+   ],
+   "tris": 112,
+   "size_m": [
+    0.3,
+    0.36,
+    0.059
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Metal",
+    "Nails"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Metal": "mat_iron",
+    "Nails": "mat_iron"
+   },
+   "pivot": "wall_back: back face on wall plane, centred X and Y(up) on plaque; protrudes toward viewer",
+   "license": "CC0-1.0",
+   "origin": "original procedural"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-feed-trough-sp1.fbx",
+  "fbx/prop-hay-bale-sp1.fbx",
+  "fbx/prop-hitching-post.fbx",
+  "fbx/prop-horseshoe-wall.fbx",
+  "tex/mat_iron_albedo.png",
+  "tex/mat_iron_ao.png",
+  "tex/mat_iron_normal.png",
+  "tex/mat_straw_albedo.png",
+  "tex/mat_straw_ao.png",
+  "tex/mat_straw_normal.png",
+  "tex/mat_wood_dark_albedo.png",
+  "tex/mat_wood_dark_ao.png",
+  "tex/mat_wood_dark_normal.png",
+  "tex/mat_wood_oak_albedo.png",
+  "tex/mat_wood_oak_ao.png",
+  "tex/mat_wood_oak_normal.png"
+ ]
+}

@@ -1,0 +1,221 @@
+{
+ "pack": "openkit-cart-crate-b1",
+ "license": "CC0-1.0",
+ "unit": "1 unit = 1 m",
+ "export": "slots-only FBX (no image/video nodes); textures shared in tex/",
+ "tex_shared_with": "byte copies of openkit-barrel-chest-b1/tex",
+ "renamed": {
+  "prop-sack-tied": "prop-sack-tied-cc1 (collision with openkit-barrel-chest-b1)"
+ },
+ "tex_sha256": {
+  "tex/mat_canvas_albedo.png": "b0b70bebce84e3b29b75c2b5b84cf7ad6ee56002d43bca9ed6fb907105ded7a6",
+  "tex/mat_canvas_ao.png": "b103f1b9bd1a7e304dbf9b459317a4217d5e0332851bcec1d5463e22679cf161",
+  "tex/mat_canvas_normal.png": "3ec98a8c3242efac9300f0d9abe8a6eee630ad4e767d86c7bbaef76b33f85edf",
+  "tex/mat_iron_albedo.png": "8b1d301f9b4c71bb9c5ffd51877f3b406eaa22b221e72ecf6025370ef93ecc86",
+  "tex/mat_iron_ao.png": "8c08ba00d46b06963cfd0e4c3129d29ca050ee35141f9c240a81f2adff187b56",
+  "tex/mat_iron_normal.png": "2c144341d4ff6832413ee64ea28a10451642c335a247d5047203f321ed6d5634",
+  "tex/mat_straw_albedo.png": "c30cd8cac8c53e7612750ffbe129a47241f5a7b772be560d4d24855ced76ba7c",
+  "tex/mat_straw_ao.png": "cce451e778b4c4630e28afd6f421c2175c22dd565d6d1721430f14827f84d101",
+  "tex/mat_straw_normal.png": "b5c30e7c1148a36d4fae2ee2c36125b8278116690b59f8ff861e631ae2185973",
+  "tex/mat_wood_dark_albedo.png": "4e2b4fb8dc017233704bc9e89b9cee7179e331a84aee7852dbd8f3d9d55bb952",
+  "tex/mat_wood_dark_ao.png": "2f7c0c87cb8cf302fc68ab5dd445d13375dc6b67348466bfcdbb338d1f50164e",
+  "tex/mat_wood_dark_normal.png": "bb8cca6a663c54d6f594a64dd94735aa5d36e02f57e5caff64335679057c49c2",
+  "tex/mat_wood_oak_albedo.png": "616c7dc93ec0232204e1c0f21444e6eddd87e8a184e26ba42b2a70cd5391344a",
+  "tex/mat_wood_oak_ao.png": "448843eb420144162e5ff0646e202a687ba92a61ee74e3108eb4a3dac90b9604",
+  "tex/mat_wood_oak_normal.png": "57a8bb5784df3ded9bcab27bce462d86f1d4b5341a75306393bb6dad9219d5df"
+ },
+ "contact_sheet_sha256": "4e6d4b2864366c0e5c67d46fe4636b310f978375094d49cab7d02c30e0698245",
+ "assets": [
+  {
+   "name": "prop-cart-wood",
+   "files": [
+    "fbx/prop-cart-wood.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-cart-wood.png"
+   ],
+   "tris": 372,
+   "size_m": [
+    1.02,
+    0.608,
+    1.658
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Metal"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Secondary": "mat_wood_dark",
+    "Metal": "mat_iron"
+   },
+   "pivot": "bottom_centre (axle): y=0 at wheel ground contact, origin directly under axle centre; rest-leg also touches y=0 at z=-0.6 (handle side)",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_cart_crate_b1.py)",
+   "sha256": {
+    "fbx/prop-cart-wood.fbx": "745c2034b659aa454fb9f468fc4327472666b837c491401ba385c4f54089a417",
+    "renders/prop-cart-wood.png": "d4adfe3f5d2e76dcca592262956f444b0b0799828db0ead751cb5d4cf863bfdf"
+   },
+   "notes": "2-wheel hand cart, empty bed, iron tyres, rest leg; distinct from okm4 prop-cart-hand"
+  },
+  {
+   "name": "prop-crate-wood-open",
+   "files": [
+    "fbx/prop-crate-wood-open.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-crate-wood-open.png"
+   ],
+   "tris": 276,
+   "size_m": [
+    0.769,
+    0.605,
+    0.62
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Metal"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Secondary": "mat_wood_dark",
+    "Metal": "mat_iron"
+   },
+   "pivot": "bottom_centre: floor y=0, centred on crate body (loose lid leans on +X side)",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_cart_crate_b1.py)",
+   "sha256": {
+    "fbx/prop-crate-wood-open.fbx": "921e799eb8c48f0921aed5edb8157d07d77df7905cb81bc13dfc1608c8ec07db",
+    "renders/prop-crate-wood-open.png": "89f761ebf7b33ec2fbca086be712f164ab4687874bf1fc92e3caa7d62e32ce37"
+   },
+   "notes": "open framed crate + loose lid leaning on +X; distinct from market prop-crate-open (low slatted 0.64x0.36x0.45)"
+  },
+  {
+   "name": "prop-crate-wood-closed",
+   "files": [
+    "fbx/prop-crate-wood-closed.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-crate-wood-closed.png"
+   ],
+   "tris": 228,
+   "size_m": [
+    0.625,
+    0.605,
+    0.625
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Metal"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Secondary": "mat_wood_dark",
+    "Metal": "mat_iron"
+   },
+   "pivot": "bottom_centre: floor y=0, centred",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_cart_crate_b1.py)",
+   "sha256": {
+    "fbx/prop-crate-wood-closed.fbx": "10a403e823e134651c1e46f9b8f75fc6139948700d7acf720a2e85da9ee54989",
+    "renders/prop-crate-wood-closed.png": "7a889fc2d8144332c2049af340f70b34e18fe7cc066f3407ee85b75a0eedc79a"
+   },
+   "notes": "closed framed crate with diagonal braces + iron corner caps; distinct name from v03b prop-crate-wood"
+  },
+  {
+   "name": "prop-sack-tied-cc1",
+   "files": [
+    "fbx/prop-sack-tied-cc1.fbx",
+    "tex/mat_canvas_albedo.png",
+    "tex/mat_canvas_normal.png",
+    "tex/mat_canvas_ao.png",
+    "tex/mat_straw_albedo.png",
+    "tex/mat_straw_normal.png",
+    "tex/mat_straw_ao.png",
+    "renders/prop-sack-tied-cc1.png"
+   ],
+   "tris": 224,
+   "size_m": [
+    0.472,
+    0.78,
+    0.506
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary"
+   ],
+   "slot_textures": {
+    "Primary": "mat_canvas",
+    "Secondary": "mat_straw"
+   },
+   "pivot": "bottom_centre: floor y=0, centred on base (top leans +X)",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_cart_crate_b1.py)",
+   "sha256": {
+    "fbx/prop-sack-tied-cc1.fbx": "28979e77d158226ffaa6bd13930d470479243981ab585e2a7e89050f8fed92e8",
+    "renders/prop-sack-tied-cc1.png": "853e4fbe39d80c6b1b6d7c630d2d08129d727a6de876743798b5c8278df539be"
+   },
+   "notes": "tall leaning sack (0.78 m, top leans +X), rope-tied neck; different silhouette from barrel-chest prop-sack-tied (squat 0.65 m pile)"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSES.md",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-cart-wood.fbx",
+  "fbx/prop-crate-wood-closed.fbx",
+  "fbx/prop-crate-wood-open.fbx",
+  "fbx/prop-sack-tied-cc1.fbx",
+  "renders/prop-cart-wood.png",
+  "renders/prop-crate-wood-closed.png",
+  "renders/prop-crate-wood-open.png",
+  "renders/prop-sack-tied-cc1.png",
+  "src/_manifest_assets.json",
+  "src/build_cart_crate_b1.py",
+  "tex/mat_canvas_albedo.png",
+  "tex/mat_canvas_ao.png",
+  "tex/mat_canvas_normal.png",
+  "tex/mat_iron_albedo.png",
+  "tex/mat_iron_ao.png",
+  "tex/mat_iron_normal.png",
+  "tex/mat_straw_albedo.png",
+  "tex/mat_straw_ao.png",
+  "tex/mat_straw_normal.png",
+  "tex/mat_wood_dark_albedo.png",
+  "tex/mat_wood_dark_ao.png",
+  "tex/mat_wood_dark_normal.png",
+  "tex/mat_wood_oak_albedo.png",
+  "tex/mat_wood_oak_ao.png",
+  "tex/mat_wood_oak_normal.png"
+ ]
+}

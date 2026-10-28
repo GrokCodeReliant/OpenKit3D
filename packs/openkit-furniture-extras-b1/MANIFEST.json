@@ -1,0 +1,96 @@
+{
+  "pack": "furniture-extras-b1",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "CONTACT_SHEET.png",
+      "sha256": "41b473c36696e8e5c97e7533978db17b1daa6be4d30cfcf58531d51560bcfc57",
+      "bytes": 354267
+    },
+    {
+      "path": "CREDITS.md",
+      "sha256": "4281cf51af1b59ddd496ed8b54636455c4030494a84d26ebfba982fa279154ae",
+      "bytes": 207
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    {
+      "path": "README.md",
+      "sha256": "1904f0f3a74bd3165b26c8b89edcbd58559dd778024ee868f31a468fd009c8b4",
+      "bytes": 629
+    },
+    {
+      "path": "fbx/prop-coffer-wood.fbx",
+      "sha256": "bfb9445f39ddc3a9f093691e9b3b2bb72a9c3952df0a088fd54b1411030e3bdf",
+      "bytes": 28108
+    },
+    {
+      "path": "fbx/prop-counter-tavern.fbx",
+      "sha256": "0766375c162a5a01549b6447f7ec219c08f1af3d38fce59c4e31f78af3889614",
+      "bytes": 25004
+    },
+    {
+      "path": "fbx/prop-shelf-wall.fbx",
+      "sha256": "be2b7e0b574b34b996b28cd10c45fdae81852d157eacdb4fb88187f877071175",
+      "bytes": 24620
+    },
+    {
+      "path": "fbx/prop-stool-tall.fbx",
+      "sha256": "2491f3d6599df76c7cd54bdbf0ec40d0c487a3565fe3787c48e55d16142e9ef7",
+      "bytes": 27052
+    },
+    {
+      "path": "fbx/prop-table-round.fbx",
+      "sha256": "2ecbc74936968b388b1fd0126beb610dd3c606a5c1da54ff251d3e772b212cf3",
+      "bytes": 26972
+    },
+    {
+      "path": "tex/mat_iron_albedo.png",
+      "sha256": "8b1d301f9b4c71bb9c5ffd51877f3b406eaa22b221e72ecf6025370ef93ecc86",
+      "bytes": 114286
+    },
+    {
+      "path": "tex/mat_iron_ao.png",
+      "sha256": "8c08ba00d46b06963cfd0e4c3129d29ca050ee35141f9c240a81f2adff187b56",
+      "bytes": 75121
+    },
+    {
+      "path": "tex/mat_iron_normal.png",
+      "sha256": "2c144341d4ff6832413ee64ea28a10451642c335a247d5047203f321ed6d5634",
+      "bytes": 115686
+    },
+    {
+      "path": "tex/mat_wood_dark_albedo.png",
+      "sha256": "4e2b4fb8dc017233704bc9e89b9cee7179e331a84aee7852dbd8f3d9d55bb952",
+      "bytes": 88918
+    },
+    {
+      "path": "tex/mat_wood_dark_ao.png",
+      "sha256": "2f7c0c87cb8cf302fc68ab5dd445d13375dc6b67348466bfcdbb338d1f50164e",
+      "bytes": 82153
+    },
+    {
+      "path": "tex/mat_wood_dark_normal.png",
+      "sha256": "bb8cca6a663c54d6f594a64dd94735aa5d36e02f57e5caff64335679057c49c2",
+      "bytes": 153983
+    },
+    {
+      "path": "tex/mat_wood_oak_albedo.png",
+      "sha256": "616c7dc93ec0232204e1c0f21444e6eddd87e8a184e26ba42b2a70cd5391344a",
+      "bytes": 105284
+    },
+    {
+      "path": "tex/mat_wood_oak_ao.png",
+      "sha256": "448843eb420144162e5ff0646e202a687ba92a61ee74e3108eb4a3dac90b9604",
+      "bytes": 74437
+    },
+    {
+      "path": "tex/mat_wood_oak_normal.png",
+      "sha256": "57a8bb5784df3ded9bcab27bce462d86f1d4b5341a75306393bb6dad9219d5df",
+      "bytes": 145792
+    }
+  ]
+}

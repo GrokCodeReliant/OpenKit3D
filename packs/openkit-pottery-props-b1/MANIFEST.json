@@ -1,0 +1,127 @@
+{
+ "pack": "openkit-pottery-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-potter-wheel": "prop-potter-wheel-pt1",
+  "prop-kiln-small": "prop-kiln-small-pt1"
+ },
+ "collision_check": "no exact ids in other Open Kit packs; neighbours: prop-pottery-wheel, prop-clay-kiln, prop-clay-bin, prop-broken-pottery (2D, other Open Kit packs), prop-jar-crock/prop-jug-clay/prop-cookpot (kitchen/tavern)",
+ "judgment_calls": [
+  "prop-potter-wheel-pt1 suffixed: near-identical to prop-pottery-wheel (2D) in other Open Kit packs",
+  "prop-kiln-small-pt1 suffixed: prop-clay-kiln (2D) in other Open Kit packs is the same concept",
+  "prop-clay-lump unsuffixed: only neighbour is prop-clay-bin (container); lump is 20 tris, intentionally tiny",
+  "prop-pot-unfired unsuffixed: pale matte greenware, no handle/lid, shape differs from prop-jar-crock and prop-jug-clay; could read as generic pot if tinted"
+ ],
+ "assets": [
+  {
+   "name": "prop-potter-wheel-pt1",
+   "tris": 196,
+   "dims_xyz_m": [
+    0.6,
+    0.875,
+    0.82
+   ],
+   "bbox_min": [
+    -0.3,
+    -0.575,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Pine",
+    "M_Iron",
+    "M_Clay_Wet"
+   ],
+   "height_m": 0.82,
+   "pivot": "bottom_centre (0,0,0) on floor under wheel axle; kick wheel at floor, wheel-head at 0.70 m with wet clay; seat plank on -Y (potter sits at -Y)",
+   "fbx": "fbx/prop-potter-wheel-pt1.fbx",
+   "sha256": "f0d7ba419af54d0ff494ad6e44e06b40a310b5cf07268e3991497944abfc3f0e"
+  },
+  {
+   "name": "prop-clay-lump",
+   "tris": 20,
+   "dims_xyz_m": [
+    0.268,
+    0.203,
+    0.18
+   ],
+   "bbox_min": [
+    -0.135,
+    -0.106,
+    0.0
+   ],
+   "materials": [
+    "M_Clay_Wet"
+   ],
+   "height_m": 0.18,
+   "pivot": "bottom_centre (0,0,0) flat base on surface; wedged raw-clay lump ~0.3x0.24 m, sits on table/bench or floor",
+   "fbx": "fbx/prop-clay-lump.fbx",
+   "sha256": "6086e787c4f648937d221cc53b5a8d4387189f532de026285855dcbd4e401236"
+  },
+  {
+   "name": "prop-kiln-small-pt1",
+   "tris": 168,
+   "dims_xyz_m": [
+    0.8,
+    1.025,
+    1.15
+   ],
+   "bbox_min": [
+    -0.4,
+    -0.645,
+    0.0
+   ],
+   "materials": [
+    "M_Brick",
+    "M_Ember",
+    "M_Iron",
+    "M_Wood_Pine"
+   ],
+   "height_m": 1.15,
+   "pivot": "bottom_centre (0,0,0) on floor at kiln centre; 0.8 m dia beehive kiln with chimney; firebox mouth faces -Y with iron frame; two split logs in front",
+   "fbx": "fbx/prop-kiln-small-pt1.fbx",
+   "sha256": "1e6f59fcd55d861cadd70cafed975fe73ca3771f274c1fc14e92fb288db3cece"
+  },
+  {
+   "name": "prop-pot-unfired",
+   "tris": 160,
+   "dims_xyz_m": [
+    0.28,
+    0.266,
+    0.36
+   ],
+   "bbox_min": [
+    -0.14,
+    -0.133,
+    0.0
+   ],
+   "materials": [
+    "M_Clay_Dry"
+   ],
+   "height_m": 0.36,
+   "pivot": "bottom_centre (0,0,0) on surface; greenware (unfired, pale matte) round-bellied pot, open rolled rim, no glaze/handle; distinct from kitchen prop-jar-crock and prop-jug-clay",
+   "fbx": "fbx/prop-pot-unfired.fbx",
+   "sha256": "ff1bea0e5c19661f58478c92c2ba282a7e21143f45b038ae3be29bd3dd2b53dc"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-clay-lump.fbx",
+  "fbx/prop-kiln-small-pt1.fbx",
+  "fbx/prop-pot-unfired.fbx",
+  "fbx/prop-potter-wheel-pt1.fbx",
+  "tex/T_Brick_BaseColor.png",
+  "tex/T_Clay_Dry_BaseColor.png",
+  "tex/T_Clay_Wet_BaseColor.png",
+  "tex/T_Ember_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Wood_Pine_BaseColor.png"
+ ]
+}

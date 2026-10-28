@@ -1,0 +1,251 @@
+{
+ "pack": "openkit-well-water-b1",
+ "license": "CC0-1.0",
+ "unit": "1 unit = 1 m",
+ "export": "slots-only FBX (no image/video nodes); textures in tex/",
+ "renamed": {
+  "prop-well-stone": "prop-well-stone-wb1",
+  "prop-bucket-wood": "prop-bucket-wood-wb1"
+ },
+ "rename_reason": "name exists in okm4",
+ "not_reauthored": [
+  "prop-barrel-wood",
+  "prop-barrel-open",
+  "WPN_*",
+  "candle/plaque/sconce",
+  "tile-dojo-*"
+ ],
+ "assets": [
+  {
+   "name": "prop-well-stone-wb1",
+   "files": [
+    "fbx/prop-well-stone-wb1.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_rope_albedo.png",
+    "tex/mat_rope_normal.png",
+    "tex/mat_rope_ao.png",
+    "tex/mat_stone_albedo.png",
+    "tex/mat_stone_normal.png",
+    "tex/mat_stone_ao.png",
+    "tex/mat_water_albedo.png",
+    "tex/mat_water_normal.png",
+    "tex/mat_water_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-well-stone-wb1.png"
+   ],
+   "tris": 796,
+   "size_m": [
+    1.77,
+    2.219,
+    1.52
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Axle",
+    "Metal",
+    "Rope",
+    "Water"
+   ],
+   "slot_textures": {
+    "Primary": "mat_stone",
+    "Secondary": "mat_wood_oak",
+    "Axle": "mat_wood_dark",
+    "Metal": "mat_iron",
+    "Rope": "mat_rope",
+    "Water": "mat_water"
+   },
+   "pivot": "bottom_centre: floor y=0, centred on shaft axis; crank on +X",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_well_water_b1.py)"
+  },
+  {
+   "name": "prop-bucket-wood-wb1",
+   "files": [
+    "fbx/prop-bucket-wood-wb1.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_water_albedo.png",
+    "tex/mat_water_normal.png",
+    "tex/mat_water_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-bucket-wood-wb1.png"
+   ],
+   "tris": 308,
+   "size_m": [
+    0.365,
+    0.468,
+    0.34
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Metal",
+    "Water"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Metal": "mat_iron",
+    "Water": "mat_water"
+   },
+   "pivot": "bottom_centre: floor y=0, centred on bucket axis",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_well_water_b1.py)"
+  },
+  {
+   "name": "prop-trough-wood",
+   "files": [
+    "fbx/prop-trough-wood.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_water_albedo.png",
+    "tex/mat_water_normal.png",
+    "tex/mat_water_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "renders/prop-trough-wood.png"
+   ],
+   "tris": 168,
+   "size_m": [
+    1.6,
+    0.51,
+    0.61
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Metal",
+    "Water"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_dark",
+    "Metal": "mat_iron",
+    "Water": "mat_water"
+   },
+   "pivot": "bottom_centre: floor y=0, centred; long axis X",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_well_water_b1.py)"
+  },
+  {
+   "name": "prop-water-barrel",
+   "files": [
+    "fbx/prop-water-barrel.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_water_albedo.png",
+    "tex/mat_water_normal.png",
+    "tex/mat_water_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-water-barrel.png"
+   ],
+   "tris": 832,
+   "size_m": [
+    0.594,
+    1.27,
+    0.693
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Metal",
+    "Water"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Secondary": "mat_wood_dark",
+    "Metal": "mat_iron",
+    "Water": "mat_water"
+   },
+   "pivot": "bottom_centre: floor y=0 (stand feet), centred; spigot faces +Z (front)",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_well_water_b1.py)"
+  }
+ ],
+ "sha256": {
+  "CONTACT_SHEET.png": "de7d1d3d80150c58cdc13af7a3e633b2c944d742200205f984fcad88dc33c89c",
+  "fbx/prop-bucket-wood-wb1.fbx": "7fcdbe75a2328dc460e75139c1b49272d795e8c2859ce08a6c06fcd107f23b03",
+  "fbx/prop-trough-wood.fbx": "d081f07bd174e9996eeac45c34b244e40ef0bc13c5572e6636afdc059e85def5",
+  "fbx/prop-water-barrel.fbx": "ebf78263635b4545837337ae75cb5628d0d8ba7926ceae583b8724e5b006ce01",
+  "fbx/prop-well-stone-wb1.fbx": "1719f997aeb87de902957b74fa39e300931a99a6cc92c224f080d8ed0815aeb1",
+  "renders/prop-bucket-wood-wb1.png": "c7b41a41bd321a23d44d7915a096a2c97d22d1cd21fd2051f7bf5accc361df37",
+  "renders/prop-trough-wood.png": "fe0041bff1a66e77b089b089b82961ccd8ce7e52878fdc83f87781afa74c7023",
+  "renders/prop-water-barrel.png": "da1f282af1c561b8e942306f6e3a2d2b728cc049dc544affb1cba05dd5f17bf7",
+  "renders/prop-well-stone-wb1.png": "20f14b85cf30b62aa6a55e580cbb8e05b81c84b24f51313b47e2ef3dd1c596c4",
+  "tex/mat_iron_albedo.png": "8b1d301f9b4c71bb9c5ffd51877f3b406eaa22b221e72ecf6025370ef93ecc86",
+  "tex/mat_iron_ao.png": "8c08ba00d46b06963cfd0e4c3129d29ca050ee35141f9c240a81f2adff187b56",
+  "tex/mat_iron_normal.png": "2c144341d4ff6832413ee64ea28a10451642c335a247d5047203f321ed6d5634",
+  "tex/mat_rope_albedo.png": "d914cd504e5bd58ba957da6e398659de065aab0346ecae41fc4d0ae0deeb11d7",
+  "tex/mat_rope_ao.png": "0ec79c3417ce9c4b5c2468549428b85ee02d053bc6d664735042dfd2067582f2",
+  "tex/mat_rope_normal.png": "c6b613e543086d1888f2d61db5b0b6a657e4bda7b466efc97cafd046bb4cac72",
+  "tex/mat_stone_albedo.png": "1fc9563934b58d8f48059333f55f42356463ecc126c712f05eddd8afd614b69d",
+  "tex/mat_stone_ao.png": "2a1570f7ffdb8ab7e5e42772238356d614d91aeceed0c0fb91ab5ddc25b322cd",
+  "tex/mat_stone_normal.png": "a0fe1ef5938311ac8055a5a456f0aca12b386eaf7814104afec5a2babcd2c13b",
+  "tex/mat_water_albedo.png": "047968afd91a69be4626aed4ebe1c707973706aacaecd26f1ba181b576adc291",
+  "tex/mat_water_ao.png": "8c45c90ca4f81998d43026a0e0102eeeca067a16fe8f2adac654cbe3b826ceab",
+  "tex/mat_water_normal.png": "6095b124aa9806f5596c8b5af655ba1770606313b192e0997b5bc5c4ed78401a",
+  "tex/mat_wood_dark_albedo.png": "4e2b4fb8dc017233704bc9e89b9cee7179e331a84aee7852dbd8f3d9d55bb952",
+  "tex/mat_wood_dark_ao.png": "2f7c0c87cb8cf302fc68ab5dd445d13375dc6b67348466bfcdbb338d1f50164e",
+  "tex/mat_wood_dark_normal.png": "bb8cca6a663c54d6f594a64dd94735aa5d36e02f57e5caff64335679057c49c2",
+  "tex/mat_wood_oak_albedo.png": "616c7dc93ec0232204e1c0f21444e6eddd87e8a184e26ba42b2a70cd5391344a",
+  "tex/mat_wood_oak_ao.png": "448843eb420144162e5ff0646e202a687ba92a61ee74e3108eb4a3dac90b9604",
+  "tex/mat_wood_oak_normal.png": "57a8bb5784df3ded9bcab27bce462d86f1d4b5341a75306393bb6dad9219d5df"
+ },
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSES.md",
+  "MANIFEST.json",
+  "README.md",
+  "SHA256SUMS.txt",
+  "fbx/prop-bucket-wood-wb1.fbx",
+  "fbx/prop-trough-wood.fbx",
+  "fbx/prop-water-barrel.fbx",
+  "fbx/prop-well-stone-wb1.fbx",
+  "renders/prop-bucket-wood-wb1.png",
+  "renders/prop-trough-wood.png",
+  "renders/prop-water-barrel.png",
+  "renders/prop-well-stone-wb1.png",
+  "src/build_well_water_b1.py",
+  "src/make_outdoor_tex.py",
+  "src/make_textures.py",
+  "src/make_water_tex.py",
+  "tex/mat_iron_albedo.png",
+  "tex/mat_iron_ao.png",
+  "tex/mat_iron_normal.png",
+  "tex/mat_rope_albedo.png",
+  "tex/mat_rope_ao.png",
+  "tex/mat_rope_normal.png",
+  "tex/mat_stone_albedo.png",
+  "tex/mat_stone_ao.png",
+  "tex/mat_stone_normal.png",
+  "tex/mat_water_albedo.png",
+  "tex/mat_water_ao.png",
+  "tex/mat_water_normal.png",
+  "tex/mat_wood_dark_albedo.png",
+  "tex/mat_wood_dark_ao.png",
+  "tex/mat_wood_dark_normal.png",
+  "tex/mat_wood_oak_albedo.png",
+  "tex/mat_wood_oak_ao.png",
+  "tex/mat_wood_oak_normal.png"
+ ]
+}

@@ -1,0 +1,106 @@
+{
+  "pack": "icons-inventory-b1",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "852c101564a159acff6e4ac1bbc87252d48a88dc58f5eb6d0eaee1bfdefd6eee",
+      "bytes": 205
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "50d5e4ddc144b0d5d84629ad5256b1042b6a0bd0e66e47a3a6ec9b2c18f7fda5",
+      "bytes": 170
+    },
+    {
+      "path": "README.md",
+      "sha256": "f95bd38494d21fdd1a896e275fec5c56a22e3ca854f24728a89762e23b9318d7",
+      "bytes": 436
+    },
+    {
+      "path": "icons/icon-axe.png",
+      "sha256": "a5f8d0c2e2f420e016d960c656d13daabbeb87684ea90fb684cd7e62cca721e6",
+      "bytes": 6427
+    },
+    {
+      "path": "icons/icon-bag.png",
+      "sha256": "1b62d28a193cdd8eb3ced0148c36fb36b0b1c52bfdca2672c58d20f4ee1a1fe3",
+      "bytes": 13891
+    },
+    {
+      "path": "icons/icon-bow.png",
+      "sha256": "ddd6c7bd1fb5be2140c955d70c2b4eb997ea0ee5c75ea537d04d6b9bc1c39880",
+      "bytes": 11208
+    },
+    {
+      "path": "icons/icon-coin-stack.png",
+      "sha256": "bd93aa608466078256a2a48165c10adc48a7a11f6f1456c01ae0fafe7fc893bb",
+      "bytes": 17451
+    },
+    {
+      "path": "icons/icon-dagger.png",
+      "sha256": "b2ef844c912b2b0cf9f2c399559058028468bf1c3989fd3416e4382d4ff0a524",
+      "bytes": 6540
+    },
+    {
+      "path": "icons/icon-food-bread.png",
+      "sha256": "017feee05fe2441f85dbb797c7a003b913bbaeb33fbdbc6e234290d1b09cd748",
+      "bytes": 17119
+    },
+    {
+      "path": "icons/icon-gem.png",
+      "sha256": "cf4ebf5cc9f241d81a3536233df0c1cb5201ec672afaac5b0af85e7b4fbba2c0",
+      "bytes": 10170
+    },
+    {
+      "path": "icons/icon-key.png",
+      "sha256": "10fadd2bac047a877cbe8a7250021fdf294e2f27c7b0334da7b7a088e43e883a",
+      "bytes": 9978
+    },
+    {
+      "path": "icons/icon-mace.png",
+      "sha256": "aa0899880cea207fa39516f5d1bd50eb411418a3287abd1e0d7ff4cfec73c72c",
+      "bytes": 13924
+    },
+    {
+      "path": "icons/icon-potion-blue.png",
+      "sha256": "95a2b3d330f5a1292bccfa104a688e8d96a644d73ec4b66874761cc2317f7bd2",
+      "bytes": 11376
+    },
+    {
+      "path": "icons/icon-potion-red.png",
+      "sha256": "86fed5812c62b6dab5985917309cdc4a1ba93b8abf84e8bfb2abce9112d8aecb",
+      "bytes": 10987
+    },
+    {
+      "path": "icons/icon-ring.png",
+      "sha256": "504d946b251e14d89dc2ef9f8070c4eab5adf0277b26080b0d8e818fcf229191",
+      "bytes": 18476
+    },
+    {
+      "path": "icons/icon-scroll.png",
+      "sha256": "ab42291357abcb0dc0a1ffd71d7c0032cfd25e89dd3b2cc54ddd724737515442",
+      "bytes": 13772
+    },
+    {
+      "path": "icons/icon-shield.png",
+      "sha256": "a26a849faf6e88b0620298f4e0c4b66347fd4cc5c84987d5ca13e35ccb29a71c",
+      "bytes": 7173
+    },
+    {
+      "path": "icons/icon-sword.png",
+      "sha256": "956460bd49df3364427a0422c06896aa4490c96a3d756d4e98bda92fe60c58f1",
+      "bytes": 5958
+    },
+    {
+      "path": "icons/icon-torch.png",
+      "sha256": "12e7606a21be81278842c4c2729cb5b7a8e074e97e2411458621a1d85157380f",
+      "bytes": 8432
+    },
+    {
+      "path": "sheet/CONTACT_SHEET.png",
+      "sha256": "045eb70c6db08b044e62a816b55d3bb8c3c99b990ebcb19bf4efa3a5183bfab7",
+      "bytes": 192399
+    }
+  ]
+}\n

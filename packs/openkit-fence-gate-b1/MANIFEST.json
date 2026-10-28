@@ -1,0 +1,184 @@
+{
+ "pack": "openkit-fence-gate-b1",
+ "tex_shared_with": "openkit-outdoor-props-b1 (identical wood_oak/wood_dark/iron PNGs)",
+ "span_m": 1.8,
+ "license": "CC0-1.0",
+ "unit": "1 unit = 1 m",
+ "not_reauthored": [
+  "OpenKit3D okm prop-fence-wood (picket+integrated posts): new silhouette is 3-board panel w/ separate posts",
+  "outdoor-props",
+  "market-stall",
+  "barrel-chest",
+  "doors-windows",
+  "WPN_*",
+  "wall-dress",
+  "tile-dojo-*"
+ ],
+ "assets": [
+  {
+   "name": "prop-fence-rail",
+   "files": [
+    "fbx/prop-fence-rail.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-fence-rail.png"
+   ],
+   "tris": 144,
+   "size_m": [
+    1.682,
+    0.89,
+    0.076
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Metal"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Secondary": "mat_wood_dark",
+    "Metal": "mat_iron"
+   },
+   "pivot": "bottom_centre; panel length 1.68 m along X fits between two prop-fence-post at 1.8 m centre-to-centre; place pivot at the midpoint between posts",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_fence_gate_b1.py + src/make_textures.py)"
+  },
+  {
+   "name": "prop-fence-post",
+   "files": [
+    "fbx/prop-fence-post.fbx",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-fence-post.png"
+   ],
+   "tris": 24,
+   "size_m": [
+    0.127,
+    1.25,
+    0.127
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Secondary",
+    "Primary"
+   ],
+   "slot_textures": {
+    "Secondary": "mat_wood_dark",
+    "Primary": "mat_wood_oak"
+   },
+   "pivot": "bottom_centre; 0.12 m square, 1.25 m tall; snap every 1.8 m along X",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_fence_gate_b1.py + src/make_textures.py)"
+  },
+  {
+   "name": "prop-gate-wood",
+   "files": [
+    "fbx/prop-gate-wood.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-gate-wood.png"
+   ],
+   "tris": 220,
+   "size_m": [
+    1.012,
+    1.225,
+    0.087
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Metal"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Secondary": "mat_wood_dark",
+    "Metal": "mat_iron"
+   },
+   "pivot": "hinge: bottom of -X edge (x=0); leaf extends +X 1.0 m; rotate about Z to swing; face -Y = strap side",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_fence_gate_b1.py + src/make_textures.py)"
+  },
+  {
+   "name": "prop-gate-post",
+   "files": [
+    "fbx/prop-gate-post.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-gate-post.png"
+   ],
+   "tris": 146,
+   "size_m": [
+    0.234,
+    1.52,
+    0.223
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Secondary",
+    "Primary",
+    "Metal"
+   ],
+   "slot_textures": {
+    "Secondary": "mat_wood_dark",
+    "Primary": "mat_wood_oak",
+    "Metal": "mat_iron"
+   },
+   "pivot": "bottom_centre; 0.18 m square, 1.52 m tall; pintles on +X face, hinge line at x=+0.10 m from centre",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_fence_gate_b1.py + src/make_textures.py)"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSES.md",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-fence-post.fbx",
+  "fbx/prop-fence-rail.fbx",
+  "fbx/prop-gate-post.fbx",
+  "fbx/prop-gate-wood.fbx",
+  "renders/prop-fence-post.png",
+  "renders/prop-fence-rail.png",
+  "renders/prop-gate-post.png",
+  "renders/prop-gate-wood.png",
+  "src/build_fence_gate_b1.py",
+  "src/make_textures.py",
+  "tex/mat_iron_albedo.png",
+  "tex/mat_iron_ao.png",
+  "tex/mat_iron_normal.png",
+  "tex/mat_wood_dark_albedo.png",
+  "tex/mat_wood_dark_ao.png",
+  "tex/mat_wood_dark_normal.png",
+  "tex/mat_wood_oak_albedo.png",
+  "tex/mat_wood_oak_ao.png",
+  "tex/mat_wood_oak_normal.png"
+ ]
+}

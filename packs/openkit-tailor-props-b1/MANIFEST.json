@@ -1,0 +1,127 @@
+{
+ "pack": "openkit-tailor-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-spinning-wheel": "prop-spinning-wheel-tl1"
+ },
+ "collision_check": "prop-spinning-wheel exists in other Open Kit packs (2D image) -> -tl1. No hits for yarn-basket / scissors-shears / dress-form in other Open Kit packs.",
+ "judgment_calls": [
+  "prop-spinning-wheel-tl1: wheel is a solid 12-seg disk, no spokes (tri budget)",
+  "prop-scissors-shears: ordinary tailor shears (household tool, not a weapon); handle loops are solid discs",
+  "prop-dress-form-simple: headless abstract torso on tripod, no anatomy detail; 200 tris after reducing to 10-seg lathe",
+  "prop-yarn-basket: skeins are plain cylinders; M_Wicker is a flat slot (no weave)"
+ ],
+ "assets": [
+  {
+   "name": "prop-spinning-wheel-tl1",
+   "tris": 180,
+   "dims_xyz_m": [
+    0.64,
+    0.165,
+    0.56
+   ],
+   "bbox_min": [
+    -0.34,
+    -0.065,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Pine",
+    "M_Wood_Dark",
+    "M_Yarn_Wool"
+   ],
+   "height_m": 0.56,
+   "pivot": "bottom_centre (0,0,0) under bench; simplified Saxon wheel as solid 12-seg disk (no spokes), wheel plane XZ offset +Y, bobbin on +X",
+   "fbx": "fbx/prop-spinning-wheel-tl1.fbx",
+   "sha256": "0e1da6004811834397a1b3f851a3506527a3bcdbd1d6d4f239c93ab22f7dc98f"
+  },
+  {
+   "name": "prop-yarn-basket",
+   "tris": 204,
+   "dims_xyz_m": [
+    0.38,
+    0.361,
+    0.225
+   ],
+   "bbox_min": [
+    -0.19,
+    -0.181,
+    0.0
+   ],
+   "materials": [
+    "M_Wicker",
+    "M_Yarn_Wool"
+   ],
+   "height_m": 0.225,
+   "pivot": "bottom_centre (0,0,0) on floor; open wicker bowl 0.38 m dia with three yarn skeins (8-seg cylinders, no strands)",
+   "fbx": "fbx/prop-yarn-basket.fbx",
+   "sha256": "8556dd3b491ed3fad881546c296b52b342e6c348ef62320700f2f29aa4cb2bbd"
+  },
+  {
+   "name": "prop-scissors-shears",
+   "tris": 124,
+   "dims_xyz_m": [
+    0.202,
+    0.094,
+    0.012
+   ],
+   "bbox_min": [
+    -0.062,
+    -0.047,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Shadow"
+   ],
+   "height_m": 0.012,
+   "pivot": "rivet axis (0,0,z-min) lying flat; 0.20 m tailor shears, blades +X, solid handle loops (no holes)",
+   "fbx": "fbx/prop-scissors-shears.fbx",
+   "sha256": "6a87e2878af3e6591872eb7bb701ca3d4738bc94514262f447ccf83e9bb4b9ce"
+  },
+  {
+   "name": "prop-dress-form-simple",
+   "tris": 200,
+   "dims_xyz_m": [
+    0.4,
+    0.413,
+    0.96
+   ],
+   "bbox_min": [
+    -0.17,
+    -0.207,
+    0.0
+   ],
+   "materials": [
+    "M_Cloth_Linen",
+    "M_Wood_Pine"
+   ],
+   "height_m": 0.96,
+   "pivot": "bottom_centre (0,0,0) under pole on floor; headless linen torso on wooden tripod, chest faces -Y (symmetric lathe)",
+   "fbx": "fbx/prop-dress-form-simple.fbx",
+   "sha256": "00a677b551fd2a821d62565c6a82ba61ef22f036e4c3e939a64a80186f6760fd"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-dress-form-simple.fbx",
+  "fbx/prop-scissors-shears.fbx",
+  "fbx/prop-spinning-wheel-tl1.fbx",
+  "fbx/prop-yarn-basket.fbx",
+  "tex/T_Cloth_BaseColor.png",
+  "tex/T_Dark_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Straw_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Pine_BaseColor.png",
+  "tex/T_Yarn_BaseColor.png"
+ ]
+}

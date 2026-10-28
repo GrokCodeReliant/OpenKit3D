@@ -1,0 +1,102 @@
+{
+ "pack": "openkit-stairs-ladder-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "assets": [
+  {
+   "name": "prop-stairs-wood",
+   "tris": 168,
+   "dims_xyz_m": [
+    1.0,
+    1.478,
+    1.25
+   ],
+   "materials": [
+    "M_Wood_Plank",
+    "M_Wood_Dark"
+   ],
+   "rise_m": 0.2,
+   "run_m": 0.25,
+   "steps": 5,
+   "width_m": 1.0,
+   "total_rise_m": 1.0,
+   "total_run_m": 1.25,
+   "pivot": "floor level, front edge of first tread, centred on width (0,0,0); stairs climb +Y, up +Z"
+  },
+  {
+   "name": "prop-ladder-wood-lean",
+   "tris": 108,
+   "dims_xyz_m": [
+    0.51,
+    0.04,
+    2.4
+   ],
+   "materials": [
+    "M_Wood_Plank",
+    "M_Wood_Dark"
+   ],
+   "height_m": 2.4,
+   "width_m": 0.45,
+   "rung_spacing_m": 0.3,
+   "rungs": 7,
+   "lean_suggested_deg": 15,
+   "pivot": "bottom_centre between rail feet (0,0,0); rails along +Z, modelled upright; rotate about X ~15deg to lean"
+  },
+  {
+   "name": "prop-ramp-plank",
+   "tris": 132,
+   "dims_xyz_m": [
+    0.6,
+    1.97,
+    0.474
+   ],
+   "materials": [
+    "M_Wood_Plank",
+    "M_Wood_Dark"
+   ],
+   "length_m": 2.0,
+   "width_m": 0.6,
+   "rise_m": 0.4,
+   "run_m": 1.96,
+   "slope_deg": 11.5,
+   "cleats": 6,
+   "pivot": "floor at low end, centred on width (0,0,0); rises toward +Y"
+  }
+ ],
+ "name_notes": {
+  "prop-ladder-wood": "collides with okm4 base kit (Blender/scripts/assets/prop-ladder-wood.py, Build.cs, README) -> renamed prop-ladder-wood-lean"
+ },
+ "fbx_material_mode": "slots-only (no textures embedded, path_mode STRIP)",
+ "sha256": {
+  "CONTACT_SHEET.png": "aff6bd722f94f0472fc5c01cf8aca2ca4bf5a85522b13408ea07e346b9cbfe7e",
+  "fbx/prop-ladder-wood-lean.fbx": "143a81299f552047b1dc77361ecba0697a7d7309e766b791f5da94b727c9b3e3",
+  "fbx/prop-ramp-plank.fbx": "6a3c21cfc959d7d8097f932a18fdd6ce5a44ac4c9074032596fc99cc6d08f6f1",
+  "fbx/prop-stairs-wood.fbx": "9700e2cd9f072232a89c21fdabddcdbe9f917e3bceb6eccf96a1dcc618a8415e",
+  "renders/prop-ladder-wood-lean.png": "499019f687f8a2ea2e793222a6509e0b4dbe52715b49592c6e479e9eae6fc4ec",
+  "renders/prop-ramp-plank.png": "b966c4e917663ffead2cd5311cfe9b4fb7ccfb654a78e47997bd5f4038fe07b1",
+  "renders/prop-stairs-wood.png": "4689544fc5089ff11840eb43e56fdd5b2adb683a70657cb2aff7ba187eca0051",
+  "src/build.py": "ebd58b9c6791131d8335f45c72977c2b33d2d9cef5b1e588c8adc64448848a83",
+  "src/openkit-stairs-ladder-b1.blend": "c10f11c133fbdd91b8504851f491dbff63307ca771c5b018f27cc5511895ace6",
+  "tex/T_Wood_Dark_BaseColor.png": "474d3ac8f6515cf2fca208a956fdb2f2458cf491145beaa696e5c55d66631440",
+  "tex/T_Wood_Plank_BaseColor.png": "29e5f200c1f7ede15d446333e60abd47cc141cc903f607e726e6d39e61d52973"
+ },
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSES.md",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-ladder-wood-lean.fbx",
+  "fbx/prop-ramp-plank.fbx",
+  "fbx/prop-stairs-wood.fbx",
+  "renders/prop-ladder-wood-lean.png",
+  "renders/prop-ramp-plank.png",
+  "renders/prop-stairs-wood.png",
+  "src/_meta.json",
+  "src/build.py",
+  "src/openkit-stairs-ladder-b1.blend",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Plank_BaseColor.png"
+ ]
+}

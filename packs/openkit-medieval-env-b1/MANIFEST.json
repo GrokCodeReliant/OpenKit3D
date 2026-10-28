@@ -1,0 +1,101 @@
+{
+  "pack": "medieval-env-b1",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "CONTACT_SHEET.png",
+      "sha256": "b21bf8fe8ac619fe3e39982412cfb86e231f5d2d17a5a3df2c7401b42c891af1",
+      "bytes": 986498
+    },
+    {
+      "path": "CREDITS.md",
+      "sha256": "3b46ac4bb9466e78612335fb5715409f73c585d0e4fcce055cc9b7698e3f33e1",
+      "bytes": 325
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    {
+      "path": "README.md",
+      "sha256": "f1e3ca52f312aeb90b4efe17f37b1bf739006f26eadf1c7a93dc1f7f2187e113",
+      "bytes": 2512
+    },
+    {
+      "path": "fbx/prop-banner-hanging.fbx",
+      "sha256": "baf9d534a0681b667b5cec27c04dd45ed7d947d9d70e21aba4e1f7299dbf1883",
+      "bytes": 34668
+    },
+    {
+      "path": "fbx/tile-dungeon-wood-floor-worn.fbx",
+      "sha256": "0d1b2f543fcd61edd02011908fe3293280b4e9aff9017c8b5cfc86313fed57c9",
+      "bytes": 21404
+    },
+    {
+      "path": "fbx/tile-dungeon-wood-floor.fbx",
+      "sha256": "150eda170974918fc605c646f51820379a2d296910143efb96d450b488df22f9",
+      "bytes": 21148
+    },
+    {
+      "path": "tex/mat_cloth_banner_albedo.png",
+      "sha256": "c80ff384b011142446b0a55e48b95a760ac64546cb1ce55f58589451a0f4f911",
+      "bytes": 190325
+    },
+    {
+      "path": "tex/mat_cloth_banner_ao.png",
+      "sha256": "999a1453eefa3d0fa0e94e55d0ff0e25e32a04f5222c8bf61047416aebaed598",
+      "bytes": 178522
+    },
+    {
+      "path": "tex/mat_cloth_banner_normal.png",
+      "sha256": "10f495e2779f049d4888bc7f5b76b69b9fc32229f62b48d10254eceada09a439",
+      "bytes": 260004
+    },
+    {
+      "path": "tex/mat_iron_albedo.png",
+      "sha256": "30d120eaf0d04baea4dbd395b30adeaf362a129e4d239e3065d7138e2f42517f",
+      "bytes": 112868
+    },
+    {
+      "path": "tex/mat_iron_ao.png",
+      "sha256": "e05ebe6ab1b4d8ffc0ab301a0e159e9a225a255a88979767ad6ca5c7166a92a7",
+      "bytes": 74706
+    },
+    {
+      "path": "tex/mat_iron_normal.png",
+      "sha256": "7ffcb476491666254508294d14b51728c57c26e5f21ad0cf53f56ff865f21221",
+      "bytes": 115156
+    },
+    {
+      "path": "tex/mat_wood_dark_albedo.png",
+      "sha256": "c52e0652132f222464d179dff92ba3ff5d7ceaf61a225f80f6ed201f5baec9e7",
+      "bytes": 86660
+    },
+    {
+      "path": "tex/mat_wood_dark_ao.png",
+      "sha256": "8b8035175ac827ee671575a120957b67b0c70119ee7daae88b5e63fcbb358c1f",
+      "bytes": 82442
+    },
+    {
+      "path": "tex/mat_wood_dark_normal.png",
+      "sha256": "a5f87f156aa59e03a3297281a583923bf230da888bcd9ead70485c5570e84733",
+      "bytes": 156421
+    },
+    {
+      "path": "tex/mat_wood_oak_albedo.png",
+      "sha256": "543542c892c073539ba760b48231e3627342c544dbd4772ce2d310967bd1f8b9",
+      "bytes": 99327
+    },
+    {
+      "path": "tex/mat_wood_oak_ao.png",
+      "sha256": "02446e4f52cbbb3b4f956ade54f84652fbf1cb9ede4323850d0cd0577d559625",
+      "bytes": 71519
+    },
+    {
+      "path": "tex/mat_wood_oak_normal.png",
+      "sha256": "0e009f0d0a2669f4a2d2f98200962f6adeea9f2385ad53ff9943461f3fff50ba",
+      "bytes": 146016
+    }
+  ]
+}

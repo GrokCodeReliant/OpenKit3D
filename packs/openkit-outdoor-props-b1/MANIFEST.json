@@ -1,0 +1,151 @@
+{
+  "pack": "outdoor-props-b1",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "CONTACT_SHEET.png",
+      "sha256": "bc671ea109901865994c73b3d68d814e4658c18cf8c4d8891c35ab2e43b1d8f8",
+      "bytes": 264122
+    },
+    {
+      "path": "CREDITS.md",
+      "sha256": "be27d6108c214d1b333c315ff69920cc9f36890c628eb52c2fa2ed853e41677b",
+      "bytes": 243
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "ecf7a3e1dec4ac55a817bee9bb2f02eddf697f3849246011620ffa5ab38eb0e9",
+      "bytes": 207
+    },
+    {
+      "path": "README.md",
+      "sha256": "d092129549bdef217b56c77f4d6a115680d6fed60efd129b39db44c6e9acc493",
+      "bytes": 2422
+    },
+    {
+      "path": "fbx/prop-campfire-ring.fbx",
+      "sha256": "c8a54612943a31dfc405ae59e4daed942cbc4a33911ef9378977f18692bccf20",
+      "bytes": 33084
+    },
+    {
+      "path": "fbx/prop-hay-bale.fbx",
+      "sha256": "63746d64a687bfe7ed905a5eaa3e2ede6fc56a582b53878de45cc2f621f898c8",
+      "bytes": 18364
+    },
+    {
+      "path": "fbx/prop-tent-lean-to.fbx",
+      "sha256": "2b2eb7aeb54d81fe80f3054ddac24caa0a8283dbd9f9fdc51c0914a3a2a592ce",
+      "bytes": 21804
+    },
+    {
+      "path": "fbx/prop-wheelbarrow.fbx",
+      "sha256": "2b69936201d887a0f24fe531a50e7694dfd165aa28ac3480531c9a9f8c893394",
+      "bytes": 23100
+    },
+    {
+      "path": "tex/mat_canvas_albedo.png",
+      "sha256": "b0b70bebce84e3b29b75c2b5b84cf7ad6ee56002d43bca9ed6fb907105ded7a6",
+      "bytes": 126693
+    },
+    {
+      "path": "tex/mat_canvas_ao.png",
+      "sha256": "b103f1b9bd1a7e304dbf9b459317a4217d5e0332851bcec1d5463e22679cf161",
+      "bytes": 76209
+    },
+    {
+      "path": "tex/mat_canvas_normal.png",
+      "sha256": "3ec98a8c3242efac9300f0d9abe8a6eee630ad4e767d86c7bbaef76b33f85edf",
+      "bytes": 65822
+    },
+    {
+      "path": "tex/mat_ember_albedo.png",
+      "sha256": "4b369acd66b668a1227fb8a2c4e4216a006fd5eabd64deb3ecd7b50af85b2c87",
+      "bytes": 165294
+    },
+    {
+      "path": "tex/mat_ember_ao.png",
+      "sha256": "fb05bc7188c4d2d53d57f52ee1c95e1ed7efdbddfa8a911b42e31ad0eb268c86",
+      "bytes": 87384
+    },
+    {
+      "path": "tex/mat_ember_normal.png",
+      "sha256": "c99e532f8b1890cadca4755a3f9b22a0ad348040db7edb5625d2dfaff7bc8b01",
+      "bytes": 213667
+    },
+    {
+      "path": "tex/mat_iron_albedo.png",
+      "sha256": "8b1d301f9b4c71bb9c5ffd51877f3b406eaa22b221e72ecf6025370ef93ecc86",
+      "bytes": 114286
+    },
+    {
+      "path": "tex/mat_iron_ao.png",
+      "sha256": "8c08ba00d46b06963cfd0e4c3129d29ca050ee35141f9c240a81f2adff187b56",
+      "bytes": 75121
+    },
+    {
+      "path": "tex/mat_iron_normal.png",
+      "sha256": "2c144341d4ff6832413ee64ea28a10451642c335a247d5047203f321ed6d5634",
+      "bytes": 115686
+    },
+    {
+      "path": "tex/mat_stone_albedo.png",
+      "sha256": "1fc9563934b58d8f48059333f55f42356463ecc126c712f05eddd8afd614b69d",
+      "bytes": 150780
+    },
+    {
+      "path": "tex/mat_stone_ao.png",
+      "sha256": "2a1570f7ffdb8ab7e5e42772238356d614d91aeceed0c0fb91ab5ddc25b322cd",
+      "bytes": 99202
+    },
+    {
+      "path": "tex/mat_stone_normal.png",
+      "sha256": "a0fe1ef5938311ac8055a5a456f0aca12b386eaf7814104afec5a2babcd2c13b",
+      "bytes": 264500
+    },
+    {
+      "path": "tex/mat_straw_albedo.png",
+      "sha256": "c30cd8cac8c53e7612750ffbe129a47241f5a7b772be560d4d24855ced76ba7c",
+      "bytes": 136397
+    },
+    {
+      "path": "tex/mat_straw_ao.png",
+      "sha256": "cce451e778b4c4630e28afd6f421c2175c22dd565d6d1721430f14827f84d101",
+      "bytes": 103154
+    },
+    {
+      "path": "tex/mat_straw_normal.png",
+      "sha256": "b5c30e7c1148a36d4fae2ee2c36125b8278116690b59f8ff861e631ae2185973",
+      "bytes": 258241
+    },
+    {
+      "path": "tex/mat_wood_dark_albedo.png",
+      "sha256": "4e2b4fb8dc017233704bc9e89b9cee7179e331a84aee7852dbd8f3d9d55bb952",
+      "bytes": 88918
+    },
+    {
+      "path": "tex/mat_wood_dark_ao.png",
+      "sha256": "2f7c0c87cb8cf302fc68ab5dd445d13375dc6b67348466bfcdbb338d1f50164e",
+      "bytes": 82153
+    },
+    {
+      "path": "tex/mat_wood_dark_normal.png",
+      "sha256": "bb8cca6a663c54d6f594a64dd94735aa5d36e02f57e5caff64335679057c49c2",
+      "bytes": 153983
+    },
+    {
+      "path": "tex/mat_wood_oak_albedo.png",
+      "sha256": "616c7dc93ec0232204e1c0f21444e6eddd87e8a184e26ba42b2a70cd5391344a",
+      "bytes": 105284
+    },
+    {
+      "path": "tex/mat_wood_oak_ao.png",
+      "sha256": "448843eb420144162e5ff0646e202a687ba92a61ee74e3108eb4a3dac90b9604",
+      "bytes": 74437
+    },
+    {
+      "path": "tex/mat_wood_oak_normal.png",
+      "sha256": "57a8bb5784df3ded9bcab27bce462d86f1d4b5341a75306393bb6dad9219d5df",
+      "bytes": 145792
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+ "pack": "openkit-beekeeper-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "no exact ids in other Open Kit packs; neighbours: prop-bellows / prop-forge-bellows / prop-bellows-forge / prop-bellows-stack (forge bellows), prop-jar-crock (kitchen), prop-spice-jars (other Open Kit packs), 'beehive kiln' (pottery prop-kiln-small-pt1, descriptive text only)",
+ "judgment_calls": [
+  "prop-hive-skep unsuffixed: no skep/hive id anywhere; -bk1 kept in reserve",
+  "prop-smoker-bellows contains 'bellows' \u2014 distinct id from forge prop-bellows; hand-held 0.28 m bee smoker",
+  "prop-frame-comb: comb is a flat wax slab, no hex cells modelled",
+  "prop-honey-jar: jar is lathe-open at top, hidden under cloth cap; material M_Honey_Glass is opaque amber slot (engine may set transparency)",
+  "prop-hive-skep entrance is a dark box (M_Shadow) not a real hole"
+ ],
+ "assets": [
+  {
+   "name": "prop-hive-skep",
+   "tris": 168,
+   "dims_xyz_m": [
+    0.5,
+    0.5,
+    0.4
+   ],
+   "bbox_min": [
+    -0.25,
+    -0.25,
+    0.0
+   ],
+   "materials": [
+    "M_Straw",
+    "M_Shadow",
+    "M_Wood_Pine"
+   ],
+   "height_m": 0.4,
+   "pivot": "bottom_centre (0,0,0) under 0.5x0.5 m hive board; coiled-straw dome 0.42 m dia, entrance notch facing -Y",
+   "fbx": "fbx/prop-hive-skep.fbx",
+   "sha256": "8d62de7e44416c37fc1f15f95a1cf9578059a21202bd70ab306bc47f3ef0145e"
+  },
+  {
+   "name": "prop-smoker-bellows",
+   "tris": 106,
+   "dims_xyz_m": [
+    0.201,
+    0.1,
+    0.275
+   ],
+   "bbox_min": [
+    -0.05,
+    -0.05,
+    -0.0
+   ],
+   "materials": [
+    "M_Wood_Pine",
+    "M_Iron",
+    "M_Leather"
+   ],
+   "height_m": 0.275,
+   "pivot": "bottom_centre (0,0,0) under tin canister centre; hand-held bee smoker, spout up, small hinged bellows on +X (not forge bellows)",
+   "fbx": "fbx/prop-smoker-bellows.fbx",
+   "sha256": "a0dce3c5c04d0a6c1f278851a037a354645a281904d98783957295f41ac48fb2"
+  },
+  {
+   "name": "prop-frame-comb",
+   "tris": 60,
+   "dims_xyz_m": [
+    0.48,
+    0.025,
+    0.235
+   ],
+   "bbox_min": [
+    -0.24,
+    -0.013,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Pine",
+    "M_Beeswax"
+   ],
+   "height_m": 0.235,
+   "pivot": "bottom_centre (0,0,0) under bottom bar; 0.48 m hive frame upright in XZ plane, lugs on top bar, capped comb sheet (no cells modelled)",
+   "fbx": "fbx/prop-frame-comb.fbx",
+   "sha256": "72f2679d060f843c9614b2decebc6f4e06c1021a074fa33a474f76bfa4b1a1b3"
+  },
+  {
+   "name": "prop-honey-jar",
+   "tris": 162,
+   "dims_xyz_m": [
+    0.09,
+    0.086,
+    0.12
+   ],
+   "bbox_min": [
+    -0.045,
+    -0.043,
+    0.0
+   ],
+   "materials": [
+    "M_Honey_Glass",
+    "M_Cloth_Linen",
+    "M_Straw"
+   ],
+   "height_m": 0.12,
+   "pivot": "bottom_centre (0,0,0) on surface; small amber honey jar with cloth cap tied by twine (distinct from kitchen prop-jar-crock and alchemy bottles)",
+   "fbx": "fbx/prop-honey-jar.fbx",
+   "sha256": "67c312847b2fd939d2382b6e459fe94265afc9bd378f953d8f81ba0c88eb01b6"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-frame-comb.fbx",
+  "fbx/prop-hive-skep.fbx",
+  "fbx/prop-honey-jar.fbx",
+  "fbx/prop-smoker-bellows.fbx",
+  "tex/T_Cloth_BaseColor.png",
+  "tex/T_Dark_BaseColor.png",
+  "tex/T_Honey_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Leather_BaseColor.png",
+  "tex/T_Straw_BaseColor.png",
+  "tex/T_Wax_BaseColor.png",
+  "tex/T_Wood_Pine_BaseColor.png"
+ ]
+}

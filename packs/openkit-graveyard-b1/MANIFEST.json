@@ -1,0 +1,102 @@
+{
+ "pack": "openkit-graveyard-b1",
+ "license": "CC0-1.0",
+ "unit": "1 unit = 1 m",
+ "contact_sheet": "CONTACT_SHEET.png",
+ "contact_sheet_sha256": "40387781f6a6f7d38ae736003eda1261aa2758e5d177086ddae9ff9f75c5b081",
+ "assets": [
+  {
+   "name": "prop-headstone-simple",
+   "files": [
+    "fbx/prop-headstone-simple.fbx"
+   ],
+   "sha256": "f167d9e8fbe56d10a69f139cf5d8b0ea593b379dc49bdc673cf51e955e1e2bb6",
+   "tris": 64,
+   "size_m": [
+    0.7,
+    0.35,
+    0.97
+   ],
+   "size_axes": "x,y,z (Blender, z up; from MANIFEST.md)",
+   "materials": [
+    "M_Stone",
+    "M_StoneDark"
+   ],
+   "pivot": "bottom_centre: floor z=0, centred",
+   "license": "CC0-1.0"
+  },
+  {
+   "name": "prop-headstone-cross",
+   "files": [
+    "fbx/prop-headstone-cross.fbx"
+   ],
+   "sha256": "bd69c35080542523503e5a146f1939d9bfb50368cc276f2d83ef4c4cb3dac227",
+   "tris": 48,
+   "size_m": [
+    0.55,
+    0.4,
+    1.22
+   ],
+   "size_axes": "x,y,z (Blender, z up; from MANIFEST.md)",
+   "materials": [
+    "M_Stone",
+    "M_StoneDark"
+   ],
+   "pivot": "bottom_centre: floor z=0, centred",
+   "license": "CC0-1.0"
+  },
+  {
+   "name": "prop-coffin-wood",
+   "files": [
+    "fbx/prop-coffin-wood.fbx"
+   ],
+   "sha256": "a8370b31244433b68f16e5225d2c3d7d7fd9bcae5b0e331cba5e1730269ed3c1",
+   "tris": 132,
+   "size_m": [
+    0.74,
+    2.03,
+    0.54
+   ],
+   "size_axes": "x,y,z (Blender, z up; from MANIFEST.md)",
+   "materials": [
+    "M_Iron",
+    "M_Wood",
+    "M_WoodDark"
+   ],
+   "pivot": "bottom_centre: floor z=0, centred",
+   "license": "CC0-1.0"
+  },
+  {
+   "name": "prop-grave-mound",
+   "files": [
+    "fbx/prop-grave-mound.fbx"
+   ],
+   "sha256": "0be2272af925f6b25ecca74b56f62e79d07d43ebb87051dd22c0afbfeebb1c69",
+   "tris": 118,
+   "size_m": [
+    1.1,
+    2.2,
+    0.55
+   ],
+   "size_axes": "x,y,z (Blender, z up; from MANIFEST.md)",
+   "materials": [
+    "M_Earth",
+    "M_Wood"
+   ],
+   "pivot": "bottom_centre: floor z=0, centred",
+   "license": "CC0-1.0",
+   "notes": "optional marker = child object prop-grave-mound_marker"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-coffin-wood.fbx",
+  "fbx/prop-grave-mound.fbx",
+  "fbx/prop-headstone-cross.fbx",
+  "fbx/prop-headstone-simple.fbx",
+  "LICENSE"
+ ]
+}

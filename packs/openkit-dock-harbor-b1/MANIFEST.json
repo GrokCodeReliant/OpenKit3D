@@ -1,0 +1,100 @@
+{
+ "pack": "openkit-dock-harbor-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-rope-coil": "prop-rope-coil-dock (avoids prop-rope-coil-bs1 / prop-rope-coil-wall / dnd prop-rope-coil)",
+  "prop-pier-plank-stack": "prop-gangplank (avoids bridge-scaffold prop-plank-stack)"
+ },
+ "assets": [
+  {
+   "name": "prop-mooring-bollard",
+   "tris": 108,
+   "dims_xyz_m": [
+    0.418,
+    0.44,
+    0.54
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Wood_Dark"
+   ],
+   "height_m": 0.54,
+   "pivot": "bottom_centre (0,0,0) under base plate on dock deck",
+   "fbx": "fbx/prop-mooring-bollard.fbx",
+   "sha256": "f78f58404985272fcaadaee7d37d1fb9824a5a614fe535b737cfd6ccc3796d13"
+  },
+  {
+   "name": "prop-rope-coil-dock",
+   "tris": 206,
+   "dims_xyz_m": [
+    0.552,
+    0.515,
+    0.067
+   ],
+   "materials": [
+    "M_Rope"
+   ],
+   "outer_diameter_m": 0.59,
+   "turns": 1.67,
+   "layout": "flat spiral (dock-deck flake), distinct from -bs1 stacked helix and -wall hanging coil",
+   "pivot": "bottom_centre (0,0,0) on deck at coil centre",
+   "fbx": "fbx/prop-rope-coil-dock.fbx",
+   "sha256": "cc4a59d4d7b67e7ea133241660d8d2b321b822bc3a6f9a15a172bb32918d0e5a"
+  },
+  {
+   "name": "prop-gangplank",
+   "tris": 132,
+   "dims_xyz_m": [
+    0.6,
+    2.4,
+    0.08
+   ],
+   "materials": [
+    "M_Wood_Plank",
+    "M_Wood_Dark"
+   ],
+   "length_m": 2.4,
+   "width_m": 0.6,
+   "cleats": 8,
+   "pivot": "bottom_centre (0,0,0) under plank centre; length along Y, tilt about X to bridge dock-to-boat",
+   "fbx": "fbx/prop-gangplank.fbx",
+   "sha256": "d12bad21c9c5c0ff636065d23711a60d6890170ecf7186d16aec572b622b922c"
+  },
+  {
+   "name": "prop-lobster-pot",
+   "tris": 168,
+   "dims_xyz_m": [
+    0.6,
+    0.448,
+    0.258
+   ],
+   "materials": [
+    "M_Wood_Plank",
+    "M_Wood_Dark"
+   ],
+   "dims_note": "0.6 x 0.4 x 0.25 m",
+   "pivot": "bottom_centre (0,0,0) under base boards",
+   "fbx": "fbx/prop-lobster-pot.fbx",
+   "sha256": "37402e7a6fc95212b73dce462951c31397d9b25814e9f4157e080c7b0ee786b6"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-gangplank.fbx",
+  "fbx/prop-lobster-pot.fbx",
+  "fbx/prop-mooring-bollard.fbx",
+  "fbx/prop-rope-coil-dock.fbx",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Rope_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Plank_BaseColor.png"
+ ]
+}

@@ -21,6 +21,52 @@ Free low-poly 3D assets for Unity (URP): a modular dungeon kit, beach and forest
 
 A few supporting folders ship alongside these: body coverage for the hero, shared level materials, extra item icons, and the wall fade (camera component, marker and shader) with extra themes and the slash effect. The guides cover them with the family that uses them.
 
+## Prop packs (batch 1)
+
+The `packs/` folder contains 39 CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+
+| Pack | Description |
+| --- | --- |
+| `openkit-alchemy-props-b1` | Alchemy lab equipment |
+| `openkit-archery-range-b1` | Archery targets and training props |
+| `openkit-barrel-chest-b1` | Barrels, chests, and storage containers |
+| `openkit-bathhouse-props-b1` | Bathhouse furniture and accessories |
+| `openkit-beekeeper-props-b1` | Beekeeping equipment |
+| `openkit-bridge-scaffold-b1` | Bridges and scaffolding |
+| `openkit-camp-props-b1` | Campsite props |
+| `openkit-carpenter-props-b1` | Carpentry tools and workbench |
+| `openkit-cart-crate-b1` | Carts and crates |
+| `openkit-dock-harbor-b1` | Dock and harbor props |
+| `openkit-doors-windows-b1` | Doors and windows |
+| `openkit-dungeon-clutter-b1` | Dungeon debris and clutter |
+| `openkit-farm-props-b1` | Farm equipment |
+| `openkit-fence-gate-b1` | Fences and gates |
+| `openkit-fishing-props-b1` | Fishing equipment |
+| `openkit-forge-props-b1` | Forge and metalworking props |
+| `openkit-furniture-extras-b1` | Additional furniture pieces |
+| `openkit-graveyard-b1` | Graveyard props |
+| `openkit-icons-inventory-b1` | Inventory icons |
+| `openkit-kitchen-props-b1` | Kitchen furniture and utensils |
+| `openkit-library-props-b1` | Library furniture and books |
+| `openkit-light-hearth-b1` | Lighting and hearth props |
+| `openkit-market-stall-b1` | Market stalls and vendor props |
+| `openkit-medieval-env-b1` | Medieval environment pieces |
+| `openkit-mill-props-b1` | Mill and grinding equipment |
+| `openkit-mining-props-b1` | Mining tools and equipment |
+| `openkit-outdoor-props-b1` | Outdoor decorations |
+| `openkit-pottery-props-b1` | Pottery and ceramics |
+| `openkit-roof-tiles-b1` | Roof tiles and materials |
+| `openkit-shop-wall-b1` | Shop wall decorations |
+| `openkit-sign-post-b1` | Signs and posts |
+| `openkit-smithy-tools-b1` | Blacksmith tools |
+| `openkit-stable-props-b1` | Stable equipment |
+| `openkit-stairs-ladder-b1` | Stairs and ladders |
+| `openkit-tailor-props-b1` | Tailor shop props |
+| `openkit-tavern-dressing-b1` | Tavern decorations |
+| `openkit-ui-frames-b1` | UI frame elements |
+| `openkit-wall-dress-b1` | Wall decorations |
+| `openkit-well-water-b1` | Wells and water props |
+
 ## Coming in v0.3.1
 
 These pieces are planned for v0.3.1.
