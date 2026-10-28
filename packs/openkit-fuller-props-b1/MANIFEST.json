@@ -1,0 +1,120 @@
+{
+ "pack": "openkit-fuller-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures), path_mode STRIP",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "Scanned studio/art/openkit-*/fbx (149 packs) for full|fuller|scour|walk|earth|teasel|sack|mallet|board|shoe: found prop-sack-tied(-cc1), prop-charcoal-sack-open, prop-lime-lump-sack, prop-grain-sack-open-ml1, prop-bung-mallet, prop-mallet-stone, prop-press-board-pair, prop-cutting-board, prop-notice-board, prop-shoe-last. No id collisions; brief ids kept; no openkit-fuller* pack existed.",
+ "judgment_calls": [
+  "Fulling stock modeled as the water-mill stock head (iron-banded block with stepped teeth face) laid on a 1.2 m helve - reads as mill machinery, not a hand mallet like bung/stone mallets",
+  "Fuller's earth is a smooth pale grey-green powder mound (not lumps/grain) in a tan hemp sack with a low drift + wooden scoop",
+  "Scouring board is a free-standing ribbed board in a foot block with a wool fold - not a tailor press board or cutting board",
+  "Walk-mill shoe is a cleated wooden clog with leather strap; shoe-last (cobbler form) is a solid foot shape, distinct"
+ ],
+ "assets": [
+  {
+   "name": "prop-fulling-stock-mallet",
+   "height_m": 0.275,
+   "tris": 108,
+   "dims_xyz_m": [
+    1.625,
+    0.215,
+    0.275
+   ],
+   "bbox_min": [
+    -1.4,
+    -0.108,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron",
+    "M_Wood_Weathered"
+   ],
+   "pivot": "bottom_centre of stock head (0,0,0), laid flat; 0.30x0.20x0.28 m iron-banded oak stock with stepped toothed face at +X, 1.2 m helve along -X with iron tappet cap"
+  },
+  {
+   "name": "prop-fullers-earth-sack",
+   "height_m": 0.47,
+   "tris": 120,
+   "dims_xyz_m": [
+    0.568,
+    0.594,
+    0.47
+   ],
+   "bbox_min": [
+    -0.198,
+    -0.38,
+    0.0
+   ],
+   "materials": [
+    "M_Sack_Hemp",
+    "M_Fullers_Earth",
+    "M_Wood_Oak"
+   ],
+   "pivot": "bottom_centre (0,0,0); 0.44 m dia undyed hemp sack, cuff rolled, smooth pale grey-green fuller's earth mound, low powder drift at +X and wooden scoop at -Y"
+  },
+  {
+   "name": "prop-scouring-board",
+   "height_m": 0.87,
+   "tris": 144,
+   "dims_xyz_m": [
+    0.4,
+    0.3,
+    0.87
+   ],
+   "bbox_min": [
+    -0.2,
+    -0.15,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Weathered",
+    "M_Wool_Undyed"
+   ],
+   "pivot": "bottom_centre (0,0,0); 0.40 m wide, 0.87 m tall ribbed scouring board standing in a foot block, ribs on -Y face, undyed wool fold over top rail"
+  },
+  {
+   "name": "prop-walk-mill-shoe",
+   "height_m": 0.14,
+   "tris": 72,
+   "dims_xyz_m": [
+    0.135,
+    0.32,
+    0.14
+   ],
+   "bbox_min": [
+    -0.068,
+    -0.16,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Leather"
+   ],
+   "pivot": "bottom_centre (0,0,0); 0.13x0.32 m carved wooden walking-clog with two under-cleats, toe cap, heel cup and leather strap; toe toward +Y"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-fullers-earth-sack.fbx",
+  "fbx/prop-fulling-stock-mallet.fbx",
+  "fbx/prop-scouring-board.fbx",
+  "fbx/prop-walk-mill-shoe.fbx",
+  "tex/T_Fullers_Earth_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Leather_BaseColor.png",
+  "tex/T_Sack_Hemp_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png",
+  "tex/T_Wood_Weathered_BaseColor.png",
+  "tex/T_Wool_Undyed_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "All tex/ PNGs are pack-local (byte-unique to this pack); Unity maps them by material slot name."
+}
