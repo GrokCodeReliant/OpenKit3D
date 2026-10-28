@@ -1,0 +1,100 @@
+{
+ "pack": "openkit-router-plane-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres (1 BU = 1 m)",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": "find prop-*.fbx across studio/art + rg router-plane|router_plane: no prior prop-router-plane* assets; distinct from prop-plane-wood, prop-try-plane-jn1, prop-plane-*-pi1, prop-spokeshave-*-sv2, prop-cabinet-scraper",
+ "judgment_calls": [
+  "Throat modelled as a front-edge notch (U-profile) rather than enclosed hole to stay within 40 tris",
+  "Collar is a solid hex blank with no bore",
+  "Knob is an octagonal tapered frustum",
+  "Textures are flat BaseColor PNGs shipped in tex/; FBX carries material slots only"
+ ],
+ "assets": [
+  {
+   "name": "prop-router-plane-body-rp1",
+   "file": "fbx/prop-router-plane-body-rp1.fbx",
+   "tris": 28,
+   "dims_xyz_m": [
+    0.22,
+    0.08,
+    0.03
+   ],
+   "bbox_min": [
+    -0.11,
+    -0.04,
+    0.0
+   ],
+   "materials": [
+    "mat_router_body_beech"
+   ],
+   "texture": "tex/prop-router-plane-body-rp1_BaseColor.png",
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Wooden router plane body blank: flat 0.22x0.08x0.03 m sole plate with a central rectangular throat notch 0.04 m wide x 0.05 m deep cut in from the front (-Y) edge."
+  },
+  {
+   "name": "prop-router-plane-iron-rp1",
+   "file": "fbx/prop-router-plane-iron-rp1.fbx",
+   "tris": 20,
+   "dims_xyz_m": [
+    0.035,
+    0.012,
+    0.09
+   ],
+   "bbox_min": [
+    -0.0175,
+    -0.006,
+    0.0
+   ],
+   "materials": [
+    "mat_router_iron_steel"
+   ],
+   "texture": "tex/prop-router-plane-iron-rp1_BaseColor.png",
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "L-shaped steel router plane iron blank: vertical shank 0.09 m tall x 0.008 m thick with a 0.035 m horizontal cutting foot 0.006 m thick, 0.012 m wide, square section."
+  },
+  {
+   "name": "prop-router-plane-collar-rp1",
+   "file": "fbx/prop-router-plane-collar-rp1.fbx",
+   "tris": 20,
+   "dims_xyz_m": [
+    0.024,
+    0.0208,
+    0.01
+   ],
+   "bbox_min": [
+    -0.012,
+    -0.0104,
+    0.0
+   ],
+   "materials": [
+    "mat_router_collar_iron"
+   ],
+   "texture": "tex/prop-router-plane-collar-rp1_BaseColor.png",
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Iron depth-stop collar blank: solid hexagonal prism, 0.012 m circumradius, 0.01 m tall (no bore, blank)."
+  },
+  {
+   "name": "prop-router-plane-knob-rp1",
+   "file": "fbx/prop-router-plane-knob-rp1.fbx",
+   "tris": 28,
+   "dims_xyz_m": [
+    0.032,
+    0.032,
+    0.045
+   ],
+   "bbox_min": [
+    -0.016,
+    -0.016,
+    0.0
+   ],
+   "materials": [
+    "mat_router_knob_beech"
+   ],
+   "texture": "tex/prop-router-plane-knob-rp1_BaseColor.png",
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Wooden router plane knob blank: tapered octagonal frustum, 0.016 m base circumradius to 0.011 m top, 0.045 m tall."
+  }
+ ]
+}
