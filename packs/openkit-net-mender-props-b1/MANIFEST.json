@@ -1,0 +1,128 @@
+{
+ "pack": "openkit-net-mender-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "Scanned studio/art/openkit-*/fbx for net|cork|float|gauge|lead|needle|twine|mesh: found prop-net-drape, prop-cork-basket, prop-twine-bobbin-rm1, prop-window-leaded. No exact id collisions; no suffixes needed.",
+ "judgment_calls": [
+  "Needle is a flat 8-sided slab shuttle (pointed tip, forked heel) with tongue + wound twine block; 0.21 m",
+  "Cork string lies along X (not bottom_centre upright); 5 hexagonal-prism corks on 0.9 m line",
+  "Gauge is a flat board with grip, burnt marks as thin iron-slot strips, twine loop - not a ruler/rope tool",
+  "Lead weights shown as tied canvas pouch + 2 spilled tube sinkers; lead mat is grey, PG",
+  "Distinct from fishing-props: hand tools/net gear for mending, no rods, racks or fish; distinct from net-drape (hung net) and cork-basket (container)"
+ ],
+ "assets": [
+  {
+   "name": "prop-net-needle",
+   "tris": 52,
+   "dims_xyz_m": [
+    0.21,
+    0.024,
+    0.009
+   ],
+   "bbox_min": [
+    -0.1,
+    -0.012,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Box",
+    "M_Twine_Tarred"
+   ],
+   "height_m": 0.009,
+   "pivot": "bottom_centre (0,0,0) laid flat; 0.21 m boxwood netting shuttle, point +X, forked heel -X, tarred twine loaded on",
+   "fbx": "fbx/prop-net-needle.fbx",
+   "fbx_sha256": "144ab1a853c083bf5898340e32b19ab3e533b095b410931def351eec3f742706"
+  },
+  {
+   "name": "prop-cork-float-string",
+   "tris": 112,
+   "dims_xyz_m": [
+    0.9,
+    0.06,
+    0.052
+   ],
+   "bbox_min": [
+    -0.45,
+    -0.03,
+    0.0
+   ],
+   "materials": [
+    "M_Cork",
+    "M_Twine_Tarred"
+   ],
+   "height_m": 0.052,
+   "pivot": "bottom_centre (0,0,0) lying along X on ground; 0.9 m tarred head-line threaded with 5 cork floats at 0.18 m spacing",
+   "fbx": "fbx/prop-cork-float-string.fbx",
+   "fbx_sha256": "a1041768a96cce37183abb238c4e46a07e88c8e376623be758e6e9634a4b7ada"
+  },
+  {
+   "name": "prop-netting-gauge",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.22,
+    0.044,
+    0.016
+   ],
+   "bbox_min": [
+    -0.14,
+    -0.022,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Dark",
+    "M_Iron",
+    "M_Twine_Tarred"
+   ],
+   "height_m": 0.016,
+   "pivot": "bottom_centre (0,0,0) laid flat; 0.22 m dark-wood mesh gauge with grip -X, burnt size marks, twine loop",
+   "fbx": "fbx/prop-netting-gauge.fbx",
+   "fbx_sha256": "521a04a8b028a302d3df13ca43cd2f432d72bb142b296ade9ad0b81f325ab119"
+  },
+  {
+   "name": "prop-lead-weight-bag",
+   "tris": 112,
+   "dims_xyz_m": [
+    0.202,
+    0.147,
+    0.155
+   ],
+   "bbox_min": [
+    -0.085,
+    -0.074,
+    -0.0
+   ],
+   "materials": [
+    "M_Canvas",
+    "M_Twine_Tarred",
+    "M_Lead"
+   ],
+   "height_m": 0.155,
+   "pivot": "bottom_centre (0,0,0) on bench/ground; tied canvas pouch of lead net sinkers, two tube sinkers spilled at +X",
+   "fbx": "fbx/prop-lead-weight-bag.fbx",
+   "fbx_sha256": "5a60e51e29d471556c29982bacd3c58397dde9fd1e973d6369fe5b7c2fedfdc5"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-cork-float-string.fbx",
+  "fbx/prop-lead-weight-bag.fbx",
+  "fbx/prop-net-needle.fbx",
+  "fbx/prop-netting-gauge.fbx",
+  "tex/T_Cork_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Lead_BaseColor.png",
+  "tex/T_Sack_BaseColor.png",
+  "tex/T_Twine_Tarred_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)"
+}
