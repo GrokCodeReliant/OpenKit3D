@@ -1,0 +1,118 @@
+{
+ "pack": "openkit-illuminator-props-b1",
+ "license": "CC0-1.0",
+ "tool": "Blender 5.2.1 procedural bpy",
+ "units": "1 m",
+ "up": "Y (FBX)",
+ "fbx_materials": "slots only, path_mode STRIP, no textures embedded/linked",
+ "renames": [],
+ "collision_check": "no name collision with existing prop-*.fbx in studio/art; distinct from scribe/ink-maker/map-maker/gilder packs",
+ "assets": [
+  {
+   "name": "prop-gold-size-pot",
+   "file": "fbx/prop-gold-size-pot.fbx",
+   "tris": 128,
+   "dims_xyz_m": [
+    0.099,
+    0.072,
+    0.066
+   ],
+   "bbox_min": [
+    -0.05,
+    -0.036,
+    0.0
+   ],
+   "materials": [
+    "M_Clay_Glaze",
+    "M_Wood_Light",
+    "M_Gold_Size"
+   ],
+   "pivot": "bottom_centre (0,0,0); stands upright",
+   "desc": "small glazed clay pot of sticky gold size (mordant for laying leaf) with a short brush resting across the rim"
+  },
+  {
+   "name": "prop-vermilion-cake",
+   "file": "fbx/prop-vermilion-cake.fbx",
+   "tris": 56,
+   "dims_xyz_m": [
+    0.15,
+    0.11,
+    0.026
+   ],
+   "bbox_min": [
+    -0.075,
+    -0.055,
+    0.0
+   ],
+   "materials": [
+    "M_Parchment",
+    "M_Vermilion"
+   ],
+   "pivot": "bottom_centre (0,0,0); lying flat",
+   "desc": "single bright red vermilion/minium pigment cake with a broken chip and crumb on an irregular parchment scrap"
+  },
+  {
+   "name": "prop-squirrel-hair-brush",
+   "file": "fbx/prop-squirrel-hair-brush.fbx",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.19,
+    0.006,
+    0.007
+   ],
+   "bbox_min": [
+    -0.095,
+    -0.003,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Light",
+    "M_Quill",
+    "M_Squirrel_Hair"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "fine illuminator's brush: long slender wooden handle, quill ferrule and needle-pointed squirrel-hair tip"
+  },
+  {
+   "name": "prop-pounce-bag",
+   "file": "fbx/prop-pounce-bag.fbx",
+   "tris": 146,
+   "dims_xyz_m": [
+    0.084,
+    0.084,
+    0.095
+   ],
+   "bbox_min": [
+    -0.042,
+    -0.042,
+    0.0
+   ],
+   "materials": [
+    "M_Linen",
+    "M_Cord"
+   ],
+   "pivot": "bottom_centre (0,0,0); stands upright",
+   "desc": "small linen bag of pounce powder, gathered at the neck by a drawstring with a dangling tie end"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-gold-size-pot.fbx",
+  "fbx/prop-pounce-bag.fbx",
+  "fbx/prop-squirrel-hair-brush.fbx",
+  "fbx/prop-vermilion-cake.fbx",
+  "tex/T_Clay_Glaze_BaseColor.png",
+  "tex/T_Cord_BaseColor.png",
+  "tex/T_Gold_Size_BaseColor.png",
+  "tex/T_Linen_BaseColor.png",
+  "tex/T_Parchment_BaseColor.png",
+  "tex/T_Quill_BaseColor.png",
+  "tex/T_Squirrel_Hair_BaseColor.png",
+  "tex/T_Vermilion_BaseColor.png",
+  "tex/T_Wood_Light_BaseColor.png"
+ ]
+}
