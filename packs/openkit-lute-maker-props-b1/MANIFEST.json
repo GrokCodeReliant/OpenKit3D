@@ -1,0 +1,111 @@
+{
+ "pack": "openkit-lute-maker-props-b1",
+ "license": "CC0-1.0",
+ "tool": "Blender 5.2.1 procedural bpy",
+ "units": "1 m",
+ "pivot": "bottom_centre (0,0,0)",
+ "collisions_renames": "none; all four planned names free (no prop-*lute*/rib/pegbox/soundboard FBX existed); distinct from stringmaker bridge-blank-sg1/winding-peg-blank and other *-mold props (candle/flask/spoon/soap)",
+ "assets": [
+  {
+   "name": "prop-lute-rib-blank",
+   "file": "fbx/prop-lute-rib-blank.fbx",
+   "tris": 104,
+   "dims_xyz_m": [
+    0.622,
+    0.116,
+    0.078
+   ],
+   "bbox_min": [
+    -0.311,
+    -0.058,
+    0.0
+   ],
+   "materials": [
+    "M_Maple",
+    "M_Yew"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid on bench resting on rib ends",
+   "desc": "pair of thin bent maple/yew lute-bowl ribs, tapered at both ends and arched lengthwise, ready to glue onto the mold"
+  },
+  {
+   "name": "prop-pegbox-blank",
+   "file": "fbx/prop-pegbox-blank.fbx",
+   "tris": 64,
+   "dims_xyz_m": [
+    0.241,
+    0.064,
+    0.05
+   ],
+   "bbox_min": [
+    -0.12,
+    -0.032,
+    0.0
+   ],
+   "materials": [
+    "M_Maple",
+    "M_Dark"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "unfinished tapered lute pegbox blank: two cheeks on a back plate with an end block and started peg holes marked along both sides"
+  },
+  {
+   "name": "prop-soundboard-blank",
+   "file": "fbx/prop-soundboard-blank.fbx",
+   "tris": 100,
+   "dims_xyz_m": [
+    0.34,
+    0.312,
+    0.006
+   ],
+   "bbox_min": [
+    -0.17,
+    -0.156,
+    0.0
+   ],
+   "materials": [
+    "M_Spruce",
+    "M_Dark",
+    "M_Maple"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "thin pear-shaped spruce lute soundboard plate with the circular rose cut and one harmonic bar glued across"
+  },
+  {
+   "name": "prop-lute-mold",
+   "file": "fbx/prop-lute-mold.fbx",
+   "tris": 92,
+   "dims_xyz_m": [
+    0.56,
+    0.4,
+    0.16
+   ],
+   "bbox_min": [
+    -0.28,
+    -0.2,
+    0.0
+   ],
+   "materials": [
+    "M_MoldWood",
+    "M_Dark"
+   ],
+   "pivot": "bottom_centre (0,0,0); stands on its base board",
+   "desc": "solid wooden half-pear lute bowl mold on a base board, the form over which ribs are bent and glued"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-lute-mold.fbx",
+  "fbx/prop-lute-rib-blank.fbx",
+  "fbx/prop-pegbox-blank.fbx",
+  "fbx/prop-soundboard-blank.fbx",
+  "tex/T_Dark_BaseColor.png",
+  "tex/T_Maple_BaseColor.png",
+  "tex/T_MoldWood_BaseColor.png",
+  "tex/T_Spruce_BaseColor.png",
+  "tex/T_Yew_BaseColor.png"
+ ]
+}
