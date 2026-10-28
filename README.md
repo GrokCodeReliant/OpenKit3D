@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **182** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **184** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -94,6 +94,7 @@ The `packs/` folder contains **182** CC0-licensed medieval prop packs. Each pack
 | `openkit-goldsmith-props-b1` | Goldsmith workshop props |
 | `openkit-graveyard-b1` | Graveyard props |
 | `openkit-grindstone-dresser-props-b1` | Grindstone dresser workshop props |
+| `openkit-grindstone-frame-props-b1` | Grindstone-frame workshop props |
 | `openkit-harness-maker-props-b1` | Harness-maker workshop props |
 | `openkit-hat-maker-props-b1` | Hat-maker workshop props |
 | `openkit-helm-maker-props-b1` | Helm-maker workshop props |
@@ -141,6 +142,7 @@ The `packs/` folder contains **182** CC0-licensed medieval prop packs. Each pack
 | `openkit-pewterer-props-b1` | Pewterer workshop props |
 | `openkit-pin-maker-props-b1` | Wire-pin maker workshop props |
 | `openkit-pipe-maker-props-b1` | Pipe-maker workshop props |
+| `openkit-plane-iron-maker-props-b1` | Plane-iron maker workshop props |
 | `openkit-plasterer-props-b1` | Plasterer workshop props |
 | `openkit-pottery-props-b1` | Pottery and ceramics |
 | `openkit-pouch-maker-props-b1` | Pouch-maker workshop props |

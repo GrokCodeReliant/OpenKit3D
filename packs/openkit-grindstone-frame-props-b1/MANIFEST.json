@@ -1,0 +1,97 @@
+{
+  "pack": "openkit-grindstone-frame-props-b1",
+  "license": "CC0-1.0",
+  "units": "metric, 1 unit = 1 m",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "All four names checked against existing prop-*.fbx under the studio art tree before export: none taken. Distinct from prop-grindstone-small-cu1, grindstone-dresser set, prop-hone-stone-blank, feed/kneading/slaking/wood troughs, prop-water-drip-cup-gs1, prop-axle-tree-blank and prop-crank-handle-blank (gf1 versions are grindstone-specific and sized for it).",
+  "judgment_calls": [
+    "A-frame uses 4 legs + 2 stretchers (72 tris); bearing blocks omitted to stay under the 80 tri preference.",
+    "Trough is a single inset block with no flat rim (20 tris).",
+    "Crank grip is wood, arm is iron (two material slots).",
+    "Textures are flat 64x64 BaseColor PNGs; materials use plain colour values, no image nodes in the shipped files."
+  ],
+  "assets": [
+    {
+      "name": "prop-grindstone-aframe-blank-gf1",
+      "file": "fbx/prop-grindstone-aframe-blank-gf1.fbx",
+      "tris": 72,
+      "dims_xyz_m": [
+        0.6306,
+        0.5,
+        0.7594
+      ],
+      "bbox_min": [
+        -0.3153,
+        -0.25,
+        0.0
+      ],
+      "materials": [
+        "oak_wood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Wooden grindstone stand blank: two A-shaped trestle ends (each two 6 cm square slanted legs meeting at a ~0.76 m apex where an axle would rest), joined by two 5 cm square low stretchers at 0.22 m running between the A-ends. No wheel, no bearing blocks."
+    },
+    {
+      "name": "prop-grindstone-axle-blank-gf1",
+      "file": "fbx/prop-grindstone-axle-blank-gf1.fbx",
+      "tris": 20,
+      "dims_xyz_m": [
+        0.6,
+        0.04,
+        0.0346
+      ],
+      "bbox_min": [
+        -0.3,
+        -0.02,
+        0.0
+      ],
+      "materials": [
+        "iron_dark"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Plain iron axle rod blank: 0.60 m hexagonal bar, 4 cm across, lying along X, flat-capped ends."
+    },
+    {
+      "name": "prop-grindstone-trough-blank-gf1",
+      "file": "fbx/prop-grindstone-trough-blank-gf1.fbx",
+      "tris": 20,
+      "dims_xyz_m": [
+        0.5,
+        0.26,
+        0.1
+      ],
+      "bbox_min": [
+        -0.25,
+        -0.13,
+        0.0
+      ],
+      "materials": [
+        "wet_wood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Shallow wooden water trough blank, 0.50 x 0.26 x 0.10 m single hollowed block: sunk 7 cm basin with slightly sloped inner walls meeting the outer top edge (no flat rim), 3 cm solid base."
+    },
+    {
+      "name": "prop-grindstone-crank-gf1",
+      "file": "fbx/prop-grindstone-crank-gf1.fbx",
+      "tris": 32,
+      "dims_xyz_m": [
+        0.18,
+        0.032,
+        0.115
+      ],
+      "bbox_min": [
+        -0.09,
+        -0.016,
+        0.0
+      ],
+      "materials": [
+        "iron_dark",
+        "oak_wood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Short crank handle blank: flat iron arm 0.18 x 0.03 x 0.015 m with an upright 10 cm hexagonal oak grip (3.2 cm across) standing on one end."
+    }
+  ]
+}
