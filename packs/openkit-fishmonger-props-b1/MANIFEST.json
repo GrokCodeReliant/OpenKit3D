@@ -1,0 +1,122 @@
+{
+ "pack": "openkit-fishmonger-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "pivots": "Pack built after pivot: openkit-tanner-props-b1 (hide-pile, scraping-knife, stretching-frame, tanning-vat-small) and openkit-scribe-props-b1 already exist.",
+ "renames": {
+  "prop-scaling-knife-fm1": "suffix kept for craft clarity",
+  "prop-hanging-hook-fm1": "suffix: hook-wall/meat-hook-rail/ladle-hook exist"
+ },
+ "collision_check": "Searched all openkit-*/fbx for fish|scal|ice|hook|board|knife|tub. Near-misses: prop-fish-rack-fi1 (fishing pack, drying rack), prop-cutting-board (kitchen), prop-soaking-tub-small (tanner-adjacent), prop-meat-hook-rail (butcher). No fishmonger pack, no ice tub, no scaler.",
+ "judgment_calls": [
+  "Fish board is a thick cleated gutting slab with stain zone + drain groove vs thin kitchen cutting board",
+  "Ice tub shallow wide single-hoop tub with ice blocks",
+  "Hooks are a short wall batten with 2 J hooks, authored laid with wall face down",
+  "Eye-check v1: scaler handle gap + ice hidden low -> fixed v2 (tang bridge, ice raised); ice tub 312->176 tris"
+ ],
+ "assets": [
+  {
+   "name": "prop-fish-board-blank",
+   "tris": 60,
+   "dims_xyz_m": [
+    0.7,
+    0.32,
+    0.052
+   ],
+   "bbox_min": [
+    -0.35,
+    -0.16,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Wood_Dark",
+    "M_Wet_Stain"
+   ],
+   "height_m": 0.052,
+   "pivot": "bottom_centre (0,0,0); 70x32x5 cm thick fishmonger gutting slab on two cleats, wet-stained work zone + front drain groove; no fish"
+  },
+  {
+   "name": "prop-scaling-knife-fm1",
+   "tris": 104,
+   "dims_xyz_m": [
+    0.25,
+    0.044,
+    0.021
+   ],
+   "bbox_min": [
+    -0.125,
+    -0.022,
+    0.0
+   ],
+   "materials": [
+    "M_Steel",
+    "M_Wood_Ash"
+   ],
+   "height_m": 0.024,
+   "pivot": "laid / bottom_centre (0,0,0); 24 cm fish scaler: short broad iron blade with toothed back edge, 6-sided wooden handle"
+  },
+  {
+   "name": "prop-ice-tub-small",
+   "tris": 176,
+   "dims_xyz_m": [
+    0.664,
+    0.664,
+    0.22
+   ],
+   "bbox_min": [
+    -0.332,
+    -0.332,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Steel",
+    "M_Ice"
+   ],
+   "height_m": 0.22,
+   "pivot": "bottom_centre (0,0,0); 66 cm wide shallow single-hoop stave tub filled with pale ice blocks for fish display; shallow vs tanner soaking tub"
+  },
+  {
+   "name": "prop-hanging-hook-fm1",
+   "tris": 84,
+   "dims_xyz_m": [
+    0.3,
+    0.099,
+    0.075
+   ],
+   "bbox_min": [
+    -0.15,
+    -0.05,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Steel"
+   ],
+   "height_m": 0.075,
+   "pivot": "laid / bottom_centre (0,0,0), back of batten on floor = wall face; 30 cm batten with two J fish hooks for hanging fish by gill; smaller/single-batten vs meat-hook-rail"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-fish-board-blank.fbx",
+  "fbx/prop-hanging-hook-fm1.fbx",
+  "fbx/prop-ice-tub-small.fbx",
+  "fbx/prop-scaling-knife-fm1.fbx",
+  "tex/T_Ice_BaseColor.png",
+  "tex/T_Steel_BaseColor.png",
+  "tex/T_Wet_Stain_BaseColor.png",
+  "tex/T_Wood_Ash_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "All 5 BaseColor PNGs ship pack-local in tex/. None is byte-identical to any sibling Open Kit pack. Name-clash only where filenames match other packs (different bytes). FBX carry material slots only; Unity maps textures by material slot. Hook ships laid \u2014 rotate for wall mount."
+}

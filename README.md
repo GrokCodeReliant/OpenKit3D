@@ -23,11 +23,12 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains 98 CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains 100 CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
 | `openkit-alchemy-props-b1` | Alchemy lab equipment |
+| `openkit-apothecary-props-b1` | Apothecary workshop props |
 | `openkit-archery-range-b1` | Archery targets and training props |
 | `openkit-baker-props-b1` | Bakery props |
 | `openkit-barrel-chest-b1` | Barrels, chests, and storage containers |
@@ -53,6 +54,7 @@ The `packs/` folder contains 98 CC0-licensed medieval prop packs. Each pack incl
 | `openkit-farm-props-b1` | Farm equipment |
 | `openkit-fence-gate-b1` | Fences and gates |
 | `openkit-fishing-props-b1` | Fishing equipment |
+| `openkit-fishmonger-props-b1` | Fishmonger stall props |
 | `openkit-forge-props-b1` | Forge and metalworking props |
 | `openkit-furniture-extras-b1` | Additional furniture pieces |
 | `openkit-fuller-props-b1` | Fuller (cloth finishing) workshop props |
