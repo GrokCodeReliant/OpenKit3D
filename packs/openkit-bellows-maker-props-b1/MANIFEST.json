@@ -1,0 +1,134 @@
+{
+ "pack": "openkit-bellows-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "metric, 1 unit = 1 m",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [
+  {
+   "base": "prop-hinge-leather-strip",
+   "final": "prop-hinge-leather-strip-bm1",
+   "reason": "brief-mandated -bm1"
+  },
+  {
+   "base": "prop-bellows-rivet-tray",
+   "final": "prop-bellows-rivet-tray-bm1",
+   "reason": "brief-mandated -bm1; avoids prop-rivet-tray-cu1 / prop-rivet-eyelet-tray family"
+  }
+ ],
+ "collision_check": {
+  "method": "find art -name prop-*.fbx, basename sort -u",
+  "related_existing": [
+   "prop-bellows",
+   "prop-smoker-bellows",
+   "prop-rivet-anvil-hm1",
+   "prop-rivet-eyelet-tray",
+   "prop-rivet-tray-cu1"
+  ],
+  "conflicts": 0
+ },
+ "judgment_calls": [
+  "Maker parts only: board is a bare flat slab with no leather bag, handle or valve, so it reads distinct from prop-bellows/prop-smoker-bellows",
+  "Nozzle modelled as unbored octagonal iron frustum lying on its side",
+  "Hinge strip is a V-folded leather chevron slab",
+  "Base colour carried as material diffuse colour; flat BaseColor PNGs shipped in tex/ only, no image nodes in FBX",
+  "All assets under 120 tris; no soft overruns"
+ ],
+ "assets": [
+  {
+   "name": "prop-bellows-board-blank",
+   "file": "fbx/prop-bellows-board-blank.fbx",
+   "tris": 48,
+   "dims_xyz_m": [
+    0.4,
+    0.24,
+    0.02
+   ],
+   "bbox_min": [
+    -0.2,
+    -0.12,
+    0.0
+   ],
+   "materials": [
+    "oak_raw"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Unfinished pear-shaped oak board blank, one half of a bellows pair; flat slab, no leather, no handle, no valve."
+  },
+  {
+   "name": "prop-tuyere-nozzle-blank",
+   "file": "fbx/prop-tuyere-nozzle-blank.fbx",
+   "tris": 28,
+   "dims_xyz_m": [
+    0.16,
+    0.0517,
+    0.0517
+   ],
+   "bbox_min": [
+    -0.08,
+    -0.0259,
+    0.0
+   ],
+   "materials": [
+    "iron_dark"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Rough-forged tapered octagonal iron tuyere/nozzle blank, unbored, to be fitted at the board tip."
+  },
+  {
+   "name": "prop-hinge-leather-strip-bm1",
+   "file": "fbx/prop-hinge-leather-strip-bm1.fbx",
+   "tris": 20,
+   "dims_xyz_m": [
+    0.07,
+    0.22,
+    0.026
+   ],
+   "bbox_min": [
+    -0.035,
+    -0.11,
+    0.0
+   ],
+   "materials": [
+    "leather_tan"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Folded (V-creased) tan leather hinge strip for the rear joint of a bellows board pair."
+  },
+  {
+   "name": "prop-bellows-rivet-tray-bm1",
+   "file": "fbx/prop-bellows-rivet-tray-bm1.fbx",
+   "tris": 50,
+   "dims_xyz_m": [
+    0.156,
+    0.116,
+    0.018
+   ],
+   "bbox_min": [
+    -0.078,
+    -0.058,
+    0.0
+   ],
+   "materials": [
+    "pine_tray",
+    "iron_dark"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Small open pine tray holding ten iron dome-head rivets for fastening leather to bellows boards."
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-bellows-board-blank.fbx",
+  "fbx/prop-bellows-rivet-tray-bm1.fbx",
+  "fbx/prop-hinge-leather-strip-bm1.fbx",
+  "fbx/prop-tuyere-nozzle-blank.fbx",
+  "tex/iron_dark_BaseColor.png",
+  "tex/leather_tan_BaseColor.png",
+  "tex/oak_raw_BaseColor.png",
+  "tex/pine_tray_BaseColor.png"
+ ]
+}
