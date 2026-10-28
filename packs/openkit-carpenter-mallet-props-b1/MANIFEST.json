@@ -1,0 +1,96 @@
+{
+  "pack": "openkit-carpenter-mallet-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 unit = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "All existing prop-*.fbx names checked; no prop-joiner-mallet*/prop-carpenter-mallet* or -jm1 present; rg joiner.?mallet|carpenter.?mallet found no hits. Distinct from carving, froe, bung, felting, fulling-stock, stone, tin-blank and serving mallets.",
+  "judgment_calls": [
+    "Head is a solid block with the handle mortise implied (12 tris vs 28 preferred).",
+    "Handle taper widens toward the top so it locks into a head mortise, as on a joiner's mallet.",
+    "Face pad textured as leather; flat slab, no bevel.",
+    "Flat BaseColor PNGs shipped in tex/; FBX holds material slots only."
+  ],
+  "assets": [
+    {
+      "name": "prop-joiner-mallet-head-jm1",
+      "tris": 12,
+      "dims_xyz_m": [
+        0.15,
+        0.09,
+        0.1
+      ],
+      "bbox_min": [
+        -0.075,
+        -0.045,
+        0.0
+      ],
+      "materials": [
+        "mat_beech_wood"
+      ],
+      "file": "fbx/prop-joiner-mallet-head-jm1.fbx",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Solid rectangular beech joiner's mallet head blank, 150x90x100 mm box (8 verts, 12 tris); handle mortise implied, not modelled."
+    },
+    {
+      "name": "prop-joiner-mallet-handle-jm1",
+      "tris": 12,
+      "dims_xyz_m": [
+        0.044,
+        0.028,
+        0.33
+      ],
+      "bbox_min": [
+        -0.022,
+        -0.014,
+        0.0
+      ],
+      "materials": [
+        "mat_beech_wood"
+      ],
+      "file": "fbx/prop-joiner-mallet-handle-jm1.fbx",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Tapered beech handle blank, 330 mm tall rectangular section widening from 32x22 mm at base to 44x28 mm at top (12 tris)."
+    },
+    {
+      "name": "prop-joiner-mallet-wedge-jm1",
+      "tris": 8,
+      "dims_xyz_m": [
+        0.005,
+        0.02,
+        0.04
+      ],
+      "bbox_min": [
+        -0.0025,
+        -0.01,
+        0.0
+      ],
+      "materials": [
+        "mat_oak_wedge"
+      ],
+      "file": "fbx/prop-joiner-mallet-wedge-jm1.fbx",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Oak handle-wedge blank, triangular prism 5 mm thick at base tapering to a knife edge at 40 mm, 20 mm wide (8 tris)."
+    },
+    {
+      "name": "prop-joiner-mallet-face-pad-jm1",
+      "tris": 12,
+      "dims_xyz_m": [
+        0.008,
+        0.09,
+        0.1
+      ],
+      "bbox_min": [
+        -0.004,
+        -0.045,
+        0.0
+      ],
+      "materials": [
+        "mat_leather_pad"
+      ],
+      "file": "fbx/prop-joiner-mallet-face-pad-jm1.fbx",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Leather face pad blank, flat 8x90x100 mm slab sized to a head striking face (12 tris)."
+    }
+  ]
+}
