@@ -1,0 +1,129 @@
+{
+ "pack": "openkit-glove-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-stitch-awl": "prop-stitch-awl-gl1 (pre-suffixed per brief; awl family crowded: cobbler-awl, bodkin-awl-bw1, button-awl-btm1, punch-awl-sv1)"
+ },
+ "collision_check": "Searched 186 openkit-*/fbx for glove|gauntlet|finger|awl|offcut|pattern|tray|leather|last|hand. No glove/gauntlet/finger/pattern/offcut ids exist; no prior openkit-glove* or openkit-shoe* pack. Near-misses: prop-leather-scrap-pile (loose floor pile), prop-shoe-last (cobbler), 4 awls. None of the 4 ids taken.",
+ "judgment_calls": [
+  "Pattern blank is a single flat unsewn 3 mm panel with chalk lines, not a 3D glove",
+  "Finger forms are flat upright wooden stretching boards, not hands or gauntlets; unlike shoe-last",
+  "Awl uses a 3-sided glover's point and pear handle, slimmer than cobbler/punch awls",
+  "Offcut tray is a contained oak tray with 5 flat dyed offcuts, distinct from loose leather-scrap-pile",
+  "Eye-check v1: no floating parts; offcuts sit on tray floor, fingers overlap palm plates, thumb overlaps palm; laid awl's point rests in line with ferrule (handle touches z=0)"
+ ],
+ "assets": [
+  {
+   "name": "prop-glove-pattern-blank",
+   "tris": 108,
+   "dims_xyz_m": [
+    0.149,
+    0.27,
+    0.004
+   ],
+   "bbox_min": [
+    -0.074,
+    -0.135,
+    0.0
+   ],
+   "materials": [
+    "M_Leather_Kid",
+    "M_Chalk"
+   ],
+   "height_m": 0.004,
+   "pivot": "laid / bottom_centre (0,0,0); 3 mm flat undyed kid-leather hand-outline cutout, fingers to +Y, thumb splayed +X, cuff tongue -Y, chalk knuckle/centre lines on top; unsewn single panel",
+   "fbx_sha256": "9946f4463963a4fdebf3c326ade4ef0ce91aeab20b539dc15a63c4a468b1f958"
+  },
+  {
+   "name": "prop-finger-form-set",
+   "tris": 132,
+   "dims_xyz_m": [
+    0.26,
+    0.12,
+    0.19
+   ],
+   "bbox_min": [
+    -0.13,
+    -0.06,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Beech",
+    "M_Wood_Dark"
+   ],
+   "height_m": 0.19,
+   "pivot": "bottom_centre (0,0,0); 26 cm dark base board with two upright flat beech glove-stretching hand forms (large+small), fingers up +Z",
+   "fbx_sha256": "703109af9c6508338d9ccd66064f45e297561b386cd0d014b2f79fdf65864b4b"
+  },
+  {
+   "name": "prop-stitch-awl-gl1",
+   "tris": 70,
+   "dims_xyz_m": [
+    0.141,
+    0.024,
+    0.028
+   ],
+   "bbox_min": [
+    -0.071,
+    -0.012,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Beech",
+    "M_Brass",
+    "M_Steel"
+   ],
+   "height_m": 0.028,
+   "pivot": "laid / bottom_centre (0,0,0); 14 cm fine glover's stitch awl lying along X, pear beech handle -X, short brass ferrule, slim 3-sided (triangular) point to +X",
+   "fbx_sha256": "2699f69e49c712305b545df74ff57a0eb4c82462e96e224340f116a3a6118130"
+  },
+  {
+   "name": "prop-leather-offcut-tray",
+   "tris": 120,
+   "dims_xyz_m": [
+    0.3,
+    0.2,
+    0.04
+   ],
+   "bbox_min": [
+    -0.15,
+    -0.1,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Beech",
+    "M_Leather_Kid",
+    "M_Leather_Dark",
+    "M_Leather_Madder"
+   ],
+   "height_m": 0.04,
+   "pivot": "bottom_centre (0,0,0); 30x20 cm shallow oak tray, 4 cm walls, five thin kid/doeskin/madder-dyed glove offcuts lying overlapped on floor",
+   "fbx_sha256": "edd2ac7d6781c577a7dbe85d84b040eff3bba8e0ea50f449515a33817d5a00ce"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-finger-form-set.fbx",
+  "fbx/prop-glove-pattern-blank.fbx",
+  "fbx/prop-leather-offcut-tray.fbx",
+  "fbx/prop-stitch-awl-gl1.fbx",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Chalk_BaseColor.png",
+  "tex/T_Leather_Dark_BaseColor.png",
+  "tex/T_Leather_Kid_BaseColor.png",
+  "tex/T_Leather_Madder_BaseColor.png",
+  "tex/T_Steel_BaseColor.png",
+  "tex/T_Wood_Beech_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "All eight BaseColor PNGs ship pack-local in tex/. T_Brass_BaseColor.png is byte-identical to openkit-hat-maker-props-b1 (FYI; still shipped pack-local). T_Chalk, T_Steel, T_Wood_Dark, T_Wood_Beech, T_Leather_Dark (and T_Brass vs other packs) are name-clash only with other Open Kit packs (different bytes); T_Leather_Kid and T_Leather_Madder are unique. FBX carry material slots only; Unity maps textures by material slot."
+}

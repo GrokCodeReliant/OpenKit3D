@@ -1,0 +1,125 @@
+{
+ "pack": "openkit-hat-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "Searched 183 openkit-*/fbx for hat|felt|brim|milliner|block|band|crown|kettle|needle-board|liner. Hits: prop-punch-block-bt1, prop-butcher-block, prop-wax-block-stack, prop-ashlar-block, prop-nail-anvil-block, prop-brow-band-blank (helm-maker armor padding), tile-roof-thatch*. None of the 4 ids taken; no prior openkit-hat* pack.",
+ "judgment_calls": [
+  "Felt blank v1 had a flat skirt + crown that read as a finished brimmed hat; v2 is a brimless raw felt cone (hood) as delivered to a milliner before steaming/blocking",
+  "Hat block is a lathed rounded crown form with a two-piece wedge seam and top dowel; it is unlike the flat/rectangular punch, butcher, ashlar, wax and nail-anvil blocks",
+  "Brim wire is a bare two-turn iron stiffener coil with tape-bound ends, not a brim; 10-seg rings keep it at 184 tris (16-seg was 280)",
+  "Hatband is an undyed ribbon roll with uncut chalk-marked tail; distinct from helm-maker brow-band-blank (padded armor liner) and belt straps",
+  "Eye-check v1: block seam fin protruded above the curved crown; shortened to flush lower seam in v2. v2 shows no floating parts (all pieces sit at z=0 or overlap parent)"
+ ],
+ "assets": [
+  {
+   "name": "prop-felt-blank",
+   "tris": 132,
+   "dims_xyz_m": [
+    0.27,
+    0.27,
+    0.27
+   ],
+   "bbox_min": [
+    -0.135,
+    -0.135,
+    0.0
+   ],
+   "materials": [
+    "M_Felt_Raw",
+    "M_Chalk"
+   ],
+   "height_m": 0.27,
+   "pivot": "bottom_centre (0,0,0); 27 cm tall raw wool felt cone (hood) blank standing on its open mouth, pre-blocking, no brim; chalk size tally on -Y face",
+   "fbx_sha256": "50f44a1967f6a7f4adaff1dee2803fae1e72558d58e6120373fe9c2bcf35bde9"
+  },
+  {
+   "name": "prop-hat-block-form",
+   "tris": 104,
+   "dims_xyz_m": [
+    0.194,
+    0.193,
+    0.157
+   ],
+   "bbox_min": [
+    -0.097,
+    -0.097,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Wood_Dark"
+   ],
+   "height_m": 0.157,
+   "pivot": "bottom_centre (0,0,0); 19 cm oak hat crown block (milliner's form) standing upright, split-wedge seam line along Y, dowel plug on top",
+   "fbx_sha256": "2d390edd001089e45a1e1f7f52a4f145975309db1fb763c3988d71deae312375"
+  },
+  {
+   "name": "prop-brim-wire-blank",
+   "tris": 184,
+   "dims_xyz_m": [
+    0.344,
+    0.293,
+    0.008
+   ],
+   "bbox_min": [
+    -0.172,
+    -0.146,
+    0.0
+   ],
+   "materials": [
+    "M_Iron_Wire",
+    "M_Linen_Tape"
+   ],
+   "height_m": 0.008,
+   "pivot": "laid / bottom_centre (0,0,0); 30 cm two-turn coil of brim stiffener wire lying flat, linen tape binding at +X, loose straight tail to +X/-Y",
+   "fbx_sha256": "db0e873d55301d6c8613f8b630ab58e89a0c09c33d22e919737e885d4e9abc29"
+  },
+  {
+   "name": "prop-hatband-blank",
+   "tris": 116,
+   "dims_xyz_m": [
+    0.18,
+    0.086,
+    0.03
+   ],
+   "bbox_min": [
+    -0.09,
+    -0.043,
+    0.0
+   ],
+   "materials": [
+    "M_Ribbon_Undyed",
+    "M_Chalk",
+    "M_Brass"
+   ],
+   "height_m": 0.03,
+   "pivot": "laid / bottom_centre (0,0,0); 3 cm-wide undyed ribbon hatband roll, 9 cm uncut tail laid to +X with chalk cut mark, brass pin by roll",
+   "fbx_sha256": "38e8cca5d6ad8a7ae1bcc830e18e14c690729d6d456c4273cfed3f7866973a70"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-brim-wire-blank.fbx",
+  "fbx/prop-felt-blank.fbx",
+  "fbx/prop-hat-block-form.fbx",
+  "fbx/prop-hatband-blank.fbx",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Chalk_BaseColor.png",
+  "tex/T_Felt_Raw_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Linen_BaseColor.png",
+  "tex/T_Ribbon_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "All eight BaseColor PNGs ship pack-local in tex/. T_Brass_BaseColor.png is byte-identical to openkit-glove-maker-props-b1 (FYI; still shipped pack-local). T_Chalk, T_Iron, T_Linen, T_Wood_Dark, T_Wood_Oak (and T_Brass vs other packs) are name-clash only with other Open Kit packs (different bytes); T_Felt_Raw and T_Ribbon are unique. FBX carry material slots only; Unity maps textures by material slot."
+}
