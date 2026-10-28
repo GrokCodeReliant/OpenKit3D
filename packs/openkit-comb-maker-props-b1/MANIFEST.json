@@ -1,0 +1,120 @@
+{
+ "pack": "openkit-comb-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "collision_check": "Searched openkit-*/fbx for comb|saw|clamp|polish|cloth|rasp|gauge: hits prop-horn-comb-blank, prop-frame-comb, prop-button-polish-pad, prop-hand-saw, prop-horn-press-clamp, prop-shaving-horse-clamp, prop-hair-cloth-roll. All 4 ids free.",
+ "renames": {},
+ "judgment_calls": [
+  "Blank stack = 5 skewed untoothed plates alternating boxwood/horn, flush, vs single horn-comb-blank",
+  "Tooth saw: brass-backed fine saw lying on blade edge+handle, distinct from prop-hand-saw",
+  "Clamp board: jig with held horn blank, clamp bar, 2 pegs, scribed tooth marks (decal quads, no booleans)",
+  "Cloth roll: felt roll + flat tail + twine band; distinct from hair-cloth-roll and button-polish-pad",
+  "Contact sheet eye-check: all bases z=0, no floating parts",
+  "Eye-check pass 2: cloth tie band changed from square box to round band hugging roll"
+ ],
+ "assets": [
+  {
+   "name": "prop-comb-blank-stack",
+   "tris": 60,
+   "dims_xyz_m": [
+    0.1176,
+    0.0597,
+    0.025
+   ],
+   "bbox_min": [
+    -0.0582,
+    -0.0298,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Horn"
+   ],
+   "pivot": "bottom_centre (0,0,0); 5 slightly skewed 0.11x0.05x0.005 m untoothed blanks, alternating boxwood/horn plates, stacked flush (no gaps)"
+  },
+  {
+   "name": "prop-tooth-saw-cbm1",
+   "tris": 36,
+   "dims_xyz_m": [
+    0.205,
+    0.018,
+    0.018
+   ],
+   "bbox_min": [
+    -0.095,
+    -0.009,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Dark",
+    "M_Brass",
+    "M_Steel"
+   ],
+   "pivot": "floor under handle/spine joint (0,0,0) offset; laid along X on its edge-down blade + handle; 0.21 m brass-backed fine tooth saw"
+  },
+  {
+   "name": "prop-comb-clamp-board",
+   "tris": 148,
+   "dims_xyz_m": [
+    0.2,
+    0.09,
+    0.032
+   ],
+   "bbox_min": [
+    -0.1,
+    -0.045,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Horn",
+    "M_Wood_Dark",
+    "M_Soot"
+   ],
+   "pivot": "bottom_centre (0,0,0); 0.2x0.09 m oak jig board, horn blank pinned under clamp bar by 2 pegs, scribed tooth marks"
+  },
+  {
+   "name": "prop-polishing-cloth-roll",
+   "tris": 84,
+   "dims_xyz_m": [
+    0.12,
+    0.1065,
+    0.06
+   ],
+   "bbox_min": [
+    -0.06,
+    -0.075,
+    0.0
+   ],
+   "materials": [
+    "M_Cloth_Felt",
+    "M_Twine"
+   ],
+   "pivot": "bottom_centre (0,0,0)-ish; 0.12 m felt/linen roll along X with twine band, tail unrolled flat toward -Y"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-comb-blank-stack.fbx",
+  "fbx/prop-comb-clamp-board.fbx",
+  "fbx/prop-polishing-cloth-roll.fbx",
+  "fbx/prop-tooth-saw-cbm1.fbx",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Cloth_Felt_BaseColor.png",
+  "tex/T_Horn_BaseColor.png",
+  "tex/T_Soot_BaseColor.png",
+  "tex/T_Steel_BaseColor.png",
+  "tex/T_Twine_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "tex/ T_Soot, T_Steel, T_Wood_Dark, T_Wood_Oak BaseColor PNGs stay pack-local (not rewritten to shared pointers); T_Brass, T_Cloth_Felt, T_Horn, T_Twine unique to this pack; unused T_Iron_BaseColor.png dropped from ship (no material slot maps to it); FBX is slots-only, Unity maps textures by material slot"
+}

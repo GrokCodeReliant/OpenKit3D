@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains 59 CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains 61 CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -42,6 +42,7 @@ The `packs/` folder contains 59 CC0-licensed medieval prop packs. Each pack incl
 | `openkit-carpenter-props-b1` | Carpentry tools and workbench |
 | `openkit-cart-crate-b1` | Carts and crates |
 | `openkit-cobbler-props-b1` | Cobbler/shoemaker props |
+| `openkit-comb-maker-props-b1` | Comb-maker workshop props |
 | `openkit-cooper-props-b1` | Cooper (barrel-maker) props |
 | `openkit-dock-harbor-b1` | Dock and harbor props |
 | `openkit-doors-windows-b1` | Doors and windows |
@@ -78,6 +79,7 @@ The `packs/` folder contains 59 CC0-licensed medieval prop packs. Each pack incl
 | `openkit-sign-post-b1` | Signs and posts |
 | `openkit-sieve-maker-props-b1` | Sieve-maker workshop props |
 | `openkit-smithy-tools-b1` | Blacksmith tools |
+| `openkit-spoon-carver-props-b1` | Green-wood spoon carver workshop props |
 | `openkit-stable-props-b1` | Stable equipment |
 | `openkit-stairs-ladder-b1` | Stairs and ladders |
 | `openkit-tailor-props-b1` | Tailor shop props |

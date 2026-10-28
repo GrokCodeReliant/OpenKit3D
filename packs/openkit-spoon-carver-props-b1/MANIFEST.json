@@ -1,0 +1,117 @@
+{
+ "pack": "openkit-spoon-carver-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures; FBX path_mode STRIP; image datablocks removed before export)",
+ "max_tris": 210,
+ "renames": {
+  "prop-hook-knife": "prop-hook-knife-sc1 (pre-suffixed per brief; keeps apart from other knife ids)"
+ },
+ "collision_check": "Searched studio/art/openkit-*/fbx for spoon|hook|bark|shaving|carv|clamp|blank: no spoon/hook-knife/bark/carv hits; nearest are prop-shaving-horse-clamp (peg-maker), prop-comb-clamp-board, prop-horn-press-clamp, prop-ladle-hook, blank-stack family; none match chosen ids",
+ "assets": [
+  {
+   "name": "prop-spoon-blank-stack",
+   "tris": 120,
+   "dims_xyz_m": [
+    0.22,
+    0.22,
+    0.06
+   ],
+   "bbox_min": [
+    -0.11,
+    -0.11,
+    0.0
+   ],
+   "materials": [
+    "M_Birch",
+    "M_Bark"
+   ],
+   "height_m": 0.06,
+   "pivot": "bottom_centre (0,0,0); crib stack of 5 axed birch spoon blanks (rough handle + flat wide bowl end, no hollow), 3 below / 2 crossed on top"
+  },
+  {
+   "name": "prop-hook-knife-sc1",
+   "tris": 136,
+   "dims_xyz_m": [
+    0.191,
+    0.052,
+    0.024
+   ],
+   "bbox_min": [
+    -0.096,
+    -0.026,
+    0.0
+   ],
+   "materials": [
+    "M_Birch",
+    "M_Steel",
+    "M_Edge"
+   ],
+   "height_m": 0.024,
+   "pivot": "bottom_centre (0,0,0) lying flat; ~0.19 m crooked/hook knife: birch handle, ferrule, short shank ending in a 270-degree hooked bowl-carving blade curling toward +Y"
+  },
+  {
+   "name": "prop-spoon-clamp-jig",
+   "tris": 96,
+   "dims_xyz_m": [
+    0.4,
+    0.14,
+    0.096
+   ],
+   "bbox_min": [
+    -0.2,
+    -0.07,
+    0.0
+   ],
+   "materials": [
+    "M_Oak",
+    "M_Birch",
+    "M_Ash"
+   ],
+   "height_m": 0.096,
+   "pivot": "bottom_centre (0,0,0) under base board; 0.40 m bench-top wedge jig: board, two jaw blocks joined by rails, spoon blank pinned by a driven wedge (not a floor shaving horse)"
+  },
+  {
+   "name": "prop-bark-shaving-pile",
+   "tris": 168,
+   "dims_xyz_m": [
+    0.32,
+    0.32,
+    0.051
+   ],
+   "bbox_min": [
+    -0.16,
+    -0.16,
+    0.0
+   ],
+   "materials": [
+    "M_Birch",
+    "M_Birch2",
+    "M_Bark"
+   ],
+   "height_m": 0.051,
+   "pivot": "bottom_centre (0,0,0); ~0.33 m low mound of birch carving shavings with 10 curl chips and bark strips embedded in the surface"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-bark-shaving-pile.fbx",
+  "fbx/prop-hook-knife-sc1.fbx",
+  "fbx/prop-spoon-blank-stack.fbx",
+  "fbx/prop-spoon-clamp-jig.fbx",
+  "tex/T_Ash_BaseColor.png",
+  "tex/T_Bark_BaseColor.png",
+  "tex/T_Birch2_BaseColor.png",
+  "tex/T_Birch_BaseColor.png",
+  "tex/T_Edge_BaseColor.png",
+  "tex/T_Oak_BaseColor.png",
+  "tex/T_Steel_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "tex/ all seven BaseColor PNGs (T_Ash, T_Bark, T_Birch, T_Birch2, T_Edge, T_Oak, T_Steel) stay pack-local (not rewritten to shared pointers); every material slot maps to one, none dropped; T_Ash is byte-identical to horn-worker Ash_Pale (FYI only, still shipped pack-local); T_Steel name may also appear in comb-maker pair pack but paths stay per-pack; FBX is slots-only, Unity maps textures by material slot"
+}
