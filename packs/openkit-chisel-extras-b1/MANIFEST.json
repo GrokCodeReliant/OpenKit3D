@@ -1,0 +1,97 @@
+{
+  "pack": "openkit-chisel-extras-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 unit = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "All 4 prop-*-ce1 names absent from existing studio art FBX set; no prop-bench-chisel*, prop-firmer-chisel*, prop-chisel-handle*, prop-chisel-leather* existed. Distinct from prop-mortise-chisel, prop-chisel-point-ms1, prop-chisel-punch-st1 (parts/blanks, not complete tools).",
+  "judgment_calls": [
+    "Washer is a solid hex disc at 20 tris (soft overrun of 16 preferred); a hoop with a hole would need >=32 tris at 6 sides.",
+    "Handle is solid hex (no tang bore) to hit 40 tris; ferrule is a separate hex ring rotated 30 deg.",
+    "Blades lie flat along X with bevel at +X, tang at -X.",
+    "Contact sheet composited with PIL from Workbench renders on light grey."
+  ],
+  "assets": [
+    {
+      "name": "prop-bench-chisel-blade-ce1",
+      "file": "fbx/prop-bench-chisel-blade-ce1.fbx",
+      "tris": 24,
+      "dims_xyz_m": [
+        0.132,
+        0.022,
+        0.004
+      ],
+      "bbox_min": [
+        -0.066,
+        -0.011,
+        0.0
+      ],
+      "materials": [
+        "mat_steel"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Flat steel bench-chisel blade blank 110x22x4 mm with single-sided bevel (top face drops 3.2 mm toward +X cutting tip) plus 22x8x3 mm tang stub at -X; overall 132 mm."
+    },
+    {
+      "name": "prop-firmer-chisel-blade-ce1",
+      "file": "fbx/prop-firmer-chisel-blade-ce1.fbx",
+      "tris": 24,
+      "dims_xyz_m": [
+        0.144,
+        0.026,
+        0.008
+      ],
+      "bbox_min": [
+        -0.072,
+        -0.013,
+        0.0
+      ],
+      "materials": [
+        "mat_steel"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Thicker firmer-chisel blade blank 120x26x8 mm with single-sided bevel (top face drops 6.5 mm toward +X tip) plus 24x10x5 mm tang stub at -X; overall 144 mm."
+    },
+    {
+      "name": "prop-chisel-handle-ce1",
+      "file": "fbx/prop-chisel-handle-ce1.fbx",
+      "tris": 40,
+      "dims_xyz_m": [
+        0.028,
+        0.0242,
+        0.12
+      ],
+      "bbox_min": [
+        -0.014,
+        -0.0121,
+        0.0
+      ],
+      "materials": [
+        "mat_brass",
+        "mat_wood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Upright hexagonal wooden handle blank (14 mm circumradius, z 18-120 mm) on a smaller rotated hexagonal brass ferrule ring (10.5 mm circumradius, z 0-18 mm); solid, no bore."
+    },
+    {
+      "name": "prop-chisel-leather-washer-ce1",
+      "file": "fbx/prop-chisel-leather-washer-ce1.fbx",
+      "tris": 20,
+      "dims_xyz_m": [
+        0.026,
+        0.0225,
+        0.003
+      ],
+      "bbox_min": [
+        -0.013,
+        -0.0113,
+        0.0
+      ],
+      "materials": [
+        "mat_leather"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Thin hexagonal leather disc washer blank, 13 mm circumradius, 3 mm thick; solid disc (no hole)."
+    }
+  ]
+}

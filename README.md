@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **204** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **206** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -67,6 +67,7 @@ The `packs/` folder contains **204** CC0-licensed medieval prop packs. Each pack
 | `openkit-cartwright-props-b1` | Cartwright workshop props |
 | `openkit-chain-maker-props-b1` | Chain-maker workshop props |
 | `openkit-chalk-line-maker-props-b1` | Chalk-line maker workshop props |
+| `openkit-chisel-extras-b1` | Carpenter-chisel extras: bench chisel blade blank, firmer chisel blade blank, hex handle with brass ferrule, leather washer |
 | `openkit-clockmaker-props-b1` | Clockmaker workshop props |
 | `openkit-cobbler-props-b1` | Cobbler/shoemaker props |
 | `openkit-comb-maker-props-b1` | Comb-maker workshop props |
@@ -77,6 +78,7 @@ The `packs/` folder contains **204** CC0-licensed medieval prop packs. Each pack
 | `openkit-dock-harbor-b1` | Dock and harbor props |
 | `openkit-doors-windows-b1` | Doors and windows |
 | `openkit-dovetail-marker-props-b1` | Dovetail layout props |
+| `openkit-drawknife-extras-b1` | Drawknife workshop extras: blade blank, handle blank, ferrule ring, tang pin |
 | `openkit-drum-maker-props-b1` | Drum-maker workshop props |
 | `openkit-dungeon-clutter-b1` | Dungeon debris and clutter |
 | `openkit-embroiderer-props-b1` | Embroiderer workshop props |
