@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **114** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **116** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -31,6 +31,7 @@ The `packs/` folder contains **114** CC0-licensed medieval prop packs. Each pack
 | `openkit-apothecary-props-b1` | Apothecary workshop props |
 | `openkit-archery-range-b1` | Archery targets and training props |
 | `openkit-baker-props-b1` | Bakery props |
+| `openkit-barber-props-b1` | Barber workshop props |
 | `openkit-barrel-chest-b1` | Barrels, chests, and storage containers |
 | `openkit-bathhouse-props-b1` | Bathhouse furniture and accessories |
 | `openkit-beekeeper-props-b1` | Beekeeping equipment |
@@ -73,6 +74,7 @@ The `packs/` folder contains **114** CC0-licensed medieval prop packs. Each pack
 | `openkit-icons-inventory-b1` | Inventory icons |
 | `openkit-ink-maker-props-b1` | Ink-maker workshop props |
 | `openkit-kitchen-props-b1` | Kitchen furniture and utensils |
+| `openkit-lastmaker-props-b1` | Last-maker workshop props |
 | `openkit-laundry-props-b1` | Laundry and washhouse props |
 | `openkit-library-props-b1` | Library furniture and books |
 | `openkit-lime-burner-props-b1` | Lime burner workshop props |
