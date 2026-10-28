@@ -1,0 +1,111 @@
+{
+ "pack": "openkit-laundry-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "No openkit-laundry pack. No washboard/clothes-prop/flat-iron/laundry/washhouse in any openkit-*/fbx. Nearby: soap-maker prop-lye-pot (ceramic pot), basket-weaver prop-soaking-tub-small (wicker soak tub) - not cloned.",
+ "judgment_calls": [
+  "Lye tub = coopered 8-stave bucking tub with drain bung + lugs, tris cut 332->172 (1 hoop, 8 seg)",
+  "Clothes prop v2: fork tines flipped to diverge (v1 read as arrowhead)",
+  "Washboard all-wood ribbed (period, no zinc)"
+ ],
+ "assets": [
+  {
+   "name": "prop-washboard-blank",
+   "tris": 132,
+   "dims_xyz_m": [
+    0.33,
+    0.03,
+    0.6
+   ],
+   "bbox_min": [
+    -0.165,
+    -0.015,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Wood_Pale"
+   ],
+   "height_m": 0.6,
+   "pivot": "standing / bottom_centre (0,0,0); 60 cm all-wood washboard blank: two stiles as feet, top/bottom rails, 7 horizontal rubbing ribs; lay flat by rotating 90 deg X"
+  },
+  {
+   "name": "prop-lye-tub-small",
+   "tris": 172,
+   "dims_xyz_m": [
+    0.48,
+    0.49,
+    0.41
+   ],
+   "bbox_min": [
+    -0.24,
+    -0.245,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron_Forged",
+    "M_Iron_Dark"
+   ],
+   "height_m": 0.41,
+   "pivot": "bottom_centre (0,0,0); 48 cm open coopered wash/lye (bucking) tub: tapered staves, iron hoop, low drain bung for lye run-off, two lug handles; not a ceramic lye pot or wicker soaking tub"
+  },
+  {
+   "name": "prop-clothes-prop-blank",
+   "tris": 36,
+   "dims_xyz_m": [
+    1.74,
+    0.168,
+    0.04
+   ],
+   "bbox_min": [
+    -0.87,
+    -0.084,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak"
+   ],
+   "height_m": 0.04,
+   "pivot": "laid / bottom_centre (0,0,0); 1.75 m forked clothes prop (drying-line pole) blank, Y-fork at +X end; stand it by rotating 90 deg Y"
+  },
+  {
+   "name": "prop-iron-flat-blank",
+   "tris": 48,
+   "dims_xyz_m": [
+    0.15,
+    0.08,
+    0.095
+   ],
+   "bbox_min": [
+    -0.075,
+    -0.04,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron_Forged"
+   ],
+   "height_m": 0.095,
+   "pivot": "bottom_centre (0,0,0); 15 cm sadiron blank: tapered iron sole, two cast posts, wooden grip; sole down"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-clothes-prop-blank.fbx",
+  "fbx/prop-iron-flat-blank.fbx",
+  "fbx/prop-lye-tub-small.fbx",
+  "fbx/prop-washboard-blank.fbx",
+  "tex/T_Iron_Forged_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png",
+  "tex/T_Wood_Pale_BaseColor.png"
+ ]
+}
