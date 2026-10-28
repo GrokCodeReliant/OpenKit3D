@@ -1,0 +1,131 @@
+{
+  "pack": "openkit-butcher-props-b1",
+  "license": "CC0-1.0",
+  "units": "1 m",
+  "up": "Z (Blender) / Y (FBX)",
+  "materials_mode": "slots-only (no embedded/linked textures; FBX path_mode STRIP; image datablocks removed before export)",
+  "max_tris": 210,
+  "renames": {
+    "prop-cleaver": "prop-cleaver-bt1"
+  },
+  "collision_check": "prop-cleaver exists in openkit-dnd (2D, passed/prop-cleaver.png, SCREEN_LOG PASS) and OpenKit CATALOG.md (all 5 copies) -> suffixed -bt1. prop-butcher-block, prop-meat-hook-rail, prop-hanging-ham: no hits in okm4, openkit-dnd, studio/art/openkit-*/fbx or any CATALOG.md. Near-names: prop-hook-wall, prop-ladle-hook (studio packs), kitchen prop-cutting-board -- different ids/objects. Clear of tile-dojo-*, WPN_*/B01, practice-banner, wall-dress clones.",
+  "judgment_calls": [
+    "prop-hanging-ham: close to food props; kept as stylized cured teardrop ham (single M_Ham_Cured slot, no bone/blood/flesh detail), bound with twine on an iron hook -- PG",
+    "prop-meat-hook-rail vs prop-hook-wall: this is a horizontal iron rail on an oak board with 3 empty hanging S-hooks (butcher hang rail), not single wall pegs; vs prop-ladle-hook: no utensils",
+    "prop-cleaver-bt1: forced rename (2D prop-cleaver in openkit-dnd/CATALOG); heavy rectangular 0.20x0.11 m blade, thicker and squarer than the kitchen knife on prop-cutting-board",
+    "prop-butcher-block: 0.70 m tall x 0.64 m dia end-grain stump with dished worn top + score strip, reads as a stump, not a thin board",
+    "S-hooks simplified to vertical shank + angled curl (2 boxes each) to stay at 120 tris",
+    ".blend holds only the last built object (same as candlemaker pattern); src/build.py regenerates all"
+  ],
+  "assets": [
+    {
+      "name": "prop-cleaver-bt1",
+      "tris": 48,
+      "dims_xyz_m": [
+        0.35,
+        0.11,
+        0.022
+      ],
+      "bbox_min": [
+        -0.2,
+        -0.055,
+        0.0
+      ],
+      "materials": [
+        "M_Iron",
+        "M_Wood_Dark"
+      ],
+      "height_m": 0.022,
+      "pivot": "bottom_centre (0,0,0) on floor; heavy 0.20x0.11x0.01 m rectangular cleaver blade laid flat, blade toward +X, wood handle toward -X",
+      "fbx": "fbx/prop-cleaver-bt1.fbx",
+      "render": "renders/prop-cleaver-bt1.png",
+      "sha256": "2a486bf1dc2fda8774ec68501906eaf92fe89c1dc8414c87d450fa77e413909c"
+    },
+    {
+      "name": "prop-butcher-block",
+      "tris": 132,
+      "dims_xyz_m": [
+        0.64,
+        0.64,
+        0.702
+      ],
+      "bbox_min": [
+        -0.32,
+        -0.32,
+        0.0
+      ],
+      "materials": [
+        "M_Wood_Oak",
+        "M_Wood_Dark"
+      ],
+      "height_m": 0.7,
+      "pivot": "bottom_centre (0,0,0) on floor; 0.64 m dia x 0.70 m tall end-grain stump block with slightly dished worn top",
+      "fbx": "fbx/prop-butcher-block.fbx",
+      "render": "renders/prop-butcher-block.png",
+      "sha256": "8ebdbf05dedad340a556acc243807732e0edc2b1a5c624f22cb372ea971179b0"
+    },
+    {
+      "name": "prop-meat-hook-rail",
+      "tris": 120,
+      "dims_xyz_m": [
+        0.62,
+        0.09,
+        0.186
+      ],
+      "bbox_min": [
+        -0.31,
+        -0.09,
+        -0.146
+      ],
+      "materials": [
+        "M_Wood_Dark",
+        "M_Iron"
+      ],
+      "height_m": 0.21,
+      "pivot": "wall_back (0,0,0) = centre of back face against wall (XZ plane), protrudes toward -Y; 0.62 m oak board, iron rail with 3 empty S-hooks",
+      "fbx": "fbx/prop-meat-hook-rail.fbx",
+      "render": "renders/prop-meat-hook-rail.png",
+      "sha256": "80e10ac0e5e183dfe03f85944f77ac016535ccfd4326fbfd2fd4ee5642c2a09e"
+    },
+    {
+      "name": "prop-hanging-ham",
+      "tris": 116,
+      "dims_xyz_m": [
+        0.26,
+        0.26,
+        0.58
+      ],
+      "bbox_min": [
+        -0.13,
+        -0.13,
+        -0.58
+      ],
+      "materials": [
+        "M_Ham_Cured",
+        "M_Iron",
+        "M_Twine"
+      ],
+      "height_m": 0.58,
+      "pivot": "top_centre (0,0,0) at top of hook eye; hangs down -Z; stylized cured ham (teardrop, shank up) 0.26 m wide, bound with twine on an iron hook",
+      "fbx": "fbx/prop-hanging-ham.fbx",
+      "render": "renders/prop-hanging-ham.png",
+      "sha256": "90c23eef3bec6db6b0bd39ddf1fc7cae9df890ac53f4d91794eeae006c4561ad"
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-butcher-block.fbx",
+    "fbx/prop-cleaver-bt1.fbx",
+    "fbx/prop-hanging-ham.fbx",
+    "fbx/prop-meat-hook-rail.fbx",
+    "tex/T_Ham_Cured_BaseColor.png",
+    "tex/T_Iron_BaseColor.png",
+    "tex/T_Twine_BaseColor.png",
+    "tex/T_Wood_Dark_BaseColor.png",
+    "tex/T_Wood_Oak_BaseColor.png"
+  ]
+}
