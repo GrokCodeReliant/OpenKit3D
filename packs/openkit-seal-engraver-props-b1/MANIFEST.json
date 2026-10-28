@@ -1,0 +1,130 @@
+{
+ "pack": "openkit-seal-engraver-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "Searched 195 openkit-*/fbx for seal|wax|matrix|graver|burin|sanding|signet|handle-blank|punch|spoon. Near-misses: prop-sealing-wax-stick (scribe pack, finished stick), prop-wax-block-stack, various punch dies, spoon-carver pack. No seal-engraver pack, no matrix/graver/burin/sanding ids; no suffix needed (prop-graver-set used without -se1).",
+ "judgment_calls": [
+  "Wax blank = rough untrimmed cast bar + poured cake puddle on slate cooling tile, no wick/label/taper, differs from finished sealing-wax-stick",
+  "Matrix blanks have smooth uncut faces (brass disc + bone cylinder) on a holding block: no device/heraldry",
+  "Graver set: two burins on low tray; shaft lowered 0.5 mm after v1 eye-check so it rests on tray floor",
+  "Sanding pad: leather-faced lapping block with grit smear + pumice lump touching pad side",
+  "Eye-check v2 contact sheet: all parts grounded, no floating parts"
+ ],
+ "assets": [
+  {
+   "name": "prop-seal-blank-wax",
+   "tris": 52,
+   "dims_xyz_m": [
+    0.14,
+    0.08,
+    0.026
+   ],
+   "bbox_min": [
+    -0.07,
+    -0.04,
+    0.0
+   ],
+   "materials": [
+    "M_Slate",
+    "M_Wax_Red"
+   ],
+   "height_m": 0.026,
+   "pivot": "laid / bottom_centre (0,0,0); 14x8 cm slate cooling tile with one rough-cast untrimmed red wax bar (7.5 cm, no wick/label/taper) and one poured wax cake puddle; raw blanks, not a finished sealing-wax stick",
+   "fbx_sha256": "bf49360da3de7e58898f8683e6496bd80d8fcbf1d5d5a15cfcb2dfc5a3d51524"
+  },
+  {
+   "name": "prop-matrix-blank",
+   "tris": 76,
+   "dims_xyz_m": [
+    0.09,
+    0.06,
+    0.042
+   ],
+   "bbox_min": [
+    -0.045,
+    -0.03,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Brass",
+    "M_Bone"
+   ],
+   "height_m": 0.042,
+   "pivot": "bottom_centre (0,0,0); 9x6 cm wooden block holding an uncut brass disc matrix blank (3.2 cm) and a plain tapered bone cylinder blank (3.6 cm); faces smooth, no carved device",
+   "fbx_sha256": "fa188da8a518e466dd2d81d2f4f55e423751066af32f1fb4a022234158af1c0a"
+  },
+  {
+   "name": "prop-graver-set",
+   "tris": 100,
+   "dims_xyz_m": [
+    0.16,
+    0.07,
+    0.026
+   ],
+   "bbox_min": [
+    -0.08,
+    -0.035,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Boxwood",
+    "M_Steel"
+   ],
+   "height_m": 0.026,
+   "pivot": "laid / bottom_centre (0,0,0); 16x7 cm low wooden tray with two burins (mushroom boxwood handles, 9.5 cm steel shafts) lying on the floor",
+   "fbx_sha256": "f00832d8b17c7b21fa08c6456dcb18eef899b228ab0efd8fe0cf7c5ef19d9674"
+  },
+  {
+   "name": "prop-sanding-pad",
+   "tris": 48,
+   "dims_xyz_m": [
+    0.16,
+    0.08,
+    0.027
+   ],
+   "bbox_min": [
+    -0.08,
+    -0.04,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Leather",
+    "M_Grit",
+    "M_Pumice"
+   ],
+   "height_m": 0.027,
+   "pivot": "laid / bottom_centre (0,0,0); 12x8 cm wooden lapping block with leather polishing face and grit smear, loose pumice lump beside it (touching the ground plane)",
+   "fbx_sha256": "8047cec01c9688af4a8d1d61527ab41a6b48c61c40dda5a1075e0866f99b4484"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-graver-set.fbx",
+  "fbx/prop-matrix-blank.fbx",
+  "fbx/prop-sanding-pad.fbx",
+  "fbx/prop-seal-blank-wax.fbx",
+  "tex/T_Bone_BaseColor.png",
+  "tex/T_Boxwood_BaseColor.png",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Grit_BaseColor.png",
+  "tex/T_Leather_BaseColor.png",
+  "tex/T_Pumice_BaseColor.png",
+  "tex/T_Slate_BaseColor.png",
+  "tex/T_Steel_BaseColor.png",
+  "tex/T_Wax_Red_BaseColor.png",
+  "tex/T_Wood_Ash_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "All ten BaseColor PNGs ship pack-local in tex/. None is byte-identical to any sibling openkit-*-props-b1 pack. T_Bone, T_Boxwood, T_Brass, T_Leather, T_Pumice, T_Steel, T_Wax_Red and T_Wood_Ash are name-clash only with other Open Kit packs (different bytes); T_Grit and T_Slate are unique. FBX carry material slots only; Unity maps textures by material slot."
+}

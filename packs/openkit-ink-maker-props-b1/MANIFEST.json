@@ -1,0 +1,128 @@
+{
+ "pack": "openkit-ink-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-mixing-pestle-im1": "suffix kept: prop-mortar-pestle exists in openkit-alchemy-props-b1"
+ },
+ "collision_check": "Searched 193 openkit-*/fbx for ink|gall|pestle|mortar|stick|gum|vitriol|strainer|pot|jar|bottle. Near-misses: prop-mortar-pestle (alchemy, mortar+pestle set), prop-inkwell-quill (library, finished inkwell w/ quill), prop-ink-horn-blank (quill-maker, horn inkhorn), prop-sealing-wax-stick (scribe/seal wax), prop-glue-pot-small, prop-lye-pot, prop-pot-unfired. No gall, ink-cake, or ink-maker pack.",
+ "judgment_calls": [
+  "Gall pot is a wide-mouth unglazed stoneware steeping crock with visible ink surface and stir stick resting on rim (touching, not floating); distinct from library inkwell and quill-maker ink horn",
+  "Galls are 20-tri icospheres (two darker dried) resting on tray floor",
+  "Ink stick blanks are plain chamfered soot bars on a drying board, unstamped/ungilded = process blank",
+  "Pestle only (no mortar) to avoid cloning alchemy mortar-pestle; ink-stained head; round section laid along X",
+  "Renders use material colours (Workbench MATERIAL) rather than single object colour",
+  "Eye-check v1 contact sheet: no floating parts, stick sits on rim, galls grounded, bars on board; no fixes needed"
+ ],
+ "assets": [
+  {
+   "name": "prop-ink-gall-pot",
+   "tris": 152,
+   "dims_xyz_m": [
+    0.198,
+    0.137,
+    0.147
+   ],
+   "bbox_min": [
+    -0.099,
+    -0.068,
+    0.0
+   ],
+   "materials": [
+    "M_Clay",
+    "M_Ink",
+    "M_Wood_Ash"
+   ],
+   "height_m": 0.147,
+   "pivot": "bottom_centre (0,0,0); ~14 cm unglazed rough stoneware working pot, wide mouth, half-full of steeping gall ink, wooden stirring stick laid across rim; not a corked/glass ink bottle",
+   "fbx_sha256": "d3d503cd606acdd26fd52a754c7838baf104ac50a4e43bf31f9c6d90e3b2dac1"
+  },
+  {
+   "name": "prop-oak-gall-tray",
+   "tris": 180,
+   "dims_xyz_m": [
+    0.3,
+    0.2,
+    0.05
+   ],
+   "bbox_min": [
+    -0.15,
+    -0.1,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Gall",
+    "M_Gall_Dry"
+   ],
+   "height_m": 0.05,
+   "pivot": "bottom_centre (0,0,0); 30x20x5 cm shallow board tray, 6 round oak galls (two darker/dried) resting on floor of tray",
+   "fbx_sha256": "bde94091581fb545591b6caf82fe3ff169c621f0c94dca5f71bee5e746cd1500"
+  },
+  {
+   "name": "prop-ink-stick-blank",
+   "tris": 100,
+   "dims_xyz_m": [
+    0.16,
+    0.09,
+    0.024
+   ],
+   "bbox_min": [
+    -0.08,
+    -0.045,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Soot"
+   ],
+   "height_m": 0.024,
+   "pivot": "laid / bottom_centre (0,0,0); 16x9 cm drying board with two unstamped soot-and-glue ink cake blanks (10 cm + 7 cm), plain chamfered bars, no gilding/carving",
+   "fbx_sha256": "4e72429f2f24f19e53c5221797ccfcaf407bec4b9378850df213628672d655f0"
+  },
+  {
+   "name": "prop-mixing-pestle-im1",
+   "tris": 80,
+   "dims_xyz_m": [
+    0.23,
+    0.048,
+    0.048
+   ],
+   "bbox_min": [
+    -0.115,
+    -0.024,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Wood_InkStained"
+   ],
+   "height_m": 0.048,
+   "pivot": "laid / bottom_centre (0,0,0); 23 cm turned boxwood mixing pestle lying along X, club head ink-stained; no mortar (alchemy pack has mortar-pestle)",
+   "fbx_sha256": "7d262a623affb94dc8de60d938211a80164de912ddc2d88278aab733f02fdc0b"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-ink-gall-pot.fbx",
+  "fbx/prop-ink-stick-blank.fbx",
+  "fbx/prop-mixing-pestle-im1.fbx",
+  "fbx/prop-oak-gall-tray.fbx",
+  "tex/T_Clay_BaseColor.png",
+  "tex/T_Gall_BaseColor.png",
+  "tex/T_Gall_Dry_BaseColor.png",
+  "tex/T_Ink_BaseColor.png",
+  "tex/T_Soot_BaseColor.png",
+  "tex/T_Wood_Ash_BaseColor.png",
+  "tex/T_Wood_InkStained_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "All seven BaseColor PNGs ship pack-local in tex/. None is byte-identical to any sibling openkit-*-props-b1 pack. T_Clay_BaseColor.png, T_Soot_BaseColor.png and T_Wood_Ash_BaseColor.png are name-clash only with other Open Kit packs (different bytes); T_Gall, T_Gall_Dry, T_Ink and T_Wood_InkStained are unique. FBX carry material slots only; Unity maps textures by material slot."
+}

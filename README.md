@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains 94 CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains 96 CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -64,6 +64,7 @@ The `packs/` folder contains 94 CC0-licensed medieval prop packs. Each pack incl
 | `openkit-helm-maker-props-b1` | Helm-maker workshop props |
 | `openkit-horn-worker-props-b1` | Horn-worker workshop props |
 | `openkit-icons-inventory-b1` | Inventory icons |
+| `openkit-ink-maker-props-b1` | Ink-maker workshop props |
 | `openkit-kitchen-props-b1` | Kitchen furniture and utensils |
 | `openkit-library-props-b1` | Library furniture and books |
 | `openkit-lime-burner-props-b1` | Lime burner workshop props |
@@ -85,6 +86,7 @@ The `packs/` folder contains 94 CC0-licensed medieval prop packs. Each pack incl
 | `openkit-roof-tiles-b1` | Roof tiles and materials |
 | `openkit-rushlight-maker-props-b1` | Rushlight-maker workshop props |
 | `openkit-scabbard-maker-props-b1` | Scabbard-maker workshop props |
+| `openkit-seal-engraver-props-b1` | Seal-engraver workshop props |
 | `openkit-shield-maker-props-b1` | Shield-maker workshop props |
 | `openkit-shop-wall-b1` | Shop wall decorations |
 | `openkit-sign-post-b1` | Signs and posts |
