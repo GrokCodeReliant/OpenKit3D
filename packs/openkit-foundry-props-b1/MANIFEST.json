@@ -1,0 +1,124 @@
+{
+ "pack": "openkit-foundry-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-crucible-blank": "prop-crucible-blank-fd1 (as specified)"
+ },
+ "collision_check": "No openkit-foundry/sailmaker/turner/brushmaker/painter/bellfounder packs. No crucible/flask-mold/slag/foundry/casting in any openkit-*/fbx. Nearest: prop-ladle-hook (different object).",
+ "judgment_calls": [
+  "Crucible lathe 10 seg, 152 tris",
+  "Ladle empty, no molten metal (PG/neutral)",
+  "Flask = drag half with sand + pattern impression",
+  "Slag tray uses cooled lumps + sprue runner scrap",
+  "Flask pins moved onto frame top after eye-check v1 (were floating)"
+ ],
+ "assets": [
+  {
+   "name": "prop-crucible-blank-fd1",
+   "tris": 152,
+   "dims_xyz_m": [
+    0.248,
+    0.219,
+    0.22
+   ],
+   "bbox_min": [
+    -0.124,
+    -0.109,
+    0.0
+   ],
+   "materials": [
+    "M_Clay_Graphite",
+    "M_Iron_Forged",
+    "M_Iron_Dark"
+   ],
+   "height_m": 0.22,
+   "pivot": "bottom_centre (0,0,0); 22 cm clay-graphite crucible blank, tapered pot with thick base, open mouth and small pour lip; empty, unfired-look"
+  },
+  {
+   "name": "prop-ladle-pour-blank",
+   "tris": 136,
+   "dims_xyz_m": [
+    1.27,
+    0.36,
+    0.109
+   ],
+   "bbox_min": [
+    -0.635,
+    -0.18,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron_Forged",
+    "M_Iron_Dark"
+   ],
+   "height_m": 0.1,
+   "pivot": "laid / bottom_centre (0,0,0); ~1.25 m two-man pouring ladle blank resting level: wrought-iron bowl, long shank, cross carry bar, wooden end grip, prop foot; empty"
+  },
+  {
+   "name": "prop-flask-mold-half",
+   "tris": 140,
+   "dims_xyz_m": [
+    0.57,
+    0.43,
+    0.15
+   ],
+   "bbox_min": [
+    -0.285,
+    -0.215,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron_Forged",
+    "M_Iron_Dark",
+    "M_Moulding_Sand",
+    "M_Slag_Soot"
+   ],
+   "height_m": 0.15,
+   "pivot": "bottom_centre (0,0,0); 43 cm square wooden sand-flask half (drag) packed with moulding sand, iron lugs and alignment pins, dark pattern impression and sprue mark"
+  },
+  {
+   "name": "prop-slag-tray",
+   "tris": 168,
+   "dims_xyz_m": [
+    0.57,
+    0.32,
+    0.075
+   ],
+   "bbox_min": [
+    -0.285,
+    -0.16,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron_Forged",
+    "M_Iron_Dark",
+    "M_Slag_Soot"
+   ],
+   "height_m": 0.075,
+   "pivot": "bottom_centre (0,0,0); 50 cm iron scrap tray with handles holding cooled slag lumps and a cut-off sprue/runner piece for remelt"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-crucible-blank-fd1.fbx",
+  "fbx/prop-flask-mold-half.fbx",
+  "fbx/prop-ladle-pour-blank.fbx",
+  "fbx/prop-slag-tray.fbx",
+  "tex/T_Clay_Graphite_BaseColor.png",
+  "tex/T_Iron_Forged_BaseColor.png",
+  "tex/T_Moulding_Sand_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "materials_note": "M_Iron_Dark and M_Slag_Soot are flat-colour (no tex)."
+}

@@ -1,0 +1,117 @@
+{
+ "pack": "openkit-sawyer-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "No openkit-sawyer pack. No pit-saw/chalk-line/timber-dog/barking-spud/sawyer in any openkit-*/fbx. Nearby: prop-hand-saw, prop-sawhorse (carpenter), prop-tooth-saw-cbm1, prop-bark-shaving-pile - not cloned.",
+ "judgment_calls": [
+  "Pit saw = untoothed blade blank + tiller + loose box handle, laid; ~1.94 m, distinct from carpenter hand-saw",
+  "Chalk reel seg 10->8: 208->176 tris",
+  "Timber dogs = 3 staple-form log dogs laid spikes-up",
+  "Barking spud blade unground (PG tool blank)"
+ ],
+ "assets": [
+  {
+   "name": "prop-pit-saw-blank",
+   "tris": 60,
+   "dims_xyz_m": [
+    1.94,
+    0.5,
+    0.05
+   ],
+   "bbox_min": [
+    -0.97,
+    -0.25,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron_Forged",
+    "M_Iron_Dark"
+   ],
+   "height_m": 0.05,
+   "pivot": "laid / bottom_centre (0,0,0); ~2.1 m two-man pit-saw blank laid flat: long untoothed iron blade slab tapering to the bottom end, oak top tiller cross-handle with iron strap, loose bottom box-handle blank; no teeth"
+  },
+  {
+   "name": "prop-chalk-line-reel",
+   "tris": 176,
+   "dims_xyz_m": [
+    0.275,
+    0.126,
+    0.08
+   ],
+   "bbox_min": [
+    -0.138,
+    -0.063,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron_Forged",
+    "M_Iron_Dark",
+    "M_Chalk_Cord"
+   ],
+   "height_m": 0.08,
+   "pivot": "bottom_centre (0,0,0); 12 cm flanged oak chalk-line reel standing upright with chalk-white cord, crank peg, paid-out cord and iron end hook"
+  },
+  {
+   "name": "prop-timber-dog-set",
+   "tris": 108,
+   "dims_xyz_m": [
+    0.424,
+    0.204,
+    0.08
+   ],
+   "bbox_min": [
+    -0.212,
+    -0.102,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron_Forged",
+    "M_Iron_Dark"
+   ],
+   "height_m": 0.08,
+   "pivot": "laid / bottom_centre (0,0,0); set of three 40 cm wrought-iron timber dogs (staple-shaped log dogs) laid side by side, pointed spike ends up"
+  },
+  {
+   "name": "prop-barking-spud-blank",
+   "tris": 44,
+   "dims_xyz_m": [
+    0.92,
+    0.1,
+    0.037
+   ],
+   "bbox_min": [
+    -0.46,
+    -0.05,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron_Forged",
+    "M_Iron_Dark"
+   ],
+   "height_m": 0.04,
+   "pivot": "laid / bottom_centre (0,0,0); ~95 cm barking spud blank: rough ash haft, iron socket, broad flat unground debarking blade; no edge"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-barking-spud-blank.fbx",
+  "fbx/prop-chalk-line-reel.fbx",
+  "fbx/prop-pit-saw-blank.fbx",
+  "fbx/prop-timber-dog-set.fbx",
+  "tex/T_Chalk_Cord_BaseColor.png",
+  "tex/T_Iron_Forged_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ]
+}
