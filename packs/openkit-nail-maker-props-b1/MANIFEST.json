@@ -1,0 +1,114 @@
+{
+ "pack": "openkit-nail-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "Searched openkit-*/fbx for nail|header|die|spike|tongs|anvil|rod|-nl1|-nm1: hits prop-nail-box, prop-tongs-st1, prop-anvil-fg1, prop-trenail-stack, rod props (pontil/fishing/sway). All 4 ids free.",
+ "judgment_calls": [
+  "Header die = flat bolster plate with 2 heading bosses + hardy lug, not a swage block",
+  "Nailer's anvil = small square stake in oak stump, not a horned forge anvil",
+  "Tongs 0.2 m, short flat jaws with nail-grip tip vs long forge tongs",
+  "Rod stack: 8 square 8 mm rods, cord-tied"
+ ],
+ "assets": [
+  {
+   "name": "prop-nail-header-die",
+   "tris": 92,
+   "dims_xyz_m": [
+    0.14,
+    0.12,
+    0.06
+   ],
+   "bbox_min": [
+    -0.07,
+    -0.045,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Soot"
+   ],
+   "height_m": 0.06,
+   "pivot": "bottom_centre (0,0,0); 0.14 m iron nail-heading bolster plate, two raised heading bosses along X, square bore mark, lug toward +Y"
+  },
+  {
+   "name": "prop-nail-blank-rod-stack",
+   "tris": 120,
+   "dims_xyz_m": [
+    0.52,
+    0.034,
+    0.026
+   ],
+   "bbox_min": [
+    -0.26,
+    -0.017,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Cord"
+   ],
+   "height_m": 0.026,
+   "pivot": "bottom_centre (0,0,0); bundle of 8 square 8 mm iron nail-rod blanks ~0.52 m along X, two cord ties"
+  },
+  {
+   "name": "prop-nail-anvil-block",
+   "tris": 64,
+   "dims_xyz_m": [
+    0.22,
+    0.22,
+    0.278
+   ],
+   "bbox_min": [
+    -0.11,
+    -0.11,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron"
+   ],
+   "height_m": 0.278,
+   "pivot": "bottom_centre (0,0,0); 0.22 m oak stump with 8 cm square nailer's stake set in top, small horn stub +X"
+  },
+  {
+   "name": "prop-tongs-nail-nl1",
+   "tris": 80,
+   "dims_xyz_m": [
+    0.196,
+    0.042,
+    0.014
+   ],
+   "bbox_min": [
+    -0.11,
+    -0.021,
+    0.0
+   ],
+   "materials": [
+    "M_Iron"
+   ],
+   "height_m": 0.014,
+   "pivot": "rivet projected to floor (0,0,0); 0.2 m short light nail tongs lying flat along X, jaws +X"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-nail-anvil-block.fbx",
+  "fbx/prop-nail-blank-rod-stack.fbx",
+  "fbx/prop-nail-header-die.fbx",
+  "fbx/prop-tongs-nail-nl1.fbx",
+  "tex/T_Cord_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Soot_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "tex/T_Cord, T_Iron, T_Soot, T_Wood_Oak BaseColor PNGs stay pack-local (not rewritten to shared pointers); unused T_Wood_Dark_BaseColor.png dropped from ship; FBX is slots-only, Unity maps textures by material slot"
+}

@@ -1,0 +1,119 @@
+{
+ "pack": "openkit-sieve-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-punch-awl": "prop-punch-awl-sv1 (suffix kept as briefed for disambiguation from cobbler/button/bodkin awls; base id was free)"
+ },
+ "collision_check": "Checked all studio/art/openkit-*/fbx for sieve|riddle|mesh|hair|punch|frame|rim|awl|hoop: no sieve/riddle/mesh/hair/rim ids exist; nearest hits prop-hoop-stack, prop-stretching-frame, prop-sewing-frame, prop-cobbler-awl, prop-button-awl-btm1, prop-bodkin-awl-bw1, prop-leather-punch-sd1, prop-chisel-punch-st1. All 4 ids free.",
+ "judgment_calls": [
+  "Hoops are 12/10-seg lathed annuli to stay <=140 tris",
+  "Unfinished frame: only 3.5 of strands strung at bottom face, iron clamp on loose strand, so it reads as WIP not a finished sieve",
+  "Hair-cloth roll is a solid cylinder + flat tail; weave left to optional texture",
+  "Flat/rolled items shifted so z-min=0"
+ ],
+ "assets": [
+  {
+   "name": "prop-mesh-rim-blank",
+   "tris": 120,
+   "dims_xyz_m": [
+    0.363,
+    0.352,
+    0.074
+   ],
+   "bbox_min": [
+    -0.176,
+    -0.176,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Cord"
+   ],
+   "height_m": 0.074,
+   "pivot": "bottom_centre (0,0,0) on floor/bench; ~0.37 m bare bent-wood sieve rim blank, open both sides, scarf lap tied with cord at +X"
+  },
+  {
+   "name": "prop-sieve-frame-unfinished",
+   "tris": 140,
+   "dims_xyz_m": [
+    0.312,
+    0.297,
+    0.06
+   ],
+   "bbox_min": [
+    -0.156,
+    -0.148,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Horsehair",
+    "M_Iron"
+   ],
+   "height_m": 0.06,
+   "pivot": "bottom_centre (0,0,0) on floor/bench; ~0.31 m sieve hoop with only 3 hair strands strung across the floor-level face, 4th half-strung and clamped; mostly empty"
+  },
+  {
+   "name": "prop-punch-awl-sv1",
+   "tris": 52,
+   "dims_xyz_m": [
+    0.18,
+    0.028,
+    0.024
+   ],
+   "bbox_min": [
+    -0.09,
+    -0.014,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Dark",
+    "M_Iron"
+   ],
+   "height_m": 0.024,
+   "pivot": "ferrule projected to floor (0,0,0); 0.18 m fine square-shank punch awl lying flat along X, point +X, short turned handle -X"
+  },
+  {
+   "name": "prop-hair-cloth-roll",
+   "tris": 112,
+   "dims_xyz_m": [
+    0.32,
+    0.228,
+    0.096
+   ],
+   "bbox_min": [
+    -0.16,
+    -0.18,
+    0.0
+   ],
+   "materials": [
+    "M_Horsehair",
+    "M_Cord"
+   ],
+   "height_m": 0.096,
+   "pivot": "bottom_centre (0,0,0) under roll axis; 0.32 m roll of woven horsehair sieve cloth along X, two twine ties, flat tail unrolled toward -Y"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-hair-cloth-roll.fbx",
+  "fbx/prop-mesh-rim-blank.fbx",
+  "fbx/prop-punch-awl-sv1.fbx",
+  "fbx/prop-sieve-frame-unfinished.fbx",
+  "tex/T_Cord_BaseColor.png",
+  "tex/T_Horsehair_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "tex/ T_Cord, T_Wood_Dark, T_Wood_Oak, T_Iron kept pack-local (not rewritten to shared pointers even where byte-identical to other packs); T_Horsehair unique to this pack; Unity maps by material slot name."
+}
