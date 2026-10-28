@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains 61 CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains 63 CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -33,6 +33,7 @@ The `packs/` folder contains 61 CC0-licensed medieval prop packs. Each pack incl
 | `openkit-barrel-chest-b1` | Barrels, chests, and storage containers |
 | `openkit-bathhouse-props-b1` | Bathhouse furniture and accessories |
 | `openkit-beekeeper-props-b1` | Beekeeping equipment |
+| `openkit-bowyer-props-b1` | Bowyer workshop props |
 | `openkit-bridge-scaffold-b1` | Bridges and scaffolding |
 | `openkit-broom-maker-props-b1` | Broom/besom maker workshop props |
 | `openkit-butcher-props-b1` | Butcher shop props |
@@ -44,6 +45,7 @@ The `packs/` folder contains 61 CC0-licensed medieval prop packs. Each pack incl
 | `openkit-cobbler-props-b1` | Cobbler/shoemaker props |
 | `openkit-comb-maker-props-b1` | Comb-maker workshop props |
 | `openkit-cooper-props-b1` | Cooper (barrel-maker) props |
+| `openkit-crossbow-maker-props-b1` | Crossbow-maker workshop props |
 | `openkit-dock-harbor-b1` | Dock and harbor props |
 | `openkit-doors-windows-b1` | Doors and windows |
 | `openkit-dungeon-clutter-b1` | Dungeon debris and clutter |

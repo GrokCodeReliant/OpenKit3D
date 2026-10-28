@@ -1,0 +1,124 @@
+{
+ "pack": "openkit-crossbow-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only; FBX path_mode STRIP; images removed before export",
+ "max_tris": 210,
+ "renames": {
+  "prop-stirrup-iron": "prop-stirrup-iron-xb1 (pre-emptive -xb1 per brief; saddler has prop-stirrup-blank)"
+ },
+ "collision_check": "Checked studio/art/openkit-*/fbx for prod/nut/stirrup/tiller/crossbow/bolt: hits prop-produce-pile (substring 'prod'), prop-tillering-stick (bowyer), prop-stirrup-blank (saddler); no exact id collisions, no crossbow/bolt assets.",
+ "judgment_calls": [
+  "Prod is flat forged steel lath (late-medieval steel prod), no notches/string/bridle = blank, distinct from bowyer wooden stave billet",
+  "Nut is antler roller with waste stub, no notches/axle hole",
+  "Stirrup iron forged flat U lying on floor, not yet bent; unlike saddler riding stirrup arch",
+  "Tiller stock: oversize head with no prod mortise, scribed line instead of bolt groove; no trigger",
+  "Contact sheet eye-checked: all parts touch, nothing floating",
+  ".blend holds last built object; build.py regenerates all"
+ ],
+ "assets": [
+  {
+   "name": "prop-prod-blank",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.92,
+    0.052,
+    0.025
+   ],
+   "bbox_min": [
+    -0.46,
+    -0.026,
+    0.0
+   ],
+   "materials": [
+    "M_Steel_Raw",
+    "M_Forge_Scale",
+    "M_Chalk"
+   ],
+   "height_m": 0.025,
+   "pivot": "bottom_centre (0,0,0) under lath, lying along X; 0.92 m flat forged steel prod/lath blank, drawn limbs, untrimmed scaled tips, chalk centre mark; no string notches, no bridle, no string"
+  },
+  {
+   "name": "prop-nut-blank",
+   "tris": 52,
+   "dims_xyz_m": [
+    0.045,
+    0.032,
+    0.04
+   ],
+   "bbox_min": [
+    -0.023,
+    -0.016,
+    0.0
+   ],
+   "materials": [
+    "M_Antler",
+    "M_Antler_Pale"
+   ],
+   "height_m": 0.04,
+   "pivot": "bottom_centre (0,0,0) under roller+waste stub; 0.05 m turned antler rolling-nut blank, axis Y, sawn top flat, waste stub; no string/sear notches, no axle hole"
+  },
+  {
+   "name": "prop-stirrup-iron-xb1",
+   "tris": 60,
+   "dims_xyz_m": [
+    0.261,
+    0.148,
+    0.01
+   ],
+   "bbox_min": [
+    -0.13,
+    -0.074,
+    0.0
+   ],
+   "materials": [
+    "M_Steel_Raw",
+    "M_Forge_Scale"
+   ],
+   "height_m": 0.01,
+   "pivot": "bottom_centre (0,0,0) under iron, lying flat; 0.25 m flat U crossbow cocking-stirrup forging, foot bar +X, undrilled rivet tabs -X; not bent up, not a riding stirrup"
+  },
+  {
+   "name": "prop-tiller-stock-blank",
+   "tris": 48,
+   "dims_xyz_m": [
+    0.816,
+    0.09,
+    0.112
+   ],
+   "bbox_min": [
+    -0.408,
+    -0.045,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Light",
+    "M_Wood_Dark",
+    "M_Chalk"
+   ],
+   "height_m": 0.112,
+   "pivot": "bottom_centre (0,0,0) under beam, lying along X (head +X); 0.81 m rough-sawn tiller/stock blank, oversize head block, roughed butt, scribed centre line; no prod, nut, trigger or groove cut"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-nut-blank.fbx",
+  "fbx/prop-prod-blank.fbx",
+  "fbx/prop-stirrup-iron-xb1.fbx",
+  "fbx/prop-tiller-stock-blank.fbx",
+  "tex/T_Antler_BaseColor.png",
+  "tex/T_Antler_Pale_BaseColor.png",
+  "tex/T_Chalk_BaseColor.png",
+  "tex/T_Forge_Scale_BaseColor.png",
+  "tex/T_Steel_Raw_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Light_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "tex/ all seven BaseColor PNGs (T_Antler, T_Antler_Pale, T_Chalk, T_Forge_Scale, T_Steel_Raw, T_Wood_Dark, T_Wood_Light) stay pack-local (not rewritten to shared pointers); name-clash only, no byte-identical shared with other packs per Veil; all seven used by a material slot; FBX is slots-only, Unity maps textures by material slot"
+}
