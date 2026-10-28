@@ -1,0 +1,116 @@
+{
+ "pack": "openkit-pewterer-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "No pewterer/feltmaker/silversmith/stringmaker/tinsmith/coppersmith packs existed. No fbx matched pewter/spoon-mold/ingot-tray/scrap-pewter. Near: foundry prop-ladle-pour-blank, prop-flask-mold-half; smith prop-scrap-iron-tray; prop-candle-mold, prop-soap-mold-tray.",
+ "judgment_calls": [
+  "Ingot tray=6 trapezoid pigs",
+  "Spoon mold=open two-part soapstone, empty cavities",
+  "Ladle=cast table-ladle product blank with sprue stub, not crucible pour ladle",
+  "Scrap tray=offcuts + 2 runner buttons",
+  "Eye-check v1 passed"
+ ],
+ "assets": [
+  {
+   "name": "prop-pewter-ingot-tray",
+   "tris": 204,
+   "dims_xyz_m": [
+    0.28,
+    0.18,
+    0.039
+   ],
+   "bbox_min": [
+    -0.14,
+    -0.09,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Pewter_Raw",
+    "M_Pewter_Dull"
+   ],
+   "height_m": 0.039,
+   "pivot": "bottom_centre (0,0,0); 28x18 cm ash board tray of six small trapezoid pewter ingots/pigs (raw stock; distinct from foundry/blacksmith iron and scrap trays)"
+  },
+  {
+   "name": "prop-spoon-mold-blank",
+   "tris": 96,
+   "dims_xyz_m": [
+    0.17,
+    0.201,
+    0.041
+   ],
+   "bbox_min": [
+    -0.085,
+    -0.101,
+    0.0
+   ],
+   "materials": [
+    "M_Soapstone",
+    "M_Soapstone_Dark",
+    "M_Pewter_Raw"
+   ],
+   "height_m": 0.042,
+   "pivot": "bottom_centre (0,0,0); laid open two-part soapstone spoon casting mold blank (bowl cavity + handle channel + pour gate), no spoon cast; distinct from spoon-carver finished wooden spoons and foundry flask-mold-half"
+  },
+  {
+   "name": "prop-ladle-pewter-blank",
+   "tris": 100,
+   "dims_xyz_m": [
+    0.088,
+    0.311,
+    0.056
+   ],
+   "bbox_min": [
+    -0.044,
+    -0.156,
+    0.0
+   ],
+   "materials": [
+    "M_Pewter_Raw",
+    "M_Pewter_Dull"
+   ],
+   "height_m": 0.056,
+   "pivot": "bottom_centre (0,0,0); laid 30 cm unfinished cast pewter table ladle with sprue stub still attached, unpolished; distinct from foundry prop-ladle-pour-blank (crucible pour ladle)"
+  },
+  {
+   "name": "prop-scrap-pewter-tray",
+   "tris": 208,
+   "dims_xyz_m": [
+    0.28,
+    0.18,
+    0.029
+   ],
+   "bbox_min": [
+    -0.14,
+    -0.09,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Pewter_Raw",
+    "M_Pewter_Dull"
+   ],
+   "height_m": 0.029,
+   "pivot": "bottom_centre (0,0,0); board tray of pewter offcuts, sprue sticks and two runner buttons for remelt; distinct from smith prop-scrap-iron-tray"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-ladle-pewter-blank.fbx",
+  "fbx/prop-pewter-ingot-tray.fbx",
+  "fbx/prop-scrap-pewter-tray.fbx",
+  "fbx/prop-spoon-mold-blank.fbx",
+  "tex/T_Pewter_Raw_BaseColor.png",
+  "tex/T_Soapstone_Raw_BaseColor.png",
+  "tex/T_Wood_Ash_BaseColor.png"
+ ]
+}

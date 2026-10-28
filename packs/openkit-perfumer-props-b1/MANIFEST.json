@@ -1,0 +1,120 @@
+{
+ "pack": "openkit-perfumer-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-still-blank": "prop-still-blank-pf1 (suffix per brief; alchemy has prop-alembic-simple)",
+  "prop-gum-tray": "prop-gum-tray-pf1 (suffix per brief)"
+ },
+ "collision_check": "No perfumer/pewterer/feltmaker/silversmith/stringmaker packs existed. Search for still/rose-petal/perfume-vial/gum-tray/perfumer/alembic in openkit-*/fbx: only alchemy prop-alembic-simple. Near: prop-potion-bottle, prop-jar-stopper-tray, prop-oak-gall-tray, prop-pigment-cake-tray.",
+ "judgment_calls": [
+  "Still = clay pot + copper cap + stub spout, no coil/receiver, to stay distinct from alchemy alembic",
+  "Petals = dried bed + scattered petals",
+  "Vials trimmed to 4 to hold <=210 tris",
+  "Gum = 6 amber lumps",
+  "Eye-check v1 passed"
+ ],
+ "assets": [
+  {
+   "name": "prop-still-blank-pf1",
+   "tris": 132,
+   "dims_xyz_m": [
+    0.218,
+    0.15,
+    0.2
+   ],
+   "bbox_min": [
+    -0.109,
+    -0.075,
+    0.0
+   ],
+   "materials": [
+    "M_Clay_Raw",
+    "M_Copper_Raw"
+   ],
+   "height_m": 0.2,
+   "pivot": "bottom_centre (0,0,0); 20 cm small perfumer's still blank: unglazed clay pot with plain copper head cap and straight spout stub, no coil/receiver (distinct from alchemy prop-alembic-simple)"
+  },
+  {
+   "name": "prop-rose-petal-tray",
+   "tris": 168,
+   "dims_xyz_m": [
+    0.26,
+    0.18,
+    0.029
+   ],
+   "bbox_min": [
+    -0.13,
+    -0.09,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Rose_Dried",
+    "M_Rose_Dark"
+   ],
+   "height_m": 0.029,
+   "pivot": "bottom_centre (0,0,0); 26x18 cm board tray of dried rose petals as flower stock (loose bed plus scattered petals; distinct from dyer/apothecary herb stock)"
+  },
+  {
+   "name": "prop-perfume-vial-blank",
+   "tris": 180,
+   "dims_xyz_m": [
+    0.26,
+    0.18,
+    0.075
+   ],
+   "bbox_min": [
+    -0.13,
+    -0.09,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Glass_Green",
+    "M_Clay_Bisque"
+   ],
+   "height_m": 0.075,
+   "pivot": "bottom_centre (0,0,0); board tray holding four unstoppered squat perfume vial blanks, alternating green glass and bisque clay (distinct from potion-bottle and jar-stopper-tray)"
+  },
+  {
+   "name": "prop-gum-tray-pf1",
+   "tris": 180,
+   "dims_xyz_m": [
+    0.26,
+    0.18,
+    0.036
+   ],
+   "bbox_min": [
+    -0.13,
+    -0.09,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Gum_Amber",
+    "M_Gum_Dark"
+   ],
+   "height_m": 0.036,
+   "pivot": "bottom_centre (0,0,0); board tray of six amber gum/resin lumps (frankincense/benzoin-style perfume stock; distinct from oak-gall and pigment-cake trays)"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-gum-tray-pf1.fbx",
+  "fbx/prop-perfume-vial-blank.fbx",
+  "fbx/prop-rose-petal-tray.fbx",
+  "fbx/prop-still-blank-pf1.fbx",
+  "tex/T_Clay_Raw_BaseColor.png",
+  "tex/T_Copper_Raw_BaseColor.png",
+  "tex/T_Gum_Amber_BaseColor.png",
+  "tex/T_Rose_Dried_BaseColor.png"
+ ]
+}
