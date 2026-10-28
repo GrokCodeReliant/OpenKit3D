@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **206** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **208** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -130,6 +130,7 @@ The `packs/` folder contains **206** CC0-licensed medieval prop packs. Each pack
 | `openkit-lute-maker-props-b1` | Lute-maker workshop props |
 | `openkit-mail-maker-props-b1` | Mail-maker workshop props |
 | `openkit-map-maker-props-b1` | Map-maker workshop props |
+| `openkit-marking-knife-props-b1` | CC0 Open Kit medieval-fantasy carpenter marking / striking knife blanks (4 props) |
 | `openkit-market-stall-b1` | Market stalls and vendor props |
 | `openkit-matmaker-props-b1` | Rush-mat maker workshop props |
 | `openkit-medieval-env-b1` | Medieval environment pieces |
@@ -163,6 +164,7 @@ The `packs/` folder contains **206** CC0-licensed medieval prop packs. Each pack
 | `openkit-quill-cutter-props-b1` | Quill-cutter workshop props |
 | `openkit-quill-maker-props-b1` | Quill/pen-maker workshop props |
 | `openkit-quiver-maker-props-b1` | Quiver-maker workshop props |
+| `openkit-rabbet-plane-props-b1` | CC0 Open Kit medieval-fantasy rabbet (rebate) plane blanks: body, iron, wedge, fence |
 | `openkit-roof-tiles-b1` | Roof tiles and materials |
 | `openkit-rope-splicer-props-b1` | Rope-splicer workshop props |
 | `openkit-router-plane-props-b1` | Router plane workshop props |
