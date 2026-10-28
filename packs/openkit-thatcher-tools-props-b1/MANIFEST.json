@@ -1,0 +1,123 @@
+{
+ "pack": "openkit-thatcher-tools-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "studio/art/openkit-*/fbx scanned for thatch|spar|legget|sway|needle|reed|yelm|eaves|hook|beetle: hits only tile-roof-thatch, tile-roof-thatch-ridge, prop-net-needle, various hooks; all 4 ids free, no -th1 suffix.",
+ "judgment_calls": [
+  "spars are straight split hazel lengths (unpointed, untwisted) bundled, not roof surface",
+  "needle 1.1 m incl. grip; eye marked by small dark slot box, not cut hole (tri budget)",
+  "legget is ribbed board face-down with angled handle; distinct from any mallet",
+  "sway rods round 6-seg 1.8 m on chocks; distinct from broom/willow bundles (no ties, rigid poles)",
+  "thatching needle pivot: bbox min z=0 at grip; shank floats ~1 cm, acceptable laid prop"
+ ],
+ "assets": [
+  {
+   "name": "prop-spar-bundle",
+   "tris": 132,
+   "dims_xyz_m": [
+    0.7,
+    0.09,
+    0.06
+   ],
+   "bbox_min": [
+    -0.35,
+    -0.045,
+    0.0
+   ],
+   "materials": [
+    "M_Hazel",
+    "M_Twine"
+   ],
+   "height_m": 0.058,
+   "pivot": "bottom_centre (0,0,0) on floor; lying 3-tier bundle of nine 0.70 m split hazel spars along X, two ties at x=+/-0.2 (loose straight spars, not twisted/pointed staples)",
+   "fbx_sha256": "4b9f1a2a96d459989adc7d3e0acb1c02b25eb0e02d7c6fff5d7dc495a20dacff"
+  },
+  {
+   "name": "prop-thatching-needle",
+   "tris": 50,
+   "dims_xyz_m": [
+    1.1,
+    0.032,
+    0.031
+   ],
+   "bbox_min": [
+    -0.59,
+    -0.016,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Wood_Dark",
+    "M_Soot"
+   ],
+   "height_m": 0.032,
+   "pivot": "bottom_centre of grip on floor (bbox min z=0); laid flat along X, 0.9 m iron needle with eye near point (+X), wooden grip at -X",
+   "fbx_sha256": "ab0f6dd12e6a162ee9f7a8273d0b84cc72675c96ca3b748b83759133a024c754"
+  },
+  {
+   "name": "prop-legget-beetle",
+   "tris": 84,
+   "dims_xyz_m": [
+    0.516,
+    0.22,
+    0.232
+   ],
+   "bbox_min": [
+    -0.13,
+    -0.11,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Wood_Dark"
+   ],
+   "height_m": 0.21,
+   "pivot": "bottom_centre of board on floor; ribbed 0.26x0.22 m wooden legget face down, handle angled up toward +X",
+   "fbx_sha256": "881cba7ad502228fb698192b737c82d2d8750081eceb151d510f367fdc79bbb3"
+  },
+  {
+   "name": "prop-sway-rod-stack",
+   "tris": 164,
+   "dims_xyz_m": [
+    1.8,
+    0.18,
+    0.058
+   ],
+   "bbox_min": [
+    -0.9,
+    -0.09,
+    0.0
+   ],
+   "materials": [
+    "M_Hazel",
+    "M_Wood_Dark"
+   ],
+   "height_m": 0.06,
+   "pivot": "bottom_centre (0,0,0) on floor; 2-tier stack of seven 1.8 m round hazel sway rods along X on two oak chocks",
+   "fbx_sha256": "bcd27871844bb3537ffd09fe50cf0661eebecb0364e9c4e4e4b5123861f2fd08"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-legget-beetle.fbx",
+  "fbx/prop-spar-bundle.fbx",
+  "fbx/prop-sway-rod-stack.fbx",
+  "fbx/prop-thatching-needle.fbx",
+  "tex/T_Hazel_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Soot_BaseColor.png",
+  "tex/T_Twine_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "T_Iron_BaseColor.png, T_Wood_Dark_BaseColor.png and T_Wood_Oak_BaseColor.png are byte-identical to shared copies in other Open Kit packs (T_Iron = soap-maker; Wood_Dark/Wood_Oak across packs); Unity may dedupe those three against shared pack copies (kept here so pack is self-contained). T_Twine is pack-local; T_Hazel/T_Soot unique."
+}
