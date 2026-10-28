@@ -1,0 +1,115 @@
+{
+  "pack": "openkit-bagpiper-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (scale 1.0)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "find <studio>/art -name prop-*.fbx: all 4 base names free; no -bp1 renames needed",
+  "judgment_calls": [
+    "Chanter finger-hole marks carried in BaseColor texture, not geometry, to stay at 76 tris",
+    "Drone 82 tris (2 over 80 preference) for telescoping ferrule step; under hard max 210",
+    "Bag necks are open-bottom raw cylinders embedded in the pouch",
+    "Textures are flat procedural BaseColor; FBX references none (path_mode STRIP)"
+  ],
+  "assets": [
+    {
+      "name": "prop-bagpipe-bag-blank",
+      "file": "fbx/prop-bagpipe-bag-blank.fbx",
+      "tris": 96,
+      "dims_xyz_m": [
+        0.3822,
+        0.2473,
+        0.12
+      ],
+      "bbox_min": [
+        -0.192,
+        -0.1236,
+        0.0
+      ],
+      "materials": [
+        "M_BagHide"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Unfinished hide bag blank: deflated pouch laid flat with two raw stock necks.",
+      "basecolor": "tex/prop-bagpipe-bag-blank_BaseColor.png"
+    },
+    {
+      "name": "prop-chanter-blank",
+      "file": "fbx/prop-chanter-blank.fbx",
+      "tris": 76,
+      "dims_xyz_m": [
+        0.068,
+        0.068,
+        0.34
+      ],
+      "bbox_min": [
+        -0.034,
+        -0.034,
+        0.0
+      ],
+      "materials": [
+        "M_ChanterWood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Turned chanter body blank: fat tapered tube with flared bell; finger-hole marks in texture.",
+      "basecolor": "tex/prop-chanter-blank_BaseColor.png"
+    },
+    {
+      "name": "prop-drone-pipe-blank",
+      "file": "fbx/prop-drone-pipe-blank.fbx",
+      "tris": 82,
+      "dims_xyz_m": [
+        0.042,
+        0.042,
+        0.5
+      ],
+      "bbox_min": [
+        -0.021,
+        -0.021,
+        0.0
+      ],
+      "materials": [
+        "M_DroneWood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Slender two-section drone joint blank with telescoping ferrule step.",
+      "basecolor": "tex/prop-drone-pipe-blank_BaseColor.png"
+    },
+    {
+      "name": "prop-bagpipe-stock-blank",
+      "file": "fbx/prop-bagpipe-stock-blank.fbx",
+      "tris": 56,
+      "dims_xyz_m": [
+        0.064,
+        0.0554,
+        0.085
+      ],
+      "bbox_min": [
+        -0.032,
+        -0.0277,
+        0.0
+      ],
+      "materials": [
+        "M_StockWood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Short turned flanged stock/socket blank that seats into the bag.",
+      "basecolor": "tex/prop-bagpipe-stock-blank_BaseColor.png"
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-bagpipe-bag-blank.fbx",
+    "fbx/prop-bagpipe-stock-blank.fbx",
+    "fbx/prop-chanter-blank.fbx",
+    "fbx/prop-drone-pipe-blank.fbx",
+    "tex/prop-bagpipe-bag-blank_BaseColor.png",
+    "tex/prop-bagpipe-stock-blank_BaseColor.png",
+    "tex/prop-chanter-blank_BaseColor.png",
+    "tex/prop-drone-pipe-blank_BaseColor.png"
+  ]
+}
