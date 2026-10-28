@@ -1,0 +1,132 @@
+{
+ "pack": "openkit-fletcher-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures; FBX path_mode STRIP; image datablocks removed before export)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "No hits for feather/shaft/glue/nock/fletch/sinew/arrowhead in studio/art/openkit-*/fbx; archery-range ids (target, arrow-crate, bow-rack, quiver-wall) not cloned.",
+ "judgment_calls": [
+  "Fletcher theme kept; no pivot needed",
+  "prop-feather-bundle laid flat along X, six vanes fanned around shaft axis, one twine tie; no quills modelled (tri budget)",
+  "prop-shaft-blank-stack: nine square-planed blanks 4/3/2 on two chocks, no tips/fletching, so distinct from filled arrow-crate; 132 tris (>120 pref)",
+  "prop-glue-pot-small: squat 8-seg clay hide-glue pot (open, amber surface) + brush, no lid/label so distinct from potion-bottle/kitchen jar; 128 tris",
+  "prop-nock-jig includes small iron nock saw and a blank in place for readability",
+  ".blend holds only last built object (pack pattern); src/build.py regenerates all"
+ ],
+ "assets": [
+  {
+   "name": "prop-feather-bundle",
+   "tris": 92,
+   "dims_xyz_m": [
+    0.32,
+    0.039,
+    0.038
+   ],
+   "bbox_min": [
+    -0.16,
+    -0.02,
+    0.0
+   ],
+   "materials": [
+    "M_Feather_Grey",
+    "M_Feather_White",
+    "M_Twine"
+   ],
+   "height_m": 0.038,
+   "pivot": "bottom_centre (0,0,0) under bundle, laid along X; 0.32 m tied bundle of six grey/white fletching feathers fanned around a twine tie near the quill end",
+   "fbx": "fbx/prop-feather-bundle.fbx",
+   "sha256": "001a38a74ef63b2fc098e7c17b6a95200cb5528df9116db0b030fdf03e91f71a"
+  },
+  {
+   "name": "prop-shaft-blank-stack",
+   "tris": 132,
+   "dims_xyz_m": [
+    0.76,
+    0.08,
+    0.042
+   ],
+   "bbox_min": [
+    -0.38,
+    -0.04,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Light",
+    "M_Wood_Dark"
+   ],
+   "height_m": 0.042,
+   "pivot": "bottom_centre (0,0,0) under stack, laid along X; 0.76 m nine unfinished square-planed shaft blanks (4/3/2 rows) on two chocks, no tips or fletching",
+   "fbx": "fbx/prop-shaft-blank-stack.fbx",
+   "sha256": "eb995fcd6d107d2d2103622ec4734a46782b2349b10f21dedae62eb4b7a8b3be"
+  },
+  {
+   "name": "prop-glue-pot-small",
+   "tris": 128,
+   "dims_xyz_m": [
+    0.094,
+    0.094,
+    0.162
+   ],
+   "bbox_min": [
+    -0.047,
+    -0.047,
+    0.0
+   ],
+   "materials": [
+    "M_Clay",
+    "M_Glue",
+    "M_Wood_Light",
+    "M_Bristle"
+   ],
+   "height_m": 0.162,
+   "pivot": "bottom_centre (0,0,0) under pot; 0.09 m dia squat clay hide-glue pot, amber glue, small brush leaning on rim",
+   "fbx": "fbx/prop-glue-pot-small.fbx",
+   "sha256": "51546db815c6291ac2f7eb04867c658d4e4275cde7f029cf20b5ca4243bdd799"
+  },
+  {
+   "name": "prop-nock-jig",
+   "tris": 84,
+   "dims_xyz_m": [
+    0.227,
+    0.07,
+    0.09
+   ],
+   "bbox_min": [
+    -0.114,
+    -0.035,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Dark",
+    "M_Wood_Light",
+    "M_Iron"
+   ],
+   "height_m": 0.09,
+   "pivot": "bottom_centre (0,0,0) under base; 0.18 m oak nock-cutting jig with V-rest, twin cheeks forming a saw slot, a shaft blank in place and small iron nock saw",
+   "fbx": "fbx/prop-nock-jig.fbx",
+   "sha256": "33a204529905780dcacaab13030da8e12436e6b1cdb0ea7711fbdf6c4bf111ec"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-feather-bundle.fbx",
+  "fbx/prop-glue-pot-small.fbx",
+  "fbx/prop-nock-jig.fbx",
+  "fbx/prop-shaft-blank-stack.fbx",
+  "tex/T_Bristle_BaseColor.png",
+  "tex/T_Clay_BaseColor.png",
+  "tex/T_Feather_Grey_BaseColor.png",
+  "tex/T_Feather_White_BaseColor.png",
+  "tex/T_Glue_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Twine_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Light_BaseColor.png"
+ ]
+}
