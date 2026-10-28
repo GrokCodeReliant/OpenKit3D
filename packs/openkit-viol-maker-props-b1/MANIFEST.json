@@ -1,0 +1,118 @@
+{
+  "pack": "openkit-viol-maker-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": {
+    "command": "find <studio>/art -name 'prop-*.fbx' | xargs -n1 basename | sort -u",
+    "result": "all 4 base names free; no -vm1 renames needed"
+  },
+  "judgment_calls": [
+    "C-holes as thin dark proud strips (no boolean cuts) to stay low-poly",
+    "Top kept flat (no arching) as a workshop blank; 124 tris, just over 120 preference, under 210 hard max",
+    "Bridge modelled standing upright (feet on z=0)",
+    "Tailpiece string holes as flat dark quads",
+    "Base name prop-tailpiece-blank used (no collision)"
+  ],
+  "assets": [
+    {
+      "name": "prop-viol-top-blank",
+      "tris": 124,
+      "dims_xyz_m": [
+        0.23,
+        0.48,
+        0.0135
+      ],
+      "bbox_min": [
+        -0.115,
+        -0.24,
+        0.0
+      ],
+      "materials": [
+        "mat_spruce_blank",
+        "mat_dark_mark"
+      ],
+      "file": "fbx/prop-viol-top-blank.fbx",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Flat spruce viol belly blank, sloping shoulders, C-bout waist, wide lower bout, two dark C-hole marks."
+    },
+    {
+      "name": "prop-fretted-neck-blank",
+      "tris": 96,
+      "dims_xyz_m": [
+        0.056,
+        0.36,
+        0.025
+      ],
+      "bbox_min": [
+        -0.028,
+        -0.18,
+        0.0
+      ],
+      "materials": [
+        "mat_maple_blank",
+        "mat_gut_fret"
+      ],
+      "file": "fbx/prop-fretted-neck-blank.fbx",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Tapered maple viol neck/fingerboard blank with 7 raised gut-fret ridges."
+    },
+    {
+      "name": "prop-viol-bridge-blank",
+      "tris": 52,
+      "dims_xyz_m": [
+        0.09,
+        0.006,
+        0.066
+      ],
+      "bbox_min": [
+        -0.045,
+        -0.003,
+        0.0
+      ],
+      "materials": [
+        "mat_maple_blank"
+      ],
+      "file": "fbx/prop-viol-bridge-blank.fbx",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Upright arched viol bridge blank, tall feet, flatter top, central arch cut-out."
+    },
+    {
+      "name": "prop-tailpiece-blank",
+      "tris": 32,
+      "dims_xyz_m": [
+        0.06,
+        0.17,
+        0.0085
+      ],
+      "bbox_min": [
+        -0.03,
+        -0.085,
+        0.0
+      ],
+      "materials": [
+        "mat_maple_blank",
+        "mat_dark_mark"
+      ],
+      "file": "fbx/prop-tailpiece-blank.fbx",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Flat tapered maple tailpiece blank with 6 string-hole marks at the wide end."
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-fretted-neck-blank.fbx",
+    "fbx/prop-tailpiece-blank.fbx",
+    "fbx/prop-viol-bridge-blank.fbx",
+    "fbx/prop-viol-top-blank.fbx",
+    "tex/mat_dark_mark_basecolor.png",
+    "tex/mat_gut_fret_basecolor.png",
+    "tex/mat_maple_blank_basecolor.png",
+    "tex/mat_spruce_blank_basecolor.png"
+  ]
+}

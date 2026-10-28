@@ -1,0 +1,108 @@
+{
+  "pack": "openkit-trumpet-maker-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 unit = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "find <studio>/art -name prop-*.fbx: no existing prop-trumpet-bell-blank, prop-trumpet-tube-blank, prop-mouthpiece-blank, prop-trumpet-crook-blank; nearest are prop-quiver-tube-blank, prop-map-case-tube, prop-bell-blank-bf1 (distinct).",
+  "judgment_calls": [
+    "Bell 160 tris (16 segs x5 bands) over 100 preference for round flare silhouette; under 210 hard max.",
+    "Mouthpiece 80 tris (8 segs x5 bands) over 60 preference to keep cup lip+inner cup readable.",
+    "Bell stands on rim, open-ended lathe (no caps) - flared cone, not a cast hanging church bell.",
+    "Single shared material mat_brass_raw; texture shipped unlinked in tex/."
+  ],
+  "assets": [
+    {
+      "name": "prop-trumpet-bell-blank",
+      "file": "fbx/prop-trumpet-bell-blank.fbx",
+      "tris": 160,
+      "dims_xyz_m": [
+        0.13,
+        0.13,
+        0.28
+      ],
+      "bbox_min": [
+        -0.065,
+        -0.065,
+        0.0
+      ],
+      "materials": [
+        "mat_brass_raw"
+      ],
+      "pivot": "bottom_centre",
+      "desc": "Hammered brass natural-trumpet bell blank, open flared rim standing on the ground, tapering to open stem."
+    },
+    {
+      "name": "prop-trumpet-tube-blank",
+      "file": "fbx/prop-trumpet-tube-blank.fbx",
+      "tris": 16,
+      "dims_xyz_m": [
+        0.5,
+        0.013,
+        0.013
+      ],
+      "bbox_min": [
+        -0.25,
+        -0.0065,
+        0.0
+      ],
+      "materials": [
+        "mat_brass_raw"
+      ],
+      "pivot": "bottom_centre",
+      "desc": "Straight open-ended brass yard tubing blank laid along X."
+    },
+    {
+      "name": "prop-mouthpiece-blank",
+      "file": "fbx/prop-mouthpiece-blank.fbx",
+      "tris": 80,
+      "dims_xyz_m": [
+        0.028,
+        0.028,
+        0.08
+      ],
+      "bbox_min": [
+        -0.014,
+        -0.014,
+        0.0
+      ],
+      "materials": [
+        "mat_brass_raw"
+      ],
+      "pivot": "bottom_centre",
+      "desc": "Cup mouthpiece blank: shallow cup with rim on top, tapered shank below."
+    },
+    {
+      "name": "prop-trumpet-crook-blank",
+      "file": "fbx/prop-trumpet-crook-blank.fbx",
+      "tris": 72,
+      "dims_xyz_m": [
+        0.133,
+        0.0665,
+        0.0113
+      ],
+      "bbox_min": [
+        -0.0665,
+        -0.0333,
+        0.0
+      ],
+      "materials": [
+        "mat_brass_raw"
+      ],
+      "pivot": "bottom_centre",
+      "desc": "Half-torus U-bend brass crook laid flat, open ends."
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-mouthpiece-blank.fbx",
+    "fbx/prop-trumpet-bell-blank.fbx",
+    "fbx/prop-trumpet-crook-blank.fbx",
+    "fbx/prop-trumpet-tube-blank.fbx",
+    "tex/brass_raw_BaseColor.png"
+  ]
+}
