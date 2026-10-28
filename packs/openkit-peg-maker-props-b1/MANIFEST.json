@@ -1,0 +1,112 @@
+{
+ "pack": "openkit-peg-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures; FBX path_mode STRIP; image datablocks removed before export)",
+ "max_tris": 210,
+ "renames": {
+  "prop-drawknife": "prop-drawknife-pg1 (pre-suffixed per brief; avoids knife family)"
+ },
+ "collision_check": "Searched studio/art/openkit-*/fbx for peg|trenail|shaving|drawknife|horse|clamp|gauge|auger|mallet: hits prop-sawhorse, prop-horn-press-clamp, prop-bung-mallet, prop-netting-gauge, horseshoe items; none match chosen ids",
+ "assets": [
+  {
+   "name": "prop-peg-blank-tray",
+   "tris": 156,
+   "dims_xyz_m": [
+    0.3,
+    0.18,
+    0.04
+   ],
+   "bbox_min": [
+    -0.15,
+    -0.09,
+    0.0
+   ],
+   "materials": [
+    "M_Tray",
+    "M_Oak"
+   ],
+   "height_m": 0.04,
+   "pivot": "bottom_centre (0,0,0) under tray floor; 0.30x0.18 m shallow tray holding 8 square riven oak peg blanks (unshaped)"
+  },
+  {
+   "name": "prop-shaving-horse-clamp",
+   "tris": 136,
+   "dims_xyz_m": [
+    0.9,
+    0.335,
+    0.461
+   ],
+   "bbox_min": [
+    -0.45,
+    -0.168,
+    0.0
+   ],
+   "materials": [
+    "M_Oak",
+    "M_Ash"
+   ],
+   "height_m": 0.461,
+   "pivot": "bottom_centre (0,0,0) at floor under bench; 0.9 m low-poly shaving horse: plank bench, ramp, swinging dumbhead clamp with foot bar"
+  },
+  {
+   "name": "prop-drawknife-pg1",
+   "tris": 88,
+   "dims_xyz_m": [
+    0.321,
+    0.144,
+    0.024
+   ],
+   "bbox_min": [
+    -0.16,
+    -0.072,
+    0.0
+   ],
+   "materials": [
+    "M_Steel",
+    "M_Edge",
+    "M_Ash"
+   ],
+   "height_m": 0.024,
+   "pivot": "bottom_centre (0,0,0) lying flat; 0.32 m two-handled drawknife, straight blade, handles at right angles pointing +Y"
+  },
+  {
+   "name": "prop-trenail-stack",
+   "tris": 180,
+   "dims_xyz_m": [
+    0.39,
+    0.11,
+    0.087
+   ],
+   "bbox_min": [
+    -0.195,
+    -0.055,
+    0.0
+   ],
+   "materials": [
+    "M_Tray",
+    "M_Oak"
+   ],
+   "height_m": 0.087,
+   "pivot": "bottom_centre (0,0,0); pyramid stack (3-2-1) of 6 shaved oak trenails ~0.39 m long with tapered points, on a thin sill"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-drawknife-pg1.fbx",
+  "fbx/prop-peg-blank-tray.fbx",
+  "fbx/prop-shaving-horse-clamp.fbx",
+  "fbx/prop-trenail-stack.fbx",
+  "tex/T_Ash_BaseColor.png",
+  "tex/T_Edge_BaseColor.png",
+  "tex/T_Oak_BaseColor.png",
+  "tex/T_Steel_BaseColor.png",
+  "tex/T_Tray_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)"
+}
