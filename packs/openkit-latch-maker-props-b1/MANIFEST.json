@@ -1,0 +1,101 @@
+{
+ "pack": "openkit-latch-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres (1 BU = 1 m)",
+ "tool": "Blender 5.2.1 (procedural bpy, src/build.py)",
+ "renames": [],
+ "collision_check": "All 4 names absent from existing prop-*.fbx under studio art tree before export; -lm2 suffix avoids lastmaker lm1.",
+ "judgment_calls": [
+  "Staple loop is 28 tris (soft overrun of preferred 24) to keep a single closed U prism.",
+  "Hasp leaf 32 tris with true through-slot; distinct from catch plate (no screw holes, slot offset).",
+  "Knob is hex tapered frustum, 20 tris, distinct from prop-stop-knob-blank by shape and name.",
+  "Textures are flat BaseColor PNGs shipped separately; FBX carries material slots only."
+ ],
+ "contact_sheet": "CONTACT_SHEET.png 2x2: top bar, hasp; bottom staple, knob",
+ "assets": [
+  {
+   "name": "prop-latch-bar-blank-lm2",
+   "file": "fbx/prop-latch-bar-blank-lm2.fbx",
+   "tris": 12,
+   "dims_xyz_m": [
+    0.3,
+    0.03,
+    0.008
+   ],
+   "bbox_min": [
+    -0.15,
+    -0.015,
+    0.0
+   ],
+   "materials": [
+    "mat_latch-bar-blank-lm2"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Flat rectangular iron sliding latch bar blank, 0.30 x 0.03 x 0.008 m solid box; no holes, knob separate.",
+   "texture": "tex/prop-latch-bar-blank-lm2_BaseColor.png"
+  },
+  {
+   "name": "prop-hasp-leaf-blank-lm2",
+   "file": "fbx/prop-hasp-leaf-blank-lm2.fbx",
+   "tris": 32,
+   "dims_xyz_m": [
+    0.06,
+    0.18,
+    0.005
+   ],
+   "bbox_min": [
+    -0.03,
+    -0.09,
+    0.0
+   ],
+   "materials": [
+    "mat_hasp-leaf-blank-lm2"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Flat rectangular iron hasp leaf blank 0.06 x 0.18 x 0.005 m with one through-slot 0.012 x 0.05 m offset toward +Y end.",
+   "texture": "tex/prop-hasp-leaf-blank-lm2_BaseColor.png"
+  },
+  {
+   "name": "prop-staple-loop-blank-lm2",
+   "file": "fbx/prop-staple-loop-blank-lm2.fbx",
+   "tris": 28,
+   "dims_xyz_m": [
+    0.06,
+    0.008,
+    0.058
+   ],
+   "bbox_min": [
+    -0.03,
+    -0.004,
+    0.0
+   ],
+   "materials": [
+    "mat_staple-loop-blank-lm2"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Upright U-shaped iron staple/keep loop blank, square 8 mm stock, 0.06 m wide x 0.058 m tall, open at bottom, legs end at z=0.",
+   "texture": "tex/prop-staple-loop-blank-lm2_BaseColor.png"
+  },
+  {
+   "name": "prop-latch-knob-blank-lm2",
+   "file": "fbx/prop-latch-knob-blank-lm2.fbx",
+   "tris": 20,
+   "dims_xyz_m": [
+    0.024,
+    0.0208,
+    0.022
+   ],
+   "bbox_min": [
+    -0.012,
+    -0.0104,
+    0.0
+   ],
+   "materials": [
+    "mat_latch-knob-blank-lm2"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Small hexagonal tapered iron latch knob blank, 24 mm across base, 18 mm across top, 22 mm tall, flat ends.",
+   "texture": "tex/prop-latch-knob-blank-lm2_BaseColor.png"
+  }
+ ]
+}
