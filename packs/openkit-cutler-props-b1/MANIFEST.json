@@ -1,0 +1,117 @@
+{
+ "pack": "openkit-cutler-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "No openkit-cutler pack. No blade-blank/knife-blank/grindstone/handle-scale/rivet-tray in any openkit-*/fbx. Nearby: prop-rivet-eyelet-tray (leather eyelets), prop-rivet-anvil-hm1, various finished knives (hoof/putty/scraping/hook) - not cloned. Suggested -cu1 names kept as given.",
+ "judgment_calls": [
+  "Blade blank = unground slab + tang + forge-scale lump, no edge/handle (workshop blank, not weapon)",
+  "Rivet tray dish 8 seg, 4-seg rivet heads: 244->192 tris",
+  "Handle scales v2 thickened/raised (v1 sat below tray rails)"
+ ],
+ "assets": [
+  {
+   "name": "prop-blade-blank-cu1",
+   "tris": 36,
+   "dims_xyz_m": [
+    0.27,
+    0.034,
+    0.007
+   ],
+   "bbox_min": [
+    -0.135,
+    -0.017,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron_Forged",
+    "M_Iron_Dark"
+   ],
+   "height_m": 0.007,
+   "pivot": "laid / bottom_centre (0,0,0); 28 cm rough-forged knife blank: unground blade slab with crude taper, flat full tang, forge-scale bolster lump; no edge, no handle"
+  },
+  {
+   "name": "prop-grindstone-small-cu1",
+   "tris": 148,
+   "dims_xyz_m": [
+    0.5,
+    0.405,
+    0.75
+   ],
+   "bbox_min": [
+    -0.25,
+    -0.203,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Stone_Sand",
+    "M_Iron_Forged"
+   ],
+   "height_m": 0.75,
+   "pivot": "bottom_centre (0,0,0); 75 cm bench/hand-crank cutler's grindstone: 40 cm sandstone wheel on iron axle in oak A-frame with sill feet and crank"
+  },
+  {
+   "name": "prop-handle-scale-blank",
+   "tris": 96,
+   "dims_xyz_m": [
+    0.2,
+    0.14,
+    0.041
+   ],
+   "bbox_min": [
+    -0.1,
+    -0.07,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron_Forged",
+    "M_Wood_Pale",
+    "M_Bone"
+   ],
+   "height_m": 0.034,
+   "pivot": "bottom_centre (0,0,0); 20 cm shallow tray holding two pairs of rough-sawn wooden handle scales plus one pale bone scale; undrilled"
+  },
+  {
+   "name": "prop-rivet-tray-cu1",
+   "tris": 192,
+   "dims_xyz_m": [
+    0.18,
+    0.18,
+    0.03
+   ],
+   "bbox_min": [
+    -0.09,
+    -0.09,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Brass",
+    "M_Iron_Forged"
+   ],
+   "height_m": 0.03,
+   "pivot": "bottom_centre (0,0,0); 18 cm turned wooden dish of cutler's handle rivets (brass heads) with a washer stack; not a leather eyelet tray"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-blade-blank-cu1.fbx",
+  "fbx/prop-grindstone-small-cu1.fbx",
+  "fbx/prop-handle-scale-blank.fbx",
+  "fbx/prop-rivet-tray-cu1.fbx",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Iron_Forged_BaseColor.png",
+  "tex/T_Stone_Sand_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ]
+}
