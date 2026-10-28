@@ -1,0 +1,99 @@
+{
+  "pack": "openkit-marking-knife-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "No existing prop-marking-knife*/prop-striking-knife* FBX; -mk1 suffix unused; distinct from prop-dovetail-marking-knife-dm1 (finished dovetail knife) - these are unassembled blanks.",
+  "judgment_calls": [
+    "Ferrule shipped as solid hex prism (20 tris) instead of hollow ring (48 tris) to stay under 24-tri preference.",
+    "Parts lie along +Y on a flat face; pivot bottom centre, x/y centred, z-min 0.",
+    "FBX has material slots only; BaseColor PNGs shipped separately in tex/."
+  ],
+  "assets": [
+    {
+      "name": "prop-marking-knife-blade-mk1",
+      "file": "fbx/prop-marking-knife-blade-mk1.fbx",
+      "tris": 16,
+      "dims_xyz_m": [
+        0.012,
+        0.097,
+        0.0025
+      ],
+      "bbox_min": [
+        -0.006,
+        -0.0485,
+        0.0
+      ],
+      "materials": [
+        "steel"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "texture": "tex/prop-marking-knife-blade-mk1_BaseColor.png",
+      "desc": "Flat steel marking-knife blade blank, 12x97x2.5 mm, rectangular stock ending in a single spear tip whose top face bevels down to a thin edge at the point (single-bevel, not dovetail-shaped). 5-sided prism, 16 tris."
+    },
+    {
+      "name": "prop-marking-knife-handle-mk1",
+      "file": "fbx/prop-marking-knife-handle-mk1.fbx",
+      "tris": 28,
+      "dims_xyz_m": [
+        0.02032,
+        0.1,
+        0.02033
+      ],
+      "bbox_min": [
+        -0.01016,
+        -0.05,
+        0.0
+      ],
+      "materials": [
+        "wood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "texture": "tex/prop-marking-knife-handle-mk1_BaseColor.png",
+      "desc": "Wooden octagonal handle blank, 100 mm long, ~20 mm across flats, lying on a flat face along Y; plain capped ends. 28 tris."
+    },
+    {
+      "name": "prop-marking-knife-ferrule-mk1",
+      "file": "fbx/prop-marking-knife-ferrule-mk1.fbx",
+      "tris": 20,
+      "dims_xyz_m": [
+        0.025,
+        0.014,
+        0.02165
+      ],
+      "bbox_min": [
+        -0.0125,
+        -0.007,
+        0.0
+      ],
+      "materials": [
+        "brass"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "texture": "tex/prop-marking-knife-ferrule-mk1_BaseColor.png",
+      "desc": "Short brass ferrule ring blank, solid hexagonal prism 14 mm long, 25 mm across corners, lying on a flat face along Y (solid, no bore). 20 tris."
+    },
+    {
+      "name": "prop-striking-knife-blank-mk1",
+      "file": "fbx/prop-striking-knife-blank-mk1.fbx",
+      "tris": 14,
+      "dims_xyz_m": [
+        0.02,
+        0.115,
+        0.006
+      ],
+      "bbox_min": [
+        -0.01,
+        -0.0575,
+        0.0
+      ],
+      "materials": [
+        "dark_steel"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "texture": "tex/prop-striking-knife-blank-mk1_BaseColor.png",
+      "desc": "Thicker steel striking-knife blank, 20x115x6 mm, heavier rectangular stock ending in a double-bevel point converging to mid-thickness. 14 tris."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "pack": "openkit-rabbet-plane-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "No existing prop-rabbet-plane*/prop-rebate* FBX or rabbet/rebate-plane references in studio/art before export; -rb1 suffix free. Distinct from plane-wood, try-plane-jn1, shoulder-sp1, router-rp1, block-bp1, molding-mp1, plane-iron-blank-pi1.",
+  "judgment_calls": [
+    "Body uses a simple L-section (stepped sole on one long side) to read as an open-sided rabbet plane; 20 tris, solid, no mouth/throat.",
+    "Iron 0.025 m wide, narrower than a block-plane iron; plain slab.",
+    "Textures are flat BaseColor PNGs; FBX has no image nodes/embedded media."
+  ],
+  "assets": [
+    {
+      "name": "prop-rabbet-plane-body-rb1",
+      "file": "fbx/prop-rabbet-plane-body-rb1.fbx",
+      "tris": 20,
+      "dims_xyz_m": [
+        0.24,
+        0.03,
+        0.085
+      ],
+      "bbox_min": [
+        -0.12,
+        -0.015,
+        0.0
+      ],
+      "materials": [
+        "MAT_rabbet_beech"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Solid wooden rabbet-plane body blank: 0.24 m long L-section prism (6-sided profile extruded along X), 0.03 m wide x 0.085 m tall, with a 0.010 m wide x 0.012 m tall open step cut along one long bottom edge (+Y side) forming the rabbet shoulder. No mouth/throat cut."
+    },
+    {
+      "name": "prop-rabbet-plane-iron-rb1",
+      "file": "fbx/prop-rabbet-plane-iron-rb1.fbx",
+      "tris": 12,
+      "dims_xyz_m": [
+        0.003,
+        0.025,
+        0.13
+      ],
+      "bbox_min": [
+        -0.0015,
+        -0.0125,
+        0.0
+      ],
+      "materials": [
+        "MAT_rabbet_steel"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Flat steel rabbet-plane iron blank: rectangular slab 0.025 m wide x 0.13 m tall x 0.003 m thick, standing upright, no bevel or slot."
+    },
+    {
+      "name": "prop-rabbet-plane-wedge-rb1",
+      "file": "fbx/prop-rabbet-plane-wedge-rb1.fbx",
+      "tris": 8,
+      "dims_xyz_m": [
+        0.09,
+        0.022,
+        0.024
+      ],
+      "bbox_min": [
+        -0.045,
+        -0.011,
+        0.0
+      ],
+      "materials": [
+        "MAT_rabbet_oak_dark"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Wooden wedge blank: right-triangle prism, 0.09 m long base along X, 0.024 m rise at -X end, 0.022 m wide."
+    },
+    {
+      "name": "prop-rabbet-plane-fence-rb1",
+      "file": "fbx/prop-rabbet-plane-fence-rb1.fbx",
+      "tris": 12,
+      "dims_xyz_m": [
+        0.2,
+        0.006,
+        0.04
+      ],
+      "bbox_min": [
+        -0.1,
+        -0.003,
+        0.0
+      ],
+      "materials": [
+        "MAT_rabbet_oak_dark"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Thin wooden fence / depth-stop blank: plain rectangular strip 0.20 m long x 0.04 m tall x 0.006 m thick, no screw holes."
+    }
+  ]
+}
