@@ -1,0 +1,96 @@
+{
+ "pack": "openkit-winding-sticks-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres (1 BU = 1 m)",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": "find prop-*.fbx + rg winding-stick|winding_stick under studio/art: no matches for any target name; only related existing file is prop-winding-peg-blank (distinct).",
+ "judgment_calls": [
+  "All assets are simple boxes to stay at minimum tris; sight strip 12 tris (under 16).",
+  "Pair uses beech+walnut so the two sticks read separately; 0.04 m x stagger, bbox centred.",
+  "Textures are flat BaseColor PNGs in tex/, not referenced in FBX."
+ ],
+ "assets": [
+  {
+   "name": "prop-winding-stick-blank-ws1",
+   "file": "fbx/prop-winding-stick-blank-ws1.fbx",
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Single long thin rectangular beech winding stick blank, 0.60 x 0.019 x 0.05 m, one box (12 tris).",
+   "tris": 12,
+   "bbox_min": [
+    -0.3,
+    -0.0095,
+    0.0
+   ],
+   "dims_xyz_m": [
+    0.6,
+    0.019,
+    0.05
+   ],
+   "materials": [
+    "wood_beech"
+   ]
+  },
+  {
+   "name": "prop-winding-stick-pair-ws1",
+   "file": "fbx/prop-winding-stick-pair-ws1.fbx",
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Matched pair of winding sticks laid parallel 0.102 m apart (beech + walnut for contrast), each 0.60 x 0.019 x 0.05 m, offset 0.04 m in x so both read; 2 boxes (24 tris).",
+   "tris": 24,
+   "bbox_min": [
+    -0.32,
+    -0.07,
+    0.0
+   ],
+   "dims_xyz_m": [
+    0.64,
+    0.14,
+    0.05
+   ],
+   "materials": [
+    "wood_beech",
+    "wood_walnut"
+   ]
+  },
+  {
+   "name": "prop-winding-stick-sight-ws1",
+   "file": "fbx/prop-winding-stick-sight-ws1.fbx",
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Thin holly sighting/contrast inlay strip blank for a stick's top edge, 0.50 x 0.007 x 0.006 m, one box (12 tris).",
+   "tris": 12,
+   "bbox_min": [
+    -0.25,
+    -0.0035,
+    0.0
+   ],
+   "dims_xyz_m": [
+    0.5,
+    0.007,
+    0.006
+   ],
+   "materials": [
+    "inlay_holly"
+   ]
+  },
+  {
+   "name": "prop-board-reference-bar-ws1",
+   "file": "fbx/prop-board-reference-bar-ws1.fbx",
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Short flat walnut bench reference bar blank, 0.30 x 0.06 x 0.012 m, one box (12 tris).",
+   "tris": 12,
+   "bbox_min": [
+    -0.15,
+    -0.03,
+    0.0
+   ],
+   "dims_xyz_m": [
+    0.3,
+    0.06,
+    0.012
+   ],
+   "materials": [
+    "wood_walnut"
+   ]
+  }
+ ]
+}
