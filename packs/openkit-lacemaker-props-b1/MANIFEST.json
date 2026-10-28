@@ -1,0 +1,115 @@
+{
+ "pack": "openkit-lacemaker-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres",
+ "tool": "Blender 5.2.1 procedural bpy",
+ "theme": "bobbin-lace maker bench props",
+ "assets": [
+  {
+   "name": "prop-lace-pillow",
+   "file": "fbx/prop-lace-pillow.fbx",
+   "tris": 104,
+   "dims_xyz_m": [
+    0.3,
+    0.285,
+    0.103
+   ],
+   "bbox_min": [
+    -0.15,
+    -0.143,
+    0.0
+   ],
+   "materials": [
+    "M_Cloth_Green",
+    "M_Parchment",
+    "M_Brass"
+   ],
+   "pivot": "bottom_centre (0,0,0); resting flat",
+   "desc": "firm cookie-shaped bobbin-lace pillow in green cloth with a pricking strip on top and four brass lace pins stuck in"
+  },
+  {
+   "name": "prop-lace-bobbin-set",
+   "file": "fbx/prop-lace-bobbin-set.fbx",
+   "tris": 128,
+   "dims_xyz_m": [
+    0.086,
+    0.052,
+    0.01
+   ],
+   "bbox_min": [
+    -0.043,
+    -0.026,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Beech",
+    "M_Wood_Walnut"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "four slender 8 cm turned lace bobbins (beech and walnut) with bulbous shanks, pinched necks and rounded heads, laid side by side"
+  },
+  {
+   "name": "prop-pricking-card",
+   "file": "fbx/prop-pricking-card.fbx",
+   "tris": 108,
+   "dims_xyz_m": [
+    0.12,
+    0.18,
+    0.001
+   ],
+   "bbox_min": [
+    -0.06,
+    -0.09,
+    0.0
+   ],
+   "materials": [
+    "M_Parchment",
+    "M_Ink"
+   ],
+   "pivot": "bottom_centre (0,0,0); lying flat",
+   "desc": "stiff parchment pricking card with a staggered 6x8 grid of dark pricked pin holes for a lace ground pattern"
+  },
+  {
+   "name": "prop-pin-cushion-lc1",
+   "file": "fbx/prop-pin-cushion-lc1.fbx",
+   "tris": 108,
+   "dims_xyz_m": [
+    0.084,
+    0.084,
+    0.07
+   ],
+   "bbox_min": [
+    -0.042,
+    -0.042,
+    0.0
+   ],
+   "materials": [
+    "M_Cloth_Red",
+    "M_Wood_Walnut",
+    "M_Brass"
+   ],
+   "pivot": "bottom_centre (0,0,0); standing upright",
+   "desc": "small domed red stuffed pin cushion on a turned walnut base with four brass pins"
+  }
+ ],
+ "renames": [],
+ "collision_notes": "No name collisions. prop-pin-cushion-lc1 has the -lc1 suffix to avoid clashing with other cushion props. Lace bobbins (8 cm, slender, with a neck) are distinct from the thick prop-twine-bobbin-rm1.",
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-lace-bobbin-set.fbx",
+  "fbx/prop-lace-pillow.fbx",
+  "fbx/prop-pin-cushion-lc1.fbx",
+  "fbx/prop-pricking-card.fbx",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Cloth_Green_BaseColor.png",
+  "tex/T_Cloth_Red_BaseColor.png",
+  "tex/T_Ink_BaseColor.png",
+  "tex/T_Parchment_BaseColor.png",
+  "tex/T_Wood_Beech_BaseColor.png",
+  "tex/T_Wood_Walnut_BaseColor.png"
+ ]
+}

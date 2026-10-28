@@ -1,0 +1,126 @@
+{
+ "pack": "openkit-embroiderer-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "tool": "Blender 5.2.1 procedural bpy",
+ "fbx": "materials slots only, path_mode STRIP, no textures embedded",
+ "renames": [
+  {
+   "asset": "prop-needle-case-em1",
+   "note": "-em1 suffix per brief for distinctness from needle-mat-mt1 / palm-thimble"
+  }
+ ],
+ "collision_check": "no existing prop-*.fbx with same names across studio art packs; nearest: prop-hoop-stack, prop-yarn-skein-rack/stack (different objects)",
+ "assets": [
+  {
+   "name": "prop-embroidery-hoop",
+   "file": "fbx/prop-embroidery-hoop.fbx",
+   "tris": 168,
+   "dims_xyz_m": [
+    0.241,
+    0.212,
+    0.014
+   ],
+   "bbox_min": [
+    -0.121,
+    -0.106,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Beech",
+    "M_Linen",
+    "M_Brass"
+   ],
+   "pivot": "bottom_centre (0,0,0); lying flat on bench",
+   "desc": "wooden embroidery hoop: inner and outer beech rings with tensioned linen disc and a brass tension-screw block"
+  },
+  {
+   "name": "prop-silk-floss-skeins",
+   "file": "fbx/prop-silk-floss-skeins.fbx",
+   "tris": 108,
+   "dims_xyz_m": [
+    0.15,
+    0.114,
+    0.021
+   ],
+   "bbox_min": [
+    -0.075,
+    -0.057,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Beech",
+    "M_Silk_Crimson",
+    "M_Silk_Indigo",
+    "M_Silk_Gold",
+    "M_Silk_Green"
+   ],
+   "pivot": "bottom_centre (0,0,0); tray resting flat",
+   "desc": "shallow wooden tray holding four twisted silk floss hanks in crimson, indigo, gold and green"
+  },
+  {
+   "name": "prop-tambour-hook",
+   "file": "fbx/prop-tambour-hook.fbx",
+   "tris": 104,
+   "dims_xyz_m": [
+    0.166,
+    0.014,
+    0.016
+   ],
+   "bbox_min": [
+    -0.083,
+    -0.007,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Walnut",
+    "M_Brass",
+    "M_Steel"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "fine tambour hook: turned walnut handle, brass collet and slender steel needle with tiny barb, laid flat"
+  },
+  {
+   "name": "prop-needle-case-em1",
+   "file": "fbx/prop-needle-case-em1.fbx",
+   "tris": 128,
+   "dims_xyz_m": [
+    0.02,
+    0.02,
+    0.09
+   ],
+   "bbox_min": [
+    -0.01,
+    -0.01,
+    0.0
+   ],
+   "materials": [
+    "M_Bone",
+    "M_Wood_Walnut"
+   ],
+   "pivot": "bottom_centre (0,0,0); standing upright",
+   "desc": "small turned bone needle case with walnut screw-on lid and knob finial, standing"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-embroidery-hoop.fbx",
+  "fbx/prop-needle-case-em1.fbx",
+  "fbx/prop-silk-floss-skeins.fbx",
+  "fbx/prop-tambour-hook.fbx",
+  "tex/T_Bone_BaseColor.png",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Linen_BaseColor.png",
+  "tex/T_Silk_Crimson_BaseColor.png",
+  "tex/T_Silk_Gold_BaseColor.png",
+  "tex/T_Silk_Green_BaseColor.png",
+  "tex/T_Silk_Indigo_BaseColor.png",
+  "tex/T_Steel_BaseColor.png",
+  "tex/T_Wood_Beech_BaseColor.png",
+  "tex/T_Wood_Walnut_BaseColor.png"
+ ]
+}
