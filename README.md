@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **148** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **150** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -31,6 +31,7 @@ The `packs/` folder contains **148** CC0-licensed medieval prop packs. Each pack
 | `openkit-apothecary-props-b1` | Apothecary workshop props |
 | `openkit-armorer-props-b1` | Armorer workshop props |
 | `openkit-archery-range-b1` | Archery targets and training props |
+| `openkit-bagpiper-props-b1` | Bagpiper workshop props |
 | `openkit-baker-props-b1` | Bakery props |
 | `openkit-barber-props-b1` | Barber workshop props |
 | `openkit-barrel-chest-b1` | Barrels, chests, and storage containers |
@@ -60,6 +61,7 @@ The `packs/` folder contains **148** CC0-licensed medieval prop packs. Each pack
 | `openkit-cutler-props-b1` | Cutler (knife-maker) workshop props |
 | `openkit-dock-harbor-b1` | Dock and harbor props |
 | `openkit-doors-windows-b1` | Doors and windows |
+| `openkit-drum-maker-props-b1` | Drum-maker workshop props |
 | `openkit-dungeon-clutter-b1` | Dungeon debris and clutter |
 | `openkit-embroiderer-props-b1` | Embroiderer workshop props |
 | `openkit-farm-props-b1` | Farm equipment |

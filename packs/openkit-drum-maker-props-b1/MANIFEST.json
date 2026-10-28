@@ -1,0 +1,117 @@
+{
+  "pack": "openkit-drum-maker-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m), Z-up",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "find <studio>/art -name 'prop-*.fbx': no prop-drum-shell-blank / prop-drumhead-blank / prop-flesh-hoop-blank / prop-drumstick-pair present; all base names used",
+  "judgment_calls": [
+    "Shell 12 segments (96 tris), 0.30 m dia x 0.16 m, 8 mm wall, open both ends",
+    "Drumhead 10-gon 0.34 m dia x 4 mm (36 tris), oversized vs 0.30 m shell for lapping",
+    "Flesh hoop 10 segments with 4-sided section (80 tris) - over 60 preference, under 120; kept for round read",
+    "Drumsticks 6-sided tapered, 0.38 m, parallel 40 mm apart, laid flat",
+    "FBX image nodes stripped; BaseColor PNGs shipped in tex/",
+    "Sticks: thick butt rests on z=0, taper lifts tip ~4 mm (natural lean, not floating)"
+  ],
+  "assets": [
+    {
+      "name": "prop-drum-shell-blank",
+      "file": "fbx/prop-drum-shell-blank.fbx",
+      "tris": 96,
+      "dims_xyz_m": [
+        0.3,
+        0.3,
+        0.16
+      ],
+      "bbox_min": [
+        -0.15,
+        -0.15,
+        0.0
+      ],
+      "materials": [
+        "mat_drum_shell_wood"
+      ],
+      "texture": "tex/T_drum_shell_blank_BaseColor.png",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Short open-ended wooden tabor/side-drum shell blank, standing, both ends open."
+    },
+    {
+      "name": "prop-drumhead-blank",
+      "file": "fbx/prop-drumhead-blank.fbx",
+      "tris": 36,
+      "dims_xyz_m": [
+        0.34,
+        0.3234,
+        0.004
+      ],
+      "bbox_min": [
+        -0.17,
+        -0.1617,
+        0.0
+      ],
+      "materials": [
+        "mat_drumhead_rawhide"
+      ],
+      "texture": "tex/T_drumhead_blank_BaseColor.png",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Round rawhide/vellum drumhead skin disc laid flat, oversized vs shell for lapping."
+    },
+    {
+      "name": "prop-flesh-hoop-blank",
+      "file": "fbx/prop-flesh-hoop-blank.fbx",
+      "tris": 80,
+      "dims_xyz_m": [
+        0.336,
+        0.3196,
+        0.012
+      ],
+      "bbox_min": [
+        -0.168,
+        -0.1598,
+        0.0
+      ],
+      "materials": [
+        "mat_flesh_hoop_wood"
+      ],
+      "texture": "tex/T_flesh_hoop_blank_BaseColor.png",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Thin wooden flesh hoop ring for lapping/tensioning a drumhead, laid flat."
+    },
+    {
+      "name": "prop-drumstick-pair",
+      "file": "fbx/prop-drumstick-pair.fbx",
+      "tris": 40,
+      "dims_xyz_m": [
+        0.38,
+        0.0556,
+        0.018
+      ],
+      "bbox_min": [
+        -0.19,
+        -0.0278,
+        0.0
+      ],
+      "materials": [
+        "mat_drumstick_wood"
+      ],
+      "texture": "tex/T_drumstick_pair_BaseColor.png",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Two tapered wooden drumsticks laid parallel on the ground."
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-drum-shell-blank.fbx",
+    "fbx/prop-drumhead-blank.fbx",
+    "fbx/prop-drumstick-pair.fbx",
+    "fbx/prop-flesh-hoop-blank.fbx",
+    "tex/T_drum_shell_blank_BaseColor.png",
+    "tex/T_drumhead_blank_BaseColor.png",
+    "tex/T_drumstick_pair_BaseColor.png",
+    "tex/T_flesh_hoop_blank_BaseColor.png"
+  ]
+}
