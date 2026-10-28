@@ -1,0 +1,96 @@
+{
+  "pack": "openkit-bow-saw-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 unit = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "Exact names checked against all prop-*.fbx under studio/art: no prop-bow-saw*/prop-frame-saw* exist; -bs1 suffix used only by unrelated punch-hardy/rope-coil/tongs-blank, full names free. Distinct from prop-hand-saw, prop-pit-saw-blank, prop-tooth-saw-cbm1, saw-set ss2.",
+  "judgment_calls": [
+    "Blade is a solid strip with no cut teeth (soft preference honoured).",
+    "Blade is 44 tris vs preferred <=16: 12-point outline extruded so tang stubs are true steps; still far under 120.",
+    "Frame arms and stretcher are separate touching bars in one mesh (low-poly H), not welded.",
+    "Textures are flat BaseColor PNGs in tex/, not linked or embedded in FBX."
+  ],
+  "assets": [
+    {
+      "name": "prop-bow-saw-frame-bs1",
+      "file": "fbx/prop-bow-saw-frame-bs1.fbx",
+      "tris": 36,
+      "dims_xyz_m": [
+        0.6,
+        0.03,
+        0.5
+      ],
+      "bbox_min": [
+        -0.3,
+        -0.015,
+        0.0
+      ],
+      "materials": [
+        "MAT_wood_ash"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Wooden bow-saw H-frame blank: two upright side arms (0.04x0.03x0.50 m) joined by a central stretcher crossbar at mid-height; one mesh of 3 rectangular bars."
+    },
+    {
+      "name": "prop-bow-saw-blade-bs1",
+      "file": "fbx/prop-bow-saw-blade-bs1.fbx",
+      "tris": 44,
+      "dims_xyz_m": [
+        0.62,
+        0.0012,
+        0.025
+      ],
+      "bbox_min": [
+        -0.31,
+        -0.0006,
+        0.0
+      ],
+      "materials": [
+        "MAT_steel_blank"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Thin steel bow-saw blade blank: solid flat strip 0.56x0.025 m, 1.2 mm thick, with a narrow rectangular tang stub at each end; no cut teeth."
+    },
+    {
+      "name": "prop-bow-saw-toggle-bs1",
+      "file": "fbx/prop-bow-saw-toggle-bs1.fbx",
+      "tris": 12,
+      "dims_xyz_m": [
+        0.18,
+        0.016,
+        0.016
+      ],
+      "bbox_min": [
+        -0.09,
+        -0.008,
+        0.0
+      ],
+      "materials": [
+        "MAT_wood_ash"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Wooden toggle/windlass stick blank: plain rectangular bar 0.18 m long used to twist the twist-cord."
+    },
+    {
+      "name": "prop-bow-saw-handle-bs1",
+      "file": "fbx/prop-bow-saw-handle-bs1.fbx",
+      "tris": 12,
+      "dims_xyz_m": [
+        0.036,
+        0.03,
+        0.13
+      ],
+      "bbox_min": [
+        -0.018,
+        -0.015,
+        0.0
+      ],
+      "materials": [
+        "MAT_wood_ash"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Wooden grip/cheek handle blank: slightly tapered rectangular block 0.13 m tall, narrowing 20% toward the top."
+    }
+  ]
+}
