@@ -1,0 +1,127 @@
+{
+ "pack": "openkit-locksmith-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-padlock-open": "prop-padlock-open-ls1 (brief id kept; no padlock found, suffix pre-reserves vs future closed padlock)",
+  "prop-file-flat": "prop-file-flat-ls1 (near-miss prop-file-rasp-st1 in smithy-tools)"
+ },
+ "collision_check": "Scanned studio/art/openkit-*/fbx for lock|key|padlock|tumbler|pin|file: only prop-file-rasp-st1 (smithy-tools). No lock/key/padlock FBX shipped.",
+ "judgment_calls": [
+  "Key blanks are uncut (no bits/wards), brass, on a pegboard - stock not inventory key icons",
+  "Padlock is a plain box lock with shackle raised; no chest/door hardware",
+  "Tumbler pins are loose 6-seg cylinders in an oak tray, alternating brass/iron",
+  "Flat file is thin rectangular blade with wood handle, distinct from rasp-st1"
+ ],
+ "assets": [
+  {
+   "name": "prop-key-blank-rack",
+   "tris": 132,
+   "dims_xyz_m": [
+    0.3,
+    0.1,
+    0.37
+   ],
+   "bbox_min": [
+    -0.15,
+    -0.05,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Dark",
+    "M_Iron",
+    "M_Brass"
+   ],
+   "height_m": 0.37,
+   "pivot": "bottom_centre (0,0,0) on floor/shelf; 0.30 m oak pegboard on foot, back plane at +Y 0.04 so it also sits flush to a wall; three uncut brass key blanks hang on iron pegs",
+   "fbx": "fbx/prop-key-blank-rack.fbx",
+   "sha256": "cdde8280a4c2e12b86f7f6d205667a76bfc209d16507f4a57e6df145b31b3d2b"
+  },
+  {
+   "name": "prop-padlock-open-ls1",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.07,
+    0.031,
+    0.16
+   ],
+   "bbox_min": [
+    -0.035,
+    -0.016,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Brass"
+   ],
+   "height_m": 0.16,
+   "pivot": "bottom_centre (0,0,0) on bench; 7 cm brass box padlock, iron shackle raised/open with short leg free of the body (shackle up)",
+   "fbx": "fbx/prop-padlock-open-ls1.fbx",
+   "sha256": "1daa9c7be04f148270d72961bc30239de5987fd9952432eb86166294e90b7783"
+  },
+  {
+   "name": "prop-tumbler-pin-tray",
+   "tris": 180,
+   "dims_xyz_m": [
+    0.22,
+    0.14,
+    0.035
+   ],
+   "bbox_min": [
+    -0.11,
+    -0.07,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Brass",
+    "M_Iron"
+   ],
+   "height_m": 0.035,
+   "pivot": "bottom_centre (0,0,0) on bench; 22x14 cm shallow oak tray with six loose brass/iron pin tumblers lying inside",
+   "fbx": "fbx/prop-tumbler-pin-tray.fbx",
+   "sha256": "ed1d4bb91985f0fbbfa4f1d4f0f7e28ebfda09d16457b1a642d30d27c0908b21"
+  },
+  {
+   "name": "prop-file-flat-ls1",
+   "tris": 44,
+   "dims_xyz_m": [
+    0.33,
+    0.022,
+    0.021
+   ],
+   "bbox_min": [
+    -0.17,
+    -0.011,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Wood_Dark"
+   ],
+   "height_m": 0.022,
+   "pivot": "bottom_centre (0,0,0) lying flat; 0.33 m flat steel key-cutting file along X, blade +X, wood handle -X",
+   "fbx": "fbx/prop-file-flat-ls1.fbx",
+   "sha256": "15ced9026f40bca2795af395e2d7419a75db1c267ce4637b856b6058cc9c6f9f"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-file-flat-ls1.fbx",
+  "fbx/prop-key-blank-rack.fbx",
+  "fbx/prop-padlock-open-ls1.fbx",
+  "fbx/prop-tumbler-pin-tray.fbx",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)"
+}

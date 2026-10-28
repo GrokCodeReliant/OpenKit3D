@@ -1,0 +1,4 @@
+# openkit-locksmith-props-b1 (CC0)
+Locksmith workshop blanks/tools for Open Kit: prop-key-blank-rack, prop-padlock-open-ls1, prop-tumbler-pin-tray, prop-file-flat-ls1. Workshop stock only (no chests, door locks or keys-as-loot). All <=210 tris, 1 m units, slots-only FBX; optional BaseColor PNGs in tex/.
+Pivots: prop-key-blank-rack = bottom_centre (0,0,0) on floor/shelf; 0.30 m oak pegboard on foot, back plane at +Y 0.04 so it also sits flush to a wall; three uncut brass key blanks hang on iron pegs; prop-padlock-open-ls1 = bottom_centre (0,0,0) on bench; 7 cm brass box padlock, iron shackle raised/open with short leg free of the body (shackle up); prop-tumbler-pin-tray = bottom_centre (0,0,0) on bench; 22x14 cm shallow oak tray with six loose brass/iron pin tumblers lying inside; prop-file-flat-ls1 = bottom_centre (0,0,0) lying flat; 0.33 m flat steel key-cutting file along X, blade +X, wood handle -X.
+Rebuild: blender -b -P src/build.py
