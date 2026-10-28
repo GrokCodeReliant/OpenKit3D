@@ -1,0 +1,113 @@
+{
+ "pack": "openkit-furrier-props-b1",
+ "license": "CC0-1.0",
+ "units": "metre",
+ "tool": "Blender 5.2.1 procedural bpy",
+ "fbx_materials": "slots only, path_mode STRIP, no textures embedded",
+ "collisions": "none; names checked against existing prop-*.fbx (tanner/tailor/embroiderer/lacemaker/sailmaker)",
+ "renames": [],
+ "assets": [
+  {
+   "name": "prop-fur-pelt-stack",
+   "file": "fbx/prop-fur-pelt-stack.fbx",
+   "tris": 120,
+   "dims_xyz_m": [
+    0.318,
+    0.47,
+    0.049
+   ],
+   "bbox_min": [
+    -0.159,
+    -0.235,
+    0.0
+   ],
+   "materials": [
+    "M_Fur_Brown",
+    "M_Fur_Russet"
+   ],
+   "pivot": "bottom_centre (0,0,0); lying flat",
+   "desc": "stack of three dressed fur pelts (marten/fox type) fur side up, each splayed with leg tabs and a tail, offset and rotated"
+  },
+  {
+   "name": "prop-fleshing-beam",
+   "file": "fbx/prop-fleshing-beam.fbx",
+   "tris": 52,
+   "dims_xyz_m": [
+    0.22,
+    1.04,
+    0.82
+   ],
+   "bbox_min": [
+    -0.11,
+    -0.52,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Wood_Dark"
+   ],
+   "pivot": "bottom_centre (0,0,0); standing on floor",
+   "desc": "slanted half-round wooden fleshing beam rising from a ground foot to a chest-high head on a single leg, for scraping flesh off skins"
+  },
+  {
+   "name": "prop-furrier-shears",
+   "file": "fbx/prop-furrier-shears.fbx",
+   "tris": 92,
+   "dims_xyz_m": [
+    0.066,
+    0.368,
+    0.01
+   ],
+   "bbox_min": [
+    -0.033,
+    -0.184,
+    0.0
+   ],
+   "materials": [
+    "M_Steel",
+    "M_Leather"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "large one-piece bow-spring shears for trimming fur: two pointed blades on straps wrapped in leather, joined by a U-shaped steel spring"
+  },
+  {
+   "name": "prop-fur-needle-case",
+   "file": "fbx/prop-fur-needle-case.fbx",
+   "tris": 96,
+   "dims_xyz_m": [
+    0.124,
+    0.049,
+    0.022
+   ],
+   "bbox_min": [
+    -0.062,
+    -0.024,
+    0.0
+   ],
+   "materials": [
+    "M_Bone",
+    "M_Wood_Dark"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "capped bone tube case for fur needles with a wood-handled awl lying beside it"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-fleshing-beam.fbx",
+  "fbx/prop-fur-needle-case.fbx",
+  "fbx/prop-fur-pelt-stack.fbx",
+  "fbx/prop-furrier-shears.fbx",
+  "tex/T_Bone_BaseColor.png",
+  "tex/T_Fur_Brown_BaseColor.png",
+  "tex/T_Fur_Russet_BaseColor.png",
+  "tex/T_Leather_BaseColor.png",
+  "tex/T_Steel_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ]
+}
