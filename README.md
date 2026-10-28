@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **144** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **146** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -65,6 +65,7 @@ The `packs/` folder contains **144** CC0-licensed medieval prop packs. Each pack
 | `openkit-farm-props-b1` | Farm equipment |
 | `openkit-fence-gate-b1` | Fences and gates |
 | `openkit-feltmaker-props-b1` | Feltmaker workshop props |
+| `openkit-fiddle-maker-props-b1` | Fiddle-maker workshop props |
 | `openkit-fishing-props-b1` | Fishing equipment |
 | `openkit-fishmonger-props-b1` | Fishmonger stall props |
 | `openkit-forge-props-b1` | Forge and metalworking props |
@@ -106,6 +107,7 @@ The `packs/` folder contains **144** CC0-licensed medieval prop packs. Each pack
 | `openkit-mosaic-maker-props-b1` | Mosaic-maker workshop props |
 | `openkit-nail-maker-props-b1` | Nail-maker workshop props |
 | `openkit-needle-maker-props-b1` | Sewing-needle maker workshop props |
+| `openkit-organ-builder-props-b1` | Organ-builder workshop props |
 | `openkit-outdoor-props-b1` | Outdoor decorations |
 | `openkit-painter-props-b1` | Painter workshop props |
 | `openkit-parchment-maker-props-b1` | Parchment-maker workshop props |
