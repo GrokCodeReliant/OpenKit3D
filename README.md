@@ -56,6 +56,7 @@ The `packs/` folder contains 49 CC0-licensed medieval prop packs. Each pack incl
 | `openkit-icons-inventory-b1` | Inventory icons |
 | `openkit-kitchen-props-b1` | Kitchen furniture and utensils |
 | `openkit-library-props-b1` | Library furniture and books |
+| `openkit-lime-burner-props-b1` | Lime burner workshop props |
 | `openkit-light-hearth-b1` | Lighting and hearth props |
 | `openkit-market-stall-b1` | Market stalls and vendor props |
 | `openkit-medieval-env-b1` | Medieval environment pieces |
@@ -72,6 +73,7 @@ The `packs/` folder contains 49 CC0-licensed medieval prop packs. Each pack incl
 | `openkit-stable-props-b1` | Stable equipment |
 | `openkit-stairs-ladder-b1` | Stairs and ladders |
 | `openkit-tailor-props-b1` | Tailor shop props |
+| `openkit-thatcher-tools-props-b1` | Thatcher workshop tools |
 | `openkit-tavern-dressing-b1` | Tavern decorations |
 | `openkit-ui-frames-b1` | UI frame elements |
 | `openkit-wall-dress-b1` | Wall decorations |

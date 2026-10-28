@@ -1,0 +1,117 @@
+{
+ "pack": "openkit-lime-burner-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures), path_mode STRIP",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "Scanned studio/art/openkit-*/fbx for lime|slak|kiln|lump|trough|hod|draw-bar|eye: found prop-kiln-vent-cover, prop-kiln-small-pt1, prop-clay-lump, prop-kneading-trough, prop-feed-trough(-sp1), prop-trough-wood. No exact id collisions; brief ids kept.",
+ "judgment_calls": [
+  "Lime rake uses a solid upright iron draw-blade (rake-out hoe) on a 2.0 m pole, no tines, to differ from the 5-tine charcoal rake",
+  "Kiln door blank is a stone slab on a sill with iron straps, upright - not a plank damper like the charcoal vent cover",
+  "Quicklime is chalk-white lumps in a pale lime-dusted sack, 7-seg lathe to stay under budget",
+  "Slaking trough is a rectangular plank trough on skids with lime putty and a paddle - not a round tub/vat"
+ ],
+ "assets": [
+  {
+   "name": "prop-lime-rake",
+   "height_m": 0.126,
+   "tris": 48,
+   "dims_xyz_m": [
+    2.106,
+    0.3,
+    0.126
+   ],
+   "bbox_min": [
+    -1.1,
+    -0.15,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron"
+   ],
+   "pivot": "bottom_centre-ish (0,0,0) lying flat near pole midpoint; 2.0 m pole along X, solid 0.30 m iron draw-blade (no tines) at +X for raking burnt lime out of the draw-hole"
+  },
+  {
+   "name": "prop-kiln-door-blank",
+   "height_m": 0.65,
+   "tris": 72,
+   "dims_xyz_m": [
+    0.56,
+    0.145,
+    0.65
+   ],
+   "bbox_min": [
+    -0.28,
+    -0.085,
+    0.0
+   ],
+   "materials": [
+    "M_Stone_Lime",
+    "M_Iron"
+   ],
+   "pivot": "bottom_centre (0,0,0); 0.56 m wide, 0.65 m tall unfinished stone draw-hole cover slab on sill, two iron straps + pull bar on -Y face"
+  },
+  {
+   "name": "prop-lime-lump-sack",
+   "height_m": 0.434,
+   "tris": 144,
+   "dims_xyz_m": [
+    0.469,
+    0.409,
+    0.434
+   ],
+   "bbox_min": [
+    -0.189,
+    -0.205,
+    0.0
+   ],
+   "materials": [
+    "M_Sack_Limed",
+    "M_Quicklime"
+   ],
+   "pivot": "bottom_centre (0,0,0); 0.4 m dia pale lime-dusted sack, cuff turned down, chalk-white quicklime lumps heaped and two spilled at +X"
+  },
+  {
+   "name": "prop-slaking-trough-small",
+   "height_m": 0.455,
+   "tris": 120,
+   "dims_xyz_m": [
+    0.71,
+    0.42,
+    0.455
+   ],
+   "bbox_min": [
+    -0.355,
+    -0.21,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Weathered",
+    "M_Quicklime"
+   ],
+   "pivot": "bottom_centre (0,0,0); 0.70x0.42 m plank trough on two skids, filled with white lime putty, stirring paddle standing in it"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-kiln-door-blank.fbx",
+  "fbx/prop-lime-lump-sack.fbx",
+  "fbx/prop-lime-rake.fbx",
+  "fbx/prop-slaking-trough-small.fbx",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Quicklime_BaseColor.png",
+  "tex/T_Sack_Limed_BaseColor.png",
+  "tex/T_Stone_Lime_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png",
+  "tex/T_Wood_Weathered_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "T_Iron_BaseColor.png is byte-identical to the net-mender shared copy; Unity may point T_Iron at packs/openkit-net-mender-props-b1/tex/T_Iron_BaseColor.png to dedupe (kept here so pack is self-contained). T_Wood_Oak and T_Wood_Weathered are pack-local (T_Wood_Oak name collides with thatcher-tools copy, different bytes). T_Quicklime/T_Sack_Limed/T_Stone_Lime unique."
+}
