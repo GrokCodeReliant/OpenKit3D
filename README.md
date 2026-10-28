@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains 90 CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains 92 CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -58,7 +58,9 @@ The `packs/` folder contains 90 CC0-licensed medieval prop packs. Each pack incl
 | `openkit-fuller-props-b1` | Fuller (cloth finishing) workshop props |
 | `openkit-glassblower-props-b1` | Glassblower workshop props |
 | `openkit-glazier-props-b1` | Glazier workshop props |
+| `openkit-glove-maker-props-b1` | Glove-maker workshop props |
 | `openkit-graveyard-b1` | Graveyard props |
+| `openkit-hat-maker-props-b1` | Hat-maker workshop props |
 | `openkit-helm-maker-props-b1` | Helm-maker workshop props |
 | `openkit-horn-worker-props-b1` | Horn-worker workshop props |
 | `openkit-icons-inventory-b1` | Inventory icons |
