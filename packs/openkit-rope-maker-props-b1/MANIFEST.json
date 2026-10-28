@@ -1,0 +1,127 @@
+{
+ "pack": "openkit-rope-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures, path_mode STRIP)",
+ "max_tris": 210,
+ "renames": {
+  "prop-twine-bobbin": "prop-twine-bobbin-rm1 (pre-emptive suffix as briefed; vs candlemaker prop-wick-spool-cm1)"
+ },
+ "collision_check": "No hits for prop-laying-top / prop-hemp-hank / prop-rope-hook-stake / prop-twine-bobbin-rm1 across studio/art/openkit-*/fbx. Distinct from rope coils (bs1/dock/wall), prop-wick-spool-cm1, prop-yarn-skein-stack, prop-drop-spindle, prop-spinning-wheel-tl1, prop-hook-wall, prop-meat-hook-rail, prop-ladle-hook.",
+ "judgment_calls": [
+  "All pivots bottom_centre",
+  "laying top stands on narrow end with 3 iron strand-groove straps + tail stick resting on floor",
+  "hemp hank lies flat: raw fibre bundle with frayed flared ends and 3 ties (no coil form)",
+  "hook stake given cross foot so it is freestanding",
+  "bobbin upright, 10-seg flanges, loose twine end (140 tris, under 210, above 120 preference)",
+  "tex/ flat BaseColor PNGs not referenced by FBX"
+ ],
+ "assets": [
+  {
+   "name": "prop-laying-top",
+   "tris": 96,
+   "dims_xyz_m": [
+    0.223,
+    0.539,
+    0.34
+   ],
+   "bbox_min": [
+    -0.112,
+    -0.269,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Beech",
+    "M_Iron",
+    "M_Wood_Oak_Dark"
+   ],
+   "height_m": 0.34,
+   "pivot": "bottom_centre (0,0,0) on floor; 0.34 m beech laying-top cone (0.22 m dia) standing on its narrow end with three iron strand-groove straps and a dark wood tail stick angled to the ground along +Y, axis +Z",
+   "fbx": "fbx/prop-laying-top.fbx",
+   "sha256": "bc6670d9e2b4a32f6cda1bb2c230d6241310612595f103ff8a901604a689f97c"
+  },
+  {
+   "name": "prop-hemp-hank",
+   "tris": 120,
+   "dims_xyz_m": [
+    0.82,
+    0.15,
+    0.13
+   ],
+   "bbox_min": [
+    -0.41,
+    -0.075,
+    0.0
+   ],
+   "materials": [
+    "M_Hemp_Raw",
+    "M_Cord"
+   ],
+   "height_m": 0.13,
+   "pivot": "bottom_centre (0,0,0) on floor/bench; 0.82 m loose raw-hemp fibre hank lying along X, flared frayed ends, three twine ties, axis +Z",
+   "fbx": "fbx/prop-hemp-hank.fbx",
+   "sha256": "952e27e1bab9a1300c13a12934ac2ea3060cdaa49a66f3199a0db7d82301ed19"
+  },
+  {
+   "name": "prop-rope-hook-stake",
+   "tris": 84,
+   "dims_xyz_m": [
+    0.267,
+    0.26,
+    0.584
+   ],
+   "bbox_min": [
+    -0.134,
+    -0.13,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak_Dark",
+    "M_Iron"
+   ],
+   "height_m": 0.58,
+   "pivot": "bottom_centre (0,0,0) on floor; freestanding 0.56 m oak rope-walk stake on cross foot (0.26 m), iron cap band and forged hook projecting +X, axis +Z",
+   "fbx": "fbx/prop-rope-hook-stake.fbx",
+   "sha256": "81699584f642095e7384b0636ec16ddb980d664d03c2e5580d0d69d4a1173c38"
+  },
+  {
+   "name": "prop-twine-bobbin-rm1",
+   "tris": 140,
+   "dims_xyz_m": [
+    0.319,
+    0.24,
+    0.34
+   ],
+   "bbox_min": [
+    -0.16,
+    -0.12,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Beech",
+    "M_Twine"
+   ],
+   "height_m": 0.34,
+   "pivot": "bottom_centre (0,0,0) on floor; 0.34 m upright beech bobbin (0.24 m flanges) wound with hemp twine, core protruding, loose end trailing to floor, axis +Z",
+   "fbx": "fbx/prop-twine-bobbin-rm1.fbx",
+   "sha256": "02afb65f1460cf8302dfe7c078cea02748970037a75b452eb4ae9664253ec585"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-hemp-hank.fbx",
+  "fbx/prop-laying-top.fbx",
+  "fbx/prop-rope-hook-stake.fbx",
+  "fbx/prop-twine-bobbin-rm1.fbx",
+  "tex/T_Hemp_Raw_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Twine_BaseColor.png",
+  "tex/T_Wood_Beech_BaseColor.png",
+  "tex/T_Wood_Oak_Dark_BaseColor.png"
+ ]
+}

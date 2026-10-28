@@ -1,0 +1,128 @@
+{
+ "pack": "openkit-mason-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures, path_mode STRIP)",
+ "max_tris": 210,
+ "renames": {
+  "prop-chisel-point": "prop-chisel-point-ms1 (pre-emptive suffix vs smithy prop-chisel-punch-st1)"
+ },
+ "collision_check": "No hits for prop-mallet-stone / prop-chisel-point-ms1 / prop-ashlar-block / prop-plumb-bob across studio/art/openkit-*/fbx. Distinct from cooper prop-bung-mallet (small cylinder bung mallet), smithy prop-chisel-punch-st1, butcher prop-butcher-block, candlemaker prop-wax-block-stack; carpenter pack has no mallet/chisel.",
+ "judgment_calls": [
+  "All pivots bottom_centre",
+  "mallet: 0.15 m barrel head + iron hoops, laid flat",
+  "chisel: thin 6-seg iron shank with point, handle+ferrule",
+  "ashlar 0.5x0.3x0.3 m with raised tooled panel (24 tris)",
+  "plumb bob resting upright with slack cord to winder handle",
+  "tex/ flat BaseColor PNGs not referenced by FBX"
+ ],
+ "assets": [
+  {
+   "name": "prop-mallet-stone",
+   "tris": 104,
+   "dims_xyz_m": [
+    0.435,
+    0.242,
+    0.15
+   ],
+   "bbox_min": [
+    -0.218,
+    -0.121,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Beech",
+    "M_Wood_Dark",
+    "M_Iron"
+   ],
+   "height_m": 0.15,
+   "pivot": "bottom_centre (0,0,0) on floor/bench; laid flat: 0.15 m dia x 0.22 m barrel-head beechwood mallet with iron face hoops, 0.30 m handle along +X, axis +Z",
+   "fbx": "fbx/prop-mallet-stone.fbx",
+   "sha256": "44f500610a3f73c9b2d8d90bfcfd8a26ebe92c1e2f90bfd5fbab5c9c7864bce3"
+  },
+  {
+   "name": "prop-chisel-point-ms1",
+   "tris": 66,
+   "dims_xyz_m": [
+    0.41,
+    0.044,
+    0.038
+   ],
+   "bbox_min": [
+    -0.205,
+    -0.022,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Dark",
+    "M_Iron",
+    "M_Iron_Bright"
+   ],
+   "height_m": 0.044,
+   "pivot": "bottom_centre (0,0,0) on bench; laid flat along X: 0.13 m wood handle + ferrule + 0.27 m iron shank tapering to a pyramid-ish point, axis +Z",
+   "fbx": "fbx/prop-chisel-point-ms1.fbx",
+   "sha256": "f49c6cd5a333c804ed2923d216554e3c9bd5175ed859f179f6a564b9006b5fd1"
+  },
+  {
+   "name": "prop-ashlar-block",
+   "tris": 24,
+   "dims_xyz_m": [
+    0.5,
+    0.3,
+    0.305
+   ],
+   "bbox_min": [
+    -0.25,
+    -0.15,
+    0.0
+   ],
+   "materials": [
+    "M_Stone_Limestone",
+    "M_Stone_Tooled"
+   ],
+   "height_m": 0.305,
+   "pivot": "bottom_centre (0,0,0) on floor; 0.50x0.30x0.30 m dressed limestone ashlar with slightly raised tooled top panel, axis +Z",
+   "fbx": "fbx/prop-ashlar-block.fbx",
+   "sha256": "44729a981a6db1a4949d8b9ca393142b35bea6ff45fb009934e36ef8036ed578"
+  },
+  {
+   "name": "prop-plumb-bob",
+   "tris": 108,
+   "dims_xyz_m": [
+    0.24,
+    0.102,
+    0.091
+   ],
+   "bbox_min": [
+    -0.12,
+    -0.051,
+    0.0
+   ],
+   "materials": [
+    "M_Lead",
+    "M_Cord",
+    "M_Wood_Beech"
+   ],
+   "height_m": 0.09,
+   "pivot": "bottom_centre (0,0,0) on bench/floor; resting pose: 0.08 m lead teardrop bob upright with slack cord to a small wood winder handle, axis +Z",
+   "fbx": "fbx/prop-plumb-bob.fbx",
+   "sha256": "637c99627702f09516129594a690176e13cee6cbce47d1e9a3b0e64a1952ba80"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-ashlar-block.fbx",
+  "fbx/prop-chisel-point-ms1.fbx",
+  "fbx/prop-mallet-stone.fbx",
+  "fbx/prop-plumb-bob.fbx",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Lead_BaseColor.png",
+  "tex/T_Stone_Limestone_BaseColor.png",
+  "tex/T_Wood_Beech_BaseColor.png"
+ ]
+}
