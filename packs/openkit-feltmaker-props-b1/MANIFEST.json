@@ -1,0 +1,118 @@
+{
+ "pack": "openkit-feltmaker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "No feltmaker/silversmith/stringmaker/tinsmith/coppersmith packs existed; hat-maker present. No fbx matched carding/felting-mallet/feltmaker/soap-solution/pattern-sheet. -ft1 suffix on pattern-sheet kept as briefed.",
+ "judgment_calls": [
+  "Carding board=bare leather bed, no teeth/wool",
+  "Mallet=felt-wrapped head hand mallet, not hat-block",
+  "Soap bowl=earthenware, solution surface + 3 suds, no soap bar",
+  "Pattern sheet=flat parchment with inked panel shapes + weight stone, not hat cone",
+  "Eye-check v1 passed"
+ ],
+ "assets": [
+  {
+   "name": "prop-carding-board-blank",
+   "tris": 60,
+   "dims_xyz_m": [
+    0.12,
+    0.305,
+    0.019
+   ],
+   "bbox_min": [
+    -0.06,
+    -0.153,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Leather_Raw",
+    "M_Iron_Dark"
+   ],
+   "height_m": 0.018,
+   "pivot": "bottom_centre (0,0,0); laid ash carding paddle blank with bare leather card-cloth bed and nail strips, no wool"
+  },
+  {
+   "name": "prop-felting-mallet",
+   "tris": 68,
+   "dims_xyz_m": [
+    0.11,
+    0.267,
+    0.074
+   ],
+   "bbox_min": [
+    -0.055,
+    -0.134,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Felt_Wool",
+    "M_Cord_Hemp"
+   ],
+   "height_m": 0.074,
+   "pivot": "bottom_centre (0,0,0); laid wooden felting/fulling mallet with felt-wrapped head and cord band; hand tool, distinct from hat-block and fuller stocks"
+  },
+  {
+   "name": "prop-soap-solution-bowl",
+   "tris": 156,
+   "dims_xyz_m": [
+    0.24,
+    0.24,
+    0.075
+   ],
+   "bbox_min": [
+    -0.12,
+    -0.12,
+    0.0
+   ],
+   "materials": [
+    "M_Earthenware",
+    "M_Soap_Water",
+    "M_Suds"
+   ],
+   "height_m": 0.075,
+   "pivot": "bottom_centre (0,0,0); wide earthenware bowl of warm olive-soap felting solution with a few suds; no soap bar/lye vat, distinct from laundry & soap-maker"
+  },
+  {
+   "name": "prop-pattern-sheet-ft1",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.3,
+    0.22,
+    0.007
+   ],
+   "bbox_min": [
+    -0.15,
+    -0.11,
+    0.0
+   ],
+   "materials": [
+    "M_Parchment",
+    "M_Ink_Faded",
+    "M_Stone_Grey"
+   ],
+   "height_m": 0.007,
+   "pivot": "bottom_centre (0,0,0); laid flat parchment felting pattern template with inked panel outlines and a weight stone; flat, not a hat cone/blank"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-carding-board-blank.fbx",
+  "fbx/prop-felting-mallet.fbx",
+  "fbx/prop-pattern-sheet-ft1.fbx",
+  "fbx/prop-soap-solution-bowl.fbx",
+  "tex/T_Earthenware_BaseColor.png",
+  "tex/T_Felt_Wool_BaseColor.png",
+  "tex/T_Parchment_BaseColor.png",
+  "tex/T_Wood_Ash_BaseColor.png"
+ ]
+}

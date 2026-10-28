@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **118** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **120** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -58,6 +58,7 @@ The `packs/` folder contains **118** CC0-licensed medieval prop packs. Each pack
 | `openkit-dungeon-clutter-b1` | Dungeon debris and clutter |
 | `openkit-farm-props-b1` | Farm equipment |
 | `openkit-fence-gate-b1` | Fences and gates |
+| `openkit-feltmaker-props-b1` | Feltmaker workshop props |
 | `openkit-fishing-props-b1` | Fishing equipment |
 | `openkit-fishmonger-props-b1` | Fishmonger stall props |
 | `openkit-forge-props-b1` | Forge and metalworking props |
@@ -110,6 +111,7 @@ The `packs/` folder contains **118** CC0-licensed medieval prop packs. Each pack
 | `openkit-shop-wall-b1` | Shop wall decorations |
 | `openkit-sign-post-b1` | Signs and posts |
 | `openkit-sieve-maker-props-b1` | Sieve-maker workshop props |
+| `openkit-silversmith-props-b1` | Silversmith workshop props |
 | `openkit-smithy-tools-b1` | Blacksmith tools |
 | `openkit-spoon-carver-props-b1` | Green-wood spoon carver workshop props |
 | `openkit-stable-props-b1` | Stable equipment |

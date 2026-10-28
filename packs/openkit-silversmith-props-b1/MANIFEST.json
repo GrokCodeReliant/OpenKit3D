@@ -1,0 +1,119 @@
+{
+ "pack": "openkit-silversmith-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-wire-draw-plate": "prop-wire-draw-plate-ss1 (pin-maker collision)"
+ },
+ "collision_check": "No silversmith/stringmaker/tinsmith/coppersmith/gilders packs existed. fbx search: pin-maker prop-wire-draw-plate (collision -> -ss1); brushmaker prop-setting-pitch-pot (near, distinct); no chasing-hammer/pitch-bowl/scrap-silver.",
+ "judgment_calls": [
+  "Draw plate=single row 8 graduated holes, flat laid",
+  "Chasing hammer=broad face+ball peen, bulb grip",
+  "Pitch bowl=round iron bowl on leather ring with bare silver sheet blank in pitch",
+  "Scrap tray=sheet offcuts+filings heap, no finished jewelry",
+  "Eye-check v1 fixed pitch-top material; v2 passed"
+ ],
+ "assets": [
+  {
+   "name": "prop-wire-draw-plate-ss1",
+   "tris": 108,
+   "dims_xyz_m": [
+    0.18,
+    0.045,
+    0.013
+   ],
+   "bbox_min": [
+    -0.09,
+    -0.023,
+    0.0
+   ],
+   "materials": [
+    "M_Steel_Tool",
+    "M_Steel_Dark"
+   ],
+   "height_m": 0.013,
+   "pivot": "bottom_centre (0,0,0); laid 18 cm hardened steel draw plate blank, single row of 8 graduated holes; distinct from pin-maker prop-wire-draw-plate (renamed -ss1)"
+  },
+  {
+   "name": "prop-chasing-hammer-ss1",
+   "tris": 124,
+   "dims_xyz_m": [
+    0.075,
+    0.232,
+    0.024
+   ],
+   "bbox_min": [
+    -0.038,
+    -0.116,
+    0.0
+   ],
+   "materials": [
+    "M_Steel_Tool",
+    "M_Wood_Ash"
+   ],
+   "height_m": 0.024,
+   "pivot": "bottom_centre (0,0,0); laid chasing hammer: broad flat face + small ball peen, thin ash handle with bulb grip; distinct from blacksmith/cutler hammers"
+  },
+  {
+   "name": "prop-pitch-bowl-ss1",
+   "tris": 198,
+   "dims_xyz_m": [
+    0.2,
+    0.194,
+    0.106
+   ],
+   "bbox_min": [
+    -0.1,
+    -0.097,
+    0.0
+   ],
+   "materials": [
+    "M_Iron_Cast",
+    "M_Pitch",
+    "M_Leather",
+    "M_Silver_Raw"
+   ],
+   "height_m": 0.108,
+   "pivot": "bottom_centre (0,0,0); round-bottom cast iron chasing bowl full of pitch, seated on leather ring, bare sheet blank set in pitch; distinct from brushmaker setting-pitch-pot"
+  },
+  {
+   "name": "prop-scrap-silver-tray",
+   "tris": 176,
+   "dims_xyz_m": [
+    0.28,
+    0.18,
+    0.029
+   ],
+   "bbox_min": [
+    -0.14,
+    -0.09,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Silver_Raw",
+    "M_Silver_Tarnish"
+   ],
+   "height_m": 0.029,
+   "pivot": "bottom_centre (0,0,0); ash board tray of sheet silver offcuts, wire snips and a filings heap for remelt; no finished pieces; distinct from pewterer/smith scrap trays"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-chasing-hammer-ss1.fbx",
+  "fbx/prop-pitch-bowl-ss1.fbx",
+  "fbx/prop-scrap-silver-tray.fbx",
+  "fbx/prop-wire-draw-plate-ss1.fbx",
+  "tex/T_Pitch_BaseColor.png",
+  "tex/T_Silver_Raw_BaseColor.png",
+  "tex/T_Steel_Tool_BaseColor.png",
+  "tex/T_Wood_Ash_BaseColor.png"
+ ]
+}
