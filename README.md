@@ -23,12 +23,13 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **142** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **144** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
 | `openkit-alchemy-props-b1` | Alchemy lab equipment |
 | `openkit-apothecary-props-b1` | Apothecary workshop props |
+| `openkit-armorer-props-b1` | Armorer workshop props |
 | `openkit-archery-range-b1` | Archery targets and training props |
 | `openkit-baker-props-b1` | Bakery props |
 | `openkit-barber-props-b1` | Barber workshop props |
@@ -116,6 +117,7 @@ The `packs/` folder contains **142** CC0-licensed medieval prop packs. Each pack
 | `openkit-pottery-props-b1` | Pottery and ceramics |
 | `openkit-pouch-maker-props-b1` | Pouch-maker workshop props |
 | `openkit-quill-maker-props-b1` | Quill/pen-maker workshop props |
+| `openkit-quiver-maker-props-b1` | Quiver-maker workshop props |
 | `openkit-roof-tiles-b1` | Roof tiles and materials |
 | `openkit-rushlight-maker-props-b1` | Rushlight-maker workshop props |
 | `openkit-sailmaker-props-b1` | Sailmaker workshop props |

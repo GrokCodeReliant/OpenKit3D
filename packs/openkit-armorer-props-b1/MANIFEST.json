@@ -1,0 +1,110 @@
+{
+ "pack": "openkit-armorer-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 Blender unit = 1 m",
+ "tool": "Blender 5.2.1 procedural bpy; FBX path_mode=STRIP, material slots only, no embedded/linked textures; tex/*.png basecolors shipped separately",
+ "renames": {},
+ "collision_check": "find <studio>/art -name 'prop-*.fbx' run 2026-10-28; all four names free (prop-raising-stake-ar1 keeps required suffix). Nearby existing: prop-stake-anvil-small, prop-thimble-stake, prop-raising-hammer-cs1 - different names/shapes.",
+ "judgment_calls": [
+  "Breastplate stands upright on lower edge (clearest silhouette) with medial ridge bulge.",
+  "Spaulder v1 half-dome read as thin arc on sheet; rebuilt as full low oval cupped lame (140 tris, >120 pref, <210 max). Low elongated cup, not skull-tall, to stay distinct from prop-skull-blank.",
+  "Raising stake: short oak stump + broad flat planishing face + side raising horn, total 0.43 m, stouter than prop-rivet-anvil-hm1.",
+  "Single solid-color basecolor PNGs only."
+ ],
+ "assets": [
+  {
+   "name": "prop-breastplate-blank",
+   "file": "fbx/prop-breastplate-blank.fbx",
+   "tris": 116,
+   "dims_xyz_m": [
+    0.3634,
+    0.1398,
+    0.4015
+   ],
+   "bbox_min": [
+    -0.1817,
+    -0.0699,
+    0.0
+   ],
+   "materials": [
+    "mat_hammered_iron"
+   ],
+   "pivot": "bottom_centre (0,0,0), z-min=0",
+   "desc": "Rough hammered iron breast-plate shell blank standing on its lower edge; untrimmed lip, no straps, buckles or holes."
+  },
+  {
+   "name": "prop-spaulder-blank",
+   "file": "fbx/prop-spaulder-blank.fbx",
+   "tris": 140,
+   "dims_xyz_m": [
+    0.3162,
+    0.2646,
+    0.0981
+   ],
+   "bbox_min": [
+    -0.1581,
+    -0.1323,
+    0.0
+   ],
+   "materials": [
+    "mat_hammered_iron"
+   ],
+   "pivot": "bottom_centre (0,0,0), z-min=0",
+   "desc": "Single cupped shoulder-plate (spaulder) blank, half-dome resting on its open rim; untrimmed, no straps."
+  },
+  {
+   "name": "prop-vambrace-blank",
+   "file": "fbx/prop-vambrace-blank.fbx",
+   "tris": 80,
+   "dims_xyz_m": [
+    0.2802,
+    0.1132,
+    0.089
+   ],
+   "bbox_min": [
+    -0.1401,
+    -0.0566,
+    0.0
+   ],
+   "materials": [
+    "mat_hammered_iron"
+   ],
+   "pivot": "bottom_centre (0,0,0), z-min=0",
+   "desc": "Tapered forearm half-tube (vambrace) plate blank, open along its length, laid opening-up; untrimmed ends, no hinges."
+  },
+  {
+   "name": "prop-raising-stake-ar1",
+   "file": "fbx/prop-raising-stake-ar1.fbx",
+   "tris": 98,
+   "dims_xyz_m": [
+    0.41,
+    0.34,
+    0.43
+   ],
+   "bbox_min": [
+    -0.205,
+    -0.17,
+    0.0
+   ],
+   "materials": [
+    "mat_hammered_iron",
+    "mat_oak"
+   ],
+   "pivot": "bottom_centre (0,0,0), z-min=0",
+   "desc": "Stout armorer raising/planishing stake: broad flat mushroom face plus side-beaked raising horn on a short tapered iron shank set in an oak stump."
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-breastplate-blank.fbx",
+  "fbx/prop-raising-stake-ar1.fbx",
+  "fbx/prop-spaulder-blank.fbx",
+  "fbx/prop-vambrace-blank.fbx",
+  "tex/mat_hammered_iron_basecolor.png",
+  "tex/mat_oak_basecolor.png"
+ ]
+}
