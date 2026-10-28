@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **188** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **190** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -89,6 +89,7 @@ The `packs/` folder contains **188** CC0-licensed medieval prop packs. Each pack
 | `openkit-fuller-props-b1` | Fuller (cloth finishing) workshop props |
 | `openkit-furrier-props-b1` | Furrier workshop props |
 | `openkit-gilder-props-b1` | Gilder workshop props |
+| `openkit-gimlet-maker-props-b1` | Gimlet-maker workshop props |
 | `openkit-glassblower-props-b1` | Glassblower workshop props |
 | `openkit-glazier-props-b1` | Glazier workshop props |
 | `openkit-glove-maker-props-b1` | Glove-maker workshop props |
@@ -139,6 +140,7 @@ The `packs/` folder contains **188** CC0-licensed medieval prop packs. Each pack
 | `openkit-painter-props-b1` | Painter workshop props |
 | `openkit-parchment-maker-props-b1` | Parchment-maker workshop props |
 | `openkit-parchment-ruler-props-b1` | Parchment-ruler workshop props |
+| `openkit-peg-board-maker-props-b1` | Peg-board maker workshop props |
 | `openkit-peg-maker-props-b1` | Peg/trenail maker workshop props |
 | `openkit-perfumer-props-b1` | Perfumer workshop props |
 | `openkit-pewterer-props-b1` | Pewterer workshop props |

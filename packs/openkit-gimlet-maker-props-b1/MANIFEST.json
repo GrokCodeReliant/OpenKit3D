@@ -1,0 +1,96 @@
+{
+  "pack": "openkit-gimlet-maker-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 unit = 1 m), Z-up",
+  "tool": "Blender 5.2.1 (procedural bpy/bmesh)",
+  "renames": [],
+  "collision_check": "find studio/art prop-*.fbx + rg gimlet|auger: no prop-gimlet*, prop-auger*, prop-brace* (only prop-vambrace-blank, unrelated); no tip-file/size-gauge names. All 4 names free.",
+  "judgment_calls": [
+    "Screw tip represented as a 3-sided pointed stub instead of helix to stay low-tri.",
+    "Cross-handle socket left uncut (blank) to keep 24 tris.",
+    "Size gauge uses hex holes; 96 tris is a soft overrun vs preferred 48 (through-holes need walls), well under 120/210.",
+    "Blank and file stand upright on tip/tang; gauge lies flat."
+  ],
+  "assets": [
+    {
+      "name": "prop-gimlet-blank-gm1",
+      "file": "fbx/prop-gimlet-blank-gm1.fbx",
+      "tris": 36,
+      "dims_xyz_m": [
+        0.009,
+        0.0078,
+        0.14
+      ],
+      "bbox_min": [
+        -0.0045,
+        -0.0039,
+        0.0
+      ],
+      "materials": [
+        "MAT_iron_dark"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Iron gimlet blank standing upright: 3-sided pointed screw-tip stub (apex at base, 20 mm), hex shaft (9 mm across, 90 mm), tapered square tang on top (30 mm) for a cross handle. No full helix modelled."
+    },
+    {
+      "name": "prop-gimlet-cross-handle-gm1",
+      "file": "fbx/prop-gimlet-cross-handle-gm1.fbx",
+      "tris": 24,
+      "dims_xyz_m": [
+        0.11,
+        0.022,
+        0.046
+      ],
+      "bbox_min": [
+        -0.055,
+        -0.011,
+        0.0
+      ],
+      "materials": [
+        "MAT_wood_ash"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Ash-wood T cross-handle blank: square hub/socket block 22x22x26 mm at base topped by a 110x20x20 mm crossbar along X. Socket hole not cut (blank)."
+    },
+    {
+      "name": "prop-gimlet-tip-file-gm1",
+      "file": "fbx/prop-gimlet-tip-file-gm1.fbx",
+      "tris": 24,
+      "dims_xyz_m": [
+        0.01,
+        0.004,
+        0.11
+      ],
+      "bbox_min": [
+        -0.005,
+        -0.002,
+        0.0
+      ],
+      "materials": [
+        "MAT_iron_dark"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Small thin iron tip-dressing file blank standing on its tang: 4x2.5 mm tang tapering over 30 mm, flat blade 10x2.4 mm tapering to 6x1.6 mm over 80 mm. Smooth (no tooth geometry)."
+    },
+    {
+      "name": "prop-gimlet-size-gauge-gm1",
+      "file": "fbx/prop-gimlet-size-gauge-gm1.fbx",
+      "tris": 96,
+      "dims_xyz_m": [
+        0.09,
+        0.03,
+        0.003
+      ],
+      "bbox_min": [
+        -0.045,
+        -0.015,
+        0.0
+      ],
+      "materials": [
+        "MAT_iron_dark"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Flat iron gauge plate 90x30x3 mm lying on XY with 3 graded hexagonal through-holes (circumradius 3.5 / 5.0 / 6.5 mm) along X."
+    }
+  ]
+}
