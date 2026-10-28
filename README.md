@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **192** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **194** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -170,6 +170,7 @@ The `packs/` folder contains **192** CC0-licensed medieval prop packs. Each pack
 | `openkit-sieve-maker-props-b1` | Sieve-maker workshop props |
 | `openkit-sieve-mender-props-b1` | Sieve-mender workshop props |
 | `openkit-silversmith-props-b1` | Silversmith workshop props |
+| `openkit-sliding-bevel-props-b1` | Sliding bevel workshop props |
 | `openkit-smithy-tools-b1` | Blacksmith tools |
 | `openkit-soapstone-carver-props-b1` | Soapstone-carver workshop props |
 | `openkit-spinner-props-b1` | Spinner / hand-spinning accessory props |
@@ -189,6 +190,7 @@ The `packs/` folder contains **192** CC0-licensed medieval prop packs. Each pack
 | `openkit-tiler-props-b1` | Tiler workshop props |
 | `openkit-tinsmith-props-b1` | Tinsmith workshop props |
 | `openkit-trumpet-maker-props-b1` | Trumpet-maker workshop props |
+| `openkit-try-square-maker-props-b1` | Try-square maker workshop props |
 | `openkit-turner-props-b1` | Turner / lathe workshop props |
 | `openkit-upholsterer-props-b1` | Upholsterer workshop props |
 | `openkit-ui-frames-b1` | UI frame elements |
