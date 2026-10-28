@@ -1,0 +1,128 @@
+{
+ "pack": "openkit-basket-weaver-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures; FBX path_mode STRIP; image datablocks removed before export)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "No hits for prop-willow-bundle, prop-basket-unfinished, prop-bodkin-awl, prop-soaking-tub-small in studio/art/openkit-*/fbx; nearby: prop-cobbler-awl, prop-tub-stool, prop-boot-unfinished",
+ "judgment_calls": [
+  "Basket-weaver theme kept; no soap-maker pivot",
+  "Bodkin suffixed -bw1 per brief (avoid cobbler-awl confusion); other 3 ids free",
+  "Unfinished basket: bare 8 splayed stakes + 7 cm low band, no rim/border, no handle, no contents, loose weaver",
+  "Soaking tub: low wide 10-seg staved tub with water disc and 2 angled withies; distinct from tanning-vat/fermenting-crock/water-barrel; 204 tris (under 210 cap, above 120 preference)",
+  "Withies in tub intersect the wall slightly (non-manifold prop overlap, acceptable for static prop)",
+  "Workbench renders; flat BaseColor PNGs in tex/ not linked; .blend holds last-built object (pack pattern)"
+ ],
+ "assets": [
+  {
+   "name": "prop-willow-bundle",
+   "tris": 108,
+   "dims_xyz_m": [
+    1.2,
+    0.106,
+    0.063
+   ],
+   "bbox_min": [
+    -0.6,
+    -0.053,
+    0.0
+   ],
+   "materials": [
+    "M_Willow_Peeled",
+    "M_Cord_Twine"
+   ],
+   "height_m": 0.063,
+   "pivot": "bottom_centre (0,0,0) under bundle, lying along X; 1.2 m bundle of 7 peeled willow withies, staggered ends, two twine ties",
+   "fbx": "fbx/prop-willow-bundle.fbx",
+   "sha256": "03935431549cbe4907660342f800868e9f9fca1a503b097353de6f8485410543"
+  },
+  {
+   "name": "prop-basket-unfinished",
+   "tris": 152,
+   "dims_xyz_m": [
+    0.387,
+    0.368,
+    0.359
+   ],
+   "bbox_min": [
+    -0.194,
+    -0.184,
+    0.0
+   ],
+   "materials": [
+    "M_Willow_Peeled",
+    "M_Wood_Oak"
+   ],
+   "height_m": 0.359,
+   "pivot": "bottom_centre (0,0,0) under base board; 0.36 m WIP basket: octagonal wooden base, only a 7 cm woven band, 8 bare splayed stakes standing up, one loose weaver; no rim, no handle, no contents",
+   "fbx": "fbx/prop-basket-unfinished.fbx",
+   "sha256": "0a160063c8e572f6b531b1196cd477523e46f839b4a4ef9f4fe0a9110bb4248b"
+  },
+  {
+   "name": "prop-bodkin-awl-bw1",
+   "tris": 48,
+   "dims_xyz_m": [
+    0.168,
+    0.023,
+    0.026
+   ],
+   "bbox_min": [
+    -0.084,
+    -0.011,
+    0.0
+   ],
+   "materials": [
+    "M_Bone",
+    "M_Wood_Oak"
+   ],
+   "height_m": 0.026,
+   "pivot": "bottom_centre (0,0,0) lying flat along X; 0.17 m tapered bone basket-maker's bodkin with short turned wood handle (blunt-pointed, for opening the weave; not a cobbler awl)",
+   "fbx": "fbx/prop-bodkin-awl-bw1.fbx",
+   "sha256": "ade8dc4c70a749d1410f0ece8a88fd9270a589dc07c3b25bc4906b1c40fa823d"
+  },
+  {
+   "name": "prop-soaking-tub-small",
+   "tris": 204,
+   "dims_xyz_m": [
+    0.533,
+    0.429,
+    0.355
+   ],
+   "bbox_min": [
+    -0.266,
+    -0.215,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron",
+    "M_Willow_Peeled",
+    "M_Water"
+   ],
+   "height_m": 0.355,
+   "pivot": "bottom_centre (0,0,0) under tub base; 0.44 m-diameter low staved soaking tub (0.24 m tall body) with 2 iron hoops, lug handles, water and two withies soaking at an angle; not a vat/crock/barrel",
+   "fbx": "fbx/prop-soaking-tub-small.fbx",
+   "sha256": "d3cc3aa22cb508ab68fc3c3f7cc4ef8883516cc47f005c85d77e9bb883d2ab26"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-basket-unfinished.fbx",
+  "fbx/prop-bodkin-awl-bw1.fbx",
+  "fbx/prop-soaking-tub-small.fbx",
+  "fbx/prop-willow-bundle.fbx",
+  "tex/T_Bone_BaseColor.png",
+  "tex/T_Cord_Twine_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Water_BaseColor.png",
+  "tex/T_Willow_Peeled_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)"
+}

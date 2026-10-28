@@ -1,0 +1,126 @@
+{
+ "pack": "openkit-soap-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "prop-lye-pot, prop-soap-mold-tray, prop-fat-render-pan, prop-cutting-wire-frame: no hits in studio/art/openkit-*/fbx (120 packs) nor any studio json/md. Near: bathhouse prop-soap-dish (finished dish), candlemaker prop-candle-mold/prop-wax-block-stack, kitchen prop-cookpot-hang/prop-pot-hanging-kp1, glue-pot-small.",
+ "judgment_calls": [
+  "Lye pot is an earthenware crock with iron drip spout near base (leaching), not a jar/flask",
+  "Render pan uses twin lugs + 3 feet so it never reads as a single-handle fry pan",
+  "Mold tray keeps one uncut curing slab as WIP cue; no finished/stamped bars",
+  "Wire frame stands upright harp-style with 3 wires; wires are thin boxes (M_Iron)",
+  "Images stripped from .blend; tex/ PNGs are optional flat CC0 basecolors"
+ ],
+ "assets": [
+  {
+   "name": "prop-lye-pot",
+   "tris": 180,
+   "dims_xyz_m": [
+    0.28,
+    0.228,
+    0.33
+   ],
+   "bbox_min": [
+    -0.12,
+    -0.114,
+    0.0
+   ],
+   "materials": [
+    "M_Clay",
+    "M_Wood_Dark",
+    "M_Iron"
+   ],
+   "height_m": 0.33,
+   "pivot": "bottom_centre (0,0,0) on floor; earthenware lye crock 0.24 m dia with wooden lid and low iron drip spout toward +X",
+   "fbx": "fbx/prop-lye-pot.fbx",
+   "sha256": "dcc972a3d400dbbeddffef29b08afad8103c895402b631c48f7bb3ebe601e241"
+  },
+  {
+   "name": "prop-soap-mold-tray",
+   "tris": 96,
+   "dims_xyz_m": [
+    0.42,
+    0.2,
+    0.08
+   ],
+   "bbox_min": [
+    -0.21,
+    -0.1,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Soap"
+   ],
+   "height_m": 0.08,
+   "pivot": "bottom_centre (0,0,0) on floor/bench; 0.42x0.20 m wooden tray, 3 cavities along X, middle cavity holds one uncut curing slab",
+   "fbx": "fbx/prop-soap-mold-tray.fbx",
+   "sha256": "5385b064b9de949b11a0b17dec11275dc2bc1e2c7efa37c84ffc688ce81a0124"
+  },
+  {
+   "name": "prop-fat-render-pan",
+   "tris": 192,
+   "dims_xyz_m": [
+    0.54,
+    0.48,
+    0.091
+   ],
+   "bbox_min": [
+    -0.27,
+    -0.24,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Tallow"
+   ],
+   "height_m": 0.091,
+   "pivot": "bottom_centre (0,0,0) on floor/hearth; 0.48 m dia shallow iron pan on 3 stub feet, twin lugs along X, tallow pool inside",
+   "fbx": "fbx/prop-fat-render-pan.fbx",
+   "sha256": "04211ef557b806a93139a4b9524432744b367c98b531e18454459081a38b19cb"
+  },
+  {
+   "name": "prop-cutting-wire-frame",
+   "tris": 96,
+   "dims_xyz_m": [
+    0.4,
+    0.18,
+    0.265
+   ],
+   "bbox_min": [
+    -0.2,
+    -0.09,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Dark",
+    "M_Iron"
+   ],
+   "height_m": 0.265,
+   "pivot": "bottom_centre (0,0,0) on bench; 0.40 m wooden harp base, upright frame at -Y with 3 iron cutting wires, guide rail along X",
+   "fbx": "fbx/prop-cutting-wire-frame.fbx",
+   "sha256": "9096c2ce185580db28f0ec4a7e6140a27cfce706324d3a676cbf4b10aaaa607f"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-cutting-wire-frame.fbx",
+  "fbx/prop-fat-render-pan.fbx",
+  "fbx/prop-lye-pot.fbx",
+  "fbx/prop-soap-mold-tray.fbx",
+  "tex/T_Clay_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Soap_BaseColor.png",
+  "tex/T_Tallow_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)"
+}
