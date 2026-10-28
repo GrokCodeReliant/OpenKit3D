@@ -1,0 +1,98 @@
+{
+ "pack": "openkit-peg-board-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "metric, 1 unit = 1 m",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": "find prop-*.fbx under studio art + rg pegboard|peg-board: no prop-pegboard*/prop-peg-board* assets exist; only text mentions in another pack docs. Distinct from prop-peg-blank-tray, prop-pegbox-blank, prop-winding-peg-blank, prop-knotting-peg-nm1, prop-mesh-stretch-peg-sm1, prop-stake-peg-bm2.",
+ "judgment_calls": [
+  "Pegboard holes hexagonal (6-sided boolean) and reduced to 4 holes to stay under 210-tri hard max; 132 tris is a soft overrun of the 64 preference.",
+  "Hole gauge 104 tris (soft overrun of 40) due to three through-holes.",
+  "Peg set uses two pegs, pentagonal section, 32 tris.",
+  "Reamer 32 tris (soft overrun of 28 by 4).",
+  "All props lie flat on ground."
+ ],
+ "assets": [
+  {
+   "name": "prop-pegboard-blank-pb1",
+   "file": "fbx/prop-pegboard-blank-pb1.fbx",
+   "tris": 132,
+   "dims_xyz_m": [
+    0.6,
+    0.36,
+    0.022
+   ],
+   "bbox_min": [
+    -0.3,
+    -0.18,
+    0.0
+   ],
+   "materials": [
+    "M_pine"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Flat rectangular pine pegboard blank 0.60x0.36x0.022 m with four hexagonal 30 mm through-holes in a 2x2 grid (wall tool-rack blank), lying flat."
+  },
+  {
+   "name": "prop-pegboard-peg-set-pb1",
+   "file": "fbx/prop-pegboard-peg-set-pb1.fbx",
+   "tris": 32,
+   "dims_xyz_m": [
+    0.12,
+    0.0618,
+    0.0228
+   ],
+   "bbox_min": [
+    -0.06,
+    -0.0309,
+    0.0
+   ],
+   "materials": [
+    "M_oak"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Set of two short pentagonal-section oak pegs (120 mm and 100 mm long, 24 mm across) lying parallel, capped ends."
+  },
+  {
+   "name": "prop-pegboard-hole-gauge-pb1",
+   "file": "fbx/prop-pegboard-hole-gauge-pb1.fbx",
+   "tris": 104,
+   "dims_xyz_m": [
+    0.2,
+    0.05,
+    0.004
+   ],
+   "bbox_min": [
+    -0.1,
+    -0.025,
+    0.0
+   ],
+   "materials": [
+    "M_iron"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Thin iron hole-gauge plate 0.20x0.05x0.004 m with three graded hexagonal through-holes in a row (16, 22, 28 mm) for checking peg diameters."
+  },
+  {
+   "name": "prop-pegboard-reamer-pb1",
+   "file": "fbx/prop-pegboard-reamer-pb1.fbx",
+   "tris": 32,
+   "dims_xyz_m": [
+    0.24,
+    0.03,
+    0.03
+   ],
+   "bbox_min": [
+    -0.12,
+    -0.015,
+    0.0
+   ],
+   "materials": [
+    "M_beech",
+    "M_iron"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Peg-hole reamer blank 0.24 m long lying along X: square beech handle 100x30x30 mm and hexagonal iron bit tapering from 26 mm to 6 mm."
+  }
+ ]
+}
