@@ -1,0 +1,123 @@
+{
+ "pack": "openkit-winery-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures, path_mode STRIP)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "No hits for prop-grape-crate / prop-wine-press-lever / prop-tasting-bowl / prop-cork-basket across studio/art/openkit-*/fbx. Distinct from brewery hop-basket, crates, barrels, cooper bung-mallet.",
+ "judgment_calls": [
+  "All pivots bottom_centre (bbox-centre XY, min Z=0)",
+  "grape clusters = 7 inverted 5-seg cones heaped above crate rim",
+  "wine press: open 8-seg basket tube, plate, ram post, rear upright + long lever toward +Y (144 tris)",
+  "tasting bowl: pewter tastevin, 12-seg lathe + thumb tab",
+  "cork basket: 8 tapered 5-seg corks in wicker (192 tris, under 210 cap)",
+  "tex/ flat-noise BaseColor PNGs optional, not referenced by FBX"
+ ],
+ "assets": [
+  {
+   "name": "prop-grape-crate",
+   "tris": 116,
+   "dims_xyz_m": [
+    0.5,
+    0.36,
+    0.325
+   ],
+   "bbox_min": [
+    -0.25,
+    -0.18,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Wood_Dark",
+    "M_Grape"
+   ],
+   "pivot": "bottom_centre (0,0,0) on floor; 0.5 m open slat crate heaped with 7 stylized purple grape-cluster cones above the rim",
+   "fbx": "fbx/prop-grape-crate.fbx",
+   "sha256": "0f1fdc30d7d970c8843e37be46de2b97c98c1609c5700edc3bf83aa64a74e16e"
+  },
+  {
+   "name": "prop-wine-press-lever",
+   "tris": 144,
+   "dims_xyz_m": [
+    0.6,
+    0.987,
+    0.754
+   ],
+   "bbox_min": [
+    -0.3,
+    -0.493,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Wood_Dark",
+    "M_Iron"
+   ],
+   "pivot": "bottom_centre (0,0,0) on floor; compact basket press on square tray, rear upright with long oak lever extending toward +Y, axis +Z",
+   "fbx": "fbx/prop-wine-press-lever.fbx",
+   "sha256": "3ceab1d9d60bc9c09c7d291f6f6d07bc62ddf35a90ac4c79c3e52697435c499a"
+  },
+  {
+   "name": "prop-tasting-bowl",
+   "tris": 108,
+   "dims_xyz_m": [
+    0.26,
+    0.22,
+    0.035
+   ],
+   "bbox_min": [
+    -0.13,
+    -0.11,
+    0.0
+   ],
+   "materials": [
+    "M_Pewter"
+   ],
+   "pivot": "bottom_centre (0,0,0) on table; 0.22 m shallow pewter tastevin dish with flat thumb tab at +X",
+   "fbx": "fbx/prop-tasting-bowl.fbx",
+   "sha256": "450e70963d5e11fd4c9629ea7d05e7e16f3e2ea64d62dc58a62d6bfebc429a83"
+  },
+  {
+   "name": "prop-cork-basket",
+   "tris": 192,
+   "dims_xyz_m": [
+    0.28,
+    0.28,
+    0.161
+   ],
+   "bbox_min": [
+    -0.14,
+    -0.14,
+    0.0
+   ],
+   "materials": [
+    "M_Wicker",
+    "M_Cork"
+   ],
+   "pivot": "bottom_centre (0,0,0) on floor; 0.28 m small wicker basket filled with tapered cork stoppers, axis +Z",
+   "fbx": "fbx/prop-cork-basket.fbx",
+   "sha256": "dc53bbbf68ff20c2bbd97bd5fe89888a7ba7f474a0e957c90f3c742ac931ad6f"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-cork-basket.fbx",
+  "fbx/prop-grape-crate.fbx",
+  "fbx/prop-tasting-bowl.fbx",
+  "fbx/prop-wine-press-lever.fbx",
+  "tex/T_Cork_BaseColor.png",
+  "tex/T_Grape_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Pewter_BaseColor.png",
+  "tex/T_Wicker_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ]
+}
