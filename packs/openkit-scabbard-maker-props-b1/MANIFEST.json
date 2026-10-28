@@ -1,0 +1,120 @@
+{
+ "pack": "openkit-scabbard-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "Searched all 176 openkit-*/fbx for scabbard|sheath|chape|throat|wood-core|leather-wrap|locket|frog: zero hits; no openkit-scabbard*/belt* pack. All 4 ids free, no suffix needed.",
+ "judgment_calls": [
+  "Workshop blanks only: no blade, hilt or assembled scabbard; distinct from WPN_* weapons and finished swords",
+  "Core: two uncarved flat poplar halves + scribed channel line + glue-up tie, reads as billet stock not a sheath",
+  "Leather wrap: 24 cm wide tapering cover panel with roll; distinct from narrow girth-strap-roll (saddler)",
+  "Chape/throat in brass with casting flash/sprue/burr to read unfinished; throat lug left undrilled",
+  "Contact-sheet eye-check pass 1: no floating parts; all parts touch/overlap; all under 120 tris"
+ ],
+ "assets": [
+  {
+   "name": "prop-wood-core-blank",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.86,
+    0.076,
+    0.021
+   ],
+   "bbox_min": [
+    -0.4,
+    -0.038,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Soot",
+    "M_Leather"
+   ],
+   "height_m": 0.021,
+   "pivot": "bottom_centre (0,0,0); 0.86 m unfinished poplar scabbard core, two uncarved halves lying flat along X side by side, rough tip stub +X, scribed channel line, tie band at -X"
+  },
+  {
+   "name": "prop-leather-wrap-blank",
+   "tris": 84,
+   "dims_xyz_m": [
+    0.426,
+    0.24,
+    0.072
+   ],
+   "bbox_min": [
+    -0.036,
+    -0.12,
+    0.0
+   ],
+   "materials": [
+    "M_Leather",
+    "M_Wood_Dark",
+    "M_Iron"
+   ],
+   "height_m": 0.07,
+   "pivot": "roll centre projected to floor (0,0,0); 24 cm wide rolled leather scabbard-cover blank (axis Y) with 0.4 m flat tapering panel unrolled toward +X, thong tie, chalk cut line"
+  },
+  {
+   "name": "prop-chape-blank",
+   "tris": 62,
+   "dims_xyz_m": [
+    0.048,
+    0.022,
+    0.097
+   ],
+   "bbox_min": [
+    -0.024,
+    -0.011,
+    0.0
+   ],
+   "materials": [
+    "M_Brass",
+    "M_Iron"
+   ],
+   "height_m": 0.0965,
+   "pivot": "bottom_centre (0,0,0); 8 cm unfinished brass chape (tip mount) blank standing tip-down, flattened 8-seg shell, rough rim flash and sprue stub on top"
+  },
+  {
+   "name": "prop-throat-mount-blank",
+   "tris": 96,
+   "dims_xyz_m": [
+    0.064,
+    0.033,
+    0.047
+   ],
+   "bbox_min": [
+    -0.032,
+    -0.013,
+    0.0
+   ],
+   "materials": [
+    "M_Brass",
+    "M_Iron"
+   ],
+   "height_m": 0.047,
+   "pivot": "bottom_centre (0,0,0); 6 cm oval brass throat/locket mount blank standing upright, hollow 8-seg band, undrilled suspension lug boss +Y, burr strip on top edge"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-chape-blank.fbx",
+  "fbx/prop-leather-wrap-blank.fbx",
+  "fbx/prop-throat-mount-blank.fbx",
+  "fbx/prop-wood-core-blank.fbx",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Leather_BaseColor.png",
+  "tex/T_Soot_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "All six BaseColor PNGs (T_Brass, T_Iron, T_Leather, T_Soot, T_Wood_Dark, T_Wood_Oak) stay pack-local in tex/; all byte-unique (name-clash only with other packs). FBX are slots-only (no embedded/linked textures); Unity maps textures by material slot."
+}
