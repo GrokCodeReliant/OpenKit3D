@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **150** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **152** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -149,9 +149,11 @@ The `packs/` folder contains **150** CC0-licensed medieval prop packs. Each pack
 | `openkit-thimble-maker-props-b1` | Thimble-maker workshop props |
 | `openkit-tiler-props-b1` | Tiler workshop props |
 | `openkit-tinsmith-props-b1` | Tinsmith workshop props |
+| `openkit-trumpet-maker-props-b1` | Trumpet-maker workshop props |
 | `openkit-turner-props-b1` | Turner / lathe workshop props |
 | `openkit-upholsterer-props-b1` | Upholsterer workshop props |
 | `openkit-ui-frames-b1` | UI frame elements |
+| `openkit-viol-maker-props-b1` | Viol-maker workshop props |
 | `openkit-wall-dress-b1` | Wall decorations |
 | `openkit-watchmaker-props-b1` | Watchmaker workshop props |
 | `openkit-well-water-b1` | Wells and water props |
