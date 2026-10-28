@@ -1,0 +1,111 @@
+{
+ "pack": "openkit-mirror-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "tool": "Blender 5.2.1 procedural bpy",
+ "renames": [],
+ "collision_check": "no existing prop-*.fbx with these names; distinct from glazier, tinsmith, coppersmith, lantern-maker horn-pane-stack and lantern-frame-blank",
+ "assets": [
+  {
+   "name": "prop-looking-glass-blank",
+   "file": "fbx/prop-looking-glass-blank.fbx",
+   "tris": 40,
+   "dims_xyz_m": [
+    0.3,
+    0.245,
+    0.012
+   ],
+   "bbox_min": [
+    -0.15,
+    -0.123,
+    0.0
+   ],
+   "materials": [
+    "M_Glass",
+    "M_Wood"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "single thin clear glass plate with arrissed corners lying beside a small wooden rest strip, ready for silvering"
+  },
+  {
+   "name": "prop-tinfoil-sheet",
+   "file": "fbx/prop-tinfoil-sheet.fbx",
+   "tris": 60,
+   "dims_xyz_m": [
+    0.28,
+    0.2,
+    0.035
+   ],
+   "bbox_min": [
+    -0.14,
+    -0.1,
+    0.0
+   ],
+   "materials": [
+    "M_Foil"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "paper-thin crinkled sheet of tin foil with one corner curling up, laid out for silvering a glass"
+  },
+  {
+   "name": "prop-amalgam-bowl",
+   "file": "fbx/prop-amalgam-bowl.fbx",
+   "tris": 128,
+   "dims_xyz_m": [
+    0.225,
+    0.13,
+    0.094
+   ],
+   "bbox_min": [
+    -0.113,
+    -0.065,
+    0.0
+   ],
+   "materials": [
+    "M_Clay",
+    "M_Amalgam",
+    "M_Steel",
+    "M_Wood"
+   ],
+   "pivot": "bottom_centre (0,0,0); sits flat",
+   "desc": "small earthenware bowl of dull grey tin-mercury amalgam paste with a short iron spatula resting across the rim"
+  },
+  {
+   "name": "prop-mirror-frame-blank",
+   "file": "fbx/prop-mirror-frame-blank.fbx",
+   "tris": 132,
+   "dims_xyz_m": [
+    0.376,
+    0.286,
+    0.024
+   ],
+   "bbox_min": [
+    -0.188,
+    -0.143,
+    0.0
+   ],
+   "materials": [
+    "M_Wood"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "plain oval wooden looking-glass frame blank with moulded outer edge and empty centre awaiting its silvered glass"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-amalgam-bowl.fbx",
+  "fbx/prop-looking-glass-blank.fbx",
+  "fbx/prop-mirror-frame-blank.fbx",
+  "fbx/prop-tinfoil-sheet.fbx",
+  "tex/T_Amalgam_BaseColor.png",
+  "tex/T_Clay_BaseColor.png",
+  "tex/T_Foil_BaseColor.png",
+  "tex/T_Glass_BaseColor.png",
+  "tex/T_Steel_BaseColor.png",
+  "tex/T_Wood_BaseColor.png"
+ ]
+}
