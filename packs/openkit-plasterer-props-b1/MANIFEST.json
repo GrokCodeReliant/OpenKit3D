@@ -1,0 +1,120 @@
+{
+ "pack": "openkit-plasterer-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-lime-bucket-pl1": "suffix: bucket-wood-wb1/bait-bucket exist; lime-burner has slaking-trough/lime-lump-sack"
+ },
+ "collision_check": "No openkit-plasterer/dauber pack. Searched all openkit-*/fbx for plaster|hawk|float|trowel|lime|bucket: only prop-cork-float-string (fishing), prop-bucket-wood-wb1, prop-bait-bucket, lime-burner lime-rake/lime-lump-sack/slaking-trough. Mason pack (ashlar, chisel, mallet, plumb-bob) has no trowel.",
+ "judgment_calls": [
+  "Hawk = square board on collar + short underslung handle, plaster patch on top",
+  "Float = wooden sole + bridge handle (vs steel trowel)",
+  "Trowel = rectangular steel finishing trowel, single post handle parallel to blade",
+  "Bucket = small tapered bail bucket with lime fill; 260->179 tris (7 segs, one hoop)",
+  "Eye-check v1: trowel ribs overhung blade -> v2 single centred rib; lugs shrunk"
+ ],
+ "assets": [
+  {
+   "name": "prop-hawk-board-blank",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.3,
+    0.3,
+    0.146
+   ],
+   "bbox_min": [
+    -0.15,
+    -0.15,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Wood_Dark",
+    "M_Lime_Plaster"
+   ],
+   "height_m": 0.145,
+   "pivot": "bottom_centre (0,0,0) = handle butt; 30 cm square plasterer's hawk on a turned collar and short 13 cm handle, a patch of wet plaster on top"
+  },
+  {
+   "name": "prop-float-blank",
+   "tris": 48,
+   "dims_xyz_m": [
+    0.28,
+    0.12,
+    0.059
+   ],
+   "bbox_min": [
+    -0.14,
+    -0.06,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Wood_Dark"
+   ],
+   "height_m": 0.059,
+   "pivot": "laid / bottom_centre (0,0,0); 28x12 cm flat wooden float sole with a bridge handle on two posts; for levelling render coats"
+  },
+  {
+   "name": "prop-plaster-trowel-blank",
+   "tris": 56,
+   "dims_xyz_m": [
+    0.28,
+    0.11,
+    0.06
+   ],
+   "bbox_min": [
+    -0.14,
+    -0.055,
+    0.0
+   ],
+   "materials": [
+    "M_Steel",
+    "M_Wood_Ash"
+   ],
+   "height_m": 0.062,
+   "pivot": "laid / bottom_centre (0,0,0) blade flat on floor; 28x11 cm rectangular steel finishing trowel with stiffening rib, single post and 6-sided handle parallel to blade"
+  },
+  {
+   "name": "prop-lime-bucket-pl1",
+   "tris": 179,
+   "dims_xyz_m": [
+    0.314,
+    0.292,
+    0.375
+   ],
+   "bbox_min": [
+    -0.157,
+    -0.146,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Steel",
+    "M_Lime_Plaster"
+   ],
+   "height_m": 0.375,
+   "pivot": "bottom_centre (0,0,0); 30 cm tall tapered two-hoop stave bucket with iron bail handle, filled near brim with white lime plaster; small carry bucket vs lime-burner slaking-trough"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-float-blank.fbx",
+  "fbx/prop-hawk-board-blank.fbx",
+  "fbx/prop-lime-bucket-pl1.fbx",
+  "fbx/prop-plaster-trowel-blank.fbx",
+  "tex/T_Lime_Plaster_BaseColor.png",
+  "tex/T_Steel_BaseColor.png",
+  "tex/T_Wood_Ash_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md, src/, and renders/ (build sources kept in studio, not shipped)",
+ "textures_note": "All 4 BaseColor PNGs ship pack-local in tex/. None is byte-identical to any sibling Open Kit pack (T_Wood_Ash/Dark may share filenames with fishmonger/tiler \u2014 name-clash only where noted by Intake/Veil as pack-local keep). FBX carry material slots only; Unity maps textures by material slot."
+}
