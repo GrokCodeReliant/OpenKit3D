@@ -1,0 +1,41 @@
+{
+  "pack": "wall-dress-b1",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "8da94497c871afd854c041068fa68105d33a179ed0798179aaf82e3495a1bb1f",
+      "bytes": 201
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "ede2c476ce51c01133b5a8b71870085294a958f60838108c09b0b2371f449eca",
+      "bytes": 132
+    },
+    {
+      "path": "README.md",
+      "sha256": "df9bd4e99240db321d147d7b69b3a462c5a84957e5e57df5a680123903f65fc7",
+      "bytes": 665
+    },
+    {
+      "path": "contact.png",
+      "sha256": "7cd4affbe7b9e265bcd5c47dc3d5330f8bb1003ddc4bb3c73d83d4305021229c",
+      "bytes": 338640
+    },
+    {
+      "path": "prop-candle-niche.fbx",
+      "sha256": "3a4dda4abc032976450b4e86b2e59341e3d3f22f8beb6b23926654566b6178d2",
+      "bytes": 17900
+    },
+    {
+      "path": "prop-candle-sconce.fbx",
+      "sha256": "41faa1f58cd9cdad7c018484b3e0813c94289b191aee374b9908131841b431f4",
+      "bytes": 17596
+    },
+    {
+      "path": "prop-weapon-plaque.fbx",
+      "sha256": "0f9200a4a11e453f1b1eb3da91a22ea1c196ed223aa42841b9ee4550fbba81ed",
+      "bytes": 17228
+    }
+  ]
+}

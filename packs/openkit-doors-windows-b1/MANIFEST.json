@@ -1,0 +1,257 @@
+{
+ "pack": "openkit-doors-windows-b1",
+ "tex_shared_with": "mat_wood_oak/mat_wood_dark/mat_iron identical to tavern/furniture/outdoor/clutter packs (seed 23); mat_glass new (src/make_glass.py seed 91)",
+ "license": "CC0-1.0",
+ "unit": "1 unit = 1 m",
+ "not_reauthored": [
+  "prop-candle-niche",
+  "prop-weapon-plaque",
+  "prop-candle-sconce",
+  "all existing Open Kit packs (no door/window existed)",
+  "WPN_*",
+  "tile-dojo-*"
+ ],
+ "wall_openings": {
+  "door": "1.0 w x 2.1 h",
+  "window": "1.0 w x 1.2 h"
+ },
+ "assets": [
+  {
+   "name": "prop-door-wood",
+   "files": [
+    "fbx/prop-door-wood.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-door-wood.png"
+   ],
+   "tris": 344,
+   "size_m": [
+    0.96,
+    2.05,
+    0.187
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Metal"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Secondary": "mat_wood_dark",
+    "Metal": "mat_iron"
+   },
+   "pivot": "hinge_bottom: origin = hinge edge (-X side of slab) at floor y=0; slab spans +X 0..0.95, thickness centred on z=0; rotate about +Y to swing (positive yaw swings toward Unity +Z)",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_doors_windows_b1.py; textures reused from tavern-dressing-b1 (make_textures seed 23) + src/make_glass.py)"
+  },
+  {
+   "name": "prop-door-plank",
+   "files": [
+    "fbx/prop-door-plank.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-door-plank.png"
+   ],
+   "tris": 428,
+   "size_m": [
+    1.015,
+    2.047,
+    0.15
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Metal"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Secondary": "mat_wood_dark",
+    "Metal": "mat_iron"
+   },
+   "pivot": "hinge_bottom: origin = hinge edge (-X side) at floor y=0; slab spans +X 0..1.0, faces Unity -Z with ledges/brace on +Z (inside) face; hinge pins at x=0",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_doors_windows_b1.py; textures reused from tavern-dressing-b1 (make_textures seed 23) + src/make_glass.py)"
+  },
+  {
+   "name": "prop-window-shutter",
+   "files": [
+    "fbx/prop-window-shutter.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-window-shutter.png"
+   ],
+   "tris": 548,
+   "size_m": [
+    1.041,
+    1.2,
+    0.08
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Metal"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Metal": "mat_iron"
+   },
+   "pivot": "wall_back bottom_centre: back face at z=0 flush to wall, leaves extend toward Unity -Z (exterior); closed PAIR of louvred leaves, each 0.5 w; hinge pins at x=+-0.51; opening sill y=0",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_doors_windows_b1.py; textures reused from tavern-dressing-b1 (make_textures seed 23) + src/make_glass.py)"
+  },
+  {
+   "name": "prop-window-leaded",
+   "files": [
+    "fbx/prop-window-leaded.fbx",
+    "tex/mat_glass_albedo.png",
+    "tex/mat_glass_normal.png",
+    "tex/mat_glass_ao.png",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-window-leaded.png"
+   ],
+   "tris": 1040,
+   "size_m": [
+    1.0,
+    1.24,
+    0.17
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Metal",
+    "Glass"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Metal": "mat_iron",
+    "Glass": "mat_glass"
+   },
+   "pivot": "wall_back bottom_centre: back of frame z=0 flush to wall, frame depth 0.12 toward Unity -Z; outer 1.0 x 1.2 (fills 1.0x1.2 hole); glass = double-sided plane",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_doors_windows_b1.py; textures reused from tavern-dressing-b1 (make_textures seed 23) + src/make_glass.py)"
+  },
+  {
+   "name": "prop-doorframe-trim",
+   "files": [
+    "fbx/prop-doorframe-trim.fbx",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-doorframe-trim.png"
+   ],
+   "tris": 84,
+   "size_m": [
+    1.42,
+    2.33,
+    0.14
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Secondary",
+    "Primary"
+   ],
+   "slot_textures": {
+    "Secondary": "mat_wood_dark",
+    "Primary": "mat_wood_oak"
+   },
+   "pivot": "wall_back bottom_centre: frames a 1.0 x 2.1 opening; casing 0.08 wide, back at z=+0.02 (sits 2cm into reveal), floor y=0",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_doors_windows_b1.py; textures reused from tavern-dressing-b1 (make_textures seed 23) + src/make_glass.py)"
+  },
+  {
+   "name": "prop-window-sill",
+   "files": [
+    "fbx/prop-window-sill.fbx",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-window-sill.png"
+   ],
+   "tris": 48,
+   "size_m": [
+    1.2,
+    0.2,
+    0.18
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak"
+   },
+   "pivot": "wall_back bottom_centre: top of sill y=0 = bottom of 1.0-wide opening; projects toward Unity -Z",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_doors_windows_b1.py; textures reused from tavern-dressing-b1 (make_textures seed 23) + src/make_glass.py)"
+  }
+ ],
+ "sha256": {
+  "fbx/prop-door-plank.fbx": "03a9436ebd13c7c268142e53aa65b60728fef906600d940ba46fe389ea999328",
+  "fbx/prop-door-wood.fbx": "00da7bb234bc1a7968c5913c29714624752244124339e5952195ddd6396d4854",
+  "fbx/prop-doorframe-trim.fbx": "c0451d6edea272dc36ac9796ff855fd1b509db38ad55daf8a8c13f3d0e9bfe59",
+  "fbx/prop-window-leaded.fbx": "52389f3ad05b99ecd0a8aa8ce177a1d4936bdee20e9a0a57c0271a9d15877ec9",
+  "fbx/prop-window-shutter.fbx": "fd3af18150bc0f221f210ced2bdc95435fd0344a632a6726a2c1e89dffdc7b65",
+  "fbx/prop-window-sill.fbx": "560638f5b69d76e8cc25114664743b9ecdab878a9e284b542dadd5913e4d5247"
+ },
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSES.md",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-door-plank.fbx",
+  "fbx/prop-door-wood.fbx",
+  "fbx/prop-doorframe-trim.fbx",
+  "fbx/prop-window-leaded.fbx",
+  "fbx/prop-window-shutter.fbx",
+  "fbx/prop-window-sill.fbx",
+  "renders/prop-door-plank.png",
+  "renders/prop-door-wood.png",
+  "renders/prop-doorframe-trim.png",
+  "renders/prop-window-leaded.png",
+  "renders/prop-window-shutter.png",
+  "renders/prop-window-sill.png",
+  "src/build_doors_windows_b1.py",
+  "src/make_glass.py",
+  "tex/mat_glass_albedo.png",
+  "tex/mat_glass_ao.png",
+  "tex/mat_glass_normal.png",
+  "tex/mat_iron_albedo.png",
+  "tex/mat_iron_ao.png",
+  "tex/mat_iron_normal.png",
+  "tex/mat_wood_dark_albedo.png",
+  "tex/mat_wood_dark_ao.png",
+  "tex/mat_wood_dark_normal.png",
+  "tex/mat_wood_oak_albedo.png",
+  "tex/mat_wood_oak_ao.png",
+  "tex/mat_wood_oak_normal.png"
+ ]
+}

@@ -1,0 +1,211 @@
+{
+ "pack": "openkit-light-hearth-b1",
+ "license": "CC0-1.0",
+ "unit": "1 unit = 1 m",
+ "tex_shared_with": "openkit-outdoor-props-b1 (identical iron/stone/wood_dark/ember PNGs)",
+ "assets": [
+  {
+   "name": "prop-torch-wall-iron",
+   "files": [
+    "fbx/prop-torch-wall-iron.fbx",
+    "tex/mat_ember_albedo.png",
+    "tex/mat_ember_normal.png",
+    "tex/mat_ember_ao.png",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "renders/prop-torch-wall-iron.png"
+   ],
+   "tris": 226,
+   "size_m": [
+    0.1,
+    0.495,
+    0.241
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Metal",
+    "Secondary",
+    "Emissive"
+   ],
+   "slot_textures": {
+    "Metal": "mat_iron",
+    "Secondary": "mat_wood_dark",
+    "Emissive": "mat_ember"
+   },
+   "pivot": "wall_back: origin on wall plane at mount-plate centre; prop projects away from wall (Blender -Y)",
+   "vfx_sockets_blender_xyz_m": {
+    "fx_flame": [
+     0,
+     -0.205,
+     0.36
+    ]
+   },
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_light_hearth_b1.py)"
+  },
+  {
+   "name": "prop-brazier-floor",
+   "files": [
+    "fbx/prop-brazier-floor.fbx",
+    "tex/mat_ember_albedo.png",
+    "tex/mat_ember_normal.png",
+    "tex/mat_ember_ao.png",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "renders/prop-brazier-floor.png"
+   ],
+   "tris": 520,
+   "size_m": [
+    0.707,
+    0.944,
+    0.663
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Metal",
+    "Emissive"
+   ],
+   "slot_textures": {
+    "Metal": "mat_iron",
+    "Emissive": "mat_ember"
+   },
+   "pivot": "bottom_centre: ground z=0 (Unity y=0), centred",
+   "vfx_sockets_blender_xyz_m": {
+    "fx_flame": [
+     0,
+     0,
+     0.88
+    ]
+   },
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_light_hearth_b1.py)"
+  },
+  {
+   "name": "prop-campfire-ring-iron",
+   "files": [
+    "fbx/prop-campfire-ring-iron.fbx",
+    "tex/mat_ember_albedo.png",
+    "tex/mat_ember_normal.png",
+    "tex/mat_ember_ao.png",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_stone_albedo.png",
+    "tex/mat_stone_normal.png",
+    "tex/mat_stone_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "renders/prop-campfire-ring-iron.png"
+   ],
+   "tris": 600,
+   "size_m": [
+    1.205,
+    0.549,
+    1.131
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Metal",
+    "Secondary",
+    "Emissive"
+   ],
+   "slot_textures": {
+    "Primary": "mat_stone",
+    "Metal": "mat_iron",
+    "Secondary": "mat_wood_dark",
+    "Emissive": "mat_ember"
+   },
+   "pivot": "bottom_centre: ground z=0 (Unity y=0), centred",
+   "vfx_sockets_blender_xyz_m": {
+    "fx_flame": [
+     0,
+     0,
+     0.22
+    ],
+    "fx_smoke": [
+     0,
+     0,
+     0.6
+    ]
+   },
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_light_hearth_b1.py)"
+  },
+  {
+   "name": "prop-lantern-hang",
+   "files": [
+    "fbx/prop-lantern-hang.fbx",
+    "tex/mat_ember_albedo.png",
+    "tex/mat_ember_normal.png",
+    "tex/mat_ember_ao.png",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "renders/prop-lantern-hang.png"
+   ],
+   "tris": 262,
+   "size_m": [
+    0.174,
+    0.452,
+    0.43
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Metal",
+    "Emissive"
+   ],
+   "slot_textures": {
+    "Metal": "mat_iron",
+    "Emissive": "mat_ember"
+   },
+   "pivot": "wall_back: origin on wall plane at mount-plate centre; prop projects away from wall (Blender -Y); lantern hangs 0.34 out, body 0.36-0.10 below pivot",
+   "vfx_sockets_blender_xyz_m": {
+    "fx_light": [
+     0,
+     -0.34,
+     -0.26
+    ]
+   },
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_light_hearth_b1.py)"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSES.md",
+  "MANIFEST.json",
+  "README.md",
+  "SHA256SUMS.txt",
+  "fbx/prop-brazier-floor.fbx",
+  "fbx/prop-campfire-ring-iron.fbx",
+  "fbx/prop-lantern-hang.fbx",
+  "fbx/prop-torch-wall-iron.fbx",
+  "renders/prop-brazier-floor.png",
+  "renders/prop-campfire-ring-iron.png",
+  "renders/prop-lantern-hang.png",
+  "renders/prop-torch-wall-iron.png",
+  "src/build_light_hearth_b1.py",
+  "src/make_outdoor_tex.py",
+  "src/make_textures.py",
+  "tex/mat_ember_albedo.png",
+  "tex/mat_ember_ao.png",
+  "tex/mat_ember_normal.png",
+  "tex/mat_iron_albedo.png",
+  "tex/mat_iron_ao.png",
+  "tex/mat_iron_normal.png",
+  "tex/mat_stone_albedo.png",
+  "tex/mat_stone_ao.png",
+  "tex/mat_stone_normal.png",
+  "tex/mat_wood_dark_albedo.png",
+  "tex/mat_wood_dark_ao.png",
+  "tex/mat_wood_dark_normal.png"
+ ]
+}

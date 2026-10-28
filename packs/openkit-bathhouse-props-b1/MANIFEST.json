@@ -1,0 +1,117 @@
+{
+ "pack": "openkit-bathhouse-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "no wash-basin/towel-rack/soap-dish/tub-stool ids in other Open Kit packs; nearest: prop-stool-tall (furniture-extras), prop-camp-stool (camp), prop-bucket-wood-wb1 (well-water) - distinct ids/forms, no suffix needed",
+ "judgment_calls": [
+  "prop-tub-stool is a low (0.23 m) two-slab washing stool, deliberately unlike stool-tall/camp-stool",
+  "prop-wash-basin is a wooden footed bowl, not a bucket (no handle/staves) to stay clear of bucket-wood-wb1",
+  "prop-towel-rack-wall is wall-mounted and bath-specific; not part of the wall-dress pack"
+ ],
+ "assets": [
+  {
+   "name": "prop-wash-basin",
+   "tris": 144,
+   "dims_xyz_m": [
+    0.44,
+    0.44,
+    0.125
+   ],
+   "bbox_min": [
+    -0.22,
+    -0.22,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Cedar"
+   ],
+   "height_m": 0.125,
+   "pivot": "bottom_centre (0,0,0) under basin foot; radially symmetric",
+   "fbx": "fbx/prop-wash-basin.fbx",
+   "sha256": "30b1e688c80234529d3268e870f90a7db656807ed0ab52df90066709fa361fba"
+  },
+  {
+   "name": "prop-towel-rack-wall",
+   "tris": 64,
+   "dims_xyz_m": [
+    0.56,
+    0.062,
+    0.3
+   ],
+   "bbox_min": [
+    -0.28,
+    -0.062,
+    -0.24
+   ],
+   "materials": [
+    "M_Wood_Cedar",
+    "M_Linen"
+   ],
+   "height_m": 0.3,
+   "pivot": "wall_back: (0,0,0) at back face (Y=0) at bar height; prop extends -Y from wall, towel hangs -Z",
+   "fbx": "fbx/prop-towel-rack-wall.fbx",
+   "sha256": "f5c8d6ae655ada820e8c817b150989685444fbca473d4eb97026ad917a2bac31"
+  },
+  {
+   "name": "prop-soap-dish",
+   "tris": 92,
+   "dims_xyz_m": [
+    0.13,
+    0.124,
+    0.036
+   ],
+   "bbox_min": [
+    -0.065,
+    -0.062,
+    0.0
+   ],
+   "materials": [
+    "M_Ceramic",
+    "M_Soap"
+   ],
+   "height_m": 0.036,
+   "pivot": "bottom_centre (0,0,0) under dish; soap bar long axis X",
+   "fbx": "fbx/prop-soap-dish.fbx",
+   "sha256": "f1e65e41e78a2cf641913e18ea3bfdc7ea068eab0cd7f7141f90ac43253121e7"
+  },
+  {
+   "name": "prop-tub-stool",
+   "tris": 36,
+   "dims_xyz_m": [
+    0.36,
+    0.22,
+    0.23
+   ],
+   "bbox_min": [
+    -0.18,
+    -0.11,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Cedar"
+   ],
+   "height_m": 0.23,
+   "pivot": "bottom_centre (0,0,0) between slab legs; seat long axis X; low washing stool (not stool-tall/camp-stool)",
+   "fbx": "fbx/prop-tub-stool.fbx",
+   "sha256": "f253dd4aea8ae17753a83e733ac30d235992f09e3c020181f0be4debc56f45e1"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-soap-dish.fbx",
+  "fbx/prop-towel-rack-wall.fbx",
+  "fbx/prop-tub-stool.fbx",
+  "fbx/prop-wash-basin.fbx",
+  "tex/T_Ceramic_BaseColor.png",
+  "tex/T_Linen_BaseColor.png",
+  "tex/T_Wood_Cedar_BaseColor.png"
+ ]
+}

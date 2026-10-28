@@ -1,0 +1,107 @@
+{
+ "pack": "openkit-bridge-scaffold-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "modular": {
+  "bridge_span_m": 2.0,
+  "bridge_snap": "+2.0 m along Y, deck top z=0.19"
+ },
+ "renames": {
+  "prop-rope-coil": "prop-rope-coil-bs1"
+ },
+ "assets": [
+  {
+   "name": "prop-bridge-wood-plank",
+   "tris": 192,
+   "dims_xyz_m": [
+    1.0,
+    2.0,
+    0.905
+   ],
+   "materials": [
+    "M_Wood_Plank",
+    "M_Wood_Dark"
+   ],
+   "span_length_m": 2.0,
+   "deck_width_m": 1.0,
+   "deck_top_z_m": 0.19,
+   "planks": 8,
+   "snap_offset_y_m": 2.0,
+   "pivot": "bottom_centre (0,0,0) at centre of span on stringer underside; span runs along Y from -1.0 to +1.0; snap modules at +2.0 m Y",
+   "fbx": "fbx/prop-bridge-wood-plank.fbx",
+   "sha256": "e5da8f1bb80d09b3f24215900f86f3b6000185f0bbf71675d8469904faa02f38"
+  },
+  {
+   "name": "prop-scaffold-frame",
+   "tris": 252,
+   "dims_xyz_m": [
+    1.6,
+    1.08,
+    2.04
+   ],
+   "materials": [
+    "M_Wood_Plank",
+    "M_Wood_Dark"
+   ],
+   "width_m": 1.5,
+   "depth_m": 1.0,
+   "deck_height_m": 2.04,
+   "levels_stack_z_m": 2.04,
+   "pivot": "bottom_centre (0,0,0) between the four post feet; stack vertically at +2.04 m Z, tile at 1.5 m X / 1.0 m Y",
+   "fbx": "fbx/prop-scaffold-frame.fbx",
+   "sha256": "4197ef5941ff7e04f4addf60928c96053b87472206da1adbfc4e49d13deff647"
+  },
+  {
+   "name": "prop-plank-stack",
+   "tris": 168,
+   "dims_xyz_m": [
+    1.02,
+    2.095,
+    0.278
+   ],
+   "materials": [
+    "M_Wood_Plank",
+    "M_Wood_Dark"
+   ],
+   "plank_length_m": 2.0,
+   "planks": 12,
+   "pivot": "bottom_centre (0,0,0) under bearer blocks",
+   "fbx": "fbx/prop-plank-stack.fbx",
+   "sha256": "118366761f10cab0663752e2a37e01cb630e48b4127254402eae973eb4fa3c4f"
+  },
+  {
+   "name": "prop-rope-coil-bs1",
+   "tris": 584,
+   "dims_xyz_m": [
+    0.51,
+    0.51,
+    0.229
+   ],
+   "materials": [
+    "M_Rope"
+   ],
+   "outer_diameter_m": 0.51,
+   "turns": 3,
+   "pivot": "bottom_centre (0,0,0) on floor at coil axis",
+   "name_note": "prop-rope-coil exists in openkit-dnd/passed -> -bs1",
+   "fbx": "fbx/prop-rope-coil-bs1.fbx",
+   "sha256": "bc73aa13884d1ce98acf04013addbf2d4129c58eed2fd886639a577a366d3369"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-bridge-wood-plank.fbx",
+  "fbx/prop-plank-stack.fbx",
+  "fbx/prop-rope-coil-bs1.fbx",
+  "fbx/prop-scaffold-frame.fbx",
+  "tex/T_Rope_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Plank_BaseColor.png",
+  "LICENSE"
+ ]
+}

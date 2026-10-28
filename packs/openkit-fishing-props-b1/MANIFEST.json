@@ -1,0 +1,131 @@
+{
+ "pack": "openkit-fishing-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-fishing-rod-lean": "prop-fishing-rod-lean-fi1",
+  "prop-fish-rack": "prop-fish-rack-fi1"
+ },
+ "collision_check": "no exact ids in other Open Kit packs; neighbours: prop-fishing-rod, prop-fishing-net, prop-fishing-hook, prop-harbor-net, prop-net-bag, prop-fish-stall, prop-bucket-wood-wb1 (other Open Kit packs)",
+ "judgment_calls": [
+  "prop-fishing-rod-lean-fi1 suffixed: other Open Kit packs have prop-fishing-rod (2D image); 3D leaning variant kept distinct",
+  "prop-fish-rack-fi1 suffixed: many *-rack ids + prop-fish-stall exist in other Open Kit packs; suffix avoids confusion",
+  "prop-net-drape kept unsuffixed: prop-fishing-net and prop-harbor-net exist in other Open Kit packs but id is unique; it is a pole-hung drape, single-sided -> needs two-sided/alpha net material in engine",
+  "prop-bait-bucket is a small 0.28 m tapered pail with water+bait, deliberately smaller/different from prop-bucket-wood-wb1"
+ ],
+ "assets": [
+  {
+   "name": "prop-fishing-rod-lean-fi1",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.641,
+    0.052,
+    1.699
+   ],
+   "bbox_min": [
+    -0.015,
+    -0.026,
+    0.005
+   ],
+   "materials": [
+    "M_Wood_Pine",
+    "M_Cork",
+    "M_Line",
+    "M_Iron"
+   ],
+   "height_m": 1.7,
+   "pivot": "butt end (0,0,0) on floor; pole leans toward +X at ~20 deg (place against wall on +X side); line hangs from tip with float",
+   "fbx": "fbx/prop-fishing-rod-lean-fi1.fbx",
+   "sha256": "6885cd9cdcc6ed4021ae979d04f5c46d6e989b32efecc2cbcc961778ce6b1bcd"
+  },
+  {
+   "name": "prop-net-drape",
+   "tris": 84,
+   "dims_xyz_m": [
+    1.3,
+    0.21,
+    0.945
+   ],
+   "bbox_min": [
+    -0.65,
+    -0.045,
+    0.0
+   ],
+   "materials": [
+    "M_Net",
+    "M_Wood_Pine",
+    "M_Cork"
+   ],
+   "height_m": 0.95,
+   "pivot": "bottom_centre (0,0,0) on floor below pole; net hangs single-sided from a wooden pole along X, floats/weights at hem; mount pole against wall (+Y is out from wall); NET material should be alpha-cut/two-sided in engine",
+   "fbx": "fbx/prop-net-drape.fbx",
+   "sha256": "76f56e6cebed8216acf43ea25e0d676794f703ff53d984a8d388f18155a755d3"
+  },
+  {
+   "name": "prop-bait-bucket",
+   "tris": 172,
+   "dims_xyz_m": [
+    0.292,
+    0.28,
+    0.336
+   ],
+   "bbox_min": [
+    -0.146,
+    -0.14,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Pine",
+    "M_Water",
+    "M_Iron",
+    "M_Fish"
+   ],
+   "height_m": 0.33,
+   "pivot": "bottom_centre (0,0,0) on floor; small tapered bait pail (0.28 m dia), iron hoop and handle along X, water surface with bait strip; distinct from well-water prop-bucket-wood-wb1",
+   "fbx": "fbx/prop-bait-bucket.fbx",
+   "sha256": "7fa3f7d414533803cabd63e15b1dc0aca5006abdb65093a175dc9e5527ab6629"
+  },
+  {
+   "name": "prop-fish-rack-fi1",
+   "tris": 108,
+   "dims_xyz_m": [
+    1.4,
+    0.75,
+    1.179
+   ],
+   "bbox_min": [
+    -0.7,
+    -0.375,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Pine",
+    "M_Fish"
+   ],
+   "height_m": 1.2,
+   "pivot": "bottom_centre (0,0,0) between A-frame legs; crossbar along X; four split fish hanging to dry",
+   "fbx": "fbx/prop-fish-rack-fi1.fbx",
+   "sha256": "2b815fa670c0973a2baf15620ab0ee7a8bbd0e21164d921f22aab947ae11875b"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-bait-bucket.fbx",
+  "fbx/prop-fish-rack-fi1.fbx",
+  "fbx/prop-fishing-rod-lean-fi1.fbx",
+  "fbx/prop-net-drape.fbx",
+  "tex/T_Cork_BaseColor.png",
+  "tex/T_Fish_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Net_BaseColor.png",
+  "tex/T_Water_BaseColor.png",
+  "tex/T_Wood_Pine_BaseColor.png"
+ ]
+}

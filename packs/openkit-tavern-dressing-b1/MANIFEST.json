@@ -1,0 +1,116 @@
+{
+  "pack": "tavern-dressing-b1",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "CONTACT_SHEET.png",
+      "sha256": "3c75144966f96971ca28a96f49b74c1c6b0b05ef0009a9cd8ed9b2fbf92421c6",
+      "bytes": 311402
+    },
+    {
+      "path": "CREDITS.md",
+      "sha256": "be27d6108c214d1b333c315ff69920cc9f36890c628eb52c2fa2ed853e41677b",
+      "bytes": 243
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    {
+      "path": "README.md",
+      "sha256": "16af70df855e4a7ea9e9186c6e87c82e2a4e3ff7924db0b7d17a57f14fbbd1b6",
+      "bytes": 2415
+    },
+    {
+      "path": "fbx/prop-bowl-wood.fbx",
+      "sha256": "7d077c8015d3656751c29e545a1e8f728d1b81d0e985bbfe2478e161fcae46f7",
+      "bytes": 18940
+    },
+    {
+      "path": "fbx/prop-hook-wall.fbx",
+      "sha256": "b535fdff79445025aca35422261170e14291dca821fa92dcd69754f6fd43702c",
+      "bytes": 21132
+    },
+    {
+      "path": "fbx/prop-jug-clay.fbx",
+      "sha256": "5cdeabe6d339cf28f02e85cebde8e6372370d04618551eced898da6f6196e35b",
+      "bytes": 22348
+    },
+    {
+      "path": "fbx/prop-plate-wood.fbx",
+      "sha256": "8f25226837559a30e2a8cf306279ab32d539a560b936abb0249b9869d2cf4a51",
+      "bytes": 17612
+    },
+    {
+      "path": "fbx/prop-sign-hanging.fbx",
+      "sha256": "4ae3989d33ecc41aa43880bb20caa57c8943b115167f05c8401237f236f3dca8",
+      "bytes": 20300
+    },
+    {
+      "path": "fbx/prop-tankard-wood.fbx",
+      "sha256": "e69c291a43d8e1061246ae00bec8f606b4c8cb8ddc6802107471f9707911d277",
+      "bytes": 22652
+    },
+    {
+      "path": "tex/mat_clay_albedo.png",
+      "sha256": "f5a5d3b39e46300e4cdec3ed50191d214e82ce58dd601ad26097fe1ffe2e7a7f",
+      "bytes": 99087
+    },
+    {
+      "path": "tex/mat_clay_ao.png",
+      "sha256": "84705146b4409cf787cbebc796be6c3aa87c21a9b66575a4b66207e3c2a6d453",
+      "bytes": 65784
+    },
+    {
+      "path": "tex/mat_clay_normal.png",
+      "sha256": "ed52acc66223309d0c5e5f4cb3ac136d10e289e0645b67223272aa0862a2b1a7",
+      "bytes": 84946
+    },
+    {
+      "path": "tex/mat_iron_albedo.png",
+      "sha256": "8b1d301f9b4c71bb9c5ffd51877f3b406eaa22b221e72ecf6025370ef93ecc86",
+      "bytes": 114286
+    },
+    {
+      "path": "tex/mat_iron_ao.png",
+      "sha256": "8c08ba00d46b06963cfd0e4c3129d29ca050ee35141f9c240a81f2adff187b56",
+      "bytes": 75121
+    },
+    {
+      "path": "tex/mat_iron_normal.png",
+      "sha256": "2c144341d4ff6832413ee64ea28a10451642c335a247d5047203f321ed6d5634",
+      "bytes": 115686
+    },
+    {
+      "path": "tex/mat_wood_dark_albedo.png",
+      "sha256": "4e2b4fb8dc017233704bc9e89b9cee7179e331a84aee7852dbd8f3d9d55bb952",
+      "bytes": 88918
+    },
+    {
+      "path": "tex/mat_wood_dark_ao.png",
+      "sha256": "2f7c0c87cb8cf302fc68ab5dd445d13375dc6b67348466bfcdbb338d1f50164e",
+      "bytes": 82153
+    },
+    {
+      "path": "tex/mat_wood_dark_normal.png",
+      "sha256": "bb8cca6a663c54d6f594a64dd94735aa5d36e02f57e5caff64335679057c49c2",
+      "bytes": 153983
+    },
+    {
+      "path": "tex/mat_wood_oak_albedo.png",
+      "sha256": "616c7dc93ec0232204e1c0f21444e6eddd87e8a184e26ba42b2a70cd5391344a",
+      "bytes": 105284
+    },
+    {
+      "path": "tex/mat_wood_oak_ao.png",
+      "sha256": "448843eb420144162e5ff0646e202a687ba92a61ee74e3108eb4a3dac90b9604",
+      "bytes": 74437
+    },
+    {
+      "path": "tex/mat_wood_oak_normal.png",
+      "sha256": "57a8bb5784df3ded9bcab27bce462d86f1d4b5341a75306393bb6dad9219d5df",
+      "bytes": 145792
+    }
+  ]
+}

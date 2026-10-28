@@ -1,0 +1,185 @@
+{
+  "pack": "openkit-ui-frames-b1",
+  "license": "CC0-1.0",
+  "generator": "Pillow procedural, original",
+  "assets": [
+    {
+      "name": "ui-button-wood-pressed",
+      "file": "ui/ui-button-wood-pressed.png",
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "sha256": "6d05f6ac9531bec0d1982bd92ab62c4431fa81912f0d4415cc1603040cee5cc8",
+      "license": "CC0-1.0",
+      "source": "src/gen_ui_frames.py"
+    },
+    {
+      "name": "ui-button-wood",
+      "file": "ui/ui-button-wood.png",
+      "size": [
+        128,
+        64
+      ],
+      "mode": "RGBA",
+      "sha256": "4e1ba1352a55b6d0507a6e011293136afc43f8501d5691f59ee6a2e929eaea73",
+      "license": "CC0-1.0",
+      "source": "src/gen_ui_frames.py"
+    },
+    {
+      "name": "ui-checkbox-checked",
+      "file": "ui/ui-checkbox-checked.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "sha256": "9961221b4d3d6f6efb667c7bad2ff35430b260a2b3ee9b0a8d45eeef33a5a061",
+      "license": "CC0-1.0",
+      "source": "src/gen_ui_frames.py"
+    },
+    {
+      "name": "ui-checkbox-empty",
+      "file": "ui/ui-checkbox-empty.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "sha256": "723c989b2659ff560f692b72b7116379b4333f36895eae0d35399ff428dd9b0e",
+      "license": "CC0-1.0",
+      "source": "src/gen_ui_frames.py"
+    },
+    {
+      "name": "ui-divider-ornament",
+      "file": "ui/ui-divider-ornament.png",
+      "size": [
+        256,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "4f3e74a1dbfcf38457a2489f9222e09cc9ea1126f21b54bebedf8cfa4e94dfe4",
+      "license": "CC0-1.0",
+      "source": "src/gen_ui_frames.py"
+    },
+    {
+      "name": "ui-hbar-fill",
+      "file": "ui/ui-hbar-fill.png",
+      "size": [
+        256,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "074f10127ad2aadb317b58abb40370f1bd955e21befb0da69fb3a1b1f38ec3c6",
+      "license": "CC0-1.0",
+      "source": "src/gen_ui_frames.py"
+    },
+    {
+      "name": "ui-hbar",
+      "file": "ui/ui-hbar.png",
+      "size": [
+        256,
+        32
+      ],
+      "mode": "RGBA",
+      "sha256": "e8fd0e46e6cf94d79117fdd970e4a389167cdd50daa2112d0370c585a7959b2e",
+      "license": "CC0-1.0",
+      "source": "src/gen_ui_frames.py"
+    },
+    {
+      "name": "ui-panel-parchment",
+      "file": "ui/ui-panel-parchment.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "sha256": "9be31ab696e57ec20e6cb1eecf249583e14ed066dac63a582b85a006e5a60b6d",
+      "license": "CC0-1.0",
+      "source": "src/gen_ui_frames.py"
+    },
+    {
+      "name": "ui-panel-wood",
+      "file": "ui/ui-panel-wood.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "sha256": "a4b3ab2e83cf4c840c65eca8b135362666ab8ef7e69cbbd1b2a90b13e40277b0",
+      "license": "CC0-1.0",
+      "source": "src/gen_ui_frames.py"
+    },
+    {
+      "name": "ui-slot-frame-selected",
+      "file": "ui/ui-slot-frame-selected.png",
+      "size": [
+        96,
+        96
+      ],
+      "mode": "RGBA",
+      "sha256": "93dbb01056f9fd2cacca8cf767f433d8a73d758926c0774928460b4969264f2e",
+      "license": "CC0-1.0",
+      "source": "src/gen_ui_frames.py"
+    },
+    {
+      "name": "ui-slot-frame",
+      "file": "ui/ui-slot-frame.png",
+      "size": [
+        96,
+        96
+      ],
+      "mode": "RGBA",
+      "sha256": "e9ac3c6ef29b2d6e8955ba64f95c89fe0f8cd0ab224d32d3ddc95ec27f4ba060",
+      "license": "CC0-1.0",
+      "source": "src/gen_ui_frames.py"
+    },
+    {
+      "name": "ui-tooltip-parchment",
+      "file": "ui/ui-tooltip-parchment.png",
+      "size": [
+        256,
+        128
+      ],
+      "mode": "RGBA",
+      "sha256": "a624ae6efa4566c8c5aede9ce0da434ca8cb62cfebccfbaf7617e3d899dd7c80",
+      "license": "CC0-1.0",
+      "source": "src/gen_ui_frames.py"
+    },
+    {
+      "name": "ui-window-frame",
+      "file": "ui/ui-window-frame.png",
+      "size": [
+        512,
+        384
+      ],
+      "mode": "RGBA",
+      "sha256": "b2520bfd54b0816764e60341805567eea4b902d64e2a565768044cb463ccf051",
+      "license": "CC0-1.0",
+      "source": "src/gen_ui_frames.py"
+    }
+  ],
+  "pack_files": [
+    "CREDITS.md",
+    "LICENSES.md",
+    "MANIFEST.json",
+    "README.md",
+    "sheet/CONTACT_SHEET.png",
+    "src/gen_ui_frames.py",
+    "src/make_sheet.py",
+    "ui/ui-button-wood-pressed.png",
+    "ui/ui-button-wood.png",
+    "ui/ui-checkbox-checked.png",
+    "ui/ui-checkbox-empty.png",
+    "ui/ui-divider-ornament.png",
+    "ui/ui-hbar-fill.png",
+    "ui/ui-hbar.png",
+    "ui/ui-panel-parchment.png",
+    "ui/ui-panel-wood.png",
+    "ui/ui-slot-frame-selected.png",
+    "ui/ui-slot-frame.png",
+    "ui/ui-tooltip-parchment.png",
+    "ui/ui-window-frame.png"
+  ]
+}

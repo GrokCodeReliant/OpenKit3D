@@ -1,0 +1,99 @@
+{
+ "pack": "openkit-mining-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-ore-crate": "prop-ore-crate-mn1"
+ },
+ "collision_check": "no exact ids in other Open Kit packs; near-neighbours: prop-ore-cart, prop-ore-pile, prop-crate*, prop-mine-support, prop-pickaxe-rack, prop-ice-pick, prop-lantern/-hang/-hook, light-hearth torch/campfire; -mn1 added where a neighbour shares the concept",
+ "judgment_calls": [
+  "prop-ore-crate-mn1 is a crate with ore heap, distinct from ore-cart (wheeled) and ore-pile (loose) but within crate family",
+  "prop-pickaxe-lean is a single leaning tool (not pickaxe-rack); handle pivot at butt, ~5 mm below floor from the 15 deg lean",
+  "prop-lantern-mine is a boxed hand lantern with amber glass slot; not a torch/campfire (light-hearth) nor hanging lantern",
+  "prop-mine-timber-mn1 dropped at intake review (overlap with prop-mine-support)"
+ ],
+ "assets": [
+  {
+   "name": "prop-ore-crate-mn1",
+   "tris": 132,
+   "dims_xyz_m": [
+    0.5,
+    0.39,
+    0.319
+   ],
+   "bbox_min": [
+    -0.25,
+    -0.195,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Pine",
+    "M_Ore"
+   ],
+   "height_m": 0.319,
+   "pivot": "bottom_centre (0,0,0) under crate skids; long axis X; ore lumps heaped above rim",
+   "fbx": "fbx/prop-ore-crate-mn1.fbx",
+   "sha256": "f6ed54920f452d8c7189243fdd0b9783ef28598bb4c5f797cbbf7274c68aeea0"
+  },
+  {
+   "name": "prop-pickaxe-lean",
+   "tris": 48,
+   "dims_xyz_m": [
+    0.608,
+    0.251,
+    0.82
+   ],
+   "bbox_min": [
+    -0.304,
+    -0.017,
+    -0.005
+   ],
+   "materials": [
+    "M_Wood_Pine",
+    "M_Iron"
+   ],
+   "height_m": 0.82,
+   "pivot": "handle_butt (0,0,0) at handle foot on floor; tool leans 15 deg toward +Y (place against wall at +Y); head along X",
+   "fbx": "fbx/prop-pickaxe-lean.fbx",
+   "sha256": "5f8e0060493f656466af699eee338064565efb44384bc2171a0ed03c32d6eed7"
+  },
+  {
+   "name": "prop-lantern-mine",
+   "tris": 116,
+   "dims_xyz_m": [
+    0.14,
+    0.16,
+    0.32
+   ],
+   "bbox_min": [
+    -0.07,
+    -0.08,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Glass_Amber"
+   ],
+   "height_m": 0.32,
+   "pivot": "bottom_centre (0,0,0) under base plate; hand/hook lantern, not a torch/campfire/hanging lantern",
+   "fbx": "fbx/prop-lantern-mine.fbx",
+   "sha256": "351f0430a4057aa7bd8568b3794657c30e3cc18867e2e380eec3ce7f021af075"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-lantern-mine.fbx",
+  "fbx/prop-ore-crate-mn1.fbx",
+  "fbx/prop-pickaxe-lean.fbx",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Ore_BaseColor.png",
+  "tex/T_Wood_Pine_BaseColor.png"
+ ]
+}

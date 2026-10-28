@@ -1,0 +1,208 @@
+{
+ "pack": "openkit-archery-range-b1",
+ "license": "CC0-1.0",
+ "unit": "1 unit = 1 m",
+ "tri_budget": 210,
+ "export": "slots-only FBX (no image/video nodes); textures shared in tex/",
+ "tex_shared_with": "byte copies from openkit-barrel-chest-b1/tex",
+ "renames": {
+  "prop-target-butt": "prop-archery-target (prop-target-butt already present in openkit-dnd/passed)"
+ },
+ "not_reauthored": [
+  "Dojo quiver / WPN_* / Dojo character gear",
+  "tile-dojo-*",
+  "prop-target-butt (openkit-dnd)"
+ ],
+ "tex_sha256": {
+  "tex/mat_canvas_albedo.png": "b0b70bebce84e3b29b75c2b5b84cf7ad6ee56002d43bca9ed6fb907105ded7a6",
+  "tex/mat_canvas_ao.png": "b103f1b9bd1a7e304dbf9b459317a4217d5e0332851bcec1d5463e22679cf161",
+  "tex/mat_canvas_normal.png": "3ec98a8c3242efac9300f0d9abe8a6eee630ad4e767d86c7bbaef76b33f85edf",
+  "tex/mat_iron_albedo.png": "8b1d301f9b4c71bb9c5ffd51877f3b406eaa22b221e72ecf6025370ef93ecc86",
+  "tex/mat_iron_ao.png": "8c08ba00d46b06963cfd0e4c3129d29ca050ee35141f9c240a81f2adff187b56",
+  "tex/mat_iron_normal.png": "2c144341d4ff6832413ee64ea28a10451642c335a247d5047203f321ed6d5634",
+  "tex/mat_straw_albedo.png": "c30cd8cac8c53e7612750ffbe129a47241f5a7b772be560d4d24855ced76ba7c",
+  "tex/mat_straw_ao.png": "cce451e778b4c4630e28afd6f421c2175c22dd565d6d1721430f14827f84d101",
+  "tex/mat_straw_normal.png": "b5c30e7c1148a36d4fae2ee2c36125b8278116690b59f8ff861e631ae2185973",
+  "tex/mat_wood_dark_albedo.png": "4e2b4fb8dc017233704bc9e89b9cee7179e331a84aee7852dbd8f3d9d55bb952",
+  "tex/mat_wood_dark_ao.png": "2f7c0c87cb8cf302fc68ab5dd445d13375dc6b67348466bfcdbb338d1f50164e",
+  "tex/mat_wood_dark_normal.png": "bb8cca6a663c54d6f594a64dd94735aa5d36e02f57e5caff64335679057c49c2",
+  "tex/mat_wood_oak_albedo.png": "616c7dc93ec0232204e1c0f21444e6eddd87e8a184e26ba42b2a70cd5391344a",
+  "tex/mat_wood_oak_ao.png": "448843eb420144162e5ff0646e202a687ba92a61ee74e3108eb4a3dac90b9604",
+  "tex/mat_wood_oak_normal.png": "57a8bb5784df3ded9bcab27bce462d86f1d4b5341a75306393bb6dad9219d5df"
+ },
+ "contact_sheet_sha256": "92127ff7b00c457be5ccb5d162ace1ff36e59de2416060bd4f7b4137eb839f13",
+ "assets": [
+  {
+   "name": "prop-archery-target",
+   "files": [
+    "fbx/prop-archery-target.fbx",
+    "tex/mat_canvas_albedo.png",
+    "tex/mat_canvas_normal.png",
+    "tex/mat_canvas_ao.png",
+    "tex/mat_straw_albedo.png",
+    "tex/mat_straw_normal.png",
+    "tex/mat_straw_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png"
+   ],
+   "tris": 160,
+   "size_m": [
+    0.9,
+    1.418,
+    0.863
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Frame"
+   ],
+   "slot_textures": {
+    "Primary": "mat_straw",
+    "Secondary": "mat_canvas",
+    "Frame": "mat_wood_dark"
+   },
+   "pivot": "bottom_centre: floor y=0, centred between front legs; face tilted 12deg back, faces +Z",
+   "license": "CC0-1.0",
+   "origin": "original procedural",
+   "fbx_sha256": "cd4a8c017694cdb4f26309fcd74d776efdf76e024c4284ce8109a2b10939592b"
+  },
+  {
+   "name": "prop-quiver-wall",
+   "files": [
+    "fbx/prop-quiver-wall.fbx",
+    "tex/mat_canvas_albedo.png",
+    "tex/mat_canvas_normal.png",
+    "tex/mat_canvas_ao.png",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png"
+   ],
+   "tris": 180,
+   "size_m": [
+    0.36,
+    0.73,
+    0.146
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Arrows",
+    "Metal"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Secondary": "mat_wood_dark",
+    "Arrows": "mat_canvas",
+    "Metal": "mat_iron"
+   },
+   "pivot": "wall_back: origin on back plane (z=0, mounts to wall), x-centred, y=vertical centre of back plate; extends +Z",
+   "license": "CC0-1.0",
+   "origin": "original procedural",
+   "fbx_sha256": "0c7f41a916eea76f564cda6fbae5753bcea0d28f2f762ef86c49b70983fe6975"
+  },
+  {
+   "name": "prop-bow-rack",
+   "files": [
+    "fbx/prop-bow-rack.fbx",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png"
+   ],
+   "tris": 168,
+   "size_m": [
+    1.28,
+    1.4,
+    0.45
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Bows"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Secondary": "mat_wood_dark",
+    "Bows": "mat_wood_dark"
+   },
+   "pivot": "bottom_centre: floor y=0, centred; pegs face +Z",
+   "license": "CC0-1.0",
+   "origin": "original procedural",
+   "fbx_sha256": "66d45260e77b8bef9584ad34fb31230aba01725dda44bce79a6b802ef37aa2f2"
+  },
+  {
+   "name": "prop-arrow-crate",
+   "files": [
+    "fbx/prop-arrow-crate.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png"
+   ],
+   "tris": 204,
+   "size_m": [
+    0.72,
+    0.8,
+    0.44
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Metal",
+    "Arrows"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Metal": "mat_iron",
+    "Arrows": "mat_wood_dark"
+   },
+   "pivot": "bottom_centre: floor y=0, centred",
+   "license": "CC0-1.0",
+   "origin": "original procedural",
+   "fbx_sha256": "38ecf23025f91d507e411287babcd0104fa14136cf26cc96bfd69c21f85f99e5"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-archery-target.fbx",
+  "fbx/prop-arrow-crate.fbx",
+  "fbx/prop-bow-rack.fbx",
+  "fbx/prop-quiver-wall.fbx",
+  "tex/mat_canvas_albedo.png",
+  "tex/mat_canvas_ao.png",
+  "tex/mat_canvas_normal.png",
+  "tex/mat_iron_albedo.png",
+  "tex/mat_iron_ao.png",
+  "tex/mat_iron_normal.png",
+  "tex/mat_straw_albedo.png",
+  "tex/mat_straw_ao.png",
+  "tex/mat_straw_normal.png",
+  "tex/mat_wood_dark_albedo.png",
+  "tex/mat_wood_dark_ao.png",
+  "tex/mat_wood_dark_normal.png",
+  "tex/mat_wood_oak_albedo.png",
+  "tex/mat_wood_oak_ao.png",
+  "tex/mat_wood_oak_normal.png"
+ ]
+}

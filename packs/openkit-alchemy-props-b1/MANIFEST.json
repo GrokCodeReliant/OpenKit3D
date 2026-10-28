@@ -1,0 +1,126 @@
+{
+ "pack": "openkit-alchemy-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-herb-rack-hang": "used instead of herb-bundle (shop-wall has prop-herb-bundle); 5-bundle hanging rack",
+  "prop-potion-bottle": "no collision; chosen over prop-potion-shelf (shelf already in wall-dress/furniture as prop-shelf-wall/bookshelf)"
+ },
+ "collision_check": "no mortar/pestle/alembic/retort/potion-bottle/herb-rack 3D ids in any openkit-*/MANIFEST.json; only 2D icon-potion-* in icons-inventory",
+ "assets": [
+  {
+   "name": "prop-potion-bottle",
+   "tris": 116,
+   "dims_xyz_m": [
+    0.1,
+    0.1,
+    0.215
+   ],
+   "bbox_min": [
+    -0.05,
+    -0.05,
+    0.0
+   ],
+   "materials": [
+    "M_Glass",
+    "M_Cork"
+   ],
+   "height_m": 0.215,
+   "capacity_note": "shelf-scale round flask with cork",
+   "pivot": "bottom_centre (0,0,0) under flask base on shelf",
+   "fbx": "fbx/prop-potion-bottle.fbx",
+   "sha256": "5b5030c0c1896537edb66a31b553db004a1c0a19cc14c07b3fab20e7eedcf848"
+  },
+  {
+   "name": "prop-mortar-pestle",
+   "tris": 112,
+   "dims_xyz_m": [
+    0.2,
+    0.19,
+    0.207
+   ],
+   "bbox_min": [
+    -0.1,
+    -0.095,
+    0.0
+   ],
+   "materials": [
+    "M_Stone",
+    "M_Wood_Plank"
+   ],
+   "height_m": 0.2,
+   "pivot": "bottom_centre (0,0,0) under bowl foot; pestle merged, leaning in bowl",
+   "fbx": "fbx/prop-mortar-pestle.fbx",
+   "sha256": "bfcef168b4f704249aaf8a4da33b21514f6885d719579e7eef1088711f57a5c2"
+  },
+  {
+   "name": "prop-herb-rack-hang",
+   "tris": 156,
+   "dims_xyz_m": [
+    0.7,
+    0.05,
+    0.513
+   ],
+   "bbox_min": [
+    -0.35,
+    -0.025,
+    -0.273
+   ],
+   "materials": [
+    "M_Wood_Plank",
+    "M_Rope",
+    "M_Herb_Dry"
+   ],
+   "width_m": 0.7,
+   "bundles": 5,
+   "layout": "horizontal pole with 5 hanging dried bundles on cords + 2 ceiling cords; distinct from shop-wall single prop-herb-bundle",
+   "pivot": "top_centre (0,0,0) at hanging point; cords end at z=+0.24 for ceiling hook, bundles hang below (-Z)",
+   "height_m": 0.513,
+   "fbx": "fbx/prop-herb-rack-hang.fbx",
+   "sha256": "f47303af483ed67c46f26a1129878fe5063f98e0ab9a8745b914f3c18540e29c"
+  },
+  {
+   "name": "prop-alembic-simple",
+   "tris": 172,
+   "dims_xyz_m": [
+    0.343,
+    0.26,
+    0.43
+   ],
+   "bbox_min": [
+    -0.13,
+    -0.13,
+    0.0
+   ],
+   "materials": [
+    "M_Glass",
+    "M_Iron"
+   ],
+   "height_m": 0.43,
+   "pivot": "bottom_centre (0,0,0) between tripod feet on bench; still head + angled spout along +X",
+   "fbx": "fbx/prop-alembic-simple.fbx",
+   "sha256": "882844eead03dcae6fe46f6e9bd0f2b29aac7e6cbb6b8969a477e12a4dcf11d0"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-alembic-simple.fbx",
+  "fbx/prop-herb-rack-hang.fbx",
+  "fbx/prop-mortar-pestle.fbx",
+  "fbx/prop-potion-bottle.fbx",
+  "tex/T_Cork_BaseColor.png",
+  "tex/T_Glass_BaseColor.png",
+  "tex/T_Herb_Dry_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Rope_BaseColor.png",
+  "tex/T_Stone_BaseColor.png",
+  "tex/T_Wood_Plank_BaseColor.png"
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "pack": "openkit-library-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "no book-stack/inkwell/quill/candle-desk/scroll-tied ids in other Open Kit packs; nearest: prop-bookshelf, prop-candle-niche/-sconce (wall-dress), icon-scroll (icons) - distinct ids/forms, no suffix needed",
+ "judgment_calls": [
+  "prop-candle-desk is a freestanding brass chamberstick, deliberately not wall-mounted to stay clear of candle-niche/candle-sconce",
+  "prop-scroll-tied 3D prop vs icon-scroll 2D icon: different asset class"
+ ],
+ "assets": [
+  {
+   "name": "prop-book-stack",
+   "tris": 96,
+   "dims_xyz_m": [
+    0.24,
+    0.177,
+    0.118
+   ],
+   "bbox_min": [
+    -0.12,
+    -0.088,
+    0.0
+   ],
+   "materials": [
+    "M_Leather",
+    "M_Leather_Dark",
+    "M_Parchment"
+   ],
+   "height_m": 0.118,
+   "pivot": "bottom_centre (0,0,0) under lowest book; stack of 4 offset books",
+   "fbx": "fbx/prop-book-stack.fbx",
+   "sha256": "7400593a439e2fee8ed452ce0925844823a40b0c2a421f9caac2809167e77e3a"
+  },
+  {
+   "name": "prop-inkwell-quill",
+   "tris": 88,
+   "dims_xyz_m": [
+    0.104,
+    0.064,
+    0.203
+   ],
+   "bbox_min": [
+    -0.032,
+    -0.032,
+    0.0
+   ],
+   "materials": [
+    "M_Glass_Dark",
+    "M_Feather"
+   ],
+   "height_m": 0.2,
+   "pivot": "bottom_centre (0,0,0) under inkwell; quill leans +X",
+   "fbx": "fbx/prop-inkwell-quill.fbx",
+   "sha256": "ac6251c340b2656678e5c330534f835a5dc81899601b89ea9e51f566c4d24ad2"
+  },
+  {
+   "name": "prop-candle-desk",
+   "tris": 156,
+   "dims_xyz_m": [
+    0.138,
+    0.114,
+    0.17
+   ],
+   "bbox_min": [
+    -0.06,
+    -0.057,
+    0.0
+   ],
+   "materials": [
+    "M_Brass",
+    "M_Wax",
+    "M_Flame"
+   ],
+   "height_m": 0.17,
+   "pivot": "bottom_centre (0,0,0) under dish; finger tab +X; freestanding desk/table candle (not wall-mounted)",
+   "fbx": "fbx/prop-candle-desk.fbx",
+   "sha256": "0ebaaa1064fa167af9e43d247bc7909f09213b1a7e4a255fadd860517c4ed9c0"
+  },
+  {
+   "name": "prop-scroll-tied",
+   "tris": 108,
+   "dims_xyz_m": [
+    0.33,
+    0.069,
+    0.047
+   ],
+   "bbox_min": [
+    -0.165,
+    -0.046,
+    -0.001
+   ],
+   "materials": [
+    "M_Parchment",
+    "M_Cord_Red",
+    "M_Wood_Plank"
+   ],
+   "length_m": 0.33,
+   "pivot": "bottom_centre (0,0,0) where roll rests; roll axis X; ribbon tail -Y",
+   "fbx": "fbx/prop-scroll-tied.fbx",
+   "sha256": "8f78d09fbe204373f7a14624562e93acb49cc8bf14279efe31c9fc65e0499c98"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-book-stack.fbx",
+  "fbx/prop-candle-desk.fbx",
+  "fbx/prop-inkwell-quill.fbx",
+  "fbx/prop-scroll-tied.fbx",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Leather_BaseColor.png",
+  "tex/T_Parchment_BaseColor.png"
+ ]
+}

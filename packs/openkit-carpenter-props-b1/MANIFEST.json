@@ -1,0 +1,118 @@
+{
+ "pack": "openkit-carpenter-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "no exact ids in other Open Kit packs; neighbours: prop-workbench (existing), token-carpenter (2D character token, other Open Kit packs), prop-hammer-st1/prop-chisel-punch-st1 (smithy-tools), prop-horseshoe-wall (stable)",
+ "judgment_calls": [
+  "prop-sawhorse unsuffixed: no sawhorse anywhere; -cr1 kept in reserve",
+  "prop-hand-saw: blade is 2 mm thin box (24 tris), may z-fight/vanish at distance; teeth not modelled",
+  "prop-nail-box: nails are a single iron slab inside the tote, not individual nails",
+  "prop-plane-wood: name reads 'plane, wood' (tool), not an aircraft/ground plane; kept per brief"
+ ],
+ "assets": [
+  {
+   "name": "prop-sawhorse",
+   "tris": 84,
+   "dims_xyz_m": [
+    1.0,
+    0.533,
+    0.72
+   ],
+   "bbox_min": [
+    -0.5,
+    -0.267,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Pine"
+   ],
+   "height_m": 0.72,
+   "pivot": "bottom_centre (0,0,0) on floor under beam centre; 1.0 m beam along X at 0.68 m, splayed A-legs both ends, cross braces",
+   "fbx": "fbx/prop-sawhorse.fbx",
+   "sha256": "317eca85f2f3a4245217621a8cc5406b183f098b6b577f7725b36a828b6eb082"
+  },
+  {
+   "name": "prop-hand-saw",
+   "tris": 24,
+   "dims_xyz_m": [
+    0.625,
+    0.025,
+    0.125
+   ],
+   "bbox_min": [
+    -0.31,
+    -0.013,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Pine",
+    "M_Iron"
+   ],
+   "height_m": 0.125,
+   "pivot": "bottom_centre (0,0,0) at blade/handle midpoint on toothed edge; blade along -X, handle +X; lay flat by rotating 90 deg on X",
+   "fbx": "fbx/prop-hand-saw.fbx",
+   "sha256": "f2cf13294d2b24b6773e6240fef8a07ac1b3c844968f54c824e9304712a819af"
+  },
+  {
+   "name": "prop-plane-wood",
+   "tris": 64,
+   "dims_xyz_m": [
+    0.24,
+    0.06,
+    0.111
+   ],
+   "bbox_min": [
+    -0.12,
+    -0.03,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Pine",
+    "M_Iron"
+   ],
+   "height_m": 0.11,
+   "pivot": "bottom_centre (0,0,0) on sole; 0.24 m wooden smoothing plane, iron blade/wedge, tote at +X, front knob at -X",
+   "fbx": "fbx/prop-plane-wood.fbx",
+   "sha256": "418457588612afdcbd31270bb4edf7fab7d09a631b24351ec96d075e5799484d"
+  },
+  {
+   "name": "prop-nail-box",
+   "tris": 96,
+   "dims_xyz_m": [
+    0.2,
+    0.12,
+    0.16
+   ],
+   "bbox_min": [
+    -0.1,
+    -0.06,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Pine",
+    "M_Iron"
+   ],
+   "height_m": 0.16,
+   "pivot": "bottom_centre (0,0,0) on surface; 0.2x0.12 m open carpenter tote, centre divider board with grip along X, iron nail fill (slab) inside",
+   "fbx": "fbx/prop-nail-box.fbx",
+   "sha256": "3255722480a0dd482e02a89c5980608b90e84b2d9e0c63e1f1d9956adf975851"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-hand-saw.fbx",
+  "fbx/prop-nail-box.fbx",
+  "fbx/prop-plane-wood.fbx",
+  "fbx/prop-sawhorse.fbx",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Wood_Pine_BaseColor.png"
+ ]
+}

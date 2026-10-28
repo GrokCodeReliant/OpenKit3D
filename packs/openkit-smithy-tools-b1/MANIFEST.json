@@ -1,0 +1,116 @@
+{
+ "pack": "openkit-smithy-tools-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-tongs-st1": "st1 suffix to avoid id collisions with other Open Kit packs",
+  "prop-hammer-st1": "st1 suffix",
+  "prop-chisel-punch-st1": "chosen over a small bellows (forge-props-b1 already has prop-bellows)",
+  "prop-file-rasp-st1": "chosen over a quench bucket (forge/well/outdoor packs already have barrel/bucket props)"
+ },
+ "collision_check": "no tongs/hammer/chisel/punch/rasp ids in any openkit-*/MANIFEST.json",
+ "assets": [
+  {
+   "name": "prop-tongs-st1",
+   "tris": 68,
+   "dims_xyz_m": [
+    0.439,
+    0.067,
+    0.026
+   ],
+   "bbox_min": [
+    -0.099,
+    -0.033,
+    -0.001
+   ],
+   "materials": [
+    "M_Iron"
+   ],
+   "length_m": 0.45,
+   "pivot": "hinge rivet (0,0,0) at bench level; handles +X, jaws -X; lies flat",
+   "fbx": "fbx/prop-tongs-st1.fbx",
+   "sha256": "239788763a84207e73de54ce6a33012b00a8b8934a1b17e5ecda9dbb363929a2"
+  },
+  {
+   "name": "prop-hammer-st1",
+   "tris": 52,
+   "dims_xyz_m": [
+    0.135,
+    0.04,
+    0.333
+   ],
+   "bbox_min": [
+    -0.055,
+    -0.02,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Wood_Plank"
+   ],
+   "height_m": 0.333,
+   "pivot": "handle butt (0,0,0); head at +Z, face +X / peen -X",
+   "fbx": "fbx/prop-hammer-st1.fbx",
+   "sha256": "5d25080191e70d9aa32601baa60e99830a239acb92521a590a44cd2744f271b2"
+  },
+  {
+   "name": "prop-chisel-punch-st1",
+   "tris": 76,
+   "dims_xyz_m": [
+    0.085,
+    0.028,
+    0.24
+   ],
+   "bbox_min": [
+    -0.016,
+    -0.014,
+    0.0
+   ],
+   "materials": [
+    "M_Iron"
+   ],
+   "height_m": 0.24,
+   "pivot": "bottom_centre (0,0,0) at chisel tip; pair: hot chisel + drift punch standing upright (+X 6 cm)",
+   "fbx": "fbx/prop-chisel-punch-st1.fbx",
+   "sha256": "3e445aa2efd5af9d9178db306b724437af91dd5c743d957dc350f939bf802fed"
+  },
+  {
+   "name": "prop-file-rasp-st1",
+   "tris": 36,
+   "dims_xyz_m": [
+    0.425,
+    0.03,
+    0.024
+   ],
+   "bbox_min": [
+    -0.165,
+    -0.015,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Wood_Plank"
+   ],
+   "length_m": 0.425,
+   "pivot": "tang/handle junction (0,0,0) at bench level; blade +X, handle -X; lies flat",
+   "fbx": "fbx/prop-file-rasp-st1.fbx",
+   "sha256": "c00f76970f46309e824f9101fd357a10701ba921e58aa1428ecf414d24e596d1"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-chisel-punch-st1.fbx",
+  "fbx/prop-file-rasp-st1.fbx",
+  "fbx/prop-hammer-st1.fbx",
+  "fbx/prop-tongs-st1.fbx",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Wood_Plank_BaseColor.png"
+ ]
+}

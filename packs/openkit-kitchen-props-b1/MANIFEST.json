@@ -1,0 +1,174 @@
+{
+ "pack": "openkit-kitchen-props-b1",
+ "license": "CC0-1.0",
+ "unit": "1 unit = 1 m",
+ "export": "slots-only FBX (no image/video nodes); textures in tex/",
+ "tri_budget": 210,
+ "renamed": {
+  "prop-pot-hanging": "prop-pot-hanging-kp1"
+ },
+ "rename_reason": "suffixed to stay distinct from prop-cookpot-hang (openkit-camp-props-b1) and prop-cauldron (okm3/okm4/v0.3)",
+ "distinct_from": {
+  "prop-pot-hanging-kp1": "wall crane-arm pot vs camp tripod cookpot",
+  "prop-jar-crock": "lidded crock vs prop-jug-clay (tavern)",
+  "prop-ladle-hook": "3D wall hook+ladle vs openkit-dnd 2D prop-ladle"
+ },
+ "contact_sheet": "CONTACT_SHEET.png",
+ "assets": [
+  {
+   "name": "prop-pot-hanging-kp1",
+   "files": [
+    "fbx/prop-pot-hanging-kp1.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png"
+   ],
+   "tris": 152,
+   "size_m": [
+    0.272,
+    0.6,
+    0.548
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Bail",
+    "Bracket"
+   ],
+   "slot_textures": {
+    "Primary": "mat_iron",
+    "Bail": "mat_iron",
+    "Bracket": "mat_wood_dark"
+   },
+   "pivot": "wall_back: back face on wall plane y=0, centred X, floor of bracket at y=0.30; pot hangs ~0.42 m out",
+   "license": "CC0-1.0",
+   "origin": "original procedural"
+  },
+  {
+   "name": "prop-cutting-board",
+   "files": [
+    "fbx/prop-cutting-board.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png"
+   ],
+   "tris": 72,
+   "size_m": [
+    0.5,
+    0.043,
+    0.24
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Handle",
+    "Knife"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Handle": "mat_wood_dark",
+    "Knife": "mat_iron"
+   },
+   "pivot": "bottom_centre: counter y=0, centred on board; handle +X",
+   "license": "CC0-1.0",
+   "origin": "original procedural"
+  },
+  {
+   "name": "prop-jar-crock",
+   "files": [
+    "fbx/prop-jar-crock.fbx",
+    "tex/mat_clay_albedo.png",
+    "tex/mat_clay_normal.png",
+    "tex/mat_clay_ao.png",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png"
+   ],
+   "tris": 199,
+   "size_m": [
+    0.262,
+    0.34,
+    0.266
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Lid",
+    "Band"
+   ],
+   "slot_textures": {
+    "Primary": "mat_clay",
+    "Lid": "mat_wood_dark",
+    "Band": "mat_iron"
+   },
+   "pivot": "bottom_centre: floor y=0, centred",
+   "license": "CC0-1.0",
+   "origin": "original procedural"
+  },
+  {
+   "name": "prop-ladle-hook",
+   "files": [
+    "fbx/prop-ladle-hook.fbx",
+    "tex/mat_iron_albedo.png",
+    "tex/mat_iron_normal.png",
+    "tex/mat_iron_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png"
+   ],
+   "tris": 110,
+   "size_m": [
+    0.1,
+    0.41,
+    0.066
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Ladle"
+   ],
+   "slot_textures": {
+    "Primary": "mat_iron",
+    "Ladle": "mat_wood_oak"
+   },
+   "pivot": "wall_back: back face on wall plane y=0, bottom of ladle bowl at y~0.07, centred X",
+   "license": "CC0-1.0",
+   "origin": "original procedural"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-cutting-board.fbx",
+  "fbx/prop-jar-crock.fbx",
+  "fbx/prop-ladle-hook.fbx",
+  "fbx/prop-pot-hanging-kp1.fbx",
+  "tex/mat_clay_albedo.png",
+  "tex/mat_clay_ao.png",
+  "tex/mat_clay_normal.png",
+  "tex/mat_iron_albedo.png",
+  "tex/mat_iron_ao.png",
+  "tex/mat_iron_normal.png",
+  "tex/mat_wood_dark_albedo.png",
+  "tex/mat_wood_dark_ao.png",
+  "tex/mat_wood_dark_normal.png",
+  "tex/mat_wood_oak_albedo.png",
+  "tex/mat_wood_oak_ao.png",
+  "tex/mat_wood_oak_normal.png"
+ ]
+}

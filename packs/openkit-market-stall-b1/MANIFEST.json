@@ -1,0 +1,212 @@
+{
+ "pack": "openkit-market-stall-b1",
+ "tex_shared_with": "mat_wood_oak/mat_wood_dark identical to furniture/tavern/outdoor/clutter (seed 23); mat_canvas/mat_straw = outdoor-props-b1 (seed 57); mat_produce new (seed 73)",
+ "license": "CC0-1.0",
+ "unit": "1 unit = 1 m",
+ "not_reauthored": [
+  "prop-cart-hand",
+  "prop-crate",
+  "prop-barrel",
+  "prop-table-*",
+  "prop-counter-tavern",
+  "prop-candle-niche",
+  "prop-weapon-plaque",
+  "prop-candle-sconce",
+  "outdoor/tavern/furniture/medieval-env/clutter packs",
+  "WPN_* B01",
+  "tile-dojo-*",
+  "prop-practice-banner"
+ ],
+ "assets": [
+  {
+   "name": "prop-market-stall",
+   "files": [
+    "fbx/prop-market-stall.fbx",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-market-stall.png"
+   ],
+   "tris": 300,
+   "size_m": [
+    2.06,
+    2.415,
+    1.14
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary",
+    "Trim"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_dark",
+    "Secondary": "mat_wood_oak",
+    "Trim": "mat_wood_oak"
+   },
+   "pivot": "bottom_centre: ground y=0, centred; 2.0 w x 1.0 d, counter top y=0.9, front faces -Z (Unity); Trim = blank sign board",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_market_stall_b1.py + src/make_textures.py + src/make_outdoor_tex.py + src/make_produce.py)"
+  },
+  {
+   "name": "prop-awning-cloth",
+   "files": [
+    "fbx/prop-awning-cloth.fbx",
+    "tex/mat_canvas_albedo.png",
+    "tex/mat_canvas_normal.png",
+    "tex/mat_canvas_ao.png",
+    "tex/mat_straw_albedo.png",
+    "tex/mat_straw_normal.png",
+    "tex/mat_straw_ao.png",
+    "renders/prop-awning-cloth.png"
+   ],
+   "tris": 460,
+   "size_m": [
+    2.16,
+    0.56,
+    1.37
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary"
+   ],
+   "slot_textures": {
+    "Primary": "mat_canvas",
+    "Secondary": "mat_straw"
+   },
+   "pivot": "stall_space: separate piece, pivot = prop-market-stall origin; drop at same position/rotation as the stall to sit on its posts (y 1.9-2.45)",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_market_stall_b1.py + src/make_textures.py + src/make_outdoor_tex.py + src/make_produce.py)"
+  },
+  {
+   "name": "prop-crate-open",
+   "files": [
+    "fbx/prop-crate-open.fbx",
+    "tex/mat_wood_dark_albedo.png",
+    "tex/mat_wood_dark_normal.png",
+    "tex/mat_wood_dark_ao.png",
+    "tex/mat_wood_oak_albedo.png",
+    "tex/mat_wood_oak_normal.png",
+    "tex/mat_wood_oak_ao.png",
+    "renders/prop-crate-open.png"
+   ],
+   "tris": 276,
+   "size_m": [
+    0.635,
+    0.36,
+    0.45
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary"
+   ],
+   "slot_textures": {
+    "Primary": "mat_wood_oak",
+    "Secondary": "mat_wood_dark"
+   },
+   "pivot": "bottom_centre: ground y=0, centred; open-top slatted crate 0.6 x 0.35 x 0.45, no lid (distinct from closed prop-crate)",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_market_stall_b1.py + src/make_textures.py + src/make_outdoor_tex.py + src/make_produce.py)"
+  },
+  {
+   "name": "prop-basket-wicker",
+   "files": [
+    "fbx/prop-basket-wicker.fbx",
+    "tex/mat_straw_albedo.png",
+    "tex/mat_straw_normal.png",
+    "tex/mat_straw_ao.png",
+    "renders/prop-basket-wicker.png"
+   ],
+   "tris": 992,
+   "size_m": [
+    0.438,
+    0.41,
+    0.438
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary"
+   ],
+   "slot_textures": {
+    "Primary": "mat_straw",
+    "Secondary": "mat_straw"
+   },
+   "pivot": "bottom_centre: ground y=0, centred; ~0.43 dia, 0.41 tall with handle",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_market_stall_b1.py + src/make_textures.py + src/make_outdoor_tex.py + src/make_produce.py)"
+  },
+  {
+   "name": "prop-produce-pile",
+   "files": [
+    "fbx/prop-produce-pile.fbx",
+    "tex/mat_canvas_albedo.png",
+    "tex/mat_canvas_normal.png",
+    "tex/mat_canvas_ao.png",
+    "tex/mat_produce_albedo.png",
+    "tex/mat_produce_normal.png",
+    "tex/mat_produce_ao.png",
+    "renders/prop-produce-pile.png"
+   ],
+   "tris": 396,
+   "size_m": [
+    0.571,
+    0.248,
+    0.6
+   ],
+   "size_axes": "x,y(up),z (Unity)",
+   "materials": [
+    "Primary",
+    "Secondary"
+   ],
+   "slot_textures": {
+    "Primary": "mat_produce",
+    "Secondary": "mat_canvas"
+   },
+   "pivot": "bottom_centre: ground y=0, centred; fruit mound on cloth, fits in prop-basket-wicker/prop-crate-open or on stall counter",
+   "license": "CC0-1.0",
+   "origin": "original procedural (src/build_market_stall_b1.py + src/make_textures.py + src/make_outdoor_tex.py + src/make_produce.py)"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSES.md",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-awning-cloth.fbx",
+  "fbx/prop-basket-wicker.fbx",
+  "fbx/prop-crate-open.fbx",
+  "fbx/prop-market-stall.fbx",
+  "fbx/prop-produce-pile.fbx",
+  "renders/prop-awning-cloth.png",
+  "renders/prop-basket-wicker.png",
+  "renders/prop-crate-open.png",
+  "renders/prop-market-stall.png",
+  "renders/prop-produce-pile.png",
+  "src/build_market_stall_b1.py",
+  "src/make_outdoor_tex.py",
+  "src/make_produce.py",
+  "src/make_textures.py",
+  "tex/mat_canvas_albedo.png",
+  "tex/mat_canvas_ao.png",
+  "tex/mat_canvas_normal.png",
+  "tex/mat_produce_albedo.png",
+  "tex/mat_produce_ao.png",
+  "tex/mat_produce_normal.png",
+  "tex/mat_straw_albedo.png",
+  "tex/mat_straw_ao.png",
+  "tex/mat_straw_normal.png",
+  "tex/mat_wood_dark_albedo.png",
+  "tex/mat_wood_dark_ao.png",
+  "tex/mat_wood_dark_normal.png",
+  "tex/mat_wood_oak_albedo.png",
+  "tex/mat_wood_oak_ao.png",
+  "tex/mat_wood_oak_normal.png"
+ ]
+}
