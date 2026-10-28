@@ -1,0 +1,122 @@
+{
+ "pack": "openkit-mosaic-maker-props-b1",
+ "license": "CC0-1.0",
+ "tool": "Blender 5.2.1 procedural bpy",
+ "units": "1 m",
+ "fbx_export": {
+  "path_mode": "STRIP",
+  "embed_textures": false,
+  "materials": "slots only"
+ },
+ "collisions_checked": "no existing prop-*.fbx named tessera/mosaic/hardie/grout; no renames",
+ "assets": [
+  {
+   "name": "prop-tessera-tray",
+   "file": "fbx/prop-tessera-tray.fbx",
+   "tris": 132,
+   "dims_xyz_m": [
+    0.22,
+    0.15,
+    0.031
+   ],
+   "bbox_min": [
+    -0.11,
+    -0.075,
+    0.0
+   ],
+   "materials": [
+    "M_Wood",
+    "M_Tess_Blue",
+    "M_Tess_Red",
+    "M_Tess_Green",
+    "M_Tess_Gold"
+   ],
+   "pivot": "bottom_centre (0,0,0); sits flat",
+   "desc": "shallow wooden tray holding loose colored stone/glass tessera cubes (blue, red, green, gold)"
+  },
+  {
+   "name": "prop-mosaic-hammer",
+   "file": "fbx/prop-mosaic-hammer.fbx",
+   "tris": 68,
+   "dims_xyz_m": [
+    0.14,
+    0.204,
+    0.024
+   ],
+   "bbox_min": [
+    -0.07,
+    -0.102,
+    0.0
+   ],
+   "materials": [
+    "M_Steel",
+    "M_Wood"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench",
+   "desc": "mosaic martellina: steel head with two sharp chisel edges, short swelling wooden haft, laid on its side"
+  },
+  {
+   "name": "prop-cutting-hardie",
+   "file": "fbx/prop-cutting-hardie.fbx",
+   "tris": 64,
+   "dims_xyz_m": [
+    0.13,
+    0.13,
+    0.174
+   ],
+   "bbox_min": [
+    -0.065,
+    -0.065,
+    0.0
+   ],
+   "materials": [
+    "M_Wood",
+    "M_Steel",
+    "M_Tess_Red"
+   ],
+   "pivot": "bottom_centre (0,0,0); stands upright",
+   "desc": "mosaic hardie: steel wedge with a sharp upturned ridge set into a short log stump, a cut red tessera beside it"
+  },
+  {
+   "name": "prop-grout-bowl",
+   "file": "fbx/prop-grout-bowl.fbx",
+   "tris": 76,
+   "dims_xyz_m": [
+    0.13,
+    0.13,
+    0.137
+   ],
+   "bbox_min": [
+    -0.065,
+    -0.065,
+    0.0
+   ],
+   "materials": [
+    "M_Clay",
+    "M_Grout",
+    "M_Wood"
+   ],
+   "pivot": "bottom_centre (0,0,0); stands upright",
+   "desc": "small earthenware bowl of grey lime grout/mortar with a short square stirring stick leaning out"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-cutting-hardie.fbx",
+  "fbx/prop-grout-bowl.fbx",
+  "fbx/prop-mosaic-hammer.fbx",
+  "fbx/prop-tessera-tray.fbx",
+  "tex/T_Clay_BaseColor.png",
+  "tex/T_Grout_BaseColor.png",
+  "tex/T_Steel_BaseColor.png",
+  "tex/T_Tess_Blue_BaseColor.png",
+  "tex/T_Tess_Gold_BaseColor.png",
+  "tex/T_Tess_Green_BaseColor.png",
+  "tex/T_Tess_Red_BaseColor.png",
+  "tex/T_Wood_BaseColor.png"
+ ]
+}
