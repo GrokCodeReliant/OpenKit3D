@@ -1,0 +1,97 @@
+{
+ "pack": "openkit-scratch-awl-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres (1 BU = 1 m)",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": "No existing prop-scratch-awl* or prop-brad-awl* FBX or text references; -sa1 suffix free. Existing awls (bodkin-bw1, button-btm1, cobbler, flail-fm1, punch-sv1, scoring-tl1, stitch-gl1, welt-lm1) untouched; new assets are carpenter marking-awl blanks.",
+ "judgment_calls": [
+  "Handle is hex pear-shape with pointed butt at base and flat top for ferrule seat, to stay at 22 tris.",
+  "Ferrule is a solid hex collar (no bore) matching handle hex, 20 tris.",
+  "Brad blade uses a 9 mm square shank and wedge chisel tip, visibly distinct from the 6 mm square-section scratch spike.",
+  "Flat shading; BaseColor PNGs shipped in tex/ unlinked; FBX carries material slots only.",
+  "Contact sheet tiles are individually framed, so relative scale between tiles is not to scale."
+ ],
+ "assets": [
+  {
+   "name": "prop-scratch-awl-blade-sa1",
+   "file": "fbx/prop-scratch-awl-blade-sa1.fbx",
+   "tris": 14,
+   "dims_xyz_m": [
+    0.00594,
+    0.00594,
+    0.125
+   ],
+   "bbox_min": [
+    -0.00297,
+    -0.00297,
+    0.0
+   ],
+   "materials": [
+    "mat_steel"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Steel scratch-awl blade blank: slender square-section spike, 6 mm square at base tapering to 4 mm at 85 mm then to a sharp pyramid point at 125 mm."
+  },
+  {
+   "name": "prop-scratch-awl-handle-sa1",
+   "file": "fbx/prop-scratch-awl-handle-sa1.fbx",
+   "tris": 22,
+   "dims_xyz_m": [
+    0.032,
+    0.02771,
+    0.095
+   ],
+   "bbox_min": [
+    -0.016,
+    -0.01386,
+    0.0
+   ],
+   "materials": [
+    "mat_wood"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Wooden hexagonal bulbous handle blank: hex section, pointed butt at base, widest (32 mm across corners) at 40 mm, tapering to an 18 mm flat hex top at 95 mm."
+  },
+  {
+   "name": "prop-scratch-awl-ferrule-sa1",
+   "file": "fbx/prop-scratch-awl-ferrule-sa1.fbx",
+   "tris": 20,
+   "dims_xyz_m": [
+    0.019,
+    0.01645,
+    0.012
+   ],
+   "bbox_min": [
+    -0.0095,
+    -0.00823,
+    0.0
+   ],
+   "materials": [
+    "mat_brass"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Brass ferrule blank: short solid hexagonal collar, 19 mm across corners, 12 mm tall."
+  },
+  {
+   "name": "prop-brad-awl-blade-sa1",
+   "file": "fbx/prop-brad-awl-blade-sa1.fbx",
+   "tris": 16,
+   "dims_xyz_m": [
+    0.009,
+    0.009,
+    0.09
+   ],
+   "bbox_min": [
+    -0.0045,
+    -0.0045,
+    0.0
+   ],
+   "materials": [
+    "mat_steel"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Steel brad-awl blade blank: thick 9 mm square shank to 70 mm, then a wedge chisel tip with a 9 mm straight cutting edge at 90 mm."
+  }
+ ]
+}
