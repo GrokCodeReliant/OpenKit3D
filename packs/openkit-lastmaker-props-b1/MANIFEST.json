@@ -1,0 +1,119 @@
+{
+ "pack": "openkit-lastmaker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-last-blank": "prop-last-blank-lm1 (suffix per brief; distinct from cobbler prop-shoe-last)",
+  "prop-welt-awl": "prop-welt-awl-lm1 (suffix per brief; many awls exist)"
+ },
+ "collision_check": "No lastmaker pack. No last-blank/lasting-pincer/welt-awl/heel-lift ids anywhere. Near: cobbler prop-shoe-last (finished last w/ peg), prop-cobbler-awl, stitch/punch/bodkin/button/scoring awls.",
+ "judgment_calls": [
+  "Last blank = rough axe-hewn tapered block with chop facets + bark scar, no peg block (cobbler last is finished, faceted with peg)",
+  "Welt awl = curved-tip flat blade vs straight awls",
+  "Pincers = broad jaws + hammer cheek",
+  "Heel lift = staggered 5-layer leather stack + wood top lift",
+  "Eye-check v1 passed"
+ ],
+ "assets": [
+  {
+   "name": "prop-last-blank-lm1",
+   "tris": 36,
+   "dims_xyz_m": [
+    0.27,
+    0.095,
+    0.128
+   ],
+   "bbox_min": [
+    -0.135,
+    -0.047,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Hornbeam",
+    "M_Wood_Bark"
+   ],
+   "height_m": 0.12,
+   "pivot": "bottom_centre (0,0,0); 27 cm rough axe-hewn hornbeam last blank: squared-off tapered block with chop facets and bark scar, no comb/peg hole yet (unfinished; distinct from cobbler's finished prop-shoe-last)"
+  },
+  {
+   "name": "prop-lasting-pincers",
+   "tris": 76,
+   "dims_xyz_m": [
+    0.278,
+    0.061,
+    0.024
+   ],
+   "bbox_min": [
+    -0.139,
+    -0.03,
+    0.0
+   ],
+   "materials": [
+    "M_Iron_Forged",
+    "M_Iron_Dark",
+    "M_Iron_Face"
+   ],
+   "height_m": 0.025,
+   "pivot": "laid / bottom_centre (0,0,0); 26 cm iron lasting pincers with broad gripping jaws and hammer cheek for pulling upper over last"
+  },
+  {
+   "name": "prop-welt-awl-lm1",
+   "tris": 52,
+   "dims_xyz_m": [
+    0.19,
+    0.032,
+    0.028
+   ],
+   "bbox_min": [
+    -0.095,
+    -0.016,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Iron_Forged",
+    "M_Iron_Dark"
+   ],
+   "height_m": 0.032,
+   "pivot": "laid / bottom_centre (0,0,0); 19 cm welt awl: pear handle, ferrule, flat blade with curved tip for welt seam (distinct from straight cobbler/stitch/punch awls)"
+  },
+  {
+   "name": "prop-heel-lift-blank",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.079,
+    0.067,
+    0.05
+   ],
+   "bbox_min": [
+    -0.04,
+    -0.034,
+    0.0
+   ],
+   "materials": [
+    "M_Leather_Sole",
+    "M_Leather_Dark",
+    "M_Wood_Ash"
+   ],
+   "height_m": 0.05,
+   "pivot": "bottom_centre (0,0,0); stack of five cut sole-leather heel lifts plus a wooden top lift blank, slightly staggered, unshaped"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-heel-lift-blank.fbx",
+  "fbx/prop-last-blank-lm1.fbx",
+  "fbx/prop-lasting-pincers.fbx",
+  "fbx/prop-welt-awl-lm1.fbx",
+  "tex/T_Iron_Forged_BaseColor.png",
+  "tex/T_Leather_Sole_BaseColor.png",
+  "tex/T_Wood_Hornbeam_BaseColor.png"
+ ]
+}

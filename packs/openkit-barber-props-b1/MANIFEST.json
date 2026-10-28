@@ -1,0 +1,119 @@
+{
+ "pack": "openkit-barber-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-razor-blank": "prop-razor-blank-bb1 (suffix per brief)"
+ },
+ "collision_check": "No barber/perfumer/feltmaker/silversmith packs. No razor/bleed-bowl/hone/soap-ball ids in any openkit fbx. Near: cutler prop-blade-blank-cu1, prop-grindstone-small-cu1; prop-needle-polish-stone; prop-wash-basin; prop-soap-dish; soap-maker prop-soap-mold-tray. (pewterer pack now exists; no id collision.)",
+ "judgment_calls": [
+  "Razor = dull forge-scaled unground blank with raw tang, no edge/scales (PG workshop blank)",
+  "Bowl = empty pewter basin blank with sprue tab; no blood/medical detail",
+  "Hone = slate block w/ flattened face (not a wheel)",
+  "Soap = rolled balls on board tray (not bars/molds)",
+  "Eye-check v1 passed"
+ ],
+ "assets": [
+  {
+   "name": "prop-razor-blank-bb1",
+   "tris": 48,
+   "dims_xyz_m": [
+    0.18,
+    0.023,
+    0.01
+   ],
+   "bbox_min": [
+    -0.09,
+    -0.012,
+    0.0
+   ],
+   "materials": [
+    "M_Iron_Forged",
+    "M_Iron_Dark",
+    "M_Iron_Scale"
+   ],
+   "height_m": 0.01,
+   "pivot": "laid / bottom_centre (0,0,0); 19 cm unground forged straight-razor blank: dull scaled blade, raw tang, no scales/pin, no edge (workshop blank, not a finished blade; distinct from cutler prop-blade-blank-cu1)"
+  },
+  {
+   "name": "prop-bleed-bowl-blank",
+   "tris": 152,
+   "dims_xyz_m": [
+    0.262,
+    0.247,
+    0.039
+   ],
+   "bbox_min": [
+    -0.131,
+    -0.124,
+    0.0
+   ],
+   "materials": [
+    "M_Pewter_Raw",
+    "M_Pewter_Dark"
+   ],
+   "height_m": 0.04,
+   "pivot": "bottom_centre (0,0,0); 26 cm shallow unpolished pewter barber's basin blank with broad rim and casting sprue tab (shaving/bleeding bowl form, empty, PG; distinct from wash-basin and soap-dish)"
+  },
+  {
+   "name": "prop-hone-stone-blank",
+   "tris": 36,
+   "dims_xyz_m": [
+    0.2,
+    0.057,
+    0.029
+   ],
+   "bbox_min": [
+    -0.1,
+    -0.028,
+    0.0
+   ],
+   "materials": [
+    "M_Slate_Hone",
+    "M_Slate_Face",
+    "M_Slate_Rough"
+   ],
+   "height_m": 0.029,
+   "pivot": "laid / bottom_centre (0,0,0); 20 cm rectangular slate hone blank with lighter flattened face and unworked quarry chip (distinct from needle-polish-stone and grindstone wheel)"
+  },
+  {
+   "name": "prop-soap-ball-tray",
+   "tris": 180,
+   "dims_xyz_m": [
+    0.242,
+    0.162,
+    0.062
+   ],
+   "bbox_min": [
+    -0.121,
+    -0.081,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Soap_Tallow",
+    "M_Soap_Herb"
+   ],
+   "height_m": 0.062,
+   "pivot": "bottom_centre (0,0,0); 24x16 cm shallow board tray holding six hand-rolled shaving-soap balls (spheres, not cut bars/molds; distinct from soap-maker mold tray)"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-bleed-bowl-blank.fbx",
+  "fbx/prop-hone-stone-blank.fbx",
+  "fbx/prop-razor-blank-bb1.fbx",
+  "fbx/prop-soap-ball-tray.fbx",
+  "tex/T_Iron_Forged_BaseColor.png",
+  "tex/T_Pewter_Raw_BaseColor.png",
+  "tex/T_Slate_Hone_BaseColor.png",
+  "tex/T_Soap_Tallow_BaseColor.png"
+ ]
+}
