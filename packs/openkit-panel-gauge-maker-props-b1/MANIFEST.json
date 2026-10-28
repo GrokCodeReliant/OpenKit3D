@@ -1,0 +1,96 @@
+{
+ "pack": "openkit-panel-gauge-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres (scale 1.0)",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": "find prop-*.fbx + rg panel-gauge|panel_gauge across studio/art: no prop-panel-gauge* existed; -pg2 suffix kept (pg1=drawknife). Distinct from prop-marking-gauge, try-square, bevel, winding-stick, chalk-line.",
+ "judgment_calls": [
+  "Fence is two overlapping boxes (block + foot lip) instead of a mortised head to hold 24 tris; stem hole implied.",
+  "Pin is square-section with pyramid point (14 tris) rather than round.",
+  "Textures are flat 16x16 BaseColor PNGs; FBX carries material slots only.",
+  "Workbench renders on light-grey ground."
+ ],
+ "assets": [
+  {
+   "name": "prop-panel-gauge-stem-pg2",
+   "tris": 12,
+   "bbox_min": [
+    -0.45,
+    -0.0125,
+    0.0
+   ],
+   "dims_xyz_m": [
+    0.9,
+    0.025,
+    0.025
+   ],
+   "materials": [
+    "mat_oak_pale"
+   ],
+   "file": "fbx/prop-panel-gauge-stem-pg2.fbx",
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Long square pale-oak stem blank, 900x25x25 mm single box (12 tris)."
+  },
+  {
+   "name": "prop-panel-gauge-fence-pg2",
+   "tris": 24,
+   "bbox_min": [
+    -0.08,
+    -0.0325,
+    0.0
+   ],
+   "dims_xyz_m": [
+    0.16,
+    0.065,
+    0.07
+   ],
+   "materials": [
+    "mat_beech_dark"
+   ],
+   "file": "fbx/prop-panel-gauge-fence-pg2.fbx",
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Dark-beech fence/head blank: 160x40x70 mm block over a 160x65x12 mm wider foot lip, two overlapping boxes (24 tris); no through-mortise modelled."
+  },
+  {
+   "name": "prop-panel-gauge-pin-pg2",
+   "tris": 14,
+   "bbox_min": [
+    -0.003,
+    -0.003,
+    0.0
+   ],
+   "dims_xyz_m": [
+    0.006,
+    0.006,
+    0.04
+   ],
+   "materials": [
+    "mat_iron_forged"
+   ],
+   "file": "fbx/prop-panel-gauge-pin-pg2.fbx",
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Forged-iron marking pin blank: 6x6 mm square shank 32 mm long with 8 mm pyramid point at z=0 (14 tris)."
+  },
+  {
+   "name": "prop-panel-gauge-wedge-pg2",
+   "tris": 12,
+   "bbox_min": [
+    -0.04,
+    -0.009,
+    0.0
+   ],
+   "dims_xyz_m": [
+    0.08,
+    0.018,
+    0.018
+   ],
+   "materials": [
+    "mat_oak_pale"
+   ],
+   "file": "fbx/prop-panel-gauge-wedge-pg2.fbx",
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Pale-oak locking wedge blank, 80x18 mm, height tapering 18 mm to 4 mm along X (12 tris)."
+  }
+ ]
+}

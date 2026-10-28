@@ -1,0 +1,98 @@
+{
+  "pack": "openkit-mortise-gauge-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (scale 1.0)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "find prop-*.fbx under studio art + rg mortise-gauge|mortise_gauge: no existing prop-mortise-gauge*; distinct from prop-panel-gauge-*-pg2, prop-marking-gauge, prop-mortise-chisel",
+  "judgment_calls": [
+    "Stem 0.22 m (vs 0.9 m panel-gauge stem).",
+    "Fence is a block with a bearing lip; no through-mortise for the stem, kept as blank.",
+    "Pin pair is two separate unjoined tapered pins on a shared pivot (bottom centre between them).",
+    "Thumbscrew head is pentagonal to stay within 28 tris; shank top uncapped (hidden under head).",
+    "Textures are flat procedural BaseColor PNGs; FBX references none."
+  ],
+  "assets": [
+    {
+      "name": "prop-mortise-gauge-stem-mg1",
+      "file": "fbx/prop-mortise-gauge-stem-mg1.fbx",
+      "tris": 12,
+      "dims_xyz_m": [
+        0.22,
+        0.022,
+        0.022
+      ],
+      "bbox_min": [
+        -0.11,
+        -0.011,
+        0.0
+      ],
+      "materials": [
+        "mg_oak_wood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Short square oak stem blank 0.22 x 0.022 x 0.022 m, single box, lying along X."
+    },
+    {
+      "name": "prop-mortise-gauge-fence-mg1",
+      "file": "fbx/prop-mortise-gauge-fence-mg1.fbx",
+      "tris": 24,
+      "dims_xyz_m": [
+        0.075,
+        0.062,
+        0.032
+      ],
+      "bbox_min": [
+        -0.0375,
+        -0.031,
+        0.0
+      ],
+      "materials": [
+        "mg_oak_wood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Oak fence/head blank: 0.075 x 0.05 x 0.032 m block with a 0.012 x 0.01 m bearing lip along one long bottom edge (two boxes, no through-mortise cut)."
+    },
+    {
+      "name": "prop-mortise-gauge-pin-pair-mg1",
+      "file": "fbx/prop-mortise-gauge-pin-pair-mg1.fbx",
+      "tris": 24,
+      "dims_xyz_m": [
+        0.0222,
+        0.0042,
+        0.028
+      ],
+      "bbox_min": [
+        -0.0111,
+        -0.0021,
+        0.0
+      ],
+      "materials": [
+        "mg_iron"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Pair of iron marking pins: two square tapered pins 0.028 m tall, standing 0.018 m apart on X, not joined."
+    },
+    {
+      "name": "prop-mortise-gauge-thumbscrew-mg1",
+      "file": "fbx/prop-mortise-gauge-thumbscrew-mg1.fbx",
+      "tris": 26,
+      "dims_xyz_m": [
+        0.0217,
+        0.0228,
+        0.025
+      ],
+      "bbox_min": [
+        -0.0109,
+        -0.0114,
+        0.0
+      ],
+      "materials": [
+        "mg_oak_wood",
+        "mg_iron"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Thumbscrew blank: square iron shank 0.016 m tall (5 mm across) under a slightly tapered pentagonal oak head 0.009 m thick, ~0.022 m across."
+    }
+  ]
+}
