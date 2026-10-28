@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **200** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **202** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -55,6 +55,7 @@ The `packs/` folder contains **200** CC0-licensed medieval prop packs. Each pack
 | `openkit-butcher-props-b1` | Butcher shop props |
 | `openkit-button-maker-props-b1` | Button / bead-turner workshop props |
 | `openkit-button-mold-maker-props-b1` | Button-mold maker workshop props |
+| `openkit-cabinet-scraper-extras-b1` | Cabinet scraper workshop extras |
 | `openkit-cabinetmaker-props-b1` | Cabinetmaker / furniture-finishing tools |
 | `openkit-camp-props-b1` | Campsite props |
 | `openkit-candle-snuffer-maker-props-b1` | Candle-snuffer maker workshop props |
@@ -74,6 +75,7 @@ The `packs/` folder contains **200** CC0-licensed medieval prop packs. Each pack
 | `openkit-cutler-props-b1` | Cutler (knife-maker) workshop props |
 | `openkit-dock-harbor-b1` | Dock and harbor props |
 | `openkit-doors-windows-b1` | Doors and windows |
+| `openkit-dovetail-marker-props-b1` | Dovetail layout props |
 | `openkit-drum-maker-props-b1` | Drum-maker workshop props |
 | `openkit-dungeon-clutter-b1` | Dungeon debris and clutter |
 | `openkit-embroiderer-props-b1` | Embroiderer workshop props |

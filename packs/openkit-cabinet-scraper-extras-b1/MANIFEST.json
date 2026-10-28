@@ -1,0 +1,99 @@
+{
+ "pack": "openkit-cabinet-scraper-extras-b1",
+ "license": "CC0-1.0",
+ "units": "metres (1 BU = 1 m)",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": "All 4 names absent from studio/art prop-*.fbx; existing scraper/burnisher names are prop-cabinet-scraper and prop-agate-burnisher only; -cs3 suffix unused (cs1 raising-hammer, cs2 candle-snuffer set).",
+ "judgment_calls": [
+  "Burnisher rod base and handle bottom cap omitted where hidden (rod sits 5 mm inside handle) to hold 26 tris.",
+  "File tang is a 4-tri pyramid flush on blade top; file stands upright along Z.",
+  "Holder knob is a 3-sided prism to meet 32-tri budget.",
+  "Flat-colour 64px BaseColor PNGs shipped in tex/; FBX carries material slots only."
+ ],
+ "assets": [
+  {
+   "name": "prop-scraper-burnisher-cs3",
+   "file": "fbx/prop-scraper-burnisher-cs3.fbx",
+   "tris": 26,
+   "dims_xyz_m": [
+    0.0253,
+    0.0266,
+    0.215
+   ],
+   "bbox_min": [
+    -0.01266,
+    -0.01331,
+    0.0
+   ],
+   "materials": [
+    "wood_handle",
+    "steel_polished"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Pentagonal wooden handle (100 mm) with a square-section polished steel burnisher rod protruding 115 mm for turning scraper edges."
+  },
+  {
+   "name": "prop-scraper-blank-plate-cs3",
+   "file": "fbx/prop-scraper-blank-plate-cs3.fbx",
+   "tris": 12,
+   "dims_xyz_m": [
+    0.15,
+    0.06,
+    0.0008
+   ],
+   "bbox_min": [
+    -0.075,
+    -0.03,
+    0.0
+   ],
+   "materials": [
+    "steel_blank"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Thin flat rectangular steel scraper blank plate, 150 x 60 x 0.8 mm, lying flat."
+  },
+  {
+   "name": "prop-scraper-file-cs3",
+   "file": "fbx/prop-scraper-file-cs3.fbx",
+   "tris": 16,
+   "dims_xyz_m": [
+    0.016,
+    0.003,
+    0.2
+   ],
+   "bbox_min": [
+    -0.008,
+    -0.0015,
+    0.0
+   ],
+   "materials": [
+    "steel_file",
+    "steel_tang"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Upright thin flat file blade (16 x 3 x 150 mm, dark steel) with a pointed pyramidal tang on top, for dressing scraper edges."
+  },
+  {
+   "name": "prop-scraper-card-holder-cs3",
+   "file": "fbx/prop-scraper-card-holder-cs3.fbx",
+   "tris": 32,
+   "dims_xyz_m": [
+    0.12,
+    0.024,
+    0.045
+   ],
+   "bbox_min": [
+    -0.06,
+    -0.012,
+    0.0
+   ],
+   "materials": [
+    "wood_jaw",
+    "wood_knob_dark"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Two wooden jaw blocks (120 x 11 x 30 mm) with a 2 mm card slot between them and a triangular wooden clamp knob on top."
+  }
+ ]
+}

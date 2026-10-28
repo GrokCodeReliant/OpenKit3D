@@ -1,0 +1,99 @@
+{
+ "pack": "openkit-dovetail-marker-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres (scale 1.0)",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": "find prop-*.fbx across studio/art + rg dovetail: only prop-dovetail-saw exists; all 4 -dm1 names free",
+ "judgment_calls": [
+  "Template = brass trapezoid plate (~1:6 slope) + beech fence block (24 tris)",
+  "Knife = box handle + flat 4-point blade with skew tip (24 tris)",
+  "Pin gauge = plain rectangular spacer block (12 tris, under 16)",
+  "Waste stick = tapered flat 4-sided prism (12 tris)",
+  "Tex PNGs are flat BaseColor swatches; not referenced by FBX"
+ ],
+ "assets": [
+  {
+   "name": "prop-dovetail-template-dm1",
+   "file": "fbx/prop-dovetail-template-dm1.fbx",
+   "tris": 24,
+   "dims_xyz_m": [
+    0.12,
+    0.11,
+    0.025
+   ],
+   "bbox_min": [
+    -0.06,
+    -0.055,
+    0.0
+   ],
+   "materials": [
+    "MAT_brass",
+    "MAT_beech_wood"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Brass 3mm trapezoid angle plate (60mm narrow edge, 90mm wide edge, 90mm deep, ~1:6 dovetail slope) on a 120x20x25mm beech fence block; bottom-centred."
+  },
+  {
+   "name": "prop-dovetail-marking-knife-dm1",
+   "file": "fbx/prop-dovetail-marking-knife-dm1.fbx",
+   "tris": 24,
+   "dims_xyz_m": [
+    0.175,
+    0.022,
+    0.008
+   ],
+   "bbox_min": [
+    -0.0875,
+    -0.011,
+    0.0
+   ],
+   "materials": [
+    "MAT_walnut_wood",
+    "MAT_steel"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Short marking knife: 100x22x8mm walnut box handle with a 75mm flat 2mm steel blade ending in an angled skew tip."
+  },
+  {
+   "name": "prop-dovetail-pin-gauge-dm1",
+   "file": "fbx/prop-dovetail-pin-gauge-dm1.fbx",
+   "tris": 12,
+   "dims_xyz_m": [
+    0.06,
+    0.012,
+    0.02
+   ],
+   "bbox_min": [
+    -0.03,
+    -0.006,
+    0.0
+   ],
+   "materials": [
+    "MAT_beech_wood"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Beech pin-width spacer gauge blank, rectangular block 60x12x20mm."
+  },
+  {
+   "name": "prop-dovetail-waste-stick-dm1",
+   "file": "fbx/prop-dovetail-waste-stick-dm1.fbx",
+   "tris": 12,
+   "dims_xyz_m": [
+    0.18,
+    0.012,
+    0.004
+   ],
+   "bbox_min": [
+    -0.09,
+    -0.006,
+    0.0
+   ],
+   "materials": [
+    "MAT_beech_wood"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Thin beech waste-marking stick, 180mm long, 4mm thick, tapering from 12mm to 4mm wide."
+  }
+ ]
+}
