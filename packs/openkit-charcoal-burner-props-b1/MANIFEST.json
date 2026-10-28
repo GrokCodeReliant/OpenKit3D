@@ -1,0 +1,128 @@
+{
+ "pack": "openkit-charcoal-burner-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-measuring-scoop": "prop-measuring-scoop-cb1 (brief id; near-miss prop-wort-scoop exists)"
+ },
+ "collision_check": "Scanned studio/art/openkit-*/fbx for charcoal|rake|kiln|scoop|sack|vent|stake|turf|lump: found prop-sack-tied, prop-sack-tied-cc1, prop-grain-sack-open-ml1, prop-wort-scoop, prop-kiln-small-pt1, prop-clay-lump, prop-rope-hook-stake. No exact id collisions.",
+ "judgment_calls": [
+  "Rake is a 5-tine iron raking head on 1.6 m handle, laid flat (lean by rotating) - not a forge poker/fire-iron",
+  "Vent cover is a plank damper weighted by turf clods, for an earth clamp kiln - not a pottery kiln (kiln-small-pt1)",
+  "Sack is sooty hessian, open rolled mouth with black charcoal heap + spill - distinct material/silhouette from grain-sack-open-ml1",
+  "Scoop is an open-front box measure with iron lip/bands, larger and flat-bottomed vs round wort-scoop",
+  "Rake pivot at handle midpoint on floor (not head) so it centres in a bbox"
+ ],
+ "assets": [
+  {
+   "name": "prop-charcoal-rake",
+   "tris": 104,
+   "dims_xyz_m": [
+    1.69,
+    0.36,
+    0.11
+   ],
+   "bbox_min": [
+    -0.8,
+    -0.18,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron"
+   ],
+   "height_m": 0.11,
+   "pivot": "bottom_centre-ish (0,0,0) lying flat at handle midpoint; 1.6 m ash handle along X, 0.36 m iron 5-tine head at +X tines down; rotate about Y to lean against a kiln",
+   "fbx": "fbx/prop-charcoal-rake.fbx",
+   "sha256": "40c2f1d90abee9879d0c3f60329fe5ab85d03d0e0a4afb85fc39150880c8ef46"
+  },
+  {
+   "name": "prop-kiln-vent-cover",
+   "tris": 120,
+   "dims_xyz_m": [
+    0.44,
+    0.44,
+    0.095
+   ],
+   "bbox_min": [
+    -0.22,
+    -0.22,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Dark",
+    "M_Turf",
+    "M_Iron"
+   ],
+   "height_m": 0.095,
+   "pivot": "bottom_centre (0,0,0) on kiln/ground; 0.44 m square plank damper with battens, centre lift handle and two turf clods weighing it down",
+   "fbx": "fbx/prop-kiln-vent-cover.fbx",
+   "sha256": "7de1ce4d921eb4a2abd26b3b60096119abbb16d9b9f6308605e7d72fc1beca97"
+  },
+  {
+   "name": "prop-charcoal-sack-open",
+   "tris": 156,
+   "dims_xyz_m": [
+    0.485,
+    0.42,
+    0.488
+   ],
+   "bbox_min": [
+    -0.21,
+    -0.21,
+    0.0
+   ],
+   "materials": [
+    "M_Sack_Sooty",
+    "M_Charcoal"
+   ],
+   "height_m": 0.49,
+   "pivot": "bottom_centre (0,0,0) on ground; 0.42 m dia soot-stained hessian sack, mouth rolled open, black charcoal heap and lumps inside, two spilled lumps at +X",
+   "fbx": "fbx/prop-charcoal-sack-open.fbx",
+   "sha256": "7dcd90923c66b8a9111532130f3634ef5a7d5a8b833be28910d293b7ea8d88d5"
+  },
+  {
+   "name": "prop-measuring-scoop-cb1",
+   "tris": 116,
+   "dims_xyz_m": [
+    0.345,
+    0.164,
+    0.1
+   ],
+   "bbox_min": [
+    -0.105,
+    -0.082,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Iron"
+   ],
+   "height_m": 0.1,
+   "pivot": "bottom_centre (0,0,0) on ground/sack; 0.2x0.16 m open-front box scoop (quarter-peck measure) with iron lip and bands, handle +X from back wall",
+   "fbx": "fbx/prop-measuring-scoop-cb1.fbx",
+   "sha256": "f24f2ae6b2016ea860f40da07b6aa15e441b1f51c7ae8f240f5b33a64147d47e"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-charcoal-rake.fbx",
+  "fbx/prop-charcoal-sack-open.fbx",
+  "fbx/prop-kiln-vent-cover.fbx",
+  "fbx/prop-measuring-scoop-cb1.fbx",
+  "tex/T_Charcoal_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Sack_BaseColor.png",
+  "tex/T_Turf_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)"
+}
