@@ -1,0 +1,130 @@
+{
+ "pack": "openkit-dyer-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "prop-dye-vat-small, prop-yarn-skein-rack, prop-madder-root-bundle: no hits in studio/art/openkit-*/fbx (122 packs). prop-stirring-paddle already suffixed -dy1 per brief (near: brewery prop-mash-paddle). Near-misses: tanner prop-tanning-vat-small, weaver prop-yarn-skein-stack.",
+ "judgment_calls": [
+  "Dye vat: low wide open tub, no handles, 2 iron hoops, indigo dye floor as the inner surface (saves tris vs separate disc) - reads unlike handled tanning vat",
+  "Skein rack: freestanding 2-post frame with pole at 1.27 m and 4 hanging hanks in indigo/madder/weld; skeins are simple box hanks to stay at 108 tris",
+  "Madder bundle lies flat along X; 5 tapering 5-sided roots + 2 twine ties",
+  "Paddle: 1.4 m, flat solid narrow blade (no holes/rake slots), T-grip, indigo stain band; modelled upright so it can lean",
+  "Images stripped from .blend; tex/ PNGs are optional flat CC0 basecolors"
+ ],
+ "assets": [
+  {
+   "name": "prop-dye-vat-small",
+   "tris": 172,
+   "dims_xyz_m": [
+    0.54,
+    0.55,
+    0.26
+   ],
+   "bbox_min": [
+    -0.27,
+    -0.275,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Dark",
+    "M_Indigo",
+    "M_Iron"
+   ],
+   "height_m": 0.26,
+   "pivot": "bottom_centre (0,0,0) on floor; 0.55 m dia low open staved tub, no handles, 2 iron hoops, deep-indigo dye surface at 0.21 m",
+   "fbx": "fbx/prop-dye-vat-small.fbx",
+   "sha256": "12ac943fd11b4c13da74c7eb480827558cf73ec219a176374e4a46dc1f597f30"
+  },
+  {
+   "name": "prop-yarn-skein-rack",
+   "tris": 108,
+   "dims_xyz_m": [
+    1.02,
+    0.4,
+    1.295
+   ],
+   "bbox_min": [
+    -0.51,
+    -0.2,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Indigo",
+    "M_Madder",
+    "M_Weld"
+   ],
+   "height_m": 1.295,
+   "pivot": "bottom_centre (0,0,0) on floor; 1.0 m freestanding drying frame on 2 foot skids, pole along X at 1.27 m, 4 dyed skeins (indigo/madder/weld) hanging; flat in Y so can sit against a wall",
+   "fbx": "fbx/prop-yarn-skein-rack.fbx",
+   "sha256": "880df47c64af97c50cb47b8eb044e219739f3f1271eccf116a7d662a21b1ac69"
+  },
+  {
+   "name": "prop-madder-root-bundle",
+   "tris": 120,
+   "dims_xyz_m": [
+    0.551,
+    0.148,
+    0.113
+   ],
+   "bbox_min": [
+    -0.276,
+    -0.076,
+    0.0
+   ],
+   "materials": [
+    "M_Madder_Root",
+    "M_Twine"
+   ],
+   "height_m": 0.113,
+   "pivot": "bottom_centre (0,0,0) on floor/bench; 0.55 m bundle of 5 tapering madder roots lying along X, 2 twine ties",
+   "fbx": "fbx/prop-madder-root-bundle.fbx",
+   "sha256": "2b3cea77305ff02cb9964d339fd7ae6dfd7cfc1ec09f6ce59c3318573306a21b"
+  },
+  {
+   "name": "prop-stirring-paddle-dy1",
+   "tris": 56,
+   "dims_xyz_m": [
+    0.12,
+    0.036,
+    1.405
+   ],
+   "bbox_min": [
+    -0.06,
+    -0.018,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak",
+    "M_Indigo"
+   ],
+   "height_m": 1.405,
+   "pivot": "bottom_centre (0,0,0) at blade tip; 1.4 m upright dyer's paddle, flat solid 0.11 m blade in XZ, indigo stain band, T-grip at top; rotate ~15 deg about X to lean",
+   "fbx": "fbx/prop-stirring-paddle-dy1.fbx",
+   "sha256": "bb758bbdd74e182cbfa81c73cfcab9dea2d93b55c648e41a02ce4a206cd21388"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-dye-vat-small.fbx",
+  "fbx/prop-madder-root-bundle.fbx",
+  "fbx/prop-stirring-paddle-dy1.fbx",
+  "fbx/prop-yarn-skein-rack.fbx",
+  "tex/T_Indigo_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Madder_BaseColor.png",
+  "tex/T_Madder_Root_BaseColor.png",
+  "tex/T_Twine_BaseColor.png",
+  "tex/T_Weld_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)"
+}
