@@ -1,0 +1,125 @@
+{
+ "pack": "openkit-button-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures; FBX path_mode STRIP; image datablocks removed before export)",
+ "max_tris": 210,
+ "renames": {
+  "prop-button-awl": "prop-button-awl-btm1 (pre-suffixed per brief; distinct from prop-cobbler-awl / prop-bodkin-awl-bw1)"
+ },
+ "collision_check": "Searched studio/art/openkit-*/fbx for button|bead|lathe|polish|awl|bone|horn-disc|die-punch: hits prop-bodkin-awl-bw1, prop-bone-folder, prop-cobbler-awl; none match chosen ids",
+ "assets": [
+  {
+   "name": "prop-bone-button-blank-tray",
+   "tris": 184,
+   "dims_xyz_m": [
+    0.24,
+    0.16,
+    0.026
+   ],
+   "bbox_min": [
+    -0.12,
+    -0.08,
+    0.0
+   ],
+   "materials": [
+    "M_Tray",
+    "M_Bone",
+    "M_Horn",
+    "M_Dark"
+   ],
+   "height_m": 0.026,
+   "pivot": "bottom_centre (0,0,0) under tray floor; 0.24x0.16 m shallow tray of 5 sawn bone/horn button discs, two with undrilled pilot marks"
+  },
+  {
+   "name": "prop-button-lathe-bow",
+   "tris": 112,
+   "dims_xyz_m": [
+    0.36,
+    0.126,
+    0.14
+   ],
+   "bbox_min": [
+    -0.18,
+    -0.063,
+    0.0
+   ],
+   "materials": [
+    "M_Oak",
+    "M_Steel",
+    "M_Bone",
+    "M_Ash",
+    "M_Cord"
+   ],
+   "height_m": 0.14,
+   "pivot": "bottom_centre (0,0,0) under bench block; 0.36 m simplified bow lathe: block, two poppets, spindle with button blank, tool rest, bow resting on -Y side"
+  },
+  {
+   "name": "prop-button-polish-pad",
+   "tris": 76,
+   "dims_xyz_m": [
+    0.165,
+    0.085,
+    0.037
+   ],
+   "bbox_min": [
+    -0.083,
+    -0.043,
+    0.0
+   ],
+   "materials": [
+    "M_Oak",
+    "M_Leather",
+    "M_Bone",
+    "M_Dark"
+   ],
+   "height_m": 0.037,
+   "pivot": "bottom_centre (0,0,0) laid flat; 0.165x0.085 m oak block with leather buff face, two buttons and a paste dab on top"
+  },
+  {
+   "name": "prop-button-awl-btm1",
+   "tris": 86,
+   "dims_xyz_m": [
+    0.121,
+    0.029,
+    0.034
+   ],
+   "bbox_min": [
+    -0.06,
+    -0.015,
+    0.0
+   ],
+   "materials": [
+    "M_Ash",
+    "M_Brass",
+    "M_Steel"
+   ],
+   "height_m": 0.034,
+   "pivot": "bottom_centre (0,0,0) laid flat along +X; 0.12 m button-hole drill awl: pear palm handle, brass ferrule, needle shaft with flat spade tip"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-bone-button-blank-tray.fbx",
+  "fbx/prop-button-awl-btm1.fbx",
+  "fbx/prop-button-lathe-bow.fbx",
+  "fbx/prop-button-polish-pad.fbx",
+  "tex/T_Ash_BaseColor.png",
+  "tex/T_Bone_BaseColor.png",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Cord_BaseColor.png",
+  "tex/T_Dark_BaseColor.png",
+  "tex/T_Horn_BaseColor.png",
+  "tex/T_Leather_BaseColor.png",
+  "tex/T_Oak_BaseColor.png",
+  "tex/T_Steel_BaseColor.png",
+  "tex/T_Tray_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "T_Oak_BaseColor.png is byte-identical to packs/openkit-charcoal-burner-props-b1/tex/T_Wood_Oak_BaseColor.png; Unity may point M_Oak / T_Oak there to dedupe (kept here so pack is self-contained)."
+}
