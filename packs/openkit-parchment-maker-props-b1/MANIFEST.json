@@ -1,0 +1,132 @@
+{
+ "pack": "openkit-parchment-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {
+  "prop-stretching-frame": "prop-stretching-frame-pm1 (taken: openkit-tanner-props-b1)",
+  "prop-scraping-knife-pm1": "kept suffix (prop-scraping-knife in tanner, -hw1 in horn-worker)"
+ },
+ "collision_check": "Searched 191 openkit-*/fbx for parchment|vellum|scrap|pumice|stretch|frame|hide|lunell. Near-misses: prop-parchment-sheet-stack (scribe, finished trimmed stack), prop-stretching-frame/prop-scraping-knife/prop-hide-pile (tanner), prop-sewing-frame (bookbinder), prop-scraping-knife-hw1 (horn-worker). No pumice, no sheet-blank, no prior parchment-maker pack.",
+ "judgment_calls": [
+  "Sheet blank is a single untrimmed irregular 10-sided hide outline with darker uncut leg margins + chalk trim lines, laid; distinct from scribe's trimmed sheet stack and from book pages/scrolls",
+  "Stretching frame is an upright parchment herse (posts, rails, foot skids, 4 turning pegs + cords tensioning a hide) vs tanner's frame; floor-standing bottom_centre, back flat enough to sit against a wall",
+  "Knife is a crescent lunellum with central crosswise handle, unlike straight tanner/horn scrapers",
+  "Pumice block chamfered and top-tapered; dark worn spot reads as a thin line at render scale (kept)",
+  "Frame pegs changed from 6-seg cylinders to boxes to get 212->180 tris",
+  "Eye-check v1: lunellum segments mis-rotated (broken arc) + oversized handle -> fixed v2; v2 no floating parts, crescent continuous, hide connected to posts via cords"
+ ],
+ "assets": [
+  {
+   "name": "prop-parchment-sheet-blank",
+   "tris": 84,
+   "dims_xyz_m": [
+    0.73,
+    0.54,
+    0.004
+   ],
+   "bbox_min": [
+    -0.365,
+    -0.27,
+    0.0
+   ],
+   "materials": [
+    "M_Vellum",
+    "M_Vellum_Margin",
+    "M_Chalk"
+   ],
+   "height_m": 0.004,
+   "pivot": "laid / bottom_centre (0,0,0); ~73x54 cm single untrimmed vellum blank, irregular 10-sided hide outline, darker uncut margins at leg edges, two chalk trim lines; not a stack, not a written page",
+   "fbx_sha256": "3c80c859fb9aa630604769d67457db3b24a23ca7670dbadbdf5b45e04021ac7a"
+  },
+  {
+   "name": "prop-stretching-frame-pm1",
+   "tris": 180,
+   "dims_xyz_m": [
+    0.84,
+    0.4,
+    0.9
+   ],
+   "bbox_min": [
+    -0.42,
+    -0.2,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Wood_Dark",
+    "M_Vellum",
+    "M_Rope_Hemp"
+   ],
+   "height_m": 0.89,
+   "pivot": "bottom_centre (0,0,0), floor-standing upright (wall-friendly: back face flat at -Y 0.2 skid); 84x40x89 cm parchment herse: two posts + rails on foot skids, hide stretched in centre via cords to 4 turning pegs",
+   "fbx_sha256": "a173af8ee48d033e1de0fa9b023a71470bb9a5400ae4e393970b3c584d413ec7"
+  },
+  {
+   "name": "prop-scraping-knife-pm1",
+   "tris": 100,
+   "dims_xyz_m": [
+    0.233,
+    0.094,
+    0.024
+   ],
+   "bbox_min": [
+    -0.116,
+    -0.047,
+    0.0
+   ],
+   "materials": [
+    "M_Steel",
+    "M_Wood_Ash"
+   ],
+   "height_m": 0.024,
+   "pivot": "laid / bottom_centre (0,0,0); lunellum: crescent iron blade (~22 cm span) with central tang into 14 cm crosswise wooden handle; blade rests flat, handle on floor",
+   "fbx_sha256": "305525296d50c7b5a67c1b255073a82f13259f4779a780c887364bf76cd68ed4"
+  },
+  {
+   "name": "prop-pumice-block",
+   "tris": 56,
+   "dims_xyz_m": [
+    0.118,
+    0.078,
+    0.061
+   ],
+   "bbox_min": [
+    -0.059,
+    -0.039,
+    0.0
+   ],
+   "materials": [
+    "M_Pumice",
+    "M_Pumice_Worn"
+   ],
+   "height_m": 0.061,
+   "pivot": "bottom_centre (0,0,0); 12x8x6 cm chamfered pumice rubbing block, tapered top, darker worn spot; loose stone, no handle",
+   "fbx_sha256": "b2751a1d5825031bb2b1a026cfcbae5d8baa5ab0987ee3739640e7677d856249"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-parchment-sheet-blank.fbx",
+  "fbx/prop-pumice-block.fbx",
+  "fbx/prop-scraping-knife-pm1.fbx",
+  "fbx/prop-stretching-frame-pm1.fbx",
+  "tex/T_Chalk_BaseColor.png",
+  "tex/T_Pumice_BaseColor.png",
+  "tex/T_Pumice_Worn_BaseColor.png",
+  "tex/T_Rope_Hemp_BaseColor.png",
+  "tex/T_Steel_BaseColor.png",
+  "tex/T_Vellum_BaseColor.png",
+  "tex/T_Vellum_Margin_BaseColor.png",
+  "tex/T_Wood_Ash_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "All 9 BaseColor PNGs are pack-local in tex/. Shared names (e.g. T_Chalk, T_Steel, T_Wood_*, T_Rope_Hemp) are name-clash only vs tent / other packs (no byte-identical siblings per Intake); unique to this pack: T_Vellum, T_Vellum_Margin, T_Pumice, T_Pumice_Worn. FBX are slots-only (no embedded/linked textures); Unity maps textures by material slot name."
+}

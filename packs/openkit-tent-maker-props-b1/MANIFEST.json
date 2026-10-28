@@ -1,0 +1,130 @@
+{
+ "pack": "openkit-tent-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "Searched 188 openkit-*/fbx for tent|canvas|stake|guy|pavilion|peg|pole|grommet|punch|eyelet|coil. None of the 4 ids taken; no prior openkit-tent* pack. Near-misses: prop-tent-wedge (camp, finished tent), prop-tent-lean-to (outdoor, finished shelter), prop-rope-hook-stake (rope-maker), prop-peg-blank-tray (peg-maker), prop-rivet-eyelet-tray (pouch-maker), prop-eye-punch-die (needle-maker), rope/drawstring coils.",
+ "judgment_calls": [
+  "Canvas panel is a flat unsewn 120x80 cm sheet with hems + chalk lines, no holes/poles - not a tent",
+  "Stake blank is a squared ash billet with axed 4-facet point and chalked-but-uncut notch, laid; distinct from turned peg-maker pegs and rope-hook-stake",
+  "Guy-line coil uses thick 24 mm hemp in 2 stacked turns + seizing + floor tail; chunkier than drawstring/rope coils",
+  "Grommet set is a tray of hollow punches + setting die + brass grommet blanks; distinct from pouch rivet-eyelet tray",
+  "Eye-check v2: no floating parts; tray walls lowered 4->2.5 cm so die/grommets read; laid stake rests on head and shaft (point tip ~2 cm off floor, as real)"
+ ],
+ "assets": [
+  {
+   "name": "prop-canvas-panel-blank",
+   "tris": 96,
+   "dims_xyz_m": [
+    1.2,
+    0.8,
+    0.006
+   ],
+   "bbox_min": [
+    -0.6,
+    -0.4,
+    0.0
+   ],
+   "materials": [
+    "M_Canvas",
+    "M_Canvas_Hem",
+    "M_Chalk"
+   ],
+   "height_m": 0.006,
+   "pivot": "laid / bottom_centre (0,0,0); 120x80 cm flat unsewn heavy sailcloth panel, darker turned hems along +/-Y, chalk seam lines (3 across X), chalk grommet line near +Y hem; no holes, no poles",
+   "fbx_sha256": "81507aef06b3a65dcd3e651f9b9aac86a252abdd5d98add3961de2ea3c2d6e62"
+  },
+  {
+   "name": "prop-tent-stake-blank",
+   "tris": 42,
+   "dims_xyz_m": [
+    0.36,
+    0.047,
+    0.05
+   ],
+   "bbox_min": [
+    -0.18,
+    -0.024,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Wood_Dark",
+    "M_Chalk"
+   ],
+   "height_m": 0.05,
+   "pivot": "laid / bottom_centre (0,0,0); 34 cm squared ash tent-stake blank lying along X, axed 4-facet point one end, heavy flared head with chalked (uncut) guy-notch mark; not a turned peg",
+   "fbx_sha256": "1a195005d9ec97461d5f7be5b25cb6f57f9af1ae193c9f72b9a3c810757517e4"
+  },
+  {
+   "name": "prop-guy-line-coil",
+   "tris": 152,
+   "dims_xyz_m": [
+    0.319,
+    0.408,
+    0.05
+   ],
+   "bbox_min": [
+    -0.16,
+    -0.204,
+    0.0
+   ],
+   "materials": [
+    "M_Rope_Hemp",
+    "M_Rope_Seizing"
+   ],
+   "height_m": 0.05,
+   "pivot": "bottom_centre (0,0,0); ~31 cm flat-laid coil of thick 24 mm hemp tent guy-line, two stacked turns, darker seizing wrap, tail end lying out on floor",
+   "fbx_sha256": "ca589097012bb6b4ae1b26c6a56696588e639b92a8a0de031f726a3290960e61"
+  },
+  {
+   "name": "prop-grommet-punch-set",
+   "tris": 200,
+   "dims_xyz_m": [
+    0.24,
+    0.14,
+    0.027
+   ],
+   "bbox_min": [
+    -0.12,
+    -0.07,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Ash",
+    "M_Steel",
+    "M_Iron",
+    "M_Brass"
+   ],
+   "height_m": 0.03,
+   "pivot": "bottom_centre (0,0,0); 24x14 cm shallow oak tray holding two laid iron hollow grommet punches, a round setting die and two loose flat brass grommet blanks",
+   "fbx_sha256": "6bbea1303fa7f48e591ecd4f0372f2730ba4a8f65e2f9c37cb6bb062f1655958"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-canvas-panel-blank.fbx",
+  "fbx/prop-grommet-punch-set.fbx",
+  "fbx/prop-guy-line-coil.fbx",
+  "fbx/prop-tent-stake-blank.fbx",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Canvas_BaseColor.png",
+  "tex/T_Canvas_Hem_BaseColor.png",
+  "tex/T_Chalk_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Rope_Hemp_BaseColor.png",
+  "tex/T_Rope_Seizing_BaseColor.png",
+  "tex/T_Steel_BaseColor.png",
+  "tex/T_Wood_Ash_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)",
+ "textures_note": "All ten BaseColor PNGs ship pack-local in tex/. None are byte-identical to any sibling pack (per Intake/VEIL). T_Brass, T_Chalk, T_Iron, T_Rope_Hemp, T_Steel, T_Wood_Ash and T_Wood_Dark are name-clash only with other Open Kit packs (different bytes); T_Canvas, T_Canvas_Hem and T_Rope_Seizing are unique. FBX carry material slots only; Unity maps textures by material slot."
+}
