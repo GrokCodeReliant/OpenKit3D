@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **160** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **162** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -48,6 +48,7 @@ The `packs/` folder contains **160** CC0-licensed medieval prop packs. Each pack
 | `openkit-brushmaker-props-b1` | Brushmaker workshop props |
 | `openkit-butcher-props-b1` | Butcher shop props |
 | `openkit-button-maker-props-b1` | Button / bead-turner workshop props |
+| `openkit-button-mold-maker-props-b1` | Button-mold maker workshop props |
 | `openkit-cabinetmaker-props-b1` | Cabinetmaker / furniture-finishing tools |
 | `openkit-camp-props-b1` | Campsite props |
 | `openkit-candlemaker-props-b1` | Candlemaker workshop props |
@@ -92,6 +93,7 @@ The `packs/` folder contains **160** CC0-licensed medieval prop packs. Each pack
 | `openkit-icons-inventory-b1` | Inventory icons |
 | `openkit-illuminator-props-b1` | Illuminator workshop props |
 | `openkit-ink-maker-props-b1` | Ink-maker workshop props |
+| `openkit-inkhorn-carver-props-b1` | Inkhorn-carver workshop props |
 | `openkit-joiner-props-b1` | Joiner workshop props |
 | `openkit-kitchen-props-b1` | Kitchen furniture and utensils |
 | `openkit-lacemaker-props-b1` | Lacemaker workshop props |

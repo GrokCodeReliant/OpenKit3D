@@ -1,0 +1,129 @@
+{
+ "pack": "openkit-inkhorn-carver-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres (1 unit = 1 m), FBX Y-up export",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": {
+  "method": "find <studio>/art -name 'prop-*.fbx' basenames, sorted unique",
+  "result": "all 4 names free before export; -ih1 kept on borer per brief",
+  "avoided": [
+   "prop-ink-horn-blank",
+   "prop-horn-blank-pair",
+   "prop-horn-comb-blank",
+   "prop-horn-press-clamp",
+   "prop-scraping-knife-hw1",
+   "prop-ink-gall-pot",
+   "prop-ink-stick-blank",
+   "prop-mixing-pestle-im1",
+   "prop-oak-gall-tray",
+   "prop-jar-stopper-tray"
+  ]
+ },
+ "judgment_calls": [
+  "Lid is 60 tris (pref <=48): 8-seg flange+knob kept so it reads as turned; well under 210.",
+  "Cup rough is 92 tris (pref <=80): thick inner wall + inner floor needed to read hollowed mid-carve; radial jitter gives faceted unfinished look distinct from finished prop-ink-horn-blank.",
+  "Borer modelled lying flat along X so z-min=0 is its resting pose.",
+  "No image nodes in materials; BaseColor PNGs shipped in tex/ separately.",
+  "Contact sheet rebuilt once: stopper tile was blank due to camera clip_start."
+ ],
+ "assets": [
+  {
+   "name": "prop-inkhorn-lid-blank",
+   "file": "fbx/prop-inkhorn-lid-blank.fbx",
+   "tris": 60,
+   "dims_xyz_m": [
+    0.044,
+    0.044,
+    0.019
+   ],
+   "bbox_min": [
+    -0.022,
+    -0.022,
+    0.0
+   ],
+   "materials": [
+    "mat_boxwood"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Turned boxwood screw/plug lid blank: flange disk with uncut chuck knob, pre-threading."
+  },
+  {
+   "name": "prop-inkhorn-stopper-blank",
+   "file": "fbx/prop-inkhorn-stopper-blank.fbx",
+   "tris": 28,
+   "dims_xyz_m": [
+    0.026,
+    0.026,
+    0.026
+   ],
+   "bbox_min": [
+    -0.013,
+    -0.013,
+    0.0
+   ],
+   "materials": [
+    "mat_cork"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Tapered cork stopper blank for an inkhorn mouth."
+  },
+  {
+   "name": "prop-inkhorn-cup-rough",
+   "file": "fbx/prop-inkhorn-cup-rough.fbx",
+   "tris": 92,
+   "dims_xyz_m": [
+    0.0748,
+    0.0735,
+    0.072
+   ],
+   "bbox_min": [
+    -0.0374,
+    -0.0367,
+    0.0
+   ],
+   "materials": [
+    "mat_raw_horn"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Rough faceted horn cup mid-hollowing: open uneven rim, thick walls, shallow bore."
+  },
+  {
+   "name": "prop-inkhorn-borer-ih1",
+   "file": "fbx/prop-inkhorn-borer-ih1.fbx",
+   "tris": 52,
+   "dims_xyz_m": [
+    0.188,
+    0.026,
+    0.03
+   ],
+   "bbox_min": [
+    -0.094,
+    -0.013,
+    0.0
+   ],
+   "materials": [
+    "mat_ash_handle",
+    "mat_forged_iron"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Small hand spoon-bit borer with ash handle for hollowing inkhorn cups; lies flat on X."
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-inkhorn-borer-ih1.fbx",
+  "fbx/prop-inkhorn-cup-rough.fbx",
+  "fbx/prop-inkhorn-lid-blank.fbx",
+  "fbx/prop-inkhorn-stopper-blank.fbx",
+  "tex/mat_ash_handle_BaseColor.png",
+  "tex/mat_boxwood_BaseColor.png",
+  "tex/mat_cork_BaseColor.png",
+  "tex/mat_forged_iron_BaseColor.png",
+  "tex/mat_raw_horn_BaseColor.png"
+ ]
+}
