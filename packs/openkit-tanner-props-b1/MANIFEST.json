@@ -1,0 +1,133 @@
+{
+  "pack": "openkit-tanner-props-b1",
+  "license": "CC0-1.0",
+  "units": "1 m",
+  "up": "Z (Blender) / Y (FBX)",
+  "materials_mode": "slots-only (no embedded/linked textures; FBX path_mode STRIP; image datablocks removed before export)",
+  "max_tris": 210,
+  "renames": {},
+  "collision_check": "No exact id hits for the 4 ids in studio/art/openkit-*/fbx, release/, okm4, openkit-dnd, or any CATALOG.md. Near-names (2D only, openkit-dnd CATALOG): prop-tanning-frame, prop-hide-rack, prop-scraping-beam, prop-dye-vat, token-tanner; 3D near: cobbler prop-leather-scrap-pile, cooper stave/hoop props, weaver prop-loom-small, butcher prop-cleaver-bt1 -- all distinct. Clear of tile-dojo-*, WPN_*/B01, practice-banner, wall-dress.",
+  "judgment_calls": [
+    "prop-stretching-frame: freestanding on splayed feet (not wall-leaning) so it places anywhere; hide is one flat panel + 4 cord ties; heavier/taller than loom-small and has no warp/heddle",
+    "prop-scraping-knife: two-handled bowed draw/fleshing blade (classic tanner tool), blunt flat blade, no edge/gore detail; reads unlike cleaver/butcher knife/smithy tools",
+    "prop-hide-pile: 5 large uniform folded mats (0.72 m) with cord tie -- vs cobbler leather-scrap-pile (0.30 m loose irregular offcuts)",
+    "prop-tanning-vat-small: 8-sided wide low open tub (0.42 m tall, flared, 2 hoops, visible inner floor) -- vs cooper barrels (tall, closed, bellied); liquid is a separate M_Tan_Liquor slot disc",
+    "No renames: openkit-dnd CATALOG has 2D PNG prop-tanning-frame / prop-hide-rack / prop-scraping-beam / prop-dye-vat / token-tanner -- different ids & 2D; noted as theme siblings only",
+    ".blend holds only last built object (pack pattern); src/build.py regenerates all"
+  ],
+  "assets": [
+    {
+      "name": "prop-stretching-frame",
+      "tris": 132,
+      "dims_xyz_m": [
+        0.98,
+        0.4,
+        1.4
+      ],
+      "bbox_min": [
+        -0.49,
+        -0.2,
+        0.0
+      ],
+      "materials": [
+        "M_Wood_Dark",
+        "M_Leather_Tan",
+        "M_Cord"
+      ],
+      "height_m": 1.4,
+      "pivot": "bottom_centre (0,0,0) on floor; freestanding 1.4 m upright wood frame on two splayed feet, single flat tan hide panel lashed at 4 corners, faces +/-Y",
+      "fbx": "fbx/prop-stretching-frame.fbx",
+      "render": "renders/prop-stretching-frame.png",
+      "sha256": "9fb0c6322e01d9823cbdf8e3e93265b1e01a6fcf449f412a76073bd3d088c9e6"
+    },
+    {
+      "name": "prop-scraping-knife",
+      "tris": 88,
+      "dims_xyz_m": [
+        0.52,
+        0.065,
+        0.026
+      ],
+      "bbox_min": [
+        -0.26,
+        -0.032,
+        0.0
+      ],
+      "materials": [
+        "M_Wood_Dark",
+        "M_Iron"
+      ],
+      "height_m": 0.026,
+      "pivot": "bottom_centre (0,0,0) on floor; 0.52 m two-handled curved draw/fleshing blade laid flat, wood grips at both ends along X, blunt bowed iron blade (no edge detail)",
+      "fbx": "fbx/prop-scraping-knife.fbx",
+      "render": "renders/prop-scraping-knife.png",
+      "sha256": "42d4ee23f6b074e060d3534571c0e3393d11fe511b37a4924ffe77bc716af991"
+    },
+    {
+      "name": "prop-hide-pile",
+      "tris": 84,
+      "dims_xyz_m": [
+        0.721,
+        0.531,
+        0.111
+      ],
+      "bbox_min": [
+        -0.361,
+        -0.266,
+        0.0
+      ],
+      "materials": [
+        "M_Leather_Tan",
+        "M_Leather_Dark",
+        "M_Cord"
+      ],
+      "height_m": 0.111,
+      "pivot": "bottom_centre (0,0,0) on floor; 0.72 m stack of 5 folded rectangular tanned leather mats with rounded fold on +X and a cord tie across the top",
+      "fbx": "fbx/prop-hide-pile.fbx",
+      "render": "renders/prop-hide-pile.png",
+      "sha256": "5e3d907dde1a3e7a00d1388263f5724c46679526f408c5a749ea909f32698647"
+    },
+    {
+      "name": "prop-tanning-vat-small",
+      "tris": 164,
+      "dims_xyz_m": [
+        0.74,
+        0.74,
+        0.42
+      ],
+      "bbox_min": [
+        -0.37,
+        -0.37,
+        0.0
+      ],
+      "materials": [
+        "M_Wood_Pale",
+        "M_Iron",
+        "M_Tan_Liquor"
+      ],
+      "height_m": 0.42,
+      "pivot": "bottom_centre (0,0,0) on floor; 0.72 m wide x 0.42 m low open-top flared wood tub, 2 iron hoops, flat M_Tan_Liquor disc at 0.34 m (hide/delete for empty vat)",
+      "fbx": "fbx/prop-tanning-vat-small.fbx",
+      "render": "renders/prop-tanning-vat-small.png",
+      "sha256": "15eb8d77e4255c4ec5b484aeef4704c1bde3b88f05633b11f71f0a324ead7b38"
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-hide-pile.fbx",
+    "fbx/prop-scraping-knife.fbx",
+    "fbx/prop-stretching-frame.fbx",
+    "fbx/prop-tanning-vat-small.fbx",
+    "tex/T_Cord_BaseColor.png",
+    "tex/T_Iron_BaseColor.png",
+    "tex/T_Leather_Dark_BaseColor.png",
+    "tex/T_Leather_Tan_BaseColor.png",
+    "tex/T_Tan_Liquor_BaseColor.png",
+    "tex/T_Wood_Dark_BaseColor.png",
+    "tex/T_Wood_Pale_BaseColor.png"
+  ]
+}

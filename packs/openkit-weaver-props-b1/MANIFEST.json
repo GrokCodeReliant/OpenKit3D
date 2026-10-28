@@ -1,0 +1,131 @@
+{
+  "pack": "openkit-weaver-props-b1",
+  "license": "CC0-1.0",
+  "units": "1 m",
+  "up": "Z (Blender) / Y (FBX)",
+  "materials_mode": "slots-only (no embedded/linked textures; FBX path_mode STRIP; image datablocks removed before export)",
+  "max_tris": 210,
+  "renames": {},
+  "collision_check": "No hits for prop-loom-small, prop-drop-spindle, prop-yarn-skein-stack, prop-weaving-shuttle (or loom/spindle/skein/shuttle) in studio/art/openkit-*/fbx, okm4, openkit-dnd, CATALOG.md. Near: prop-yarn-basket, prop-spinning-wheel-tl1 (tailor), prop-frame-comb -- different objects.",
+  "judgment_calls": [
+    "prop-loom-small: tabletop upright frame loom (6 warp threads + woven band) 168 tris; distinct from tailor prop-spinning-wheel-tl1 and baker/frame items",
+    "prop-drop-spindle: upright bottom-whorl spindle with yarn cop; pivot at shaft tip (it does not stand on its own in reality; placement prop)",
+    "prop-yarn-skein-stack: three loose crossed twisted hanks, no container -- distinct from tailor prop-yarn-basket",
+    "prop-weaving-shuttle: pointed boat shuttle with bobbin, not a comb -- distinct from prop-frame-comb",
+    "Skeins are stylized octagonal hanks with pinched ends (low poly); .blend holds last built object only (pack pattern); build.py regenerates all"
+  ],
+  "assets": [
+    {
+      "name": "prop-loom-small",
+      "tris": 168,
+      "dims_xyz_m": [
+        0.45,
+        0.22,
+        0.5
+      ],
+      "bbox_min": [
+        -0.225,
+        -0.11,
+        0.0
+      ],
+      "materials": [
+        "M_Wood_Dark",
+        "M_Wood_Pale",
+        "M_Yarn_Cream",
+        "M_Yarn_Madder"
+      ],
+      "height_m": 0.5,
+      "pivot": "bottom_centre (0,0,0) on floor; 0.49 m tabletop upright frame loom, dark wood beams, six cream warp threads, red woven band at bottom, faces -Y",
+      "fbx": "fbx/prop-loom-small.fbx",
+      "render": "renders/prop-loom-small.png",
+      "sha256": "d5effc9ba58ed5aa895fe271c32d3b256456d77d07a6f25628734901e0fd1ca0"
+    },
+    {
+      "name": "prop-drop-spindle",
+      "tris": 132,
+      "dims_xyz_m": [
+        0.086,
+        0.09,
+        0.3
+      ],
+      "bbox_min": [
+        -0.043,
+        -0.045,
+        0.0
+      ],
+      "materials": [
+        "M_Wood_Pale",
+        "M_Wood_Dark",
+        "M_Yarn_Cream"
+      ],
+      "height_m": 0.3,
+      "pivot": "bottom_centre (0,0,0) at shaft tip; 0.31 m upright drop spindle, low dark whorl, cream yarn cop wound above",
+      "fbx": "fbx/prop-drop-spindle.fbx",
+      "render": "renders/prop-drop-spindle.png",
+      "sha256": "e34920f62714dce055d9cc7748461f492ff3f9f428e12c6bb1dba588f2294f24"
+    },
+    {
+      "name": "prop-yarn-skein-stack",
+      "tris": 84,
+      "dims_xyz_m": [
+        0.233,
+        0.201,
+        0.156
+      ],
+      "bbox_min": [
+        -0.116,
+        -0.101,
+        0.0
+      ],
+      "materials": [
+        "M_Yarn_Cream",
+        "M_Yarn_Madder",
+        "M_Yarn_Woad"
+      ],
+      "height_m": 0.156,
+      "pivot": "bottom_centre (0,0,0) on floor; three 0.22 m twisted yarn hanks stacked crosswise (blue base, red, cream top), no basket",
+      "fbx": "fbx/prop-yarn-skein-stack.fbx",
+      "render": "renders/prop-yarn-skein-stack.png",
+      "sha256": "7ab524b0f172f8b6b53f851e57b72365d9590abcd7258fa8a0b4e13bf4fa5679"
+    },
+    {
+      "name": "prop-weaving-shuttle",
+      "tris": 80,
+      "dims_xyz_m": [
+        0.26,
+        0.048,
+        0.044
+      ],
+      "bbox_min": [
+        -0.13,
+        -0.024,
+        0.0
+      ],
+      "materials": [
+        "M_Wood_Pale",
+        "M_Yarn_Madder"
+      ],
+      "height_m": 0.044,
+      "pivot": "bottom_centre (0,0,0) on floor; 0.26 m pale-wood boat shuttle lying flat along X with red yarn bobbin and tail",
+      "fbx": "fbx/prop-weaving-shuttle.fbx",
+      "render": "renders/prop-weaving-shuttle.png",
+      "sha256": "b752aac3a2a8392f8c609e9e9af0d80a47c16a19b62ac45245e9c0c13680801f"
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-drop-spindle.fbx",
+    "fbx/prop-loom-small.fbx",
+    "fbx/prop-weaving-shuttle.fbx",
+    "fbx/prop-yarn-skein-stack.fbx",
+    "tex/T_Wood_Dark_BaseColor.png",
+    "tex/T_Wood_Pale_BaseColor.png",
+    "tex/T_Yarn_Cream_BaseColor.png",
+    "tex/T_Yarn_Madder_BaseColor.png",
+    "tex/T_Yarn_Woad_BaseColor.png"
+  ]
+}
