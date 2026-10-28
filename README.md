@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **134** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **136** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -46,6 +46,7 @@ The `packs/` folder contains **134** CC0-licensed medieval prop packs. Each pack
 | `openkit-button-maker-props-b1` | Button / bead-turner workshop props |
 | `openkit-camp-props-b1` | Campsite props |
 | `openkit-candlemaker-props-b1` | Candlemaker workshop props |
+| `openkit-carder-props-b1` | Carder / wool-carding workshop props |
 | `openkit-carpenter-props-b1` | Carpentry tools and workbench |
 | `openkit-cart-crate-b1` | Carts and crates |
 | `openkit-clockmaker-props-b1` | Clockmaker workshop props |
@@ -98,6 +99,7 @@ The `packs/` folder contains **134** CC0-licensed medieval prop packs. Each pack
 | `openkit-mill-props-b1` | Mill and grinding equipment |
 | `openkit-miller-props-b1` | Miller workshop props |
 | `openkit-mining-props-b1` | Mining tools and equipment |
+| `openkit-mosaic-maker-props-b1` | Mosaic-maker workshop props |
 | `openkit-nail-maker-props-b1` | Nail-maker workshop props |
 | `openkit-needle-maker-props-b1` | Sewing-needle maker workshop props |
 | `openkit-outdoor-props-b1` | Outdoor decorations |

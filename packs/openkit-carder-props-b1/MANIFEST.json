@@ -1,0 +1,114 @@
+{
+ "pack": "openkit-carder-props-b1",
+ "license": "CC0-1.0",
+ "tool": "Blender 5.2.1 procedural bpy",
+ "units": "1 m",
+ "fbx_export": {
+  "path_mode": "STRIP",
+  "embed_textures": false,
+  "materials": "slots only"
+ },
+ "collisions_checked": "no existing prop-*.fbx named hand-card-pair/rolag-tray/wool-lock-basket/carding-brush; no renames. Distinct from prop-carding-board-blank (stationary board), prop-yarn-basket, prop-hog-brush-blank.",
+ "assets": [
+  {
+   "name": "prop-hand-card-pair",
+   "file": "fbx/prop-hand-card-pair.fbx",
+   "tris": 120,
+   "dims_xyz_m": [
+    0.28,
+    0.33,
+    0.023
+   ],
+   "bbox_min": [
+    -0.14,
+    -0.165,
+    0.0
+   ],
+   "materials": [
+    "M_Wood",
+    "M_Card_Wire"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat on bench, faces up",
+   "desc": "pair of handheld wooden wool cards, grey wire-tooth leather faces, short turned handles, lying side by side"
+  },
+  {
+   "name": "prop-rolag-tray",
+   "file": "fbx/prop-rolag-tray.fbx",
+   "tris": 132,
+   "dims_xyz_m": [
+    0.26,
+    0.18,
+    0.058
+   ],
+   "bbox_min": [
+    -0.13,
+    -0.09,
+    0.0
+   ],
+   "materials": [
+    "M_Wood",
+    "M_Wool_Clean"
+   ],
+   "pivot": "bottom_centre (0,0,0); sits flat",
+   "desc": "shallow wooden tray holding three soft rolled cream wool rolags fresh off the cards"
+  },
+  {
+   "name": "prop-wool-lock-basket",
+   "file": "fbx/prop-wool-lock-basket.fbx",
+   "tris": 124,
+   "dims_xyz_m": [
+    0.18,
+    0.18,
+    0.119
+   ],
+   "bbox_min": [
+    -0.09,
+    -0.09,
+    0.0
+   ],
+   "materials": [
+    "M_Wicker",
+    "M_Wool_Raw"
+   ],
+   "pivot": "bottom_centre (0,0,0); stands upright",
+   "desc": "small low wicker basket heaped with raw greasy wool, crimped staple locks curling over the rim"
+  },
+  {
+   "name": "prop-carding-brush",
+   "file": "fbx/prop-carding-brush.fbx",
+   "tris": 60,
+   "dims_xyz_m": [
+    0.11,
+    0.17,
+    0.03
+   ],
+   "bbox_min": [
+    -0.055,
+    -0.085,
+    0.0
+   ],
+   "materials": [
+    "M_Wood",
+    "M_Card_Wire"
+   ],
+   "pivot": "bottom_centre (0,0,0); laid flat, bristles down",
+   "desc": "small flick carder brush for clearing card teeth: wooden back, dark wire pad, short handle"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-carding-brush.fbx",
+  "fbx/prop-hand-card-pair.fbx",
+  "fbx/prop-rolag-tray.fbx",
+  "fbx/prop-wool-lock-basket.fbx",
+  "tex/T_Card_Wire_BaseColor.png",
+  "tex/T_Wicker_BaseColor.png",
+  "tex/T_Wood_BaseColor.png",
+  "tex/T_Wool_Clean_BaseColor.png",
+  "tex/T_Wool_Raw_BaseColor.png"
+ ]
+}
