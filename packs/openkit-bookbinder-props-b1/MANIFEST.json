@@ -1,0 +1,132 @@
+{
+ "pack": "openkit-bookbinder-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures; FBX path_mode STRIP; image datablocks removed before export)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "No hits for the 4 ids in studio/art/openkit-*/fbx; nearby existing: prop-stretching-frame, prop-cobbler-awl, prop-leather-scrap-pile, prop-glue-pot-small, prop-wine-press-lever, prop-wick-spool-cm1 (alternates not used)",
+ "judgment_calls": [
+  "Bookbinder theme kept: all 4 suggested ids free in studio/art/openkit-*/fbx (no -bb1 needed)",
+  "prop-sewing-frame: base+2 uprights+crossbar+4 thin vertical cords+part-sewn text block; no heddles/warp grid, so distinct from loom-small and prop-stretching-frame",
+  "prop-bone-folder: 52 tris flat strip with 6-seg rounded ends",
+  "prop-press-board-pair: two boards + iron screw rods w/ wing nuts clamping a book block; small tabletop, not a wine-press-lever",
+  "prop-leather-cover-blank: open flat cover, two leather boards + dark spine strip + brass tooled bands; sheet-like, not a hide pile/scrap pile",
+  "Leather-cover boards tilt ~12 deg; height 0.05 m; pivot under bbox centre at lowest point",
+  "No INTAKE.md written per brief; .blend holds last-built object only (pack pattern); src/build.py regenerates all"
+ ],
+ "assets": [
+  {
+   "name": "prop-sewing-frame",
+   "tris": 124,
+   "dims_xyz_m": [
+    0.46,
+    0.215,
+    0.36
+   ],
+   "bbox_min": [
+    -0.23,
+    -0.108,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Pale",
+    "M_Wood_Dark",
+    "M_Cord_Linen",
+    "M_Parchment"
+   ],
+   "height_m": 0.36,
+   "pivot": "bottom_centre (0,0,0) under base board; 0.46 m tabletop bookbinder sewing frame: base, two turned uprights, crossbar, 4 vertical cords, part-sewn text block on bed; not a loom",
+   "fbx": "fbx/prop-sewing-frame.fbx",
+   "sha256": "eb9b5420bbfedfef47b2eb58261cc0985b9e11561f711964157524fa70b1084a"
+  },
+  {
+   "name": "prop-bone-folder",
+   "tris": 52,
+   "dims_xyz_m": [
+    0.193,
+    0.026,
+    0.005
+   ],
+   "bbox_min": [
+    -0.096,
+    -0.013,
+    0.0
+   ],
+   "materials": [
+    "M_Bone"
+   ],
+   "height_m": 0.005,
+   "pivot": "bottom_centre (0,0,0) lying flat on table; 0.2 m flat ivory bone folder along X, rounded ends",
+   "fbx": "fbx/prop-bone-folder.fbx",
+   "sha256": "d653401d09f77016fb05dcd17cbfc707d64e21b6dabbda41695cd9f792be87d1"
+  },
+  {
+   "name": "prop-press-board-pair",
+   "tris": 100,
+   "dims_xyz_m": [
+    0.36,
+    0.24,
+    0.12
+   ],
+   "bbox_min": [
+    -0.18,
+    -0.12,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Dark",
+    "M_Leather_Brown",
+    "M_Iron"
+   ],
+   "height_m": 0.12,
+   "pivot": "bottom_centre (0,0,0) under lower board; 0.34 m pair of dark press boards with two iron screw rods + wing nuts clamping a book block",
+   "fbx": "fbx/prop-press-board-pair.fbx",
+   "sha256": "e16e884a275abde8e219dfcf6812b155d1fc3ba728eabb15f4ec69e7a71556a9"
+  },
+  {
+   "name": "prop-leather-cover-blank",
+   "tris": 60,
+   "dims_xyz_m": [
+    0.446,
+    0.3,
+    0.05
+   ],
+   "bbox_min": [
+    -0.223,
+    -0.15,
+    0.0
+   ],
+   "materials": [
+    "M_Leather_Brown",
+    "M_Leather_Dark",
+    "M_Brass"
+   ],
+   "height_m": 0.05,
+   "pivot": "bottom_centre (0,0,0) under spine; 0.48x0.3 m open flat leather book-cover blank, boards slightly lifted ~12 deg at spine, brass-tooled band; no text block",
+   "fbx": "fbx/prop-leather-cover-blank.fbx",
+   "sha256": "78dee32e770d5a70a46af8a538857565ada3c0994fcad8fd2b5b8e0c8ae98e3b"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-bone-folder.fbx",
+  "fbx/prop-leather-cover-blank.fbx",
+  "fbx/prop-press-board-pair.fbx",
+  "fbx/prop-sewing-frame.fbx",
+  "tex/T_Bone_BaseColor.png",
+  "tex/T_Brass_BaseColor.png",
+  "tex/T_Cord_Linen_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Leather_Brown_BaseColor.png",
+  "tex/T_Leather_Dark_BaseColor.png",
+  "tex/T_Parchment_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Pale_BaseColor.png"
+ ]
+}

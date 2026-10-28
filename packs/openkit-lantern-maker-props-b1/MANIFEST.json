@@ -1,0 +1,125 @@
+{
+ "pack": "openkit-lantern-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures; FBX path_mode STRIP; image datablocks removed before export)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "No hits for the 4 ids in studio/art/openkit-*/fbx; existing nearby: prop-lantern-hang (light-hearth), prop-lantern-mine (mining), prop-chisel-punch-st1",
+ "judgment_calls": [
+  "Lantern-maker theme kept: all 4 ids free in studio/art/openkit-*/fbx (no -lm1); no basket-weaver pivot needed",
+  "prop-lantern-frame-blank: open square wire cage on hex tin base, one top bar deliberately missing + loose flat tin sheet = WIP; no roof cone, bail/ring, glass, chain or flame (lantern-hang/lantern-mine have those)",
+  "prop-horn-pane-stack: 5 amber horn panes fanned ~4 deg each, twine band; flat-stack, not a candle/wax block",
+  "prop-oil-flask-tin: 8-seg lathe tin can + 4-seg angled spout + iron strap handle; opaque metal, squat, distinct from potion-bottle/honey-jar",
+  "prop-tin-snips: two straight crossed arms at +/-10 deg, leather grips, rivet; lying flat 12 mm tall",
+  "Workbench renders; materials slots-only with flat BaseColor PNGs in tex/ (not linked); .blend holds last-built object only (pack pattern)"
+ ],
+ "assets": [
+  {
+   "name": "prop-lantern-frame-blank",
+   "tris": 116,
+   "dims_xyz_m": [
+    0.206,
+    0.14,
+    0.219
+   ],
+   "bbox_min": [
+    -0.103,
+    -0.07,
+    0.0
+   ],
+   "materials": [
+    "M_Tin",
+    "M_Iron"
+   ],
+   "height_m": 0.219,
+   "pivot": "bottom_centre (0,0,0) under base plate; 0.22 m unfinished square wire lantern cage on hex tin base, one top bar missing, loose flat tin sheet beside; no glass, no roof, no bail, no flame",
+   "fbx": "fbx/prop-lantern-frame-blank.fbx",
+   "sha256": "f6cb73d6077ab6bd4017f847ffcafb31312eb448967ec31028039160682cfe6a"
+  },
+  {
+   "name": "prop-horn-pane-stack",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.107,
+    0.141,
+    0.024
+   ],
+   "bbox_min": [
+    -0.054,
+    -0.071,
+    0.0
+   ],
+   "materials": [
+    "M_Horn_Amber",
+    "M_Cord_Twine"
+   ],
+   "height_m": 0.024,
+   "pivot": "bottom_centre (0,0,0) under lowest pane; 0.14 m stack of 5 translucent-amber horn panes, slightly fanned, tied with a twine band",
+   "fbx": "fbx/prop-horn-pane-stack.fbx",
+   "sha256": "7bb0b52605504394c7e9cdbf6b5d5f393989329342bc668483e82a564e854ef4"
+  },
+  {
+   "name": "prop-oil-flask-tin",
+   "tris": 116,
+   "dims_xyz_m": [
+    0.176,
+    0.11,
+    0.16
+   ],
+   "bbox_min": [
+    -0.088,
+    -0.055,
+    0.0
+   ],
+   "materials": [
+    "M_Tin",
+    "M_Iron"
+   ],
+   "height_m": 0.16,
+   "pivot": "bottom_centre (0,0,0) under can base; 0.16 m squat tin oil filler can, angled thin spout, iron strap handle; opaque metal, not a bottle/jar",
+   "fbx": "fbx/prop-oil-flask-tin.fbx",
+   "sha256": "f7b64c2ccf54f969fe80278939155c96be1e8f8ef0d5d883e437ffa5418a8c7b"
+  },
+  {
+   "name": "prop-tin-snips",
+   "tris": 92,
+   "dims_xyz_m": [
+    0.258,
+    0.068,
+    0.012
+   ],
+   "bbox_min": [
+    -0.129,
+    -0.034,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Leather_Brown"
+   ],
+   "height_m": 0.012,
+   "pivot": "bottom_centre (0,0,0) lying flat; 0.29 m tinsmith snips, short crossed blades, long handles with leather grips, rivet pivot",
+   "fbx": "fbx/prop-tin-snips.fbx",
+   "sha256": "e81385e85fb8752a471ce6f698a343bed5cafa4644606fbff1ca6b16ba26f2cb"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-horn-pane-stack.fbx",
+  "fbx/prop-lantern-frame-blank.fbx",
+  "fbx/prop-oil-flask-tin.fbx",
+  "fbx/prop-tin-snips.fbx",
+  "tex/T_Cord_Twine_BaseColor.png",
+  "tex/T_Horn_Amber_BaseColor.png",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Leather_Brown_BaseColor.png",
+  "tex/T_Tin_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)"
+}
