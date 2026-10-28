@@ -1,0 +1,97 @@
+{
+ "pack": "openkit-sliding-bevel-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres (1 BU = 1 m)",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": "find prop-*.fbx under studio art + rg bevel|sliding-bevel: no prop-bevel-* or prop-sliding-bevel* existed; avoided prop-try-square-*-ts1, prop-square-check-block-ts1, prop-marking-gauge",
+ "judgment_calls": [
+  "Stock slot is a full-length kerf (U-section extrusion) to stay at 28 tris",
+  "Blade is a plain plate with no slot cut (12 tris)",
+  "Wing nut uses one flat plate through a hex boss for both wings (32 tris)",
+  "Pivot pin is a headless 5-sided rod (16 tris)",
+  "Textures are 16x16 flat BaseColor PNGs in tex/, not referenced by FBX"
+ ],
+ "assets": [
+  {
+   "name": "prop-bevel-stock-blank-sb1",
+   "file": "fbx/prop-bevel-stock-blank-sb1.fbx",
+   "tris": 28,
+   "dims_xyz_m": [
+    0.2,
+    0.022,
+    0.032
+   ],
+   "bbox_min": [
+    -0.1,
+    -0.011,
+    0.0
+   ],
+   "materials": [
+    "wood_stock"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Wooden sliding-bevel stock blank: 0.20 m long rectangular bar (0.022 x 0.032 m section) with a 4 mm wide, 24 mm deep kerf slot running its full length along the top to receive the blade. U-section extrusion."
+  },
+  {
+   "name": "prop-bevel-blade-blank-sb1",
+   "file": "fbx/prop-bevel-blade-blank-sb1.fbx",
+   "tris": 12,
+   "dims_xyz_m": [
+    0.18,
+    0.0015,
+    0.02
+   ],
+   "bbox_min": [
+    -0.09,
+    -0.0008,
+    0.0
+   ],
+   "materials": [
+    "steel_blade"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Thin flat steel blade/tongue blank: plain rectangular plate 0.18 x 0.0015 x 0.02 m (stands on its long edge), no slot cut; pivots in the stock kerf."
+  },
+  {
+   "name": "prop-bevel-wing-nut-sb1",
+   "file": "fbx/prop-bevel-wing-nut-sb1.fbx",
+   "tris": 32,
+   "dims_xyz_m": [
+    0.028,
+    0.0104,
+    0.016
+   ],
+   "bbox_min": [
+    -0.014,
+    -0.0052,
+    0.0
+   ],
+   "materials": [
+    "iron_dark"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Small iron wing nut blank: hexagonal boss (12 mm across corners, 8 mm tall) with a single flat wing plate 28 x 3 x 12 mm spanning both sides, centred on the boss, spanning z 4-16 mm (overlaps upper half of boss, rises 8 mm above it)."
+  },
+  {
+   "name": "prop-bevel-pivot-pin-sb1",
+   "file": "fbx/prop-bevel-pivot-pin-sb1.fbx",
+   "tris": 16,
+   "dims_xyz_m": [
+    0.0057,
+    0.0054,
+    0.03
+   ],
+   "bbox_min": [
+    -0.0029,
+    -0.0027,
+    0.0
+   ],
+   "materials": [
+    "iron_pin"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Short iron pivot pin/rivet blank: plain 5-sided rod, 6 mm across, 30 mm tall, flat ends, no head."
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+  "pack": "openkit-try-square-maker-props-b1",
+  "license": "CC0-1.0",
+  "units": "meters (1 BU = 1 m), Z-up",
+  "tool": "Blender 5.2.1 procedural bpy",
+  "renames": [],
+  "collision_check": "All 4 names absent from existing prop-*.fbx in studio/art; no try-square/trysquare hits. Avoided prop-marking-gauge, prop-sieve-patch-square, prop-hoop-rivet-set-hc1, prop-link-rivet-punch-ch1.",
+  "judgment_calls": [
+    "Blade is 12 tris (under 16 pref); flat plate without graduation marks.",
+    "Rivet set = punch + dolly block, no loose rivets, to stay at 24 tris and differ from hoop/link rivet sets.",
+    "Textures are flat 8x8 BaseColor swatches; FBX carries material slots only."
+  ],
+  "assets": [
+    {
+      "name": "prop-try-square-stock-ts1",
+      "file": "fbx/prop-try-square-stock-ts1.fbx",
+      "tris": 24,
+      "dims_xyz_m": [
+        0.16,
+        0.032,
+        0.056
+      ],
+      "bbox_min": [
+        -0.08,
+        -0.016,
+        0.0
+      ],
+      "materials": [
+        "OK_Wood_Oak",
+        "OK_Brass"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Oak rectangular stock/handle blank 0.16x0.028x0.05 m box with a slightly wider 6 mm brass face strip along the top edge."
+    },
+    {
+      "name": "prop-try-square-blade-ts1",
+      "file": "fbx/prop-try-square-blade-ts1.fbx",
+      "tris": 12,
+      "dims_xyz_m": [
+        0.3,
+        0.03,
+        0.002
+      ],
+      "bbox_min": [
+        -0.15,
+        -0.015,
+        0.0
+      ],
+      "materials": [
+        "OK_Steel"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Flat steel blade/tongue blank, plain rectangular plate 0.30x0.03x0.002 m, meant to seat in the stock at 90 degrees."
+    },
+    {
+      "name": "prop-try-square-rivet-set-ts1",
+      "file": "fbx/prop-try-square-rivet-set-ts1.fbx",
+      "tris": 24,
+      "dims_xyz_m": [
+        0.075,
+        0.03,
+        0.1
+      ],
+      "bbox_min": [
+        -0.0375,
+        -0.015,
+        0.0
+      ],
+      "materials": [
+        "OK_Iron_Dark",
+        "OK_Brass"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Dark-iron tapered square-section rivet punch (0.10 m tall, tip 40%) standing beside a small brass rivet dolly block (0.04x0.03x0.02 m)."
+    },
+    {
+      "name": "prop-square-check-block-ts1",
+      "file": "fbx/prop-square-check-block-ts1.fbx",
+      "tris": 20,
+      "dims_xyz_m": [
+        0.12,
+        0.04,
+        0.1
+      ],
+      "bbox_min": [
+        -0.06,
+        -0.02,
+        0.0
+      ],
+      "materials": [
+        "OK_Wood_Beech"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Beech L-shaped right-angle check block: 0.12 m base leg x 0.025 m thick and 0.10 m upright leg x 0.025 m thick, 0.04 m deep."
+    }
+  ]
+}
