@@ -1,0 +1,96 @@
+{
+  "pack": "openkit-candle-snuffer-maker-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy, src/build.py)",
+  "renames": [],
+  "collision_check": "All 4 names absent from studio/art prop-*.fbx list (nearest: prop-candle-*, prop-wick-spool-cm1, prop-fusee-cone, prop-*handle-blank* variants with different names).",
+  "judgment_calls": [
+    "Hinge pin made square/forged (4-sided) to stay <=16 tris (14).",
+    "Handle reduced to single taper to meet <=24 tris (20).",
+    "Cone open at mouth (hollow bell, single-sided walls).",
+    "Textures are flat BaseColor PNGs in tex/; FBX carries material slots only."
+  ],
+  "assets": [
+    {
+      "name": "prop-snuffer-cone-blank-cs2",
+      "tris": 22,
+      "bbox_min": [
+        -0.03,
+        -0.03,
+        0.0
+      ],
+      "dims_xyz_m": [
+        0.06,
+        0.06,
+        0.05
+      ],
+      "materials": [
+        "M_iron"
+      ],
+      "file": "fbx/prop-snuffer-cone-blank-cs2.fbx",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Unfinished iron snuffer-bell blank: 8-sided open-mouthed frustum (base r 0.030 m, top r 0.009 m, h 0.050 m) with flat top cap; no handle."
+    },
+    {
+      "name": "prop-wick-trimmer-blade-cs2",
+      "tris": 24,
+      "bbox_min": [
+        -0.045,
+        -0.01,
+        0.0
+      ],
+      "dims_xyz_m": [
+        0.09,
+        0.02,
+        0.003
+      ],
+      "materials": [
+        "M_iron"
+      ],
+      "file": "fbx/prop-wick-trimmer-blade-cs2.fbx",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Single flat iron wick-trimmer blade blank: 7-point tapered profile 0.090 x 0.020 m extruded 3 mm, laid flat; no pivot hole."
+    },
+    {
+      "name": "prop-snuffer-hinge-pin-cs2",
+      "tris": 14,
+      "bbox_min": [
+        -0.0035,
+        -0.0035,
+        0.0
+      ],
+      "dims_xyz_m": [
+        0.007,
+        0.007,
+        0.028
+      ],
+      "materials": [
+        "M_iron"
+      ],
+      "file": "fbx/prop-snuffer-hinge-pin-cs2.fbx",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Square forged iron hinge pin/rivet: 4-sided shank widening from 3.5 mm to 7.0 mm across flats over 0.022 m, topped by a 6 mm pyramidal head; total h 0.028 m."
+    },
+    {
+      "name": "prop-snuffer-handle-blank-cs2",
+      "tris": 20,
+      "bbox_min": [
+        -0.01,
+        -0.0087,
+        0.0
+      ],
+      "dims_xyz_m": [
+        0.02,
+        0.0174,
+        0.11
+      ],
+      "materials": [
+        "M_wood"
+      ],
+      "file": "fbx/prop-snuffer-handle-blank-cs2.fbx",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Wooden hand-snuffer handle blank: 6-sided single-taper prism (base r 0.010 m, top r 0.007 m, h 0.110 m), both ends capped."
+    }
+  ]
+}

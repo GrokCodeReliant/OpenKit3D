@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **170** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **172** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -36,6 +36,7 @@ The `packs/` folder contains **170** CC0-licensed medieval prop packs. Each pack
 | `openkit-baker-props-b1` | Bakery props |
 | `openkit-barber-props-b1` | Barber workshop props |
 | `openkit-barrel-chest-b1` | Barrels, chests, and storage containers |
+| `openkit-basket-mender-props-b1` | Basket-mender workshop props |
 | `openkit-bathhouse-props-b1` | Bathhouse furniture and accessories |
 | `openkit-beekeeper-props-b1` | Beekeeping equipment |
 | `openkit-bellfounder-props-b1` | Bell-founder workshop props |
@@ -53,6 +54,7 @@ The `packs/` folder contains **170** CC0-licensed medieval prop packs. Each pack
 | `openkit-button-mold-maker-props-b1` | Button-mold maker workshop props |
 | `openkit-cabinetmaker-props-b1` | Cabinetmaker / furniture-finishing tools |
 | `openkit-camp-props-b1` | Campsite props |
+| `openkit-candle-snuffer-maker-props-b1` | Candle-snuffer maker workshop props |
 | `openkit-candlemaker-props-b1` | Candlemaker workshop props |
 | `openkit-carder-props-b1` | Carder / wool-carding workshop props |
 | `openkit-carpenter-props-b1` | Carpentry tools and workbench |
