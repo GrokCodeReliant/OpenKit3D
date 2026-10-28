@@ -1,0 +1,97 @@
+{
+  "pack": "openkit-basket-mender-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m), Z-up in Blender",
+  "tool": "Blender 5.2.1, procedural bpy (src/build.py)",
+  "renames": [],
+  "collision_check": "find of all prop-*.fbx under studio art tree: none of the 4 names present; -bm2 suffix avoids bellows-maker -bm1; no basket-weaver or finished-basket remakes.",
+  "judgment_calls": [
+    "Withy and knife modelled lying flat (z-min 0) as they rest on a bench; stake peg upright.",
+    "Withy uses a 3-sided section to stay under 40 tris.",
+    "Knife blade sweeps sideways (hooked trimming knife), distinct from straight scraping knives and cobbler tools.",
+    "Flat-colour BaseColor PNGs in tex/; FBX carries material slots only."
+  ],
+  "assets": [
+    {
+      "name": "prop-willow-patch-strip-bm2",
+      "file": "fbx/prop-willow-patch-strip-bm2.fbx",
+      "tris": 28,
+      "dims_xyz_m": [
+        0.22,
+        0.03,
+        0.0092
+      ],
+      "bbox_min": [
+        -0.11,
+        -0.015,
+        0.0
+      ],
+      "materials": [
+        "willow_peeled"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Short flat peeled-willow patch strip, gently arched, 22 cm, for weaving over a hole in a basket side."
+    },
+    {
+      "name": "prop-rim-withy-bm2",
+      "file": "fbx/prop-rim-withy-bm2.fbx",
+      "tris": 38,
+      "dims_xyz_m": [
+        0.1007,
+        0.3936,
+        0.012
+      ],
+      "bbox_min": [
+        -0.0503,
+        -0.1968,
+        0.0
+      ],
+      "materials": [
+        "willow_bark"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Curved rim withy / binding rod segment, ~100 degree arc of 25 cm radius, slim faceted section, lying flat."
+    },
+    {
+      "name": "prop-stake-peg-bm2",
+      "file": "fbx/prop-stake-peg-bm2.fbx",
+      "tris": 20,
+      "dims_xyz_m": [
+        0.02,
+        0.02,
+        0.16
+      ],
+      "bbox_min": [
+        -0.01,
+        -0.01,
+        0.0
+      ],
+      "materials": [
+        "ash_wood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Short upright square-section mending stake peg, 16 cm, tapered to a point at the base, slightly narrowed top."
+    },
+    {
+      "name": "prop-mending-knife-bm2",
+      "file": "fbx/prop-mending-knife-bm2.fbx",
+      "tris": 32,
+      "dims_xyz_m": [
+        0.16,
+        0.0464,
+        0.016
+      ],
+      "bbox_min": [
+        -0.08,
+        -0.0232,
+        0.0
+      ],
+      "materials": [
+        "knife_handle",
+        "knife_iron"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Small mending knife: plain wooden box-section handle with a single-edged iron blade that tapers and sweeps sideways to a narrow tip, for trimming willow ends."
+    }
+  ]
+}
