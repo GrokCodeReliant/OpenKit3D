@@ -1,0 +1,115 @@
+{
+ "pack": "openkit-lace-bobbin-extras-b1",
+ "license": "CC0-1.0",
+ "units": "metric, 1 unit = 1 m",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": "All 4 names absent from existing prop-*.fbx under studio art; distinct from prop-lace-bobbin-set, prop-lace-pillow, prop-pin-cushion-lc1, prop-pricking-card, prop-twine-bobbin-rm1, prop-drop-spindle, prop-spinning-wheel-tl1",
+ "judgment_calls": [
+  "Hank is a flattened 6x3 torus loop (36 tris, soft over 40 pref) with no separate tie, for readability",
+  "Rack is bench style with 3 bare pegs, no bobbins",
+  "Winder crank arm touches spindle end; handle on arm",
+  "Contact sheet rebuilt once (rack faced away, hank unclear)"
+ ],
+ "assets": [
+  {
+   "name": "prop-bobbin-winder-lb1",
+   "file": "fbx/prop-bobbin-winder-lb1.fbx",
+   "tris": 88,
+   "dims_xyz_m": [
+    0.245,
+    0.09,
+    0.14
+   ],
+   "bbox_min": [
+    -0.1225,
+    -0.045,
+    0.0
+   ],
+   "materials": [
+    "mat_wood_lb1",
+    "mat_iron_lb1",
+    "mat_darkwood_lb1"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Small hand-crank bobbin winder: wooden base, two uprights, iron spindle, crank arm and handle touching the spindle end."
+  },
+  {
+   "name": "prop-thread-hank-lb1",
+   "file": "fbx/prop-thread-hank-lb1.fbx",
+   "tris": 36,
+   "dims_xyz_m": [
+    0.1116,
+    0.2577,
+    0.0145
+   ],
+   "bbox_min": [
+    -0.0558,
+    -0.1289,
+    0.0
+   ],
+   "materials": [
+    "mat_silk_lb1"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Loose silk thread hank lying flat, a single flattened loop."
+  },
+  {
+   "name": "prop-bobbin-rack-lb1",
+   "file": "fbx/prop-bobbin-rack-lb1.fbx",
+   "tris": 60,
+   "dims_xyz_m": [
+    0.3,
+    0.085,
+    0.15
+   ],
+   "bbox_min": [
+    -0.15,
+    -0.0425,
+    0.0
+   ],
+   "materials": [
+    "mat_wood_lb1",
+    "mat_darkwood_lb1"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Empty bench bobbin rack: base board, back board and three bare pegs for winding-off bobbins."
+  },
+  {
+   "name": "prop-pattern-pricker-lb1",
+   "file": "fbx/prop-pattern-pricker-lb1.fbx",
+   "tris": 26,
+   "dims_xyz_m": [
+    0.0121,
+    0.014,
+    0.1
+   ],
+   "bbox_min": [
+    -0.0061,
+    -0.007,
+    0.0
+   ],
+   "materials": [
+    "mat_darkwood_lb1",
+    "mat_iron_lb1"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Fine lace pattern pricker: turned dark-wood handle with iron needle point, standing upright."
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-bobbin-rack-lb1.fbx",
+  "fbx/prop-bobbin-winder-lb1.fbx",
+  "fbx/prop-pattern-pricker-lb1.fbx",
+  "fbx/prop-thread-hank-lb1.fbx",
+  "tex/mat_darkwood_lb1_BaseColor.png",
+  "tex/mat_iron_lb1_BaseColor.png",
+  "tex/mat_silk_lb1_BaseColor.png",
+  "tex/mat_wood_lb1_BaseColor.png"
+ ]
+}
