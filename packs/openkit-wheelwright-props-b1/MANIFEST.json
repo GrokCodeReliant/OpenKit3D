@@ -1,0 +1,119 @@
+{
+ "pack": "openkit-wheelwright-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "Scanned studio/art/openkit-*/fbx: no hits for spoke/hub/tire/felloe. Near-misses avoided: prop-wheelbarrow(-wood), prop-potter-wheel-pt1, prop-spinning-wheel-tl1, cart-crate wheels, forge/smithy tools. prop-tire-iron-wr1 kept with brief's -wr1 suffix (tire-iron reads as generic smithy/auto tool).",
+ "judgment_calls": [
+  "Spoke blanks are raw tapered square sticks (4-seg cones), no tenons/shaping, so they read as stock not a wheel part-kit",
+  "Hub blank is turned but unmortised, with a through bore; dark M_Iron disc at bore bottom is a visual cue only",
+  "Tire iron is a flat lever/tire-dog with hooked claw; lever, not a smithy hammer/tong remake; not a weapon",
+  "Felloe is a single 60-deg arc (1/6 of a 1.2 m rim), no spoke holes, no iron tire, standing on its ends"
+ ],
+ "assets": [
+  {
+   "name": "prop-spoke-blank-stack",
+   "tris": 72,
+   "dims_xyz_m": [
+    0.7,
+    0.16,
+    0.12
+   ],
+   "bbox_min": [
+    -0.35,
+    -0.08,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak"
+   ],
+   "height_m": 0.12,
+   "pivot": "bottom_centre (0,0,0) on floor; six unfinished 0.7 m tapered square-section oak spoke blanks in a 3-2-1 stack along X (no tenons, no wheel)",
+   "fbx": "fbx/prop-spoke-blank-stack.fbx",
+   "sha256": "d0de3eb4218f2e4fc32c775275452be802c03eab4a8a89b96a2a9bb34ffe230b"
+  },
+  {
+   "name": "prop-hub-blank",
+   "tris": 176,
+   "dims_xyz_m": [
+    0.24,
+    0.228,
+    0.34
+   ],
+   "bbox_min": [
+    -0.12,
+    -0.114,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Dark",
+    "M_Iron"
+   ],
+   "height_m": 0.34,
+   "pivot": "bottom_centre (0,0,0) on floor; 0.24 m dia x 0.34 m turned elm hub blank standing on end, axis +Z, 0.07 m through axle bore, no spoke mortises yet",
+   "fbx": "fbx/prop-hub-blank.fbx",
+   "sha256": "0dc982fa60520ac051f48a0136dd97c2010edc706145770722e4ab1aca132545"
+  },
+  {
+   "name": "prop-tire-iron-wr1",
+   "tris": 56,
+   "dims_xyz_m": [
+    0.775,
+    0.04,
+    0.071
+   ],
+   "bbox_min": [
+    -0.375,
+    -0.02,
+    0.0
+   ],
+   "materials": [
+    "M_Iron",
+    "M_Wood_Dark"
+   ],
+   "height_m": 0.071,
+   "pivot": "bottom_centre (0,0,0) lying flat on floor; 0.78 m iron tire-dog lever along X, hooked claw at +X, wooden grip at -X",
+   "fbx": "fbx/prop-tire-iron-wr1.fbx",
+   "sha256": "e3122881aff1c4c003366450da47d26793f41a0328657db2f28055bffe6d7aac"
+  },
+  {
+   "name": "prop-felloe-segment",
+   "tris": 52,
+   "dims_xyz_m": [
+    0.6,
+    0.08,
+    0.158
+   ],
+   "bbox_min": [
+    -0.3,
+    -0.04,
+    0.0
+   ],
+   "materials": [
+    "M_Wood_Oak"
+   ],
+   "height_m": 0.158,
+   "pivot": "bottom_centre (0,0,0) on floor; one 60-deg ash felloe (rim) segment of a 1.2 m wheel, arc standing on both ends in XZ, no spoke holes, no tire",
+   "fbx": "fbx/prop-felloe-segment.fbx",
+   "sha256": "953f5b5c951b41f11c1d10ea1987aa655e07871904b0761e6290015599a5ed58"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-felloe-segment.fbx",
+  "fbx/prop-hub-blank.fbx",
+  "fbx/prop-spoke-blank-stack.fbx",
+  "fbx/prop-tire-iron-wr1.fbx",
+  "tex/T_Iron_BaseColor.png",
+  "tex/T_Wood_Dark_BaseColor.png",
+  "tex/T_Wood_Oak_BaseColor.png"
+ ],
+ "pack_files_note": "Ship set; excludes INTAKE*, *.VEIL.md and src/ (build sources kept in studio, not shipped)"
+}

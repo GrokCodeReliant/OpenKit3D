@@ -1,0 +1,4 @@
+# openkit-wheelwright-props-b1 (CC0)
+Wheelwright workshop blanks/tools for Open Kit: prop-spoke-blank-stack, prop-hub-blank, prop-tire-iron-wr1, prop-felloe-segment. Unfinished parts and tools only (no finished wheel). All <=210 tris, 1 m units, slots-only FBX; optional BaseColor PNGs in tex/.
+Pivots: prop-spoke-blank-stack = bottom_centre (0,0,0) on floor; six unfinished 0.7 m tapered square-section oak spoke blanks in a 3-2-1 stack along X (no tenons, no wheel); prop-hub-blank = bottom_centre (0,0,0) on floor; 0.24 m dia x 0.34 m turned elm hub blank standing on end, axis +Z, 0.07 m through axle bore, no spoke mortises yet; prop-tire-iron-wr1 = bottom_centre (0,0,0) lying flat on floor; 0.78 m iron tire-dog lever along X, hooked claw at +X, wooden grip at -X; prop-felloe-segment = bottom_centre (0,0,0) on floor; one 60-deg ash felloe (rim) segment of a 1.2 m wheel, arc standing on both ends in XZ, no spoke holes, no tire.
+Rebuild: blender -b -P src/build.py
