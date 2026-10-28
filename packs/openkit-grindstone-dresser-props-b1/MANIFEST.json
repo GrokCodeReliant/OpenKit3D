@@ -1,0 +1,114 @@
+{
+ "pack": "openkit-grindstone-dresser-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres (1 BU = 1 m)",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": "All 4 -gs1 names free vs existing prop-*.fbx (incl. prop-grindstone-small-cu1, prop-hone-stone-blank, trough props).",
+ "judgment_calls": [
+  "Dresser star is a single 5-point steel star prism set in an iron ferrule overlapping the handle top (no separate hub) to stay at 60 tris.",
+  "Drip cup is 6-sided open-top can with a wire inverted-U bail touching the rim; spout dropped after eye-check v1 (solid bail read as a plate) to stay <=48 tris.",
+  "Tool rest blank: foot block, post, sloped rest bar; distinct from any wheel.",
+  "BaseColor PNGs in tex/ are flat swatches; materials carry colour only, no image nodes in FBX."
+ ],
+ "assets": [
+  {
+   "name": "prop-dresser-star-gs1",
+   "file": "fbx/prop-dresser-star-gs1.fbx",
+   "tris": 60,
+   "dims_xyz_m": [
+    0.0856,
+    0.034,
+    0.25
+   ],
+   "bbox_min": [
+    -0.0428,
+    -0.017,
+    0.0
+   ],
+   "materials": [
+    "M_wood_ash",
+    "M_iron_dark",
+    "M_steel_hard"
+   ],
+   "pivot": "bottom_centre",
+   "desc": "Hand-held multipoint wheel dresser: wooden handle, iron ferrule, hardened 5-point steel star."
+  },
+  {
+   "name": "prop-truing-stick-gs1",
+   "file": "fbx/prop-truing-stick-gs1.fbx",
+   "tris": 12,
+   "dims_xyz_m": [
+    0.6,
+    0.04,
+    0.018
+   ],
+   "bbox_min": [
+    -0.3,
+    -0.02,
+    0.0
+   ],
+   "materials": [
+    "M_wood_ash"
+   ],
+   "pivot": "bottom_centre",
+   "desc": "Flat ash truing stick / straightedge for checking a grindstone face."
+  },
+  {
+   "name": "prop-water-drip-cup-gs1",
+   "file": "fbx/prop-water-drip-cup-gs1.fbx",
+   "tris": 44,
+   "dims_xyz_m": [
+    0.09,
+    0.084,
+    0.15
+   ],
+   "bbox_min": [
+    -0.045,
+    -0.042,
+    0.0
+   ],
+   "materials": [
+    "M_tin_dull",
+    "M_iron_dark"
+   ],
+   "pivot": "bottom_centre",
+   "desc": "Small six-sided tin drip can with wire iron bail, hung over a wheel for wet grinding."
+  },
+  {
+   "name": "prop-tool-rest-blank-gs1",
+   "file": "fbx/prop-tool-rest-blank-gs1.fbx",
+   "tris": 36,
+   "dims_xyz_m": [
+    0.2,
+    0.24,
+    0.27
+   ],
+   "bbox_min": [
+    -0.1,
+    -0.12,
+    0.0
+   ],
+   "materials": [
+    "M_wood_ash"
+   ],
+   "pivot": "bottom_centre",
+   "desc": "Plain wooden tool-rest blank: foot block, post and sloped rest bar set before a grindstone."
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-dresser-star-gs1.fbx",
+  "fbx/prop-tool-rest-blank-gs1.fbx",
+  "fbx/prop-truing-stick-gs1.fbx",
+  "fbx/prop-water-drip-cup-gs1.fbx",
+  "tex/T_iron_dark_BaseColor.png",
+  "tex/T_steel_hard_BaseColor.png",
+  "tex/T_tin_dull_BaseColor.png",
+  "tex/T_wood_ash_BaseColor.png"
+ ]
+}

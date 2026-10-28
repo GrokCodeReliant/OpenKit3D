@@ -1,0 +1,113 @@
+{
+ "pack": "openkit-flail-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "metric, 1 unit = 1 m",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": "Full scan of existing prop-*.fbx in studio art tree: no collisions for staff-blank, swingle, cap-ring; awl keeps -fm1 suffix as specified (existing awls use other suffixes).",
+ "judgment_calls": [
+  "Hexagonal (6-seg) cross-sections keep tris low; x-dim reads ~0.035 m flat-to-flat vs 0.04 m point-to-point.",
+  "Props modelled standing (long axis Z) so z-min 0 and bottom_centre pivot hold exactly.",
+  "Cap ring = closed leather cup (thong-hole cap) with iron band overlapping its base, single mesh, no floating parts.",
+  "Awl iron point meets wooden handle at z=0.04; tip at z=0.",
+  "Flat-colour 8x8 BaseColor PNGs shipped in tex/; no image nodes in materials, nothing embedded in FBX."
+ ],
+ "assets": [
+  {
+   "name": "prop-flail-staff-blank",
+   "file": "fbx/prop-flail-staff-blank.fbx",
+   "tris": 20,
+   "dims_xyz_m": [
+    0.0346,
+    0.04,
+    0.9
+   ],
+   "bbox_min": [
+    -0.0173,
+    -0.02,
+    0.0
+   ],
+   "materials": [
+    "MAT_ash_wood"
+   ],
+   "pivot": "bottom_centre",
+   "desc": "Ash handstaff/helve blank, slight taper, standing"
+  },
+  {
+   "name": "prop-flail-swingle",
+   "file": "fbx/prop-flail-swingle.fbx",
+   "tris": 20,
+   "dims_xyz_m": [
+    0.0346,
+    0.04,
+    0.5
+   ],
+   "bbox_min": [
+    -0.0173,
+    -0.02,
+    0.0
+   ],
+   "materials": [
+    "MAT_ash_wood"
+   ],
+   "pivot": "bottom_centre",
+   "desc": "Ash swingle/beater bar blank, standing"
+  },
+  {
+   "name": "prop-flail-cap-ring",
+   "file": "fbx/prop-flail-cap-ring.fbx",
+   "tris": 40,
+   "dims_xyz_m": [
+    0.0554,
+    0.064,
+    0.05
+   ],
+   "bbox_min": [
+    -0.0277,
+    -0.032,
+    0.0
+   ],
+   "materials": [
+    "MAT_leather",
+    "MAT_iron"
+   ],
+   "pivot": "bottom_centre",
+   "desc": "Leather coupling cap with iron band; joins staff to swingle"
+  },
+  {
+   "name": "prop-flail-awl-fm1",
+   "file": "fbx/prop-flail-awl-fm1.fbx",
+   "tris": 32,
+   "dims_xyz_m": [
+    0.0242,
+    0.028,
+    0.12
+   ],
+   "bbox_min": [
+    -0.0121,
+    -0.014,
+    0.0
+   ],
+   "materials": [
+    "MAT_ash_wood",
+    "MAT_iron"
+   ],
+   "pivot": "bottom_centre",
+   "desc": "Thong-hole awl/punch for leather cap"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-flail-awl-fm1.fbx",
+  "fbx/prop-flail-cap-ring.fbx",
+  "fbx/prop-flail-staff-blank.fbx",
+  "fbx/prop-flail-swingle.fbx",
+  "tex/T_MAT_ash_wood_BaseColor.png",
+  "tex/T_MAT_iron_BaseColor.png",
+  "tex/T_MAT_leather_BaseColor.png"
+ ]
+}
