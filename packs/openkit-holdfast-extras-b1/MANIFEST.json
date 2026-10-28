@@ -1,0 +1,99 @@
+{
+  "pack": "openkit-holdfast-extras-b1",
+  "license": "CC0-1.0",
+  "units": "meters (1.0)",
+  "tool": "Blender 5.2.1 (procedural bpy)",
+  "renames": [],
+  "collision_check": "All four -hf1 names free; no existing prop-holdfast-shaft*, -pad*, -collar*, prop-bench-dog* in studio art. Distinct from prop-holdfast, prop-shingle-holdfast-sg1, prop-timber-dog-set.",
+  "judgment_calls": [
+    "Collar shipped as solid hex blank (bore not cut) to hold 20 tris vs 48+ for a true ring.",
+    "Pad and dog are blanks without grain/chamfer; colour from BaseColor PNG only.",
+    "All pivots bottom_centre at origin, bbox centred x/y, z-min 0."
+  ],
+  "assets": [
+    {
+      "name": "prop-holdfast-shaft-hf1",
+      "file": "fbx/prop-holdfast-shaft-hf1.fbx",
+      "tris": 20,
+      "dims_xyz_m": [
+        0.16,
+        0.022,
+        0.3
+      ],
+      "bbox_min": [
+        -0.08,
+        -0.011,
+        0.0
+      ],
+      "materials": [
+        "M_Steel"
+      ],
+      "texture": "tex/prop-holdfast-shaft-hf1_BaseColor.png",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Steel holdfast shaft blank: L-shaped square bar, 22 mm section, 300 mm vertical stem with 160 mm horizontal arm at top; 8-face L prism."
+    },
+    {
+      "name": "prop-holdfast-pad-hf1",
+      "file": "fbx/prop-holdfast-pad-hf1.fbx",
+      "tris": 12,
+      "dims_xyz_m": [
+        0.05,
+        0.05,
+        0.012
+      ],
+      "bbox_min": [
+        -0.025,
+        -0.025,
+        0.0
+      ],
+      "materials": [
+        "M_Leather"
+      ],
+      "texture": "tex/prop-holdfast-pad-hf1_BaseColor.png",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Leather/wood pressure pad blank: flat 50 x 50 x 12 mm block that sits under the holdfast arm tip; 6-face box."
+    },
+    {
+      "name": "prop-holdfast-collar-hf1",
+      "file": "fbx/prop-holdfast-collar-hf1.fbx",
+      "tris": 20,
+      "dims_xyz_m": [
+        0.034,
+        0.0294,
+        0.025
+      ],
+      "bbox_min": [
+        -0.017,
+        -0.0147,
+        0.0
+      ],
+      "materials": [
+        "M_SteelBright"
+      ],
+      "texture": "tex/prop-holdfast-collar-hf1_BaseColor.png",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Steel collar blank: solid hexagonal prism, 34 mm across corners, 25 mm tall (bore not cut, blank stage); stands upright."
+    },
+    {
+      "name": "prop-bench-dog-hf1",
+      "file": "fbx/prop-bench-dog-hf1.fbx",
+      "tris": 20,
+      "dims_xyz_m": [
+        0.03,
+        0.019,
+        0.12
+      ],
+      "bbox_min": [
+        -0.015,
+        -0.0095,
+        0.0
+      ],
+      "materials": [
+        "M_Oak"
+      ],
+      "texture": "tex/prop-bench-dog-hf1_BaseColor.png",
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Wooden bench-dog blank: 19 mm square peg 100 mm long with 11 mm side face-stop lip at top (30 x 19 x 20 mm head); 8-face L prism."
+    }
+  ]
+}

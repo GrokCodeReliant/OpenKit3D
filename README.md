@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **216** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **218** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -65,6 +65,7 @@ The `packs/` folder contains **216** CC0-licensed medieval prop packs. Each pack
 | `openkit-candle-snuffer-maker-props-b1` | Candle-snuffer maker workshop props |
 | `openkit-candlemaker-props-b1` | Candlemaker workshop props |
 | `openkit-carder-props-b1` | Carder / wool-carding workshop props |
+| `openkit-carpenter-mallet-props-b1` | Joiner's (carpenter's) beech mallet blanks: head, tapered handle, handle wedge, leather face pad |
 | `openkit-carpenter-props-b1` | Carpentry tools and workbench |
 | `openkit-cart-crate-b1` | Carts and crates |
 | `openkit-cartwright-props-b1` | Cartwright workshop props |
@@ -113,6 +114,7 @@ The `packs/` folder contains **216** CC0-licensed medieval prop packs. Each pack
 | `openkit-hatchet-extras-b1` | Carpenter hatchet extras: head blank, eye, handle, wedge |
 | `openkit-helm-maker-props-b1` | Helm-maker workshop props |
 | `openkit-hinge-maker-props-b1` | Hinge-maker workshop props |
+| `openkit-holdfast-extras-b1` | Bench holdfast extras: shaft blank, pressure pad, collar, bench dog |
 | `openkit-hoop-cooper-extras-b1` | Cooper hoop-workshop extras |
 | `openkit-horn-worker-props-b1` | Horn-worker workshop props |
 | `openkit-hurdy-gurdy-maker-props-b1` | Hurdy-gurdy maker workshop props |
