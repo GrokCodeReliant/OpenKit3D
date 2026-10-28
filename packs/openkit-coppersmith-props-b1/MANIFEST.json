@@ -1,0 +1,114 @@
+{
+ "pack": "openkit-coppersmith-props-b1",
+ "license": "CC0-1.0",
+ "units": "1 m",
+ "up": "Z (Blender) / Y (FBX)",
+ "materials_mode": "slots-only (no embedded/linked textures)",
+ "max_tris": 210,
+ "renames": {},
+ "collision_check": "No coppersmith pack existed. No fbx matched copper-sheet/raising-hammer/stake-anvil/planishing/coppersmith. Near: tinsmith prop-tin-sheet-blank, prop-hatchet-stake-blank.",
+ "judgment_calls": [
+  "Copper sheet = round disc raising blank (vs rectangular tin sheet)",
+  "Stake = upright T-stake with round horns (vs laid flat-wedge hatchet stake)",
+  "raising hammer kept -cs1 suffix as briefed",
+  "Eye-check v1 passed"
+ ],
+ "assets": [
+  {
+   "name": "prop-copper-sheet-blank",
+   "tris": 152,
+   "dims_xyz_m": [
+    0.3,
+    0.3,
+    0.004
+   ],
+   "bbox_min": [
+    -0.15,
+    -0.15,
+    0.0
+   ],
+   "materials": [
+    "M_Copper_Raw",
+    "M_Copper_Scribe"
+   ],
+   "height_m": 0.004,
+   "pivot": "bottom_centre (0,0,0); laid 30 cm round copper disc raising blank with centre punch and compass-scribed ring; distinct from rectangular tinsmith tin-sheet"
+  },
+  {
+   "name": "prop-raising-hammer-cs1",
+   "tris": 56,
+   "dims_xyz_m": [
+    0.18,
+    0.305,
+    0.04
+   ],
+   "bbox_min": [
+    -0.09,
+    -0.153,
+    0.0
+   ],
+   "materials": [
+    "M_Iron_Raw",
+    "M_Iron_Edge",
+    "M_Wood_Ash"
+   ],
+   "height_m": 0.04,
+   "pivot": "bottom_centre (0,0,0); laid double cross-peen raising hammer with narrow faces for stretching copper over stakes"
+  },
+  {
+   "name": "prop-stake-anvil-small",
+   "tris": 96,
+   "dims_xyz_m": [
+    0.29,
+    0.06,
+    0.21
+   ],
+   "bbox_min": [
+    -0.145,
+    -0.03,
+    0.0
+   ],
+   "materials": [
+    "M_Iron_Raw",
+    "M_Iron_Edge"
+   ],
+   "height_m": 0.21,
+   "pivot": "bottom_centre (0,0,0); upright small T-stake anvil (square bench tang, round tapered horn arms) for raising copper; distinct from tinsmith hatchet-stake (flat wedge edge, laid)"
+  },
+  {
+   "name": "prop-planishing-hammer-blank",
+   "tris": 104,
+   "dims_xyz_m": [
+    0.132,
+    0.302,
+    0.044
+   ],
+   "bbox_min": [
+    -0.066,
+    -0.151,
+    0.0
+   ],
+   "materials": [
+    "M_Iron_Raw",
+    "M_Steel_Polished",
+    "M_Wood_Ash"
+   ],
+   "height_m": 0.044,
+   "pivot": "bottom_centre (0,0,0); laid round-bodied planishing hammer blank with polished flat + slightly domed faces"
+  }
+ ],
+ "pack_files": [
+  "CONTACT_SHEET.png",
+  "CREDITS.md",
+  "LICENSE",
+  "MANIFEST.json",
+  "README.md",
+  "fbx/prop-copper-sheet-blank.fbx",
+  "fbx/prop-planishing-hammer-blank.fbx",
+  "fbx/prop-raising-hammer-cs1.fbx",
+  "fbx/prop-stake-anvil-small.fbx",
+  "tex/T_Copper_Raw_BaseColor.png",
+  "tex/T_Iron_Raw_BaseColor.png",
+  "tex/T_Wood_Ash_BaseColor.png"
+ ]
+}
