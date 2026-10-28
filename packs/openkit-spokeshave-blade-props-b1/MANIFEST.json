@@ -1,0 +1,101 @@
+{
+ "pack": "openkit-spokeshave-blade-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres (scale 1.0)",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": "Checked all prop-*.fbx under the studio art tree before export: no prop-spokeshave-iron*, prop-spokeshave-sole*, or any *-sv2 names exist; only prop-spokeshave (whole tool) and prop-punch-awl-sv1. All 4 names free; no renames.",
+ "judgment_calls": [
+  "Iron is a flat (not curved) blank with T-shaped shoulders to read as a spokeshave iron rather than a plane iron (pi1).",
+  "Sole has no handles/wings; handle supplied as separate single blank.",
+  "Wedge is a simple tapered block (12 tris) under 16 budget.",
+  "Flat-colour 64px BaseColor PNGs shipped in tex/; image nodes removed before FBX export.",
+  ".blend contains objects/meshes/materials only (libraries.write, no scene)."
+ ],
+ "assets": [
+  {
+   "name": "prop-spokeshave-iron-blank-sv2",
+   "file": "fbx/prop-spokeshave-iron-blank-sv2.fbx",
+   "tris": 28,
+   "preferred_tris": 28,
+   "dims_xyz_m": [
+    0.054,
+    0.042,
+    0.0025
+   ],
+   "bbox_min": [
+    -0.027,
+    -0.021,
+    0.0
+   ],
+   "materials": [
+    "steel_blade"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Flat 2.5 mm steel spokeshave iron blank, T-shaped top view: 54 mm wide x 30 mm cutting body with a centred 34 mm wide x 12 mm upper shoulder/tang; 8-point outline extruded flat."
+  },
+  {
+   "name": "prop-spokeshave-sole-blank-sv2",
+   "file": "fbx/prop-spokeshave-sole-blank-sv2.fbx",
+   "tris": 32,
+   "preferred_tris": 40,
+   "dims_xyz_m": [
+    0.11,
+    0.032,
+    0.026
+   ],
+   "bbox_min": [
+    -0.055,
+    -0.016,
+    0.0
+   ],
+   "materials": [
+    "wood_beech"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Handle-less beech spokeshave sole/body blank: 110 mm long bar, 32 mm deep, 20 mm tall with chamfered upper edges along its length, plus a raised 60x12x6 mm throat/bed ridge on top centre (total height 26 mm)."
+  },
+  {
+   "name": "prop-spokeshave-wedge-sv2",
+   "file": "fbx/prop-spokeshave-wedge-sv2.fbx",
+   "tris": 12,
+   "preferred_tris": 16,
+   "dims_xyz_m": [
+    0.032,
+    0.04,
+    0.01
+   ],
+   "bbox_min": [
+    -0.016,
+    -0.02,
+    0.0
+   ],
+   "materials": [
+    "wood_walnut"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Small walnut locking wedge blank: 32 mm wide, 40 mm long, tapering from 10 mm thick at one end to 3 mm at the other (single sloped top face)."
+  },
+  {
+   "name": "prop-spokeshave-handle-blank-sv2",
+   "file": "fbx/prop-spokeshave-handle-blank-sv2.fbx",
+   "tris": 28,
+   "preferred_tris": 28,
+   "dims_xyz_m": [
+    0.0138,
+    0.0138,
+    0.085
+   ],
+   "bbox_min": [
+    -0.0069,
+    -0.0069,
+    0.0
+   ],
+   "materials": [
+    "wood_beech"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Single beech spokeshave wing handle blank: upright octagonal shaft 85 mm long, ~14 mm across at base tapering to 70% at the top, flat ends."
+  }
+ ]
+}
