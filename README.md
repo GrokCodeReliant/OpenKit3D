@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **180** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **182** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -105,6 +105,7 @@ The `packs/` folder contains **180** CC0-licensed medieval prop packs. Each pack
 | `openkit-ink-maker-props-b1` | Ink-maker workshop props |
 | `openkit-inkhorn-carver-props-b1` | Inkhorn-carver workshop props |
 | `openkit-joiner-props-b1` | Joiner workshop props |
+| `openkit-key-blank-maker-props-b1` | Key-blank maker workshop props |
 | `openkit-kitchen-props-b1` | Kitchen furniture and utensils |
 | `openkit-lacemaker-props-b1` | Lacemaker workshop props |
 | `openkit-lace-bobbin-extras-b1` | Lace bobbin extras |
@@ -125,6 +126,7 @@ The `packs/` folder contains **180** CC0-licensed medieval prop packs. Each pack
 | `openkit-miller-props-b1` | Miller workshop props |
 | `openkit-mining-props-b1` | Mining tools and equipment |
 | `openkit-mirror-maker-props-b1` | Mirror-maker workshop props |
+| `openkit-mortar-mixer-props-b1` | Mortar-mixer workshop props |
 | `openkit-mosaic-maker-props-b1` | Mosaic-maker workshop props |
 | `openkit-nail-maker-props-b1` | Nail-maker workshop props |
 | `openkit-needle-maker-props-b1` | Sewing-needle maker workshop props |

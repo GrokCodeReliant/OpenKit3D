@@ -1,0 +1,98 @@
+{
+  "pack": "openkit-mortar-mixer-props-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "tool": "Blender 5.2.1 (procedural bpy, src/build.py)",
+  "renames": [],
+  "collision_check": "All 4 prop-* names verified free against existing studio art FBXs before export; distinct from prop-mortar-pestle, plasterer set, lime/loam/mason sets and troughs.",
+  "judgment_calls": [
+    "Hoe modelled lying flat so it rests on z=0 with bottom-centre pivot.",
+    "Scoop tray is single-sided open geometry to stay low-poly.",
+    "Textures are flat BaseColor PNGs in tex/ (one per material); FBX carries material slots only.",
+    "Hod pole is a short stub, not a full-length carrying pole."
+  ],
+  "assets": [
+    {
+      "name": "prop-mixing-hoe-mm1",
+      "file": "fbx/prop-mixing-hoe-mm1.fbx",
+      "tris": 44,
+      "dims_xyz_m": [
+        1.666,
+        0.26,
+        0.2
+      ],
+      "bbox_min": [
+        -0.833,
+        -0.13,
+        0.0
+      ],
+      "materials": [
+        "mm_wood",
+        "mm_iron"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Long-handled mortar mixing hoe lying flat: 6-sided wooden shaft along X (1.6 m) with iron neck block and upright flat iron blade at the +X end."
+    },
+    {
+      "name": "prop-mortar-hod-mm1",
+      "file": "fbx/prop-mortar-hod-mm1.fbx",
+      "tris": 40,
+      "dims_xyz_m": [
+        0.44,
+        0.36,
+        0.3
+      ],
+      "bbox_min": [
+        -0.22,
+        -0.18,
+        0.0
+      ],
+      "materials": [
+        "mm_wood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Wooden V-trough mortar hod (thick V-section, open top, closed ends) on a short 6-sided wooden carrying pole stub beneath."
+    },
+    {
+      "name": "prop-sand-scoop-mm1",
+      "file": "fbx/prop-sand-scoop-mm1.fbx",
+      "tris": 28,
+      "dims_xyz_m": [
+        0.3,
+        0.2,
+        0.06
+      ],
+      "bbox_min": [
+        -0.15,
+        -0.1,
+        0.0
+      ],
+      "materials": [
+        "mm_iron",
+        "mm_wood"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Short dry-sand scoop: open-front iron tray (floor, back and sloped sides, single-sided) with a 6-sided wooden handle out the back."
+    },
+    {
+      "name": "prop-water-measure-jug-mm1",
+      "file": "fbx/prop-water-measure-jug-mm1.fbx",
+      "tris": 40,
+      "dims_xyz_m": [
+        0.1675,
+        0.1299,
+        0.185
+      ],
+      "bbox_min": [
+        -0.0838,
+        -0.065,
+        0.0
+      ],
+      "materials": [
+        "mm_clay"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "desc": "Small clay water-measure jug: 6-sided lathe body (narrow foot, wide belly, narrow open neck) with pinched spout at +X and box strap handle at -X."
+    }
+  ]
+}

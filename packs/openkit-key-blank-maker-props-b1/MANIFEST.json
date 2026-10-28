@@ -1,0 +1,100 @@
+{
+ "pack": "openkit-key-blank-maker-props-b1",
+ "license": "CC0-1.0",
+ "units": "metres (1 BU = 1 m)",
+ "tool": "Blender 5.2.1 (procedural bpy)",
+ "renames": [],
+ "collision_check": "All 4 names absent from existing prop-*.fbx set under studio art; distinct from locksmith ls1 set, prop-key-blank-rack, prop-watch-key-blank, prop-keybox-blank, bow-* archery props.",
+ "judgment_calls": [
+  "Key bow blank is a 6-sided ring at 48 tris (soft overrun of preferred <=32) to keep a real through-hole.",
+  "Bit cutter wedge reuses tool_steel in a second slot.",
+  "Flat-colour 64px BaseColor PNGs shipped in tex/; no image nodes in FBX."
+ ],
+ "assets": [
+  {
+   "name": "prop-key-bow-blank-kb1",
+   "file": "fbx/prop-key-bow-blank-kb1.fbx",
+   "tris": 48,
+   "dims_xyz_m": [
+    0.028,
+    0.0242,
+    0.003
+   ],
+   "bbox_min": [
+    -0.014,
+    -0.0121,
+    0.0
+   ],
+   "materials": [
+    "brass_blank"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Flat brass key-bow ring blank: hexagonal annulus 28 mm across, 3 mm thick, 16 mm hole; no shank.",
+   "texture": "tex/brass_blank_basecolor.png"
+  },
+  {
+   "name": "prop-key-shank-blank-kb1",
+   "file": "fbx/prop-key-shank-blank-kb1.fbx",
+   "tris": 12,
+   "dims_xyz_m": [
+    0.06,
+    0.006,
+    0.006
+   ],
+   "bbox_min": [
+    -0.03,
+    -0.003,
+    0.0
+   ],
+   "materials": [
+    "iron_blank"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Square iron key shank bar blank, 60 x 6 x 6 mm, lying along X.",
+   "texture": "tex/iron_blank_basecolor.png"
+  },
+  {
+   "name": "prop-ward-file-kb1",
+   "file": "fbx/prop-ward-file-kb1.fbx",
+   "tris": 24,
+   "dims_xyz_m": [
+    0.16,
+    0.014,
+    0.01
+   ],
+   "bbox_min": [
+    -0.08,
+    -0.007,
+    0.0
+   ],
+   "materials": [
+    "file_steel",
+    "ash_handle"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Thin ward-cutting file: 90 x 6 x 1.5 mm steel blade raised on a 70 mm ash block handle.",
+   "texture": "tex/file_steel_basecolor.png"
+  },
+  {
+   "name": "prop-bit-cutter-blank-kb1",
+   "file": "fbx/prop-bit-cutter-blank-kb1.fbx",
+   "tris": 20,
+   "dims_xyz_m": [
+    0.055,
+    0.01,
+    0.01
+   ],
+   "bbox_min": [
+    -0.0275,
+    -0.005,
+    0.0
+   ],
+   "materials": [
+    "tool_steel"
+   ],
+   "pivot": "bottom_centre (0,0,0)",
+   "desc": "Small chisel-like bit cutter blank: 40 x 10 x 10 mm square steel body ending in a 15 mm wedge cutting edge.",
+   "texture": "tex/tool_steel_basecolor.png"
+  }
+ ]
+}
