@@ -1,0 +1,4 @@
+# openkit-candlemaker-props-b1 (CC0)
+Ordinary candlemaker workshop props for Open Kit: prop-wax-block-stack, prop-wick-spool-cm1, prop-dipping-rack, prop-candle-mold. All <=210 tris, 1 m units, slots-only FBX; optional BaseColor PNGs in tex/.
+Pivots: prop-wax-block-stack = bottom_centre (0,0,0) on floor; three 0.24x0.14x0.08 m beeswax blocks stacked, slight yaw offsets, axis +Z; prop-wick-spool-cm1 = bottom_centre (0,0,0) on floor; upright wooden spool (0.14 m dia) wound with cotton wick, loose tail toward +X; prop-dipping-rack = bottom_centre (0,0,0) on floor; 0.66 m wide two-post wooden frame on splayed feet, top bar along X, three half-dipped tapers hanging; prop-candle-mold = bottom_centre (0,0,0) on floor; wooden frame holding five tin taper tubes (6-seg), long axis X.
+Rename: prop-wick-spool -> prop-wick-spool-cm1 (collision with openkit-dnd 2D asset).

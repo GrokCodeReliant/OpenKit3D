@@ -1,0 +1,2 @@
+# Credits
+openkit-candlemaker-props-b1: original procedural geometry authored for Open Kit. No third-party assets, scans, or references used. Dedicated to the public domain (CC0-1.0).
