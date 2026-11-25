@@ -1,0 +1,155 @@
+{
+  "pack": "openkit-chapel-furnishings-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "up": "Z (Blender) / Y (FBX)",
+  "materials_mode": "slots-only (no embedded/linked textures), path_mode STRIP",
+  "renames": [],
+  "collision_check": "Names checked against the live OpenKit3D pack-folder list (218 folders), the live OpenKit 2D pack list, and the stems of earlier Open Kit families. No live pack is named for chapel-furnishings, chapel-piscina, chapel-ambry, chapel-pulpit, choir-stall, prie-dieu or credence-table. Nearby live packs (bathhouse, organ-builder, furniture-extras, library, doors-windows, market-stall, cabinetmaker, outdoor-props) are different families. Earlier Open Kit families (wayside shrine, keep gatehouse, crypt undercroft, siege yard, garden court, cloister walk) and kit core pew, lectern, altar, bench and table stems are different pieces. No family was swapped.",
+  "judgment_calls": [
+    "The piscina and the ambry are kit wall modules (1.5 \u00d7 3.0 \u00d7 0.34 m, bottom-centre) with mid-height recesses on the \u2212Z face of the raw FBX. This set has no floor tile.",
+    "Raw FBX (Y-up) facing: the piscina and ambry niches, the stall seat and the prie-dieu kneeling step face \u2212Z; the pulpit enclosure front faces +Z, with its stair on \u2212Z. Facing after engine import is not verified here.",
+    "Both walls were snap-tested between two kit stone walls: 0 intersections, with height and thickness matching the kit module.",
+    "This is deliberate: the piscina basin niche is filled by the solid wall collider.",
+    "This is deliberate: the ambry cupboard niche is filled by the solid wall collider. The door leaf does not swing.",
+    "The space under the stall seat, the space under the pulpit deck between the posts, the space between the credence legs, and the front and underside of the prie-dieu under the book rest are real collider openings. The pulpit stair risers are solid.",
+    "Flat slot albedos with light noise; image nodes are not in the FBX materials."
+  ],
+  "assets": [
+    {
+      "name": "wall-chapel-piscina",
+      "file": "fbx/wall-chapel-piscina.fbx",
+      "tris": 2492,
+      "dims_xyz_m": [
+        1.5,
+        0.34,
+        3.0
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 2500,
+      "category": "Walls",
+      "desc": "Kit-sized stone wall with a mid-height basin niche about 0.52 m wide and 0.60 m tall above a visible lip at about 1.0 m, a bowl and an iron drain. This is deliberate: the niche is filled by the solid wall collider."
+    },
+    {
+      "name": "wall-chapel-ambry",
+      "file": "fbx/wall-chapel-ambry.fbx",
+      "tris": 2264,
+      "dims_xyz_m": [
+        1.5,
+        0.34,
+        3.0
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 2500,
+      "category": "Walls",
+      "desc": "Kit-sized stone wall with a mid-height recessed wooden cupboard, iron hinges and a hasp. This is deliberate: the niche is filled and the door leaf does not swing."
+    },
+    {
+      "name": "prop-chapel-pulpit-wood",
+      "file": "fbx/prop-chapel-pulpit-wood.fbx",
+      "tris": 468,
+      "dims_xyz_m": [
+        0.76,
+        1.28,
+        1.66
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Enclosed raised wooden preaching box on four posts, with a short stair, and a sloped book board. The space under the deck between the posts is a real gap. The stair risers are solid."
+    },
+    {
+      "name": "prop-choir-stall-wood",
+      "file": "fbx/prop-choir-stall-wood.fbx",
+      "tris": 268,
+      "dims_xyz_m": [
+        0.68,
+        0.48,
+        1.26
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Single high-backed wooden stall with cheek wings and a crest rail. The space under the seat is a real gap."
+    },
+    {
+      "name": "prop-prie-dieu-wood",
+      "file": "fbx/prop-prie-dieu-wood.fbx",
+      "tris": 148,
+      "dims_xyz_m": [
+        0.44,
+        0.44,
+        0.8
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Low wooden kneeling step, slim uprights, and a sloped book rest at about 0.80 m, with two small iron pins under it. The front and the underside under the rest are real openings."
+    },
+    {
+      "name": "prop-credence-table-wood",
+      "file": "fbx/prop-credence-table-wood.fbx",
+      "tris": 292,
+      "dims_xyz_m": [
+        0.68,
+        0.36,
+        0.99
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Small wooden side table with a lower shelf and two lidded bronze cruets."
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "HONEST_LOOK.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/wall-chapel-piscina.fbx",
+    "fbx/wall-chapel-ambry.fbx",
+    "fbx/prop-chapel-pulpit-wood.fbx",
+    "fbx/prop-choir-stall-wood.fbx",
+    "fbx/prop-prie-dieu-wood.fbx",
+    "fbx/prop-credence-table-wood.fbx",
+    "tex/mat_bronze_BaseColor.png",
+    "tex/mat_dark_wood_BaseColor.png",
+    "tex/mat_iron_BaseColor.png",
+    "tex/mat_stone_BaseColor.png",
+    "tex/mat_water_BaseColor.png",
+    "tex/mat_wood_BaseColor.png",
+    "SHA256SUMS"
+  ]
+}

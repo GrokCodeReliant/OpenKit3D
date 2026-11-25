@@ -1,0 +1,157 @@
+{
+  "pack": "openkit-cloister-walk-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "up": "Z (Blender) / Y (FBX)",
+  "materials_mode": "slots-only (no embedded/linked textures), path_mode STRIP",
+  "renames": [],
+  "collision_check": "Names checked against the live OpenKit3D pack-folder list (218 folders), the live OpenKit 2D pack list, and the stems of earlier Open Kit packs. No live pack is named for cloister-walk, cloister-arcade, cloister-floor, cloister-bench, cloister-hopper, alms-box or cloister-trough. Nearby live packs (bathhouse, well-water, outdoor-props) and earlier Open Kit families (garden court, cistern, wayside shrine) are different families. No family was swapped.",
+  "judgment_calls": [
+    "The arcade is a kit wall module (1.5 \u00d7 3.0 \u00d7 0.34 m, bottom-centre) with slim piers, imposts at about 2.05 m, and a pointed two-centred arch down to the floor. The floor tile is a kit floor module (1.5 \u00d7 1.5 \u00d7 0.12 m, floor_top) with a solid collider over the whole cell.",
+    "The arcade was snap-tested between two kit stone walls, and the floor tile was snap-tested in a ring of kit stone floor tiles: 0 intersections, with height, thickness, top and bottom matching the kit modules.",
+    "This is deliberate: the floor joints and the centre inlay are filled by the solid tile collider.",
+    "This is deliberate: the hopper funnel mouth is a shallow recess and is filled.",
+    "This is deliberate: the alms-box coin slot is a shallow recess in the iron plate and is filled.",
+    "The arcade opening, the space under the bench slab, the space around the hopper pipe, and the trough mouth above the water are real collider openings.",
+    "Flat slot albedos with light noise; image nodes are not in the FBX materials."
+  ],
+  "assets": [
+    {
+      "name": "wall-cloister-arcade",
+      "file": "fbx/wall-cloister-arcade.fbx",
+      "tris": 2340,
+      "dims_xyz_m": [
+        1.5,
+        0.34,
+        3.0
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 2500,
+      "category": "Walls",
+      "desc": "Kit-sized stone wall with slim piers, imposts, and an open pointed two-centred arch with a full-thickness voussoir ring. The archway is a real gap."
+    },
+    {
+      "name": "tile-cloister-floor",
+      "file": "fbx/tile-cloister-floor.fbx",
+      "tris": 376,
+      "dims_xyz_m": [
+        1.5,
+        1.5,
+        0.12
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "floor_top (0,0,0)",
+      "budget": 2500,
+      "category": "Tiles",
+      "desc": "Kit-sized floor tile with a mortar bed, a border, a 2-by-2 inner field and a flush iron diamond. This is deliberate: the solid cell collider fills the joints and the inlay."
+    },
+    {
+      "name": "prop-cloister-bench-stone",
+      "file": "fbx/prop-cloister-bench-stone.fbx",
+      "tris": 196,
+      "dims_xyz_m": [
+        1.24,
+        0.36,
+        0.5
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Backless stone slab on two solid ends, with iron pins on the seat. The space under the slab is a real gap."
+    },
+    {
+      "name": "prop-cloister-hopper",
+      "file": "fbx/prop-cloister-hopper.fbx",
+      "tris": 332,
+      "dims_xyz_m": [
+        0.48,
+        0.34,
+        1.66
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Wall-mounted flared lead rain hopper, with iron brackets to the back plane, a downpipe and a shoe discharging into the walk. This is deliberate: the funnel mouth is a shallow recess and is filled."
+    },
+    {
+      "name": "prop-alms-box-wood",
+      "file": "fbx/prop-alms-box-wood.fbx",
+      "tris": 272,
+      "dims_xyz_m": [
+        0.4,
+        0.27,
+        1.036
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Timber chest on a post and plinth, with an iron strap, a hasp and a coin-slot plate on the lid. This is deliberate: the slot is a shallow recess and is filled."
+    },
+    {
+      "name": "prop-cloister-trough-stone",
+      "file": "fbx/prop-cloister-trough-stone.fbx",
+      "tris": 256,
+      "dims_xyz_m": [
+        1.24,
+        0.4,
+        0.38
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Long low stone basin with a water disc below the rim and two iron staples on the outer rim. The mouth above the water is a real gap."
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "HONEST_LOOK.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-alms-box-wood.fbx",
+    "fbx/prop-cloister-bench-stone.fbx",
+    "fbx/prop-cloister-hopper.fbx",
+    "fbx/prop-cloister-trough-stone.fbx",
+    "fbx/tile-cloister-floor.fbx",
+    "fbx/wall-cloister-arcade.fbx",
+    "tex/mat_dark_wood_BaseColor.png",
+    "tex/mat_iron_BaseColor.png",
+    "tex/mat_lead_BaseColor.png",
+    "tex/mat_mortar_BaseColor.png",
+    "tex/mat_steel_BaseColor.png",
+    "tex/mat_stone_BaseColor.png",
+    "tex/mat_water_BaseColor.png",
+    "tex/mat_wood_BaseColor.png",
+    "SHA256SUMS"
+  ]
+}

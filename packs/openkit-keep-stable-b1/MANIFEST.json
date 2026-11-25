@@ -1,0 +1,237 @@
+{
+  "pack": "openkit-keep-stable-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "up": "Z (Blender) / Y (FBX)",
+  "materials_mode": "slots-only (no embedded/linked textures), path_mode STRIP",
+  "renames": [],
+  "collision_check": "Names checked against the live OpenKit3D pack-folder list, the live Open Kit 2D pack list, and the stems of earlier Open Kit families. No live pack is named for keep-stable, stable-stall, stable-door, stable-hay-hatch, stable-floor, manger-wood, saddle-rack, bridle-peg-rail, watering-tub, tack-bench or blanket-rail. Nearby live packs (stable-props, farm-props, farrier, saddler, harness-maker, well-water, doors-windows, furniture-extras, kitchen-props) and earlier Open Kit families (farmhouse kitchen furniture, keep gatehouse, crypt undercroft, siege yard, garden court, cloister walk, chapel furnishings) are different pieces. No family was swapped.",
+  "judgment_calls": [
+    "The stall, the split door and the hay hatch are kit wall modules (1.5 × 3.0 × 0.34 m, bottom-centre). The floor tile is a kit floor module (1.5 × 1.5 × 0.12 m, floor_top) with a solid collider over the whole cell.",
+    "Facing in the raw FBX (Y-up): the stall opening and manger pocket, the split door, and the hay hatch face −Z, the room side. The manger mouth, the saddle rest, the pegs, the tub mouth, the bench front and the blanket rail also face −Z. The floor tile has no one-sided front. In the Open Kit team's Unity engine test on 25 Nov 2026 (Unity 6000.4.0f1), the room side measured at Unity +Z. Results apply to that version and those settings; other engines, Unity versions or import settings may differ. (The glTF/GLB exports, which use +Z for the room side, are not included in this pack.)",
+    "The three walls were snap-tested between two kit stone walls, and the floor tile was snap-tested in a ring of kit stone floor tiles: 0 intersections, with height, thickness, top and bottom matching the kit modules.",
+    "This is deliberate: the stall manger pocket is filled by the solid breast collider.",
+    "This is deliberate: the floor joints and the gutter are filled by the solid tile collider.",
+    "This is deliberate: the watering-tub mouth is filled by the solid collider.",
+    "The stall's upper bay, the door's upper-leaf opening, the hay hatch, the mouth above the manger slats, the space between the tack-bench seat and the tray, and the space between the blanket-rail bars are real collider openings. The lower door leaf does not swing.",
+    "Flat slot albedos with light noise; image nodes are not in the FBX materials."
+  ],
+  "assets": [
+    {
+      "name": "wall-stable-stall",
+      "file": "fbx/wall-stable-stall.fbx",
+      "tris": 2084,
+      "dims_xyz_m": [
+        1.5,
+        0.34,
+        3.0
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 2500,
+      "category": "Walls",
+      "desc": "Kit-sized stone wall with a timber breast about 1.16 m high, a slatted manger pocket on the room face, and an open bay above the breast. The upper bay is a real gap. This is deliberate: the manger pocket is filled by the solid breast collider."
+    },
+    {
+      "name": "wall-stable-door",
+      "file": "fbx/wall-stable-door.fbx",
+      "tris": 1476,
+      "dims_xyz_m": [
+        1.5,
+        0.34,
+        3.0
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 2500,
+      "category": "Walls",
+      "desc": "Kit-sized stone wall with a split stable door: a closed lower timber leaf with iron hinges and a latch, and an open upper leaf. The upper opening is a real gap. The lower leaf does not swing."
+    },
+    {
+      "name": "wall-stable-hay-hatch",
+      "file": "fbx/wall-stable-hay-hatch.fbx",
+      "tris": 1556,
+      "dims_xyz_m": [
+        1.5,
+        0.34,
+        3.0
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 2500,
+      "category": "Walls",
+      "desc": "Kit-sized stone wall with a high square hay hatch that does not reach the floor, a timber lining, and a shutter parked to the side. The hatch opening is a real through-gap."
+    },
+    {
+      "name": "tile-stable-floor",
+      "file": "fbx/tile-stable-floor.fbx",
+      "tris": 384,
+      "dims_xyz_m": [
+        1.5,
+        1.5,
+        0.12
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "floor_top (0,0,0)",
+      "budget": 2500,
+      "category": "Tiles",
+      "desc": "Kit-sized packed-earth floor tile with a stone border, one straight gutter with a small square iron catch. This is deliberate: the solid cell collider fills the joints and the gutter."
+    },
+    {
+      "name": "prop-manger-wood",
+      "file": "fbx/prop-manger-wood.fbx",
+      "tris": 528,
+      "dims_xyz_m": [
+        1.1,
+        0.48,
+        0.92
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Free-standing V-shaped slatted timber hay manger on two posts, with a little hay and iron pins on the posts. The mouth above the slats is a real gap."
+    },
+    {
+      "name": "prop-saddle-rack-wood",
+      "file": "fbx/prop-saddle-rack-wood.fbx",
+      "tris": 364,
+      "dims_xyz_m": [
+        0.74,
+        0.46,
+        1.22
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Standing two-post timber rack with a top rail and a sloped rest bar. The rack is empty."
+    },
+    {
+      "name": "prop-bridle-peg-rail",
+      "file": "fbx/prop-bridle-peg-rail.fbx",
+      "tris": 524,
+      "dims_xyz_m": [
+        1.14,
+        0.24,
+        1.4
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Free-standing timber rail on two posts, with five pegs facing the room. The pegs are empty."
+    },
+    {
+      "name": "prop-watering-tub-wood",
+      "file": "fbx/prop-watering-tub-wood.fbx",
+      "tris": 376,
+      "dims_xyz_m": [
+        0.74,
+        0.74,
+        0.34
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Low round timber drinking tub with iron hoops and a water disc below the rim. This is deliberate: the mouth is filled by the solid collider."
+    },
+    {
+      "name": "prop-tack-bench-wood",
+      "file": "fbx/prop-tack-bench-wood.fbx",
+      "tris": 416,
+      "dims_xyz_m": [
+        1.0,
+        0.36,
+        0.78
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Short timber bench with a lower tray, four legs, and a low back rail. The space between the seat and the tray is a real gap."
+    },
+    {
+      "name": "prop-blanket-rail-wood",
+      "file": "fbx/prop-blanket-rail-wood.fbx",
+      "tris": 352,
+      "dims_xyz_m": [
+        1.22,
+        0.12,
+        1.34
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Two timber posts with a high bar and a lower bar, and iron ferrules on the posts. The rails are empty."
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "HONEST_LOOK.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/wall-stable-stall.fbx",
+    "fbx/wall-stable-door.fbx",
+    "fbx/wall-stable-hay-hatch.fbx",
+    "fbx/tile-stable-floor.fbx",
+    "fbx/prop-manger-wood.fbx",
+    "fbx/prop-saddle-rack-wood.fbx",
+    "fbx/prop-bridle-peg-rail.fbx",
+    "fbx/prop-watering-tub-wood.fbx",
+    "fbx/prop-tack-bench-wood.fbx",
+    "fbx/prop-blanket-rail-wood.fbx",
+    "tex/mat_earth_BaseColor.png",
+    "tex/mat_stone_BaseColor.png",
+    "tex/mat_iron_BaseColor.png",
+    "tex/mat_wood_BaseColor.png",
+    "tex/mat_dark_wood_BaseColor.png",
+    "tex/mat_straw_BaseColor.png",
+    "tex/mat_water_BaseColor.png",
+    "SHA256SUMS"
+  ]
+}

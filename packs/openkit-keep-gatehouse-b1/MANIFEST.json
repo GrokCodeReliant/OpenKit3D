@@ -1,0 +1,152 @@
+{
+  "pack": "openkit-keep-gatehouse-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "up": "Z (Blender) / Y (FBX)",
+  "materials_mode": "slots-only (no embedded/linked textures), path_mode STRIP",
+  "renames": [],
+  "collision_check": "Names checked against the live OpenKit3D pack-folder list (218 folders), the live OpenKit 2D pack list, and the stems of earlier Open Kit families. No live pack is named for keep, gatehouse, portcullis, cresset, arrow-slit, loophole, window-bars, floor-channel, or pressure-plate. Nearby live packs (doors-windows, dungeon-clutter, fence-gate, light-hearth, wall-dress) are different families. No family was swapped.",
+  "judgment_calls": [
+    "Facing in the raw FBX (Y-up): the arrow-slit's wide splay is on +Z, and the slim slot and iron lip are on \u2212Z. The portcullis and the barred window have no one-sided front. In Build's baked world-coordinate check on 25 Nov 2026 (Unity 6000.4.0f1, Convert Units on, Bake Axis Conversion on), the wide splay was on Unity +Z, the front; other importers or settings may differ.",
+    "Portcullis is a closed, non-animated grate; collision covers the opening with one thin solid panel.",
+    "Pressure-plate proud height is 0.8 mm so floor-top pivot, room-adapt and slightly-proud gates all pass; the plate is easy to miss from a typical camera.",
+    "Cresset collision is one convex envelope around the whole prop, so nothing can pass between the legs.",
+    "Flat 512 px slot albedos with light noise; image nodes are not in the FBX materials."
+  ],
+  "assets": [
+    {
+      "name": "wall-dungeon-portcullis",
+      "file": "fbx/wall-dungeon-portcullis.fbx",
+      "tris": 1088,
+      "dims_xyz_m": [
+        1.5,
+        0.34,
+        3.0
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 2500,
+      "category": "Walls",
+      "desc": "Wall module with a closed iron portcullis in a stone arch: jambs, sill, lintel, cap course, eight pointed verticals and five rails. It does not open."
+    },
+    {
+      "name": "wall-dungeon-arrow-slit",
+      "file": "fbx/wall-dungeon-arrow-slit.fbx",
+      "tris": 1540,
+      "dims_xyz_m": [
+        1.5,
+        0.34,
+        3.0
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 2500,
+      "category": "Walls",
+      "desc": "Wall module with a tall splayed loophole that widens toward the front face and narrows to a slim slot at the back, coursed stone, cap course and a small iron sighting lip at the back."
+    },
+    {
+      "name": "wall-dungeon-window-bars",
+      "file": "fbx/wall-dungeon-window-bars.fbx",
+      "tris": 1364,
+      "dims_xyz_m": [
+        1.5,
+        0.34,
+        3.0
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 2500,
+      "category": "Walls",
+      "desc": "Solid wall module with a small high window: stone sill and lintel, five round bars and two straps."
+    },
+    {
+      "name": "tile-dungeon-floor-channel",
+      "file": "fbx/tile-dungeon-floor-channel.fbx",
+      "tris": 624,
+      "dims_xyz_m": [
+        1.5,
+        1.5,
+        0.12
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "floor_top: walking surface at z=0, tile extends 0.12 m below",
+      "budget": 2500,
+      "category": "Tiles",
+      "desc": "Stone floor tile with a front-to-back open gutter, iron lips, end straps and a dark silt surface. The gutter is shallow."
+    },
+    {
+      "name": "tile-dungeon-floor-pressure-plate",
+      "file": "fbx/tile-dungeon-floor-pressure-plate.fbx",
+      "tris": 560,
+      "dims_xyz_m": [
+        1.5,
+        1.5,
+        0.1208
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "floor_top: walking surface at z=0, tile extends 0.12 m below; plate 0.0008 m proud",
+      "budget": 2500,
+      "category": "Tiles",
+      "desc": "Stone floor tile with a closed centre plate, 0.8 mm proud, a joint gap around it, four corner rivets and a faint centre seam. The plate does not move."
+    },
+    {
+      "name": "prop-cresset-iron",
+      "file": "fbx/prop-cresset-iron.fbx",
+      "tris": 800,
+      "dims_xyz_m": [
+        0.4406,
+        0.4296,
+        1.54
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Standing iron fire basket: three splayed legs on a ring base, a post, a banded basket with a grate and four coals."
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "HONEST_LOOK.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-cresset-iron.fbx",
+    "fbx/tile-dungeon-floor-channel.fbx",
+    "fbx/tile-dungeon-floor-pressure-plate.fbx",
+    "fbx/wall-dungeon-arrow-slit.fbx",
+    "fbx/wall-dungeon-portcullis.fbx",
+    "fbx/wall-dungeon-window-bars.fbx",
+    "tex/mat_ember_BaseColor.png",
+    "tex/mat_iron_BaseColor.png",
+    "tex/mat_mortar_BaseColor.png",
+    "tex/mat_steel_BaseColor.png",
+    "tex/mat_stone_BaseColor.png",
+    "SHA256SUMS"
+  ]
+}

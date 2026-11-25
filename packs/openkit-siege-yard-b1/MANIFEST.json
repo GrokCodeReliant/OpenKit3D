@@ -1,0 +1,153 @@
+{
+  "pack": "openkit-siege-yard-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "up": "Z (Blender) / Y (FBX)",
+  "materials_mode": "slots-only (no embedded/linked textures), path_mode STRIP",
+  "renames": [],
+  "collision_check": "Names checked against the live OpenKit3D pack-folder list (218 folders), the live OpenKit 2D pack list, and the already-authored 20261125-w1 and 20261125-w2 3D stems. No live pack is named for siege, battering-ram, ballista, pavise or mantlet. Nearby live packs (fence-gate, cart-crate, outdoor-props, dungeon-clutter) are different families. No family was swapped.",
+  "judgment_calls": [
+    "The ram is 2.48 m long so it occupies two 1.5 m cells and stays under the Medium size-class cap of 2.5 m.",
+    "This is deliberate: the pavise face is a solid panel; the space under the leaning prop is a real gap.",
+    "The mantlet viewing slit, the space under the mantlet, the space between the ballista frames, the space under the ram and between trestle legs, and the spaces between the three stones are real collider openings.",
+    "This is deliberate: the bolt-rack collider uses one envelope around the four bolts; the openings between the bolts are visual only.",
+    "The ballista has a two-segment front prod and a bowstring across the tips so it reads as a ballista.",
+    "Flat slot albedos with light noise; image nodes are not in the FBX materials."
+  ],
+  "assets": [
+    {
+      "name": "prop-battering-ram",
+      "file": "fbx/prop-battering-ram.fbx",
+      "tris": 652,
+      "dims_xyz_m": [
+        2.48,
+        0.5113,
+        0.7806
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 2500,
+      "category": "Props",
+      "desc": "Log on two trestles, with iron hoops and a capped striking head. Real gaps under the log and between the trestle legs."
+    },
+    {
+      "name": "prop-ballista",
+      "file": "fbx/prop-ballista.fbx",
+      "tris": 868,
+      "dims_xyz_m": [
+        1.37,
+        1.43,
+        0.855
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 2500,
+      "category": "Props",
+      "desc": "Compact scorpion-scale engine with side frames, a front prod, a bowstring across the tips, a rear winch and one bolt. The space between the frames is a real gap."
+    },
+    {
+      "name": "prop-pavise",
+      "file": "fbx/prop-pavise.fbx",
+      "tris": 152,
+      "dims_xyz_m": [
+        0.64,
+        0.576,
+        1.28
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Tall pointed standing shield with a boss, a shoe, battens and a rear leaning prop. The face is a solid panel on purpose. The space under the prop is a real gap."
+    },
+    {
+      "name": "prop-mantlet",
+      "file": "fbx/prop-mantlet.fbx",
+      "tris": 612,
+      "dims_xyz_m": [
+        1.4,
+        0.25,
+        1.0139
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Wider, shorter wheeled screen with a 6 cm viewing slit (a real gap), an axle and two wheels. The space under the screen is a real gap."
+    },
+    {
+      "name": "prop-stone-shot",
+      "file": "fbx/prop-stone-shot.fbx",
+      "tris": 300,
+      "dims_xyz_m": [
+        0.66,
+        0.5473,
+        0.36
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Three stone balls of different sizes sitting on the ground, with small gaps between them. One collider per stone."
+    },
+    {
+      "name": "prop-ballista-bolt-rack",
+      "file": "fbx/prop-ballista-bolt-rack.fbx",
+      "tris": 464,
+      "dims_xyz_m": [
+        0.76,
+        0.416,
+        0.2891
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Low timber rack holding four horizontal bolts with iron heads. Visual gaps between the bolts; one envelope collider around the set (said on purpose)."
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "HONEST_LOOK.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-ballista-bolt-rack.fbx",
+    "fbx/prop-ballista.fbx",
+    "fbx/prop-battering-ram.fbx",
+    "fbx/prop-mantlet.fbx",
+    "fbx/prop-pavise.fbx",
+    "fbx/prop-stone-shot.fbx",
+    "tex/mat_dark_wood_BaseColor.png",
+    "tex/mat_iron_BaseColor.png",
+    "tex/mat_mortar_BaseColor.png",
+    "tex/mat_stone_BaseColor.png",
+    "tex/mat_wood_BaseColor.png",
+    "SHA256SUMS"
+  ]
+}

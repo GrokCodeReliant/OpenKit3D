@@ -23,7 +23,7 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **224** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **231** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
@@ -77,15 +77,18 @@ The `packs/` folder contains **224** CC0-licensed medieval prop packs. Each pack
 | `openkit-cartwright-props-b1` | Cartwright workshop props |
 | `openkit-chain-maker-props-b1` | Chain-maker workshop props |
 | `openkit-chalk-line-maker-props-b1` | Chalk-line maker workshop props |
+| `openkit-chapel-furnishings-b1` | Chapel furnishings |
 | `openkit-charcoal-burner-props-b1` | Charcoal-burner (collier) workshop props |
 | `openkit-chisel-extras-b1` | Carpenter-chisel extras: bench chisel blade blank, firmer chisel blade blank, hex handle with brass ferrule, leather washer |
 | `openkit-clockmaker-props-b1` | Clockmaker workshop props |
+| `openkit-cloister-walk-b1` | Cloister walk props |
 | `openkit-cobbler-props-b1` | Cobbler/shoemaker props |
 | `openkit-comb-maker-props-b1` | Comb-maker workshop props |
 | `openkit-cooper-props-b1` | Cooper (barrel-maker) props |
 | `openkit-coping-saw-props-b1` | Coping-saw blanks: blade, frame, handle, pin |
 | `openkit-coppersmith-props-b1` | Coppersmith workshop props |
 | `openkit-crossbow-maker-props-b1` | Crossbow-maker workshop props |
+| `openkit-crypt-undercroft-b1` | Crypt undercroft pieces |
 | `openkit-cutler-props-b1` | Cutler (knife-maker) workshop props |
 | `openkit-dock-harbor-b1` | Dock and harbor props |
 | `openkit-doors-windows-b1` | Doors and windows |
@@ -112,6 +115,7 @@ The `packs/` folder contains **224** CC0-licensed medieval prop packs. Each pack
 | `openkit-fuller-props-b1` | Fuller (cloth finishing) workshop props |
 | `openkit-furrier-props-b1` | Furrier workshop props |
 | `openkit-gaol-cells-b1` | Gaol cell pieces |
+| `openkit-garden-court-b1` | Garden court props |
 | `openkit-gilder-props-b1` | Gilder workshop props |
 | `openkit-gimlet-maker-props-b1` | Gimlet-maker workshop props |
 | `openkit-glassblower-props-b1` | Glassblower workshop props |
@@ -137,6 +141,8 @@ The `packs/` folder contains **224** CC0-licensed medieval prop packs. Each pack
 | `openkit-ink-maker-props-b1` | Ink-maker workshop props |
 | `openkit-inkhorn-carver-props-b1` | Inkhorn-carver workshop props |
 | `openkit-joiner-props-b1` | Joiner workshop props |
+| `openkit-keep-gatehouse-b1` | Keep gatehouse pieces |
+| `openkit-keep-stable-b1` | Keep stable fittings |
 | `openkit-key-blank-maker-props-b1` | Key-blank maker workshop props |
 | `openkit-kitchen-props-b1` | Kitchen furniture and utensils |
 | `openkit-lacemaker-props-b1` | Lacemaker workshop props |
@@ -208,6 +214,7 @@ The `packs/` folder contains **224** CC0-licensed medieval prop packs. Each pack
 | `openkit-shingle-maker-props-b1` | Shingle-maker workshop props |
 | `openkit-shop-wall-b1` | Shop wall decorations |
 | `openkit-shoulder-plane-props-b1` | Shoulder plane workshop props |
+| `openkit-siege-yard-b1` | Siege yard props |
 | `openkit-sign-post-b1` | Signs and posts |
 | `openkit-sieve-maker-props-b1` | Sieve-maker workshop props |
 | `openkit-sieve-mender-props-b1` | Sieve-mender workshop props |
