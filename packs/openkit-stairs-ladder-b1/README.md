@@ -9,4 +9,3 @@ Wooden stairs / ladder / ramp set. 1 m units, Blender Z-up (FBX exported -Z fwd,
 
 Modular stair: rise 0.20 / run 0.25 (5 steps = 1.0 m rise, 1.25 m run); width 1.0 m — tiles on a 1 m grid; suggested modular widths 1.0–1.2 m (scale X only). Stack two modules end-to-end with +1.25 Y, +1.0 Z offset for a 2 m storey.
 Name note: `prop-ladder-wood` already exists in okm4 base kit → this pack uses `prop-ladder-wood-lean`.
-Rebuild: blender -b --factory-startup -P src/build.py

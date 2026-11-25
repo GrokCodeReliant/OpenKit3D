@@ -105,18 +105,11 @@
  "pack_files": [
   "CONTACT_SHEET.png",
   "CREDITS.md",
-  "LICENSES.md",
   "MANIFEST.json",
   "README.md",
   "fbx/prop-banner-hang-pole.fbx",
   "fbx/prop-notice-board.fbx",
   "fbx/prop-signpost-wood.fbx",
-  "fbx/prop-waymarker-stone.fbx",
-  "renders/prop-banner-hang-pole.png",
-  "renders/prop-notice-board.png",
-  "renders/prop-signpost-wood.png",
-  "renders/prop-waymarker-stone.png",
-  "src/build_sign_post_b1.py",
-  "src/render.py"
+  "fbx/prop-waymarker-stone.fbx"
  ]
 }
