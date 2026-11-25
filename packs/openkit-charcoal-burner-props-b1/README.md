@@ -7,4 +7,3 @@ Charcoal-burner / collier workshop props for Open Kit: prop-charcoal-rake, prop-
 - prop-charcoal-sack-open: bottom_centre (0,0,0) on ground; 0.42 m dia soot-stained hessian sack, mouth rolled open, black charcoal heap and lumps inside, two spilled lumps at +X
 - prop-measuring-scoop-cb1: bottom_centre (0,0,0) on ground/sack; 0.2x0.16 m open-front box scoop (quarter-peck measure) with iron lip and bands, handle +X from back wall
 
-Rebuild: blender -b -P src/build.py
