@@ -1,0 +1,154 @@
+{
+  "pack": "openkit-crypt-undercroft-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "up": "Z (Blender) / Y (FBX)",
+  "materials_mode": "slots-only (no embedded/linked textures), path_mode STRIP",
+  "renames": [],
+  "collision_check": "Names checked against the live OpenKit3D pack-folder list (218 folders), the live OpenKit 2D pack list, and the stems of earlier Open Kit families. No live pack is named for crypt-undercroft, cistern, wall-fountain, burial-urn, ossuary-cist, memorial-slab or sluice-gate. Nearby live packs (well-water, graveyard, bathhouse, stairs-ladder, dungeon-clutter) are different families. No family was swapped.",
+  "judgment_calls": [
+    "Fountain basin is a recess inside the kit wall thickness so height, width and thickness still match the kit wall; collision fills the bowl on purpose.",
+    "Raw FBX (Y-up) facing: the fountain basin faces \u2212Z. Facing after engine import is not verified here.",
+    "Memorial carving is recessed 2.2 cm below the walk plane so it stays readable from 13 m without breaking the floor-top pivot cap; collision fills the recesses.",
+    "Cistern mouth, sluice opening and the gaps between the cist's legs are real collider openings, not one enveloping hull.",
+    "Urn and cist are closed vessels with no remains.",
+    "Flat slot albedos with light noise; image nodes are not in the FBX materials."
+  ],
+  "assets": [
+    {
+      "name": "wall-dungeon-fountain",
+      "file": "fbx/wall-dungeon-fountain.fbx",
+      "tris": 1528,
+      "dims_xyz_m": [
+        1.5,
+        0.34,
+        3.0
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0); wall body on the kit centreline",
+      "budget": 2500,
+      "category": "Walls",
+      "desc": "Kit-sized stone wall module with a recessed spout and basin (the bowl is cut into the 0.34 m thickness, not a projecting fountain). Dark water sits in the bowl. The basin is filled by the collider."
+    },
+    {
+      "name": "prop-cistern-stone",
+      "file": "fbx/prop-cistern-stone.fbx",
+      "tris": 372,
+      "dims_xyz_m": [
+        1.16,
+        1.16,
+        1.0
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Open masonry water tank with a short plinth, two iron bands and a dark water plane 0.30 m below the rim. Not a well: no winch, no raised parapet, no bucket rope. The mouth is a real opening."
+    },
+    {
+      "name": "prop-urn-stone",
+      "file": "fbx/prop-urn-stone.fbx",
+      "tris": 460,
+      "dims_xyz_m": [
+        0.36,
+        0.36,
+        0.9
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Closed lidded stone burial urn on a square plinth, with an iron lid band and a small finial. It does not open; no remains are modelled."
+    },
+    {
+      "name": "prop-ossuary-cist",
+      "file": "fbx/prop-ossuary-cist.fbx",
+      "tris": 324,
+      "dims_xyz_m": [
+        0.9,
+        0.55,
+        0.48
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Closed stone ossuary chest on four short feet, with a slightly oversized lid and three iron straps. No bones or opening. The space between the legs is a real gap."
+    },
+    {
+      "name": "tile-dungeon-floor-memorial",
+      "file": "fbx/tile-dungeon-floor-memorial.fbx",
+      "tris": 628,
+      "dims_xyz_m": [
+        1.5,
+        1.5,
+        0.12
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "floor_top: walking surface at z=0, tile extends 0.12 m below; carving is recessed",
+      "budget": 2500,
+      "category": "Tiles",
+      "desc": "Walkable 1.5 m floor tile. A 2.2 cm recessed field, an incised border and a bronze rosette sit below the walking surface (the rosette top is 8 mm below z = 0) so the carving stays readable from a 13 m camera without breaking the floor-top pivot."
+    },
+    {
+      "name": "prop-sluice-gate",
+      "file": "fbx/prop-sluice-gate.fbx",
+      "tris": 352,
+      "dims_xyz_m": [
+        1.06,
+        0.32,
+        1.14
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Small timber-framed drainage sluice on a stone sill, with a raised iron plate and a clear opening under it. Not a keep portcullis: no arch, no pointed bars, about 1.1 m tall."
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "HONEST_LOOK.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-cistern-stone.fbx",
+    "fbx/prop-ossuary-cist.fbx",
+    "fbx/prop-sluice-gate.fbx",
+    "fbx/prop-urn-stone.fbx",
+    "fbx/tile-dungeon-floor-memorial.fbx",
+    "fbx/wall-dungeon-fountain.fbx",
+    "tex/mat_bronze_BaseColor.png",
+    "tex/mat_iron_BaseColor.png",
+    "tex/mat_mortar_BaseColor.png",
+    "tex/mat_stone_BaseColor.png",
+    "tex/mat_water_BaseColor.png",
+    "tex/mat_wood_BaseColor.png",
+    "SHA256SUMS"
+  ]
+}

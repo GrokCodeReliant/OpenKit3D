@@ -1,0 +1,158 @@
+{
+  "pack": "openkit-garden-court-b1",
+  "license": "CC0-1.0",
+  "units": "metres (1 BU = 1 m)",
+  "up": "Z (Blender) / Y (FBX)",
+  "materials_mode": "slots-only (no embedded/linked textures), path_mode STRIP",
+  "renames": [],
+  "collision_check": "Names checked against the live OpenKit3D pack-folder list (218 folders), the live OpenKit 2D pack list, and the stems of earlier Open Kit packs. No live pack is named for garden-court, sundial, birdbath, planter, trellis, cold-frame or lavabo. Nearby live packs (outdoor-props, herbalist workbench, bathhouse wash-basin, well, cistern, waymarker-stone, pottery) are different families. No family was swapped.",
+  "judgment_calls": [
+    "Each of the six pieces is a one-cell floor prop with a bottom-centre pivot.",
+    "This is deliberate: the sundial plate box fills the recessed hour lines.",
+    "This is deliberate: the planter trough and the cold-frame trough are filled (the soil is a solid fill); there is no opening into either trough.",
+    "The birdbath mouth, the lavabo mouth, the openings in the trellis lattice, and the opening under the raised cold-frame lid are real collider openings.",
+    "The lavabo is a free-standing pedestal basin with a small bronze spout, so it reads apart from the birdbath.",
+    "Flat slot albedos with light noise; image nodes are not in the FBX materials."
+  ],
+  "assets": [
+    {
+      "name": "prop-sundial-stone",
+      "file": "fbx/prop-sundial-stone.fbx",
+      "tris": 272,
+      "dims_xyz_m": [
+        0.6,
+        0.5706,
+        0.84
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Stone plinth and shaft under a dial plate with incised hour lines and a bronze gnomon. This is deliberate: the plate collider fills the recessed hour lines."
+    },
+    {
+      "name": "prop-birdbath-stone",
+      "file": "fbx/prop-birdbath-stone.fbx",
+      "tris": 268,
+      "dims_xyz_m": [
+        0.6,
+        0.5706,
+        0.8
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Stone pedestal with an open shallow bowl and a water disc below the rim. The mouth above the water is a real gap."
+    },
+    {
+      "name": "prop-planter-stone",
+      "file": "fbx/prop-planter-stone.fbx",
+      "tris": 312,
+      "dims_xyz_m": [
+        0.92,
+        0.52,
+        0.82
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Rectangular stone trough with soil and a simple shrub. This is deliberate: the trough and soil share one filled box; there is no opening into the trough."
+    },
+    {
+      "name": "prop-trellis-wood",
+      "file": "fbx/prop-trellis-wood.fbx",
+      "tris": 308,
+      "dims_xyz_m": [
+        1.09,
+        0.1,
+        1.62
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Timber posts and rails with a coarse lattice and iron post caps. The openings in the lattice are real gaps."
+    },
+    {
+      "name": "prop-cold-frame",
+      "file": "fbx/prop-cold-frame.fbx",
+      "tris": 316,
+      "dims_xyz_m": [
+        1.0,
+        0.68,
+        0.54
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Low timber box with soil and a sloped lid, slightly open, holding two pale glaze panes. The opening under the raised lid is a real gap. This is deliberate: the trough box is filled."
+    },
+    {
+      "name": "prop-lavabo-stone",
+      "file": "fbx/prop-lavabo-stone.fbx",
+      "tris": 312,
+      "dims_xyz_m": [
+        0.64,
+        0.6093,
+        1.02
+      ],
+      "materials": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "pivot": "bottom_centre (0,0,0)",
+      "budget": 800,
+      "category": "Props",
+      "desc": "Free-standing stone pedestal basin with a small bronze spout and a water disc below the rim. The mouth above the water is a real gap."
+    }
+  ],
+  "pack_files": [
+    "CONTACT_SHEET.png",
+    "CREDITS.md",
+    "HONEST_LOOK.md",
+    "LICENSE",
+    "MANIFEST.json",
+    "README.md",
+    "fbx/prop-birdbath-stone.fbx",
+    "fbx/prop-cold-frame.fbx",
+    "fbx/prop-lavabo-stone.fbx",
+    "fbx/prop-planter-stone.fbx",
+    "fbx/prop-sundial-stone.fbx",
+    "fbx/prop-trellis-wood.fbx",
+    "tex/mat_bronze_BaseColor.png",
+    "tex/mat_dark_wood_BaseColor.png",
+    "tex/mat_glaze_BaseColor.png",
+    "tex/mat_iron_BaseColor.png",
+    "tex/mat_leaf_BaseColor.png",
+    "tex/mat_mortar_BaseColor.png",
+    "tex/mat_soil_BaseColor.png",
+    "tex/mat_stone_BaseColor.png",
+    "tex/mat_water_BaseColor.png",
+    "tex/mat_wood_BaseColor.png",
+    "SHA256SUMS"
+  ]
+}
