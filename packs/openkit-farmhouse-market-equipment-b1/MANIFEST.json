@@ -1,0 +1,288 @@
+{
+ "pack": "farmhouse-market-equipment",
+ "license": "CC0-1.0",
+ "unit": "1 unit = 1 metre",
+ "pivot": "bottom centre",
+ "grid_cell_m": 1.5,
+ "material_slots": [
+  "Primary",
+  "Secondary",
+  "Accent"
+ ],
+ "formats": [
+  "fbx",
+  "glb"
+ ],
+ "engine_tested": true,
+ "engine_test_date": "2026-11-25",
+ "engine_test_report": "Open Kit team Unity engine test, 25 November 2026",
+ "files": [
+  {
+   "path": "CONTACT_SHEET.png",
+   "bytes": 1057341,
+   "sha256": "d63258904bf4e5529dbd5a32d06747c4a6ef3f70a1146fd068898f615ca89b45"
+  },
+  {
+   "path": "CREDITS.md",
+   "bytes": 328,
+   "sha256": "b753a3569556fa78b4a74ed0d8b4318bb51e0d5e05b9a122ba009fde22dc6d1f"
+  },
+  {
+   "path": "LICENSE",
+   "bytes": 7116,
+   "sha256": "1bddac2bb5081485a09ba1037e19d78daf2501f91930a411e7000f8b9f7ac7ab"
+  },
+  {
+   "path": "README.md",
+   "bytes": 2762,
+   "sha256": "4528abbb085808b0eec940ec10d362d84c84f35a1cad426945e8f6446aa67f34"
+  },
+  {
+   "path": "USAGE.md",
+   "bytes": 4788,
+   "sha256": "f4e6e53c94e00a2be77bb1491f4b44a13f9df17491ea98d289277e6d77c24d85"
+  },
+  {
+   "path": "collision/colliders.json",
+   "bytes": 19722,
+   "sha256": "1f027d27bd303d67ac5b4a9e388f7bcc6b70195646b6d88e98d71858b4b30ebb"
+  },
+  {
+   "path": "collision/fbx/prop-butter-churn-wood-col.fbx",
+   "bytes": 14876,
+   "sha256": "85debf2f3e1626cc8e6d3a48a81f582b7be9e9e67ae17c6fde043d48f956a945"
+  },
+  {
+   "path": "collision/fbx/prop-hand-quern-stone-col.fbx",
+   "bytes": 16396,
+   "sha256": "9dec82a2ed4b951caa620d3915fceb67493f8a3866569754cf13710362a13384"
+  },
+  {
+   "path": "collision/fbx/prop-roasting-spit-wood-col.fbx",
+   "bytes": 19324,
+   "sha256": "e26268b08c2e7f93adfdcd607dc9624b4b6697fcc57735127da220e42902d33a"
+  },
+  {
+   "path": "collision/fbx/prop-steelyard-scale-frame-col.fbx",
+   "bytes": 22124,
+   "sha256": "0b5d456c25c1af0b0cab8f4fdfd3b530c19d3eec4f07520f57da9d816878863e"
+  },
+  {
+   "path": "collision/glb/prop-butter-churn-wood-col.glb",
+   "bytes": 7260,
+   "sha256": "7854f6122474a94461ce508e202f6eac18f11e3faf66a452caf85c770ac39a0d"
+  },
+  {
+   "path": "collision/glb/prop-hand-quern-stone-col.glb",
+   "bytes": 6620,
+   "sha256": "be32e31e73953fe17f54fa243974b4ca95adf4adf0383495bd2daef4dc348085"
+  },
+  {
+   "path": "collision/glb/prop-roasting-spit-wood-col.glb",
+   "bytes": 12424,
+   "sha256": "1eff99231e838e7471e375a430e1e00de367d5f1d585a4f5486173319c11bba8"
+  },
+  {
+   "path": "collision/glb/prop-steelyard-scale-frame-col.glb",
+   "bytes": 14944,
+   "sha256": "2c70dca02e8f0e492813214a671d8a20078072b690b0a9e156349de5c8f35f6a"
+  },
+  {
+   "path": "fbx/prop-butter-churn-wood.fbx",
+   "bytes": 27468,
+   "sha256": "813b1b44f56914cf2f1827b1ed9c2f7705f3783a760364ab686f79b4af220bd0"
+  },
+  {
+   "path": "fbx/prop-hand-quern-stone.fbx",
+   "bytes": 25708,
+   "sha256": "8a4ec62452b636538aa0a8a2dfbea6dbee527e477a6e24b4b49ae5d0f8963f1a"
+  },
+  {
+   "path": "fbx/prop-roasting-spit-wood.fbx",
+   "bytes": 23948,
+   "sha256": "3acad855a72e41d3804422a52861048b4a5826101d08aa5d0d6d817d6c6bc43d"
+  },
+  {
+   "path": "fbx/prop-steelyard-scale-frame.fbx",
+   "bytes": 28556,
+   "sha256": "2aa0439ef8a9529c5041e0be31439d7b7c0a9b3dd1e4bde718c20cc2507db96c"
+  },
+  {
+   "path": "glb/prop-butter-churn-wood.glb",
+   "bytes": 27600,
+   "sha256": "39776207293e4d71d5984fe6101c951ccc618aa8dc8135d6369ede783520841a"
+  },
+  {
+   "path": "glb/prop-hand-quern-stone.glb",
+   "bytes": 26644,
+   "sha256": "fc5c75175ff3f8dd3031c957c0724e41ea388921133987979d8ae2f85534c7da"
+  },
+  {
+   "path": "glb/prop-roasting-spit-wood.glb",
+   "bytes": 21608,
+   "sha256": "99e41e709526930fd59bbb03f5b11a36ae28e8df71429a1e2168577654028815"
+  },
+  {
+   "path": "glb/prop-steelyard-scale-frame.glb",
+   "bytes": 32048,
+   "sha256": "6f9f3e469d42bd916ba6120f86e6eba5d44ae96dc3b8ded5e2ebffb6d9122c95"
+  },
+  {
+   "path": "renders/layout-1p5m-grid.png",
+   "bytes": 456459,
+   "sha256": "2f6eda7f9d3fd3ad4925d8588f34cfdf569eb80eefd9ed7e4a4459cdba92a7f5"
+  },
+  {
+   "path": "renders/layout-collision-shells.png",
+   "bytes": 445918,
+   "sha256": "80ff588bde6e79ae0acf86ccb4a3ec6506b83c5d838dce425b350e3d7cdce7b9"
+  },
+  {
+   "path": "renders/prop-butter-churn-wood.png",
+   "bytes": 385414,
+   "sha256": "3e31bf89f63979c595dd5b0ae8f0610f105f069b65136b8a7024e10cbad07f0d"
+  },
+  {
+   "path": "renders/prop-hand-quern-stone.png",
+   "bytes": 413796,
+   "sha256": "217a787ccd987d64ce603b40582289304f67fc25aa3a6c4bb7a7b87e4c4f022e"
+  },
+  {
+   "path": "renders/prop-roasting-spit-wood.png",
+   "bytes": 401660,
+   "sha256": "84c79b7beeeec282296e28a5ce90c9ce42dcfd1c7302a8a1baa287fd45aa4237"
+  },
+  {
+   "path": "renders/prop-steelyard-scale-frame.png",
+   "bytes": 400292,
+   "sha256": "e7ebc923e47ada4d07ed04d588d0ff3e45684422deb7a97de08ae3743786fe44"
+  },
+  {
+   "path": "source/build_farmhouse_market.py",
+   "bytes": 20680,
+   "sha256": "75d37cae3c7fd44df06b1583f74533b589b7e82a115ba6724aad682068bc1af0"
+  }
+ ],
+ "assets": [
+  {
+   "name": "prop-butter-churn-wood",
+   "description": "Tall staved dash churn: three iron hoops, lifting ears, lid, splash cup and dasher",
+   "size_class": "Small",
+   "tri_budget": 800,
+   "tris": 432,
+   "grid_cells": "1x1",
+   "size_m": {
+    "width_x": 0.4166,
+    "height": 1.18,
+    "depth": 0.3962
+   },
+   "material_slots": [
+    "Accent",
+    "Primary",
+    "Secondary"
+   ],
+   "collision_shells": 2,
+   "collision_behaviour": "solid, blocking (body, hoops, ears and lid; separate thin shell for the dasher handle)",
+   "walkable": false,
+   "animated": false,
+   "engine_tested": true,
+   "files": [
+    "fbx/prop-butter-churn-wood.fbx",
+    "glb/prop-butter-churn-wood.glb",
+    "collision/fbx/prop-butter-churn-wood-col.fbx",
+    "collision/glb/prop-butter-churn-wood-col.glb",
+    "renders/prop-butter-churn-wood.png"
+   ]
+  },
+  {
+   "name": "prop-hand-quern-stone",
+   "description": "Rotary hand quern on a low stand: bed and runner stones, grain in the eye, handle peg, spilled flour",
+   "size_class": "Small",
+   "tri_budget": 800,
+   "tris": 340,
+   "grid_cells": "1x1",
+   "size_m": {
+    "width_x": 0.64,
+    "height": 0.79,
+    "depth": 0.64
+   },
+   "material_slots": [
+    "Accent",
+    "Primary",
+    "Secondary"
+   ],
+   "collision_shells": 3,
+   "collision_behaviour": "solid, blocking (stand filled as one box; stones and handle above it)",
+   "walkable": false,
+   "animated": false,
+   "engine_tested": true,
+   "files": [
+    "fbx/prop-hand-quern-stone.fbx",
+    "glb/prop-hand-quern-stone.glb",
+    "collision/fbx/prop-hand-quern-stone-col.fbx",
+    "collision/glb/prop-hand-quern-stone-col.glb",
+    "renders/prop-hand-quern-stone.png"
+   ]
+  },
+  {
+   "name": "prop-roasting-spit-wood",
+   "description": "Open-fire roasting spit: two lashed forked stands, iron spit rod with prongs and crank; open underneath",
+   "size_class": "Small",
+   "tri_budget": 800,
+   "tris": 268,
+   "grid_cells": "1x1",
+   "size_m": {
+    "width_x": 1.26,
+    "height": 0.8734,
+    "depth": 0.4873
+   },
+   "material_slots": [
+    "Accent",
+    "Primary",
+    "Secondary"
+   ],
+   "collision_shells": 4,
+   "collision_behaviour": "stands, spit rod and crank; the space under the rod between the stands is left open (place your own fire there)",
+   "walkable": false,
+   "animated": false,
+   "engine_tested": true,
+   "files": [
+    "fbx/prop-roasting-spit-wood.fbx",
+    "glb/prop-roasting-spit-wood.glb",
+    "collision/fbx/prop-roasting-spit-wood-col.fbx",
+    "collision/glb/prop-roasting-spit-wood-col.glb",
+    "renders/prop-roasting-spit-wood.png"
+   ]
+  },
+  {
+   "name": "prop-steelyard-scale-frame",
+   "description": "Market weighing frame: two braced posts and crossbar, iron steelyard with counterpoise and a hanging wicker pan",
+   "size_class": "Medium",
+   "tri_budget": 800,
+   "tris": 412,
+   "grid_cells": "1x1",
+   "size_m": {
+    "width_x": 1.16,
+    "height": 2.0,
+    "depth": 0.6
+   },
+   "material_slots": [
+    "Accent",
+    "Primary",
+    "Secondary"
+   ],
+   "collision_shells": 5,
+   "collision_behaviour": "side frames, crossbar, steelyard and hanging pan; open between the posts below the pan and beside it",
+   "walkable": false,
+   "animated": false,
+   "engine_tested": true,
+   "files": [
+    "fbx/prop-steelyard-scale-frame.fbx",
+    "glb/prop-steelyard-scale-frame.glb",
+    "collision/fbx/prop-steelyard-scale-frame-col.fbx",
+    "collision/glb/prop-steelyard-scale-frame-col.glb",
+    "renders/prop-steelyard-scale-frame.png"
+   ]
+  }
+ ]
+}

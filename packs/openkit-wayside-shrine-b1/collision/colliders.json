@@ -1,0 +1,130 @@
+{
+  "axes": "glTF: x right, y up, z toward the prop front; metres; pivot bottom-centre",
+  "colliders": {
+    "prop-wayside-shrine-stone": [
+      {
+        "type": "box",
+        "center": [
+          0.0,
+          0.12,
+          -0.02
+        ],
+        "size": [
+          1.2,
+          0.24,
+          0.8
+        ]
+      },
+      {
+        "type": "box",
+        "center": [
+          0.0,
+          0.92,
+          -0.0
+        ],
+        "size": [
+          1.06,
+          1.36,
+          0.64
+        ]
+      },
+      {
+        "type": "box",
+        "center": [
+          0.0,
+          1.84,
+          -0.0
+        ],
+        "size": [
+          1.28,
+          0.48,
+          0.84
+        ]
+      }
+    ],
+    "prop-offering-bowl-stone": [
+      {
+        "type": "box",
+        "center": [
+          0.0,
+          0.32,
+          -0.0
+        ],
+        "size": [
+          0.38,
+          0.64,
+          0.38
+        ]
+      },
+      {
+        "type": "box",
+        "center": [
+          0.0,
+          0.705,
+          -0.0
+        ],
+        "size": [
+          0.66,
+          0.13,
+          0.66
+        ]
+      }
+    ],
+    "prop-holy-water-font": [
+      {
+        "type": "box",
+        "center": [
+          0.0,
+          0.09,
+          -0.0
+        ],
+        "size": [
+          0.74,
+          0.18,
+          0.74
+        ]
+      },
+      {
+        "type": "box",
+        "center": [
+          0.0,
+          0.38,
+          -0.0
+        ],
+        "size": [
+          0.3,
+          0.4,
+          0.3
+        ]
+      },
+      {
+        "type": "box",
+        "center": [
+          0.0,
+          0.815,
+          -0.0
+        ],
+        "size": [
+          0.74,
+          0.47,
+          0.74
+        ]
+      }
+    ],
+    "prop-votive-candle-rack": [
+      {
+        "type": "box",
+        "center": [
+          0.0,
+          0.51,
+          -0.0
+        ],
+        "size": [
+          0.94,
+          1.02,
+          0.5
+        ]
+      }
+    ]
+  }
+}

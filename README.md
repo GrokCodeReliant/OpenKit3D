@@ -23,13 +23,14 @@ A few supporting folders ship alongside these: body coverage for the hero, share
 
 ## Prop packs (batch 1)
 
-The `packs/` folder contains **218** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
+The `packs/` folder contains **224** CC0-licensed medieval prop packs. Each pack includes FBX models, textures, a contact sheet, and documentation.
 
 | Pack | Description |
 | --- | --- |
 | `openkit-adze-extras-b1` | Carpenter hewing-adze extras: blade blank, eye, handle, wedge |
 | `openkit-alchemy-props-b1` | Alchemy lab equipment |
 | `openkit-apothecary-props-b1` | Apothecary workshop props |
+| `openkit-arcane-focus-b1` | Arcane focus props |
 | `openkit-armorer-props-b1` | Armorer workshop props |
 | `openkit-archery-range-b1` | Archery targets and training props |
 | `openkit-arrowsmith-props-b1` | Arrowsmith workshop props |
@@ -95,6 +96,7 @@ The `packs/` folder contains **218** CC0-licensed medieval prop packs. Each pack
 | `openkit-dyer-props-b1` | Dyer workshop props |
 | `openkit-embroiderer-props-b1` | Embroiderer workshop props |
 | `openkit-farm-props-b1` | Farm equipment |
+| `openkit-farmhouse-market-equipment-b1` | Farmhouse and market equipment props |
 | `openkit-farrier-props-b1` | Farrier workshop props |
 | `openkit-fence-gate-b1` | Fences and gates |
 | `openkit-feltmaker-props-b1` | Feltmaker workshop props |
@@ -109,6 +111,7 @@ The `packs/` folder contains **218** CC0-licensed medieval prop packs. Each pack
 | `openkit-furniture-extras-b1` | Additional furniture pieces |
 | `openkit-fuller-props-b1` | Fuller (cloth finishing) workshop props |
 | `openkit-furrier-props-b1` | Furrier workshop props |
+| `openkit-gaol-cells-b1` | Gaol cell pieces |
 | `openkit-gilder-props-b1` | Gilder workshop props |
 | `openkit-gimlet-maker-props-b1` | Gimlet-maker workshop props |
 | `openkit-glassblower-props-b1` | Glassblower workshop props |
@@ -121,6 +124,7 @@ The `packs/` folder contains **218** CC0-licensed medieval prop packs. Each pack
 | `openkit-harness-maker-props-b1` | Harness-maker workshop props |
 | `openkit-hat-maker-props-b1` | Hat-maker workshop props |
 | `openkit-hatchet-extras-b1` | Carpenter hatchet extras: head blank, eye, handle, wedge |
+| `openkit-hauling-lifting-b1` | Hauling and lifting props |
 | `openkit-helm-maker-props-b1` | Helm-maker workshop props |
 | `openkit-herbalist-props-b1` | Herbalist workshop props |
 | `openkit-hinge-maker-props-b1` | Hinge-maker workshop props |
@@ -230,6 +234,7 @@ The `packs/` folder contains **218** CC0-licensed medieval prop packs. Each pack
 | `openkit-thimble-maker-props-b1` | Thimble-maker workshop props |
 | `openkit-tiler-props-b1` | Tiler workshop props |
 | `openkit-tinsmith-props-b1` | Tinsmith workshop props |
+| `openkit-training-yard-b1` | Training yard props |
 | `openkit-trumpet-maker-props-b1` | Trumpet-maker workshop props |
 | `openkit-try-square-maker-props-b1` | Try-square maker workshop props |
 | `openkit-turner-props-b1` | Turner / lathe workshop props |
@@ -239,6 +244,7 @@ The `packs/` folder contains **218** CC0-licensed medieval prop packs. Each pack
 | `openkit-wall-dress-b1` | Wall decorations |
 | `openkit-watchmaker-props-b1` | Watchmaker workshop props |
 | `openkit-wax-tablet-maker-props-b1` | Wax-tablet maker workshop props |
+| `openkit-wayside-shrine-b1` | Wayside shrine props |
 | `openkit-weaver-props-b1` | Weaver workshop props |
 | `openkit-well-water-b1` | Wells and water props |
 | `openkit-wheelwright-props-b1` | Wheelwright workshop props |

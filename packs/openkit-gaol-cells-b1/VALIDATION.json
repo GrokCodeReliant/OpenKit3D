@@ -1,0 +1,1149 @@
+{
+ "status": "3D ENGINE HOLD",
+ "engine_test_date": "2026-11-25",
+ "engine_test_report": "Open Kit team Unity engine test, 25 November 2026",
+ "engine_test_unity": "6000.4.0f1",
+ "unity_test": "passed with one note on the floor tiles, Build Engineer engine test, 25 Nov 2026, Unity 6000.4.0f1, Convert Units and Bake Axis on; other importers may differ",
+ "method": "Exported FBX and GLB re-imported in Blender 5.2.1; GLB also parsed directly, independent of the Blender importer",
+ "gates": {
+  "tile-dungeon-floor-grate": {
+   "checks": {
+    "tris_within_budget_fbx_glb": true,
+    "materials_PSA_<=3_per_mesh": true,
+    "pivot": true,
+    "fbx_glb_agree": true,
+    "mesh_integrity_fbx": true,
+    "flat_normals_fbx_glb": true,
+    "okit_validate_extra_roomadapt": true,
+    "collider_files_consistent": true,
+    "collider_coverage_>=95pct": true,
+    "placement_fit": true,
+    "walkable_top_rays": true,
+    "solid_ground_collider_full_cell": true,
+    "grate_bars_6_slabs_9": true
+   },
+   "measured_geometry": "PASS"
+  },
+  "tile-dungeon-floor-trapdoor": {
+   "checks": {
+    "tris_within_budget_fbx_glb": true,
+    "materials_PSA_<=3_per_mesh": true,
+    "pivot": true,
+    "fbx_glb_agree": true,
+    "mesh_integrity_fbx": true,
+    "flat_normals_fbx_glb": true,
+    "okit_validate_extra_roomadapt": true,
+    "collider_files_consistent": true,
+    "collider_coverage_>=95pct": true,
+    "placement_fit": true,
+    "walkable_top_rays": true,
+    "solid_ground_collider_full_cell": true,
+    "planks_5_slabs_9": true
+   },
+   "measured_geometry": "PASS"
+  },
+  "wall-dungeon-cell-bars": {
+   "checks": {
+    "tris_within_budget_fbx_glb": true,
+    "materials_PSA_<=3_per_mesh": true,
+    "pivot": true,
+    "fbx_glb_agree": true,
+    "mesh_integrity_fbx": true,
+    "flat_normals_fbx_glb": true,
+    "okit_validate_extra_roomadapt": true,
+    "collider_files_consistent": true,
+    "collider_coverage_>=95pct": true,
+    "placement_fit": true,
+    "bars_9_gap_under_0p12": true,
+    "fade_marker_name_contains_wall": true
+   },
+   "measured_geometry": "PASS"
+  },
+  "prop-stocks-wood": {
+   "checks": {
+    "tris_within_budget_fbx_glb": true,
+    "materials_PSA_<=3_per_mesh": true,
+    "pivot": true,
+    "fbx_glb_agree": true,
+    "mesh_integrity_fbx": true,
+    "flat_normals_fbx_glb": true,
+    "okit_validate_extra_roomadapt": true,
+    "collider_files_consistent": true,
+    "collider_coverage_>=95pct": true,
+    "placement_fit": true,
+    "stocks_two_open_leg_holes": true
+   },
+   "measured_geometry": "PASS"
+  },
+  "mixed_layout_no_intersection": true,
+  "kit_snap": true
+ },
+ "placement": {
+  "tile-dungeon-floor-grate": {
+   "layout": "3x3 duplicates, pitch 1.5 m",
+   "neighbour_pairs_tested": 20,
+   "triangle_intersections": 0,
+   "shrink_for_face_contact": 0.999,
+   "max_half_extent_xy_m": [
+    0.75,
+    0.75
+   ],
+   "fits_footprint": true,
+   "min_neighbour_gap_m": 0.0,
+   "on_ground_tol_1mm": true,
+   "edge_snap_width_x_is_1p5_tol_1mm": true,
+   "edge_snap_depth_y_is_1p5_tol_1mm": true
+  },
+  "tile-dungeon-floor-trapdoor": {
+   "layout": "3x3 duplicates, pitch 1.5 m",
+   "neighbour_pairs_tested": 20,
+   "triangle_intersections": 0,
+   "shrink_for_face_contact": 0.999,
+   "max_half_extent_xy_m": [
+    0.75,
+    0.75
+   ],
+   "fits_footprint": true,
+   "min_neighbour_gap_m": 0.0,
+   "on_ground_tol_1mm": true,
+   "edge_snap_width_x_is_1p5_tol_1mm": true,
+   "edge_snap_depth_y_is_1p5_tol_1mm": true
+  },
+  "wall-dungeon-cell-bars": {
+   "layout": "row of 3 along x, pitch 1.5 m",
+   "neighbour_pairs_tested": 2,
+   "triangle_intersections": 0,
+   "shrink_for_face_contact": 0.999,
+   "max_half_extent_xy_m": [
+    0.75,
+    0.17
+   ],
+   "fits_footprint": true,
+   "min_neighbour_gap_m": 0.0,
+   "on_ground_tol_1mm": true,
+   "edge_snap_width_x_is_1p5_tol_1mm": true
+  },
+  "prop-stocks-wood": {
+   "layout": "3x3 duplicates, pitch 1.5 m",
+   "neighbour_pairs_tested": 20,
+   "triangle_intersections": 0,
+   "shrink_for_face_contact": 1.0,
+   "max_half_extent_xy_m": [
+    0.7,
+    0.3
+   ],
+   "fits_footprint": true,
+   "min_neighbour_gap_m": 0.1,
+   "on_ground_tol_1mm": true
+  },
+  "kit_snap": {
+   "kit_wall_bounds_m": [
+    [
+     -0.75,
+     -0.17,
+     -0.0
+    ],
+    [
+     0.75,
+     0.17,
+     3.0
+    ]
+   ],
+   "kit_tile_bounds_m": [
+    [
+     -0.75,
+     -0.75,
+     -0.12
+    ],
+    [
+     0.75,
+     0.75,
+     -0.0
+    ]
+   ],
+   "bar_wall_between_two_kit_walls": {
+    "triangle_intersections": 0,
+    "height_matches_kit": true,
+    "thickness_matches_kit": true
+   },
+   "tile-dungeon-floor-grate_ringed_by_kit_floor": {
+    "triangle_intersections": 0,
+    "top_matches_kit": true,
+    "bottom_matches_kit": true
+   },
+   "tile-dungeon-floor-trapdoor_ringed_by_kit_floor": {
+    "triangle_intersections": 0,
+    "top_matches_kit": true,
+    "bottom_matches_kit": true
+   }
+  },
+  "mixed_layout": {
+   "positions_m": {
+    "tile-dungeon-floor-grate": [
+     -0.75,
+     0.0
+    ],
+    "tile-dungeon-floor-trapdoor": [
+     0.75,
+     0.0
+    ],
+    "prop-stocks-wood": [
+     -0.75,
+     0.0
+    ],
+    "wall-dungeon-cell-bars": [
+     0.75,
+     0.9
+    ]
+   },
+   "note": "stocks stand on the grate tile (walking surface z = 0); bar wall sits on the trapdoor tile's back edge",
+   "triangle_intersections": 0
+  }
+ },
+ "assets": {
+  "tile-dungeon-floor-grate": {
+   "budget": 2500,
+   "size_class": "Medium",
+   "cells": 1,
+   "category": "Tiles",
+   "pivot": "floor_top",
+   "fbx_glb_agree": {
+    "tris_equal": true,
+    "bounds_max_abs_diff_m": 0.0,
+    "area_rel_diff": 0.0,
+    "materials_equal": true
+   },
+   "collider": {
+    "shells": 1,
+    "all_closed_convex_outward": true,
+    "max_shell_tris": 12,
+    "unity_convex_limit_255_ok": true,
+    "collision_fbx_vs_json_max_diff_m": 0.0,
+    "collision_glb_vs_fbx_bounds_diff_m": 0.0,
+    "surface_points_sampled": 20000,
+    "surface_coverage_pct_tol_1cm": 100.0,
+    "overreach_beyond_visual_bounds_m": 0.0,
+    "uncovered_points_z_range": null,
+    "json_behaviour": "solid, walkable: one box for the whole cell, top at the walking surface (z = 0); the sump under the grate is filled"
+   },
+   "fbx": {
+    "nodes": [
+     "MESH:tile-dungeon-floor-grate"
+    ],
+    "tris": 552,
+    "faces_without_material": 0,
+    "materials_assigned": [
+     "Accent",
+     "Primary",
+     "Secondary"
+    ],
+    "material_slot_count_per_mesh": {
+     "tile-dungeon-floor-grate": 3
+    },
+    "size_m_x_depth_up": [
+     1.5,
+     1.5,
+     0.12
+    ],
+    "bounds_min_zup": [
+     -0.75,
+     -0.75,
+     -0.12
+    ],
+    "bounds_max_zup": [
+     0.75,
+     0.75,
+     0.0
+    ],
+    "pivot_offset_xy": [
+     0.0,
+     0.0
+    ],
+    "min_z": -0.12,
+    "smooth_faces": 0,
+    "integrity": {
+     "shells": 22,
+     "open_or_nonmanifold_shells": 0,
+     "inward_shells": 0,
+     "zero_area_faces": 0,
+     "loose_verts": 0,
+     "normal_mismatch_corners": 0,
+     "corners": 1656
+    },
+    "surface_area_m2": 9.8739,
+    "item": {
+     "top_z": 0.0,
+     "depth_m": 0.12,
+     "width_x": 1.5,
+     "depth_y": 1.5,
+     "downward_rays": 225,
+     "rays_missing": 0,
+     "ray_hit_z_min": -0.045,
+     "ray_hit_z_max": 0.0,
+     "slabs": 9,
+     "iron_parts": 12,
+     "planks": null,
+     "grate_bars": 6,
+     "max_proud_above_walk_m": 0.0
+    },
+    "okit_validate": {
+     "tris": 552,
+     "dims_m": [
+      1.5,
+      1.5,
+      0.12
+     ],
+     "slots": [
+      "Primary",
+      "Secondary",
+      "Accent"
+     ],
+     "ok_budget": true,
+     "ok_pivot": true,
+     "ok_naming": true,
+     "ok_extra": true,
+     "problems": [],
+     "ok_roomadapt": true,
+     "roomadapt_problems": [],
+     "user_slots": [
+      "Primary",
+      "Secondary",
+      "Tertiary"
+     ]
+    }
+   },
+   "glb": {
+    "nodes": [
+     "MESH:tile-dungeon-floor-grate"
+    ],
+    "tris": 552,
+    "faces_without_material": 0,
+    "materials_assigned": [
+     "Accent",
+     "Primary",
+     "Secondary"
+    ],
+    "material_slot_count_per_mesh": {
+     "tile-dungeon-floor-grate": 3
+    },
+    "size_m_x_depth_up": [
+     1.5,
+     1.5,
+     0.12
+    ],
+    "bounds_min_zup": [
+     -0.75,
+     -0.75,
+     -0.12
+    ],
+    "bounds_max_zup": [
+     0.75,
+     0.75,
+     0.0
+    ],
+    "pivot_offset_xy": [
+     0.0,
+     0.0
+    ],
+    "min_z": -0.12,
+    "smooth_faces": 16,
+    "integrity": {
+     "shells": 312,
+     "open_or_nonmanifold_shells": 312,
+     "inward_shells": 112,
+     "zero_area_faces": 0,
+     "loose_verts": 0,
+     "normal_mismatch_corners": 0,
+     "corners": 1656
+    },
+    "surface_area_m2": 9.8739
+   }
+  },
+  "tile-dungeon-floor-trapdoor": {
+   "budget": 2500,
+   "size_class": "Medium",
+   "cells": 1,
+   "category": "Tiles",
+   "pivot": "floor_top",
+   "fbx_glb_agree": {
+    "tris_equal": true,
+    "bounds_max_abs_diff_m": 0.0,
+    "area_rel_diff": 0.0,
+    "materials_equal": true
+   },
+   "collider": {
+    "shells": 1,
+    "all_closed_convex_outward": true,
+    "max_shell_tris": 12,
+    "unity_convex_limit_255_ok": true,
+    "collision_fbx_vs_json_max_diff_m": 0.0,
+    "collision_glb_vs_fbx_bounds_diff_m": 0.0,
+    "surface_points_sampled": 20000,
+    "surface_coverage_pct_tol_1cm": 100.0,
+    "overreach_beyond_visual_bounds_m": 0.0,
+    "uncovered_points_z_range": null,
+    "json_behaviour": "solid, walkable: one box for the whole cell, top at the walking surface (z = 0); the hatch is closed and does not open"
+   },
+   "fbx": {
+    "nodes": [
+     "MESH:tile-dungeon-floor-trapdoor"
+    ],
+    "tris": 656,
+    "faces_without_material": 0,
+    "materials_assigned": [
+     "Accent",
+     "Primary",
+     "Secondary"
+    ],
+    "material_slot_count_per_mesh": {
+     "tile-dungeon-floor-trapdoor": 3
+    },
+    "size_m_x_depth_up": [
+     1.5,
+     1.5,
+     0.12
+    ],
+    "bounds_min_zup": [
+     -0.75,
+     -0.75,
+     -0.12
+    ],
+    "bounds_max_zup": [
+     0.75,
+     0.75,
+     0.0
+    ],
+    "pivot_offset_xy": [
+     0.0,
+     0.0
+    ],
+    "min_z": -0.12,
+    "smooth_faces": 0,
+    "integrity": {
+     "shells": 25,
+     "open_or_nonmanifold_shells": 0,
+     "inward_shells": 0,
+     "zero_area_faces": 0,
+     "loose_verts": 0,
+     "normal_mismatch_corners": 0,
+     "corners": 1968
+    },
+    "surface_area_m2": 10.7015,
+    "item": {
+     "top_z": 0.0,
+     "depth_m": 0.12,
+     "width_x": 1.5,
+     "depth_y": 1.5,
+     "downward_rays": 225,
+     "rays_missing": 0,
+     "ray_hit_z_min": -0.05,
+     "ray_hit_z_max": 0.0,
+     "slabs": 9,
+     "iron_parts": 10,
+     "planks": 5,
+     "grate_bars": null,
+     "max_proud_above_walk_m": 0.0
+    },
+    "okit_validate": {
+     "tris": 656,
+     "dims_m": [
+      1.5,
+      1.5,
+      0.12
+     ],
+     "slots": [
+      "Primary",
+      "Secondary",
+      "Accent"
+     ],
+     "ok_budget": true,
+     "ok_pivot": true,
+     "ok_naming": true,
+     "ok_extra": true,
+     "problems": [],
+     "ok_roomadapt": true,
+     "roomadapt_problems": [],
+     "user_slots": [
+      "Primary",
+      "Secondary",
+      "Tertiary"
+     ]
+    }
+   },
+   "glb": {
+    "nodes": [
+     "MESH:tile-dungeon-floor-trapdoor"
+    ],
+    "tris": 656,
+    "faces_without_material": 0,
+    "materials_assigned": [
+     "Accent",
+     "Primary",
+     "Secondary"
+    ],
+    "material_slot_count_per_mesh": {
+     "tile-dungeon-floor-trapdoor": 3
+    },
+    "size_m_x_depth_up": [
+     1.5,
+     1.5,
+     0.12
+    ],
+    "bounds_min_zup": [
+     -0.75,
+     -0.75,
+     -0.12
+    ],
+    "bounds_max_zup": [
+     0.75,
+     0.75,
+     0.0
+    ],
+    "pivot_offset_xy": [
+     0.0,
+     0.0
+    ],
+    "min_z": -0.12,
+    "smooth_faces": 16,
+    "integrity": {
+     "shells": 346,
+     "open_or_nonmanifold_shells": 346,
+     "inward_shells": 129,
+     "zero_area_faces": 0,
+     "loose_verts": 0,
+     "normal_mismatch_corners": 0,
+     "corners": 1968
+    },
+    "surface_area_m2": 10.7015
+   }
+  },
+  "wall-dungeon-cell-bars": {
+   "budget": 2500,
+   "size_class": "Medium",
+   "cells": 1,
+   "category": "Walls",
+   "pivot": "bottom_center",
+   "fbx_glb_agree": {
+    "tris_equal": true,
+    "bounds_max_abs_diff_m": 0.0,
+    "area_rel_diff": 0.0,
+    "materials_equal": true
+   },
+   "collider": {
+    "shells": 6,
+    "all_closed_convex_outward": true,
+    "max_shell_tris": 64,
+    "unity_convex_limit_255_ok": true,
+    "collision_fbx_vs_json_max_diff_m": 0.0,
+    "collision_glb_vs_fbx_bounds_diff_m": 0.0,
+    "surface_points_sampled": 20000,
+    "surface_coverage_pct_tol_1cm": 100.0,
+    "overreach_beyond_visual_bounds_m": 0.0,
+    "uncovered_points_z_range": null,
+    "json_behaviour": "solid, blocking: jambs, sill, lintel, cap course, and the bars as one thin solid panel (characters cannot pass; whether rays or projectiles pass the gaps is up to your setup)"
+   },
+   "fbx": {
+    "nodes": [
+     "MESH:wall-dungeon-cell-bars"
+    ],
+    "tris": 1100,
+    "faces_without_material": 0,
+    "materials_assigned": [
+     "Accent",
+     "Primary",
+     "Secondary"
+    ],
+    "material_slot_count_per_mesh": {
+     "wall-dungeon-cell-bars": 3
+    },
+    "size_m_x_depth_up": [
+     1.5,
+     0.34,
+     3.0
+    ],
+    "bounds_min_zup": [
+     -0.75,
+     -0.17,
+     -0.0
+    ],
+    "bounds_max_zup": [
+     0.75,
+     0.17,
+     3.0
+    ],
+    "pivot_offset_xy": [
+     0.0,
+     0.0
+    ],
+    "min_z": -0.0,
+    "smooth_faces": 0,
+    "integrity": {
+     "shells": 32,
+     "open_or_nonmanifold_shells": 0,
+     "inward_shells": 0,
+     "zero_area_faces": 0,
+     "loose_verts": 0,
+     "normal_mismatch_corners": 0,
+     "corners": 3300
+    },
+    "surface_area_m2": 19.0638,
+    "item": {
+     "bars": 9,
+     "clear_gaps_m": [
+      0.066
+     ],
+     "height": 3.0,
+     "width_x": 1.5,
+     "thickness_y": 0.34,
+     "see_through_rays_between_jambs": 84,
+     "rays": 123,
+     "stone_blocks": 19
+    },
+    "okit_validate": {
+     "tris": 1100,
+     "dims_m": [
+      1.5,
+      0.34,
+      3.0
+     ],
+     "slots": [
+      "Primary",
+      "Secondary",
+      "Accent"
+     ],
+     "ok_budget": true,
+     "ok_pivot": true,
+     "ok_naming": true,
+     "ok_extra": true,
+     "problems": [],
+     "ok_roomadapt": true,
+     "roomadapt_problems": [],
+     "user_slots": [
+      "Primary",
+      "Secondary",
+      "Tertiary"
+     ]
+    }
+   },
+   "glb": {
+    "nodes": [
+     "MESH:wall-dungeon-cell-bars"
+    ],
+    "tris": 1100,
+    "faces_without_material": 0,
+    "materials_assigned": [
+     "Accent",
+     "Primary",
+     "Secondary"
+    ],
+    "material_slot_count_per_mesh": {
+     "wall-dungeon-cell-bars": 3
+    },
+    "size_m_x_depth_up": [
+     1.5,
+     0.34,
+     3.0
+    ],
+    "bounds_min_zup": [
+     -0.75,
+     -0.17,
+     0.0
+    ],
+    "bounds_max_zup": [
+     0.75,
+     0.17,
+     3.0
+    ],
+    "pivot_offset_xy": [
+     0.0,
+     0.0
+    ],
+    "min_z": 0.0,
+    "smooth_faces": 12,
+    "integrity": {
+     "shells": 590,
+     "open_or_nonmanifold_shells": 590,
+     "inward_shells": 234,
+     "zero_area_faces": 0,
+     "loose_verts": 0,
+     "normal_mismatch_corners": 0,
+     "corners": 3300
+    },
+    "surface_area_m2": 19.0638
+   }
+  },
+  "prop-stocks-wood": {
+   "budget": 800,
+   "size_class": "Medium",
+   "cells": 1,
+   "category": "Props",
+   "pivot": "bottom_center",
+   "fbx_glb_agree": {
+    "tris_equal": true,
+    "bounds_max_abs_diff_m": 0.0,
+    "area_rel_diff": 0.0,
+    "materials_equal": true
+   },
+   "collider": {
+    "shells": 4,
+    "all_closed_convex_outward": true,
+    "max_shell_tris": 76,
+    "unity_convex_limit_255_ok": true,
+    "collision_fbx_vs_json_max_diff_m": 4e-05,
+    "collision_glb_vs_fbx_bounds_diff_m": 0.0,
+    "surface_points_sampled": 20000,
+    "surface_coverage_pct_tol_1cm": 100.0,
+    "overreach_beyond_visual_bounds_m": 0.0,
+    "uncovered_points_z_range": null,
+    "json_behaviour": "solid, blocking (feet, sill, uprights, boards and cap rail); the leg notches are closed by the collision"
+   },
+   "fbx": {
+    "nodes": [
+     "MESH:prop-stocks-wood"
+    ],
+    "tris": 380,
+    "faces_without_material": 0,
+    "materials_assigned": [
+     "Accent",
+     "Primary",
+     "Secondary"
+    ],
+    "material_slot_count_per_mesh": {
+     "prop-stocks-wood": 3
+    },
+    "size_m_x_depth_up": [
+     1.4,
+     0.6,
+     1.06
+    ],
+    "bounds_min_zup": [
+     -0.7,
+     -0.3,
+     -0.0
+    ],
+    "bounds_max_zup": [
+     0.7,
+     0.3,
+     1.06
+    ],
+    "pivot_offset_xy": [
+     0.0,
+     0.0
+    ],
+    "min_z": -0.0,
+    "smooth_faces": 0,
+    "integrity": {
+     "shells": 17,
+     "open_or_nonmanifold_shells": 0,
+     "inward_shells": 0,
+     "zero_area_faces": 0,
+     "loose_verts": 0,
+     "normal_mismatch_corners": 0,
+     "corners": 1140
+    },
+    "surface_area_m2": 4.5548,
+    "item": {
+     "leg_holes_open_front_to_back": 2,
+     "boards": 2,
+     "uprights": 2,
+     "iron_parts": 5,
+     "height": 1.06,
+     "board_gap_m": 0.006
+    },
+    "okit_validate": {
+     "tris": 380,
+     "dims_m": [
+      1.4,
+      0.6,
+      1.06
+     ],
+     "slots": [
+      "Primary",
+      "Secondary",
+      "Accent"
+     ],
+     "ok_budget": true,
+     "ok_pivot": true,
+     "ok_naming": true,
+     "ok_extra": true,
+     "problems": [],
+     "ok_roomadapt": true,
+     "roomadapt_problems": [],
+     "user_slots": [
+      "Primary",
+      "Secondary",
+      "Tertiary"
+     ]
+    }
+   },
+   "glb": {
+    "nodes": [
+     "MESH:prop-stocks-wood"
+    ],
+    "tris": 380,
+    "faces_without_material": 0,
+    "materials_assigned": [
+     "Accent",
+     "Primary",
+     "Secondary"
+    ],
+    "material_slot_count_per_mesh": {
+     "prop-stocks-wood": 3
+    },
+    "size_m_x_depth_up": [
+     1.4,
+     0.6,
+     1.06
+    ],
+    "bounds_min_zup": [
+     -0.7,
+     -0.3,
+     0.0
+    ],
+    "bounds_max_zup": [
+     0.7,
+     0.3,
+     1.06
+    ],
+    "pivot_offset_xy": [
+     0.0,
+     0.0
+    ],
+    "min_z": 0.0,
+    "smooth_faces": 8,
+    "integrity": {
+     "shells": 170,
+     "open_or_nonmanifold_shells": 170,
+     "inward_shells": 55,
+     "zero_area_faces": 0,
+     "loose_verts": 0,
+     "normal_mismatch_corners": 0,
+     "corners": 1140
+    },
+    "surface_area_m2": 4.5548
+   }
+  }
+ },
+ "independent_glb": {
+  "prop-stocks-wood.glb": {
+   "generator": "Khronos glTF Blender I/O v5.2.40",
+   "tris": 380,
+   "materials": [
+    "Accent",
+    "Primary",
+    "Secondary"
+   ],
+   "material_count": 3,
+   "images": 0,
+   "textures": 0,
+   "finite": true,
+   "closed_edge_pairs_ok": true,
+   "components": 17,
+   "inward_components": 0,
+   "min_tri_area_m2": 0.00012470756997948952,
+   "degenerate_tris_lt_1e-8": 0,
+   "bounds_min_yup": [
+    -0.7,
+    0.0,
+    -0.3
+   ],
+   "bounds_max_yup": [
+    0.7,
+    1.06,
+    0.3
+   ],
+   "size_x_y_z_yup": [
+    1.4,
+    1.06,
+    0.6
+   ],
+   "pivot_xz": [
+    0.0,
+    0.0
+   ],
+   "coplanar_same_facing_overlaps_between_parts": 0,
+   "coplanar_opposite_facing_contacts": 2,
+   "same_facing_examples": []
+  },
+  "tile-dungeon-floor-grate.glb": {
+   "generator": "Khronos glTF Blender I/O v5.2.40",
+   "tris": 552,
+   "materials": [
+    "Accent",
+    "Primary",
+    "Secondary"
+   ],
+   "material_count": 3,
+   "images": 0,
+   "textures": 0,
+   "finite": true,
+   "closed_edge_pairs_ok": true,
+   "components": 22,
+   "inward_components": 0,
+   "min_tri_area_m2": 0.00019485545106154932,
+   "degenerate_tris_lt_1e-8": 0,
+   "bounds_min_yup": [
+    -0.75,
+    -0.12,
+    -0.75
+   ],
+   "bounds_max_yup": [
+    0.75,
+    0.0,
+    0.75
+   ],
+   "size_x_y_z_yup": [
+    1.5,
+    0.12,
+    1.5
+   ],
+   "pivot_xz": [
+    0.0,
+    0.0
+   ],
+   "coplanar_same_facing_overlaps_between_parts": 0,
+   "coplanar_opposite_facing_contacts": 0,
+   "same_facing_examples": []
+  },
+  "tile-dungeon-floor-trapdoor.glb": {
+   "generator": "Khronos glTF Blender I/O v5.2.40",
+   "tris": 656,
+   "materials": [
+    "Accent",
+    "Primary",
+    "Secondary"
+   ],
+   "material_count": 3,
+   "images": 0,
+   "textures": 0,
+   "finite": true,
+   "closed_edge_pairs_ok": true,
+   "components": 25,
+   "inward_components": 0,
+   "min_tri_area_m2": 9.643618242203404e-05,
+   "degenerate_tris_lt_1e-8": 0,
+   "bounds_min_yup": [
+    -0.75,
+    -0.12,
+    -0.75
+   ],
+   "bounds_max_yup": [
+    0.75,
+    0.0,
+    0.75
+   ],
+   "size_x_y_z_yup": [
+    1.5,
+    0.12,
+    1.5
+   ],
+   "pivot_xz": [
+    0.0,
+    0.0
+   ],
+   "coplanar_same_facing_overlaps_between_parts": 0,
+   "coplanar_opposite_facing_contacts": 0,
+   "same_facing_examples": []
+  },
+  "wall-dungeon-cell-bars.glb": {
+   "generator": "Khronos glTF Blender I/O v5.2.40",
+   "tris": 1100,
+   "materials": [
+    "Accent",
+    "Primary",
+    "Secondary"
+   ],
+   "material_count": 3,
+   "images": 0,
+   "textures": 0,
+   "finite": true,
+   "closed_edge_pairs_ok": true,
+   "components": 32,
+   "inward_components": 0,
+   "min_tri_area_m2": 0.0001948555801093164,
+   "degenerate_tris_lt_1e-8": 0,
+   "bounds_min_yup": [
+    -0.75,
+    0.0,
+    -0.17
+   ],
+   "bounds_max_yup": [
+    0.75,
+    3.0,
+    0.17
+   ],
+   "size_x_y_z_yup": [
+    1.5,
+    3.0,
+    0.34
+   ],
+   "pivot_xz": [
+    0.0,
+    0.0
+   ],
+   "coplanar_same_facing_overlaps_between_parts": 0,
+   "coplanar_opposite_facing_contacts": 0,
+   "same_facing_examples": []
+  }
+ },
+ "independent_collision_glb": {
+  "prop-stocks-wood-col.glb": {
+   "generator": "Khronos glTF Blender I/O v5.2.40",
+   "tris": 136,
+   "materials": [],
+   "material_count": 0,
+   "images": 0,
+   "textures": 0,
+   "finite": true,
+   "closed_edge_pairs_ok": true,
+   "components": 4,
+   "inward_components": 0,
+   "min_tri_area_m2": 0.00012470756997948952,
+   "degenerate_tris_lt_1e-8": 0,
+   "bounds_min_yup": [
+    -0.7,
+    0.0,
+    -0.3
+   ],
+   "bounds_max_yup": [
+    0.7,
+    1.06,
+    0.3
+   ],
+   "size_x_y_z_yup": [
+    1.4,
+    1.06,
+    0.6
+   ],
+   "pivot_xz": [
+    0.0,
+    0.0
+   ],
+   "coplanar_same_facing_overlaps_between_parts": 0,
+   "coplanar_opposite_facing_contacts": 0,
+   "same_facing_examples": []
+  },
+  "tile-dungeon-floor-grate-col.glb": {
+   "generator": "Khronos glTF Blender I/O v5.2.40",
+   "tris": 12,
+   "materials": [],
+   "material_count": 0,
+   "images": 0,
+   "textures": 0,
+   "finite": true,
+   "closed_edge_pairs_ok": true,
+   "components": 1,
+   "inward_components": 0,
+   "min_tri_area_m2": 0.08999999798834324,
+   "degenerate_tris_lt_1e-8": 0,
+   "bounds_min_yup": [
+    -0.75,
+    -0.12,
+    -0.75
+   ],
+   "bounds_max_yup": [
+    0.75,
+    0.0,
+    0.75
+   ],
+   "size_x_y_z_yup": [
+    1.5,
+    0.12,
+    1.5
+   ],
+   "pivot_xz": [
+    0.0,
+    0.0
+   ],
+   "coplanar_same_facing_overlaps_between_parts": 0,
+   "coplanar_opposite_facing_contacts": 0,
+   "same_facing_examples": []
+  },
+  "tile-dungeon-floor-trapdoor-col.glb": {
+   "generator": "Khronos glTF Blender I/O v5.2.40",
+   "tris": 12,
+   "materials": [],
+   "material_count": 0,
+   "images": 0,
+   "textures": 0,
+   "finite": true,
+   "closed_edge_pairs_ok": true,
+   "components": 1,
+   "inward_components": 0,
+   "min_tri_area_m2": 0.08999999798834324,
+   "degenerate_tris_lt_1e-8": 0,
+   "bounds_min_yup": [
+    -0.75,
+    -0.12,
+    -0.75
+   ],
+   "bounds_max_yup": [
+    0.75,
+    0.0,
+    0.75
+   ],
+   "size_x_y_z_yup": [
+    1.5,
+    0.12,
+    1.5
+   ],
+   "pivot_xz": [
+    0.0,
+    0.0
+   ],
+   "coplanar_same_facing_overlaps_between_parts": 0,
+   "coplanar_opposite_facing_contacts": 0,
+   "same_facing_examples": []
+  },
+  "wall-dungeon-cell-bars-col.glb": {
+   "generator": "Khronos glTF Blender I/O v5.2.40",
+   "tris": 176,
+   "materials": [],
+   "material_count": 0,
+   "images": 0,
+   "textures": 0,
+   "finite": true,
+   "closed_edge_pairs_ok": true,
+   "components": 6,
+   "inward_components": 0,
+   "min_tri_area_m2": 0.00014999961456189874,
+   "degenerate_tris_lt_1e-8": 0,
+   "bounds_min_yup": [
+    -0.75,
+    0.0,
+    -0.17
+   ],
+   "bounds_max_yup": [
+    0.75,
+    3.0,
+    0.17
+   ],
+   "size_x_y_z_yup": [
+    1.5,
+    3.0,
+    0.34
+   ],
+   "pivot_xz": [
+    0.0,
+    0.0
+   ],
+   "coplanar_same_facing_overlaps_between_parts": 0,
+   "coplanar_opposite_facing_contacts": 8,
+   "same_facing_examples": []
+  }
+ },
+ "engine_checks_run": [
+  "Unity FBX import at scale 1 with Convert Units and Bake Axis Conversion, and prefab creation",
+  "Unity collider components from colliders.json or collision meshes",
+  "ThemeAdaptive 3-colour slot binding",
+  "Grid snapping in the engine",
+  "Camera-fade logic test on the cell-bars wall (fade value applied and read back; not drawn on screen)"
+ ],
+ "engine_checks_not_run": [
+  "Play mode",
+  "On-screen camera fade",
+  "Character-controller contact on the floor tiles",
+  "Projectile or ray behaviour through the bars",
+  "Room-adapt scaling"
+ ]
+}
