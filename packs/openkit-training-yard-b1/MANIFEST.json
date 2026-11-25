@@ -1,0 +1,288 @@
+{
+ "pack": "training-yard",
+ "license": "CC0-1.0",
+ "unit": "1 unit = 1 metre",
+ "pivot": "bottom centre",
+ "grid_cell_m": 1.5,
+ "material_slots": [
+  "Primary",
+  "Secondary",
+  "Accent"
+ ],
+ "formats": [
+  "fbx",
+  "glb"
+ ],
+ "engine_tested": true,
+ "engine_test_date": "2026-11-25",
+ "engine_test_report": "Open Kit team Unity engine test, 25 November 2026",
+ "files": [
+  {
+   "path": "CONTACT_SHEET.png",
+   "bytes": 1058017,
+   "sha256": "e41550d98ca13f7df2561788a7765c423c75bd72fb36a75523b47f3cd125d889"
+  },
+  {
+   "path": "CREDITS.md",
+   "bytes": 469,
+   "sha256": "66b4d52ffa64734aa36c9f0c03f4d2265f9e078e1d039499c61d11c8226d0ff7"
+  },
+  {
+   "path": "LICENSE",
+   "bytes": 7116,
+   "sha256": "1bddac2bb5081485a09ba1037e19d78daf2501f91930a411e7000f8b9f7ac7ab"
+  },
+  {
+   "path": "README.md",
+   "bytes": 2693,
+   "sha256": "e4b59e1685d69c45cf5820e5e90e7c29dceb4d4abf915a1f4c9961dbe67c462e"
+  },
+  {
+   "path": "USAGE.md",
+   "bytes": 4895,
+   "sha256": "a5f79441e887a6072da102ed2dc1d7d499d354ef09c7c48c6ec8129fa68f716e"
+  },
+  {
+   "path": "collision/colliders.json",
+   "bytes": 28276,
+   "sha256": "f2d8e1bee7a6539f60fcccc2ba05447c537c27d8afb1ba8dd6b5687c2305b8be"
+  },
+  {
+   "path": "collision/fbx/prop-armor-stand-wood-col.fbx",
+   "bytes": 21004,
+   "sha256": "ff8a00d946e7b23d0da21ad239cb3cd40ccc825bd6062df07add0f550c06899b"
+  },
+  {
+   "path": "collision/fbx/prop-pell-post-wood-col.fbx",
+   "bytes": 13900,
+   "sha256": "4f80766d8f9b1e5431e83ce7b7ca305003fb838181a3c663967d5464ee732cf2"
+  },
+  {
+   "path": "collision/fbx/prop-quintain-wood-col.fbx",
+   "bytes": 23068,
+   "sha256": "c892147a99afb4d1d2363cb28996773e3d9e9d8ba93cf2e7131263b2b43924a5"
+  },
+  {
+   "path": "collision/fbx/prop-training-dummy-straw-col.fbx",
+   "bytes": 22732,
+   "sha256": "7dc9c507e8e16526671f94bb8d1087281d47d8305e84e2da6c3960794e4b7e7d"
+  },
+  {
+   "path": "collision/glb/prop-armor-stand-wood-col.glb",
+   "bytes": 17556,
+   "sha256": "3df3efee7c88d6d7854d673ac02b8de87f04cc32321261564996e447c795e897"
+  },
+  {
+   "path": "collision/glb/prop-pell-post-wood-col.glb",
+   "bytes": 4388,
+   "sha256": "fd3c2e43d0b4dbce0a053293329a4b188c693930f23954a3ded46e7116d522dd"
+  },
+  {
+   "path": "collision/glb/prop-quintain-wood-col.glb",
+   "bytes": 19048,
+   "sha256": "f9443a20fd4dca7165e5b03ebbf5d99043d60747fc86c43e331ea072c609e75e"
+  },
+  {
+   "path": "collision/glb/prop-training-dummy-straw-col.glb",
+   "bytes": 18824,
+   "sha256": "c5e8575bfb4a7eafbb2c1a02c28aad3eb778eeb96fa94ed1b1ce088417297f62"
+  },
+  {
+   "path": "fbx/prop-armor-stand-wood.fbx",
+   "bytes": 33612,
+   "sha256": "dec0eb708c83017c4ccd6f557f58ce1676499b198d2d2ec34c9851253e58d879"
+  },
+  {
+   "path": "fbx/prop-pell-post-wood.fbx",
+   "bytes": 23260,
+   "sha256": "60fa06821901e25f0f798426eb514be529fb1918d5d9baee11674aa14ebae6c8"
+  },
+  {
+   "path": "fbx/prop-quintain-wood.fbx",
+   "bytes": 26780,
+   "sha256": "97fb2909b3692dbbd909aaf56059d12f955731e7ae9095a4563901b32bcdaea3"
+  },
+  {
+   "path": "fbx/prop-training-dummy-straw.fbx",
+   "bytes": 32844,
+   "sha256": "3d0f3953ddeb327ce4fde0edeb0c88a06737547168d50a3a22490401e7852d1d"
+  },
+  {
+   "path": "glb/prop-armor-stand-wood.glb",
+   "bytes": 45504,
+   "sha256": "82f5cdf7dc66c88f9fce8f0261a351a808a6584e9d07a5aa9f53304b7236a36f"
+  },
+  {
+   "path": "glb/prop-pell-post-wood.glb",
+   "bytes": 18312,
+   "sha256": "5515ae755d0ee3555921e72d8818dfb2c1ccc036585ae073f18b164df93cb3aa"
+  },
+  {
+   "path": "glb/prop-quintain-wood.glb",
+   "bytes": 28900,
+   "sha256": "1207410138cb9857d5841438153fe2f16b4b4cc7d271416bd3288565778042f3"
+  },
+  {
+   "path": "glb/prop-training-dummy-straw.glb",
+   "bytes": 43504,
+   "sha256": "7168c38562aaf4118d44bdcf4af30db25bd99cc3d82d33d54ab321745dad14ce"
+  },
+  {
+   "path": "renders/layout-1p5m-grid.png",
+   "bytes": 507640,
+   "sha256": "86c905ff2654dd71327805522bb4c69e777dc8a3ad405e332d80c835f67f97a6"
+  },
+  {
+   "path": "renders/layout-collision-shells.png",
+   "bytes": 495478,
+   "sha256": "4b6c043208cfbed38a85c868186054bc2e09cdd4660de26ca46bb5afa2fc0e4a"
+  },
+  {
+   "path": "renders/prop-armor-stand-wood.png",
+   "bytes": 425678,
+   "sha256": "7b2c2f0c73d96c1895874734411e2f328bea251ddf40bc4a4508167aa070013f"
+  },
+  {
+   "path": "renders/prop-pell-post-wood.png",
+   "bytes": 415577,
+   "sha256": "d84ae609efe4c44094a25e4797674dfa55f53714414b30d14500fc423c46c242"
+  },
+  {
+   "path": "renders/prop-quintain-wood.png",
+   "bytes": 427686,
+   "sha256": "9e2a524c353773883d23bf0642a9c9a6ee86c63f34825f95c11751dc2cdd2cf5"
+  },
+  {
+   "path": "renders/prop-training-dummy-straw.png",
+   "bytes": 435201,
+   "sha256": "3f8a837e62bf8050f5757a3102d096799fa60831284e34d6e2caea27c991f3b2"
+  },
+  {
+   "path": "source/build_training_yard.py",
+   "bytes": 21684,
+   "sha256": "2942b0db04d4834c0a62c66359db7089e5757fd7e04d3b02120bd5a76e5a7766"
+  }
+ ],
+ "assets": [
+  {
+   "name": "prop-pell-post-wood",
+   "description": "Heavy square practice post with chamfered top and hack scars on a braced cross foot",
+   "size_class": "Medium",
+   "tri_budget": 800,
+   "tris": 220,
+   "grid_cells": "1x1",
+   "size_m": {
+    "width_x": 0.92,
+    "height": 1.8,
+    "depth": 0.92
+   },
+   "material_slots": [
+    "Accent",
+    "Primary",
+    "Secondary"
+   ],
+   "collision_shells": 2,
+   "collision_behaviour": "solid, blocking (braced cross foot; post up to 1.80 m)",
+   "walkable": false,
+   "animated": false,
+   "engine_tested": true,
+   "files": [
+    "fbx/prop-pell-post-wood.fbx",
+    "glb/prop-pell-post-wood.glb",
+    "collision/fbx/prop-pell-post-wood-col.fbx",
+    "collision/glb/prop-pell-post-wood-col.glb",
+    "renders/prop-pell-post-wood.png"
+   ]
+  },
+  {
+   "name": "prop-quintain-wood",
+   "description": "Pivot-post quintain: swing arm with a hanging shield board at one end and a sandbag at the other, on a braced cross foot",
+   "size_class": "Medium",
+   "tri_budget": 800,
+   "tris": 376,
+   "grid_cells": "1x1",
+   "size_m": {
+    "width_x": 1.34,
+    "height": 1.86,
+    "depth": 0.96
+   },
+   "material_slots": [
+    "Accent",
+    "Primary",
+    "Secondary"
+   ],
+   "collision_shells": 5,
+   "collision_behaviour": "post, swing arm, shield board and sandbag; open under the arm on both sides of the post",
+   "walkable": false,
+   "animated": false,
+   "engine_tested": true,
+   "files": [
+    "fbx/prop-quintain-wood.fbx",
+    "glb/prop-quintain-wood.glb",
+    "collision/fbx/prop-quintain-wood-col.fbx",
+    "collision/glb/prop-quintain-wood-col.glb",
+    "renders/prop-quintain-wood.png"
+   ]
+  },
+  {
+   "name": "prop-training-dummy-straw",
+   "description": "Straw training dummy: bound straw body, sack head and straw arm bar on a post and braced cross foot",
+   "size_class": "Medium",
+   "tri_budget": 800,
+   "tris": 624,
+   "grid_cells": "1x1",
+   "size_m": {
+    "width_x": 0.88,
+    "height": 1.71,
+    "depth": 0.8
+   },
+   "material_slots": [
+    "Accent",
+    "Primary",
+    "Secondary"
+   ],
+   "collision_shells": 5,
+   "collision_behaviour": "solid, blocking (cross foot, post, body, arm bar and head)",
+   "walkable": false,
+   "animated": false,
+   "engine_tested": true,
+   "files": [
+    "fbx/prop-training-dummy-straw.fbx",
+    "glb/prop-training-dummy-straw.glb",
+    "collision/fbx/prop-training-dummy-straw-col.fbx",
+    "collision/glb/prop-training-dummy-straw-col.glb",
+    "renders/prop-training-dummy-straw.png"
+   ]
+  },
+  {
+   "name": "prop-armor-stand-wood",
+   "description": "Armour stand: post and shoulder bar dressed with cuirass, skirt lames, belt, pauldrons and helm",
+   "size_class": "Medium",
+   "tri_budget": 800,
+   "tris": 648,
+   "grid_cells": "1x1",
+   "size_m": {
+    "width_x": 0.68,
+    "height": 1.71,
+    "depth": 0.68
+   },
+   "material_slots": [
+    "Accent",
+    "Primary",
+    "Secondary"
+   ],
+   "collision_shells": 4,
+   "collision_behaviour": "solid, blocking (cross foot, post, armour body and helm)",
+   "walkable": false,
+   "animated": false,
+   "engine_tested": true,
+   "files": [
+    "fbx/prop-armor-stand-wood.fbx",
+    "glb/prop-armor-stand-wood.glb",
+    "collision/fbx/prop-armor-stand-wood-col.fbx",
+    "collision/glb/prop-armor-stand-wood-col.glb",
+    "renders/prop-armor-stand-wood.png"
+   ]
+  }
+ ]
+}

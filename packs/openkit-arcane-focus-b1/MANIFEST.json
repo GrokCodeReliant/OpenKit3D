@@ -1,0 +1,276 @@
+{
+  "pack": "arcane-focus",
+  "license": "CC0-1.0",
+  "unit": "1 unit = 1 metre",
+  "pivot": "bottom centre",
+  "grid_cell_m": 1.5,
+  "material_slots": [
+    "Primary",
+    "Secondary",
+    "Accent"
+  ],
+  "formats": [
+    "fbx",
+    "glb"
+  ],
+  "engine_tested": true,
+  "engine_test_date": "2026-11-25",
+  "engine_test_report": "Open Kit team Unity engine test, 25 November 2026",
+  "assets": [
+    {
+      "name": "prop-rune-obelisk-stone",
+      "description": "Tapered rune obelisk on a stepped base",
+      "size_class": "Medium",
+      "tri_budget": 2500,
+      "tris": 380,
+      "grid_cells": "1x1",
+      "size_m": {
+        "width_x": 1.1,
+        "height": 2.4,
+        "depth": 1.1
+      },
+      "material_slots": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "collision_shells": 4,
+      "collision_behaviour": "blocking",
+      "files": [
+        "fbx/prop-rune-obelisk-stone.fbx",
+        "glb/prop-rune-obelisk-stone.glb",
+        "collision/fbx/prop-rune-obelisk-stone-col.fbx",
+        "collision/glb/prop-rune-obelisk-stone-col.glb",
+        "renders/prop-rune-obelisk-stone.png"
+      ]
+    },
+    {
+      "name": "prop-crystal-focus-pylon",
+      "description": "Crystal held by iron claws on a stone plinth",
+      "size_class": "Small",
+      "tri_budget": 800,
+      "tris": 388,
+      "grid_cells": "1x1",
+      "size_m": {
+        "width_x": 0.946,
+        "height": 1.62,
+        "depth": 0.9614
+      },
+      "material_slots": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "collision_shells": 3,
+      "collision_behaviour": "blocking",
+      "files": [
+        "fbx/prop-crystal-focus-pylon.fbx",
+        "glb/prop-crystal-focus-pylon.glb",
+        "collision/fbx/prop-crystal-focus-pylon-col.fbx",
+        "collision/glb/prop-crystal-focus-pylon-col.glb",
+        "renders/prop-crystal-focus-pylon.png"
+      ]
+    },
+    {
+      "name": "prop-scrying-orb-tripod",
+      "description": "Orb in a stone cup on an iron tripod",
+      "size_class": "Small",
+      "tri_budget": 800,
+      "tris": 512,
+      "grid_cells": "1x1",
+      "size_m": {
+        "width_x": 0.6689,
+        "height": 1.195,
+        "depth": 0.64
+      },
+      "material_slots": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "collision_shells": 1,
+      "collision_behaviour": "blocking",
+      "files": [
+        "fbx/prop-scrying-orb-tripod.fbx",
+        "glb/prop-scrying-orb-tripod.glb",
+        "collision/fbx/prop-scrying-orb-tripod-col.fbx",
+        "collision/glb/prop-scrying-orb-tripod-col.glb",
+        "renders/prop-scrying-orb-tripod.png"
+      ]
+    },
+    {
+      "name": "prop-ritual-dais-stone",
+      "description": "Two-step round dais with rune ring; walkable top 0.20 m",
+      "size_class": "Large",
+      "tri_budget": 2500,
+      "tris": 576,
+      "grid_cells": "2x2",
+      "size_m": {
+        "width_x": 2.8,
+        "height": 0.46,
+        "depth": 2.8
+      },
+      "material_slots": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "collision_shells": 6,
+      "collision_behaviour": "walkable top, blocking marker stones",
+      "files": [
+        "fbx/prop-ritual-dais-stone.fbx",
+        "glb/prop-ritual-dais-stone.glb",
+        "collision/fbx/prop-ritual-dais-stone-col.fbx",
+        "collision/glb/prop-ritual-dais-stone-col.glb",
+        "renders/prop-ritual-dais-stone.png"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "CONTACT_SHEET.png",
+      "bytes": 1071106,
+      "sha256": "4cb1277c4f16354e5786b55b643611b078ff579a5cecde6b621e67873aa200d2"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 212,
+      "sha256": "6dd47f4e49f7aaafee66d34bb83a6732c2431955f40617e24da82ca1bfd42955"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 7116,
+      "sha256": "1bddac2bb5081485a09ba1037e19d78daf2501f91930a411e7000f8b9f7ac7ab"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2425,
+      "sha256": "fc2042a2f64c49f3fddbeb5716eecc3b021ac864c59100b25aeb91863828a5ea"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 3638,
+      "sha256": "a96b4237463125b9e5aaad6e54cf40ff507190241f8bfe09beba409c4e8fe7d3"
+    },
+    {
+      "path": "collision/colliders.json",
+      "bytes": 22729,
+      "sha256": "8e513284317b80637448fe768b85adcbf4a53815083b5a9701f7aadc043fdc4f"
+    },
+    {
+      "path": "collision/fbx/prop-crystal-focus-pylon-col.fbx",
+      "bytes": 19228,
+      "sha256": "802f56f413902b404cb49bf51af017e63080bd55b08b43aad0019be0a47aeaeb"
+    },
+    {
+      "path": "collision/fbx/prop-ritual-dais-stone-col.fbx",
+      "bytes": 22988,
+      "sha256": "8564f7b5f277c9cf77b761f6158adb29171ab1d13f6e6097cf3611e7163c7d4c"
+    },
+    {
+      "path": "collision/fbx/prop-rune-obelisk-stone-col.fbx",
+      "bytes": 17340,
+      "sha256": "757e040779decc6cd586c8d60c11eaf650d11add26b5edc7b1904585eb41bca9"
+    },
+    {
+      "path": "collision/fbx/prop-scrying-orb-tripod-col.fbx",
+      "bytes": 15308,
+      "sha256": "589f582d7d0fd7f1adb9b526bb922d7a6ba8074c3b90818cfaab7d419a2e348d"
+    },
+    {
+      "path": "collision/glb/prop-crystal-focus-pylon-col.glb",
+      "bytes": 14304,
+      "sha256": "1dc7aa6868c8c1dfc111a91e9f1b135360a42ac8dbabc5c94e4eb71526e3bd01"
+    },
+    {
+      "path": "collision/glb/prop-ritual-dais-stone-col.glb",
+      "bytes": 12784,
+      "sha256": "60d622507c31aba8aba493aa74db8f558e4c41cd43729dd2fe7597e495b96f88"
+    },
+    {
+      "path": "collision/glb/prop-rune-obelisk-stone-col.glb",
+      "bytes": 5616,
+      "sha256": "ebf58839a3e1f3030c727f6e97b48e23d1b4a8cac0f889c174cfcf76bb70c830"
+    },
+    {
+      "path": "collision/glb/prop-scrying-orb-tripod-col.glb",
+      "bytes": 11456,
+      "sha256": "8f5ae15e96480339eee96e53badf3d9ca65b9700aa8b09468753125e594c5e08"
+    },
+    {
+      "path": "fbx/prop-crystal-focus-pylon.fbx",
+      "bytes": 30940,
+      "sha256": "0627059cd86cb833134f39f92bc5102d50d22d66869fbd6ef2d1c90412254944"
+    },
+    {
+      "path": "fbx/prop-ritual-dais-stone.fbx",
+      "bytes": 30652,
+      "sha256": "f258d1a814111e331d68c03e6a9b99618f1f18175bccde994842a45c463c0287"
+    },
+    {
+      "path": "fbx/prop-rune-obelisk-stone.fbx",
+      "bytes": 30076,
+      "sha256": "fc743712475c437f0913b3341ad1467f5288017f71bef9e1db819b022abb1e0c"
+    },
+    {
+      "path": "fbx/prop-scrying-orb-tripod.fbx",
+      "bytes": 32268,
+      "sha256": "45389147e34bbf88899ccf3a097d553d661107548d196c4fd3c9177a912d7ef6"
+    },
+    {
+      "path": "glb/prop-crystal-focus-pylon.glb",
+      "bytes": 30332,
+      "sha256": "7344d5f185056fa63cf8d949eeee819381c4979f002feaa7a916cb00af3ec569"
+    },
+    {
+      "path": "glb/prop-ritual-dais-stone.glb",
+      "bytes": 38104,
+      "sha256": "6daecb093bcde4022e0edada1efba474e096c40273ea334cddfb56452290a390"
+    },
+    {
+      "path": "glb/prop-rune-obelisk-stone.glb",
+      "bytes": 29520,
+      "sha256": "e07c3471b41cc80529ba01ad1541784e995df5f1998bcf296f31049d0a844aaa"
+    },
+    {
+      "path": "glb/prop-scrying-orb-tripod.glb",
+      "bytes": 37700,
+      "sha256": "27888c542a5a5e8c982a0d648a611ecbb963f90ed1a3833b6367fbfb773a4162"
+    },
+    {
+      "path": "renders/layout-1p5m-grid.png",
+      "bytes": 524878,
+      "sha256": "b3d9c4cc15d7ef1909e7178837e4773c43ad255e5e336bdddceb5aa3249d3a2c"
+    },
+    {
+      "path": "renders/layout-collision-shells.png",
+      "bytes": 504727,
+      "sha256": "14a653ce901a02a1602ff91163414e4f5e77068efb66b624e0444980a40c6b37"
+    },
+    {
+      "path": "renders/prop-crystal-focus-pylon.png",
+      "bytes": 440781,
+      "sha256": "added6d1eb83629b9cad37c562bb92e75af3ba28e57b9584b98a84134fab5504"
+    },
+    {
+      "path": "renders/prop-ritual-dais-stone.png",
+      "bytes": 427850,
+      "sha256": "7f2f0468c1c75a1b0cbd4f70b3afb74473237688aeef037defa2c92c3e1efb46"
+    },
+    {
+      "path": "renders/prop-rune-obelisk-stone.png",
+      "bytes": 419833,
+      "sha256": "f94dade9f0d5f9d95b8729775a5914f737135468bb85d69f0f1156d09a2266bd"
+    },
+    {
+      "path": "renders/prop-scrying-orb-tripod.png",
+      "bytes": 444304,
+      "sha256": "5790f69f45e4309ce8fecd112384dc79fb3c22647566cb53f643cc98e26a0394"
+    },
+    {
+      "path": "source/build_arcane_focus.py",
+      "bytes": 17644,
+      "sha256": "e609261d46d0e496703b75474bd2fa0d5dba3ad3a2b0e1bb8778eac399c3199c"
+    }
+  ]
+}

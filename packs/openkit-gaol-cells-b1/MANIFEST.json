@@ -1,0 +1,315 @@
+{
+ "pack": "gaol-cells",
+ "license": "CC0-1.0",
+ "unit": "1 unit = 1 metre",
+ "pivot": "bottom centre (floor tiles: floor top)",
+ "grid_cell_m": 1.5,
+ "material_slots": [
+  "Primary",
+  "Secondary",
+  "Accent"
+ ],
+ "formats": [
+  "fbx",
+  "glb"
+ ],
+ "engine_tested": true,
+ "engine_test_date": "2026-11-25",
+ "engine_test_report": "Open Kit team Unity engine test, 25 November 2026",
+ "files": [
+  {
+   "path": "CONTACT_SHEET.png",
+   "bytes": 1074432,
+   "sha256": "dcd882a64af87c21abe7cfb5c5bc62bd40c60eb9f4d5d04c57e4d6df31230c76"
+  },
+  {
+   "path": "CREDITS.md",
+   "bytes": 598,
+   "sha256": "65fb1dbb40b3bf38baaf0acd33e668667c500b427206f775eb94353e10e4f8e9"
+  },
+  {
+   "path": "HONEST_LOOK.md",
+   "bytes": 1488,
+   "sha256": "f4793d41fcbf55c44c7931060aed1154d57b21fb5a2724e1aa5b4d4e0938d8de"
+  },
+  {
+   "path": "LICENSE",
+   "bytes": 7116,
+   "sha256": "1bddac2bb5081485a09ba1037e19d78daf2501f91930a411e7000f8b9f7ac7ab"
+  },
+  {
+   "path": "README.md",
+   "bytes": 3213,
+   "sha256": "12633aac53330af9ed0d31b038fa0fe9228cc2c14c3ffa5aac1e5b62ff09c8a2"
+  },
+  {
+   "path": "SOURCE_LOG.md",
+   "bytes": 1026,
+   "sha256": "e516f85460b1d807e89f4ac581f725887b58d243a88f71c859fed2b45074eef9"
+  },
+  {
+   "path": "USAGE.md",
+   "bytes": 4607,
+   "sha256": "4c7300b12291975ad95439ba0689410fda631e5a943bf27afcdea76c14a1ea66"
+  },
+  {
+   "path": "VALIDATION.json",
+   "bytes": 24447,
+   "sha256": "cd4292c640fe8da374ce11c6346f3526d919499ce8a7e3ca870581441a6b12e1"
+  },
+  {
+   "path": "collision/colliders.json",
+   "bytes": 13105,
+   "sha256": "6f11909e4738c3860df2b60e0bd99a22deec40d921c8da7a13d01e69e51e66be"
+  },
+  {
+   "path": "collision/fbx/prop-stocks-wood-col.fbx",
+   "bytes": 18972,
+   "sha256": "1862e0c681996cc864f87579ca752aa0b3ab795b95c793d2775e68634ac1aebf"
+  },
+  {
+   "path": "collision/fbx/tile-dungeon-floor-grate-col.fbx",
+   "bytes": 11548,
+   "sha256": "af299dcc0eb4e706f1871f1434a53fb70246cb31ec915008978815ac9f405a9a"
+  },
+  {
+   "path": "collision/fbx/tile-dungeon-floor-trapdoor-col.fbx",
+   "bytes": 11548,
+   "sha256": "dbc9eb1c7119e2d91a0c5d6c3f04dd8320f1a6d6325a1b67e6eeeeb68435ebb4"
+  },
+  {
+   "path": "collision/fbx/wall-dungeon-cell-bars-col.fbx",
+   "bytes": 23036,
+   "sha256": "3ac12c4ee12ef66b9be7985359463c723065054e97ba5a89924c399c55d423ab"
+  },
+  {
+   "path": "collision/glb/prop-stocks-wood-col.glb",
+   "bytes": 10208,
+   "sha256": "97334ef1337dda15adad983c79d450fcec63da3e059bb29d8771a276d2753271"
+  },
+  {
+   "path": "collision/glb/tile-dungeon-floor-grate-col.glb",
+   "bytes": 1480,
+   "sha256": "430e97e3ecca3eb23e200f65d4e490d45030ff9124ba3eb8ece60a8115ecf61e"
+  },
+  {
+   "path": "collision/glb/tile-dungeon-floor-trapdoor-col.glb",
+   "bytes": 1488,
+   "sha256": "2fc970db9cf0d34f10be4e964fddb2875b5af33f902db5714ad5f742723a36f7"
+  },
+  {
+   "path": "collision/glb/wall-dungeon-cell-bars-col.glb",
+   "bytes": 14324,
+   "sha256": "a26ac6ba727aa5078702257827e5b21082faaf7d2f58b6bd9915da5969b8b4f2"
+  },
+  {
+   "path": "fbx/prop-stocks-wood.fbx",
+   "bytes": 26396,
+   "sha256": "9f16dc83b1492ec6290ecd624b1455860dd3543e2364b198eb846294e5fd1a5f"
+  },
+  {
+   "path": "fbx/tile-dungeon-floor-grate.fbx",
+   "bytes": 29612,
+   "sha256": "58e8df9942c579a0cbaa1b97488e5943e6b83aa9c9a88e538db21a9934c09a0a"
+  },
+  {
+   "path": "fbx/tile-dungeon-floor-trapdoor.fbx",
+   "bytes": 32188,
+   "sha256": "ce3e6ad84f6f2fab8cfb527ff0058054c65376f468c5ef4cb7135e3ddb990c61"
+  },
+  {
+   "path": "fbx/wall-dungeon-cell-bars.fbx",
+   "bytes": 38108,
+   "sha256": "7487ce3045f015bd9f1c8aafec47770805de5955a7c32fe25c95311ea66b0549"
+  },
+  {
+   "path": "glb/prop-stocks-wood.glb",
+   "bytes": 28400,
+   "sha256": "e4b15f3d516e1c6be17257a06fd1afae07b841327865c01ed492d1faf93c1748"
+  },
+  {
+   "path": "glb/tile-dungeon-floor-grate.glb",
+   "bytes": 43996,
+   "sha256": "2f8d0bf20871eff84b53fe8a7cede5b75f48a9450dea4afa0fff8a01ac81ab46"
+  },
+  {
+   "path": "glb/tile-dungeon-floor-trapdoor.glb",
+   "bytes": 50032,
+   "sha256": "ec6e66c7a166b260031c002496bfef05962b9847f30913e45b3a6791de7cd5d5"
+  },
+  {
+   "path": "glb/wall-dungeon-cell-bars.glb",
+   "bytes": 82048,
+   "sha256": "73cda4b37275bebc0b422474a421394b356db798fa7331a6001c8537e47ecd65"
+  },
+  {
+   "path": "renders/layout-1p5m-grid.png",
+   "bytes": 539677,
+   "sha256": "c44d4c98ab3faffe1ea9d40ae4aa0c75bd4f5ee1fdbd475d6e95d43d31741a3f"
+  },
+  {
+   "path": "renders/layout-collision-shells.png",
+   "bytes": 492943,
+   "sha256": "4d66b4448f57c0829c186bafb38cf3f029689f816092b0a1ed5e8a4ff5be1e3e"
+  },
+  {
+   "path": "renders/prop-stocks-wood.png",
+   "bytes": 455968,
+   "sha256": "5cd146af7ddb8927d3d7b3b34c1078a00d78806e66a7690fed931ad3dd2f7609"
+  },
+  {
+   "path": "renders/tile-dungeon-floor-grate.png",
+   "bytes": 440204,
+   "sha256": "27c13491e23ed71244ed32f378174befb4474ccc3c651ea96e7c120baa3f3fa9"
+  },
+  {
+   "path": "renders/tile-dungeon-floor-trapdoor.png",
+   "bytes": 436572,
+   "sha256": "f5c1e1991f8c8d8d6518fb9fac2a43c6f25f5d9bbbad9b6d4de646cda269c532"
+  },
+  {
+   "path": "renders/wall-dungeon-cell-bars.png",
+   "bytes": 461687,
+   "sha256": "e8323344cfff8d2891340bfe66f9dcd09907b45ee0d3bed355c96780783b6d07"
+  },
+  {
+   "path": "source/build_gaol_cells.py",
+   "bytes": 24636,
+   "sha256": "7550fad84219957650122c9599b76b017ed992ea1c08bba1c7e5552f69634163"
+  }
+ ],
+ "assets": [
+  {
+   "name": "tile-dungeon-floor-grate",
+   "description": "Stone floor tile with an iron drain grate over a shallow sump",
+   "size_class": "Medium",
+   "tri_budget": 2500,
+   "tris": 552,
+   "category": "Tiles",
+   "pivot": "floor_top",
+   "grid_cells": "1x1",
+   "size_m": {
+    "width_x": 1.5,
+    "height": 0.12,
+    "depth": 1.5
+   },
+   "material_slots": [
+    "Accent",
+    "Primary",
+    "Secondary"
+   ],
+   "collision_shells": 1,
+   "collision_behaviour": "solid, walkable: one box for the whole cell, top at the walking surface (z = 0); the sump under the grate is filled",
+   "walkable": true,
+   "camera_fade_by_name": false,
+   "animated": false,
+   "engine_tested": true,
+   "files": [
+    "fbx/tile-dungeon-floor-grate.fbx",
+    "glb/tile-dungeon-floor-grate.glb",
+    "collision/fbx/tile-dungeon-floor-grate-col.fbx",
+    "collision/glb/tile-dungeon-floor-grate-col.glb",
+    "renders/tile-dungeon-floor-grate.png"
+   ]
+  },
+  {
+   "name": "tile-dungeon-floor-trapdoor",
+   "description": "Stone floor tile with a closed plank hatch in an iron curb, with straps, hinges and a pull ring",
+   "size_class": "Medium",
+   "tri_budget": 2500,
+   "tris": 656,
+   "category": "Tiles",
+   "pivot": "floor_top",
+   "grid_cells": "1x1",
+   "size_m": {
+    "width_x": 1.5,
+    "height": 0.12,
+    "depth": 1.5
+   },
+   "material_slots": [
+    "Accent",
+    "Primary",
+    "Secondary"
+   ],
+   "collision_shells": 1,
+   "collision_behaviour": "solid, walkable: one box for the whole cell, top at the walking surface (z = 0); the hatch is closed and does not open",
+   "walkable": true,
+   "camera_fade_by_name": false,
+   "animated": false,
+   "engine_tested": true,
+   "files": [
+    "fbx/tile-dungeon-floor-trapdoor.fbx",
+    "glb/tile-dungeon-floor-trapdoor.glb",
+    "collision/fbx/tile-dungeon-floor-trapdoor-col.fbx",
+    "collision/glb/tile-dungeon-floor-trapdoor-col.glb",
+    "renders/tile-dungeon-floor-trapdoor.png"
+   ]
+  },
+  {
+   "name": "wall-dungeon-cell-bars",
+   "description": "Cell-front wall module: coursed stone jambs, sill and lintel with nine iron bars and two cross straps",
+   "size_class": "Medium",
+   "tri_budget": 2500,
+   "tris": 1100,
+   "category": "Walls",
+   "pivot": "bottom_center",
+   "grid_cells": "1x1",
+   "size_m": {
+    "width_x": 1.5,
+    "height": 3.0,
+    "depth": 0.34
+   },
+   "material_slots": [
+    "Accent",
+    "Primary",
+    "Secondary"
+   ],
+   "collision_shells": 6,
+   "collision_behaviour": "solid, blocking: jambs, sill, lintel, cap course, and the bars as one thin solid panel (characters cannot pass; whether rays or projectiles pass the gaps is up to your setup)",
+   "walkable": false,
+   "camera_fade_by_name": true,
+   "animated": false,
+   "engine_tested": true,
+   "files": [
+    "fbx/wall-dungeon-cell-bars.fbx",
+    "glb/wall-dungeon-cell-bars.glb",
+    "collision/fbx/wall-dungeon-cell-bars-col.fbx",
+    "collision/glb/wall-dungeon-cell-bars-col.glb",
+    "renders/wall-dungeon-cell-bars.png"
+   ]
+  },
+  {
+   "name": "prop-stocks-wood",
+   "description": "Foot stocks: braced uprights on a sill and feet, two-board yoke with two leg holes, cap rail and iron hasp with padlock",
+   "size_class": "Medium",
+   "tri_budget": 800,
+   "tris": 380,
+   "category": "Props",
+   "pivot": "bottom_center",
+   "grid_cells": "1x1",
+   "size_m": {
+    "width_x": 1.4,
+    "height": 1.06,
+    "depth": 0.6
+   },
+   "material_slots": [
+    "Accent",
+    "Primary",
+    "Secondary"
+   ],
+   "collision_shells": 4,
+   "collision_behaviour": "solid, blocking (feet, sill, uprights, boards and cap rail); the leg notches are closed by the collision",
+   "walkable": false,
+   "camera_fade_by_name": false,
+   "animated": false,
+   "engine_tested": true,
+   "files": [
+    "fbx/prop-stocks-wood.fbx",
+    "glb/prop-stocks-wood.glb",
+    "collision/fbx/prop-stocks-wood-col.fbx",
+    "collision/glb/prop-stocks-wood-col.glb",
+    "renders/prop-stocks-wood.png"
+   ]
+  }
+ ]
+}

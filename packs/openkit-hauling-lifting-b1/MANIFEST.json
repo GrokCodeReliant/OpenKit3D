@@ -1,0 +1,288 @@
+{
+  "pack": "hauling-lifting",
+  "license": "CC0-1.0",
+  "unit": "1 unit = 1 metre",
+  "pivot": "bottom centre",
+  "grid_cell_m": 1.5,
+  "material_slots": [
+    "Primary",
+    "Secondary",
+    "Accent"
+  ],
+  "formats": [
+    "fbx",
+    "glb"
+  ],
+  "engine_tested": true,
+  "engine_test_date": "2026-11-25",
+  "engine_test_report": "Open Kit team Unity engine test, 25 November 2026",
+  "assets": [
+    {
+      "name": "prop-windlass-wood",
+      "description": "Two-man windlass: rope drum, ratchet and pawl, two cranks",
+      "size_class": "Small",
+      "tri_budget": 800,
+      "tris": 460,
+      "grid_cells": "1x1",
+      "size_m": {
+        "width_x": 1.24,
+        "height": 1.1317,
+        "depth": 0.8
+      },
+      "material_slots": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "collision_shells": 3,
+      "collision_behaviour": "solid, blocking (frame, drum and cranks)",
+      "walkable": false,
+      "animated": false,
+      "engine_tested": true,
+      "files": [
+        "fbx/prop-windlass-wood.fbx",
+        "glb/prop-windlass-wood.glb",
+        "collision/fbx/prop-windlass-wood-col.fbx",
+        "collision/glb/prop-windlass-wood-col.glb",
+        "renders/prop-windlass-wood.png"
+      ]
+    },
+    {
+      "name": "prop-capstan-wood",
+      "description": "Octagonal capstan with whelps, four push bars and rope turns",
+      "size_class": "Medium",
+      "tri_budget": 2500,
+      "tris": 572,
+      "grid_cells": "1x1",
+      "size_m": {
+        "width_x": 1.4,
+        "height": 0.98,
+        "depth": 1.4
+      },
+      "material_slots": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "collision_shells": 6,
+      "collision_behaviour": "solid, blocking (drum, base and push bars)",
+      "walkable": false,
+      "animated": false,
+      "engine_tested": true,
+      "files": [
+        "fbx/prop-capstan-wood.fbx",
+        "glb/prop-capstan-wood.glb",
+        "collision/fbx/prop-capstan-wood-col.fbx",
+        "collision/glb/prop-capstan-wood-col.glb",
+        "renders/prop-capstan-wood.png"
+      ]
+    },
+    {
+      "name": "prop-jib-crane-wood",
+      "description": "Counterweighted post jib crane with sheave, hook block and post winch",
+      "size_class": "Medium",
+      "tri_budget": 2500,
+      "tris": 404,
+      "grid_cells": "1x1",
+      "size_m": {
+        "width_x": 1.12,
+        "height": 2.84,
+        "depth": 1.4
+      },
+      "material_slots": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "collision_shells": 7,
+      "collision_behaviour": "solid, blocking (base, post, winch, hook; the arm assembly sits above 1.9 m)",
+      "walkable": false,
+      "animated": false,
+      "engine_tested": true,
+      "files": [
+        "fbx/prop-jib-crane-wood.fbx",
+        "glb/prop-jib-crane-wood.glb",
+        "collision/fbx/prop-jib-crane-wood-col.fbx",
+        "collision/glb/prop-jib-crane-wood-col.glb",
+        "renders/prop-jib-crane-wood.png"
+      ]
+    },
+    {
+      "name": "prop-shaft-hoist-frame-wood",
+      "description": "Four-leg hoist frame with rope tackle and hook; open centre over a hatch or shaft",
+      "size_class": "Medium",
+      "tri_budget": 2500,
+      "tris": 276,
+      "grid_cells": "1x1",
+      "size_m": {
+        "width_x": 1.38,
+        "height": 2.56,
+        "depth": 1.38
+      },
+      "material_slots": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "collision_shells": 10,
+      "collision_behaviour": "legs, spreader bars, cleat and the hanging tackle block; the centre below the hook is left open (for a hatch or shaft placed under it)",
+      "walkable": false,
+      "animated": false,
+      "engine_tested": true,
+      "files": [
+        "fbx/prop-shaft-hoist-frame-wood.fbx",
+        "glb/prop-shaft-hoist-frame-wood.glb",
+        "collision/fbx/prop-shaft-hoist-frame-wood-col.fbx",
+        "collision/glb/prop-shaft-hoist-frame-wood-col.glb",
+        "renders/prop-shaft-hoist-frame-wood.png"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "CONTACT_SHEET.png",
+      "bytes": 1127035,
+      "sha256": "c3910276e55211eb5561d88a307a60546de0707a269d47a73dad2e475e9921e8"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 212,
+      "sha256": "6dd47f4e49f7aaafee66d34bb83a6732c2431955f40617e24da82ca1bfd42955"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 7116,
+      "sha256": "1bddac2bb5081485a09ba1037e19d78daf2501f91930a411e7000f8b9f7ac7ab"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2618,
+      "sha256": "ec187eb20c7fd10c5da49fb9d8c837399af36470fe4b62cbb4a0ace688e968ec"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 3776,
+      "sha256": "49aa2c2e4b5197d3d11099b1a25dce48a31e1e756cb05baabfbe9d7b5b8c3584"
+    },
+    {
+      "path": "collision/colliders.json",
+      "bytes": 24583,
+      "sha256": "9624106a88bdca30f5a581880ce9ca1717ada44d3f9c6b60eef634c2255f919e"
+    },
+    {
+      "path": "collision/fbx/prop-capstan-wood-col.fbx",
+      "bytes": 21820,
+      "sha256": "ea3c93a441740354b5c4c7dd54ff6dac9694d331f32b3c4230dd0000365d2b36"
+    },
+    {
+      "path": "collision/fbx/prop-jib-crane-wood-col.fbx",
+      "bytes": 25180,
+      "sha256": "43dbf36477f2958f1c06dc2043c26da9d58269d25102b5f5596ed526dc1e21c6"
+    },
+    {
+      "path": "collision/fbx/prop-shaft-hoist-frame-wood-col.fbx",
+      "bytes": 30508,
+      "sha256": "84420f1818bd8960f2943101b862dc59961968d269ba6a020db12dd4a35b32f5"
+    },
+    {
+      "path": "collision/fbx/prop-windlass-wood-col.fbx",
+      "bytes": 16252,
+      "sha256": "3f4fc43baa7045438ba8e92f39a42199550d0f4bc064c42427588f980b989038"
+    },
+    {
+      "path": "collision/glb/prop-capstan-wood-col.glb",
+      "bytes": 9496,
+      "sha256": "2dad288c63049caa759db209d5636a4d125d9666363880d15a2963654fe3e558"
+    },
+    {
+      "path": "collision/glb/prop-jib-crane-wood-col.glb",
+      "bytes": 15488,
+      "sha256": "55f065b06f853854d9a78ea1dbf141cc550d4f9b4ec49feac9480535a17ec9e2"
+    },
+    {
+      "path": "collision/glb/prop-shaft-hoist-frame-wood-col.glb",
+      "bytes": 17680,
+      "sha256": "acdbc45aaea0e654766d3f42be4be7d6129e4f37fa026d728f72c5290a42492d"
+    },
+    {
+      "path": "collision/glb/prop-windlass-wood-col.glb",
+      "bytes": 6540,
+      "sha256": "f0a5b1a72b44dfe0f69204035287e79fee7321fc6ad66cbd5cd0bdf818494861"
+    },
+    {
+      "path": "fbx/prop-capstan-wood.fbx",
+      "bytes": 31100,
+      "sha256": "b5e0b4576b96ec0f57356e4492132ae1e98e1e460073433903f23bc423cc5f90"
+    },
+    {
+      "path": "fbx/prop-jib-crane-wood.fbx",
+      "bytes": 27132,
+      "sha256": "12f64c103979ea478bed8a4c8cd85d24941b1ae7dcca029786053e7089659371"
+    },
+    {
+      "path": "fbx/prop-shaft-hoist-frame-wood.fbx",
+      "bytes": 23868,
+      "sha256": "15f1cb62624a135dbc66288ba383f3de5a9742777a1eb5b44f8a629628d732a3"
+    },
+    {
+      "path": "fbx/prop-windlass-wood.fbx",
+      "bytes": 28668,
+      "sha256": "f029bd4bee76e3ce058433a41fbbadb346a8fa6a3a8d842a519ea5c33f600e6f"
+    },
+    {
+      "path": "glb/prop-capstan-wood.glb",
+      "bytes": 38768,
+      "sha256": "0e9947e9cfee17553107e4eae589903b73b3ac383492aa987451e3fe5e04581f"
+    },
+    {
+      "path": "glb/prop-jib-crane-wood.glb",
+      "bytes": 30744,
+      "sha256": "28d5237a629f451432c2ac64baa91893217fbdb033e1a687c10700f1ecc886a4"
+    },
+    {
+      "path": "glb/prop-shaft-hoist-frame-wood.glb",
+      "bytes": 22500,
+      "sha256": "72c6bdf2a2cb0a7b5a00929475f9c91db807314ecbb1bd38b16b3cda8c300ae0"
+    },
+    {
+      "path": "glb/prop-windlass-wood.glb",
+      "bytes": 32348,
+      "sha256": "86d76d1a28d31c4a574ed2ef6599bb76055ef739249ce8a4b180678398c04df0"
+    },
+    {
+      "path": "renders/layout-1p5m-grid.png",
+      "bytes": 487873,
+      "sha256": "60f1554e85620cde476d5f6a08797a8df505ad36c795796649e164d5ed5ac876"
+    },
+    {
+      "path": "renders/layout-collision-shells.png",
+      "bytes": 468703,
+      "sha256": "6f6f57cf392f6ae23b1fbd64474693e33634329eef0f3a72c14a90c474241007"
+    },
+    {
+      "path": "renders/prop-capstan-wood.png",
+      "bytes": 395664,
+      "sha256": "ffbb3b67d56dadfe6af0f2d71674f395392207c3c6f1cafb54c85e0f6bd62f16"
+    },
+    {
+      "path": "renders/prop-jib-crane-wood.png",
+      "bytes": 395975,
+      "sha256": "43cdebf3c4269ce1f04d6b875394852121d6d0f07d3154fbb4a01c5677e16a7f"
+    },
+    {
+      "path": "renders/prop-shaft-hoist-frame-wood.png",
+      "bytes": 402230,
+      "sha256": "366b99ff9876ba6f724920ab445767e5c4004023a3d613a4f91894fec564c601"
+    },
+    {
+      "path": "renders/prop-windlass-wood.png",
+      "bytes": 419836,
+      "sha256": "664ab150ae7b29c6bd19a2116530a752cdc58769c1a1714369ed168d33dcdb75"
+    },
+    {
+      "path": "source/build_hauling_lifting.py",
+      "bytes": 22464,
+      "sha256": "8ac8e099659ca17fc182c3035073a5f3617ecfd414b4c1eea163edb33bcb547e"
+    }
+  ]
+}

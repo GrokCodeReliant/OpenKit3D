@@ -1,0 +1,283 @@
+{
+  "pack": "wayside-shrine",
+  "license": "CC0-1.0",
+  "unit": "1 unit = 1 metre",
+  "pivot": "bottom centre",
+  "grid_cell_m": 1.5,
+  "material_slots": [
+    "Primary",
+    "Secondary",
+    "Accent"
+  ],
+  "formats": [
+    "fbx",
+    "glb"
+  ],
+  "assets": [
+    {
+      "name": "prop-wayside-shrine-stone",
+      "description": "Stone niche shrine, pitched gable roof; -wall and -roof child nodes for camera fade",
+      "size_class": "Medium",
+      "tri_budget": 2500,
+      "tris": 280,
+      "size_m": {
+        "width_x": 1.28,
+        "height": 2.08,
+        "depth": 0.88
+      },
+      "material_slots": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "mesh_nodes": [
+        "prop-wayside-shrine-stone-base",
+        "prop-wayside-shrine-stone-roof",
+        "prop-wayside-shrine-stone-wall"
+      ],
+      "collider_boxes": 3,
+      "suggested_blocking": true,
+      "files": [
+        "fbx/prop-wayside-shrine-stone.fbx",
+        "glb/prop-wayside-shrine-stone.glb",
+        "collision/fbx/prop-wayside-shrine-stone-col.fbx",
+        "collision/glb/prop-wayside-shrine-stone-col.glb",
+        "renders/prop-wayside-shrine-stone.png"
+      ]
+    },
+    {
+      "name": "prop-offering-bowl-stone",
+      "description": "Wide shallow open offering dish on a turned stand",
+      "size_class": "Tiny",
+      "tri_budget": 800,
+      "tris": 724,
+      "size_m": {
+        "width_x": 0.66,
+        "height": 0.77,
+        "depth": 0.66
+      },
+      "material_slots": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "mesh_nodes": [
+        "prop-offering-bowl-stone"
+      ],
+      "collider_boxes": 2,
+      "suggested_blocking": false,
+      "files": [
+        "fbx/prop-offering-bowl-stone.fbx",
+        "glb/prop-offering-bowl-stone.glb",
+        "collision/fbx/prop-offering-bowl-stone-col.fbx",
+        "collision/glb/prop-offering-bowl-stone-col.glb",
+        "renders/prop-offering-bowl-stone.png"
+      ]
+    },
+    {
+      "name": "prop-holy-water-font",
+      "description": "Octagonal font with deep open basin",
+      "size_class": "Small",
+      "tri_budget": 800,
+      "tris": 352,
+      "size_m": {
+        "width_x": 0.7391,
+        "height": 1.05,
+        "depth": 0.7391
+      },
+      "material_slots": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "mesh_nodes": [
+        "prop-holy-water-font"
+      ],
+      "collider_boxes": 3,
+      "suggested_blocking": true,
+      "files": [
+        "fbx/prop-holy-water-font.fbx",
+        "glb/prop-holy-water-font.glb",
+        "collision/fbx/prop-holy-water-font-col.fbx",
+        "collision/glb/prop-holy-water-font-col.glb",
+        "renders/prop-holy-water-font.png"
+      ]
+    },
+    {
+      "name": "prop-votive-candle-rack",
+      "description": "Three-tier votive candle stand, 15 unlit candles",
+      "size_class": "Small",
+      "tri_budget": 800,
+      "tris": 640,
+      "size_m": {
+        "width_x": 0.94,
+        "height": 1.1372,
+        "depth": 0.5
+      },
+      "material_slots": [
+        "Accent",
+        "Primary",
+        "Secondary"
+      ],
+      "mesh_nodes": [
+        "prop-votive-candle-rack"
+      ],
+      "collider_boxes": 1,
+      "suggested_blocking": true,
+      "files": [
+        "fbx/prop-votive-candle-rack.fbx",
+        "glb/prop-votive-candle-rack.glb",
+        "collision/fbx/prop-votive-candle-rack-col.fbx",
+        "collision/glb/prop-votive-candle-rack-col.glb",
+        "renders/prop-votive-candle-rack.png"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "CONTACT_SHEET.png",
+      "bytes": 1196677,
+      "sha256": "a4a4ab34a46442d4adcfed90ca64e236b366a65914ca4cc848cf192ca69fdf4e"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 212,
+      "sha256": "6dd47f4e49f7aaafee66d34bb83a6732c2431955f40617e24da82ca1bfd42955"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 7116,
+      "sha256": "1bddac2bb5081485a09ba1037e19d78daf2501f91930a411e7000f8b9f7ac7ab"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1819,
+      "sha256": "b172ff4841635d71daa03d6cc937c40f7f3ea23aecf30ec6189d9cd91c25aaac"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 3030,
+      "sha256": "919686ae239cdc09ef0c5e245f4efbc661deb13de795e456a803d6c5611c7d25"
+    },
+    {
+      "path": "collision/colliders.json",
+      "bytes": 1991,
+      "sha256": "008fc0679a3c993840c2687a6a5ce2790e6b21a876b57c4cdca728d09ea1b521"
+    },
+    {
+      "path": "collision/fbx/prop-holy-water-font-col.fbx",
+      "bytes": 15244,
+      "sha256": "485dfdc4f12e39a75135363e338b8558127c11e9552d92404a629bd3c7ef2c87"
+    },
+    {
+      "path": "collision/fbx/prop-offering-bowl-stone-col.fbx",
+      "bytes": 13420,
+      "sha256": "4eed8d184893fcc624b369cafe134851f43d3a79224d08f287cc5f1c384c10c8"
+    },
+    {
+      "path": "collision/fbx/prop-votive-candle-rack-col.fbx",
+      "bytes": 11548,
+      "sha256": "3fb71d82eceaf0e779da7c51a9a31326cd367951c870c0adace00ad365bc4d89"
+    },
+    {
+      "path": "collision/fbx/prop-wayside-shrine-stone-col.fbx",
+      "bytes": 15324,
+      "sha256": "f3acf46323fa0cfc91926c97a89f29bfee439dd8f7ce9add573d18e7b9c2cf59"
+    },
+    {
+      "path": "collision/glb/prop-holy-water-font-col.glb",
+      "bytes": 3768,
+      "sha256": "d901307edd58c1cff22e956bf5032ce4f40939fb4d3969d89d64361bba6b54c6"
+    },
+    {
+      "path": "collision/glb/prop-offering-bowl-stone-col.glb",
+      "bytes": 2664,
+      "sha256": "79da4bddf40e1cef2485de8dd4d1b4735dd1ad9fc22ae5969946e8138366703a"
+    },
+    {
+      "path": "collision/glb/prop-votive-candle-rack-col.glb",
+      "bytes": 1504,
+      "sha256": "bcc2e4ad3bbc7144ee0ed5e031a06f32ac411a5fa9d2e32ea090302ff4ce497c"
+    },
+    {
+      "path": "collision/glb/prop-wayside-shrine-stone-col.glb",
+      "bytes": 3792,
+      "sha256": "6c3267cd48eda8104858f1c54932e012f131e5bad6c0633553b18d65ebac64c4"
+    },
+    {
+      "path": "fbx/prop-holy-water-font.fbx",
+      "bytes": 25148,
+      "sha256": "3adca33eb57c675f00b972d271ea328cc519ef8201669a8b946aa7bebd417960"
+    },
+    {
+      "path": "fbx/prop-offering-bowl-stone.fbx",
+      "bytes": 36220,
+      "sha256": "1060127b7514ed73e157b39a74c96631311e37cb8228c77e972885fe25082d76"
+    },
+    {
+      "path": "fbx/prop-votive-candle-rack.fbx",
+      "bytes": 33628,
+      "sha256": "9608166b19be1e6684978d472abf9f3692b242e9bf8d362cbe066132c6cab736"
+    },
+    {
+      "path": "fbx/prop-wayside-shrine-stone.fbx",
+      "bytes": 30204,
+      "sha256": "c024fd1494fee3277af16409787df991e41901a4f8a5b51569d05c7f66639f77"
+    },
+    {
+      "path": "glb/prop-holy-water-font.glb",
+      "bytes": 24256,
+      "sha256": "c9a8e2474ce5025fde292a79ad7e4c00822c68ab82c13509e132b6d30fefaebe"
+    },
+    {
+      "path": "glb/prop-offering-bowl-stone.glb",
+      "bytes": 51396,
+      "sha256": "5263103fccb302e23795df44336d0569cf3eaf9840d7cfbd07b7c3132b7abeb9"
+    },
+    {
+      "path": "glb/prop-votive-candle-rack.glb",
+      "bytes": 42072,
+      "sha256": "6e57d9c53e82f1ff739fbb9ac2135efe51365cbf7f26bf23f758f044732c5cd4"
+    },
+    {
+      "path": "glb/prop-wayside-shrine-stone.glb",
+      "bytes": 24748,
+      "sha256": "977768ba1755f98b52f7b71bc9269d5172b97eebca2b9beb4271d3ecab252a23"
+    },
+    {
+      "path": "renders/layout-1p5m-grid.png",
+      "bytes": 503264,
+      "sha256": "841334f8f0b704c77d6072131b6c2721fd4661fe0e9519188c62a37a6f74bdf3"
+    },
+    {
+      "path": "renders/prop-holy-water-font.png",
+      "bytes": 443081,
+      "sha256": "78915e7d6809cd18d6850992077c573a24193a8ca7c2867d23f18a0e175506cb"
+    },
+    {
+      "path": "renders/prop-offering-bowl-stone.png",
+      "bytes": 439504,
+      "sha256": "fb571f7eabfc7c7cb39cdb2b6004a5d8f6d5879f2d1eabd891cf2e6bbc790174"
+    },
+    {
+      "path": "renders/prop-votive-candle-rack.png",
+      "bytes": 461565,
+      "sha256": "62ff97895b24be8dedff3a92f1f5b988d186989b330b0a92f92f57340f2456c9"
+    },
+    {
+      "path": "renders/prop-wayside-shrine-stone-fade.png",
+      "bytes": 412280,
+      "sha256": "9e0ad454c5a29d1cf9cb06c6ac10e5f40aead3aaec942cfb8a2eeb68582a34f0"
+    },
+    {
+      "path": "renders/prop-wayside-shrine-stone.png",
+      "bytes": 435949,
+      "sha256": "c118c66ed3aa93cd391a2753f97887930691be45f2ec1988a9b19995b2dd0e8b"
+    },
+    {
+      "path": "source/build_wayside_shrine.py",
+      "bytes": 16073,
+      "sha256": "49b9ede0201a61749455e5e957b3957d938fb95d6344389904cc19b1bff913f7"
+    }
+  ]
+}
