@@ -1,6 +1,6 @@
 # Halloween Walk Home – Art Pack
 
-Spooky-cute 2D sprites, backgrounds, challenge scenes and four small 3D props from the game Halloween Walk Home, which is in development.
+Spooky-cute 2D sprites, backgrounds, challenge scenes and four small 3D props from the free game Halloween Walk Home.
 
 ## License
 CC0 1.0 Universal (public domain). Use it for anything, including commercial work. No credit required.

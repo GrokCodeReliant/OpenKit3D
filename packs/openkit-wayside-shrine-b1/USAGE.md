@@ -1,7 +1,7 @@
 # Usage
 
 ## Import
-1. Import `fbx/<asset>.fbx` with scale factor 1. Recommended for Unity, leave "Convert Units" on and turn on "Bake Axis Conversion" if your version offers it. The front of each prop faces +Z.
+1. Import `fbx/<asset>.fbx`. This pack has not had a Unity engine test. Import at scale factor 1 and check facing and scale after import; other importers may need different settings. The front of each prop faces +Z.
 2. Map the `Primary`, `Secondary` and `Accent` slots to your own materials. No textures are needed.
 3. `glb/<asset>.glb` holds the same meshes for glTF engines and web viewers.
 

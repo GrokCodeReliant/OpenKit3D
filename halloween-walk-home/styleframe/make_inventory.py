@@ -34,11 +34,11 @@ for i,p in enumerate(files,1):
     rows.append(f"| {i} | `{p}` | {kind(p)} | {size} | `{h}` | original, made by the studio crew | CC0 | {tool(p)} |")
 c=Counter(kind(p) for p in files)
 out=["# Open Kit inventory: 'Halloween / Cozy Spooky 2D' (+ 3D pieces)","",
-"For Intake. Every file below is **original, made by the studio crew** (no downloads, no third-party art or fonts, no trademarks, no real people, no religious symbols), licensed **CC0 1.0**.",
+"Every file below is original, made by the studio crew, and licensed CC0 1.0. No third-party assets.",
 f"{len(files)} files, including this inventory. Paths are relative to `halloween-walk/art/`. Hash = SHA-256. Contact sheets use the viewer's system sans-serif only for review labels; no font is embedded in any sprite.","Internal-only files, not shipped and not listed: `ART_PACK.VEIL.md`, `SELF_CRITIQUE.md`, `ASSET_LIST.md`.","",
 "| # | file | type | bytes | sha256 | source | license | tool |","|---|---|---|---|---|---|---|---|"]+rows
 out+=["","## Totals by type"]+[f"- {k}: {v}" for k,v in sorted(c.items())]
-out+=["","## Notes for Intake","- Signs and banners are blank panels; any text is drawn in code by the game, not baked into the art.",
+out+=["","## Notes","- Signs and banners are blank panels; any text is drawn in code by the game, not baked into the art.",
 "- The palette lives in `styleframe/palette.css` inside the pack; the builds read nothing outside `art/`.",
 "- 3D: metres, ≤3 colour slots per mesh, ≤1500 tris, collider child per piece (see `batch4/batch4_3d.json`).",
 "- Rebuild: `python3 styleframe/build.py && python3 styleframe/make_batch1.py && python3 styleframe/make_sheets.py && python3 styleframe/make_challenges.py && styleframe/render_all.sh && python3 styleframe/make_inventory.py`; 3D: `blender -b --python batch4/make_3d.py`."]

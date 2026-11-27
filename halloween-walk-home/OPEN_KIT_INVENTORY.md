@@ -1,13 +1,13 @@
 # Open Kit inventory: 'Halloween / Cozy Spooky 2D' (+ 3D pieces)
 
-For Intake. Every file below is **original, made by the studio crew** (no downloads, no third-party art or fonts, no trademarks, no real people, no religious symbols), licensed **CC0 1.0**.
+Every file below is original, made by the studio crew, and licensed CC0 1.0. No third-party assets.
 311 files, including this inventory. Paths are relative to `halloween-walk/art/`. Hash = SHA-256. Contact sheets use the viewer's system sans-serif only for review labels; no font is embedded in any sprite.
 Internal-only files, not shipped and not listed: `ART_PACK.VEIL.md`, `SELF_CRITIQUE.md`, `ASSET_LIST.md`.
 
 | # | file | type | bytes | sha256 | source | license | tool |
 |---|---|---|---|---|---|---|---|
 | 1 | `OPEN_KIT_INVENTORY.md` | doc | (this file) | `n/a (self)` | original, made by the studio crew | CC0 | hand-written by the studio crew |
-| 2 | `README.md` | doc | 936 | `5b250c0c7cd9bf179ffbbf44db4befa8df7cbeadffa4252a18c36684d9567bb7` | original, made by the studio crew | CC0 | hand-written by the studio crew |
+| 2 | `README.md` | doc | 916 | `4f71e48fde6cc992b5cf7a2a5872f0275a457344e664cf45fef2a61104b5e79a` | original, made by the studio crew | CC0 | hand-written by the studio crew |
 | 3 | `atlas/batch1_parts.list` | atlas data | 1053 | `d07916dde3647ab2e9df7529061a9355d676b03650ddd87dc3a8dab5e9f70db0` | original, made by the studio crew | CC0 | our Python scripts |
 | 4 | `atlas/batch1a_parts@2x.json` | atlas data | 12674 | `6361bf9ec416e5ac9ecc59329c684e12296c83e02c9c5a1a72d41051b1659dde` | original, made by the studio crew | CC0 | our Python scripts |
 | 5 | `atlas/batch1a_parts@2x.png` | atlas PNG @2x | 411376 | `24bccd5ba15f6794ec2470a25736c1e5515ab586fba263d5a2f6b2d281475732` | original, made by the studio crew | CC0 | headless Chrome render of our SVG |
@@ -96,7 +96,7 @@ Internal-only files, not shipped and not listed: `ART_PACK.VEIL.md`, `SELF_CRITI
 | 88 | `styleframe/build.py` | source script | 20652 | `8c2729190d03907c66637a12e408b99d717ec20bb439d2223adbc8396e9a9eac` | original, made by the studio crew | CC0 | hand-written by the studio crew |
 | 89 | `styleframe/make_batch1.py` | source script | 2867 | `e8377fd3ca1a26834e0f72ad72cf36478b7ef5ebeb7f53f90eda04da95e8f39f` | original, made by the studio crew | CC0 | hand-written by the studio crew |
 | 90 | `styleframe/make_challenges.py` | source script | 3598 | `45d16af518bc2f226005b8f2b795825d02bfed010476f6509284d1c96d2aa28e` | original, made by the studio crew | CC0 | hand-written by the studio crew |
-| 91 | `styleframe/make_inventory.py` | source script | 3626 | `a226592854234b53b80584e24ec9ae48a0f3e20e20d319a0a3001436c56f5a47` | original, made by the studio crew | CC0 | hand-written by the studio crew |
+| 91 | `styleframe/make_inventory.py` | source script | 3525 | `e62c2ac7bc80fede3b3f6ef46c23a272dace88e049c79cfe1c690453507af32d` | original, made by the studio crew | CC0 | hand-written by the studio crew |
 | 92 | `styleframe/make_sheets.py` | source script | 1289 | `a6f16bed84de3c6d1366f815132a1c6c49356284105b80f0107bccf877a65770` | original, made by the studio crew | CC0 | hand-written by the studio crew |
 | 93 | `styleframe/palette.css` | palette | 2089 | `7819bee42c29f8eb5986fcf271ec13ac33cd23f5cd8d9bb59f97ea8172f16ef5` | original, made by the studio crew | CC0 | hand-written by the studio crew |
 | 94 | `styleframe/parts/bat.svg` | SVG master | 375 | `4bf6642a861e3cac4417e0d24454bd9f01d926f8af6d89aa1ad6a252be17ff71` | original, made by the studio crew | CC0 | our Python/SVG scripts |
@@ -334,7 +334,7 @@ Internal-only files, not shipped and not listed: `ART_PACK.VEIL.md`, `SELF_CRITI
 - sprite preview PNG: 4
 - style frame / mock: 9
 
-## Notes for Intake
+## Notes
 - Signs and banners are blank panels; any text is drawn in code by the game, not baked into the art.
 - The palette lives in `styleframe/palette.css` inside the pack; the builds read nothing outside `art/`.
 - 3D: metres, ≤3 colour slots per mesh, ≤1500 tris, collider child per piece (see `batch4/batch4_3d.json`).

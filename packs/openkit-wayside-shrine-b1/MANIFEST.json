@@ -156,8 +156,8 @@
     },
     {
       "path": "USAGE.md",
-      "bytes": 3030,
-      "sha256": "919686ae239cdc09ef0c5e245f4efbc661deb13de795e456a803d6c5611c7d25"
+      "bytes": 3054,
+      "sha256": "60dae1084db6dd9e98dfdc5e711d9442f9a848b5e69fc9bc5998d10930248f60"
     },
     {
       "path": "collision/colliders.json",
